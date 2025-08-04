@@ -5,7 +5,7 @@ numpy==2.2.2
 pandas==2.2.3
 patool==3.1.0
 reformer-pytorch==1.4.4
-scikit-learn==1.6.1
+scikit-learn==1.5.0
 scipy==1.15.1
 sktime==0.36.0
 sympy==1.13.1
