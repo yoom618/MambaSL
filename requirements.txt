@@ -9,7 +9,7 @@ scikit-learn==1.6.1
 scipy==1.15.1
 sktime==0.36.0
 sympy==1.13.1
-torch==2.5.1
+torch==2.7.1
 tqdm==4.67.1
 PyWavelets==1.8.0
 timm==1.0.15
