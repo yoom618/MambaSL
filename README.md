@@ -9,7 +9,8 @@
     <h4>ICLR 2026 (submission)</h4>
     <!-- figure -->
     <br>
-    <img src="./figures_n_tables/figures/MambaSL structure.png" alt="MambaSL Architecture" width="600"/>
+    <!-- <img src="./figures_n_tables/figures/MambaSL structure.png" alt="MambaSL Architecture" width="600"/> -->
+    <img src="https://anonymous.4open.science/api/repo/MambaSL/file/figures_n_tables/figures/MambaSL%20structure.png" alt="MambaSL Architecture" width="600"/>
 
 </div>
 
