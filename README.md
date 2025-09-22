@@ -1,5 +1,9 @@
-# A Single-Layer Mamba for Time Series Classification (MambaSL)
-This is a repository for 
+# A Single-Layer Mamba for Time Series Classification
+![Static Badge](https://img.shields.io/badge/python-3.12.8-blue?style=flat)
+![Static Badge](https://img.shields.io/badge/pytorch-2.5.1-red?style=flat)
+![Static Badge](https://img.shields.io/badge/mamba-2.2.4-teal?style=flat)
+
+
 <div align="center">
     <h3><a href="https://openreview.net/forum?id=YDl4vqQqGP">MambaSL: Exploring Single-Layer Mamba for Time Series Classification</a></h3>
     <h4>ICLR 2026 (submission)</h4>
@@ -7,7 +11,6 @@ This is a repository for
     <img src="./figures_n_tables/figures/MambaSL structure.png" alt="MambaSL Architecture" width="600"/>
 
 </div>
-
 
 
 
