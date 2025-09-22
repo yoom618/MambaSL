@@ -8,6 +8,7 @@
     <h3><a href="https://openreview.net/forum?id=YDl4vqQqGP">MambaSL: Exploring Single-Layer Mamba for Time Series Classification</a></h3>
     <h4>ICLR 2026 (submission)</h4>
     <!-- figure -->
+    <br>
     <img src="./figures_n_tables/figures/MambaSL structure.png" alt="MambaSL Architecture" width="600"/>
 
 </div>
@@ -47,7 +48,7 @@
 
 
 ## Training and Evaluation
-- We provide all files related to our experiments under the folder `./scripts_classification/`. 
+- We provide all files related to our experiments under the `./scripts_classification/` directory. 
 - The numbers in the directory correspond to the order in which the experiments were actually performed.
 - The directory structure is as follows:
     ```
@@ -145,6 +146,17 @@
 
 
 
+## Others
+### TSLANet
+- Since TSLANet has pretraining phase which make it difficult to merge into Time-Series-Library, we simply add `_run_TSLANet` directory to run the pipeline.
+- Still, the scripts can be generated and executed via `./scripts_classification/` directory.
+
+### non-DL
+- non-DL models were tested via [aeon-toolkit](https://www.aeon-toolkit.org/en/stable/).
+- The notebooks in `_run_non-DL_models (aeon)` directory include the results.
+- For MultiRocket+Hydra, padding was required in PenDigits dataset to avoid errors (seq_len 8 -> 9).
+
+
 
 ## Note
 
@@ -152,7 +164,7 @@
 
 - The scripts were tested on:
     - Four NVIDIA GTX 1080 Ti (11GB)
-        - NVIDIA A100 (40GB) in Google Colab for some baselines due to the memory issue.
+        - NVIDIA A100 (40GB) in Google Colab for some baselines due to the memory issue
     - Python 3.12.8 and PyTorch 2.5.1<br>(packages listed in `requirements (now version).txt`)
 
 
