@@ -1,0 +1,1008 @@
+EthanolConcentration_dim256_depth3_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_46_37  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2775665521621704, 'val': 0.32692307233810425}, mf1:{'test': 0.168877974152565, 'val': 0.18305251002311707}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_50_33  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.258555144071579, 'val': 0.23076923191547394}, mf1:{'test': 0.18946659564971924, 'val': 0.1794871985912323}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_53_42  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.28136882185935974, 'val': 0.26923078298568726}, mf1:{'test': 0.16202804446220398, 'val': 0.21080851554870605}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_56_48  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.24334600567817688, 'val': 0.26923078298568726}, mf1:{'test': 0.13455423712730408, 'val': 0.15526503324508667}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_59_46  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26996198296546936, 'val': 0.26923078298568726}, mf1:{'test': 0.15452568233013153, 'val': 0.15366622805595398}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_02_56  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.24334600567817688, 'val': 0.2884615361690521}, mf1:{'test': 0.137045219540596, 'val': 0.22869260609149933}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_05_29  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.24334600567817688, 'val': 0.26923078298568726}, mf1:{'test': 0.15135037899017334, 'val': 0.17380741238594055}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_07_56  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26615968346595764, 'val': 0.32692307233810425}, mf1:{'test': 0.17485947906970978, 'val': 0.27423688769340515}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_10_45  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.23574145138263702, 'val': 0.25}, mf1:{'test': 0.15062828361988068, 'val': 0.21855923533439636}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_13_24  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2851710915565491, 'val': 0.26923078298568726}, mf1:{'test': 0.19080288708209991, 'val': 0.1479468047618866}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_15_54  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.19735319912433624, 'val': 0.14958953857421875}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_18_46  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.1686575561761856, 'val': 0.1589135378599167}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_21_51  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.22813688218593597, 'val': 0.19230769574642181}, mf1:{'test': 0.1381157487630844, 'val': 0.12099011987447739}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_24_26  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.3076923191547394}, mf1:{'test': 0.1589149832725525, 'val': 0.232500821352005}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_26_41  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.3076923191547394}, mf1:{'test': 0.17320095002651215, 'val': 0.2436363697052002}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_29_36  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.26923078298568726}, mf1:{'test': 0.1733924299478531, 'val': 0.17793318629264832}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_31_49  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2737642526626587, 'val': 0.25}, mf1:{'test': 0.1749776303768158, 'val': 0.18066143989562988}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_33_42  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.22053231298923492, 'val': 0.23076923191547394}, mf1:{'test': 0.14873114228248596, 'val': 0.1584322154521942}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_35_38  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26615968346595764, 'val': 0.23076923191547394}, mf1:{'test': 0.18959073722362518, 'val': 0.1821511685848236}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_37_47  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.258555144071579, 'val': 0.23076923191547394}, mf1:{'test': 0.14138197898864746, 'val': 0.11873766779899597}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_39_51  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.258555144071579, 'val': 0.25}, mf1:{'test': 0.21504148840904236, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_41_55  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26615968346595764, 'val': 0.2884615361690521}, mf1:{'test': 0.16096334159374237, 'val': 0.18218623101711273}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_43_51  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26615968346595764, 'val': 0.3076923191547394}, mf1:{'test': 0.18745368719100952, 'val': 0.2660021483898163}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_45_43  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26615968346595764, 'val': 0.3461538553237915}, mf1:{'test': 0.14511820673942566, 'val': 0.22181472182273865}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_47_31  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.24334600567817688, 'val': 0.25}, mf1:{'test': 0.136974036693573, 'val': 0.16744089126586914}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_49_20  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.23574145138263702, 'val': 0.25}, mf1:{'test': 0.1132471114397049, 'val': 0.17415860295295715}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_51_10  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2737642526626587, 'val': 0.3461538553237915}, mf1:{'test': 0.18472102284431458, 'val': 0.26433566212654114}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_52_52  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.26923078298568726}, mf1:{'test': 0.20093181729316711, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_54_32  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.258555144071579, 'val': 0.25}, mf1:{'test': 0.22322410345077515, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_56_39  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26615968346595764, 'val': 0.26923078298568726}, mf1:{'test': 0.1946699470281601, 'val': 0.2320346236228943}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_58_22  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2623574137687683, 'val': 0.23076923191547394}, mf1:{'test': 0.14759571850299835, 'val': 0.15671508014202118}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_00_22  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2737642526626587, 'val': 0.17307692766189575}, mf1:{'test': 0.14772742986679077, 'val': 0.10204610228538513}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_02_07  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2775665521621704, 'val': 0.26923078298568726}, mf1:{'test': 0.18387770652770996, 'val': 0.25524476170539856}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_03_56  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.24334600567817688, 'val': 0.1538461595773697}, mf1:{'test': 0.15723170340061188, 'val': 0.1299145370721817}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_05_46  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.22306717932224274, 'val': 0.16692620515823364}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_07_28  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.20470327138900757, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_09_11  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.23574145138263702, 'val': 0.25}, mf1:{'test': 0.15067225694656372, 'val': 0.21159419417381287}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_10_58  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.258555144071579, 'val': 0.26923078298568726}, mf1:{'test': 0.18181446194648743, 'val': 0.20234432816505432}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_12_44  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.19230769574642181}, mf1:{'test': 0.1288089007139206, 'val': 0.1390313357114792}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_14_31  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.32692307233810425}, mf1:{'test': 0.15529528260231018, 'val': 0.3131774365901947}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_16_18  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2623574137687683, 'val': 0.23076923191547394}, mf1:{'test': 0.13557863235473633, 'val': 0.17820218205451965}
+
+EthanolConcentration_dim128_depth3_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_18_10  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.28136882185935974, 'val': 0.25}, mf1:{'test': 0.1440563201904297, 'val': 0.174307182431221}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_19_52  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.23954372107982635, 'val': 0.3076923191547394}, mf1:{'test': 0.15290497243404388, 'val': 0.31101056933403015}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_21_39  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.2884615361690521}, mf1:{'test': 0.13837020099163055, 'val': 0.22401303052902222}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_23_25  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2319391667842865, 'val': 0.23076923191547394}, mf1:{'test': 0.13727903366088867, 'val': 0.14373627305030823}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_25_06  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.258555144071579, 'val': 0.25}, mf1:{'test': 0.21989686787128448, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_26_49  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26996198296546936, 'val': 0.26923078298568726}, mf1:{'test': 0.16454832255840302, 'val': 0.19344864785671234}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_28_40  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26996198296546936, 'val': 0.3076923191547394}, mf1:{'test': 0.17533129453659058, 'val': 0.25520363450050354}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_30_32  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26996198296546936, 'val': 0.26923078298568726}, mf1:{'test': 0.1229247897863388, 'val': 0.1338217407464981}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_32_27  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.31558936834335327, 'val': 0.23076923191547394}, mf1:{'test': 0.18813426792621613, 'val': 0.1476833075284958}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_34_13  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.258555144071579, 'val': 0.25}, mf1:{'test': 0.23193368315696716, 'val': 0.17751137912273407}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_36_11  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2851710915565491, 'val': 0.26923078298568726}, mf1:{'test': 0.16978871822357178, 'val': 0.2429361492395401}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_37_59  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.3041824996471405, 'val': 0.2884615361690521}, mf1:{'test': 0.2033679187297821, 'val': 0.24151404201984406}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_39_42  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.23076923191547394}, mf1:{'test': 0.13504613935947418, 'val': 0.1250305324792862}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_41_26  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.19230769574642181}, mf1:{'test': 0.14153310656547546, 'val': 0.0923076942563057}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_43_12  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2167300432920456, 'val': 0.25}, mf1:{'test': 0.15293249487876892, 'val': 0.22166723012924194}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_44_59  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.28136882185935974, 'val': 0.32692307233810425}, mf1:{'test': 0.1890827864408493, 'val': 0.2695099711418152}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_46_56  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.25}, mf1:{'test': 0.16716408729553223, 'val': 0.23123542964458466}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_48_36  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.2884615361690521}, mf1:{'test': 0.1691783368587494, 'val': 0.2490456998348236}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_50_30  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.18648019433021545}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_52_24  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2623574137687683, 'val': 0.32692307233810425}, mf1:{'test': 0.17735661566257477, 'val': 0.28052711486816406}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_54_10  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.19735319912433624, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim64_depth3_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_55_56  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.25}, mf1:{'test': 0.1436554193496704, 'val': 0.16459417343139648}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_57_54  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26996198296546936, 'val': 0.26923078298568726}, mf1:{'test': 0.14689506590366364, 'val': 0.20160211622714996}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_59_54  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.26923078298568726}, mf1:{'test': 0.14032365381717682, 'val': 0.13053612411022186}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_01_57  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.16761091351509094, 'val': 0.17756158113479614}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_04_03  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26996198296546936, 'val': 0.25}, mf1:{'test': 0.26981642842292786, 'val': 0.13793103396892548}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_05_56  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.16560615599155426, 'val': 0.202279195189476}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_07_45  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.23076923191547394}, mf1:{'test': 0.23252412676811218, 'val': 0.1794871985912323}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_09_54  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.258555144071579, 'val': 0.26923078298568726}, mf1:{'test': 0.17462599277496338, 'val': 0.22051283717155457}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_12_17  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.23076923191547394}, mf1:{'test': 0.2253485471010208, 'val': 0.14827202260494232}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_14_22  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.20912547409534454, 'val': 0.3461538553237915}, mf1:{'test': 0.14866766333580017, 'val': 0.3064521551132202}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_16_33  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.16702203452587128, 'val': 0.21196581423282623}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_18_50  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.2884615361690521}, mf1:{'test': 0.1337416172027588, 'val': 0.14856255054473877}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_20_52  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.29657796025276184, 'val': 0.19230769574642181}, mf1:{'test': 0.18005456030368805, 'val': 0.11798223853111267}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_22_57  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.2884615361690521}, mf1:{'test': 0.17166668176651, 'val': 0.22491422295570374}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_25_10  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.23252412676811218, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_27_21  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.23954372107982635, 'val': 0.32692307233810425}, mf1:{'test': 0.12959907948970795, 'val': 0.2772020101547241}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_29_29  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.30038022994995117, 'val': 0.2884615361690521}, mf1:{'test': 0.1544623225927353, 'val': 0.1951872706413269}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_31_30  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25095057487487793, 'val': 0.2884615361690521}, mf1:{'test': 0.16330797970294952, 'val': 0.2808302938938141}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_33_47  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26996198296546936, 'val': 0.21153846383094788}, mf1:{'test': 0.1466587781906128, 'val': 0.12272627651691437}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_35_53  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.25}, mf1:{'test': 0.24572962522506714, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_38_00  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.25475284457206726, 'val': 0.23076923191547394}, mf1:{'test': 0.17306765913963318, 'val': 0.1794871985912323}
+
+EthanolConcentration_dim32_depth3_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_40_08  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.26615968346595764, 'val': 0.32692307233810425}, mf1:{'test': 0.12413916736841202, 'val': 0.17522293329238892}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_42_11  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.26996198296546936, 'val': 0.26923078298568726}, mf1:{'test': 0.14587239921092987, 'val': 0.20441780984401703}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_44_53  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.3076923191547394}, mf1:{'test': 0.1976320594549179, 'val': 0.21366459131240845}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_47_10  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.22813688218593597, 'val': 0.21153846383094788}, mf1:{'test': 0.1507127434015274, 'val': 0.13746820390224457}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_49_39  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2889733910560608, 'val': 0.32692307233810425}, mf1:{'test': 0.1675962209701538, 'val': 0.17922817170619965}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_51_58  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25475284457206726, 'val': 0.26923078298568726}, mf1:{'test': 0.14787249267101288, 'val': 0.17674313485622406}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_54_20  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.12507566809654236, 'val': 0.18650159239768982}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_56_36  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2471482902765274, 'val': 0.2884615361690521}, mf1:{'test': 0.13517874479293823, 'val': 0.20000001788139343}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_59_20  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25475284457206726, 'val': 0.26923078298568726}, mf1:{'test': 0.1710433065891266, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_02_01  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.26923078298568726}, mf1:{'test': 0.20427457988262177, 'val': 0.18648019433021545}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_04_10  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.1318531036376953, 'val': 0.19620957970619202}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_06_17  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_08_36  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.23574145138263702, 'val': 0.25}, mf1:{'test': 0.1377892941236496, 'val': 0.22610722482204437}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_10_34  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.25}, mf1:{'test': 0.18424595892429352, 'val': 0.19495320320129395}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_12_44  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.24334600567817688, 'val': 0.26923078298568726}, mf1:{'test': 0.1604870855808258, 'val': 0.20219780504703522}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_14_55  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.25}, mf1:{'test': 0.120335653424263, 'val': 0.1452232003211975}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_17_24  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.26615968346595764, 'val': 0.2884615361690521}, mf1:{'test': 0.18022124469280243, 'val': 0.2567119300365448}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_19_59  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.15749552845954895, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_22_21  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.23954372107982635, 'val': 0.2884615361690521}, mf1:{'test': 0.16222673654556274, 'val': 0.19133807718753815}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_24_48  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.19735319912433624, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_26_51  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.3041824996471405, 'val': 0.36538460850715637}, mf1:{'test': 0.20024356245994568, 'val': 0.31339031457901}
+
+EthanolConcentration_dim256_depth2_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_29_00  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.21292775869369507, 'val': 0.23076923191547394}, mf1:{'test': 0.1513550728559494, 'val': 0.18976347148418427}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_31_11  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.14583720266819, 'val': 0.16470588743686676}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_33_18  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.23574145138263702, 'val': 0.26923078298568726}, mf1:{'test': 0.131947323679924, 'val': 0.18115217983722687}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_35_14  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.28136882185935974, 'val': 0.26923078298568726}, mf1:{'test': 0.17634418606758118, 'val': 0.2354312241077423}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_38_11  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.258555144071579, 'val': 0.2884615361690521}, mf1:{'test': 0.18138989806175232, 'val': 0.22723552584648132}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_41_17  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.36538460850715637}, mf1:{'test': 0.12135379761457443, 'val': 0.21720893681049347}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_43_38  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.2884615361690521}, mf1:{'test': 0.17748482525348663, 'val': 0.1825343668460846}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_45_53  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.22433459758758545, 'val': 0.2884615361690521}, mf1:{'test': 0.14011546969413757, 'val': 0.23733903467655182}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_48_12  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25475284457206726, 'val': 0.2884615361690521}, mf1:{'test': 0.1282707154750824, 'val': 0.20158545672893524}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_52_15  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.26615968346595764, 'val': 0.25}, mf1:{'test': 0.1733349859714508, 'val': 0.2242424339056015}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_54_38  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.15185777842998505, 'val': 0.21426722407341003}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_57_08  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.24334600567817688, 'val': 0.32692307233810425}, mf1:{'test': 0.1680702269077301, 'val': 0.24992956221103668}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_58_59  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.258555144071579, 'val': 0.25}, mf1:{'test': 0.17042754590511322, 'val': 0.18681319057941437}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_01_22  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2737642526626587, 'val': 0.2884615361690521}, mf1:{'test': 0.16019569337368011, 'val': 0.18082498013973236}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_05_31  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.258555144071579, 'val': 0.26923078298568726}, mf1:{'test': 0.15739396214485168, 'val': 0.1970473974943161}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_08_00  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2737642526626587, 'val': 0.25}, mf1:{'test': 0.2173013836145401, 'val': 0.1989343911409378}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_10_15  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.16507893800735474, 'val': 0.17582418024539948}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_12_06  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.22813688218593597, 'val': 0.3076923191547394}, mf1:{'test': 0.1572486013174057, 'val': 0.2652347683906555}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_14_06  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2737642526626587, 'val': 0.23076923191547394}, mf1:{'test': 0.19531041383743286, 'val': 0.1821511685848236}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_16_14  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.23076923191547394}, mf1:{'test': 0.2307562232017517, 'val': 0.1794871985912323}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_19_31  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.26615968346595764, 'val': 0.21153846383094788}, mf1:{'test': 0.2108774036169052, 'val': 0.1035696268081665}
+
+EthanolConcentration_dim128_depth2_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_21_47  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.258555144071579, 'val': 0.25}, mf1:{'test': 0.1226944848895073, 'val': 0.16166797280311584}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_24_29  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25475284457206726, 'val': 0.25}, mf1:{'test': 0.24572962522506714, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_27_38  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2889733910560608, 'val': 0.23076923191547394}, mf1:{'test': 0.1951773464679718, 'val': 0.15306346118450165}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_33_50  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.258555144071579, 'val': 0.3076923191547394}, mf1:{'test': 0.14734098315238953, 'val': 0.23449882864952087}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_35_25  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2319391667842865, 'val': 0.25}, mf1:{'test': 0.1375098079442978, 'val': 0.14958953857421875}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_36_59  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.19230769574642181}, mf1:{'test': 0.20102466642856598, 'val': 0.0788954645395279}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_39_05  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_40_58  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.18648019433021545}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_42_50  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.19098490476608276, 'val': 0.16202154755592346}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_44_34  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2737642526626587, 'val': 0.3076923191547394}, mf1:{'test': 0.18190336227416992, 'val': 0.2512820363044739}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_47_36  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2927756607532501, 'val': 0.21153846383094788}, mf1:{'test': 0.16376473009586334, 'val': 0.1487179398536682}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_49_51  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.3076923191547394}, mf1:{'test': 0.17013227939605713, 'val': 0.296377032995224}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_51_42  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.23076923191547394}, mf1:{'test': 0.16329576075077057, 'val': 0.11619150638580322}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_53_53  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.26996198296546936, 'val': 0.38461539149284363}, mf1:{'test': 0.1670636087656021, 'val': 0.32669684290885925}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_55_41  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2737642526626587, 'val': 0.23076923191547394}, mf1:{'test': 0.1602933257818222, 'val': 0.12820513546466827}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_57_29  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.23076923191547394}, mf1:{'test': 0.25248923897743225, 'val': 0.14373627305030823}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_59_10  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.24334600567817688, 'val': 0.23076923191547394}, mf1:{'test': 0.13478825986385345, 'val': 0.18209145963191986}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_01_05  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.26996198296546936, 'val': 0.26923078298568726}, mf1:{'test': 0.16844482719898224, 'val': 0.23076923191547394}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_02_55  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.23076923191547394}, mf1:{'test': 0.19380667805671692, 'val': 0.1318681389093399}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_04_46  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2471482902765274, 'val': 0.2884615361690521}, mf1:{'test': 0.1369958370923996, 'val': 0.1825343668460846}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_06_45  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.22053231298923492, 'val': 0.32692307233810425}, mf1:{'test': 0.13707943260669708, 'val': 0.2824175953865051}
+
+EthanolConcentration_dim64_depth2_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_08_28  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25475284457206726, 'val': 0.26923078298568726}, mf1:{'test': 0.20053419470787048, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_10_11  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.23574145138263702, 'val': 0.25}, mf1:{'test': 0.12217474728822708, 'val': 0.16221323609352112}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_11_52  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2737642526626587, 'val': 0.36538460850715637}, mf1:{'test': 0.13890182971954346, 'val': 0.33467644453048706}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_13_31  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.23954372107982635, 'val': 0.21153846383094788}, mf1:{'test': 0.16841445863246918, 'val': 0.08925049006938934}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_15_10  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.26615968346595764, 'val': 0.26923078298568726}, mf1:{'test': 0.17901623249053955, 'val': 0.21245421469211578}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_16_46  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.1636536866426468, 'val': 0.17756158113479614}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_18_25  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25475284457206726, 'val': 0.25}, mf1:{'test': 0.15016649663448334, 'val': 0.15524475276470184}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_20_12  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.19377458095550537, 'val': 0.17756158113479614}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_21_58  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.3076923191547394}, mf1:{'test': 0.12857270240783691, 'val': 0.1735042780637741}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_23_39  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.20912547409534454, 'val': 0.17307692766189575}, mf1:{'test': 0.1032358705997467, 'val': 0.0942307710647583}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_25_26  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.258555144071579, 'val': 0.21153846383094788}, mf1:{'test': 0.1619194746017456, 'val': 0.13553114235401154}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_27_04  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.26996198296546936, 'val': 0.3461538553237915}, mf1:{'test': 0.14725631475448608, 'val': 0.27142855525016785}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_28_49  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.24334600567817688, 'val': 0.3461538553237915}, mf1:{'test': 0.15493381023406982, 'val': 0.2699849307537079}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_30_26  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.22433459758758545, 'val': 0.26923078298568726}, mf1:{'test': 0.16263003647327423, 'val': 0.24947211146354675}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_31_53  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.26996198296546936, 'val': 0.25}, mf1:{'test': 0.20047229528427124, 'val': 0.16292403638362885}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_33_29  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_35_24  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.23954372107982635, 'val': 0.25}, mf1:{'test': 0.12875042855739594, 'val': 0.2515825927257538}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_36_49  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_38_16  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25475284457206726, 'val': 0.21153846383094788}, mf1:{'test': 0.19758157432079315, 'val': 0.11695905774831772}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_39_39  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_41_02  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.2623574137687683, 'val': 0.25}, mf1:{'test': 0.12504515051841736, 'val': 0.19487181305885315}
+
+EthanolConcentration_dim32_depth2_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_42_27  
+TSLANet_EthanolConcentration_l_2  
+acc:{'test': 0.22433459758758545, 'val': 0.3076923191547394}, mf1:{'test': 0.15453949570655823, 'val': 0.2585218548774719}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_43_57  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.23252412676811218, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_45_28  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.2884615361690521}, mf1:{'test': 0.17435187101364136, 'val': 0.2637185752391815}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_47_00  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.25}, mf1:{'test': 0.15662436187267303, 'val': 0.17094017565250397}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_48_24  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.25}, mf1:{'test': 0.22875268757343292, 'val': 0.17756158113479614}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_49_59  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2889733910560608, 'val': 0.3076923191547394}, mf1:{'test': 0.1955057829618454, 'val': 0.27923357486724854}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_51_22  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2737642526626587, 'val': 0.32692307233810425}, mf1:{'test': 0.17740905284881592, 'val': 0.2463878095149994}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_52_52  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2851710915565491, 'val': 0.3076923191547394}, mf1:{'test': 0.20282034575939178, 'val': 0.2747252881526947}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_54_24  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.22813688218593597, 'val': 0.26923078298568726}, mf1:{'test': 0.15338651835918427, 'val': 0.2707360088825226}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_55_50  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.29657796025276184, 'val': 0.26923078298568726}, mf1:{'test': 0.1988990604877472, 'val': 0.21990950405597687}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_57_15  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.23076923191547394}, mf1:{'test': 0.23968137800693512, 'val': 0.1794871985912323}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_58_56  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.23574145138263702, 'val': 0.25}, mf1:{'test': 0.15014007687568665, 'val': 0.1825508028268814}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_00_31  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.24334600567817688, 'val': 0.17307692766189575}, mf1:{'test': 0.13113902509212494, 'val': 0.1704517900943756}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_01_55  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.26996198296546936, 'val': 0.25}, mf1:{'test': 0.20780102908611298, 'val': 0.13793103396892548}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_03_16  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2471482902765274, 'val': 0.23076923191547394}, mf1:{'test': 0.1595854014158249, 'val': 0.14248552918434143}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_04_42  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.14317500591278076, 'val': 0.14918415248394012}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_06_02  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.23574145138263702, 'val': 0.2884615361690521}, mf1:{'test': 0.16572797298431396, 'val': 0.22941970825195312}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_07_18  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.23076923191547394}, mf1:{'test': 0.15573178231716156, 'val': 0.1794871985912323}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_08_31  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.2884615361690521}, mf1:{'test': 0.11792472749948502, 'val': 0.20709028840065002}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_09_52  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2775665521621704, 'val': 0.26923078298568726}, mf1:{'test': 0.1640397608280182, 'val': 0.2346801459789276}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_11_18  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.31558936834335327, 'val': 0.3076923191547394}, mf1:{'test': 0.18172834813594818, 'val': 0.20000001788139343}
+
+EthanolConcentration_dim256_depth1_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_12_36  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.24334600567817688, 'val': 0.2884615361690521}, mf1:{'test': 0.1351797878742218, 'val': 0.22766122221946716}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_13_51  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.26923078298568726}, mf1:{'test': 0.14486908912658691, 'val': 0.13569039106369019}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_15_07  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.18648019433021545}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_16_21  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.25}, mf1:{'test': 0.25248923897743225, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_17_40  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2471482902765274, 'val': 0.26923078298568726}, mf1:{'test': 0.13492251932621002, 'val': 0.20952960848808289}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_18_54  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2471482902765274, 'val': 0.3076923191547394}, mf1:{'test': 0.17043262720108032, 'val': 0.28693529963493347}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_20_10  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.24334600567817688, 'val': 0.25}, mf1:{'test': 0.11298664659261703, 'val': 0.11916971951723099}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_21_27  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2775665521621704, 'val': 0.25}, mf1:{'test': 0.1867939680814743, 'val': 0.22284772992134094}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_25_05  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.21153846383094788}, mf1:{'test': 0.14958475530147552, 'val': 0.1546601504087448}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_26_21  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.23076923191547394}, mf1:{'test': 0.19083093106746674, 'val': 0.15935222804546356}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_27_43  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.2884615361690521}, mf1:{'test': 0.14747744798660278, 'val': 0.15122655034065247}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_28_57  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2737642526626587, 'val': 0.25}, mf1:{'test': 0.24002714455127716, 'val': 0.20512820780277252}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_30_15  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.31178706884384155, 'val': 0.2884615361690521}, mf1:{'test': 0.15187527239322662, 'val': 0.17476120591163635}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_31_26  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.23076923191547394}, mf1:{'test': 0.11676233261823654, 'val': 0.16716617345809937}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_32_39  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.21285782754421234, 'val': 0.17230769991874695}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_33_57  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.26615968346595764, 'val': 0.32692307233810425}, mf1:{'test': 0.1758032888174057, 'val': 0.3088757395744324}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_35_13  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.26996198296546936, 'val': 0.25}, mf1:{'test': 0.16428564488887787, 'val': 0.17449218034744263}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_36_28  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2471482902765274, 'val': 0.25}, mf1:{'test': 0.23252412676811218, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_37_40  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.21153846383094788}, mf1:{'test': 0.1561158299446106, 'val': 0.1569097638130188}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_38_57  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.26923078298568726}, mf1:{'test': 0.20093181729316711, 'val': 0.1589135378599167}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_40_20  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.22517406940460205, 'val': 0.17756158113479614}
+
+EthanolConcentration_dim128_depth1_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_41_33  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.22306717932224274, 'val': 0.16692620515823364}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_42_49  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.25}, mf1:{'test': 0.14476993680000305, 'val': 0.14407815039157867}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_44_05  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.23076923191547394}, mf1:{'test': 0.11154463142156601, 'val': 0.1286032795906067}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_45_18  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.26615968346595764, 'val': 0.38461539149284363}, mf1:{'test': 0.1644991636276245, 'val': 0.20184025168418884}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_46_33  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.24334600567817688, 'val': 0.23076923191547394}, mf1:{'test': 0.12956196069717407, 'val': 0.15477855503559113}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_47_48  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.25}, mf1:{'test': 0.22875268757343292, 'val': 0.17756158113479614}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_49_12  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.23574145138263702, 'val': 0.2884615361690521}, mf1:{'test': 0.11879339069128036, 'val': 0.16671818494796753}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_50_23  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.24334600567817688, 'val': 0.26923078298568726}, mf1:{'test': 0.17640703916549683, 'val': 0.2531980872154236}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_51_39  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.26923078298568726}, mf1:{'test': 0.12807293236255646, 'val': 0.11653777956962585}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_52_53  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2927756607532501, 'val': 0.23076923191547394}, mf1:{'test': 0.1665462851524353, 'val': 0.14928776025772095}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_54_04  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.23076923191547394}, mf1:{'test': 0.2242707461118698, 'val': 0.1794871985912323}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_55_17  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.17307692766189575}, mf1:{'test': 0.16538605093955994, 'val': 0.16560497879981995}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_56_30  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.3076923191547394}, mf1:{'test': 0.17025628685951233, 'val': 0.18176637589931488}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_57_46  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.250105619430542, 'val': 0.13793103396892548}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_59_00  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.3076923191547394}, mf1:{'test': 0.1506669819355011, 'val': 0.26941657066345215}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_00_13  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.23574145138263702, 'val': 0.32692307233810425}, mf1:{'test': 0.1391303837299347, 'val': 0.20201104879379272}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_01_37  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.19230769574642181}, mf1:{'test': 0.13611821830272675, 'val': 0.15339191257953644}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_02_51  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2775665521621704, 'val': 0.23076923191547394}, mf1:{'test': 0.14876434206962585, 'val': 0.14195217192173004}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_04_10  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.25}, mf1:{'test': 0.2291903793811798, 'val': 0.13793103396892548}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_05_27  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.23076923191547394}, mf1:{'test': 0.14382532238960266, 'val': 0.139860138297081}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_06_46  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.26615968346595764, 'val': 0.36538460850715637}, mf1:{'test': 0.17744582891464233, 'val': 0.32302385568618774}
+
+EthanolConcentration_dim64_depth1_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_07_55  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.23076923191547394}, mf1:{'test': 0.2266457974910736, 'val': 0.15935222804546356}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_09_13  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2471482902765274, 'val': 0.26923078298568726}, mf1:{'test': 0.1455412358045578, 'val': 0.1589135378599167}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch88_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_10_35  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.23076923191547394}, mf1:{'test': 0.17202654480934143, 'val': 0.1299145370721817}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch132_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_11_57  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.26923078298568726}, mf1:{'test': 0.1485135555267334, 'val': 0.17492879927158356}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch176_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_13_16  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.18648019433021545}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch263_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_14_28  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.25}, mf1:{'test': 0.14946922659873962, 'val': 0.14918415248394012}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch351_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_15_41  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.26923078298568726}, mf1:{'test': 0.17448724806308746, 'val': 0.2213890701532364}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch438_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_16_52  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.23076923191547394}, mf1:{'test': 0.13902908563613892, 'val': 0.1794871985912323}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_18_06  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2471482902765274, 'val': 0.23076923191547394}, mf1:{'test': 0.23252412676811218, 'val': 0.1794871985912323}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch88_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_19_22  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.26923078298568726}, mf1:{'test': 0.166327103972435, 'val': 0.2052447646856308}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch132_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_20_36  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.32692307233810425}, mf1:{'test': 0.17236854135990143, 'val': 0.3196581304073334}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch176_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_21_51  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.2884615361690521}, mf1:{'test': 0.14120599627494812, 'val': 0.14758576452732086}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch263_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_23_08  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.21153846383094788}, mf1:{'test': 0.1328539252281189, 'val': 0.139353409409523}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch351_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_24_30  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.23574145138263702, 'val': 0.23076923191547394}, mf1:{'test': 0.14771521091461182, 'val': 0.1992802619934082}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch438_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_25_43  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2623574137687683, 'val': 0.25}, mf1:{'test': 0.20743981003761292, 'val': 0.18321679532527924}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_26_51  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25095057487487793, 'val': 0.26923078298568726}, mf1:{'test': 0.22517406940460205, 'val': 0.1872909665107727}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch88_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_28_15  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.258555144071579, 'val': 0.25}, mf1:{'test': 0.249308243393898, 'val': 0.1876923143863678}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch132_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_29_28  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2471482902765274, 'val': 0.26923078298568726}, mf1:{'test': 0.16687721014022827, 'val': 0.2252211719751358}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch176_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_30_43  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.19230769574642181}, mf1:{'test': 0.13514012098312378, 'val': 0.12518854439258575}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch263_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_32_00  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.19230769574642181}, mf1:{'test': 0.1526888757944107, 'val': 0.09963370114564896}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch351_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_33_25  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.2737642526626587, 'val': 0.19230769574642181}, mf1:{'test': 0.1427915096282959, 'val': 0.1454545557498932}
+
+EthanolConcentration_dim32_depth1_mask0.4_patch438_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_34_43  
+TSLANet_EthanolConcentration_l_1  
+acc:{'test': 0.25475284457206726, 'val': 0.2884615361690521}, mf1:{'test': 0.1555173248052597, 'val': 0.2620268762111664}
+

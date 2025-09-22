@@ -1,0 +1,6840 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 17 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 19 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 35 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 17 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 19 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 35 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 17 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 19 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 35 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 13 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 14 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 15 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 16 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 17 \
+  --patch_stride 17 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 18 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 19 \
+  --patch_stride 19 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 5 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 20 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 21 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 23 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 25 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 7 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 27 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 29 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 8 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 32 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 35 \
+  --patch_stride 35 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 10 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 40 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 45 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary/ \
+  --seq_len 315 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_UWaveGestureLibrary \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 63 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+

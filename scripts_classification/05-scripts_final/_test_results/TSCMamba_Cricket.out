@@ -1,0 +1,1080 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.67 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 6.17 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.06 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.41 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df4_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 145629
+model size : 0.57MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 5.43 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.41 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df4_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 145629
+model size : 0.57MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               3                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 1.85 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 5.55 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 2.91 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.33 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df3_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 263523
+model size : 1.01MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               3                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 1.16 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 5.81 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 4.77 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.58 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df3_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 263523
+model size : 1.02MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               5                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.02 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 5.32 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.65 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df5_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 265899
+model size : 1.02MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               5                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 5.17 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 5.71 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.46 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df5_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 265899
+model size : 1.02MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               5                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.12 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 5.29 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.30 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df5_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 265899
+model size : 1.02MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               5                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 5.40 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.50 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df5_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 265899
+model size : 1.02MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               5                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 3.11 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 5.37 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 1.00 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.48 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df5_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 265899
+model size : 1.03MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               5                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 5.15 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2.51 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df5_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 505251
+model size : 1.94MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 1.90 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 9.20 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 1.74 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 5.06 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df4_dconv4_expand2_nrocket0_hrocket1_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 1100967
+model size : 4.21MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 2.30 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 9.22 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 5.05 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df4_dconv4_expand2_nrocket0_hrocket1_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 1100967
+model size : 4.21MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 8.86 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 4.49 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm128_cwt64_rescale64_ps8_el2_df4_dconv4_expand1_nrocket0_hrocket1_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 1100967
+model size : 4.22MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               3                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 8.38 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.02 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 4.47 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm128_cwt64_rescale64_ps8_el2_df3_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 1956275
+model size : 7.48MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               3                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 8.94 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 4.97 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm128_cwt64_rescale64_ps8_el2_df3_dconv4_expand2_nrocket0_hrocket1_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 2032947
+model size : 7.77MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            256                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 16.58 seconds
+ROCKET model size: 0.10 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 2.03 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 9.59 seconds
+ROCKET model size: 0.10 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm256_cwt64_rescale64_ps8_el1_df4_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 2178429
+model size : 8.32MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            256                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.85 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 16.34 seconds
+ROCKET model size: 0.10 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.19 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 9.29 seconds
+ROCKET model size: 0.10 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm256_cwt64_rescale64_ps8_el1_df4_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 4036455
+model size : 15.41MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 15.12 seconds
+ROCKET model size: 0.10 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 9.16 seconds
+ROCKET model size: 0.10 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm256_cwt64_rescale64_ps8_el2_df4_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 4036455
+model size : 15.41MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 15.88 seconds
+ROCKET model size: 0.10 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 9.47 seconds
+ROCKET model size: 0.10 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm256_cwt64_rescale64_ps8_el2_df4_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 4036455
+model size : 15.41MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Cricket         Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        24                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               5                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+108
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 15.91 seconds
+ROCKET model size: 0.10 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.05 seconds
+72
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 11.11 seconds
+ROCKET model size: 0.10 MB
+>>>>>>>testing : classification_CLS_Cricket_TSCMamba_UEA4TSCMamba_ftM_sl1197_ll0_pl0_dm256_cwt64_rescale64_ps8_el2_df5_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:1.0
+model parameter : 4041099
+model size : 15.43MB

@@ -1,0 +1,1434 @@
+2025-04-27 11:18:48.996705: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:18:49.014707: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745752729.036438   12684 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745752729.043056   12684 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:18:49.064976: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         8992                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma8992_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.786008596420288
+Epoch: 1, Steps: 8 | Train Loss: 1.578 Vali Loss: 3.207 Vali Acc: 0.244 Test Loss: 3.207 Test Acc: 0.244
+Validation loss decreased (inf --> -0.244243).  Saving model ...
+Epoch: 2 cost time: 0.933574914932251
+Epoch: 2, Steps: 8 | Train Loss: 0.791 Vali Loss: 5.484 Vali Acc: 0.351 Test Loss: 5.484 Test Acc: 0.351
+Validation loss decreased (-0.244243 --> -0.351090).  Saving model ...
+Epoch: 3 cost time: 0.9551522731781006
+Epoch: 3, Steps: 8 | Train Loss: 0.045 Vali Loss: 5.386 Vali Acc: 0.336 Test Loss: 5.386 Test Acc: 0.336
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9175713062286377
+Epoch: 4, Steps: 8 | Train Loss: 0.899 Vali Loss: 12.045 Vali Acc: 0.351 Test Loss: 12.045 Test Acc: 0.351
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.8947122097015381
+Epoch: 5, Steps: 8 | Train Loss: 0.011 Vali Loss: 16.278 Vali Acc: 0.328 Test Loss: 16.278 Test Acc: 0.328
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9111175537109375
+Epoch: 6, Steps: 8 | Train Loss: 1.042 Vali Loss: 19.208 Vali Acc: 0.321 Test Loss: 19.208 Test Acc: 0.321
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.9338376522064209
+Epoch: 7, Steps: 8 | Train Loss: 0.001 Vali Loss: 22.041 Vali Acc: 0.305 Test Loss: 22.041 Test Acc: 0.305
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9220418930053711
+Epoch: 8, Steps: 8 | Train Loss: 0.000 Vali Loss: 23.997 Vali Acc: 0.305 Test Loss: 23.997 Test Acc: 0.305
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.9332497119903564
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 25.020 Vali Acc: 0.298 Test Loss: 25.020 Test Acc: 0.298
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.9381158351898193
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 25.483 Vali Acc: 0.282 Test Loss: 25.483 Test Acc: 0.282
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.929147481918335
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 25.662 Vali Acc: 0.290 Test Loss: 25.662 Test Acc: 0.290
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.9317784309387207
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 25.727 Vali Acc: 0.290 Test Loss: 25.727 Test Acc: 0.290
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma8992_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.3511450381679389
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:19:47.142091: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:19:47.159764: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745752787.181241   14160 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745752787.187785   14160 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:19:47.209427: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         8093                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma8093_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.5670866966247559
+Epoch: 1, Steps: 8 | Train Loss: 1.582 Vali Loss: 3.086 Vali Acc: 0.267 Test Loss: 3.086 Test Acc: 0.267
+Validation loss decreased (inf --> -0.267145).  Saving model ...
+Epoch: 2 cost time: 0.9558930397033691
+Epoch: 2, Steps: 8 | Train Loss: 0.749 Vali Loss: 5.308 Vali Acc: 0.351 Test Loss: 5.308 Test Acc: 0.351
+Validation loss decreased (-0.267145 --> -0.351092).  Saving model ...
+Epoch: 3 cost time: 0.9426827430725098
+Epoch: 3, Steps: 8 | Train Loss: 0.045 Vali Loss: 5.100 Vali Acc: 0.336 Test Loss: 5.100 Test Acc: 0.336
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9059443473815918
+Epoch: 4, Steps: 8 | Train Loss: 0.746 Vali Loss: 11.566 Vali Acc: 0.344 Test Loss: 11.566 Test Acc: 0.344
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.8940770626068115
+Epoch: 5, Steps: 8 | Train Loss: 0.013 Vali Loss: 16.994 Vali Acc: 0.351 Test Loss: 16.994 Test Acc: 0.351
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9048693180084229
+Epoch: 6, Steps: 8 | Train Loss: 0.039 Vali Loss: 20.062 Vali Acc: 0.328 Test Loss: 20.062 Test Acc: 0.328
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.9000325202941895
+Epoch: 7, Steps: 8 | Train Loss: 0.024 Vali Loss: 21.746 Vali Acc: 0.298 Test Loss: 21.746 Test Acc: 0.298
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9119503498077393
+Epoch: 8, Steps: 8 | Train Loss: 0.018 Vali Loss: 21.766 Vali Acc: 0.321 Test Loss: 21.766 Test Acc: 0.321
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.9159550666809082
+Epoch: 9, Steps: 8 | Train Loss: 0.001 Vali Loss: 20.878 Vali Acc: 0.321 Test Loss: 20.878 Test Acc: 0.321
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.9122650623321533
+Epoch: 10, Steps: 8 | Train Loss: 0.004 Vali Loss: 19.602 Vali Acc: 0.298 Test Loss: 19.602 Test Acc: 0.298
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.9006400108337402
+Epoch: 11, Steps: 8 | Train Loss: 0.055 Vali Loss: 20.196 Vali Acc: 0.321 Test Loss: 20.196 Test Acc: 0.321
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.9156217575073242
+Epoch: 12, Steps: 8 | Train Loss: 0.017 Vali Loss: 24.816 Vali Acc: 0.290 Test Loss: 24.816 Test Acc: 0.290
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma8093_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.3511450381679389
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:20:42.473208: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:20:42.490948: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745752842.513221   15654 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745752842.519897   15654 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:20:42.542446: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         7194                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma7194_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.754573106765747
+Epoch: 1, Steps: 8 | Train Loss: 1.585 Vali Loss: 2.950 Vali Acc: 0.260 Test Loss: 2.950 Test Acc: 0.260
+Validation loss decreased (inf --> -0.259512).  Saving model ...
+Epoch: 2 cost time: 0.9560234546661377
+Epoch: 2, Steps: 8 | Train Loss: 0.714 Vali Loss: 5.098 Vali Acc: 0.359 Test Loss: 5.098 Test Acc: 0.359
+Validation loss decreased (-0.259512 --> -0.358728).  Saving model ...
+Epoch: 3 cost time: 0.940892219543457
+Epoch: 3, Steps: 8 | Train Loss: 0.045 Vali Loss: 4.817 Vali Acc: 0.336 Test Loss: 4.817 Test Acc: 0.336
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9087896347045898
+Epoch: 4, Steps: 8 | Train Loss: 0.556 Vali Loss: 10.780 Vali Acc: 0.344 Test Loss: 10.780 Test Acc: 0.344
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.8875281810760498
+Epoch: 5, Steps: 8 | Train Loss: 0.022 Vali Loss: 15.941 Vali Acc: 0.313 Test Loss: 15.941 Test Acc: 0.313
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.8840212821960449
+Epoch: 6, Steps: 8 | Train Loss: 0.070 Vali Loss: 19.059 Vali Acc: 0.298 Test Loss: 19.059 Test Acc: 0.298
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.890981912612915
+Epoch: 7, Steps: 8 | Train Loss: 0.004 Vali Loss: 21.258 Vali Acc: 0.275 Test Loss: 21.258 Test Acc: 0.275
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9378318786621094
+Epoch: 8, Steps: 8 | Train Loss: 0.015 Vali Loss: 21.189 Vali Acc: 0.336 Test Loss: 21.189 Test Acc: 0.336
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.906151533126831
+Epoch: 9, Steps: 8 | Train Loss: 0.002 Vali Loss: 20.395 Vali Acc: 0.344 Test Loss: 20.395 Test Acc: 0.344
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.9075169563293457
+Epoch: 10, Steps: 8 | Train Loss: 0.002 Vali Loss: 20.005 Vali Acc: 0.336 Test Loss: 20.005 Test Acc: 0.336
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.8980705738067627
+Epoch: 11, Steps: 8 | Train Loss: 0.001 Vali Loss: 19.994 Vali Acc: 0.344 Test Loss: 19.994 Test Acc: 0.344
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.8954553604125977
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 20.448 Vali Acc: 0.351 Test Loss: 20.448 Test Acc: 0.351
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma7194_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.35877862595419846
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:21:37.882315: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:21:37.899289: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745752897.920605   17150 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745752897.927139   17150 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:21:37.948124: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         6295                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma6295_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.5448808670043945
+Epoch: 1, Steps: 8 | Train Loss: 1.585 Vali Loss: 2.803 Vali Acc: 0.267 Test Loss: 2.803 Test Acc: 0.267
+Validation loss decreased (inf --> -0.267148).  Saving model ...
+Epoch: 2 cost time: 0.9351160526275635
+Epoch: 2, Steps: 8 | Train Loss: 0.680 Vali Loss: 4.879 Vali Acc: 0.351 Test Loss: 4.879 Test Acc: 0.351
+Validation loss decreased (-0.267148 --> -0.351096).  Saving model ...
+Epoch: 3 cost time: 0.9386239051818848
+Epoch: 3, Steps: 8 | Train Loss: 0.050 Vali Loss: 4.910 Vali Acc: 0.344 Test Loss: 4.910 Test Acc: 0.344
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9357588291168213
+Epoch: 4, Steps: 8 | Train Loss: 0.364 Vali Loss: 10.560 Vali Acc: 0.359 Test Loss: 10.560 Test Acc: 0.359
+Validation loss decreased (-0.351096 --> -0.358673).  Saving model ...
+Epoch: 5 cost time: 0.9261589050292969
+Epoch: 5, Steps: 8 | Train Loss: 0.015 Vali Loss: 16.062 Vali Acc: 0.336 Test Loss: 16.062 Test Acc: 0.336
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 0.9141933917999268
+Epoch: 6, Steps: 8 | Train Loss: 0.033 Vali Loss: 19.977 Vali Acc: 0.321 Test Loss: 19.977 Test Acc: 0.321
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 0.9101088047027588
+Epoch: 7, Steps: 8 | Train Loss: 0.042 Vali Loss: 20.968 Vali Acc: 0.351 Test Loss: 20.968 Test Acc: 0.351
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 0.8854110240936279
+Epoch: 8, Steps: 8 | Train Loss: 0.004 Vali Loss: 21.633 Vali Acc: 0.344 Test Loss: 21.633 Test Acc: 0.344
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 0.8947293758392334
+Epoch: 9, Steps: 8 | Train Loss: 0.009 Vali Loss: 22.301 Vali Acc: 0.305 Test Loss: 22.301 Test Acc: 0.305
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 0.8850700855255127
+Epoch: 10, Steps: 8 | Train Loss: 0.068 Vali Loss: 22.739 Vali Acc: 0.305 Test Loss: 22.739 Test Acc: 0.305
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 0.9100492000579834
+Epoch: 11, Steps: 8 | Train Loss: 0.015 Vali Loss: 26.052 Vali Acc: 0.305 Test Loss: 26.052 Test Acc: 0.305
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 0.9264464378356934
+Epoch: 12, Steps: 8 | Train Loss: 0.302 Vali Loss: 29.424 Vali Acc: 0.344 Test Loss: 29.424 Test Acc: 0.344
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 0.9064998626708984
+Epoch: 13, Steps: 8 | Train Loss: 0.040 Vali Loss: 29.597 Vali Acc: 0.389 Test Loss: 29.597 Test Acc: 0.389
+Validation loss decreased (-0.358673 --> -0.389017).  Saving model ...
+Epoch: 14 cost time: 0.9236783981323242
+Epoch: 14, Steps: 8 | Train Loss: 0.145 Vali Loss: 30.052 Vali Acc: 0.397 Test Loss: 30.052 Test Acc: 0.397
+Validation loss decreased (-0.389017 --> -0.396646).  Saving model ...
+Epoch: 15 cost time: 0.9521863460540771
+Epoch: 15, Steps: 8 | Train Loss: 0.058 Vali Loss: 29.905 Vali Acc: 0.374 Test Loss: 29.905 Test Acc: 0.374
+EarlyStopping counter: 1 out of 10
+Epoch: 16 cost time: 0.931304931640625
+Epoch: 16, Steps: 8 | Train Loss: 2.063 Vali Loss: 29.598 Vali Acc: 0.405 Test Loss: 29.598 Test Acc: 0.405
+Validation loss decreased (-0.396646 --> -0.404284).  Saving model ...
+Epoch: 17 cost time: 0.9199879169464111
+Epoch: 17, Steps: 8 | Train Loss: 0.661 Vali Loss: 28.823 Vali Acc: 0.366 Test Loss: 28.823 Test Acc: 0.366
+EarlyStopping counter: 1 out of 10
+Epoch: 18 cost time: 0.9074544906616211
+Epoch: 18, Steps: 8 | Train Loss: 0.328 Vali Loss: 34.484 Vali Acc: 0.244 Test Loss: 34.484 Test Acc: 0.244
+EarlyStopping counter: 2 out of 10
+Epoch: 19 cost time: 0.8836331367492676
+Epoch: 19, Steps: 8 | Train Loss: 1.035 Vali Loss: 42.292 Vali Acc: 0.344 Test Loss: 42.292 Test Acc: 0.344
+EarlyStopping counter: 3 out of 10
+Epoch: 20 cost time: 0.9021396636962891
+Epoch: 20, Steps: 8 | Train Loss: 0.106 Vali Loss: 49.712 Vali Acc: 0.344 Test Loss: 49.712 Test Acc: 0.344
+EarlyStopping counter: 4 out of 10
+Epoch: 21 cost time: 0.9269909858703613
+Epoch: 21, Steps: 8 | Train Loss: 3.563 Vali Loss: 59.709 Vali Acc: 0.328 Test Loss: 59.709 Test Acc: 0.328
+EarlyStopping counter: 5 out of 10
+Epoch: 22 cost time: 0.9142248630523682
+Epoch: 22, Steps: 8 | Train Loss: 0.077 Vali Loss: 66.280 Vali Acc: 0.336 Test Loss: 66.280 Test Acc: 0.336
+EarlyStopping counter: 6 out of 10
+Epoch: 23 cost time: 0.8984940052032471
+Epoch: 23, Steps: 8 | Train Loss: 0.439 Vali Loss: 84.088 Vali Acc: 0.344 Test Loss: 84.088 Test Acc: 0.344
+EarlyStopping counter: 7 out of 10
+Epoch: 24 cost time: 0.9014358520507812
+Epoch: 24, Steps: 8 | Train Loss: 0.562 Vali Loss: 103.497 Vali Acc: 0.359 Test Loss: 103.497 Test Acc: 0.359
+EarlyStopping counter: 8 out of 10
+Epoch: 25 cost time: 0.893120288848877
+Epoch: 25, Steps: 8 | Train Loss: 0.795 Vali Loss: 108.836 Vali Acc: 0.374 Test Loss: 108.836 Test Acc: 0.374
+EarlyStopping counter: 9 out of 10
+Epoch: 26 cost time: 0.9088606834411621
+Epoch: 26, Steps: 8 | Train Loss: 10.188 Vali Loss: 114.207 Vali Acc: 0.313 Test Loss: 114.207 Test Acc: 0.313
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma6295_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.40458015267175573
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:23:25.777339: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:23:25.796684: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753005.819081   20212 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753005.825816   20212 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:23:25.847952: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         5396                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma5396_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.7866554260253906
+Epoch: 1, Steps: 8 | Train Loss: 1.586 Vali Loss: 2.663 Vali Acc: 0.275 Test Loss: 2.663 Test Acc: 0.275
+Validation loss decreased (inf --> -0.274783).  Saving model ...
+Epoch: 2 cost time: 0.9719219207763672
+Epoch: 2, Steps: 8 | Train Loss: 0.652 Vali Loss: 4.676 Vali Acc: 0.359 Test Loss: 4.676 Test Acc: 0.359
+Validation loss decreased (-0.274783 --> -0.358732).  Saving model ...
+Epoch: 3 cost time: 0.9529073238372803
+Epoch: 3, Steps: 8 | Train Loss: 0.051 Vali Loss: 4.972 Vali Acc: 0.389 Test Loss: 4.972 Test Acc: 0.389
+Validation loss decreased (-0.358732 --> -0.389263).  Saving model ...
+Epoch: 4 cost time: 0.9623763561248779
+Epoch: 4, Steps: 8 | Train Loss: 0.245 Vali Loss: 11.048 Vali Acc: 0.351 Test Loss: 11.048 Test Acc: 0.351
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 0.9431962966918945
+Epoch: 5, Steps: 8 | Train Loss: 0.009 Vali Loss: 16.319 Vali Acc: 0.344 Test Loss: 16.319 Test Acc: 0.344
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 0.9411101341247559
+Epoch: 6, Steps: 8 | Train Loss: 0.011 Vali Loss: 19.746 Vali Acc: 0.313 Test Loss: 19.746 Test Acc: 0.313
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 0.931251049041748
+Epoch: 7, Steps: 8 | Train Loss: 0.029 Vali Loss: 20.470 Vali Acc: 0.321 Test Loss: 20.470 Test Acc: 0.321
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 0.9430162906646729
+Epoch: 8, Steps: 8 | Train Loss: 0.017 Vali Loss: 21.624 Vali Acc: 0.344 Test Loss: 21.624 Test Acc: 0.344
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 0.9360575675964355
+Epoch: 9, Steps: 8 | Train Loss: 0.082 Vali Loss: 22.593 Vali Acc: 0.305 Test Loss: 22.593 Test Acc: 0.305
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 0.9518914222717285
+Epoch: 10, Steps: 8 | Train Loss: 0.032 Vali Loss: 24.878 Vali Acc: 0.298 Test Loss: 24.878 Test Acc: 0.298
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 0.9557044506072998
+Epoch: 11, Steps: 8 | Train Loss: 0.033 Vali Loss: 24.286 Vali Acc: 0.282 Test Loss: 24.286 Test Acc: 0.282
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 0.9449093341827393
+Epoch: 12, Steps: 8 | Train Loss: 0.002 Vali Loss: 21.380 Vali Acc: 0.328 Test Loss: 21.380 Test Acc: 0.328
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 0.9237945079803467
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 19.679 Vali Acc: 0.321 Test Loss: 19.679 Test Acc: 0.321
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma5396_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.3893129770992366
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:24:31.404356: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:24:31.421719: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753071.443264   21861 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753071.449842   21861 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:24:31.471332: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         4496                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma4496_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.7603693008422852
+Epoch: 1, Steps: 8 | Train Loss: 1.589 Vali Loss: 2.516 Vali Acc: 0.267 Test Loss: 2.516 Test Acc: 0.267
+Validation loss decreased (inf --> -0.267150).  Saving model ...
+Epoch: 2 cost time: 0.9631092548370361
+Epoch: 2, Steps: 8 | Train Loss: 0.625 Vali Loss: 4.467 Vali Acc: 0.374 Test Loss: 4.467 Test Acc: 0.374
+Validation loss decreased (-0.267150 --> -0.374001).  Saving model ...
+Epoch: 3 cost time: 0.9571359157562256
+Epoch: 3, Steps: 8 | Train Loss: 0.050 Vali Loss: 5.233 Vali Acc: 0.374 Test Loss: 5.233 Test Acc: 0.374
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9277176856994629
+Epoch: 4, Steps: 8 | Train Loss: 0.130 Vali Loss: 7.020 Vali Acc: 0.321 Test Loss: 7.020 Test Acc: 0.321
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.9422833919525146
+Epoch: 5, Steps: 8 | Train Loss: 0.222 Vali Loss: 11.723 Vali Acc: 0.328 Test Loss: 11.723 Test Acc: 0.328
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9270458221435547
+Epoch: 6, Steps: 8 | Train Loss: 0.030 Vali Loss: 17.077 Vali Acc: 0.344 Test Loss: 17.077 Test Acc: 0.344
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.9284794330596924
+Epoch: 7, Steps: 8 | Train Loss: 0.032 Vali Loss: 19.760 Vali Acc: 0.321 Test Loss: 19.760 Test Acc: 0.321
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9178471565246582
+Epoch: 8, Steps: 8 | Train Loss: 0.001 Vali Loss: 21.805 Vali Acc: 0.321 Test Loss: 21.805 Test Acc: 0.321
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.9295370578765869
+Epoch: 9, Steps: 8 | Train Loss: 0.045 Vali Loss: 21.739 Vali Acc: 0.328 Test Loss: 21.739 Test Acc: 0.328
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.9252798557281494
+Epoch: 10, Steps: 8 | Train Loss: 0.031 Vali Loss: 23.986 Vali Acc: 0.321 Test Loss: 23.986 Test Acc: 0.321
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.9431185722351074
+Epoch: 11, Steps: 8 | Train Loss: 0.087 Vali Loss: 24.501 Vali Acc: 0.351 Test Loss: 24.501 Test Acc: 0.351
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.9257819652557373
+Epoch: 12, Steps: 8 | Train Loss: 0.005 Vali Loss: 20.319 Vali Acc: 0.366 Test Loss: 20.319 Test Acc: 0.366
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma4496_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.37404580152671757
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:25:28.119174: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:25:28.137038: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753128.158673   23371 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753128.165294   23371 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:25:28.187352: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         3597                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma3597_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.8149139881134033
+Epoch: 1, Steps: 8 | Train Loss: 1.594 Vali Loss: 2.367 Vali Acc: 0.282 Test Loss: 2.367 Test Acc: 0.282
+Validation loss decreased (inf --> -0.282419).  Saving model ...
+Epoch: 2 cost time: 0.9644885063171387
+Epoch: 2, Steps: 8 | Train Loss: 0.585 Vali Loss: 4.220 Vali Acc: 0.389 Test Loss: 4.220 Test Acc: 0.389
+Validation loss decreased (-0.282419 --> -0.389271).  Saving model ...
+Epoch: 3 cost time: 0.9589121341705322
+Epoch: 3, Steps: 8 | Train Loss: 0.048 Vali Loss: 5.296 Vali Acc: 0.344 Test Loss: 5.296 Test Acc: 0.344
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9371116161346436
+Epoch: 4, Steps: 8 | Train Loss: 0.147 Vali Loss: 7.098 Vali Acc: 0.328 Test Loss: 7.098 Test Acc: 0.328
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.9625029563903809
+Epoch: 5, Steps: 8 | Train Loss: 0.003 Vali Loss: 10.576 Vali Acc: 0.298 Test Loss: 10.576 Test Acc: 0.298
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9549086093902588
+Epoch: 6, Steps: 8 | Train Loss: 0.033 Vali Loss: 11.158 Vali Acc: 0.298 Test Loss: 11.158 Test Acc: 0.298
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.9370937347412109
+Epoch: 7, Steps: 8 | Train Loss: 0.058 Vali Loss: 12.112 Vali Acc: 0.298 Test Loss: 12.112 Test Acc: 0.298
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9366860389709473
+Epoch: 8, Steps: 8 | Train Loss: 0.024 Vali Loss: 13.363 Vali Acc: 0.313 Test Loss: 13.363 Test Acc: 0.313
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.9567341804504395
+Epoch: 9, Steps: 8 | Train Loss: 0.014 Vali Loss: 14.939 Vali Acc: 0.305 Test Loss: 14.939 Test Acc: 0.305
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.9217650890350342
+Epoch: 10, Steps: 8 | Train Loss: 0.002 Vali Loss: 15.995 Vali Acc: 0.282 Test Loss: 15.995 Test Acc: 0.282
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.9339203834533691
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 16.402 Vali Acc: 0.290 Test Loss: 16.402 Test Acc: 0.290
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.945793628692627
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 16.651 Vali Acc: 0.290 Test Loss: 16.651 Test Acc: 0.290
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma3597_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.3893129770992366
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:26:26.804853: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:26:26.822483: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753186.843834   24888 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753186.850354   24888 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:26:26.871872: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         2698                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma2698_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.8416244983673096
+Epoch: 1, Steps: 8 | Train Loss: 1.596 Vali Loss: 2.266 Vali Acc: 0.290 Test Loss: 2.266 Test Acc: 0.290
+Validation loss decreased (inf --> -0.290054).  Saving model ...
+Epoch: 2 cost time: 0.9567275047302246
+Epoch: 2, Steps: 8 | Train Loss: 0.526 Vali Loss: 3.987 Vali Acc: 0.397 Test Loss: 3.987 Test Acc: 0.397
+Validation loss decreased (-0.290054 --> -0.396907).  Saving model ...
+Epoch: 3 cost time: 0.942474365234375
+Epoch: 3, Steps: 8 | Train Loss: 0.042 Vali Loss: 5.561 Vali Acc: 0.359 Test Loss: 5.561 Test Acc: 0.359
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9072034358978271
+Epoch: 4, Steps: 8 | Train Loss: 0.028 Vali Loss: 7.825 Vali Acc: 0.374 Test Loss: 7.825 Test Acc: 0.374
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.939054012298584
+Epoch: 5, Steps: 8 | Train Loss: 0.005 Vali Loss: 10.484 Vali Acc: 0.366 Test Loss: 10.484 Test Acc: 0.366
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9181764125823975
+Epoch: 6, Steps: 8 | Train Loss: 0.001 Vali Loss: 12.036 Vali Acc: 0.359 Test Loss: 12.036 Test Acc: 0.359
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.9109454154968262
+Epoch: 7, Steps: 8 | Train Loss: 0.000 Vali Loss: 12.794 Vali Acc: 0.351 Test Loss: 12.794 Test Acc: 0.351
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.920356273651123
+Epoch: 8, Steps: 8 | Train Loss: 0.000 Vali Loss: 13.238 Vali Acc: 0.351 Test Loss: 13.238 Test Acc: 0.351
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.9200749397277832
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 13.451 Vali Acc: 0.328 Test Loss: 13.451 Test Acc: 0.328
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.9256718158721924
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 13.541 Vali Acc: 0.336 Test Loss: 13.541 Test Acc: 0.336
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.9517982006072998
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 13.577 Vali Acc: 0.336 Test Loss: 13.577 Test Acc: 0.336
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.9192278385162354
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 13.589 Vali Acc: 0.336 Test Loss: 13.589 Test Acc: 0.336
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma2698_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.3969465648854962
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:27:25.945444: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:27:25.963148: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753245.984804   26410 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753245.991357   26410 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:27:26.013176: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         1799                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma1799_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.5789079666137695
+Epoch: 1, Steps: 8 | Train Loss: 1.595 Vali Loss: 2.161 Vali Acc: 0.313 Test Loss: 2.161 Test Acc: 0.313
+Validation loss decreased (inf --> -0.312955).  Saving model ...
+Epoch: 2 cost time: 0.9275243282318115
+Epoch: 2, Steps: 8 | Train Loss: 0.495 Vali Loss: 3.800 Vali Acc: 0.405 Test Loss: 3.800 Test Acc: 0.405
+Validation loss decreased (-0.312955 --> -0.404542).  Saving model ...
+Epoch: 3 cost time: 0.9243018627166748
+Epoch: 3, Steps: 8 | Train Loss: 0.046 Vali Loss: 5.332 Vali Acc: 0.366 Test Loss: 5.332 Test Acc: 0.366
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.8863897323608398
+Epoch: 4, Steps: 8 | Train Loss: 0.008 Vali Loss: 6.975 Vali Acc: 0.366 Test Loss: 6.975 Test Acc: 0.366
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.9089274406433105
+Epoch: 5, Steps: 8 | Train Loss: 0.008 Vali Loss: 9.027 Vali Acc: 0.397 Test Loss: 9.027 Test Acc: 0.397
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9200448989868164
+Epoch: 6, Steps: 8 | Train Loss: 0.033 Vali Loss: 9.689 Vali Acc: 0.366 Test Loss: 9.689 Test Acc: 0.366
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.8903310298919678
+Epoch: 7, Steps: 8 | Train Loss: 0.000 Vali Loss: 9.715 Vali Acc: 0.313 Test Loss: 9.715 Test Acc: 0.313
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9086976051330566
+Epoch: 8, Steps: 8 | Train Loss: 0.000 Vali Loss: 10.161 Vali Acc: 0.298 Test Loss: 10.161 Test Acc: 0.298
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.8768994808197021
+Epoch: 9, Steps: 8 | Train Loss: 0.033 Vali Loss: 14.914 Vali Acc: 0.305 Test Loss: 14.914 Test Acc: 0.305
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.8942420482635498
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 23.160 Vali Acc: 0.305 Test Loss: 23.160 Test Acc: 0.305
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.9095170497894287
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 27.194 Vali Acc: 0.282 Test Loss: 27.194 Test Acc: 0.282
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.9040529727935791
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 29.044 Vali Acc: 0.275 Test Loss: 29.044 Test Acc: 0.275
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma1799_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.40458015267175573
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:28:21.118573: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:28:21.137738: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753301.159702   27902 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753301.166327   27902 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:28:21.187968: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         900                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma900_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.5824508666992188
+Epoch: 1, Steps: 8 | Train Loss: 1.596 Vali Loss: 2.097 Vali Acc: 0.321 Test Loss: 2.097 Test Acc: 0.321
+Validation loss decreased (inf --> -0.320590).  Saving model ...
+Epoch: 2 cost time: 0.9202332496643066
+Epoch: 2, Steps: 8 | Train Loss: 0.437 Vali Loss: 3.794 Vali Acc: 0.397 Test Loss: 3.794 Test Acc: 0.397
+Validation loss decreased (-0.320590 --> -0.396909).  Saving model ...
+Epoch: 3 cost time: 0.9293034076690674
+Epoch: 3, Steps: 8 | Train Loss: 0.020 Vali Loss: 5.583 Vali Acc: 0.374 Test Loss: 5.583 Test Acc: 0.374
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9079735279083252
+Epoch: 4, Steps: 8 | Train Loss: 0.003 Vali Loss: 6.722 Vali Acc: 0.397 Test Loss: 6.722 Test Acc: 0.397
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.8956432342529297
+Epoch: 5, Steps: 8 | Train Loss: 0.003 Vali Loss: 8.015 Vali Acc: 0.382 Test Loss: 8.015 Test Acc: 0.382
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9004859924316406
+Epoch: 6, Steps: 8 | Train Loss: 0.000 Vali Loss: 9.119 Vali Acc: 0.374 Test Loss: 9.119 Test Acc: 0.374
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.8840932846069336
+Epoch: 7, Steps: 8 | Train Loss: 0.001 Vali Loss: 9.635 Vali Acc: 0.366 Test Loss: 9.635 Test Acc: 0.366
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9005930423736572
+Epoch: 8, Steps: 8 | Train Loss: 0.000 Vali Loss: 9.878 Vali Acc: 0.374 Test Loss: 9.878 Test Acc: 0.374
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.9091382026672363
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 9.990 Vali Acc: 0.382 Test Loss: 9.990 Test Acc: 0.382
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.8835787773132324
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 10.037 Vali Acc: 0.382 Test Loss: 10.037 Test Acc: 0.382
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.8975601196289062
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 10.058 Vali Acc: 0.382 Test Loss: 10.058 Test Acc: 0.382
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.8917398452758789
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 10.066 Vali Acc: 0.382 Test Loss: 10.066 Test Acc: 0.382
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma900_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.3969465648854962
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:29:16.011470: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:29:16.029341: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753356.051019   29402 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753356.057681   29402 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:29:16.079281: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         720                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma720_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.7793984413146973
+Epoch: 1, Steps: 8 | Train Loss: 1.596 Vali Loss: 2.086 Vali Acc: 0.313 Test Loss: 2.086 Test Acc: 0.313
+Validation loss decreased (inf --> -0.312956).  Saving model ...
+Epoch: 2 cost time: 0.9247100353240967
+Epoch: 2, Steps: 8 | Train Loss: 0.422 Vali Loss: 3.866 Vali Acc: 0.382 Test Loss: 3.866 Test Acc: 0.382
+Validation loss decreased (-0.312956 --> -0.381641).  Saving model ...
+Epoch: 3 cost time: 0.9269230365753174
+Epoch: 3, Steps: 8 | Train Loss: 0.011 Vali Loss: 5.553 Vali Acc: 0.374 Test Loss: 5.553 Test Acc: 0.374
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.8980166912078857
+Epoch: 4, Steps: 8 | Train Loss: 0.001 Vali Loss: 6.686 Vali Acc: 0.382 Test Loss: 6.686 Test Acc: 0.382
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.8950705528259277
+Epoch: 5, Steps: 8 | Train Loss: 0.001 Vali Loss: 7.548 Vali Acc: 0.374 Test Loss: 7.548 Test Acc: 0.374
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.8958261013031006
+Epoch: 6, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.086 Vali Acc: 0.382 Test Loss: 8.086 Test Acc: 0.382
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.8922677040100098
+Epoch: 7, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.387 Vali Acc: 0.389 Test Loss: 8.387 Test Acc: 0.389
+Validation loss decreased (-0.381641 --> -0.389229).  Saving model ...
+Epoch: 8 cost time: 0.912207841873169
+Epoch: 8, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.545 Vali Acc: 0.389 Test Loss: 8.545 Test Acc: 0.389
+EarlyStopping counter: 1 out of 10
+Epoch: 9 cost time: 0.8956694602966309
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.625 Vali Acc: 0.389 Test Loss: 8.625 Test Acc: 0.389
+EarlyStopping counter: 2 out of 10
+Epoch: 10 cost time: 0.9052722454071045
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.666 Vali Acc: 0.389 Test Loss: 8.666 Test Acc: 0.389
+EarlyStopping counter: 3 out of 10
+Epoch: 11 cost time: 0.8835868835449219
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.687 Vali Acc: 0.389 Test Loss: 8.687 Test Acc: 0.389
+EarlyStopping counter: 4 out of 10
+Epoch: 12 cost time: 0.890796422958374
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.698 Vali Acc: 0.389 Test Loss: 8.698 Test Acc: 0.389
+EarlyStopping counter: 5 out of 10
+Epoch: 13 cost time: 0.9243993759155273
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.704 Vali Acc: 0.389 Test Loss: 8.704 Test Acc: 0.389
+EarlyStopping counter: 6 out of 10
+Epoch: 14 cost time: 0.8867897987365723
+Epoch: 14, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.708 Vali Acc: 0.389 Test Loss: 8.708 Test Acc: 0.389
+EarlyStopping counter: 7 out of 10
+Epoch: 15 cost time: 0.8947274684906006
+Epoch: 15, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.710 Vali Acc: 0.389 Test Loss: 8.710 Test Acc: 0.389
+EarlyStopping counter: 8 out of 10
+Epoch: 16 cost time: 0.8977723121643066
+Epoch: 16, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.712 Vali Acc: 0.389 Test Loss: 8.712 Test Acc: 0.389
+EarlyStopping counter: 9 out of 10
+Epoch: 17 cost time: 0.8927674293518066
+Epoch: 17, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.713 Vali Acc: 0.389 Test Loss: 8.713 Test Acc: 0.389
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma720_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.3893129770992366
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:30:27.198377: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:30:27.216185: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753427.238033   31441 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753427.244714   31441 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:30:27.266252: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         540                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma540_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.743187427520752
+Epoch: 1, Steps: 8 | Train Loss: 1.597 Vali Loss: 2.065 Vali Acc: 0.305 Test Loss: 2.065 Test Acc: 0.305
+Validation loss decreased (inf --> -0.305323).  Saving model ...
+Epoch: 2 cost time: 0.9258368015289307
+Epoch: 2, Steps: 8 | Train Loss: 0.402 Vali Loss: 3.842 Vali Acc: 0.389 Test Loss: 3.842 Test Acc: 0.389
+Validation loss decreased (-0.305323 --> -0.389275).  Saving model ...
+Epoch: 3 cost time: 0.9388642311096191
+Epoch: 3, Steps: 8 | Train Loss: 0.007 Vali Loss: 5.634 Vali Acc: 0.382 Test Loss: 5.634 Test Acc: 0.382
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.8850023746490479
+Epoch: 4, Steps: 8 | Train Loss: 0.001 Vali Loss: 6.713 Vali Acc: 0.366 Test Loss: 6.713 Test Acc: 0.366
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.8918209075927734
+Epoch: 5, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.473 Vali Acc: 0.374 Test Loss: 7.473 Test Acc: 0.374
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9082515239715576
+Epoch: 6, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.932 Vali Acc: 0.389 Test Loss: 7.932 Test Acc: 0.389
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.9011881351470947
+Epoch: 7, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.175 Vali Acc: 0.374 Test Loss: 8.175 Test Acc: 0.374
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9056053161621094
+Epoch: 8, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.298 Vali Acc: 0.374 Test Loss: 8.298 Test Acc: 0.374
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.9453802108764648
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.358 Vali Acc: 0.374 Test Loss: 8.358 Test Acc: 0.374
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.9017248153686523
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.388 Vali Acc: 0.374 Test Loss: 8.388 Test Acc: 0.374
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.8971641063690186
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.402 Vali Acc: 0.374 Test Loss: 8.402 Test Acc: 0.374
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.9105606079101562
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.409 Vali Acc: 0.374 Test Loss: 8.409 Test Acc: 0.374
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma540_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.3893129770992366
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:31:24.911407: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:31:24.929785: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753484.953622   32949 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753484.960446   32949 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:31:24.982680: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         360                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma360_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.810067892074585
+Epoch: 1, Steps: 8 | Train Loss: 1.597 Vali Loss: 2.034 Vali Acc: 0.328 Test Loss: 2.034 Test Acc: 0.328
+Validation loss decreased (inf --> -0.328224).  Saving model ...
+Epoch: 2 cost time: 0.933509349822998
+Epoch: 2, Steps: 8 | Train Loss: 0.390 Vali Loss: 3.665 Vali Acc: 0.382 Test Loss: 3.665 Test Acc: 0.382
+Validation loss decreased (-0.328224 --> -0.381643).  Saving model ...
+Epoch: 3 cost time: 0.9248919486999512
+Epoch: 3, Steps: 8 | Train Loss: 0.006 Vali Loss: 5.525 Vali Acc: 0.382 Test Loss: 5.525 Test Acc: 0.382
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9143562316894531
+Epoch: 4, Steps: 8 | Train Loss: 0.002 Vali Loss: 6.557 Vali Acc: 0.351 Test Loss: 6.557 Test Acc: 0.351
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.8985004425048828
+Epoch: 5, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.221 Vali Acc: 0.374 Test Loss: 7.221 Test Acc: 0.374
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.8934824466705322
+Epoch: 6, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.602 Vali Acc: 0.374 Test Loss: 7.602 Test Acc: 0.374
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.8904328346252441
+Epoch: 7, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.815 Vali Acc: 0.366 Test Loss: 7.815 Test Acc: 0.366
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9060766696929932
+Epoch: 8, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.925 Vali Acc: 0.366 Test Loss: 7.925 Test Acc: 0.366
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.8979799747467041
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.980 Vali Acc: 0.366 Test Loss: 7.980 Test Acc: 0.366
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.911553144454956
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.009 Vali Acc: 0.366 Test Loss: 8.009 Test Acc: 0.366
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.8942227363586426
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.023 Vali Acc: 0.366 Test Loss: 8.023 Test Acc: 0.366
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.8962175846099854
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 8.030 Vali Acc: 0.366 Test Loss: 8.030 Test Acc: 0.366
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma360_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.3816793893129771
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:32:21.625579: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:32:21.643606: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753541.665637   34457 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753541.672481   34457 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:32:21.694471: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         180                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma180_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.7392592430114746
+Epoch: 1, Steps: 8 | Train Loss: 1.598 Vali Loss: 2.011 Vali Acc: 0.336 Test Loss: 2.011 Test Acc: 0.336
+Validation loss decreased (inf --> -0.335858).  Saving model ...
+Epoch: 2 cost time: 0.9830658435821533
+Epoch: 2, Steps: 8 | Train Loss: 0.379 Vali Loss: 3.487 Vali Acc: 0.420 Test Loss: 3.487 Test Acc: 0.420
+Validation loss decreased (-0.335858 --> -0.419812).  Saving model ...
+Epoch: 3 cost time: 0.937047004699707
+Epoch: 3, Steps: 8 | Train Loss: 0.004 Vali Loss: 5.343 Vali Acc: 0.427 Test Loss: 5.343 Test Acc: 0.427
+Validation loss decreased (-0.419812 --> -0.427427).  Saving model ...
+Epoch: 4 cost time: 0.9200417995452881
+Epoch: 4, Steps: 8 | Train Loss: 0.003 Vali Loss: 6.267 Vali Acc: 0.405 Test Loss: 6.267 Test Acc: 0.405
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 0.8749423027038574
+Epoch: 5, Steps: 8 | Train Loss: 0.000 Vali Loss: 6.800 Vali Acc: 0.412 Test Loss: 6.800 Test Acc: 0.412
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 0.9093372821807861
+Epoch: 6, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.101 Vali Acc: 0.412 Test Loss: 7.101 Test Acc: 0.412
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 0.8738718032836914
+Epoch: 7, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.260 Vali Acc: 0.405 Test Loss: 7.260 Test Acc: 0.405
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 0.9131977558135986
+Epoch: 8, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.342 Vali Acc: 0.405 Test Loss: 7.342 Test Acc: 0.405
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 0.9235484600067139
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.383 Vali Acc: 0.405 Test Loss: 7.383 Test Acc: 0.405
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 0.8916335105895996
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.404 Vali Acc: 0.405 Test Loss: 7.404 Test Acc: 0.405
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 0.8928086757659912
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.416 Vali Acc: 0.405 Test Loss: 7.416 Test Acc: 0.405
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 0.9320938587188721
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.423 Vali Acc: 0.405 Test Loss: 7.423 Test Acc: 0.405
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 0.9380078315734863
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.428 Vali Acc: 0.405 Test Loss: 7.428 Test Acc: 0.405
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma180_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.42748091603053434
+model parameter : 647424005
+model size : 2469.73MB
+2025-04-27 11:33:27.738567: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-27 11:33:27.756759: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745753607.779187   36112 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745753607.785941   36112 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-04-27 11:33:27.807997: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EigenWorms      Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          ./dataset/EigenWorms
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        ./checkpoints       
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         90                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+128
+131
+>>>>>>>start training : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma90_iFalse_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+128
+131
+131
+Epoch: 1 cost time: 1.6130447387695312
+Epoch: 1, Steps: 8 | Train Loss: 1.599 Vali Loss: 1.980 Vali Acc: 0.351 Test Loss: 1.980 Test Acc: 0.351
+Validation loss decreased (inf --> -0.351125).  Saving model ...
+Epoch: 2 cost time: 0.9393050670623779
+Epoch: 2, Steps: 8 | Train Loss: 0.379 Vali Loss: 3.311 Vali Acc: 0.397 Test Loss: 3.311 Test Acc: 0.397
+Validation loss decreased (-0.351125 --> -0.396913).  Saving model ...
+Epoch: 3 cost time: 0.9063830375671387
+Epoch: 3, Steps: 8 | Train Loss: 0.004 Vali Loss: 5.062 Vali Acc: 0.405 Test Loss: 5.062 Test Acc: 0.405
+Validation loss decreased (-0.396913 --> -0.404530).  Saving model ...
+Epoch: 4 cost time: 0.9580605030059814
+Epoch: 4, Steps: 8 | Train Loss: 0.002 Vali Loss: 6.026 Vali Acc: 0.412 Test Loss: 6.026 Test Acc: 0.412
+Validation loss decreased (-0.404530 --> -0.412153).  Saving model ...
+Epoch: 5 cost time: 0.9336822032928467
+Epoch: 5, Steps: 8 | Train Loss: 0.000 Vali Loss: 6.513 Vali Acc: 0.389 Test Loss: 6.513 Test Acc: 0.389
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 0.9212455749511719
+Epoch: 6, Steps: 8 | Train Loss: 0.000 Vali Loss: 6.795 Vali Acc: 0.359 Test Loss: 6.795 Test Acc: 0.359
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 0.914508581161499
+Epoch: 7, Steps: 8 | Train Loss: 0.000 Vali Loss: 6.948 Vali Acc: 0.359 Test Loss: 6.948 Test Acc: 0.359
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 0.9295885562896729
+Epoch: 8, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.029 Vali Acc: 0.359 Test Loss: 7.029 Test Acc: 0.359
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 0.8889937400817871
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.073 Vali Acc: 0.359 Test Loss: 7.073 Test Acc: 0.359
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 0.8773066997528076
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.095 Vali Acc: 0.359 Test Loss: 7.095 Test Acc: 0.359
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 0.8952398300170898
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.107 Vali Acc: 0.359 Test Loss: 7.107 Test Acc: 0.359
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 0.8930773735046387
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.115 Vali Acc: 0.359 Test Loss: 7.115 Test Acc: 0.359
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 0.9128696918487549
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.120 Vali Acc: 0.359 Test Loss: 7.120 Test Acc: 0.359
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 0.9104893207550049
+Epoch: 14, Steps: 8 | Train Loss: 0.000 Vali Loss: 7.124 Vali Acc: 0.359 Test Loss: 7.124 Test Acc: 0.359
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EigenWorms_DLinear_UEA_ftM_sl17984_ll0_pl0_ma90_iFalse_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([131, 5]) torch.Size([131, 1])
+accuracy:0.4122137404580153
+model parameter : 647424005
+model size : 2469.73MB

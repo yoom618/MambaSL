@@ -1,0 +1,120 @@
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_45_00  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9766666889190674, 'val': 0.9818181991577148}, mf1:{'test': 0.893280029296875, 'val': 0.9563637375831604}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_46_54  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.2666666805744171, 'val': 0.3333333432674408}, mf1:{'test': 0.23333333432674408, 'val': 0.1666666716337204}
+
+BasicMotions_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_48_33  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+CharacterTrajectories_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_50_06  
+TSLANet_CharacterTrajectories_l_3  
+acc:{'test': 0.9505571126937866, 'val': 0.9612675905227661}, mf1:{'test': 0.8364079594612122, 'val': 0.8667507171630859}
+
+Cricket_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_00_07  
+TSLANet_Cricket_l_3  
+acc:{'test': 0.9861111044883728, 'val': 1.0}, mf1:{'test': 0.9365079402923584, 'val': 1.0}
+
+DuckDuckGeese_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_04_05  
+TSLANet_DuckDuckGeese_l_3  
+acc:{'test': 0.5400000214576721, 'val': 0.6000000238418579}, mf1:{'test': 0.3550085723400116, 'val': 0.5333333611488342}
+
+EigenWorms_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_10_51  
+TSLANet_EigenWorms_l_3  
+acc:{'test': 0.7938931584358215, 'val': 0.8799999952316284}, mf1:{'test': 0.6349656581878662, 'val': 0.7779557704925537}
+
+Epilepsy_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_31_59  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9637681245803833, 'val': 0.9259259104728699}, mf1:{'test': 0.8163498640060425, 'val': 0.8172839283943176}
+
+ERing_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_33_41  
+TSLANet_ERing_l_3  
+acc:{'test': 0.5629629492759705, 'val': 0.5}, mf1:{'test': 0.4172658920288086, 'val': 0.3611110746860504}
+
+EthanolConcentration_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_34_30  
+TSLANet_EthanolConcentration_l_3  
+acc:{'test': 0.23574145138263702, 'val': 0.21153846383094788}, mf1:{'test': 0.11167585849761963, 'val': 0.1160256415605545}
+
+FaceDetection_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_39_04  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.4994324743747711, 'val': 0.4991511106491089}, mf1:{'test': 0.3289986550807953, 'val': 0.4925876557826996}
+
+FingerMovements_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_13_57  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.47999998927116394, 'val': 0.6190476417541504}, mf1:{'test': 0.4600597620010376, 'val': 0.37917590141296387}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_16_23  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.4324324429035187, 'val': 0.34375}, mf1:{'test': 0.20029567182064056, 'val': 0.21596460044384003}
+
+Handwriting_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_18_43  
+TSLANet_Handwriting_l_3  
+acc:{'test': 0.4870588183403015, 'val': 0.6333333253860474}, mf1:{'test': 0.3585205674171448, 'val': 0.4957265257835388}
+
+Heartbeat_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_20_33  
+TSLANet_Heartbeat_l_3  
+acc:{'test': 0.7512195110321045, 'val': 0.75}, mf1:{'test': 0.5046946406364441, 'val': 0.4128587245941162}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_22_34  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.100040003657341, 'val': 0.10040000081062317}, mf1:{'test': 0.09894135594367981, 'val': 0.09928515553474426}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_36_06  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8753049969673157, 'val': 1.0}
+
+Libras_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_38_07  
+TSLANet_Libras_l_3  
+acc:{'test': 0.9111111164093018, 'val': 0.9166666865348816}, mf1:{'test': 0.697432279586792, 'val': 0.8361971974372864}
+
+LSST_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_39_37  
+TSLANet_LSST_l_3  
+acc:{'test': 0.3755069077014923, 'val': 0.3584521412849426}, mf1:{'test': 0.19228555262088776, 'val': 0.18402400612831116}
+
+MotorImagery_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_51_21  
+TSLANet_MotorImagery_l_3  
+acc:{'test': 0.41999998688697815, 'val': 0.4909090995788574}, mf1:{'test': 0.3890652060508728, 'val': 0.2775452136993408}
+
+NATOPS_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_07_28  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9055555462837219, 'val': 0.9444444179534912}, mf1:{'test': 0.8748629093170166, 'val': 0.9382716417312622}
+
+PEMS-SF_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_09_21  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.5317919254302979, 'val': 0.5849056839942932}, mf1:{'test': 0.4604468047618866, 'val': 0.4558960497379303}
+
+PenDigits_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_26_22  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.09605488926172256, 'val': 0.09612817317247391}, mf1:{'test': 0.02084965445101261, 'val': 0.09503579884767532}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_59_48  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.023560989648103714, 'val': 0.024132730439305305}, mf1:{'test': 0.01669503189623356, 'val': 0.01906437985599041}
+
+RacketSports_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_17_07  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.7894737124443054, 'val': 0.8333333134651184}, mf1:{'test': 0.5456649661064148, 'val': 0.8242735266685486}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_18_33  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6860068440437317, 'val': 0.8113207817077637}, mf1:{'test': 0.6507885456085205, 'val': 0.5387666821479797}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_21_49  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4888888895511627, 'val': 0.6000000238418579}, mf1:{'test': 0.4586836099624634, 'val': 0.43577489256858826}
+
+SpokenArabicDigits_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_25_18  
+TSLANet_SpokenArabicDigits_l_3  
+acc:{'test': 0.8281036615371704, 'val': 0.8627748489379883}, mf1:{'test': 0.6679516434669495, 'val': 0.666179358959198}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_58_58  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9125000238418579, 'val': 0.875}, mf1:{'test': 0.596891462802887, 'val': 0.7396824955940247}
+
+StandWalkJump_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_11_34  
+TSLANet_StandWalkJump_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.0}, mf1:{'test': 0.2666666805744171, 'val': 0.0}
+

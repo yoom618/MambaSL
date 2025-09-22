@@ -1,0 +1,7560 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 10 \
+  --patch_stride 5 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 20 \
+  --patch_stride 10 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 30 \
+  --patch_stride 15 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 40 \
+  --patch_stride 20 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 60 \
+  --patch_stride 30 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --seq_len 400 \
+  --enc_in 10 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_HandMovementDirection \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

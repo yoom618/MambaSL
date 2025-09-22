@@ -1,0 +1,8640 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 256 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 512 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 10 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ERing \
+  --seq_len 65 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Crossformer \
+  --model_id CLS_ERing \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --n_heads 4 \
+  --factor 3 \
+  --seg_len_cf 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

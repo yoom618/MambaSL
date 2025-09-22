@@ -1,0 +1,162 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_DuckDuckGeese   Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/DuckDuckGeese
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 54.93 seconds
+50
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 2287.07 seconds
+ROCKET model size: 7.85 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 35.48 seconds
+50
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 2030.90 seconds
+ROCKET model size: 7.85 MB
+>>>>>>>testing : classification_CLS_DuckDuckGeese_TSCMamba_UEA4TSCMamba_ftM_sl270_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df2_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([50, 5]) torch.Size([50, 1])
+accuracy:0.5
+model parameter : 127384315
+model size : 485.95MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_DuckDuckGeese   Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/DuckDuckGeese
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               3                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 34.86 seconds
+50
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1295.84 seconds
+ROCKET model size: 7.85 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 48.88 seconds
+50
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 1711.52 seconds
+ROCKET model size: 7.85 MB
+>>>>>>>testing : classification_CLS_DuckDuckGeese_TSCMamba_UEA4TSCMamba_ftM_sl270_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df3_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([50, 5]) torch.Size([50, 1])
+accuracy:0.5
+model parameter : 127393537
+model size : 485.98MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_DuckDuckGeese   Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/DuckDuckGeese
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               3                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 7.39 seconds
+50
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 906.11 seconds
+ROCKET model size: 7.85 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 28.99 seconds
+50
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 1334.52 seconds
+ROCKET model size: 7.85 MB
+>>>>>>>testing : classification_CLS_DuckDuckGeese_TSCMamba_UEA4TSCMamba_ftM_sl270_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df3_dconv4_expand2_nrocket0_hrocket1_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([50, 5]) torch.Size([50, 1])
+accuracy:0.5
+model parameter : 127402209
+model size : 486.01MB

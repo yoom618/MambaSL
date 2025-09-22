@@ -1,0 +1,3192 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 8.206176519393921
+Epoch: 1, Steps: 17 | Train Loss: 12743972.596 Vali Loss: 2811265.000 Vali Acc: 0.232 Test Loss: 2811265.000 Test Acc: 0.232
+Validation loss decreased (inf --> 27.880711).  Saving model ...
+Epoch: 2 cost time: 6.979459524154663
+Epoch: 2, Steps: 17 | Train Loss: 8764080.855 Vali Loss: 18645224.000 Vali Acc: 0.274 Test Loss: 18645224.000 Test Acc: 0.274
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 8.367268562316895
+Epoch: 3, Steps: 17 | Train Loss: 1919810.176 Vali Loss: 2597903.500 Vali Acc: 0.224 Test Loss: 2597903.500 Test Acc: 0.224
+Validation loss decreased (27.880711 --> 25.754700).  Saving model ...
+Epoch: 4 cost time: 6.988739967346191
+Epoch: 4, Steps: 17 | Train Loss: 3051750.090 Vali Loss: 7517800.000 Vali Acc: 0.251 Test Loss: 7517800.000 Test Acc: 0.251
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 4.912902355194092
+Epoch: 5, Steps: 17 | Train Loss: 7045778.745 Vali Loss: 231664928.000 Vali Acc: 0.224 Test Loss: 231664928.000 Test Acc: 0.224
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 4.346968650817871
+Epoch: 6, Steps: 17 | Train Loss: 6700352.045 Vali Loss: 37252492.000 Vali Acc: 0.194 Test Loss: 37252492.000 Test Acc: 0.194
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 4.858492612838745
+Epoch: 7, Steps: 17 | Train Loss: 36419309.972 Vali Loss: 121335720.000 Vali Acc: 0.224 Test Loss: 121335720.000 Test Acc: 0.224
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 5.935614585876465
+Epoch: 8, Steps: 17 | Train Loss: 35528185.213 Vali Loss: 795421504.000 Vali Acc: 0.274 Test Loss: 795421504.000 Test Acc: 0.274
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 5.514109373092651
+Epoch: 9, Steps: 17 | Train Loss: 18587138.363 Vali Loss: 35912356.000 Vali Acc: 0.236 Test Loss: 35912356.000 Test Acc: 0.236
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 4.615484714508057
+Epoch: 10, Steps: 17 | Train Loss: 76661701.517 Vali Loss: 166722992.000 Vali Acc: 0.266 Test Loss: 166722992.000 Test Acc: 0.266
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 6.852364778518677
+Epoch: 11, Steps: 17 | Train Loss: 696990.564 Vali Loss: 146456320.000 Vali Acc: 0.278 Test Loss: 146456320.000 Test Acc: 0.278
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 5.612196922302246
+Epoch: 12, Steps: 17 | Train Loss: 1687245170.896 Vali Loss: 86740080.000 Vali Acc: 0.285 Test Loss: 86740080.000 Test Acc: 0.285
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 5.136838912963867
+Epoch: 13, Steps: 17 | Train Loss: 222699618.420 Vali Loss: 14431472640.000 Vali Acc: 0.281 Test Loss: 14431472640.000 Test Acc: 0.281
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.22433460076045628
+model parameter : 10518528
+model size : 59.66MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.7021284103393555
+Epoch: 1, Steps: 17 | Train Loss: 1278767.972 Vali Loss: 249703.062 Vali Acc: 0.251 Test Loss: 249703.062 Test Acc: 0.251
+Validation loss decreased (inf --> 2.246080).  Saving model ...
+Epoch: 2 cost time: 3.1626570224761963
+Epoch: 2, Steps: 17 | Train Loss: 5186963.109 Vali Loss: 676879.750 Vali Acc: 0.255 Test Loss: 676879.750 Test Acc: 0.255
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 4.607666015625
+Epoch: 3, Steps: 17 | Train Loss: 2127221.247 Vali Loss: 9306120.000 Vali Acc: 0.236 Test Loss: 9306120.000 Test Acc: 0.236
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 3.7976176738739014
+Epoch: 4, Steps: 17 | Train Loss: 2806603.331 Vali Loss: 32937262.000 Vali Acc: 0.251 Test Loss: 32937262.000 Test Acc: 0.251
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 4.951853275299072
+Epoch: 5, Steps: 17 | Train Loss: 425200.691 Vali Loss: 25809792.000 Vali Acc: 0.251 Test Loss: 25809792.000 Test Acc: 0.251
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 4.062052011489868
+Epoch: 6, Steps: 17 | Train Loss: 15410452.118 Vali Loss: 335227424.000 Vali Acc: 0.205 Test Loss: 335227424.000 Test Acc: 0.205
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 4.54560661315918
+Epoch: 7, Steps: 17 | Train Loss: 6502132.695 Vali Loss: 150419088.000 Vali Acc: 0.278 Test Loss: 150419088.000 Test Acc: 0.278
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 3.2748873233795166
+Epoch: 8, Steps: 17 | Train Loss: 3280000.011 Vali Loss: 48486568.000 Vali Acc: 0.232 Test Loss: 48486568.000 Test Acc: 0.232
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 4.145771265029907
+Epoch: 9, Steps: 17 | Train Loss: 47013012.903 Vali Loss: 114483584.000 Vali Acc: 0.236 Test Loss: 114483584.000 Test Acc: 0.236
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 4.778083086013794
+Epoch: 10, Steps: 17 | Train Loss: 3535230.432 Vali Loss: 365333568.000 Vali Acc: 0.243 Test Loss: 365333568.000 Test Acc: 0.243
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 4.287966966629028
+Epoch: 11, Steps: 17 | Train Loss: 3625393.275 Vali Loss: 3642737152.000 Vali Acc: 0.205 Test Loss: 3642737152.000 Test Acc: 0.205
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.2509505703422053
+model parameter : 10493952
+model size : 59.57MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 6.738575458526611
+Epoch: 1, Steps: 17 | Train Loss: 588296.331 Vali Loss: 2231929.250 Vali Acc: 0.281 Test Loss: 2231929.250 Test Acc: 0.281
+Validation loss decreased (inf --> 22.037923).  Saving model ...
+Epoch: 2 cost time: 4.144686698913574
+Epoch: 2, Steps: 17 | Train Loss: 20142660.397 Vali Loss: 9043344.000 Vali Acc: 0.278 Test Loss: 9043344.000 Test Acc: 0.278
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 4.966336488723755
+Epoch: 3, Steps: 17 | Train Loss: 1406906.279 Vali Loss: 2046528.250 Vali Acc: 0.297 Test Loss: 2046528.250 Test Acc: 0.297
+Validation loss decreased (22.037923 --> 20.168704).  Saving model ...
+Epoch: 4 cost time: 4.166317939758301
+Epoch: 4, Steps: 17 | Train Loss: 1378097.660 Vali Loss: 1828873.750 Vali Acc: 0.247 Test Loss: 1828873.750 Test Acc: 0.247
+Validation loss decreased (20.168704 --> 18.041588).  Saving model ...
+Epoch: 5 cost time: 3.911691188812256
+Epoch: 5, Steps: 17 | Train Loss: 8207925.427 Vali Loss: 33068224.000 Vali Acc: 0.243 Test Loss: 33068224.000 Test Acc: 0.243
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 4.005627393722534
+Epoch: 6, Steps: 17 | Train Loss: 2402708.817 Vali Loss: 28930886.000 Vali Acc: 0.259 Test Loss: 28930886.000 Test Acc: 0.259
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 3.3423972129821777
+Epoch: 7, Steps: 17 | Train Loss: 1716782.070 Vali Loss: 17961366.000 Vali Acc: 0.240 Test Loss: 17961366.000 Test Acc: 0.240
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 3.412829637527466
+Epoch: 8, Steps: 17 | Train Loss: 18634650.564 Vali Loss: 94403048.000 Vali Acc: 0.247 Test Loss: 94403048.000 Test Acc: 0.247
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 5.166331052780151
+Epoch: 9, Steps: 17 | Train Loss: 145971860.159 Vali Loss: 22099892.000 Vali Acc: 0.243 Test Loss: 22099892.000 Test Acc: 0.243
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 3.885756492614746
+Epoch: 10, Steps: 17 | Train Loss: 4369361.313 Vali Loss: 99843320.000 Vali Acc: 0.266 Test Loss: 99843320.000 Test Acc: 0.266
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 4.1875457763671875
+Epoch: 11, Steps: 17 | Train Loss: 3796478.395 Vali Loss: 425145504.000 Vali Acc: 0.270 Test Loss: 425145504.000 Test Acc: 0.270
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 4.060622930526733
+Epoch: 12, Steps: 17 | Train Loss: 885408.940 Vali Loss: 72762864.000 Vali Acc: 0.255 Test Loss: 72762864.000 Test Acc: 0.255
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 3.323777437210083
+Epoch: 13, Steps: 17 | Train Loss: 1634770495.143 Vali Loss: 5214089216.000 Vali Acc: 0.243 Test Loss: 5214089216.000 Test Acc: 0.243
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 4.130940198898315
+Epoch: 14, Steps: 17 | Train Loss: 795602532.172 Vali Loss: 4902379520.000 Vali Acc: 0.266 Test Loss: 4902379520.000 Test Acc: 0.266
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.24714828897338403
+model parameter : 10481664
+model size : 59.52MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 6.610990762710571
+Epoch: 1, Steps: 17 | Train Loss: 565153.616 Vali Loss: 3053002.500 Vali Acc: 0.221 Test Loss: 3053002.500 Test Acc: 0.221
+Validation loss decreased (inf --> 30.309491).  Saving model ...
+Epoch: 2 cost time: 3.6589503288269043
+Epoch: 2, Steps: 17 | Train Loss: 900588.743 Vali Loss: 68278.812 Vali Acc: 0.247 Test Loss: 68278.812 Test Acc: 0.247
+Validation loss decreased (30.309491 --> 0.435640).  Saving model ...
+Epoch: 3 cost time: 3.5171897411346436
+Epoch: 3, Steps: 17 | Train Loss: 6261348.203 Vali Loss: 1498384.625 Vali Acc: 0.251 Test Loss: 1498384.625 Test Acc: 0.251
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 3.3071341514587402
+Epoch: 4, Steps: 17 | Train Loss: 4018378.270 Vali Loss: 44915160.000 Vali Acc: 0.224 Test Loss: 44915160.000 Test Acc: 0.224
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 3.1402065753936768
+Epoch: 5, Steps: 17 | Train Loss: 3319144.059 Vali Loss: 30198244.000 Vali Acc: 0.213 Test Loss: 30198244.000 Test Acc: 0.213
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 4.434826135635376
+Epoch: 6, Steps: 17 | Train Loss: 2264249.595 Vali Loss: 52506332.000 Vali Acc: 0.240 Test Loss: 52506332.000 Test Acc: 0.240
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 4.440738677978516
+Epoch: 7, Steps: 17 | Train Loss: 4629704.614 Vali Loss: 7956962.000 Vali Acc: 0.224 Test Loss: 7956962.000 Test Acc: 0.224
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 3.929356336593628
+Epoch: 8, Steps: 17 | Train Loss: 2913565.565 Vali Loss: 155539888.000 Vali Acc: 0.278 Test Loss: 155539888.000 Test Acc: 0.278
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 3.4989683628082275
+Epoch: 9, Steps: 17 | Train Loss: 20692681.140 Vali Loss: 199010896.000 Vali Acc: 0.297 Test Loss: 199010896.000 Test Acc: 0.297
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 3.5131494998931885
+Epoch: 10, Steps: 17 | Train Loss: 23812249.450 Vali Loss: 2033828096.000 Vali Acc: 0.243 Test Loss: 2033828096.000 Test Acc: 0.243
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 3.486708641052246
+Epoch: 11, Steps: 17 | Train Loss: 65887551.834 Vali Loss: 398373248.000 Vali Acc: 0.255 Test Loss: 398373248.000 Test Acc: 0.255
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 3.825104236602783
+Epoch: 12, Steps: 17 | Train Loss: 26279722.018 Vali Loss: 241770096.000 Vali Acc: 0.259 Test Loss: 241770096.000 Test Acc: 0.259
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.24714828897338403
+model parameter : 10475520
+model size : 59.50MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 6.281933307647705
+Epoch: 1, Steps: 17 | Train Loss: 807451.822 Vali Loss: 346268.938 Vali Acc: 0.247 Test Loss: 346268.938 Test Acc: 0.247
+Validation loss decreased (inf --> 3.215541).  Saving model ...
+Epoch: 2 cost time: 3.45534610748291
+Epoch: 2, Steps: 17 | Train Loss: 12927403.706 Vali Loss: 10730007.000 Vali Acc: 0.221 Test Loss: 10730007.000 Test Acc: 0.221
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 3.8585236072540283
+Epoch: 3, Steps: 17 | Train Loss: 4454754.335 Vali Loss: 1512987.000 Vali Acc: 0.240 Test Loss: 1512987.000 Test Acc: 0.240
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 3.704784870147705
+Epoch: 4, Steps: 17 | Train Loss: 2548094.458 Vali Loss: 2779346.250 Vali Acc: 0.240 Test Loss: 2779346.250 Test Acc: 0.240
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 3.938072919845581
+Epoch: 5, Steps: 17 | Train Loss: 4619695.477 Vali Loss: 17160026.000 Vali Acc: 0.255 Test Loss: 17160026.000 Test Acc: 0.255
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 4.77793025970459
+Epoch: 6, Steps: 17 | Train Loss: 19853296.492 Vali Loss: 29723104.000 Vali Acc: 0.281 Test Loss: 29723104.000 Test Acc: 0.281
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 3.468010663986206
+Epoch: 7, Steps: 17 | Train Loss: 920517.161 Vali Loss: 33794908.000 Vali Acc: 0.240 Test Loss: 33794908.000 Test Acc: 0.240
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 3.5287370681762695
+Epoch: 8, Steps: 17 | Train Loss: 23262666.747 Vali Loss: 92936328.000 Vali Acc: 0.278 Test Loss: 92936328.000 Test Acc: 0.278
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 4.3368449211120605
+Epoch: 9, Steps: 17 | Train Loss: 92326417.908 Vali Loss: 57243400.000 Vali Acc: 0.247 Test Loss: 57243400.000 Test Acc: 0.247
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 3.618396282196045
+Epoch: 10, Steps: 17 | Train Loss: 8843633.720 Vali Loss: 256424896.000 Vali Acc: 0.274 Test Loss: 256424896.000 Test Acc: 0.274
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 3.599571466445923
+Epoch: 11, Steps: 17 | Train Loss: 13026351.530 Vali Loss: 585723584.000 Vali Acc: 0.228 Test Loss: 585723584.000 Test Acc: 0.228
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm1024_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.24714828897338403
+model parameter : 10472448
+model size : 59.49MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.133391380310059
+Epoch: 1, Steps: 17 | Train Loss: 30422741.078 Vali Loss: 198054.969 Vali Acc: 0.285 Test Loss: 198054.969 Test Acc: 0.285
+Validation loss decreased (inf --> 1.695379).  Saving model ...
+Epoch: 2 cost time: 2.524808883666992
+Epoch: 2, Steps: 17 | Train Loss: 5999420.858 Vali Loss: 1183460.500 Vali Acc: 0.243 Test Loss: 1183460.500 Test Acc: 0.243
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 3.0329549312591553
+Epoch: 3, Steps: 17 | Train Loss: 2129614.574 Vali Loss: 4033800.500 Vali Acc: 0.243 Test Loss: 4033800.500 Test Acc: 0.243
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 2.304035186767578
+Epoch: 4, Steps: 17 | Train Loss: 90150.693 Vali Loss: 313046.438 Vali Acc: 0.221 Test Loss: 313046.438 Test Acc: 0.221
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 2.5423169136047363
+Epoch: 5, Steps: 17 | Train Loss: 430505.815 Vali Loss: 236134.625 Vali Acc: 0.247 Test Loss: 236134.625 Test Acc: 0.247
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 2.5382626056671143
+Epoch: 6, Steps: 17 | Train Loss: 1408387.512 Vali Loss: 1973698.125 Vali Acc: 0.228 Test Loss: 1973698.125 Test Acc: 0.228
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 2.173748731613159
+Epoch: 7, Steps: 17 | Train Loss: 286422.951 Vali Loss: 2055027.250 Vali Acc: 0.270 Test Loss: 2055027.250 Test Acc: 0.270
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 2.369706153869629
+Epoch: 8, Steps: 17 | Train Loss: 76592.273 Vali Loss: 796555.125 Vali Acc: 0.232 Test Loss: 796555.125 Test Acc: 0.232
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 2.4989733695983887
+Epoch: 9, Steps: 17 | Train Loss: 151352.589 Vali Loss: 1747467.250 Vali Acc: 0.221 Test Loss: 1747467.250 Test Acc: 0.221
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 2.0177555084228516
+Epoch: 10, Steps: 17 | Train Loss: 109413.619 Vali Loss: 10355793.000 Vali Acc: 0.262 Test Loss: 10355793.000 Test Acc: 0.262
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 2.163696765899658
+Epoch: 11, Steps: 17 | Train Loss: 4485483.586 Vali Loss: 138504688.000 Vali Acc: 0.255 Test Loss: 138504688.000 Test Acc: 0.255
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.28517110266159695
+model parameter : 4440064
+model size : 26.71MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.556074619293213
+Epoch: 1, Steps: 17 | Train Loss: 15117920.425 Vali Loss: 198257.703 Vali Acc: 0.278 Test Loss: 198257.703 Test Acc: 0.278
+Validation loss decreased (inf --> 1.705010).  Saving model ...
+Epoch: 2 cost time: 2.296304702758789
+Epoch: 2, Steps: 17 | Train Loss: 9430056.685 Vali Loss: 648980.750 Vali Acc: 0.262 Test Loss: 648980.750 Test Acc: 0.262
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 2.0289506912231445
+Epoch: 3, Steps: 17 | Train Loss: 451868.097 Vali Loss: 2479741.750 Vali Acc: 0.266 Test Loss: 2479741.750 Test Acc: 0.266
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.9740562438964844
+Epoch: 4, Steps: 17 | Train Loss: 188538.829 Vali Loss: 759000.875 Vali Acc: 0.209 Test Loss: 759000.875 Test Acc: 0.209
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.8574109077453613
+Epoch: 5, Steps: 17 | Train Loss: 111934.508 Vali Loss: 866787.500 Vali Acc: 0.255 Test Loss: 866787.500 Test Acc: 0.255
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 2.382488965988159
+Epoch: 6, Steps: 17 | Train Loss: 76755.724 Vali Loss: 222969.672 Vali Acc: 0.281 Test Loss: 222969.672 Test Acc: 0.281
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 2.3567073345184326
+Epoch: 7, Steps: 17 | Train Loss: 531006.712 Vali Loss: 2753626.750 Vali Acc: 0.251 Test Loss: 2753626.750 Test Acc: 0.251
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 2.3275954723358154
+Epoch: 8, Steps: 17 | Train Loss: 935288.660 Vali Loss: 5689464.500 Vali Acc: 0.289 Test Loss: 5689464.500 Test Acc: 0.289
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 2.1327621936798096
+Epoch: 9, Steps: 17 | Train Loss: 76274.486 Vali Loss: 7022386.000 Vali Acc: 0.259 Test Loss: 7022386.000 Test Acc: 0.259
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 2.173013687133789
+Epoch: 10, Steps: 17 | Train Loss: 133656.434 Vali Loss: 21803160.000 Vali Acc: 0.251 Test Loss: 21803160.000 Test Acc: 0.251
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 2.3227593898773193
+Epoch: 11, Steps: 17 | Train Loss: 155034.451 Vali Loss: 4619615.500 Vali Acc: 0.259 Test Loss: 4619615.500 Test Acc: 0.259
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.27756653992395436
+model parameter : 4427776
+model size : 26.66MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.916163682937622
+Epoch: 1, Steps: 17 | Train Loss: 1317761.336 Vali Loss: 1970034.500 Vali Acc: 0.289 Test Loss: 1970034.500 Test Acc: 0.289
+Validation loss decreased (inf --> 19.411371).  Saving model ...
+Epoch: 2 cost time: 1.971256971359253
+Epoch: 2, Steps: 17 | Train Loss: 11368420.942 Vali Loss: 367878.344 Vali Acc: 0.259 Test Loss: 367878.344 Test Acc: 0.259
+Validation loss decreased (19.411371 --> 3.420228).  Saving model ...
+Epoch: 3 cost time: 2.1558761596679688
+Epoch: 3, Steps: 17 | Train Loss: 320889.591 Vali Loss: 326979.750 Vali Acc: 0.289 Test Loss: 326979.750 Test Acc: 0.289
+Validation loss decreased (3.420228 --> 2.980824).  Saving model ...
+Epoch: 4 cost time: 2.0260307788848877
+Epoch: 4, Steps: 17 | Train Loss: 140603.779 Vali Loss: 289755.062 Vali Acc: 0.259 Test Loss: 289755.062 Test Acc: 0.259
+Validation loss decreased (2.980824 --> 2.638995).  Saving model ...
+Epoch: 5 cost time: 2.040628433227539
+Epoch: 5, Steps: 17 | Train Loss: 726392.448 Vali Loss: 48523.438 Vali Acc: 0.240 Test Loss: 48523.438 Test Acc: 0.240
+Validation loss decreased (2.638995 --> 0.245691).  Saving model ...
+Epoch: 6 cost time: 2.093862533569336
+Epoch: 6, Steps: 17 | Train Loss: 124371.981 Vali Loss: 2827227.750 Vali Acc: 0.232 Test Loss: 2827227.750 Test Acc: 0.232
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 2.3861563205718994
+Epoch: 7, Steps: 17 | Train Loss: 29214.076 Vali Loss: 2106206.750 Vali Acc: 0.266 Test Loss: 2106206.750 Test Acc: 0.266
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.8534555435180664
+Epoch: 8, Steps: 17 | Train Loss: 98840.321 Vali Loss: 875428.062 Vali Acc: 0.247 Test Loss: 875428.062 Test Acc: 0.247
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 2.194728136062622
+Epoch: 9, Steps: 17 | Train Loss: 288526.480 Vali Loss: 1628683.250 Vali Acc: 0.259 Test Loss: 1628683.250 Test Acc: 0.259
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 2.1782360076904297
+Epoch: 10, Steps: 17 | Train Loss: 46154.568 Vali Loss: 13270630.000 Vali Acc: 0.240 Test Loss: 13270630.000 Test Acc: 0.240
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 2.6424832344055176
+Epoch: 11, Steps: 17 | Train Loss: 1286017.872 Vali Loss: 6060221.000 Vali Acc: 0.232 Test Loss: 6060221.000 Test Acc: 0.232
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 2.2468461990356445
+Epoch: 12, Steps: 17 | Train Loss: 42398533.778 Vali Loss: 23498032.000 Vali Acc: 0.266 Test Loss: 23498032.000 Test Acc: 0.266
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 2.5845723152160645
+Epoch: 13, Steps: 17 | Train Loss: 13356.731 Vali Loss: 11396923.000 Vali Acc: 0.262 Test Loss: 11396923.000 Test Acc: 0.262
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 2.0510542392730713
+Epoch: 14, Steps: 17 | Train Loss: 1060125.030 Vali Loss: 6295127.000 Vali Acc: 0.251 Test Loss: 6295127.000 Test Acc: 0.251
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 2.4379632472991943
+Epoch: 15, Steps: 17 | Train Loss: 438338.479 Vali Loss: 252224192.000 Vali Acc: 0.240 Test Loss: 252224192.000 Test Acc: 0.240
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.23954372623574144
+model parameter : 4421632
+model size : 26.64MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.910309791564941
+Epoch: 1, Steps: 17 | Train Loss: 5310765.703 Vali Loss: 316236.344 Vali Acc: 0.274 Test Loss: 316236.344 Test Acc: 0.274
+Validation loss decreased (inf --> 2.888599).  Saving model ...
+Epoch: 2 cost time: 2.160349130630493
+Epoch: 2, Steps: 17 | Train Loss: 303387.994 Vali Loss: 295504.938 Vali Acc: 0.259 Test Loss: 295504.938 Test Acc: 0.259
+Validation loss decreased (2.888599 --> 2.696494).  Saving model ...
+Epoch: 3 cost time: 2.2555127143859863
+Epoch: 3, Steps: 17 | Train Loss: 260002.967 Vali Loss: 57215.191 Vali Acc: 0.243 Test Loss: 57215.191 Test Acc: 0.243
+Validation loss decreased (2.696494 --> 0.328806).  Saving model ...
+Epoch: 4 cost time: 2.1709532737731934
+Epoch: 4, Steps: 17 | Train Loss: 274476.101 Vali Loss: 548089.688 Vali Acc: 0.209 Test Loss: 548089.688 Test Acc: 0.209
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 2.6832709312438965
+Epoch: 5, Steps: 17 | Train Loss: 61649.269 Vali Loss: 145825.766 Vali Acc: 0.281 Test Loss: 145825.766 Test Acc: 0.281
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 2.1619930267333984
+Epoch: 6, Steps: 17 | Train Loss: 22876.409 Vali Loss: 1351934.625 Vali Acc: 0.247 Test Loss: 1351934.625 Test Acc: 0.247
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 2.7829959392547607
+Epoch: 7, Steps: 17 | Train Loss: 57146.278 Vali Loss: 567208.375 Vali Acc: 0.285 Test Loss: 567208.375 Test Acc: 0.285
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 2.4645793437957764
+Epoch: 8, Steps: 17 | Train Loss: 1045640.023 Vali Loss: 1627464.750 Vali Acc: 0.255 Test Loss: 1627464.750 Test Acc: 0.255
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 2.641023874282837
+Epoch: 9, Steps: 17 | Train Loss: 397070.543 Vali Loss: 3436938.250 Vali Acc: 0.281 Test Loss: 3436938.250 Test Acc: 0.281
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.9990944862365723
+Epoch: 10, Steps: 17 | Train Loss: 328149.282 Vali Loss: 5825535.000 Vali Acc: 0.270 Test Loss: 5825535.000 Test Acc: 0.270
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 2.019084930419922
+Epoch: 11, Steps: 17 | Train Loss: 408990.637 Vali Loss: 43972364.000 Vali Acc: 0.247 Test Loss: 43972364.000 Test Acc: 0.247
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 2.0952072143554688
+Epoch: 12, Steps: 17 | Train Loss: 66119.147 Vali Loss: 56464500.000 Vali Acc: 0.205 Test Loss: 56464500.000 Test Acc: 0.205
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 2.2230823040008545
+Epoch: 13, Steps: 17 | Train Loss: 224519.901 Vali Loss: 9501983.000 Vali Acc: 0.243 Test Loss: 9501983.000 Test Acc: 0.243
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.24334600760456274
+model parameter : 4418560
+model size : 26.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.856722116470337
+Epoch: 1, Steps: 17 | Train Loss: 443765.414 Vali Loss: 52810.691 Vali Acc: 0.262 Test Loss: 52810.691 Test Acc: 0.262
+Validation loss decreased (inf --> 0.265750).  Saving model ...
+Epoch: 2 cost time: 2.04671311378479
+Epoch: 2, Steps: 17 | Train Loss: 221881.632 Vali Loss: 220924.781 Vali Acc: 0.240 Test Loss: 220924.781 Test Acc: 0.240
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.9839684963226318
+Epoch: 3, Steps: 17 | Train Loss: 219579.724 Vali Loss: 227707.469 Vali Acc: 0.285 Test Loss: 227707.469 Test Acc: 0.285
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 2.737531900405884
+Epoch: 4, Steps: 17 | Train Loss: 395666.202 Vali Loss: 159647.375 Vali Acc: 0.297 Test Loss: 159647.375 Test Acc: 0.297
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 2.1758532524108887
+Epoch: 5, Steps: 17 | Train Loss: 95315.471 Vali Loss: 841585.500 Vali Acc: 0.232 Test Loss: 841585.500 Test Acc: 0.232
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 2.2854623794555664
+Epoch: 6, Steps: 17 | Train Loss: 28549.610 Vali Loss: 820308.125 Vali Acc: 0.240 Test Loss: 820308.125 Test Acc: 0.240
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.9561347961425781
+Epoch: 7, Steps: 17 | Train Loss: 1184957.523 Vali Loss: 193680.047 Vali Acc: 0.274 Test Loss: 193680.047 Test Acc: 0.274
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 2.3444390296936035
+Epoch: 8, Steps: 17 | Train Loss: 1376611.408 Vali Loss: 428052.969 Vali Acc: 0.289 Test Loss: 428052.969 Test Acc: 0.289
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 2.2630252838134766
+Epoch: 9, Steps: 17 | Train Loss: 38361.033 Vali Loss: 1446202.375 Vali Acc: 0.278 Test Loss: 1446202.375 Test Acc: 0.278
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 2.409325361251831
+Epoch: 10, Steps: 17 | Train Loss: 439503.077 Vali Loss: 24643136.000 Vali Acc: 0.270 Test Loss: 24643136.000 Test Acc: 0.270
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 2.503326654434204
+Epoch: 11, Steps: 17 | Train Loss: 835713.604 Vali Loss: 9342951.000 Vali Acc: 0.270 Test Loss: 9342951.000 Test Acc: 0.270
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm512_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.2623574144486692
+model parameter : 4417024
+model size : 26.62MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.3711535930633545
+Epoch: 1, Steps: 17 | Train Loss: 1788481.970 Vali Loss: 188720.625 Vali Acc: 0.270 Test Loss: 188720.625 Test Acc: 0.270
+Validation loss decreased (inf --> 1.617244).  Saving model ...
+Epoch: 2 cost time: 1.441591501235962
+Epoch: 2, Steps: 17 | Train Loss: 25140112.788 Vali Loss: 196887.297 Vali Acc: 0.259 Test Loss: 196887.297 Test Acc: 0.259
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.8486402034759521
+Epoch: 3, Steps: 17 | Train Loss: 3315972.460 Vali Loss: 398638.438 Vali Acc: 0.255 Test Loss: 398638.438 Test Acc: 0.255
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.8067152500152588
+Epoch: 4, Steps: 17 | Train Loss: 123073.801 Vali Loss: 79329.398 Vali Acc: 0.308 Test Loss: 79329.398 Test Acc: 0.308
+Validation loss decreased (1.617244 --> 0.485309).  Saving model ...
+Epoch: 5 cost time: 1.9792828559875488
+Epoch: 5, Steps: 17 | Train Loss: 273040.815 Vali Loss: 30049.947 Vali Acc: 0.274 Test Loss: 30049.947 Test Acc: 0.274
+Validation loss decreased (0.485309 --> 0.026735).  Saving model ...
+Epoch: 6 cost time: 1.6620378494262695
+Epoch: 6, Steps: 17 | Train Loss: 4203.580 Vali Loss: 1081244.875 Vali Acc: 0.281 Test Loss: 1081244.875 Test Acc: 0.281
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.7703328132629395
+Epoch: 7, Steps: 17 | Train Loss: 49565.530 Vali Loss: 194662.172 Vali Acc: 0.285 Test Loss: 194662.172 Test Acc: 0.285
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.8412508964538574
+Epoch: 8, Steps: 17 | Train Loss: 231457.596 Vali Loss: 49468.926 Vali Acc: 0.243 Test Loss: 49468.926 Test Acc: 0.243
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.679962158203125
+Epoch: 9, Steps: 17 | Train Loss: 56951.688 Vali Loss: 694282.688 Vali Acc: 0.232 Test Loss: 694282.688 Test Acc: 0.232
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.9625921249389648
+Epoch: 10, Steps: 17 | Train Loss: 72931.713 Vali Loss: 3126078.750 Vali Acc: 0.243 Test Loss: 3126078.750 Test Acc: 0.243
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.9521191120147705
+Epoch: 11, Steps: 17 | Train Loss: 93922.034 Vali Loss: 6666386.000 Vali Acc: 0.270 Test Loss: 6666386.000 Test Acc: 0.270
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.9529249668121338
+Epoch: 12, Steps: 17 | Train Loss: 26913.516 Vali Loss: 5921801.000 Vali Acc: 0.278 Test Loss: 5921801.000 Test Acc: 0.278
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.553800344467163
+Epoch: 13, Steps: 17 | Train Loss: 1152773.671 Vali Loss: 3320179.500 Vali Acc: 0.281 Test Loss: 3320179.500 Test Acc: 0.281
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.9151945114135742
+Epoch: 14, Steps: 17 | Train Loss: 22926.946 Vali Loss: 2950127.750 Vali Acc: 0.278 Test Loss: 2950127.750 Test Acc: 0.278
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 2.3387949466705322
+Epoch: 15, Steps: 17 | Train Loss: 284264.397 Vali Loss: 3532706.500 Vali Acc: 0.259 Test Loss: 3532706.500 Test Acc: 0.259
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.2737642585551331
+model parameter : 2015232
+model size : 12.58MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.815150022506714
+Epoch: 1, Steps: 17 | Train Loss: 14668536.450 Vali Loss: 1940778.750 Vali Acc: 0.259 Test Loss: 1940778.750 Test Acc: 0.259
+Validation loss decreased (inf --> 19.149232).  Saving model ...
+Epoch: 2 cost time: 1.639692783355713
+Epoch: 2, Steps: 17 | Train Loss: 448823.536 Vali Loss: 476861.156 Vali Acc: 0.251 Test Loss: 476861.156 Test Acc: 0.251
+Validation loss decreased (19.149232 --> 4.517661).  Saving model ...
+Epoch: 3 cost time: 1.640568494796753
+Epoch: 3, Steps: 17 | Train Loss: 768818.137 Vali Loss: 86222.789 Vali Acc: 0.270 Test Loss: 86222.789 Test Acc: 0.270
+Validation loss decreased (4.517661 --> 0.592266).  Saving model ...
+Epoch: 4 cost time: 1.6449203491210938
+Epoch: 4, Steps: 17 | Train Loss: 3760147.109 Vali Loss: 409012.531 Vali Acc: 0.240 Test Loss: 409012.531 Test Acc: 0.240
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.7656030654907227
+Epoch: 5, Steps: 17 | Train Loss: 28852.895 Vali Loss: 81235.453 Vali Acc: 0.262 Test Loss: 81235.453 Test Acc: 0.262
+Validation loss decreased (0.592266 --> 0.549997).  Saving model ...
+Epoch: 6 cost time: 1.6186752319335938
+Epoch: 6, Steps: 17 | Train Loss: 79073.559 Vali Loss: 668621.312 Vali Acc: 0.243 Test Loss: 668621.312 Test Acc: 0.243
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.7144114971160889
+Epoch: 7, Steps: 17 | Train Loss: 70230.361 Vali Loss: 46022.711 Vali Acc: 0.251 Test Loss: 46022.711 Test Acc: 0.251
+Validation loss decreased (0.549997 --> 0.209277).  Saving model ...
+Epoch: 8 cost time: 1.8465707302093506
+Epoch: 8, Steps: 17 | Train Loss: 94211.576 Vali Loss: 259649.000 Vali Acc: 0.262 Test Loss: 259649.000 Test Acc: 0.262
+EarlyStopping counter: 1 out of 10
+Epoch: 9 cost time: 2.4888463020324707
+Epoch: 9, Steps: 17 | Train Loss: 29174.545 Vali Loss: 15729.811 Vali Acc: 0.293 Test Loss: 15729.811 Test Acc: 0.293
+Validation loss decreased (0.209277 --> -0.135478).  Saving model ...
+Epoch: 10 cost time: 1.722515344619751
+Epoch: 10, Steps: 17 | Train Loss: 5119.207 Vali Loss: 580552.875 Vali Acc: 0.278 Test Loss: 580552.875 Test Acc: 0.278
+EarlyStopping counter: 1 out of 10
+Epoch: 11 cost time: 1.7335598468780518
+Epoch: 11, Steps: 17 | Train Loss: 34143.158 Vali Loss: 385370.969 Vali Acc: 0.240 Test Loss: 385370.969 Test Acc: 0.240
+EarlyStopping counter: 2 out of 10
+Epoch: 12 cost time: 1.8073499202728271
+Epoch: 12, Steps: 17 | Train Loss: 10567.099 Vali Loss: 512296.281 Vali Acc: 0.262 Test Loss: 512296.281 Test Acc: 0.262
+EarlyStopping counter: 3 out of 10
+Epoch: 13 cost time: 1.8712522983551025
+Epoch: 13, Steps: 17 | Train Loss: 5755435.178 Vali Loss: 1441210.500 Vali Acc: 0.232 Test Loss: 1441210.500 Test Acc: 0.232
+EarlyStopping counter: 4 out of 10
+Epoch: 14 cost time: 1.9243083000183105
+Epoch: 14, Steps: 17 | Train Loss: 14662.250 Vali Loss: 2108066.750 Vali Acc: 0.217 Test Loss: 2108066.750 Test Acc: 0.217
+EarlyStopping counter: 5 out of 10
+Epoch: 15 cost time: 1.8411433696746826
+Epoch: 15, Steps: 17 | Train Loss: 32393.650 Vali Loss: 323276.812 Vali Acc: 0.236 Test Loss: 323276.812 Test Acc: 0.236
+EarlyStopping counter: 6 out of 10
+Epoch: 16 cost time: 1.5243291854858398
+Epoch: 16, Steps: 17 | Train Loss: 19685.443 Vali Loss: 225615.344 Vali Acc: 0.278 Test Loss: 225615.344 Test Acc: 0.278
+EarlyStopping counter: 7 out of 10
+Epoch: 17 cost time: 1.7339270114898682
+Epoch: 17, Steps: 17 | Train Loss: 9546.286 Vali Loss: 478853.906 Vali Acc: 0.259 Test Loss: 478853.906 Test Acc: 0.259
+EarlyStopping counter: 8 out of 10
+Epoch: 18 cost time: 1.7519681453704834
+Epoch: 18, Steps: 17 | Train Loss: 1341.413 Vali Loss: 2183211.000 Vali Acc: 0.228 Test Loss: 2183211.000 Test Acc: 0.228
+EarlyStopping counter: 9 out of 10
+Epoch: 19 cost time: 1.2967510223388672
+Epoch: 19, Steps: 17 | Train Loss: 280525.348 Vali Loss: 1439987.625 Vali Acc: 0.251 Test Loss: 1439987.625 Test Acc: 0.251
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.29277566539923955
+model parameter : 2009088
+model size : 12.55MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 6.292935848236084
+Epoch: 1, Steps: 17 | Train Loss: 13514460.472 Vali Loss: 1281686.750 Vali Acc: 0.262 Test Loss: 1281686.750 Test Acc: 0.262
+Validation loss decreased (inf --> 12.554509).  Saving model ...
+Epoch: 2 cost time: 1.8627922534942627
+Epoch: 2, Steps: 17 | Train Loss: 620515.057 Vali Loss: 79848.828 Vali Acc: 0.255 Test Loss: 79848.828 Test Acc: 0.255
+Validation loss decreased (12.554509 --> 0.543735).  Saving model ...
+Epoch: 3 cost time: 1.7420587539672852
+Epoch: 3, Steps: 17 | Train Loss: 109089.553 Vali Loss: 395736.938 Vali Acc: 0.251 Test Loss: 395736.938 Test Acc: 0.251
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.64677095413208
+Epoch: 4, Steps: 17 | Train Loss: 159178.758 Vali Loss: 273130.031 Vali Acc: 0.262 Test Loss: 273130.031 Test Acc: 0.262
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.9815125465393066
+Epoch: 5, Steps: 17 | Train Loss: 21563.829 Vali Loss: 436604.281 Vali Acc: 0.232 Test Loss: 436604.281 Test Acc: 0.232
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.840555191040039
+Epoch: 6, Steps: 17 | Train Loss: 63560.721 Vali Loss: 782713.938 Vali Acc: 0.236 Test Loss: 782713.938 Test Acc: 0.236
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.766298532485962
+Epoch: 7, Steps: 17 | Train Loss: 71477.387 Vali Loss: 1038930.125 Vali Acc: 0.224 Test Loss: 1038930.125 Test Acc: 0.224
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 2.3808915615081787
+Epoch: 8, Steps: 17 | Train Loss: 9867.991 Vali Loss: 6407.748 Vali Acc: 0.285 Test Loss: 6407.748 Test Acc: 0.285
+Validation loss decreased (0.543735 --> -0.221094).  Saving model ...
+Epoch: 9 cost time: 1.749873399734497
+Epoch: 9, Steps: 17 | Train Loss: 3580.343 Vali Loss: 834931.188 Vali Acc: 0.243 Test Loss: 834931.188 Test Acc: 0.243
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 1.809570074081421
+Epoch: 10, Steps: 17 | Train Loss: 236227.992 Vali Loss: 104434.062 Vali Acc: 0.240 Test Loss: 104434.062 Test Acc: 0.240
+EarlyStopping counter: 2 out of 10
+Epoch: 11 cost time: 1.9485576152801514
+Epoch: 11, Steps: 17 | Train Loss: 38032.900 Vali Loss: 855509.875 Vali Acc: 0.255 Test Loss: 855509.875 Test Acc: 0.255
+EarlyStopping counter: 3 out of 10
+Epoch: 12 cost time: 2.0576679706573486
+Epoch: 12, Steps: 17 | Train Loss: 45780.539 Vali Loss: 495724.656 Vali Acc: 0.251 Test Loss: 495724.656 Test Acc: 0.251
+EarlyStopping counter: 4 out of 10
+Epoch: 13 cost time: 1.809061050415039
+Epoch: 13, Steps: 17 | Train Loss: 7034.482 Vali Loss: 142526.500 Vali Acc: 0.293 Test Loss: 142526.500 Test Acc: 0.293
+EarlyStopping counter: 5 out of 10
+Epoch: 14 cost time: 2.348841667175293
+Epoch: 14, Steps: 17 | Train Loss: 46012.378 Vali Loss: 1862538.125 Vali Acc: 0.262 Test Loss: 1862538.125 Test Acc: 0.262
+EarlyStopping counter: 6 out of 10
+Epoch: 15 cost time: 2.0102005004882812
+Epoch: 15, Steps: 17 | Train Loss: 2996.644 Vali Loss: 956929.875 Vali Acc: 0.240 Test Loss: 956929.875 Test Acc: 0.240
+EarlyStopping counter: 7 out of 10
+Epoch: 16 cost time: 1.7372519969940186
+Epoch: 16, Steps: 17 | Train Loss: 36470.141 Vali Loss: 1021990.500 Vali Acc: 0.274 Test Loss: 1021990.500 Test Acc: 0.274
+EarlyStopping counter: 8 out of 10
+Epoch: 17 cost time: 1.7315990924835205
+Epoch: 17, Steps: 17 | Train Loss: 55391.292 Vali Loss: 11356788.000 Vali Acc: 0.274 Test Loss: 11356788.000 Test Acc: 0.274
+EarlyStopping counter: 9 out of 10
+Epoch: 18 cost time: 1.7651550769805908
+Epoch: 18, Steps: 17 | Train Loss: 9061.172 Vali Loss: 17009864.000 Vali Acc: 0.255 Test Loss: 17009864.000 Test Acc: 0.255
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.28517110266159695
+model parameter : 2006016
+model size : 12.54MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.5247743129730225
+Epoch: 1, Steps: 17 | Train Loss: 21733413.617 Vali Loss: 101629.219 Vali Acc: 0.259 Test Loss: 101629.219 Test Acc: 0.259
+Validation loss decreased (inf --> 0.757737).  Saving model ...
+Epoch: 2 cost time: 2.060922622680664
+Epoch: 2, Steps: 17 | Train Loss: 236309.807 Vali Loss: 138189.812 Vali Acc: 0.251 Test Loss: 138189.812 Test Acc: 0.251
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.6548550128936768
+Epoch: 3, Steps: 17 | Train Loss: 251690.924 Vali Loss: 528206.125 Vali Acc: 0.266 Test Loss: 528206.125 Test Acc: 0.266
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 2.7169628143310547
+Epoch: 4, Steps: 17 | Train Loss: 138327.719 Vali Loss: 547508.312 Vali Acc: 0.243 Test Loss: 547508.312 Test Acc: 0.243
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.7664189338684082
+Epoch: 5, Steps: 17 | Train Loss: 11580.500 Vali Loss: 13078.645 Vali Acc: 0.243 Test Loss: 13078.645 Test Acc: 0.243
+Validation loss decreased (0.757737 --> -0.112560).  Saving model ...
+Epoch: 6 cost time: 1.710118293762207
+Epoch: 6, Steps: 17 | Train Loss: 6210.013 Vali Loss: 310089.125 Vali Acc: 0.259 Test Loss: 310089.125 Test Acc: 0.259
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 2.1462831497192383
+Epoch: 7, Steps: 17 | Train Loss: 232797.727 Vali Loss: 154975.828 Vali Acc: 0.232 Test Loss: 154975.828 Test Acc: 0.232
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.7803852558135986
+Epoch: 8, Steps: 17 | Train Loss: 6664.459 Vali Loss: 73142.469 Vali Acc: 0.278 Test Loss: 73142.469 Test Acc: 0.278
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 2.204174041748047
+Epoch: 9, Steps: 17 | Train Loss: 59668.001 Vali Loss: 257207.141 Vali Acc: 0.274 Test Loss: 257207.141 Test Acc: 0.274
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.7078237533569336
+Epoch: 10, Steps: 17 | Train Loss: 35989.206 Vali Loss: 116715.266 Vali Acc: 0.228 Test Loss: 116715.266 Test Acc: 0.228
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.6564185619354248
+Epoch: 11, Steps: 17 | Train Loss: 8512.573 Vali Loss: 134450.469 Vali Acc: 0.262 Test Loss: 134450.469 Test Acc: 0.262
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.9798166751861572
+Epoch: 12, Steps: 17 | Train Loss: 331472.540 Vali Loss: 28198.713 Vali Acc: 0.259 Test Loss: 28198.713 Test Acc: 0.259
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 2.3130905628204346
+Epoch: 13, Steps: 17 | Train Loss: 41711.551 Vali Loss: 142780.406 Vali Acc: 0.228 Test Loss: 142780.406 Test Acc: 0.228
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 2.094709873199463
+Epoch: 14, Steps: 17 | Train Loss: 48367.286 Vali Loss: 102872.219 Vali Acc: 0.224 Test Loss: 102872.219 Test Acc: 0.224
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 2.4075253009796143
+Epoch: 15, Steps: 17 | Train Loss: 34163.604 Vali Loss: 1961180.500 Vali Acc: 0.255 Test Loss: 1961180.500 Test Acc: 0.255
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.24334600760456274
+model parameter : 2004480
+model size : 12.53MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 6.126538276672363
+Epoch: 1, Steps: 17 | Train Loss: 130935.433 Vali Loss: 35191.582 Vali Acc: 0.289 Test Loss: 35191.582 Test Acc: 0.289
+Validation loss decreased (inf --> 0.062942).  Saving model ...
+Epoch: 2 cost time: 2.3097317218780518
+Epoch: 2, Steps: 17 | Train Loss: 115637.218 Vali Loss: 3001.961 Vali Acc: 0.236 Test Loss: 3001.961 Test Acc: 0.236
+Validation loss decreased (0.062942 --> -0.205722).  Saving model ...
+Epoch: 3 cost time: 2.051117420196533
+Epoch: 3, Steps: 17 | Train Loss: 224171.651 Vali Loss: 2565.886 Vali Acc: 0.278 Test Loss: 2565.886 Test Acc: 0.278
+Validation loss decreased (-0.205722 --> -0.251908).  Saving model ...
+Epoch: 4 cost time: 2.12776255607605
+Epoch: 4, Steps: 17 | Train Loss: 61902.667 Vali Loss: 7666.617 Vali Acc: 0.240 Test Loss: 7666.617 Test Acc: 0.240
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.6690442562103271
+Epoch: 5, Steps: 17 | Train Loss: 12273.511 Vali Loss: 30673.727 Vali Acc: 0.259 Test Loss: 30673.727 Test Acc: 0.259
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.971508502960205
+Epoch: 6, Steps: 17 | Train Loss: 22287.983 Vali Loss: 24524.166 Vali Acc: 0.232 Test Loss: 24524.166 Test Acc: 0.232
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 2.0522828102111816
+Epoch: 7, Steps: 17 | Train Loss: 31464.139 Vali Loss: 250282.594 Vali Acc: 0.259 Test Loss: 250282.594 Test Acc: 0.259
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.769731044769287
+Epoch: 8, Steps: 17 | Train Loss: 483036.432 Vali Loss: 361207.156 Vali Acc: 0.293 Test Loss: 361207.156 Test Acc: 0.293
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.5255978107452393
+Epoch: 9, Steps: 17 | Train Loss: 2071.531 Vali Loss: 72514.273 Vali Acc: 0.289 Test Loss: 72514.273 Test Acc: 0.289
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.935903549194336
+Epoch: 10, Steps: 17 | Train Loss: 46719.446 Vali Loss: 20830.785 Vali Acc: 0.255 Test Loss: 20830.785 Test Acc: 0.255
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.975440263748169
+Epoch: 11, Steps: 17 | Train Loss: 21184.563 Vali Loss: 31837.262 Vali Acc: 0.281 Test Loss: 31837.262 Test Acc: 0.281
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.8574528694152832
+Epoch: 12, Steps: 17 | Train Loss: 243392.978 Vali Loss: 52385.566 Vali Acc: 0.255 Test Loss: 52385.566 Test Acc: 0.255
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.7784321308135986
+Epoch: 13, Steps: 17 | Train Loss: 13818.315 Vali Loss: 1432169.750 Vali Acc: 0.285 Test Loss: 1432169.750 Test Acc: 0.285
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm256_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.27756653992395436
+model parameter : 2003712
+model size : 12.53MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.192828416824341
+Epoch: 1, Steps: 17 | Train Loss: 4268944.838 Vali Loss: 7756440.500 Vali Acc: 0.255 Test Loss: 7756440.500 Test Acc: 0.255
+Validation loss decreased (inf --> 77.309647).  Saving model ...
+Epoch: 2 cost time: 1.9610607624053955
+Epoch: 2, Steps: 17 | Train Loss: 335924.349 Vali Loss: 206548.266 Vali Acc: 0.259 Test Loss: 206548.266 Test Acc: 0.259
+Validation loss decreased (77.309647 --> 1.806927).  Saving model ...
+Epoch: 3 cost time: 1.8411235809326172
+Epoch: 3, Steps: 17 | Train Loss: 1325567.577 Vali Loss: 1645553.875 Vali Acc: 0.285 Test Loss: 1645553.875 Test Acc: 0.285
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.8348958492279053
+Epoch: 4, Steps: 17 | Train Loss: 294772.174 Vali Loss: 243554.281 Vali Acc: 0.285 Test Loss: 243554.281 Test Acc: 0.285
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 2.023817777633667
+Epoch: 5, Steps: 17 | Train Loss: 421534.411 Vali Loss: 265945.875 Vali Acc: 0.270 Test Loss: 265945.875 Test Acc: 0.270
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 2.140587329864502
+Epoch: 6, Steps: 17 | Train Loss: 86497.181 Vali Loss: 345682.625 Vali Acc: 0.274 Test Loss: 345682.625 Test Acc: 0.274
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.643798589706421
+Epoch: 7, Steps: 17 | Train Loss: 262641.909 Vali Loss: 3825.590 Vali Acc: 0.274 Test Loss: 3825.590 Test Acc: 0.274
+Validation loss decreased (1.806927 --> -0.235508).  Saving model ...
+Epoch: 8 cost time: 1.5507383346557617
+Epoch: 8, Steps: 17 | Train Loss: 105929.593 Vali Loss: 124026.031 Vali Acc: 0.259 Test Loss: 124026.031 Test Acc: 0.259
+EarlyStopping counter: 1 out of 10
+Epoch: 9 cost time: 1.6147525310516357
+Epoch: 9, Steps: 17 | Train Loss: 7882.668 Vali Loss: 2624.682 Vali Acc: 0.278 Test Loss: 2624.682 Test Acc: 0.278
+Validation loss decreased (-0.235508 --> -0.251320).  Saving model ...
+Epoch: 10 cost time: 1.513209342956543
+Epoch: 10, Steps: 17 | Train Loss: 3403.211 Vali Loss: 316886.156 Vali Acc: 0.308 Test Loss: 316886.156 Test Acc: 0.308
+EarlyStopping counter: 1 out of 10
+Epoch: 11 cost time: 1.8501946926116943
+Epoch: 11, Steps: 17 | Train Loss: 778792.818 Vali Loss: 78917.242 Vali Acc: 0.289 Test Loss: 78917.242 Test Acc: 0.289
+EarlyStopping counter: 2 out of 10
+Epoch: 12 cost time: 1.9254143238067627
+Epoch: 12, Steps: 17 | Train Loss: 3272.128 Vali Loss: 75582.305 Vali Acc: 0.255 Test Loss: 75582.305 Test Acc: 0.255
+EarlyStopping counter: 3 out of 10
+Epoch: 13 cost time: 1.876474380493164
+Epoch: 13, Steps: 17 | Train Loss: 38006.485 Vali Loss: 318265.656 Vali Acc: 0.251 Test Loss: 318265.656 Test Acc: 0.251
+EarlyStopping counter: 4 out of 10
+Epoch: 14 cost time: 1.6347019672393799
+Epoch: 14, Steps: 17 | Train Loss: 1942.200 Vali Loss: 557013.500 Vali Acc: 0.255 Test Loss: 557013.500 Test Acc: 0.255
+EarlyStopping counter: 5 out of 10
+Epoch: 15 cost time: 1.8083999156951904
+Epoch: 15, Steps: 17 | Train Loss: 10094.529 Vali Loss: 79900.594 Vali Acc: 0.312 Test Loss: 79900.594 Test Acc: 0.312
+EarlyStopping counter: 6 out of 10
+Epoch: 16 cost time: 1.5314691066741943
+Epoch: 16, Steps: 17 | Train Loss: 684.966 Vali Loss: 50527.453 Vali Acc: 0.278 Test Loss: 50527.453 Test Acc: 0.278
+EarlyStopping counter: 7 out of 10
+Epoch: 17 cost time: 1.7118017673492432
+Epoch: 17, Steps: 17 | Train Loss: 15979.753 Vali Loss: 253831.531 Vali Acc: 0.251 Test Loss: 253831.531 Test Acc: 0.251
+EarlyStopping counter: 8 out of 10
+Epoch: 18 cost time: 1.3248426914215088
+Epoch: 18, Steps: 17 | Train Loss: 3206.660 Vali Loss: 166953.109 Vali Acc: 0.221 Test Loss: 166953.109 Test Acc: 0.221
+EarlyStopping counter: 9 out of 10
+Epoch: 19 cost time: 1.661898136138916
+Epoch: 19, Steps: 17 | Train Loss: 36687.614 Vali Loss: 48353.699 Vali Acc: 0.240 Test Loss: 48353.699 Test Acc: 0.240
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.27756653992395436
+model parameter : 956416
+model size : 6.09MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.013705015182495
+Epoch: 1, Steps: 17 | Train Loss: 983732.280 Vali Loss: 2582090.250 Vali Acc: 0.278 Test Loss: 2582090.250 Test Acc: 0.278
+Validation loss decreased (inf --> 25.543335).  Saving model ...
+Epoch: 2 cost time: 1.5764813423156738
+Epoch: 2, Steps: 17 | Train Loss: 668299.969 Vali Loss: 127080.797 Vali Acc: 0.285 Test Loss: 127080.797 Test Acc: 0.285
+Validation loss decreased (25.543335 --> 0.985637).  Saving model ...
+Epoch: 3 cost time: 1.3373801708221436
+Epoch: 3, Steps: 17 | Train Loss: 3638421.741 Vali Loss: 343208.781 Vali Acc: 0.289 Test Loss: 343208.781 Test Acc: 0.289
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.767496109008789
+Epoch: 4, Steps: 17 | Train Loss: 199838.435 Vali Loss: 323781.219 Vali Acc: 0.232 Test Loss: 323781.219 Test Acc: 0.232
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.7056469917297363
+Epoch: 5, Steps: 17 | Train Loss: 57066.780 Vali Loss: 422257.312 Vali Acc: 0.224 Test Loss: 422257.312 Test Acc: 0.224
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 2.250148296356201
+Epoch: 6, Steps: 17 | Train Loss: 367181.924 Vali Loss: 50639.402 Vali Acc: 0.285 Test Loss: 50639.402 Test Acc: 0.285
+Validation loss decreased (0.985637 --> 0.221223).  Saving model ...
+Epoch: 7 cost time: 2.1957032680511475
+Epoch: 7, Steps: 17 | Train Loss: 43437.400 Vali Loss: 14838.566 Vali Acc: 0.243 Test Loss: 14838.566 Test Acc: 0.243
+Validation loss decreased (0.221223 --> -0.094960).  Saving model ...
+Epoch: 8 cost time: 1.5700702667236328
+Epoch: 8, Steps: 17 | Train Loss: 18849.748 Vali Loss: 3254.941 Vali Acc: 0.232 Test Loss: 3254.941 Test Acc: 0.232
+Validation loss decreased (-0.094960 --> -0.199390).  Saving model ...
+Epoch: 9 cost time: 1.2634501457214355
+Epoch: 9, Steps: 17 | Train Loss: 5122.971 Vali Loss: 17940.785 Vali Acc: 0.289 Test Loss: 17940.785 Test Acc: 0.289
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 2.127617120742798
+Epoch: 10, Steps: 17 | Train Loss: 6695.552 Vali Loss: 15646.790 Vali Acc: 0.274 Test Loss: 15646.790 Test Acc: 0.274
+EarlyStopping counter: 2 out of 10
+Epoch: 11 cost time: 2.0847091674804688
+Epoch: 11, Steps: 17 | Train Loss: 70585.142 Vali Loss: 105362.328 Vali Acc: 0.247 Test Loss: 105362.328 Test Acc: 0.247
+EarlyStopping counter: 3 out of 10
+Epoch: 12 cost time: 1.434546709060669
+Epoch: 12, Steps: 17 | Train Loss: 4822.412 Vali Loss: 39622.945 Vali Acc: 0.270 Test Loss: 39622.945 Test Acc: 0.270
+EarlyStopping counter: 4 out of 10
+Epoch: 13 cost time: 1.375354290008545
+Epoch: 13, Steps: 17 | Train Loss: 2219.692 Vali Loss: 147176.062 Vali Acc: 0.243 Test Loss: 147176.062 Test Acc: 0.243
+EarlyStopping counter: 5 out of 10
+Epoch: 14 cost time: 1.5923094749450684
+Epoch: 14, Steps: 17 | Train Loss: 7327.718 Vali Loss: 54226.305 Vali Acc: 0.236 Test Loss: 54226.305 Test Acc: 0.236
+EarlyStopping counter: 6 out of 10
+Epoch: 15 cost time: 1.917769193649292
+Epoch: 15, Steps: 17 | Train Loss: 169.886 Vali Loss: 47109.262 Vali Acc: 0.266 Test Loss: 47109.262 Test Acc: 0.266
+EarlyStopping counter: 7 out of 10
+Epoch: 16 cost time: 1.6564860343933105
+Epoch: 16, Steps: 17 | Train Loss: 12640.354 Vali Loss: 45636.492 Vali Acc: 0.297 Test Loss: 45636.492 Test Acc: 0.297
+EarlyStopping counter: 8 out of 10
+Epoch: 17 cost time: 1.383420467376709
+Epoch: 17, Steps: 17 | Train Loss: 656.522 Vali Loss: 5877.432 Vali Acc: 0.255 Test Loss: 5877.432 Test Acc: 0.255
+EarlyStopping counter: 9 out of 10
+Epoch: 18 cost time: 1.7485771179199219
+Epoch: 18, Steps: 17 | Train Loss: 1492.245 Vali Loss: 9204.638 Vali Acc: 0.278 Test Loss: 9204.638 Test Acc: 0.278
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.23193916349809887
+model parameter : 953344
+model size : 6.08MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.408545255661011
+Epoch: 1, Steps: 17 | Train Loss: 788420.191 Vali Loss: 164304.984 Vali Acc: 0.255 Test Loss: 164304.984 Test Acc: 0.255
+Validation loss decreased (inf --> 1.388297).  Saving model ...
+Epoch: 2 cost time: 1.6184768676757812
+Epoch: 2, Steps: 17 | Train Loss: 447334.529 Vali Loss: 172277.547 Vali Acc: 0.243 Test Loss: 172277.547 Test Acc: 0.243
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.6573736667633057
+Epoch: 3, Steps: 17 | Train Loss: 11067782.066 Vali Loss: 852347.625 Vali Acc: 0.281 Test Loss: 852347.625 Test Acc: 0.281
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.3637890815734863
+Epoch: 4, Steps: 17 | Train Loss: 48479.823 Vali Loss: 994112.812 Vali Acc: 0.247 Test Loss: 994112.812 Test Acc: 0.247
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.5128679275512695
+Epoch: 5, Steps: 17 | Train Loss: 458668.350 Vali Loss: 248308.266 Vali Acc: 0.262 Test Loss: 248308.266 Test Acc: 0.262
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.6572649478912354
+Epoch: 6, Steps: 17 | Train Loss: 52408.222 Vali Loss: 98685.516 Vali Acc: 0.274 Test Loss: 98685.516 Test Acc: 0.274
+Validation loss decreased (1.388297 --> 0.713091).  Saving model ...
+Epoch: 7 cost time: 1.6991052627563477
+Epoch: 7, Steps: 17 | Train Loss: 8941.163 Vali Loss: 76113.445 Vali Acc: 0.278 Test Loss: 76113.445 Test Acc: 0.278
+Validation loss decreased (0.713091 --> 0.483568).  Saving model ...
+Epoch: 8 cost time: 1.2925152778625488
+Epoch: 8, Steps: 17 | Train Loss: 72082.610 Vali Loss: 52178.656 Vali Acc: 0.232 Test Loss: 52178.656 Test Acc: 0.232
+Validation loss decreased (0.483568 --> 0.289847).  Saving model ...
+Epoch: 9 cost time: 1.542011022567749
+Epoch: 9, Steps: 17 | Train Loss: 18174.952 Vali Loss: 52942.836 Vali Acc: 0.247 Test Loss: 52942.836 Test Acc: 0.247
+Validation loss decreased (0.289847 --> 0.282280).  Saving model ...
+Epoch: 10 cost time: 1.3856580257415771
+Epoch: 10, Steps: 17 | Train Loss: 4793.870 Vali Loss: 62731.477 Vali Acc: 0.247 Test Loss: 62731.477 Test Acc: 0.247
+EarlyStopping counter: 1 out of 10
+Epoch: 11 cost time: 1.8400452136993408
+Epoch: 11, Steps: 17 | Train Loss: 2218.799 Vali Loss: 30105.758 Vali Acc: 0.232 Test Loss: 30105.758 Test Acc: 0.232
+Validation loss decreased (0.282280 --> 0.069118).  Saving model ...
+Epoch: 12 cost time: 1.7288284301757812
+Epoch: 12, Steps: 17 | Train Loss: 16625.792 Vali Loss: 97633.289 Vali Acc: 0.251 Test Loss: 97633.289 Test Acc: 0.251
+EarlyStopping counter: 1 out of 10
+Epoch: 13 cost time: 1.908963680267334
+Epoch: 13, Steps: 17 | Train Loss: 2970.301 Vali Loss: 8279.983 Vali Acc: 0.224 Test Loss: 8279.983 Test Acc: 0.224
+Validation loss decreased (0.069118 --> -0.141535).  Saving model ...
+Epoch: 14 cost time: 1.4210283756256104
+Epoch: 14, Steps: 17 | Train Loss: 1609.871 Vali Loss: 16099.461 Vali Acc: 0.247 Test Loss: 16099.461 Test Acc: 0.247
+EarlyStopping counter: 1 out of 10
+Epoch: 15 cost time: 1.5657386779785156
+Epoch: 15, Steps: 17 | Train Loss: 12039.084 Vali Loss: 29105.719 Vali Acc: 0.251 Test Loss: 29105.719 Test Acc: 0.251
+EarlyStopping counter: 2 out of 10
+Epoch: 16 cost time: 1.4892752170562744
+Epoch: 16, Steps: 17 | Train Loss: 223.892 Vali Loss: 116442.516 Vali Acc: 0.194 Test Loss: 116442.516 Test Acc: 0.194
+EarlyStopping counter: 3 out of 10
+Epoch: 17 cost time: 1.7398176193237305
+Epoch: 17, Steps: 17 | Train Loss: 27838.804 Vali Loss: 150022.375 Vali Acc: 0.270 Test Loss: 150022.375 Test Acc: 0.270
+EarlyStopping counter: 4 out of 10
+Epoch: 18 cost time: 1.8792364597320557
+Epoch: 18, Steps: 17 | Train Loss: 328.854 Vali Loss: 148784.062 Vali Acc: 0.221 Test Loss: 148784.062 Test Acc: 0.221
+EarlyStopping counter: 5 out of 10
+Epoch: 19 cost time: 1.8735015392303467
+Epoch: 19, Steps: 17 | Train Loss: 857.869 Vali Loss: 191323.156 Vali Acc: 0.224 Test Loss: 191323.156 Test Acc: 0.224
+EarlyStopping counter: 6 out of 10
+Epoch: 20 cost time: 1.7154772281646729
+Epoch: 20, Steps: 17 | Train Loss: 3031.376 Vali Loss: 309518.969 Vali Acc: 0.243 Test Loss: 309518.969 Test Acc: 0.243
+EarlyStopping counter: 7 out of 10
+Epoch: 21 cost time: 1.4764256477355957
+Epoch: 21, Steps: 17 | Train Loss: 1920.814 Vali Loss: 98366.367 Vali Acc: 0.251 Test Loss: 98366.367 Test Acc: 0.251
+EarlyStopping counter: 8 out of 10
+Epoch: 22 cost time: 1.6119561195373535
+Epoch: 22, Steps: 17 | Train Loss: 116.994 Vali Loss: 75096.484 Vali Acc: 0.205 Test Loss: 75096.484 Test Acc: 0.205
+EarlyStopping counter: 9 out of 10
+Epoch: 23 cost time: 1.3782310485839844
+Epoch: 23, Steps: 17 | Train Loss: 7230.029 Vali Loss: 75117.203 Vali Acc: 0.213 Test Loss: 75117.203 Test Acc: 0.213
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.22433460076045628
+model parameter : 951808
+model size : 6.08MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 6.136048793792725
+Epoch: 1, Steps: 17 | Train Loss: 1178039.959 Vali Loss: 45811.781 Vali Acc: 0.281 Test Loss: 45811.781 Test Acc: 0.281
+Validation loss decreased (inf --> 0.176749).  Saving model ...
+Epoch: 2 cost time: 1.851961612701416
+Epoch: 2, Steps: 17 | Train Loss: 240266.336 Vali Loss: 230305.469 Vali Acc: 0.278 Test Loss: 230305.469 Test Acc: 0.278
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.1407837867736816
+Epoch: 3, Steps: 17 | Train Loss: 61166.364 Vali Loss: 218833.281 Vali Acc: 0.251 Test Loss: 218833.281 Test Acc: 0.251
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.7648160457611084
+Epoch: 4, Steps: 17 | Train Loss: 42077.949 Vali Loss: 184697.125 Vali Acc: 0.202 Test Loss: 184697.125 Test Acc: 0.202
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 2.06956148147583
+Epoch: 5, Steps: 17 | Train Loss: 7669.568 Vali Loss: 46342.156 Vali Acc: 0.240 Test Loss: 46342.156 Test Acc: 0.240
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.5015616416931152
+Epoch: 6, Steps: 17 | Train Loss: 2382.413 Vali Loss: 50954.969 Vali Acc: 0.262 Test Loss: 50954.969 Test Acc: 0.262
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.6363589763641357
+Epoch: 7, Steps: 17 | Train Loss: 2079.804 Vali Loss: 34893.633 Vali Acc: 0.243 Test Loss: 34893.633 Test Acc: 0.243
+Validation loss decreased (0.176749 --> 0.105590).  Saving model ...
+Epoch: 8 cost time: 1.8811814785003662
+Epoch: 8, Steps: 17 | Train Loss: 13322.766 Vali Loss: 38476.648 Vali Acc: 0.281 Test Loss: 38476.648 Test Acc: 0.281
+Validation loss decreased (0.105590 --> 0.103398).  Saving model ...
+Epoch: 9 cost time: 1.6128642559051514
+Epoch: 9, Steps: 17 | Train Loss: 2830.577 Vali Loss: 23920.012 Vali Acc: 0.262 Test Loss: 23920.012 Test Acc: 0.262
+Validation loss decreased (0.103398 --> -0.023157).  Saving model ...
+Epoch: 10 cost time: 1.5482661724090576
+Epoch: 10, Steps: 17 | Train Loss: 2581.576 Vali Loss: 5748.872 Vali Acc: 0.266 Test Loss: 5748.872 Test Acc: 0.266
+Validation loss decreased (-0.023157 --> -0.208671).  Saving model ...
+Epoch: 11 cost time: 1.6464107036590576
+Epoch: 11, Steps: 17 | Train Loss: 891.883 Vali Loss: 15234.114 Vali Acc: 0.255 Test Loss: 15234.114 Test Acc: 0.255
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 1.7275567054748535
+Epoch: 12, Steps: 17 | Train Loss: 4811.516 Vali Loss: 54451.848 Vali Acc: 0.247 Test Loss: 54451.848 Test Acc: 0.247
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 1.5484716892242432
+Epoch: 13, Steps: 17 | Train Loss: 19037.301 Vali Loss: 315714.500 Vali Acc: 0.240 Test Loss: 315714.500 Test Acc: 0.240
+EarlyStopping counter: 3 out of 10
+Epoch: 14 cost time: 1.858717441558838
+Epoch: 14, Steps: 17 | Train Loss: 2995.498 Vali Loss: 428377.938 Vali Acc: 0.274 Test Loss: 428377.938 Test Acc: 0.274
+EarlyStopping counter: 4 out of 10
+Epoch: 15 cost time: 1.44148850440979
+Epoch: 15, Steps: 17 | Train Loss: 1237.402 Vali Loss: 24749.455 Vali Acc: 0.259 Test Loss: 24749.455 Test Acc: 0.259
+EarlyStopping counter: 5 out of 10
+Epoch: 16 cost time: 1.3542559146881104
+Epoch: 16, Steps: 17 | Train Loss: 2727.585 Vali Loss: 94648.789 Vali Acc: 0.259 Test Loss: 94648.789 Test Acc: 0.259
+EarlyStopping counter: 6 out of 10
+Epoch: 17 cost time: 1.4146480560302734
+Epoch: 17, Steps: 17 | Train Loss: 1757.746 Vali Loss: 126142.031 Vali Acc: 0.243 Test Loss: 126142.031 Test Acc: 0.243
+EarlyStopping counter: 7 out of 10
+Epoch: 18 cost time: 1.3309149742126465
+Epoch: 18, Steps: 17 | Train Loss: 2470.699 Vali Loss: 51713.738 Vali Acc: 0.281 Test Loss: 51713.738 Test Acc: 0.281
+EarlyStopping counter: 8 out of 10
+Epoch: 19 cost time: 1.2301676273345947
+Epoch: 19, Steps: 17 | Train Loss: 1281.838 Vali Loss: 45627.941 Vali Acc: 0.289 Test Loss: 45627.941 Test Acc: 0.289
+EarlyStopping counter: 9 out of 10
+Epoch: 20 cost time: 1.2146577835083008
+Epoch: 20, Steps: 17 | Train Loss: 16169.035 Vali Loss: 25658.105 Vali Acc: 0.228 Test Loss: 25658.105 Test Acc: 0.228
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.2661596958174905
+model parameter : 951040
+model size : 6.07MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.977118015289307
+Epoch: 1, Steps: 17 | Train Loss: 7256358.480 Vali Loss: 1467917.000 Vali Acc: 0.259 Test Loss: 1467917.000 Test Acc: 0.259
+Validation loss decreased (inf --> 14.420615).  Saving model ...
+Epoch: 2 cost time: 1.6651501655578613
+Epoch: 2, Steps: 17 | Train Loss: 146545.884 Vali Loss: 337107.750 Vali Acc: 0.251 Test Loss: 337107.750 Test Acc: 0.251
+Validation loss decreased (14.420615 --> 3.120127).  Saving model ...
+Epoch: 3 cost time: 1.8577287197113037
+Epoch: 3, Steps: 17 | Train Loss: 70176.781 Vali Loss: 12194.054 Vali Acc: 0.221 Test Loss: 12194.054 Test Acc: 0.221
+Validation loss decreased (3.120127 --> -0.098592).  Saving model ...
+Epoch: 4 cost time: 1.2547433376312256
+Epoch: 4, Steps: 17 | Train Loss: 54518.752 Vali Loss: 2326.702 Vali Acc: 0.289 Test Loss: 2326.702 Test Acc: 0.289
+Validation loss decreased (-0.098592 --> -0.265706).  Saving model ...
+Epoch: 5 cost time: 1.378643274307251
+Epoch: 5, Steps: 17 | Train Loss: 27419.325 Vali Loss: 30445.363 Vali Acc: 0.270 Test Loss: 30445.363 Test Acc: 0.270
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.5675947666168213
+Epoch: 6, Steps: 17 | Train Loss: 13284.022 Vali Loss: 901.338 Vali Acc: 0.297 Test Loss: 901.338 Test Acc: 0.297
+Validation loss decreased (-0.265706 --> -0.287565).  Saving model ...
+Epoch: 7 cost time: 1.4206466674804688
+Epoch: 7, Steps: 17 | Train Loss: 6516.627 Vali Loss: 155.733 Vali Acc: 0.278 Test Loss: 155.733 Test Acc: 0.278
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.7973625659942627
+Epoch: 8, Steps: 17 | Train Loss: 3766.642 Vali Loss: 8643.584 Vali Acc: 0.266 Test Loss: 8643.584 Test Acc: 0.266
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.915513515472412
+Epoch: 9, Steps: 17 | Train Loss: 5790.371 Vali Loss: 182.904 Vali Acc: 0.251 Test Loss: 182.904 Test Acc: 0.251
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.707458257675171
+Epoch: 10, Steps: 17 | Train Loss: 1624.543 Vali Loss: 413.910 Vali Acc: 0.304 Test Loss: 413.910 Test Acc: 0.304
+Validation loss decreased (-0.287565 --> -0.300043).  Saving model ...
+Epoch: 11 cost time: 1.5094997882843018
+Epoch: 11, Steps: 17 | Train Loss: 4159.764 Vali Loss: 3147.274 Vali Acc: 0.289 Test Loss: 3147.274 Test Acc: 0.289
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 1.321302890777588
+Epoch: 12, Steps: 17 | Train Loss: 2190.821 Vali Loss: 2296.158 Vali Acc: 0.251 Test Loss: 2296.158 Test Acc: 0.251
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 1.3552100658416748
+Epoch: 13, Steps: 17 | Train Loss: 13450.148 Vali Loss: 280.727 Vali Acc: 0.274 Test Loss: 280.727 Test Acc: 0.274
+EarlyStopping counter: 3 out of 10
+Epoch: 14 cost time: 1.645925521850586
+Epoch: 14, Steps: 17 | Train Loss: 17245.534 Vali Loss: 6339.082 Vali Acc: 0.266 Test Loss: 6339.082 Test Acc: 0.266
+EarlyStopping counter: 4 out of 10
+Epoch: 15 cost time: 1.7685041427612305
+Epoch: 15, Steps: 17 | Train Loss: 2272.377 Vali Loss: 818.240 Vali Acc: 0.228 Test Loss: 818.240 Test Acc: 0.228
+EarlyStopping counter: 5 out of 10
+Epoch: 16 cost time: 1.4220881462097168
+Epoch: 16, Steps: 17 | Train Loss: 720.733 Vali Loss: 13342.549 Vali Acc: 0.228 Test Loss: 13342.549 Test Acc: 0.228
+EarlyStopping counter: 6 out of 10
+Epoch: 17 cost time: 1.413785457611084
+Epoch: 17, Steps: 17 | Train Loss: 2727.062 Vali Loss: 1683.957 Vali Acc: 0.281 Test Loss: 1683.957 Test Acc: 0.281
+EarlyStopping counter: 7 out of 10
+Epoch: 18 cost time: 1.7170615196228027
+Epoch: 18, Steps: 17 | Train Loss: 8261.752 Vali Loss: 8426.981 Vali Acc: 0.247 Test Loss: 8426.981 Test Acc: 0.247
+EarlyStopping counter: 8 out of 10
+Epoch: 19 cost time: 2.063492774963379
+Epoch: 19, Steps: 17 | Train Loss: 632.339 Vali Loss: 1096.805 Vali Acc: 0.232 Test Loss: 1096.805 Test Acc: 0.232
+EarlyStopping counter: 9 out of 10
+Epoch: 20 cost time: 1.4501447677612305
+Epoch: 20, Steps: 17 | Train Loss: 3559.195 Vali Loss: 2242.407 Vali Acc: 0.262 Test Loss: 2242.407 Test Acc: 0.262
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm128_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.3041825095057034
+model parameter : 950656
+model size : 6.07MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.441749811172485
+Epoch: 1, Steps: 17 | Train Loss: 6345120.130 Vali Loss: 2659719.000 Vali Acc: 0.266 Test Loss: 2659719.000 Test Acc: 0.266
+Validation loss decreased (inf --> 26.331029).  Saving model ...
+Epoch: 2 cost time: 1.735431432723999
+Epoch: 2, Steps: 17 | Train Loss: 41133747.308 Vali Loss: 1171066.250 Vali Acc: 0.262 Test Loss: 1171066.250 Test Acc: 0.262
+Validation loss decreased (26.331029 --> 11.448304).  Saving model ...
+Epoch: 3 cost time: 1.6422595977783203
+Epoch: 3, Steps: 17 | Train Loss: 849362.161 Vali Loss: 15634.829 Vali Acc: 0.255 Test Loss: 15634.829 Test Acc: 0.255
+Validation loss decreased (11.448304 --> -0.098405).  Saving model ...
+Epoch: 4 cost time: 1.3852074146270752
+Epoch: 4, Steps: 17 | Train Loss: 353030.710 Vali Loss: 515112.250 Vali Acc: 0.278 Test Loss: 515112.250 Test Acc: 0.278
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.3084263801574707
+Epoch: 5, Steps: 17 | Train Loss: 307344.970 Vali Loss: 1411611.625 Vali Acc: 0.274 Test Loss: 1411611.625 Test Acc: 0.274
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.4980309009552002
+Epoch: 6, Steps: 17 | Train Loss: 82957.277 Vali Loss: 218053.672 Vali Acc: 0.251 Test Loss: 218053.672 Test Acc: 0.251
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.6221034526824951
+Epoch: 7, Steps: 17 | Train Loss: 119032.070 Vali Loss: 168762.375 Vali Acc: 0.228 Test Loss: 168762.375 Test Acc: 0.228
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.654808521270752
+Epoch: 8, Steps: 17 | Train Loss: 425620.546 Vali Loss: 353081.094 Vali Acc: 0.266 Test Loss: 353081.094 Test Acc: 0.266
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.8700141906738281
+Epoch: 9, Steps: 17 | Train Loss: 1072.766 Vali Loss: 7401.653 Vali Acc: 0.232 Test Loss: 7401.653 Test Acc: 0.232
+Validation loss decreased (-0.098405 --> -0.157923).  Saving model ...
+Epoch: 10 cost time: 1.5538554191589355
+Epoch: 10, Steps: 17 | Train Loss: 54328.361 Vali Loss: 215775.703 Vali Acc: 0.278 Test Loss: 215775.703 Test Acc: 0.278
+EarlyStopping counter: 1 out of 10
+Epoch: 11 cost time: 1.7801194190979004
+Epoch: 11, Steps: 17 | Train Loss: 7729.412 Vali Loss: 478490.562 Vali Acc: 0.232 Test Loss: 478490.562 Test Acc: 0.232
+EarlyStopping counter: 2 out of 10
+Epoch: 12 cost time: 1.6138579845428467
+Epoch: 12, Steps: 17 | Train Loss: 56728.231 Vali Loss: 204864.578 Vali Acc: 0.247 Test Loss: 204864.578 Test Acc: 0.247
+EarlyStopping counter: 3 out of 10
+Epoch: 13 cost time: 1.525562047958374
+Epoch: 13, Steps: 17 | Train Loss: 9255.655 Vali Loss: 229704.750 Vali Acc: 0.240 Test Loss: 229704.750 Test Acc: 0.240
+EarlyStopping counter: 4 out of 10
+Epoch: 14 cost time: 2.0229482650756836
+Epoch: 14, Steps: 17 | Train Loss: 4144.950 Vali Loss: 170397.516 Vali Acc: 0.247 Test Loss: 170397.516 Test Acc: 0.247
+EarlyStopping counter: 5 out of 10
+Epoch: 15 cost time: 1.3814327716827393
+Epoch: 15, Steps: 17 | Train Loss: 2988.666 Vali Loss: 377134.156 Vali Acc: 0.259 Test Loss: 377134.156 Test Acc: 0.259
+EarlyStopping counter: 6 out of 10
+Epoch: 16 cost time: 1.8589355945587158
+Epoch: 16, Steps: 17 | Train Loss: 2503.375 Vali Loss: 443641.438 Vali Acc: 0.270 Test Loss: 443641.438 Test Acc: 0.270
+EarlyStopping counter: 7 out of 10
+Epoch: 17 cost time: 1.4599573612213135
+Epoch: 17, Steps: 17 | Train Loss: 8486.601 Vali Loss: 585557.312 Vali Acc: 0.209 Test Loss: 585557.312 Test Acc: 0.209
+EarlyStopping counter: 8 out of 10
+Epoch: 18 cost time: 1.5682435035705566
+Epoch: 18, Steps: 17 | Train Loss: 24461.509 Vali Loss: 440394.500 Vali Acc: 0.266 Test Loss: 440394.500 Test Acc: 0.266
+EarlyStopping counter: 9 out of 10
+Epoch: 19 cost time: 1.2894575595855713
+Epoch: 19, Steps: 17 | Train Loss: 1825.204 Vali Loss: 488494.250 Vali Acc: 0.236 Test Loss: 488494.250 Test Acc: 0.236
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.23193916349809887
+model parameter : 465408
+model size : 3.00MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.536123037338257
+Epoch: 1, Steps: 17 | Train Loss: 25423650.074 Vali Loss: 4590572.000 Vali Acc: 0.232 Test Loss: 4590572.000 Test Acc: 0.232
+Validation loss decreased (inf --> 45.673781).  Saving model ...
+Epoch: 2 cost time: 1.5645713806152344
+Epoch: 2, Steps: 17 | Train Loss: 797208.648 Vali Loss: 7509972.000 Vali Acc: 0.236 Test Loss: 7509972.000 Test Acc: 0.236
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.4067068099975586
+Epoch: 3, Steps: 17 | Train Loss: 740020.234 Vali Loss: 89010.656 Vali Acc: 0.262 Test Loss: 89010.656 Test Acc: 0.262
+Validation loss decreased (45.673781 --> 0.627749).  Saving model ...
+Epoch: 4 cost time: 1.7711701393127441
+Epoch: 4, Steps: 17 | Train Loss: 306865.611 Vali Loss: 860916.812 Vali Acc: 0.262 Test Loss: 860916.812 Test Acc: 0.262
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.5139081478118896
+Epoch: 5, Steps: 17 | Train Loss: 92417.972 Vali Loss: 1037752.125 Vali Acc: 0.228 Test Loss: 1037752.125 Test Acc: 0.228
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.6990892887115479
+Epoch: 6, Steps: 17 | Train Loss: 157992.032 Vali Loss: 7853.204 Vali Acc: 0.255 Test Loss: 7853.204 Test Acc: 0.255
+Validation loss decreased (0.627749 --> -0.176221).  Saving model ...
+Epoch: 7 cost time: 1.4713304042816162
+Epoch: 7, Steps: 17 | Train Loss: 38312.614 Vali Loss: 91470.195 Vali Acc: 0.274 Test Loss: 91470.195 Test Acc: 0.274
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.07011079788208
+Epoch: 8, Steps: 17 | Train Loss: 12485.947 Vali Loss: 709151.688 Vali Acc: 0.232 Test Loss: 709151.688 Test Acc: 0.232
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.5245482921600342
+Epoch: 9, Steps: 17 | Train Loss: 203789.934 Vali Loss: 520344.125 Vali Acc: 0.266 Test Loss: 520344.125 Test Acc: 0.266
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.8725214004516602
+Epoch: 10, Steps: 17 | Train Loss: 3145.364 Vali Loss: 14990.852 Vali Acc: 0.259 Test Loss: 14990.852 Test Acc: 0.259
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.557023048400879
+Epoch: 11, Steps: 17 | Train Loss: 2436.870 Vali Loss: 11647.964 Vali Acc: 0.285 Test Loss: 11647.964 Test Acc: 0.285
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.6374258995056152
+Epoch: 12, Steps: 17 | Train Loss: 854.227 Vali Loss: 4553.274 Vali Acc: 0.236 Test Loss: 4553.274 Test Acc: 0.236
+Validation loss decreased (-0.176221 --> -0.190209).  Saving model ...
+Epoch: 13 cost time: 1.2039132118225098
+Epoch: 13, Steps: 17 | Train Loss: 2341.766 Vali Loss: 32093.066 Vali Acc: 0.232 Test Loss: 32093.066 Test Acc: 0.232
+EarlyStopping counter: 1 out of 10
+Epoch: 14 cost time: 1.5806736946105957
+Epoch: 14, Steps: 17 | Train Loss: 18286.163 Vali Loss: 25807.523 Vali Acc: 0.217 Test Loss: 25807.523 Test Acc: 0.217
+EarlyStopping counter: 2 out of 10
+Epoch: 15 cost time: 1.567106008529663
+Epoch: 15, Steps: 17 | Train Loss: 2904.603 Vali Loss: 458.889 Vali Acc: 0.243 Test Loss: 458.889 Test Acc: 0.243
+Validation loss decreased (-0.190209 --> -0.238757).  Saving model ...
+Epoch: 16 cost time: 2.0444672107696533
+Epoch: 16, Steps: 17 | Train Loss: 3975.595 Vali Loss: 618.363 Vali Acc: 0.285 Test Loss: 618.363 Test Acc: 0.285
+Validation loss decreased (-0.238757 --> -0.278987).  Saving model ...
+Epoch: 17 cost time: 1.4527523517608643
+Epoch: 17, Steps: 17 | Train Loss: 3491.838 Vali Loss: 3390.775 Vali Acc: 0.266 Test Loss: 3390.775 Test Acc: 0.266
+EarlyStopping counter: 1 out of 10
+Epoch: 18 cost time: 1.6641504764556885
+Epoch: 18, Steps: 17 | Train Loss: 3936.802 Vali Loss: 15639.708 Vali Acc: 0.255 Test Loss: 15639.708 Test Acc: 0.255
+EarlyStopping counter: 2 out of 10
+Epoch: 19 cost time: 1.6885461807250977
+Epoch: 19, Steps: 17 | Train Loss: 945.954 Vali Loss: 4908.109 Vali Acc: 0.255 Test Loss: 4908.109 Test Acc: 0.255
+EarlyStopping counter: 3 out of 10
+Epoch: 20 cost time: 1.7361531257629395
+Epoch: 20, Steps: 17 | Train Loss: 256.344 Vali Loss: 16271.465 Vali Acc: 0.243 Test Loss: 16271.465 Test Acc: 0.243
+EarlyStopping counter: 4 out of 10
+Epoch: 21 cost time: 1.44840407371521
+Epoch: 21, Steps: 17 | Train Loss: 1071.002 Vali Loss: 16829.973 Vali Acc: 0.243 Test Loss: 16829.973 Test Acc: 0.243
+EarlyStopping counter: 5 out of 10
+Epoch: 22 cost time: 1.718198299407959
+Epoch: 22, Steps: 17 | Train Loss: 8415.351 Vali Loss: 46527.957 Vali Acc: 0.247 Test Loss: 46527.957 Test Acc: 0.247
+EarlyStopping counter: 6 out of 10
+Epoch: 23 cost time: 1.364750623703003
+Epoch: 23, Steps: 17 | Train Loss: 1387.517 Vali Loss: 9461.308 Vali Acc: 0.255 Test Loss: 9461.308 Test Acc: 0.255
+EarlyStopping counter: 7 out of 10
+Epoch: 24 cost time: 1.3943581581115723
+Epoch: 24, Steps: 17 | Train Loss: 2787.833 Vali Loss: 9722.905 Vali Acc: 0.259 Test Loss: 9722.905 Test Acc: 0.259
+EarlyStopping counter: 8 out of 10
+Epoch: 25 cost time: 1.4995598793029785
+Epoch: 25, Steps: 17 | Train Loss: 708.814 Vali Loss: 13671.140 Vali Acc: 0.251 Test Loss: 13671.140 Test Acc: 0.251
+EarlyStopping counter: 9 out of 10
+Epoch: 26 cost time: 1.7214572429656982
+Epoch: 26, Steps: 17 | Train Loss: 389.670 Vali Loss: 56422.277 Vali Acc: 0.259 Test Loss: 56422.277 Test Acc: 0.259
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.28517110266159695
+model parameter : 463872
+model size : 3.00MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.149835586547852
+Epoch: 1, Steps: 17 | Train Loss: 7201194.802 Vali Loss: 71892.898 Vali Acc: 0.240 Test Loss: 71892.898 Test Acc: 0.240
+Validation loss decreased (inf --> 0.479385).  Saving model ...
+Epoch: 2 cost time: 1.6204674243927002
+Epoch: 2, Steps: 17 | Train Loss: 693638.030 Vali Loss: 527194.500 Vali Acc: 0.236 Test Loss: 527194.500 Test Acc: 0.236
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.503922462463379
+Epoch: 3, Steps: 17 | Train Loss: 201206.930 Vali Loss: 666794.750 Vali Acc: 0.247 Test Loss: 666794.750 Test Acc: 0.247
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.539564609527588
+Epoch: 4, Steps: 17 | Train Loss: 620773.727 Vali Loss: 421572.062 Vali Acc: 0.228 Test Loss: 421572.062 Test Acc: 0.228
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.5238256454467773
+Epoch: 5, Steps: 17 | Train Loss: 133163.431 Vali Loss: 518941.188 Vali Acc: 0.266 Test Loss: 518941.188 Test Acc: 0.266
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.2618424892425537
+Epoch: 6, Steps: 17 | Train Loss: 23990.073 Vali Loss: 446412.188 Vali Acc: 0.289 Test Loss: 446412.188 Test Acc: 0.289
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.5292415618896484
+Epoch: 7, Steps: 17 | Train Loss: 21896.764 Vali Loss: 188970.000 Vali Acc: 0.224 Test Loss: 188970.000 Test Acc: 0.224
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 1.8844270706176758
+Epoch: 8, Steps: 17 | Train Loss: 18451.688 Vali Loss: 210477.562 Vali Acc: 0.240 Test Loss: 210477.562 Test Acc: 0.240
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 1.8231308460235596
+Epoch: 9, Steps: 17 | Train Loss: 14850.319 Vali Loss: 147059.828 Vali Acc: 0.270 Test Loss: 147059.828 Test Acc: 0.270
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 1.4164316654205322
+Epoch: 10, Steps: 17 | Train Loss: 15757.963 Vali Loss: 73538.688 Vali Acc: 0.281 Test Loss: 73538.688 Test Acc: 0.281
+Validation loss decreased (0.479385 --> 0.454018).  Saving model ...
+Epoch: 11 cost time: 1.6680316925048828
+Epoch: 11, Steps: 17 | Train Loss: 343.821 Vali Loss: 69248.898 Vali Acc: 0.232 Test Loss: 69248.898 Test Acc: 0.232
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 1.7299726009368896
+Epoch: 12, Steps: 17 | Train Loss: 13374.525 Vali Loss: 76069.367 Vali Acc: 0.259 Test Loss: 76069.367 Test Acc: 0.259
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 1.8483655452728271
+Epoch: 13, Steps: 17 | Train Loss: 17777.153 Vali Loss: 24936.371 Vali Acc: 0.228 Test Loss: 24936.371 Test Acc: 0.228
+Validation loss decreased (0.454018 --> 0.021227).  Saving model ...
+Epoch: 14 cost time: 1.2755470275878906
+Epoch: 14, Steps: 17 | Train Loss: 2125.030 Vali Loss: 33570.008 Vali Acc: 0.217 Test Loss: 33570.008 Test Acc: 0.217
+EarlyStopping counter: 1 out of 10
+Epoch: 15 cost time: 2.1213598251342773
+Epoch: 15, Steps: 17 | Train Loss: 5533.082 Vali Loss: 50100.617 Vali Acc: 0.255 Test Loss: 50100.617 Test Acc: 0.255
+EarlyStopping counter: 2 out of 10
+Epoch: 16 cost time: 1.6229634284973145
+Epoch: 16, Steps: 17 | Train Loss: 59.240 Vali Loss: 27110.225 Vali Acc: 0.251 Test Loss: 27110.225 Test Acc: 0.251
+Validation loss decreased (0.021227 --> 0.020152).  Saving model ...
+Epoch: 17 cost time: 1.5785257816314697
+Epoch: 17, Steps: 17 | Train Loss: 1472.916 Vali Loss: 22191.703 Vali Acc: 0.262 Test Loss: 22191.703 Test Acc: 0.262
+Validation loss decreased (0.020152 --> -0.040440).  Saving model ...
+Epoch: 18 cost time: 1.8938686847686768
+Epoch: 18, Steps: 17 | Train Loss: 2182.080 Vali Loss: 12799.104 Vali Acc: 0.232 Test Loss: 12799.104 Test Acc: 0.232
+Validation loss decreased (-0.040440 --> -0.103948).  Saving model ...
+Epoch: 19 cost time: 1.9389610290527344
+Epoch: 19, Steps: 17 | Train Loss: 53.254 Vali Loss: 27384.873 Vali Acc: 0.236 Test Loss: 27384.873 Test Acc: 0.236
+EarlyStopping counter: 1 out of 10
+Epoch: 20 cost time: 2.0534090995788574
+Epoch: 20, Steps: 17 | Train Loss: 179.719 Vali Loss: 31564.955 Vali Acc: 0.251 Test Loss: 31564.955 Test Acc: 0.251
+EarlyStopping counter: 2 out of 10
+Epoch: 21 cost time: 1.4779951572418213
+Epoch: 21, Steps: 17 | Train Loss: 11544.563 Vali Loss: 24300.553 Vali Acc: 0.232 Test Loss: 24300.553 Test Acc: 0.232
+EarlyStopping counter: 3 out of 10
+Epoch: 22 cost time: 1.9984474182128906
+Epoch: 22, Steps: 17 | Train Loss: 2414.738 Vali Loss: 15311.451 Vali Acc: 0.205 Test Loss: 15311.451 Test Acc: 0.205
+EarlyStopping counter: 4 out of 10
+Epoch: 23 cost time: 1.4489455223083496
+Epoch: 23, Steps: 17 | Train Loss: 136899.982 Vali Loss: 11704.338 Vali Acc: 0.228 Test Loss: 11704.338 Test Acc: 0.228
+Validation loss decreased (-0.103948 --> -0.111094).  Saving model ...
+Epoch: 24 cost time: 1.7854645252227783
+Epoch: 24, Steps: 17 | Train Loss: 1142.158 Vali Loss: 17656.521 Vali Acc: 0.228 Test Loss: 17656.521 Test Acc: 0.228
+EarlyStopping counter: 1 out of 10
+Epoch: 25 cost time: 1.9907748699188232
+Epoch: 25, Steps: 17 | Train Loss: 59.196 Vali Loss: 21621.100 Vali Acc: 0.266 Test Loss: 21621.100 Test Acc: 0.266
+EarlyStopping counter: 2 out of 10
+Epoch: 26 cost time: 1.9271605014801025
+Epoch: 26, Steps: 17 | Train Loss: 147.017 Vali Loss: 7097.176 Vali Acc: 0.270 Test Loss: 7097.176 Test Acc: 0.270
+Validation loss decreased (-0.111094 --> -0.198990).  Saving model ...
+Epoch: 27 cost time: 1.29811429977417
+Epoch: 27, Steps: 17 | Train Loss: 941.123 Vali Loss: 14403.479 Vali Acc: 0.281 Test Loss: 14403.479 Test Acc: 0.281
+EarlyStopping counter: 1 out of 10
+Epoch: 28 cost time: 1.7484230995178223
+Epoch: 28, Steps: 17 | Train Loss: 3410.242 Vali Loss: 26252.320 Vali Acc: 0.232 Test Loss: 26252.320 Test Acc: 0.232
+EarlyStopping counter: 2 out of 10
+Epoch: 29 cost time: 2.0987043380737305
+Epoch: 29, Steps: 17 | Train Loss: 1746.399 Vali Loss: 5237.819 Vali Acc: 0.247 Test Loss: 5237.819 Test Acc: 0.247
+EarlyStopping counter: 3 out of 10
+Epoch: 30 cost time: 1.612563133239746
+Epoch: 30, Steps: 17 | Train Loss: 47.758 Vali Loss: 6863.710 Vali Acc: 0.274 Test Loss: 6863.710 Test Acc: 0.274
+Validation loss decreased (-0.198990 --> -0.205127).  Saving model ...
+Epoch: 31 cost time: 1.913297414779663
+Epoch: 31, Steps: 17 | Train Loss: 81.560 Vali Loss: 7123.808 Vali Acc: 0.243 Test Loss: 7123.808 Test Acc: 0.243
+EarlyStopping counter: 1 out of 10
+Epoch: 32 cost time: 1.4170050621032715
+Epoch: 32, Steps: 17 | Train Loss: 193.168 Vali Loss: 761.440 Vali Acc: 0.300 Test Loss: 761.440 Test Acc: 0.300
+Validation loss decreased (-0.205127 --> -0.292766).  Saving model ...
+Epoch: 33 cost time: 1.3975050449371338
+Epoch: 33, Steps: 17 | Train Loss: 1278.377 Vali Loss: 3361.805 Vali Acc: 0.251 Test Loss: 3361.805 Test Acc: 0.251
+EarlyStopping counter: 1 out of 10
+Epoch: 34 cost time: 2.0896942615509033
+Epoch: 34, Steps: 17 | Train Loss: 1674.640 Vali Loss: 541.003 Vali Acc: 0.247 Test Loss: 541.003 Test Acc: 0.247
+EarlyStopping counter: 2 out of 10
+Epoch: 35 cost time: 1.6875097751617432
+Epoch: 35, Steps: 17 | Train Loss: 54.219 Vali Loss: 3890.684 Vali Acc: 0.247 Test Loss: 3890.684 Test Acc: 0.247
+EarlyStopping counter: 3 out of 10
+Epoch: 36 cost time: 1.534496545791626
+Epoch: 36, Steps: 17 | Train Loss: 370.660 Vali Loss: 11497.518 Vali Acc: 0.289 Test Loss: 11497.518 Test Acc: 0.289
+EarlyStopping counter: 4 out of 10
+Epoch: 37 cost time: 1.9745864868164062
+Epoch: 37, Steps: 17 | Train Loss: 57560.310 Vali Loss: 10906.539 Vali Acc: 0.270 Test Loss: 10906.539 Test Acc: 0.270
+EarlyStopping counter: 5 out of 10
+Epoch: 38 cost time: 1.3015148639678955
+Epoch: 38, Steps: 17 | Train Loss: 66.951 Vali Loss: 44232.891 Vali Acc: 0.251 Test Loss: 44232.891 Test Acc: 0.251
+EarlyStopping counter: 6 out of 10
+Epoch: 39 cost time: 2.161546230316162
+Epoch: 39, Steps: 17 | Train Loss: 505.185 Vali Loss: 49603.949 Vali Acc: 0.304 Test Loss: 49603.949 Test Acc: 0.304
+EarlyStopping counter: 7 out of 10
+Epoch: 40 cost time: 1.7280747890472412
+Epoch: 40, Steps: 17 | Train Loss: 60.263 Vali Loss: 66996.844 Vali Acc: 0.274 Test Loss: 66996.844 Test Acc: 0.274
+EarlyStopping counter: 8 out of 10
+Epoch: 41 cost time: 1.3100922107696533
+Epoch: 41, Steps: 17 | Train Loss: 783.579 Vali Loss: 22267.129 Vali Acc: 0.243 Test Loss: 22267.129 Test Acc: 0.243
+EarlyStopping counter: 9 out of 10
+Epoch: 42 cost time: 1.68727445602417
+Epoch: 42, Steps: 17 | Train Loss: 418.057 Vali Loss: 6841.201 Vali Acc: 0.270 Test Loss: 6841.201 Test Acc: 0.270
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.30038022813688214
+model parameter : 463104
+model size : 2.99MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.636491298675537
+Epoch: 1, Steps: 17 | Train Loss: 560926.024 Vali Loss: 2486779.250 Vali Acc: 0.247 Test Loss: 2486779.250 Test Acc: 0.247
+Validation loss decreased (inf --> 24.620644).  Saving model ...
+Epoch: 2 cost time: 1.4389426708221436
+Epoch: 2, Steps: 17 | Train Loss: 1669535.765 Vali Loss: 2374866.000 Vali Acc: 0.202 Test Loss: 2374866.000 Test Acc: 0.202
+Validation loss decreased (24.620644 --> 23.547138).  Saving model ...
+Epoch: 3 cost time: 1.7544286251068115
+Epoch: 3, Steps: 17 | Train Loss: 54014.282 Vali Loss: 313610.375 Vali Acc: 0.251 Test Loss: 313610.375 Test Acc: 0.251
+Validation loss decreased (23.547138 --> 2.885153).  Saving model ...
+Epoch: 4 cost time: 1.195106029510498
+Epoch: 4, Steps: 17 | Train Loss: 117219.787 Vali Loss: 285056.031 Vali Acc: 0.213 Test Loss: 285056.031 Test Acc: 0.213
+Validation loss decreased (2.885153 --> 2.637632).  Saving model ...
+Epoch: 5 cost time: 1.779994249343872
+Epoch: 5, Steps: 17 | Train Loss: 7652.786 Vali Loss: 4955.902 Vali Acc: 0.221 Test Loss: 4955.902 Test Acc: 0.221
+Validation loss decreased (2.637632 --> -0.170973).  Saving model ...
+Epoch: 6 cost time: 1.6155219078063965
+Epoch: 6, Steps: 17 | Train Loss: 8832.563 Vali Loss: 9899.003 Vali Acc: 0.247 Test Loss: 9899.003 Test Acc: 0.247
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.4302563667297363
+Epoch: 7, Steps: 17 | Train Loss: 393878.878 Vali Loss: 20537.172 Vali Acc: 0.274 Test Loss: 20537.172 Test Acc: 0.274
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.3521649837493896
+Epoch: 8, Steps: 17 | Train Loss: 1744.668 Vali Loss: 44853.027 Vali Acc: 0.293 Test Loss: 44853.027 Test Acc: 0.293
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.6612193584442139
+Epoch: 9, Steps: 17 | Train Loss: 27574.946 Vali Loss: 8017.405 Vali Acc: 0.232 Test Loss: 8017.405 Test Acc: 0.232
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.543379783630371
+Epoch: 10, Steps: 17 | Train Loss: 752.076 Vali Loss: 3393.401 Vali Acc: 0.274 Test Loss: 3393.401 Test Acc: 0.274
+Validation loss decreased (-0.170973 --> -0.239830).  Saving model ...
+Epoch: 11 cost time: 1.3526058197021484
+Epoch: 11, Steps: 17 | Train Loss: 7561.163 Vali Loss: 40515.027 Vali Acc: 0.243 Test Loss: 40515.027 Test Acc: 0.243
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 2.0437116622924805
+Epoch: 12, Steps: 17 | Train Loss: 7393.848 Vali Loss: 46317.051 Vali Acc: 0.240 Test Loss: 46317.051 Test Acc: 0.240
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 1.585996150970459
+Epoch: 13, Steps: 17 | Train Loss: 1588.196 Vali Loss: 21794.615 Vali Acc: 0.236 Test Loss: 21794.615 Test Acc: 0.236
+EarlyStopping counter: 3 out of 10
+Epoch: 14 cost time: 1.6115179061889648
+Epoch: 14, Steps: 17 | Train Loss: 2196.121 Vali Loss: 39133.402 Vali Acc: 0.213 Test Loss: 39133.402 Test Acc: 0.213
+EarlyStopping counter: 4 out of 10
+Epoch: 15 cost time: 1.3758752346038818
+Epoch: 15, Steps: 17 | Train Loss: 1253.345 Vali Loss: 6519.617 Vali Acc: 0.209 Test Loss: 6519.617 Test Acc: 0.209
+EarlyStopping counter: 5 out of 10
+Epoch: 16 cost time: 1.5537161827087402
+Epoch: 16, Steps: 17 | Train Loss: 5609.519 Vali Loss: 668.015 Vali Acc: 0.221 Test Loss: 668.015 Test Acc: 0.221
+EarlyStopping counter: 6 out of 10
+Epoch: 17 cost time: 1.8346946239471436
+Epoch: 17, Steps: 17 | Train Loss: 309.991 Vali Loss: 161.720 Vali Acc: 0.209 Test Loss: 161.720 Test Acc: 0.209
+EarlyStopping counter: 7 out of 10
+Epoch: 18 cost time: 1.5047376155853271
+Epoch: 18, Steps: 17 | Train Loss: 211.481 Vali Loss: 20321.014 Vali Acc: 0.224 Test Loss: 20321.014 Test Acc: 0.224
+EarlyStopping counter: 8 out of 10
+Epoch: 19 cost time: 1.3826417922973633
+Epoch: 19, Steps: 17 | Train Loss: 13103.595 Vali Loss: 2277.470 Vali Acc: 0.240 Test Loss: 2277.470 Test Acc: 0.240
+EarlyStopping counter: 9 out of 10
+Epoch: 20 cost time: 1.7366411685943604
+Epoch: 20, Steps: 17 | Train Loss: 1873.288 Vali Loss: 11522.396 Vali Acc: 0.281 Test Loss: 11522.396 Test Acc: 0.281
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.2737642585551331
+model parameter : 462720
+model size : 2.99MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.585060358047485
+Epoch: 1, Steps: 17 | Train Loss: 8599847.732 Vali Loss: 971318.312 Vali Acc: 0.240 Test Loss: 971318.312 Test Acc: 0.240
+Validation loss decreased (inf --> 9.473639).  Saving model ...
+Epoch: 2 cost time: 2.101724624633789
+Epoch: 2, Steps: 17 | Train Loss: 161259.863 Vali Loss: 197399.953 Vali Acc: 0.213 Test Loss: 197399.953 Test Acc: 0.213
+Validation loss decreased (9.473639 --> 1.761072).  Saving model ...
+Epoch: 3 cost time: 1.5491430759429932
+Epoch: 3, Steps: 17 | Train Loss: 99811.745 Vali Loss: 25672.344 Vali Acc: 0.217 Test Loss: 25672.344 Test Acc: 0.217
+Validation loss decreased (1.761072 --> 0.039993).  Saving model ...
+Epoch: 4 cost time: 1.600137710571289
+Epoch: 4, Steps: 17 | Train Loss: 78188.783 Vali Loss: 39262.719 Vali Acc: 0.300 Test Loss: 39262.719 Test Acc: 0.300
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.4978890419006348
+Epoch: 5, Steps: 17 | Train Loss: 34104.045 Vali Loss: 261911.641 Vali Acc: 0.236 Test Loss: 261911.641 Test Acc: 0.236
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.7599623203277588
+Epoch: 6, Steps: 17 | Train Loss: 83563.096 Vali Loss: 241616.328 Vali Acc: 0.243 Test Loss: 241616.328 Test Acc: 0.243
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.7501471042633057
+Epoch: 7, Steps: 17 | Train Loss: 30029.037 Vali Loss: 131266.281 Vali Acc: 0.232 Test Loss: 131266.281 Test Acc: 0.232
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.7551822662353516
+Epoch: 8, Steps: 17 | Train Loss: 3267.188 Vali Loss: 36817.531 Vali Acc: 0.247 Test Loss: 36817.531 Test Acc: 0.247
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.605346918106079
+Epoch: 9, Steps: 17 | Train Loss: 2054.921 Vali Loss: 23726.369 Vali Acc: 0.221 Test Loss: 23726.369 Test Acc: 0.221
+Validation loss decreased (0.039993 --> 0.016731).  Saving model ...
+Epoch: 10 cost time: 1.712007761001587
+Epoch: 10, Steps: 17 | Train Loss: 4210.337 Vali Loss: 6307.129 Vali Acc: 0.224 Test Loss: 6307.129 Test Acc: 0.224
+Validation loss decreased (0.016731 --> -0.161263).  Saving model ...
+Epoch: 11 cost time: 1.495011568069458
+Epoch: 11, Steps: 17 | Train Loss: 1217.114 Vali Loss: 8916.651 Vali Acc: 0.228 Test Loss: 8916.651 Test Acc: 0.228
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 1.5293891429901123
+Epoch: 12, Steps: 17 | Train Loss: 1257.889 Vali Loss: 212.554 Vali Acc: 0.236 Test Loss: 212.554 Test Acc: 0.236
+Validation loss decreased (-0.161263 --> -0.233616).  Saving model ...
+Epoch: 13 cost time: 1.55708646774292
+Epoch: 13, Steps: 17 | Train Loss: 45213.954 Vali Loss: 25469.283 Vali Acc: 0.243 Test Loss: 25469.283 Test Acc: 0.243
+EarlyStopping counter: 1 out of 10
+Epoch: 14 cost time: 1.7089853286743164
+Epoch: 14, Steps: 17 | Train Loss: 511.503 Vali Loss: 7371.690 Vali Acc: 0.270 Test Loss: 7371.690 Test Acc: 0.270
+EarlyStopping counter: 2 out of 10
+Epoch: 15 cost time: 1.562863826751709
+Epoch: 15, Steps: 17 | Train Loss: 1295.111 Vali Loss: 1295.863 Vali Acc: 0.228 Test Loss: 1295.863 Test Acc: 0.228
+EarlyStopping counter: 3 out of 10
+Epoch: 16 cost time: 1.7177002429962158
+Epoch: 16, Steps: 17 | Train Loss: 320.424 Vali Loss: 9901.552 Vali Acc: 0.255 Test Loss: 9901.552 Test Acc: 0.255
+EarlyStopping counter: 4 out of 10
+Epoch: 17 cost time: 1.6951231956481934
+Epoch: 17, Steps: 17 | Train Loss: 12007.536 Vali Loss: 13512.633 Vali Acc: 0.224 Test Loss: 13512.633 Test Acc: 0.224
+EarlyStopping counter: 5 out of 10
+Epoch: 18 cost time: 1.2760889530181885
+Epoch: 18, Steps: 17 | Train Loss: 225.434 Vali Loss: 44696.355 Vali Acc: 0.221 Test Loss: 44696.355 Test Acc: 0.221
+EarlyStopping counter: 6 out of 10
+Epoch: 19 cost time: 1.541431188583374
+Epoch: 19, Steps: 17 | Train Loss: 48306.837 Vali Loss: 46302.016 Vali Acc: 0.259 Test Loss: 46302.016 Test Acc: 0.259
+EarlyStopping counter: 7 out of 10
+Epoch: 20 cost time: 1.4179210662841797
+Epoch: 20, Steps: 17 | Train Loss: 282.183 Vali Loss: 27246.229 Vali Acc: 0.270 Test Loss: 27246.229 Test Acc: 0.270
+EarlyStopping counter: 8 out of 10
+Epoch: 21 cost time: 1.284944772720337
+Epoch: 21, Steps: 17 | Train Loss: 780.134 Vali Loss: 12604.321 Vali Acc: 0.243 Test Loss: 12604.321 Test Acc: 0.243
+EarlyStopping counter: 9 out of 10
+Epoch: 22 cost time: 1.619236707687378
+Epoch: 22, Steps: 17 | Train Loss: 103.044 Vali Loss: 9795.821 Vali Acc: 0.221 Test Loss: 9795.821 Test Acc: 0.221
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm64_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.23574144486692014
+model parameter : 462528
+model size : 2.99MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.847123861312866
+Epoch: 1, Steps: 17 | Train Loss: 27931844.224 Vali Loss: 6611703.000 Vali Acc: 0.262 Test Loss: 6611703.000 Test Acc: 0.262
+Validation loss decreased (inf --> 65.854670).  Saving model ...
+Epoch: 2 cost time: 1.3455748558044434
+Epoch: 2, Steps: 17 | Train Loss: 2695849.979 Vali Loss: 455196.656 Vali Acc: 0.270 Test Loss: 455196.656 Test Acc: 0.270
+Validation loss decreased (65.854670 --> 4.282005).  Saving model ...
+Epoch: 3 cost time: 1.694908857345581
+Epoch: 3, Steps: 17 | Train Loss: 445469.708 Vali Loss: 1363779.250 Vali Acc: 0.262 Test Loss: 1363779.250 Test Acc: 0.262
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.3370695114135742
+Epoch: 4, Steps: 17 | Train Loss: 9137478.013 Vali Loss: 2834230.250 Vali Acc: 0.240 Test Loss: 2834230.250 Test Acc: 0.240
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.5397872924804688
+Epoch: 5, Steps: 17 | Train Loss: 7116618.106 Vali Loss: 1671646.625 Vali Acc: 0.259 Test Loss: 1671646.625 Test Acc: 0.259
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.8367974758148193
+Epoch: 6, Steps: 17 | Train Loss: 943200.985 Vali Loss: 54181.117 Vali Acc: 0.228 Test Loss: 54181.117 Test Acc: 0.228
+Validation loss decreased (4.282005 --> 0.313674).  Saving model ...
+Epoch: 7 cost time: 1.3188016414642334
+Epoch: 7, Steps: 17 | Train Loss: 97788.428 Vali Loss: 47088.887 Vali Acc: 0.194 Test Loss: 47088.887 Test Acc: 0.194
+Validation loss decreased (0.313674 --> 0.276973).  Saving model ...
+Epoch: 8 cost time: 1.6531589031219482
+Epoch: 8, Steps: 17 | Train Loss: 20918.808 Vali Loss: 212486.047 Vali Acc: 0.221 Test Loss: 212486.047 Test Acc: 0.221
+EarlyStopping counter: 1 out of 10
+Epoch: 9 cost time: 1.4004302024841309
+Epoch: 9, Steps: 17 | Train Loss: 30075.312 Vali Loss: 158018.969 Vali Acc: 0.232 Test Loss: 158018.969 Test Acc: 0.232
+EarlyStopping counter: 2 out of 10
+Epoch: 10 cost time: 1.4616494178771973
+Epoch: 10, Steps: 17 | Train Loss: 751.870 Vali Loss: 46019.129 Vali Acc: 0.228 Test Loss: 46019.129 Test Acc: 0.228
+Validation loss decreased (0.276973 --> 0.232054).  Saving model ...
+Epoch: 11 cost time: 1.5713903903961182
+Epoch: 11, Steps: 17 | Train Loss: 9572.273 Vali Loss: 34631.922 Vali Acc: 0.232 Test Loss: 34631.922 Test Acc: 0.232
+Validation loss decreased (0.232054 --> 0.114380).  Saving model ...
+Epoch: 12 cost time: 1.6169614791870117
+Epoch: 12, Steps: 17 | Train Loss: 16989.546 Vali Loss: 61730.441 Vali Acc: 0.221 Test Loss: 61730.441 Test Acc: 0.221
+EarlyStopping counter: 1 out of 10
+Epoch: 13 cost time: 1.7687487602233887
+Epoch: 13, Steps: 17 | Train Loss: 245267.549 Vali Loss: 98526.047 Vali Acc: 0.262 Test Loss: 98526.047 Test Acc: 0.262
+EarlyStopping counter: 2 out of 10
+Epoch: 14 cost time: 1.678375244140625
+Epoch: 14, Steps: 17 | Train Loss: 16568.701 Vali Loss: 74321.625 Vali Acc: 0.221 Test Loss: 74321.625 Test Acc: 0.221
+EarlyStopping counter: 3 out of 10
+Epoch: 15 cost time: 1.4526855945587158
+Epoch: 15, Steps: 17 | Train Loss: 3140.184 Vali Loss: 108119.219 Vali Acc: 0.236 Test Loss: 108119.219 Test Acc: 0.236
+EarlyStopping counter: 4 out of 10
+Epoch: 16 cost time: 1.2122721672058105
+Epoch: 16, Steps: 17 | Train Loss: 8304.927 Vali Loss: 29578.400 Vali Acc: 0.251 Test Loss: 29578.400 Test Acc: 0.251
+Validation loss decreased (0.114380 --> 0.044833).  Saving model ...
+Epoch: 17 cost time: 1.6568262577056885
+Epoch: 17, Steps: 17 | Train Loss: 21558.358 Vali Loss: 14706.937 Vali Acc: 0.255 Test Loss: 14706.937 Test Acc: 0.255
+Validation loss decreased (0.044833 --> -0.107683).  Saving model ...
+Epoch: 18 cost time: 1.163482427597046
+Epoch: 18, Steps: 17 | Train Loss: 643.353 Vali Loss: 13088.806 Vali Acc: 0.224 Test Loss: 13088.806 Test Acc: 0.224
+EarlyStopping counter: 1 out of 10
+Epoch: 19 cost time: 1.2812321186065674
+Epoch: 19, Steps: 17 | Train Loss: 3309.815 Vali Loss: 21978.613 Vali Acc: 0.221 Test Loss: 21978.613 Test Acc: 0.221
+EarlyStopping counter: 2 out of 10
+Epoch: 20 cost time: 1.3826255798339844
+Epoch: 20, Steps: 17 | Train Loss: 1326.683 Vali Loss: 11522.565 Vali Acc: 0.251 Test Loss: 11522.565 Test Acc: 0.251
+Validation loss decreased (-0.107683 --> -0.135725).  Saving model ...
+Epoch: 21 cost time: 1.688401699066162
+Epoch: 21, Steps: 17 | Train Loss: 768.443 Vali Loss: 14354.266 Vali Acc: 0.259 Test Loss: 14354.266 Test Acc: 0.259
+EarlyStopping counter: 1 out of 10
+Epoch: 22 cost time: 1.7898054122924805
+Epoch: 22, Steps: 17 | Train Loss: 251.498 Vali Loss: 15167.177 Vali Acc: 0.240 Test Loss: 15167.177 Test Acc: 0.240
+EarlyStopping counter: 2 out of 10
+Epoch: 23 cost time: 1.5626399517059326
+Epoch: 23, Steps: 17 | Train Loss: 19.362 Vali Loss: 105907.086 Vali Acc: 0.259 Test Loss: 105907.086 Test Acc: 0.259
+EarlyStopping counter: 3 out of 10
+Epoch: 24 cost time: 1.8053505420684814
+Epoch: 24, Steps: 17 | Train Loss: 139.582 Vali Loss: 216496.031 Vali Acc: 0.247 Test Loss: 216496.031 Test Acc: 0.247
+EarlyStopping counter: 4 out of 10
+Epoch: 25 cost time: 1.5878968238830566
+Epoch: 25, Steps: 17 | Train Loss: 3533.187 Vali Loss: 264820.969 Vali Acc: 0.217 Test Loss: 264820.969 Test Acc: 0.217
+EarlyStopping counter: 5 out of 10
+Epoch: 26 cost time: 1.4946718215942383
+Epoch: 26, Steps: 17 | Train Loss: 14231.429 Vali Loss: 134174.703 Vali Acc: 0.243 Test Loss: 134174.703 Test Acc: 0.243
+EarlyStopping counter: 6 out of 10
+Epoch: 27 cost time: 1.7710075378417969
+Epoch: 27, Steps: 17 | Train Loss: 2063.392 Vali Loss: 67461.695 Vali Acc: 0.232 Test Loss: 67461.695 Test Acc: 0.232
+EarlyStopping counter: 7 out of 10
+Epoch: 28 cost time: 1.3899235725402832
+Epoch: 28, Steps: 17 | Train Loss: 91500.235 Vali Loss: 125124.703 Vali Acc: 0.209 Test Loss: 125124.703 Test Acc: 0.209
+EarlyStopping counter: 8 out of 10
+Epoch: 29 cost time: 1.4966394901275635
+Epoch: 29, Steps: 17 | Train Loss: 311.590 Vali Loss: 521719.281 Vali Acc: 0.221 Test Loss: 521719.281 Test Acc: 0.221
+EarlyStopping counter: 9 out of 10
+Epoch: 30 cost time: 1.493769645690918
+Epoch: 30, Steps: 17 | Train Loss: 11.385 Vali Loss: 883900.375 Vali Acc: 0.262 Test Loss: 883900.375 Test Acc: 0.262
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.2509505703422053
+model parameter : 229504
+model size : 1.49MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.1214494705200195
+Epoch: 1, Steps: 17 | Train Loss: 2706131.025 Vali Loss: 1301201.125 Vali Acc: 0.293 Test Loss: 1301201.125 Test Acc: 0.293
+Validation loss decreased (inf --> 12.719235).  Saving model ...
+Epoch: 2 cost time: 1.2569668292999268
+Epoch: 2, Steps: 17 | Train Loss: 1307540.649 Vali Loss: 84031.312 Vali Acc: 0.270 Test Loss: 84031.312 Test Acc: 0.270
+Validation loss decreased (12.719235 --> 0.570351).  Saving model ...
+Epoch: 3 cost time: 1.381622552871704
+Epoch: 3, Steps: 17 | Train Loss: 498208.406 Vali Loss: 276600.344 Vali Acc: 0.293 Test Loss: 276600.344 Test Acc: 0.293
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.2351710796356201
+Epoch: 4, Steps: 17 | Train Loss: 95610.164 Vali Loss: 57166.246 Vali Acc: 0.251 Test Loss: 57166.246 Test Acc: 0.251
+Validation loss decreased (0.570351 --> 0.320712).  Saving model ...
+Epoch: 5 cost time: 1.5031263828277588
+Epoch: 5, Steps: 17 | Train Loss: 206719.809 Vali Loss: 23864.842 Vali Acc: 0.262 Test Loss: 23864.842 Test Acc: 0.262
+Validation loss decreased (0.320712 --> -0.023709).  Saving model ...
+Epoch: 6 cost time: 1.1716487407684326
+Epoch: 6, Steps: 17 | Train Loss: 50577.303 Vali Loss: 22894.041 Vali Acc: 0.281 Test Loss: 22894.041 Test Acc: 0.281
+Validation loss decreased (-0.023709 --> -0.052428).  Saving model ...
+Epoch: 7 cost time: 1.3792593479156494
+Epoch: 7, Steps: 17 | Train Loss: 66620.661 Vali Loss: 203452.656 Vali Acc: 0.308 Test Loss: 203452.656 Test Acc: 0.308
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.0937578678131104
+Epoch: 8, Steps: 17 | Train Loss: 62535.183 Vali Loss: 155208.016 Vali Acc: 0.259 Test Loss: 155208.016 Test Acc: 0.259
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.5440092086791992
+Epoch: 9, Steps: 17 | Train Loss: 246550.182 Vali Loss: 174962.047 Vali Acc: 0.217 Test Loss: 174962.047 Test Acc: 0.217
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.6293461322784424
+Epoch: 10, Steps: 17 | Train Loss: 301.217 Vali Loss: 62171.535 Vali Acc: 0.228 Test Loss: 62171.535 Test Acc: 0.228
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.645735740661621
+Epoch: 11, Steps: 17 | Train Loss: 921.422 Vali Loss: 28925.641 Vali Acc: 0.270 Test Loss: 28925.641 Test Acc: 0.270
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.4100441932678223
+Epoch: 12, Steps: 17 | Train Loss: 1708.456 Vali Loss: 11642.610 Vali Acc: 0.232 Test Loss: 11642.610 Test Acc: 0.232
+Validation loss decreased (-0.052428 --> -0.115513).  Saving model ...
+Epoch: 13 cost time: 1.2027370929718018
+Epoch: 13, Steps: 17 | Train Loss: 6978.556 Vali Loss: 10007.245 Vali Acc: 0.247 Test Loss: 10007.245 Test Acc: 0.247
+Validation loss decreased (-0.115513 --> -0.147076).  Saving model ...
+Epoch: 14 cost time: 1.4380254745483398
+Epoch: 14, Steps: 17 | Train Loss: 80727.775 Vali Loss: 2710.916 Vali Acc: 0.262 Test Loss: 2710.916 Test Acc: 0.262
+Validation loss decreased (-0.147076 --> -0.235248).  Saving model ...
+Epoch: 15 cost time: 1.3048884868621826
+Epoch: 15, Steps: 17 | Train Loss: 3283.173 Vali Loss: 4602.707 Vali Acc: 0.243 Test Loss: 4602.707 Test Acc: 0.243
+EarlyStopping counter: 1 out of 10
+Epoch: 16 cost time: 1.2861099243164062
+Epoch: 16, Steps: 17 | Train Loss: 1297.294 Vali Loss: 2612.233 Vali Acc: 0.217 Test Loss: 2612.233 Test Acc: 0.217
+EarlyStopping counter: 2 out of 10
+Epoch: 17 cost time: 1.460005283355713
+Epoch: 17, Steps: 17 | Train Loss: 835.619 Vali Loss: 1490.096 Vali Acc: 0.236 Test Loss: 1490.096 Test Acc: 0.236
+EarlyStopping counter: 3 out of 10
+Epoch: 18 cost time: 1.579906940460205
+Epoch: 18, Steps: 17 | Train Loss: 3722.918 Vali Loss: 1178.922 Vali Acc: 0.255 Test Loss: 1178.922 Test Acc: 0.255
+Validation loss decreased (-0.235248 --> -0.242964).  Saving model ...
+Epoch: 19 cost time: 1.0699455738067627
+Epoch: 19, Steps: 17 | Train Loss: 3000.684 Vali Loss: 2961.146 Vali Acc: 0.255 Test Loss: 2961.146 Test Acc: 0.255
+EarlyStopping counter: 1 out of 10
+Epoch: 20 cost time: 1.6593170166015625
+Epoch: 20, Steps: 17 | Train Loss: 553.401 Vali Loss: 1697.293 Vali Acc: 0.293 Test Loss: 1697.293 Test Acc: 0.293
+Validation loss decreased (-0.242964 --> -0.275803).  Saving model ...
+Epoch: 21 cost time: 1.344892978668213
+Epoch: 21, Steps: 17 | Train Loss: 22.980 Vali Loss: 2567.946 Vali Acc: 0.232 Test Loss: 2567.946 Test Acc: 0.232
+EarlyStopping counter: 1 out of 10
+Epoch: 22 cost time: 1.3124544620513916
+Epoch: 22, Steps: 17 | Train Loss: 4296.090 Vali Loss: 2552.952 Vali Acc: 0.236 Test Loss: 2552.952 Test Acc: 0.236
+EarlyStopping counter: 2 out of 10
+Epoch: 23 cost time: 1.4234261512756348
+Epoch: 23, Steps: 17 | Train Loss: 4116.183 Vali Loss: 803.645 Vali Acc: 0.266 Test Loss: 803.645 Test Acc: 0.266
+EarlyStopping counter: 3 out of 10
+Epoch: 24 cost time: 1.872351884841919
+Epoch: 24, Steps: 17 | Train Loss: 17.638 Vali Loss: 217.401 Vali Acc: 0.243 Test Loss: 217.401 Test Acc: 0.243
+EarlyStopping counter: 4 out of 10
+Epoch: 25 cost time: 1.385413646697998
+Epoch: 25, Steps: 17 | Train Loss: 343.391 Vali Loss: 105.304 Vali Acc: 0.262 Test Loss: 105.304 Test Acc: 0.262
+EarlyStopping counter: 5 out of 10
+Epoch: 26 cost time: 1.291297197341919
+Epoch: 26, Steps: 17 | Train Loss: 557.281 Vali Loss: 272.703 Vali Acc: 0.243 Test Loss: 272.703 Test Acc: 0.243
+EarlyStopping counter: 6 out of 10
+Epoch: 27 cost time: 1.6601886749267578
+Epoch: 27, Steps: 17 | Train Loss: 630.883 Vali Loss: 294.798 Vali Acc: 0.232 Test Loss: 294.798 Test Acc: 0.232
+EarlyStopping counter: 7 out of 10
+Epoch: 28 cost time: 1.3509495258331299
+Epoch: 28, Steps: 17 | Train Loss: 768.491 Vali Loss: 686.088 Vali Acc: 0.259 Test Loss: 686.088 Test Acc: 0.259
+EarlyStopping counter: 8 out of 10
+Epoch: 29 cost time: 1.2439219951629639
+Epoch: 29, Steps: 17 | Train Loss: 251.233 Vali Loss: 1732.706 Vali Acc: 0.270 Test Loss: 1732.706 Test Acc: 0.270
+EarlyStopping counter: 9 out of 10
+Epoch: 30 cost time: 1.223203182220459
+Epoch: 30, Steps: 17 | Train Loss: 6.215 Vali Loss: 1928.781 Vali Acc: 0.224 Test Loss: 1928.781 Test Acc: 0.224
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.29277566539923955
+model parameter : 228736
+model size : 1.49MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.8945302963256836
+Epoch: 1, Steps: 17 | Train Loss: 49000770.463 Vali Loss: 341058.094 Vali Acc: 0.262 Test Loss: 341058.094 Test Acc: 0.262
+Validation loss decreased (inf --> 3.148223).  Saving model ...
+Epoch: 2 cost time: 1.2509522438049316
+Epoch: 2, Steps: 17 | Train Loss: 2116967.635 Vali Loss: 75143.688 Vali Acc: 0.289 Test Loss: 75143.688 Test Acc: 0.289
+Validation loss decreased (3.148223 --> 0.462463).  Saving model ...
+Epoch: 3 cost time: 1.1886227130889893
+Epoch: 3, Steps: 17 | Train Loss: 93151.148 Vali Loss: 85357.422 Vali Acc: 0.281 Test Loss: 85357.422 Test Acc: 0.281
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.128324270248413
+Epoch: 4, Steps: 17 | Train Loss: 199952.913 Vali Loss: 19783.516 Vali Acc: 0.259 Test Loss: 19783.516 Test Acc: 0.259
+Validation loss decreased (0.462463 --> -0.060720).  Saving model ...
+Epoch: 5 cost time: 1.330261468887329
+Epoch: 5, Steps: 17 | Train Loss: 1291630.036 Vali Loss: 5691.395 Vali Acc: 0.281 Test Loss: 5691.395 Test Acc: 0.281
+Validation loss decreased (-0.060720 --> -0.224455).  Saving model ...
+Epoch: 6 cost time: 1.1999950408935547
+Epoch: 6, Steps: 17 | Train Loss: 23822.478 Vali Loss: 13287.556 Vali Acc: 0.255 Test Loss: 13287.556 Test Acc: 0.255
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.6891751289367676
+Epoch: 7, Steps: 17 | Train Loss: 56091.377 Vali Loss: 7105.156 Vali Acc: 0.247 Test Loss: 7105.156 Test Acc: 0.247
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.1370429992675781
+Epoch: 8, Steps: 17 | Train Loss: 11866.610 Vali Loss: 2376.881 Vali Acc: 0.259 Test Loss: 2376.881 Test Acc: 0.259
+Validation loss decreased (-0.224455 --> -0.234786).  Saving model ...
+Epoch: 9 cost time: 1.5498816967010498
+Epoch: 9, Steps: 17 | Train Loss: 5833.047 Vali Loss: 2826.679 Vali Acc: 0.247 Test Loss: 2826.679 Test Acc: 0.247
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 1.5057051181793213
+Epoch: 10, Steps: 17 | Train Loss: 5295.331 Vali Loss: 3323.510 Vali Acc: 0.266 Test Loss: 3323.510 Test Acc: 0.266
+EarlyStopping counter: 2 out of 10
+Epoch: 11 cost time: 1.6069564819335938
+Epoch: 11, Steps: 17 | Train Loss: 4935.018 Vali Loss: 3696.017 Vali Acc: 0.240 Test Loss: 3696.017 Test Acc: 0.240
+EarlyStopping counter: 3 out of 10
+Epoch: 12 cost time: 1.671105146408081
+Epoch: 12, Steps: 17 | Train Loss: 271.844 Vali Loss: 4054.394 Vali Acc: 0.228 Test Loss: 4054.394 Test Acc: 0.228
+EarlyStopping counter: 4 out of 10
+Epoch: 13 cost time: 1.1799519062042236
+Epoch: 13, Steps: 17 | Train Loss: 28176.985 Vali Loss: 2194.005 Vali Acc: 0.224 Test Loss: 2194.005 Test Acc: 0.224
+EarlyStopping counter: 5 out of 10
+Epoch: 14 cost time: 1.1674692630767822
+Epoch: 14, Steps: 17 | Train Loss: 2981.702 Vali Loss: 1409.765 Vali Acc: 0.255 Test Loss: 1409.765 Test Acc: 0.255
+Validation loss decreased (-0.234786 --> -0.240655).  Saving model ...
+Epoch: 15 cost time: 1.2392401695251465
+Epoch: 15, Steps: 17 | Train Loss: 2517.121 Vali Loss: 441.857 Vali Acc: 0.255 Test Loss: 441.857 Test Acc: 0.255
+Validation loss decreased (-0.240655 --> -0.250334).  Saving model ...
+Epoch: 16 cost time: 1.3014955520629883
+Epoch: 16, Steps: 17 | Train Loss: 578.288 Vali Loss: 401.858 Vali Acc: 0.232 Test Loss: 401.858 Test Acc: 0.232
+EarlyStopping counter: 1 out of 10
+Epoch: 17 cost time: 1.393371820449829
+Epoch: 17, Steps: 17 | Train Loss: 2015.319 Vali Loss: 292.506 Vali Acc: 0.224 Test Loss: 292.506 Test Acc: 0.224
+EarlyStopping counter: 2 out of 10
+Epoch: 18 cost time: 1.5589017868041992
+Epoch: 18, Steps: 17 | Train Loss: 694.696 Vali Loss: 281.088 Vali Acc: 0.240 Test Loss: 281.088 Test Acc: 0.240
+EarlyStopping counter: 3 out of 10
+Epoch: 19 cost time: 1.4454741477966309
+Epoch: 19, Steps: 17 | Train Loss: 665.225 Vali Loss: 317.795 Vali Acc: 0.232 Test Loss: 317.795 Test Acc: 0.232
+EarlyStopping counter: 4 out of 10
+Epoch: 20 cost time: 1.2399775981903076
+Epoch: 20, Steps: 17 | Train Loss: 5907.048 Vali Loss: 138.759 Vali Acc: 0.217 Test Loss: 138.759 Test Acc: 0.217
+EarlyStopping counter: 5 out of 10
+Epoch: 21 cost time: 1.5336790084838867
+Epoch: 21, Steps: 17 | Train Loss: 1610.732 Vali Loss: 162.145 Vali Acc: 0.259 Test Loss: 162.145 Test Acc: 0.259
+Validation loss decreased (-0.250334 --> -0.256934).  Saving model ...
+Epoch: 22 cost time: 1.0387508869171143
+Epoch: 22, Steps: 17 | Train Loss: 721.643 Vali Loss: 1408.317 Vali Acc: 0.228 Test Loss: 1408.317 Test Acc: 0.228
+EarlyStopping counter: 1 out of 10
+Epoch: 23 cost time: 1.3694298267364502
+Epoch: 23, Steps: 17 | Train Loss: 1002.819 Vali Loss: 958.776 Vali Acc: 0.228 Test Loss: 958.776 Test Acc: 0.228
+EarlyStopping counter: 2 out of 10
+Epoch: 24 cost time: 1.5638623237609863
+Epoch: 24, Steps: 17 | Train Loss: 136.950 Vali Loss: 161.462 Vali Acc: 0.228 Test Loss: 161.462 Test Acc: 0.228
+EarlyStopping counter: 3 out of 10
+Epoch: 25 cost time: 1.2407722473144531
+Epoch: 25, Steps: 17 | Train Loss: 176.333 Vali Loss: 135.815 Vali Acc: 0.224 Test Loss: 135.815 Test Acc: 0.224
+EarlyStopping counter: 4 out of 10
+Epoch: 26 cost time: 1.2068214416503906
+Epoch: 26, Steps: 17 | Train Loss: 1037.171 Vali Loss: 156.281 Vali Acc: 0.262 Test Loss: 156.281 Test Acc: 0.262
+Validation loss decreased (-0.256934 --> -0.260795).  Saving model ...
+Epoch: 27 cost time: 1.1841981410980225
+Epoch: 27, Steps: 17 | Train Loss: 45.616 Vali Loss: 123.497 Vali Acc: 0.224 Test Loss: 123.497 Test Acc: 0.224
+EarlyStopping counter: 1 out of 10
+Epoch: 28 cost time: 1.4563322067260742
+Epoch: 28, Steps: 17 | Train Loss: 105.288 Vali Loss: 108.372 Vali Acc: 0.232 Test Loss: 108.372 Test Acc: 0.232
+EarlyStopping counter: 2 out of 10
+Epoch: 29 cost time: 1.3305211067199707
+Epoch: 29, Steps: 17 | Train Loss: 10967.120 Vali Loss: 1015.226 Vali Acc: 0.236 Test Loss: 1015.226 Test Acc: 0.236
+EarlyStopping counter: 3 out of 10
+Epoch: 30 cost time: 1.3801658153533936
+Epoch: 30, Steps: 17 | Train Loss: 141.797 Vali Loss: 99.515 Vali Acc: 0.236 Test Loss: 99.515 Test Acc: 0.236
+EarlyStopping counter: 4 out of 10
+Epoch: 31 cost time: 1.1812961101531982
+Epoch: 31, Steps: 17 | Train Loss: 50.107 Vali Loss: 370.049 Vali Acc: 0.289 Test Loss: 370.049 Test Acc: 0.289
+Validation loss decreased (-0.260795 --> -0.285273).  Saving model ...
+Epoch: 32 cost time: 1.1901578903198242
+Epoch: 32, Steps: 17 | Train Loss: 599.418 Vali Loss: 341.733 Vali Acc: 0.228 Test Loss: 341.733 Test Acc: 0.228
+EarlyStopping counter: 1 out of 10
+Epoch: 33 cost time: 1.3044533729553223
+Epoch: 33, Steps: 17 | Train Loss: 71.902 Vali Loss: 262.317 Vali Acc: 0.255 Test Loss: 262.317 Test Acc: 0.255
+EarlyStopping counter: 2 out of 10
+Epoch: 34 cost time: 1.5646541118621826
+Epoch: 34, Steps: 17 | Train Loss: 16.709 Vali Loss: 339.895 Vali Acc: 0.236 Test Loss: 339.895 Test Acc: 0.236
+EarlyStopping counter: 3 out of 10
+Epoch: 35 cost time: 1.2137322425842285
+Epoch: 35, Steps: 17 | Train Loss: 45.751 Vali Loss: 295.489 Vali Acc: 0.289 Test Loss: 295.489 Test Acc: 0.289
+Validation loss decreased (-0.285273 --> -0.286018).  Saving model ...
+Epoch: 36 cost time: 1.1108224391937256
+Epoch: 36, Steps: 17 | Train Loss: 8420.638 Vali Loss: 495.718 Vali Acc: 0.262 Test Loss: 495.718 Test Acc: 0.262
+EarlyStopping counter: 1 out of 10
+Epoch: 37 cost time: 1.435647964477539
+Epoch: 37, Steps: 17 | Train Loss: 87.284 Vali Loss: 531.700 Vali Acc: 0.266 Test Loss: 531.700 Test Acc: 0.266
+EarlyStopping counter: 2 out of 10
+Epoch: 38 cost time: 1.0840957164764404
+Epoch: 38, Steps: 17 | Train Loss: 112.882 Vali Loss: 509.113 Vali Acc: 0.217 Test Loss: 509.113 Test Acc: 0.217
+EarlyStopping counter: 3 out of 10
+Epoch: 39 cost time: 1.0505542755126953
+Epoch: 39, Steps: 17 | Train Loss: 88.443 Vali Loss: 785.690 Vali Acc: 0.221 Test Loss: 785.690 Test Acc: 0.221
+EarlyStopping counter: 4 out of 10
+Epoch: 40 cost time: 1.1186292171478271
+Epoch: 40, Steps: 17 | Train Loss: 40.137 Vali Loss: 1170.227 Vali Acc: 0.243 Test Loss: 1170.227 Test Acc: 0.243
+EarlyStopping counter: 5 out of 10
+Epoch: 41 cost time: 1.3655037879943848
+Epoch: 41, Steps: 17 | Train Loss: 17.082 Vali Loss: 543.068 Vali Acc: 0.236 Test Loss: 543.068 Test Acc: 0.236
+EarlyStopping counter: 6 out of 10
+Epoch: 42 cost time: 1.6676044464111328
+Epoch: 42, Steps: 17 | Train Loss: 374.222 Vali Loss: 537.109 Vali Acc: 0.243 Test Loss: 537.109 Test Acc: 0.243
+EarlyStopping counter: 7 out of 10
+Epoch: 43 cost time: 1.2280066013336182
+Epoch: 43, Steps: 17 | Train Loss: 261.059 Vali Loss: 466.508 Vali Acc: 0.255 Test Loss: 466.508 Test Acc: 0.255
+EarlyStopping counter: 8 out of 10
+Epoch: 44 cost time: 1.0531761646270752
+Epoch: 44, Steps: 17 | Train Loss: 721.160 Vali Loss: 780.076 Vali Acc: 0.289 Test Loss: 780.076 Test Acc: 0.289
+EarlyStopping counter: 9 out of 10
+Epoch: 45 cost time: 0.9700748920440674
+Epoch: 45, Steps: 17 | Train Loss: 512.936 Vali Loss: 1202.405 Vali Acc: 0.255 Test Loss: 1202.405 Test Acc: 0.255
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.2889733840304182
+model parameter : 228352
+model size : 1.49MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.301463603973389
+Epoch: 1, Steps: 17 | Train Loss: 18909831.574 Vali Loss: 1409698.750 Vali Acc: 0.221 Test Loss: 1409698.750 Test Acc: 0.221
+Validation loss decreased (inf --> 13.876454).  Saving model ...
+Epoch: 2 cost time: 0.9555776119232178
+Epoch: 2, Steps: 17 | Train Loss: 17079126.357 Vali Loss: 2094524.000 Vali Acc: 0.221 Test Loss: 2094524.000 Test Acc: 0.221
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.2704367637634277
+Epoch: 3, Steps: 17 | Train Loss: 462983.807 Vali Loss: 1288002.500 Vali Acc: 0.224 Test Loss: 1288002.500 Test Acc: 0.224
+Validation loss decreased (13.876454 --> 12.655690).  Saving model ...
+Epoch: 4 cost time: 1.0809190273284912
+Epoch: 4, Steps: 17 | Train Loss: 88824.280 Vali Loss: 773901.562 Vali Acc: 0.236 Test Loss: 773901.562 Test Acc: 0.236
+Validation loss decreased (12.655690 --> 7.503274).  Saving model ...
+Epoch: 5 cost time: 0.9429450035095215
+Epoch: 5, Steps: 17 | Train Loss: 2596366.217 Vali Loss: 325056.281 Vali Acc: 0.251 Test Loss: 325056.281 Test Acc: 0.251
+Validation loss decreased (7.503274 --> 2.999612).  Saving model ...
+Epoch: 6 cost time: 1.46012282371521
+Epoch: 6, Steps: 17 | Train Loss: 191083.377 Vali Loss: 60026.195 Vali Acc: 0.289 Test Loss: 60026.195 Test Acc: 0.289
+Validation loss decreased (2.999612 --> 0.311289).  Saving model ...
+Epoch: 7 cost time: 1.6354029178619385
+Epoch: 7, Steps: 17 | Train Loss: 14536.558 Vali Loss: 51789.969 Vali Acc: 0.274 Test Loss: 51789.969 Test Acc: 0.274
+Validation loss decreased (0.311289 --> 0.244135).  Saving model ...
+Epoch: 8 cost time: 1.4733519554138184
+Epoch: 8, Steps: 17 | Train Loss: 7405.666 Vali Loss: 31750.867 Vali Acc: 0.228 Test Loss: 31750.867 Test Acc: 0.228
+Validation loss decreased (0.244135 --> 0.089372).  Saving model ...
+Epoch: 9 cost time: 1.4232425689697266
+Epoch: 9, Steps: 17 | Train Loss: 73933.441 Vali Loss: 19147.904 Vali Acc: 0.232 Test Loss: 19147.904 Test Acc: 0.232
+Validation loss decreased (0.089372 --> -0.040460).  Saving model ...
+Epoch: 10 cost time: 1.615602731704712
+Epoch: 10, Steps: 17 | Train Loss: 949.435 Vali Loss: 21983.012 Vali Acc: 0.255 Test Loss: 21983.012 Test Acc: 0.255
+EarlyStopping counter: 1 out of 10
+Epoch: 11 cost time: 1.366029977798462
+Epoch: 11, Steps: 17 | Train Loss: 6050.786 Vali Loss: 14183.008 Vali Acc: 0.232 Test Loss: 14183.008 Test Acc: 0.232
+Validation loss decreased (-0.040460 --> -0.090109).  Saving model ...
+Epoch: 12 cost time: 1.345979928970337
+Epoch: 12, Steps: 17 | Train Loss: 809.909 Vali Loss: 4124.419 Vali Acc: 0.224 Test Loss: 4124.419 Test Acc: 0.224
+Validation loss decreased (-0.090109 --> -0.183090).  Saving model ...
+Epoch: 13 cost time: 1.6608004570007324
+Epoch: 13, Steps: 17 | Train Loss: 6352.167 Vali Loss: 97630.180 Vali Acc: 0.221 Test Loss: 97630.180 Test Acc: 0.221
+EarlyStopping counter: 1 out of 10
+Epoch: 14 cost time: 1.8549280166625977
+Epoch: 14, Steps: 17 | Train Loss: 621.259 Vali Loss: 82711.633 Vali Acc: 0.251 Test Loss: 82711.633 Test Acc: 0.251
+EarlyStopping counter: 2 out of 10
+Epoch: 15 cost time: 1.218989610671997
+Epoch: 15, Steps: 17 | Train Loss: 4040.392 Vali Loss: 104092.844 Vali Acc: 0.247 Test Loss: 104092.844 Test Acc: 0.247
+EarlyStopping counter: 3 out of 10
+Epoch: 16 cost time: 1.1236741542816162
+Epoch: 16, Steps: 17 | Train Loss: 1845.270 Vali Loss: 60950.523 Vali Acc: 0.240 Test Loss: 60950.523 Test Acc: 0.240
+EarlyStopping counter: 4 out of 10
+Epoch: 17 cost time: 1.3334534168243408
+Epoch: 17, Steps: 17 | Train Loss: 685.550 Vali Loss: 77534.461 Vali Acc: 0.202 Test Loss: 77534.461 Test Acc: 0.202
+EarlyStopping counter: 5 out of 10
+Epoch: 18 cost time: 1.8453395366668701
+Epoch: 18, Steps: 17 | Train Loss: 138.395 Vali Loss: 82462.938 Vali Acc: 0.240 Test Loss: 82462.938 Test Acc: 0.240
+EarlyStopping counter: 6 out of 10
+Epoch: 19 cost time: 1.6834900379180908
+Epoch: 19, Steps: 17 | Train Loss: 1604.083 Vali Loss: 30749.406 Vali Acc: 0.240 Test Loss: 30749.406 Test Acc: 0.240
+EarlyStopping counter: 7 out of 10
+Epoch: 20 cost time: 1.3229894638061523
+Epoch: 20, Steps: 17 | Train Loss: 3270.356 Vali Loss: 31809.008 Vali Acc: 0.247 Test Loss: 31809.008 Test Acc: 0.247
+EarlyStopping counter: 8 out of 10
+Epoch: 21 cost time: 1.3514971733093262
+Epoch: 21, Steps: 17 | Train Loss: 656.212 Vali Loss: 14526.757 Vali Acc: 0.259 Test Loss: 14526.757 Test Acc: 0.259
+EarlyStopping counter: 9 out of 10
+Epoch: 22 cost time: 1.6271343231201172
+Epoch: 22, Steps: 17 | Train Loss: 44.886 Vali Loss: 37930.484 Vali Acc: 0.232 Test Loss: 37930.484 Test Acc: 0.232
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.22433460076045628
+model parameter : 228160
+model size : 1.49MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_EthanolConcentrationModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+261
+263
+263
+>>>>>>>start training : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.9070422649383545
+Epoch: 1, Steps: 17 | Train Loss: 116648070.092 Vali Loss: 1967012.125 Vali Acc: 0.224 Test Loss: 1967012.125 Test Acc: 0.224
+Validation loss decreased (inf --> 19.445786).  Saving model ...
+Epoch: 2 cost time: 1.4402146339416504
+Epoch: 2, Steps: 17 | Train Loss: 33754952.618 Vali Loss: 1539853.875 Vali Acc: 0.278 Test Loss: 1539853.875 Test Acc: 0.278
+Validation loss decreased (19.445786 --> 15.120972).  Saving model ...
+Epoch: 3 cost time: 1.0381271839141846
+Epoch: 3, Steps: 17 | Train Loss: 786954.521 Vali Loss: 858165.562 Vali Acc: 0.278 Test Loss: 858165.562 Test Acc: 0.278
+Validation loss decreased (15.120972 --> 8.304089).  Saving model ...
+Epoch: 4 cost time: 1.0466892719268799
+Epoch: 4, Steps: 17 | Train Loss: 2527747.377 Vali Loss: 3711245.250 Vali Acc: 0.255 Test Loss: 3711245.250 Test Acc: 0.255
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.2507655620574951
+Epoch: 5, Steps: 17 | Train Loss: 73317.010 Vali Loss: 1709501.000 Vali Acc: 0.243 Test Loss: 1709501.000 Test Acc: 0.243
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.04891037940979
+Epoch: 6, Steps: 17 | Train Loss: 18028.467 Vali Loss: 424737.250 Vali Acc: 0.251 Test Loss: 424737.250 Test Acc: 0.251
+Validation loss decreased (8.304089 --> 3.996422).  Saving model ...
+Epoch: 7 cost time: 1.2391111850738525
+Epoch: 7, Steps: 17 | Train Loss: 14535.735 Vali Loss: 149406.781 Vali Acc: 0.243 Test Loss: 149406.781 Test Acc: 0.243
+Validation loss decreased (3.996422 --> 1.250722).  Saving model ...
+Epoch: 8 cost time: 1.2107901573181152
+Epoch: 8, Steps: 17 | Train Loss: 6905.435 Vali Loss: 42910.879 Vali Acc: 0.259 Test Loss: 42910.879 Test Acc: 0.259
+Validation loss decreased (1.250722 --> 0.170554).  Saving model ...
+Epoch: 9 cost time: 0.9715733528137207
+Epoch: 9, Steps: 17 | Train Loss: 468.857 Vali Loss: 22609.596 Vali Acc: 0.255 Test Loss: 22609.596 Test Acc: 0.255
+Validation loss decreased (0.170554 --> -0.028657).  Saving model ...
+Epoch: 10 cost time: 1.1020042896270752
+Epoch: 10, Steps: 17 | Train Loss: 18980.358 Vali Loss: 5710.076 Vali Acc: 0.262 Test Loss: 5710.076 Test Acc: 0.262
+Validation loss decreased (-0.028657 --> -0.205257).  Saving model ...
+Epoch: 11 cost time: 1.0307941436767578
+Epoch: 11, Steps: 17 | Train Loss: 2453.894 Vali Loss: 287.998 Vali Acc: 0.221 Test Loss: 287.998 Test Acc: 0.221
+Validation loss decreased (-0.205257 --> -0.217652).  Saving model ...
+Epoch: 12 cost time: 1.2929809093475342
+Epoch: 12, Steps: 17 | Train Loss: 1320.617 Vali Loss: 5031.756 Vali Acc: 0.224 Test Loss: 5031.756 Test Acc: 0.224
+EarlyStopping counter: 1 out of 10
+Epoch: 13 cost time: 1.1131489276885986
+Epoch: 13, Steps: 17 | Train Loss: 13614.369 Vali Loss: 7322.107 Vali Acc: 0.236 Test Loss: 7322.107 Test Acc: 0.236
+EarlyStopping counter: 2 out of 10
+Epoch: 14 cost time: 1.0533215999603271
+Epoch: 14, Steps: 17 | Train Loss: 115096.360 Vali Loss: 4109.407 Vali Acc: 0.259 Test Loss: 4109.407 Test Acc: 0.259
+EarlyStopping counter: 3 out of 10
+Epoch: 15 cost time: 1.126485824584961
+Epoch: 15, Steps: 17 | Train Loss: 226.886 Vali Loss: 10782.290 Vali Acc: 0.243 Test Loss: 10782.290 Test Acc: 0.243
+EarlyStopping counter: 4 out of 10
+Epoch: 16 cost time: 1.2932868003845215
+Epoch: 16, Steps: 17 | Train Loss: 323.100 Vali Loss: 10258.831 Vali Acc: 0.274 Test Loss: 10258.831 Test Acc: 0.274
+EarlyStopping counter: 5 out of 10
+Epoch: 17 cost time: 1.2667834758758545
+Epoch: 17, Steps: 17 | Train Loss: 485.282 Vali Loss: 5932.371 Vali Acc: 0.194 Test Loss: 5932.371 Test Acc: 0.194
+EarlyStopping counter: 6 out of 10
+Epoch: 18 cost time: 1.5087311267852783
+Epoch: 18, Steps: 17 | Train Loss: 401.569 Vali Loss: 5605.929 Vali Acc: 0.217 Test Loss: 5605.929 Test Acc: 0.217
+EarlyStopping counter: 7 out of 10
+Epoch: 19 cost time: 1.1130220890045166
+Epoch: 19, Steps: 17 | Train Loss: 446.180 Vali Loss: 2870.278 Vali Acc: 0.236 Test Loss: 2870.278 Test Acc: 0.236
+EarlyStopping counter: 8 out of 10
+Epoch: 20 cost time: 1.1523396968841553
+Epoch: 20, Steps: 17 | Train Loss: 298.646 Vali Loss: 1127.312 Vali Acc: 0.266 Test Loss: 1127.312 Test Acc: 0.266
+Validation loss decreased (-0.217652 --> -0.254887).  Saving model ...
+Epoch: 21 cost time: 1.2678570747375488
+Epoch: 21, Steps: 17 | Train Loss: 154809.117 Vali Loss: 1723.238 Vali Acc: 0.278 Test Loss: 1723.238 Test Acc: 0.278
+Validation loss decreased (-0.254887 --> -0.260334).  Saving model ...
+Epoch: 22 cost time: 1.5198068618774414
+Epoch: 22, Steps: 17 | Train Loss: 96.988 Vali Loss: 1155.499 Vali Acc: 0.278 Test Loss: 1155.499 Test Acc: 0.278
+Validation loss decreased (-0.260334 --> -0.266012).  Saving model ...
+Epoch: 23 cost time: 1.18023681640625
+Epoch: 23, Steps: 17 | Train Loss: 862.029 Vali Loss: 1581.630 Vali Acc: 0.270 Test Loss: 1581.630 Test Acc: 0.270
+EarlyStopping counter: 1 out of 10
+Epoch: 24 cost time: 1.1866405010223389
+Epoch: 24, Steps: 17 | Train Loss: 288.985 Vali Loss: 1542.095 Vali Acc: 0.281 Test Loss: 1542.095 Test Acc: 0.281
+EarlyStopping counter: 2 out of 10
+Epoch: 25 cost time: 1.2831432819366455
+Epoch: 25, Steps: 17 | Train Loss: 9325.149 Vali Loss: 4010.965 Vali Acc: 0.259 Test Loss: 4010.965 Test Acc: 0.259
+EarlyStopping counter: 3 out of 10
+Epoch: 26 cost time: 1.3101096153259277
+Epoch: 26, Steps: 17 | Train Loss: 271.445 Vali Loss: 1708.871 Vali Acc: 0.304 Test Loss: 1708.871 Test Acc: 0.304
+Validation loss decreased (-0.266012 --> -0.287094).  Saving model ...
+Epoch: 27 cost time: 1.28265380859375
+Epoch: 27, Steps: 17 | Train Loss: 76.884 Vali Loss: 909.173 Vali Acc: 0.255 Test Loss: 909.173 Test Acc: 0.255
+EarlyStopping counter: 1 out of 10
+Epoch: 28 cost time: 1.1778287887573242
+Epoch: 28, Steps: 17 | Train Loss: 1803.591 Vali Loss: 645.580 Vali Acc: 0.285 Test Loss: 645.580 Test Acc: 0.285
+EarlyStopping counter: 2 out of 10
+Epoch: 29 cost time: 1.3217854499816895
+Epoch: 29, Steps: 17 | Train Loss: 5.162 Vali Loss: 767.056 Vali Acc: 0.243 Test Loss: 767.056 Test Acc: 0.243
+EarlyStopping counter: 3 out of 10
+Epoch: 30 cost time: 1.3422095775604248
+Epoch: 30, Steps: 17 | Train Loss: 270.330 Vali Loss: 567.784 Vali Acc: 0.262 Test Loss: 567.784 Test Acc: 0.262
+EarlyStopping counter: 4 out of 10
+Epoch: 31 cost time: 1.20582914352417
+Epoch: 31, Steps: 17 | Train Loss: 125.815 Vali Loss: 777.502 Vali Acc: 0.221 Test Loss: 777.502 Test Acc: 0.221
+EarlyStopping counter: 5 out of 10
+Epoch: 32 cost time: 1.1346895694732666
+Epoch: 32, Steps: 17 | Train Loss: 16.747 Vali Loss: 1294.818 Vali Acc: 0.259 Test Loss: 1294.818 Test Acc: 0.259
+EarlyStopping counter: 6 out of 10
+Epoch: 33 cost time: 1.0559022426605225
+Epoch: 33, Steps: 17 | Train Loss: 21.534 Vali Loss: 368.771 Vali Acc: 0.278 Test Loss: 368.771 Test Acc: 0.278
+EarlyStopping counter: 7 out of 10
+Epoch: 34 cost time: 1.3385088443756104
+Epoch: 34, Steps: 17 | Train Loss: 7.615 Vali Loss: 1461.192 Vali Acc: 0.266 Test Loss: 1461.192 Test Acc: 0.266
+EarlyStopping counter: 8 out of 10
+Epoch: 35 cost time: 1.0399255752563477
+Epoch: 35, Steps: 17 | Train Loss: 70.249 Vali Loss: 1354.355 Vali Acc: 0.251 Test Loss: 1354.355 Test Acc: 0.251
+EarlyStopping counter: 9 out of 10
+Epoch: 36 cost time: 1.1198718547821045
+Epoch: 36, Steps: 17 | Train Loss: 59.577 Vali Loss: 1243.375 Vali Acc: 0.255 Test Loss: 1243.375 Test Acc: 0.255
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_EthanolConcentration_Mamba_UEA_ftM_sl1751_ll0_pl0_dm32_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+accuracy:0.3041825095057034
+model parameter : 228064
+model size : 1.49MB

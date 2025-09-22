@@ -1,0 +1,7560 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 100 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 109 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 57 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 114 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 30 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 60 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 120 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 33 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 66 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 132 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 35 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 70 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 139 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 74 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 148 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 79 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 157 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 84 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 167 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 90 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 179 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 97 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 193 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 209 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 57 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 114 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 228 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 250 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 70 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 139 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 278 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 79 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 157 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 313 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 90 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 179 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 358 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 209 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 417 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 250 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 500 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 100 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 109 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 57 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 114 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 30 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 60 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 120 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 33 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 66 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 132 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 35 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 70 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 139 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 74 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 148 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 79 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 157 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 84 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 167 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 90 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 179 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 97 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 193 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 209 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 57 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 114 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 228 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 250 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 70 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 139 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 278 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 79 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 157 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 313 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 90 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 179 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 358 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 209 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 417 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 250 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 500 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 100 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 109 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 57 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 114 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 30 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 60 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 120 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 33 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 66 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 132 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 35 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 70 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 139 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 74 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 148 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 79 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 157 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 84 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 167 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 90 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 179 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 97 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 193 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 209 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 57 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 114 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 228 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 250 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 70 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 139 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 278 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 79 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 157 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 313 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 90 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 179 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 358 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 209 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 417 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 250 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 500 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 50 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 100 \
+  --patch_stride 100 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 109 \
+  --patch_stride 109 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 57 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 114 \
+  --patch_stride 114 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 30 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 60 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 120 \
+  --patch_stride 120 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 125 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 33 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 66 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 132 \
+  --patch_stride 132 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 35 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 70 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 139 \
+  --patch_stride 139 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 74 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 148 \
+  --patch_stride 148 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 79 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 157 \
+  --patch_stride 157 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 84 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 167 \
+  --patch_stride 167 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 90 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 179 \
+  --patch_stride 179 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 97 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 193 \
+  --patch_stride 193 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 209 \
+  --patch_stride 209 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 57 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 114 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 228 \
+  --patch_stride 228 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 250 \
+  --patch_stride 250 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 70 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 139 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 278 \
+  --patch_stride 278 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 79 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 157 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 313 \
+  --patch_stride 313 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 90 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 179 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 358 \
+  --patch_stride 358 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 209 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 417 \
+  --patch_stride 417 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 125 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 250 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --seq_len 2500 \
+  --enc_in 4 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_StandWalkJump \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 500 \
+  --patch_stride 500 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+

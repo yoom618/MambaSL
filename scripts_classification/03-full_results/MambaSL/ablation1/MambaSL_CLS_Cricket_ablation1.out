@@ -1,0 +1,2778 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 2.8444266319274902
+Epoch: 1, Steps: 7 | Train Loss: 2.386 Vali Loss: 1.692 Vali Acc: 0.847 Test Loss: 1.692 Test Acc: 0.847
+Validation loss decreased (inf --> -0.847205).  Saving model ...
+Epoch: 2 cost time: 1.5001754760742188
+Epoch: 2, Steps: 7 | Train Loss: 0.575 Vali Loss: 0.204 Vali Acc: 0.972 Test Loss: 0.204 Test Acc: 0.972
+Validation loss decreased (-0.847205 --> -0.972220).  Saving model ...
+Epoch: 3 cost time: 1.611682415008545
+Epoch: 3, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.409 Vali Acc: 0.847 Test Loss: 1.409 Test Acc: 0.847
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.670844316482544
+Epoch: 4, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.878 Vali Acc: 0.889 Test Loss: 1.878 Test Acc: 0.889
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.5164079666137695
+Epoch: 5, Steps: 7 | Train Loss: 0.000 Vali Loss: 2.307 Vali Acc: 0.889 Test Loss: 2.307 Test Acc: 0.889
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.9779205322265625
+Epoch: 6, Steps: 7 | Train Loss: 0.089 Vali Loss: 2.017 Vali Acc: 0.917 Test Loss: 2.017 Test Acc: 0.917
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.4788517951965332
+Epoch: 7, Steps: 7 | Train Loss: 0.089 Vali Loss: 5.322 Vali Acc: 0.889 Test Loss: 5.322 Test Acc: 0.889
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.3589797019958496
+Epoch: 8, Steps: 7 | Train Loss: 0.031 Vali Loss: 9.614 Vali Acc: 0.889 Test Loss: 9.614 Test Acc: 0.889
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.5433225631713867
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 18.440 Vali Acc: 0.806 Test Loss: 18.440 Test Acc: 0.806
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.5144538879394531
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 27.136 Vali Acc: 0.764 Test Loss: 27.136 Test Acc: 0.764
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 2.0874197483062744
+Epoch: 11, Steps: 7 | Train Loss: 0.203 Vali Loss: 27.495 Vali Acc: 0.792 Test Loss: 27.495 Test Acc: 0.792
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.7071466445922852
+Epoch: 12, Steps: 7 | Train Loss: 0.117 Vali Loss: 50.128 Vali Acc: 0.750 Test Loss: 50.128 Test Acc: 0.750
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9722222222222222
+model parameter : 18064384
+model size : 88.45MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.3392882347106934
+Epoch: 1, Steps: 7 | Train Loss: 2.408 Vali Loss: 1.664 Vali Acc: 0.875 Test Loss: 1.664 Test Acc: 0.875
+Validation loss decreased (inf --> -0.874983).  Saving model ...
+Epoch: 2 cost time: 1.1408274173736572
+Epoch: 2, Steps: 7 | Train Loss: 0.569 Vali Loss: 0.183 Vali Acc: 0.972 Test Loss: 0.183 Test Acc: 0.972
+Validation loss decreased (-0.874983 --> -0.972220).  Saving model ...
+Epoch: 3 cost time: 1.6343810558319092
+Epoch: 3, Steps: 7 | Train Loss: 0.021 Vali Loss: 0.832 Vali Acc: 0.917 Test Loss: 0.832 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.5416600704193115
+Epoch: 4, Steps: 7 | Train Loss: 0.000 Vali Loss: 3.294 Vali Acc: 0.819 Test Loss: 3.294 Test Acc: 0.819
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 2.0289976596832275
+Epoch: 5, Steps: 7 | Train Loss: 0.219 Vali Loss: 4.161 Vali Acc: 0.875 Test Loss: 4.161 Test Acc: 0.875
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.4337384700775146
+Epoch: 6, Steps: 7 | Train Loss: 0.102 Vali Loss: 4.984 Vali Acc: 0.861 Test Loss: 4.984 Test Acc: 0.861
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 2.049403190612793
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 6.158 Vali Acc: 0.764 Test Loss: 6.158 Test Acc: 0.764
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.7029237747192383
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 7.716 Vali Acc: 0.750 Test Loss: 7.716 Test Acc: 0.750
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.6499199867248535
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 8.363 Vali Acc: 0.750 Test Loss: 8.363 Test Acc: 0.750
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.906822681427002
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 8.720 Vali Acc: 0.750 Test Loss: 8.720 Test Acc: 0.750
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.4970545768737793
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 8.865 Vali Acc: 0.736 Test Loss: 8.865 Test Acc: 0.736
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.5748908519744873
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 8.901 Vali Acc: 0.736 Test Loss: 8.901 Test Acc: 0.736
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9722222222222222
+model parameter : 18039808
+model size : 88.35MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.5170798301696777
+Epoch: 1, Steps: 7 | Train Loss: 2.418 Vali Loss: 1.734 Vali Acc: 0.847 Test Loss: 1.734 Test Acc: 0.847
+Validation loss decreased (inf --> -0.847205).  Saving model ...
+Epoch: 2 cost time: 1.4050612449645996
+Epoch: 2, Steps: 7 | Train Loss: 0.657 Vali Loss: 0.187 Vali Acc: 0.958 Test Loss: 0.187 Test Acc: 0.958
+Validation loss decreased (-0.847205 --> -0.958331).  Saving model ...
+Epoch: 3 cost time: 1.5900545120239258
+Epoch: 3, Steps: 7 | Train Loss: 0.146 Vali Loss: 0.270 Vali Acc: 0.903 Test Loss: 0.270 Test Acc: 0.903
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.4132206439971924
+Epoch: 4, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.783 Vali Acc: 0.875 Test Loss: 0.783 Test Acc: 0.875
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.4428560733795166
+Epoch: 5, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.329 Vali Acc: 0.875 Test Loss: 1.329 Test Acc: 0.875
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.6995885372161865
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.325 Vali Acc: 0.889 Test Loss: 1.325 Test Acc: 0.889
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.4684326648712158
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.229 Vali Acc: 0.903 Test Loss: 1.229 Test Acc: 0.903
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.588690996170044
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.298 Vali Acc: 0.889 Test Loss: 1.298 Test Acc: 0.889
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.456282615661621
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.364 Vali Acc: 0.889 Test Loss: 1.364 Test Acc: 0.889
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.3382642269134521
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.393 Vali Acc: 0.889 Test Loss: 1.393 Test Acc: 0.889
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.175478219985962
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.399 Vali Acc: 0.889 Test Loss: 1.399 Test Acc: 0.889
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.3717622756958008
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.392 Vali Acc: 0.889 Test Loss: 1.392 Test Acc: 0.889
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9583333333333334
+model parameter : 18027520
+model size : 88.31MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.0225448608398438
+Epoch: 1, Steps: 7 | Train Loss: 2.407 Vali Loss: 1.683 Vali Acc: 0.875 Test Loss: 1.683 Test Acc: 0.875
+Validation loss decreased (inf --> -0.874983).  Saving model ...
+Epoch: 2 cost time: 1.6454637050628662
+Epoch: 2, Steps: 7 | Train Loss: 0.576 Vali Loss: 0.199 Vali Acc: 0.944 Test Loss: 0.199 Test Acc: 0.944
+Validation loss decreased (-0.874983 --> -0.944442).  Saving model ...
+Epoch: 3 cost time: 2.384517192840576
+Epoch: 3, Steps: 7 | Train Loss: 0.032 Vali Loss: 0.552 Vali Acc: 0.917 Test Loss: 0.552 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 2.0882492065429688
+Epoch: 4, Steps: 7 | Train Loss: 0.021 Vali Loss: 1.108 Vali Acc: 0.875 Test Loss: 1.108 Test Acc: 0.875
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.9926679134368896
+Epoch: 5, Steps: 7 | Train Loss: 0.000 Vali Loss: 2.005 Vali Acc: 0.889 Test Loss: 2.005 Test Acc: 0.889
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 2.3104517459869385
+Epoch: 6, Steps: 7 | Train Loss: 0.019 Vali Loss: 4.077 Vali Acc: 0.861 Test Loss: 4.077 Test Acc: 0.861
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.951552152633667
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 10.994 Vali Acc: 0.764 Test Loss: 10.994 Test Acc: 0.764
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 3.308912515640259
+Epoch: 8, Steps: 7 | Train Loss: 0.521 Vali Loss: 24.926 Vali Acc: 0.750 Test Loss: 24.926 Test Acc: 0.750
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 2.537607192993164
+Epoch: 9, Steps: 7 | Train Loss: 1.539 Vali Loss: 11.540 Vali Acc: 0.806 Test Loss: 11.540 Test Acc: 0.806
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 2.0965046882629395
+Epoch: 10, Steps: 7 | Train Loss: 0.932 Vali Loss: 4.464 Vali Acc: 0.792 Test Loss: 4.464 Test Acc: 0.792
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 2.3745219707489014
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 3.954 Vali Acc: 0.819 Test Loss: 3.954 Test Acc: 0.819
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 2.35513973236084
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 3.488 Vali Acc: 0.833 Test Loss: 3.488 Test Acc: 0.833
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9444444444444444
+model parameter : 18021376
+model size : 88.28MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.4477949142456055
+Epoch: 1, Steps: 7 | Train Loss: 2.401 Vali Loss: 1.717 Vali Acc: 0.833 Test Loss: 1.717 Test Acc: 0.833
+Validation loss decreased (inf --> -0.833316).  Saving model ...
+Epoch: 2 cost time: 3.0881810188293457
+Epoch: 2, Steps: 7 | Train Loss: 0.565 Vali Loss: 0.197 Vali Acc: 0.931 Test Loss: 0.197 Test Acc: 0.931
+Validation loss decreased (-0.833316 --> -0.930554).  Saving model ...
+Epoch: 3 cost time: 2.0195863246917725
+Epoch: 3, Steps: 7 | Train Loss: 0.004 Vali Loss: 0.344 Vali Acc: 0.944 Test Loss: 0.344 Test Acc: 0.944
+Validation loss decreased (-0.930554 --> -0.944441).  Saving model ...
+Epoch: 4 cost time: 1.6565818786621094
+Epoch: 4, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.293 Vali Acc: 0.847 Test Loss: 1.293 Test Acc: 0.847
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 2.140406608581543
+Epoch: 5, Steps: 7 | Train Loss: 0.000 Vali Loss: 2.930 Vali Acc: 0.833 Test Loss: 2.930 Test Acc: 0.833
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.8004472255706787
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 4.353 Vali Acc: 0.833 Test Loss: 4.353 Test Acc: 0.833
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 2.4794890880584717
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 5.329 Vali Acc: 0.833 Test Loss: 5.329 Test Acc: 0.833
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 2.093066453933716
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 5.910 Vali Acc: 0.833 Test Loss: 5.910 Test Acc: 0.833
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 2.4264397621154785
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 6.216 Vali Acc: 0.833 Test Loss: 6.216 Test Acc: 0.833
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.9969158172607422
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 6.352 Vali Acc: 0.833 Test Loss: 6.352 Test Acc: 0.833
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 2.350578784942627
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 6.387 Vali Acc: 0.833 Test Loss: 6.387 Test Acc: 0.833
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.9860961437225342
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 6.366 Vali Acc: 0.833 Test Loss: 6.366 Test Acc: 0.833
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 2.2213354110717773
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 6.313 Vali Acc: 0.833 Test Loss: 6.313 Test Acc: 0.833
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm1024_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9444444444444444
+model parameter : 18018304
+model size : 88.27MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.4931905269622803
+Epoch: 1, Steps: 7 | Train Loss: 2.432 Vali Loss: 2.073 Vali Acc: 0.819 Test Loss: 2.073 Test Acc: 0.819
+Validation loss decreased (inf --> -0.819424).  Saving model ...
+Epoch: 2 cost time: 1.3631927967071533
+Epoch: 2, Steps: 7 | Train Loss: 1.234 Vali Loss: 0.587 Vali Acc: 0.903 Test Loss: 0.587 Test Acc: 0.903
+Validation loss decreased (-0.819424 --> -0.902772).  Saving model ...
+Epoch: 3 cost time: 1.3970592021942139
+Epoch: 3, Steps: 7 | Train Loss: 0.077 Vali Loss: 0.287 Vali Acc: 0.917 Test Loss: 0.287 Test Acc: 0.917
+Validation loss decreased (-0.902772 --> -0.916664).  Saving model ...
+Epoch: 4 cost time: 1.0578503608703613
+Epoch: 4, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.683 Vali Acc: 0.875 Test Loss: 0.683 Test Acc: 0.875
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.1799585819244385
+Epoch: 5, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.173 Vali Acc: 0.847 Test Loss: 1.173 Test Acc: 0.847
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.213484764099121
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.587 Vali Acc: 0.847 Test Loss: 1.587 Test Acc: 0.847
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.762857437133789
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.877 Vali Acc: 0.833 Test Loss: 1.877 Test Acc: 0.833
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.3977885246276855
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 2.056 Vali Acc: 0.833 Test Loss: 2.056 Test Acc: 0.833
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.293602466583252
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 2.159 Vali Acc: 0.833 Test Loss: 2.159 Test Acc: 0.833
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.558086633682251
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 2.214 Vali Acc: 0.833 Test Loss: 2.214 Test Acc: 0.833
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.7245616912841797
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 2.242 Vali Acc: 0.833 Test Loss: 2.242 Test Acc: 0.833
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.701606273651123
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 2.254 Vali Acc: 0.833 Test Loss: 2.254 Test Acc: 0.833
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.3580906391143799
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 2.258 Vali Acc: 0.833 Test Loss: 2.258 Test Acc: 0.833
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9166666666666666
+model parameter : 8212992
+model size : 41.10MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.159459352493286
+Epoch: 1, Steps: 7 | Train Loss: 2.435 Vali Loss: 2.068 Vali Acc: 0.806 Test Loss: 2.068 Test Acc: 0.806
+Validation loss decreased (inf --> -0.805535).  Saving model ...
+Epoch: 2 cost time: 1.8848724365234375
+Epoch: 2, Steps: 7 | Train Loss: 1.225 Vali Loss: 0.584 Vali Acc: 0.917 Test Loss: 0.584 Test Acc: 0.917
+Validation loss decreased (-0.805535 --> -0.916661).  Saving model ...
+Epoch: 3 cost time: 1.396512508392334
+Epoch: 3, Steps: 7 | Train Loss: 0.078 Vali Loss: 0.214 Vali Acc: 0.917 Test Loss: 0.214 Test Acc: 0.917
+Validation loss decreased (-0.916661 --> -0.916665).  Saving model ...
+Epoch: 4 cost time: 1.0154240131378174
+Epoch: 4, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.256 Vali Acc: 0.944 Test Loss: 0.256 Test Acc: 0.944
+Validation loss decreased (-0.916665 --> -0.944442).  Saving model ...
+Epoch: 5 cost time: 1.0504345893859863
+Epoch: 5, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.376 Vali Acc: 0.944 Test Loss: 0.376 Test Acc: 0.944
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.2570762634277344
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.515 Vali Acc: 0.931 Test Loss: 0.515 Test Acc: 0.931
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 1.6376898288726807
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.624 Vali Acc: 0.917 Test Loss: 0.624 Test Acc: 0.917
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 1.5940289497375488
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.695 Vali Acc: 0.917 Test Loss: 0.695 Test Acc: 0.917
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 1.5410456657409668
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.736 Vali Acc: 0.917 Test Loss: 0.736 Test Acc: 0.917
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 1.3017699718475342
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.759 Vali Acc: 0.917 Test Loss: 0.759 Test Acc: 0.917
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 1.0373408794403076
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.771 Vali Acc: 0.917 Test Loss: 0.771 Test Acc: 0.917
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 1.3707411289215088
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.776 Vali Acc: 0.917 Test Loss: 0.776 Test Acc: 0.917
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 1.8936519622802734
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.777 Vali Acc: 0.917 Test Loss: 0.777 Test Acc: 0.917
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 1.6190681457519531
+Epoch: 14, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.777 Vali Acc: 0.917 Test Loss: 0.777 Test Acc: 0.917
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9444444444444444
+model parameter : 8200704
+model size : 41.05MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.207653760910034
+Epoch: 1, Steps: 7 | Train Loss: 2.442 Vali Loss: 2.107 Vali Acc: 0.778 Test Loss: 2.107 Test Acc: 0.778
+Validation loss decreased (inf --> -0.777757).  Saving model ...
+Epoch: 2 cost time: 1.3695218563079834
+Epoch: 2, Steps: 7 | Train Loss: 1.266 Vali Loss: 0.674 Vali Acc: 0.875 Test Loss: 0.674 Test Acc: 0.875
+Validation loss decreased (-0.777757 --> -0.874993).  Saving model ...
+Epoch: 3 cost time: 1.4261188507080078
+Epoch: 3, Steps: 7 | Train Loss: 0.093 Vali Loss: 0.194 Vali Acc: 0.944 Test Loss: 0.194 Test Acc: 0.944
+Validation loss decreased (-0.874993 --> -0.944443).  Saving model ...
+Epoch: 4 cost time: 1.3522768020629883
+Epoch: 4, Steps: 7 | Train Loss: 0.007 Vali Loss: 0.284 Vali Acc: 0.917 Test Loss: 0.284 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.652705430984497
+Epoch: 5, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.486 Vali Acc: 0.889 Test Loss: 0.486 Test Acc: 0.889
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.510979413986206
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.739 Vali Acc: 0.875 Test Loss: 0.739 Test Acc: 0.875
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.2851839065551758
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.948 Vali Acc: 0.861 Test Loss: 0.948 Test Acc: 0.861
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.3147668838500977
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.074 Vali Acc: 0.861 Test Loss: 1.074 Test Acc: 0.861
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.496919870376587
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.133 Vali Acc: 0.861 Test Loss: 1.133 Test Acc: 0.861
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 0.9835343360900879
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.153 Vali Acc: 0.861 Test Loss: 1.153 Test Acc: 0.861
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 2.0323445796966553
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.151 Vali Acc: 0.861 Test Loss: 1.151 Test Acc: 0.861
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.3365533351898193
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.146 Vali Acc: 0.861 Test Loss: 1.146 Test Acc: 0.861
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.691222906112671
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.140 Vali Acc: 0.861 Test Loss: 1.140 Test Acc: 0.861
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9444444444444444
+model parameter : 8194560
+model size : 41.03MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.430698394775391
+Epoch: 1, Steps: 7 | Train Loss: 2.443 Vali Loss: 2.080 Vali Acc: 0.819 Test Loss: 2.080 Test Acc: 0.819
+Validation loss decreased (inf --> -0.819424).  Saving model ...
+Epoch: 2 cost time: 1.3940179347991943
+Epoch: 2, Steps: 7 | Train Loss: 1.252 Vali Loss: 0.635 Vali Acc: 0.889 Test Loss: 0.635 Test Acc: 0.889
+Validation loss decreased (-0.819424 --> -0.888883).  Saving model ...
+Epoch: 3 cost time: 1.8274011611938477
+Epoch: 3, Steps: 7 | Train Loss: 0.097 Vali Loss: 0.223 Vali Acc: 0.917 Test Loss: 0.223 Test Acc: 0.917
+Validation loss decreased (-0.888883 --> -0.916664).  Saving model ...
+Epoch: 4 cost time: 1.3100106716156006
+Epoch: 4, Steps: 7 | Train Loss: 0.003 Vali Loss: 0.398 Vali Acc: 0.917 Test Loss: 0.398 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.3963418006896973
+Epoch: 5, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.684 Vali Acc: 0.889 Test Loss: 0.684 Test Acc: 0.889
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.2981491088867188
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.929 Vali Acc: 0.889 Test Loss: 0.929 Test Acc: 0.889
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.3104772567749023
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.096 Vali Acc: 0.889 Test Loss: 1.096 Test Acc: 0.889
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.395092248916626
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.197 Vali Acc: 0.889 Test Loss: 1.197 Test Acc: 0.889
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.4069204330444336
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.254 Vali Acc: 0.889 Test Loss: 1.254 Test Acc: 0.889
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.4206366539001465
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.283 Vali Acc: 0.889 Test Loss: 1.283 Test Acc: 0.889
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.3752074241638184
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.297 Vali Acc: 0.889 Test Loss: 1.297 Test Acc: 0.889
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.1675136089324951
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.302 Vali Acc: 0.889 Test Loss: 1.302 Test Acc: 0.889
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.026587724685669
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.302 Vali Acc: 0.889 Test Loss: 1.302 Test Acc: 0.889
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9166666666666666
+model parameter : 8191488
+model size : 41.02MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.950753927230835
+Epoch: 1, Steps: 7 | Train Loss: 2.440 Vali Loss: 2.098 Vali Acc: 0.819 Test Loss: 2.098 Test Acc: 0.819
+Validation loss decreased (inf --> -0.819423).  Saving model ...
+Epoch: 2 cost time: 1.0672762393951416
+Epoch: 2, Steps: 7 | Train Loss: 1.249 Vali Loss: 0.646 Vali Acc: 0.847 Test Loss: 0.646 Test Acc: 0.847
+Validation loss decreased (-0.819423 --> -0.847216).  Saving model ...
+Epoch: 3 cost time: 1.540755033493042
+Epoch: 3, Steps: 7 | Train Loss: 0.087 Vali Loss: 0.252 Vali Acc: 0.917 Test Loss: 0.252 Test Acc: 0.917
+Validation loss decreased (-0.847216 --> -0.916664).  Saving model ...
+Epoch: 4 cost time: 1.6735529899597168
+Epoch: 4, Steps: 7 | Train Loss: 0.004 Vali Loss: 0.532 Vali Acc: 0.917 Test Loss: 0.532 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.5770084857940674
+Epoch: 5, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.899 Vali Acc: 0.875 Test Loss: 0.899 Test Acc: 0.875
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.2929024696350098
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.122 Vali Acc: 0.875 Test Loss: 1.122 Test Acc: 0.875
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.5873091220855713
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.285 Vali Acc: 0.875 Test Loss: 1.285 Test Acc: 0.875
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.364011526107788
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.390 Vali Acc: 0.875 Test Loss: 1.390 Test Acc: 0.875
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.4124040603637695
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.451 Vali Acc: 0.875 Test Loss: 1.451 Test Acc: 0.875
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.1660528182983398
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.483 Vali Acc: 0.875 Test Loss: 1.483 Test Acc: 0.875
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.4009954929351807
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.498 Vali Acc: 0.861 Test Loss: 1.498 Test Acc: 0.861
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.3986682891845703
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.502 Vali Acc: 0.861 Test Loss: 1.502 Test Acc: 0.861
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.2685225009918213
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 1.501 Vali Acc: 0.861 Test Loss: 1.501 Test Acc: 0.861
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm512_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9166666666666666
+model parameter : 8189952
+model size : 41.01MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.9397263526916504
+Epoch: 1, Steps: 7 | Train Loss: 2.456 Vali Loss: 2.263 Vali Acc: 0.764 Test Loss: 2.263 Test Acc: 0.764
+Validation loss decreased (inf --> -0.763866).  Saving model ...
+Epoch: 2 cost time: 1.0836286544799805
+Epoch: 2, Steps: 7 | Train Loss: 1.765 Vali Loss: 1.241 Vali Acc: 0.889 Test Loss: 1.241 Test Acc: 0.889
+Validation loss decreased (-0.763866 --> -0.888876).  Saving model ...
+Epoch: 3 cost time: 1.1784734725952148
+Epoch: 3, Steps: 7 | Train Loss: 0.520 Vali Loss: 0.402 Vali Acc: 0.903 Test Loss: 0.402 Test Acc: 0.903
+Validation loss decreased (-0.888876 --> -0.902774).  Saving model ...
+Epoch: 4 cost time: 1.3783082962036133
+Epoch: 4, Steps: 7 | Train Loss: 0.039 Vali Loss: 0.247 Vali Acc: 0.889 Test Loss: 0.247 Test Acc: 0.889
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.2766945362091064
+Epoch: 5, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.264 Vali Acc: 0.903 Test Loss: 0.264 Test Acc: 0.903
+Validation loss decreased (-0.902774 --> -0.902775).  Saving model ...
+Epoch: 6 cost time: 1.2998857498168945
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.291 Vali Acc: 0.917 Test Loss: 0.291 Test Acc: 0.917
+Validation loss decreased (-0.902775 --> -0.916664).  Saving model ...
+Epoch: 7 cost time: 1.1485865116119385
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.318 Vali Acc: 0.903 Test Loss: 0.318 Test Acc: 0.903
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.0189578533172607
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.336 Vali Acc: 0.903 Test Loss: 0.336 Test Acc: 0.903
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.1969659328460693
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.348 Vali Acc: 0.889 Test Loss: 0.348 Test Acc: 0.889
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.3949415683746338
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.354 Vali Acc: 0.889 Test Loss: 0.354 Test Acc: 0.889
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.2807977199554443
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.358 Vali Acc: 0.889 Test Loss: 0.358 Test Acc: 0.889
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.2320783138275146
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.360 Vali Acc: 0.889 Test Loss: 0.360 Test Acc: 0.889
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.1687052249908447
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.361 Vali Acc: 0.889 Test Loss: 0.361 Test Acc: 0.889
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.3193092346191406
+Epoch: 14, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.361 Vali Acc: 0.889 Test Loss: 0.361 Test Acc: 0.889
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.4482150077819824
+Epoch: 15, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.362 Vali Acc: 0.889 Test Loss: 0.362 Test Acc: 0.889
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 1.389143943786621
+Epoch: 16, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.362 Vali Acc: 0.889 Test Loss: 0.362 Test Acc: 0.889
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9166666666666666
+model parameter : 3901696
+model size : 19.77MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.8432223796844482
+Epoch: 1, Steps: 7 | Train Loss: 2.449 Vali Loss: 2.269 Vali Acc: 0.806 Test Loss: 2.269 Test Acc: 0.806
+Validation loss decreased (inf --> -0.805533).  Saving model ...
+Epoch: 2 cost time: 1.036708116531372
+Epoch: 2, Steps: 7 | Train Loss: 1.759 Vali Loss: 1.280 Vali Acc: 0.889 Test Loss: 1.280 Test Acc: 0.889
+Validation loss decreased (-0.805533 --> -0.888876).  Saving model ...
+Epoch: 3 cost time: 1.5084538459777832
+Epoch: 3, Steps: 7 | Train Loss: 0.551 Vali Loss: 0.418 Vali Acc: 0.917 Test Loss: 0.418 Test Acc: 0.917
+Validation loss decreased (-0.888876 --> -0.916662).  Saving model ...
+Epoch: 4 cost time: 1.2809157371520996
+Epoch: 4, Steps: 7 | Train Loss: 0.045 Vali Loss: 0.240 Vali Acc: 0.944 Test Loss: 0.240 Test Acc: 0.944
+Validation loss decreased (-0.916662 --> -0.944442).  Saving model ...
+Epoch: 5 cost time: 1.4410810470581055
+Epoch: 5, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.245 Vali Acc: 0.944 Test Loss: 0.245 Test Acc: 0.944
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.253617763519287
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.279 Vali Acc: 0.944 Test Loss: 0.279 Test Acc: 0.944
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 1.115382194519043
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.306 Vali Acc: 0.944 Test Loss: 0.306 Test Acc: 0.944
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 1.1882472038269043
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.324 Vali Acc: 0.944 Test Loss: 0.324 Test Acc: 0.944
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 1.2321500778198242
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.334 Vali Acc: 0.944 Test Loss: 0.334 Test Acc: 0.944
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 1.2443180084228516
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.340 Vali Acc: 0.944 Test Loss: 0.340 Test Acc: 0.944
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 1.0240628719329834
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.343 Vali Acc: 0.944 Test Loss: 0.343 Test Acc: 0.944
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 1.0713732242584229
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.344 Vali Acc: 0.944 Test Loss: 0.344 Test Acc: 0.944
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 1.4741542339324951
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.344 Vali Acc: 0.944 Test Loss: 0.344 Test Acc: 0.944
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 1.0879356861114502
+Epoch: 14, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.344 Vali Acc: 0.944 Test Loss: 0.344 Test Acc: 0.944
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9444444444444444
+model parameter : 3895552
+model size : 19.75MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.187496662139893
+Epoch: 1, Steps: 7 | Train Loss: 2.453 Vali Loss: 2.256 Vali Acc: 0.792 Test Loss: 2.256 Test Acc: 0.792
+Validation loss decreased (inf --> -0.791644).  Saving model ...
+Epoch: 2 cost time: 1.1250419616699219
+Epoch: 2, Steps: 7 | Train Loss: 1.753 Vali Loss: 1.220 Vali Acc: 0.875 Test Loss: 1.220 Test Acc: 0.875
+Validation loss decreased (-0.791644 --> -0.874988).  Saving model ...
+Epoch: 3 cost time: 1.3194856643676758
+Epoch: 3, Steps: 7 | Train Loss: 0.519 Vali Loss: 0.402 Vali Acc: 0.944 Test Loss: 0.402 Test Acc: 0.944
+Validation loss decreased (-0.874988 --> -0.944440).  Saving model ...
+Epoch: 4 cost time: 1.1598217487335205
+Epoch: 4, Steps: 7 | Train Loss: 0.044 Vali Loss: 0.271 Vali Acc: 0.917 Test Loss: 0.271 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.307750940322876
+Epoch: 5, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.315 Vali Acc: 0.917 Test Loss: 0.315 Test Acc: 0.917
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.140540599822998
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.367 Vali Acc: 0.917 Test Loss: 0.367 Test Acc: 0.917
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 0.9810872077941895
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.404 Vali Acc: 0.917 Test Loss: 0.404 Test Acc: 0.917
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.1073479652404785
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.427 Vali Acc: 0.917 Test Loss: 0.427 Test Acc: 0.917
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 0.9490714073181152
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.441 Vali Acc: 0.917 Test Loss: 0.441 Test Acc: 0.917
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.254051685333252
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.448 Vali Acc: 0.917 Test Loss: 0.448 Test Acc: 0.917
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 0.9906313419342041
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.451 Vali Acc: 0.917 Test Loss: 0.451 Test Acc: 0.917
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.2173588275909424
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.452 Vali Acc: 0.917 Test Loss: 0.452 Test Acc: 0.917
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 0.9699490070343018
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.453 Vali Acc: 0.917 Test Loss: 0.453 Test Acc: 0.917
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9444444444444444
+model parameter : 3892480
+model size : 19.74MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.332686901092529
+Epoch: 1, Steps: 7 | Train Loss: 2.457 Vali Loss: 2.274 Vali Acc: 0.708 Test Loss: 2.274 Test Acc: 0.708
+Validation loss decreased (inf --> -0.708311).  Saving model ...
+Epoch: 2 cost time: 1.1469707489013672
+Epoch: 2, Steps: 7 | Train Loss: 1.785 Vali Loss: 1.275 Vali Acc: 0.875 Test Loss: 1.275 Test Acc: 0.875
+Validation loss decreased (-0.708311 --> -0.874987).  Saving model ...
+Epoch: 3 cost time: 1.3665809631347656
+Epoch: 3, Steps: 7 | Train Loss: 0.573 Vali Loss: 0.457 Vali Acc: 0.931 Test Loss: 0.457 Test Acc: 0.931
+Validation loss decreased (-0.874987 --> -0.930551).  Saving model ...
+Epoch: 4 cost time: 1.0693297386169434
+Epoch: 4, Steps: 7 | Train Loss: 0.049 Vali Loss: 0.217 Vali Acc: 0.944 Test Loss: 0.217 Test Acc: 0.944
+Validation loss decreased (-0.930551 --> -0.944442).  Saving model ...
+Epoch: 5 cost time: 0.9103810787200928
+Epoch: 5, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.224 Vali Acc: 0.944 Test Loss: 0.224 Test Acc: 0.944
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 0.9605119228363037
+Epoch: 6, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.283 Vali Acc: 0.917 Test Loss: 0.283 Test Acc: 0.917
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 1.280168056488037
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.342 Vali Acc: 0.889 Test Loss: 0.342 Test Acc: 0.889
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 1.2652952671051025
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.384 Vali Acc: 0.889 Test Loss: 0.384 Test Acc: 0.889
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 1.2591421604156494
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.409 Vali Acc: 0.889 Test Loss: 0.409 Test Acc: 0.889
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 1.429295301437378
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.424 Vali Acc: 0.889 Test Loss: 0.424 Test Acc: 0.889
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 1.5701370239257812
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.432 Vali Acc: 0.889 Test Loss: 0.432 Test Acc: 0.889
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 1.4095463752746582
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.436 Vali Acc: 0.889 Test Loss: 0.436 Test Acc: 0.889
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 1.5055782794952393
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.438 Vali Acc: 0.889 Test Loss: 0.438 Test Acc: 0.889
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 1.3172733783721924
+Epoch: 14, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.439 Vali Acc: 0.889 Test Loss: 0.439 Test Acc: 0.889
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9444444444444444
+model parameter : 3890944
+model size : 19.73MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.7743537425994873
+Epoch: 1, Steps: 7 | Train Loss: 2.462 Vali Loss: 2.277 Vali Acc: 0.778 Test Loss: 2.277 Test Acc: 0.778
+Validation loss decreased (inf --> -0.777755).  Saving model ...
+Epoch: 2 cost time: 1.03163743019104
+Epoch: 2, Steps: 7 | Train Loss: 1.798 Vali Loss: 1.299 Vali Acc: 0.861 Test Loss: 1.299 Test Acc: 0.861
+Validation loss decreased (-0.777755 --> -0.861098).  Saving model ...
+Epoch: 3 cost time: 1.1678106784820557
+Epoch: 3, Steps: 7 | Train Loss: 0.586 Vali Loss: 0.470 Vali Acc: 0.917 Test Loss: 0.470 Test Acc: 0.917
+Validation loss decreased (-0.861098 --> -0.916662).  Saving model ...
+Epoch: 4 cost time: 1.1513571739196777
+Epoch: 4, Steps: 7 | Train Loss: 0.056 Vali Loss: 0.224 Vali Acc: 0.917 Test Loss: 0.224 Test Acc: 0.917
+Validation loss decreased (-0.916662 --> -0.916664).  Saving model ...
+Epoch: 5 cost time: 1.1273748874664307
+Epoch: 5, Steps: 7 | Train Loss: 0.003 Vali Loss: 0.230 Vali Acc: 0.917 Test Loss: 0.230 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 0.9934976100921631
+Epoch: 6, Steps: 7 | Train Loss: 0.001 Vali Loss: 0.258 Vali Acc: 0.917 Test Loss: 0.258 Test Acc: 0.917
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 0.9951558113098145
+Epoch: 7, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.279 Vali Acc: 0.917 Test Loss: 0.279 Test Acc: 0.917
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 1.1454071998596191
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.290 Vali Acc: 0.903 Test Loss: 0.290 Test Acc: 0.903
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 1.3172330856323242
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.297 Vali Acc: 0.903 Test Loss: 0.297 Test Acc: 0.903
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 0.7510101795196533
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.301 Vali Acc: 0.903 Test Loss: 0.301 Test Acc: 0.903
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 1.0981299877166748
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.304 Vali Acc: 0.903 Test Loss: 0.304 Test Acc: 0.903
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 1.0457825660705566
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.305 Vali Acc: 0.903 Test Loss: 0.305 Test Acc: 0.903
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 0.9555907249450684
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.305 Vali Acc: 0.903 Test Loss: 0.305 Test Acc: 0.903
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 1.2219257354736328
+Epoch: 14, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.305 Vali Acc: 0.903 Test Loss: 0.305 Test Acc: 0.903
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm256_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9166666666666666
+model parameter : 3890176
+model size : 19.73MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.522654294967651
+Epoch: 1, Steps: 7 | Train Loss: 2.456 Vali Loss: 2.366 Vali Acc: 0.611 Test Loss: 2.366 Test Acc: 0.611
+Validation loss decreased (inf --> -0.611087).  Saving model ...
+Epoch: 2 cost time: 0.9036698341369629
+Epoch: 2, Steps: 7 | Train Loss: 2.027 Vali Loss: 1.740 Vali Acc: 0.889 Test Loss: 1.740 Test Acc: 0.889
+Validation loss decreased (-0.611087 --> -0.888871).  Saving model ...
+Epoch: 3 cost time: 1.34836745262146
+Epoch: 3, Steps: 7 | Train Loss: 1.132 Vali Loss: 0.939 Vali Acc: 0.903 Test Loss: 0.939 Test Acc: 0.903
+Validation loss decreased (-0.888871 --> -0.902768).  Saving model ...
+Epoch: 4 cost time: 1.2000999450683594
+Epoch: 4, Steps: 7 | Train Loss: 0.368 Vali Loss: 0.386 Vali Acc: 0.931 Test Loss: 0.386 Test Acc: 0.931
+Validation loss decreased (-0.902768 --> -0.930552).  Saving model ...
+Epoch: 5 cost time: 1.1959636211395264
+Epoch: 5, Steps: 7 | Train Loss: 0.048 Vali Loss: 0.244 Vali Acc: 0.931 Test Loss: 0.244 Test Acc: 0.931
+Validation loss decreased (-0.930552 --> -0.930553).  Saving model ...
+Epoch: 6 cost time: 1.3933236598968506
+Epoch: 6, Steps: 7 | Train Loss: 0.010 Vali Loss: 0.227 Vali Acc: 0.917 Test Loss: 0.227 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.2159292697906494
+Epoch: 7, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.239 Vali Acc: 0.889 Test Loss: 0.239 Test Acc: 0.889
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.284381628036499
+Epoch: 8, Steps: 7 | Train Loss: 0.001 Vali Loss: 0.253 Vali Acc: 0.889 Test Loss: 0.253 Test Acc: 0.889
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 0.9154977798461914
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.260 Vali Acc: 0.903 Test Loss: 0.260 Test Acc: 0.903
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.173187494277954
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.264 Vali Acc: 0.903 Test Loss: 0.264 Test Acc: 0.903
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.4597766399383545
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.266 Vali Acc: 0.903 Test Loss: 0.266 Test Acc: 0.903
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.403449296951294
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.267 Vali Acc: 0.903 Test Loss: 0.267 Test Acc: 0.903
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.4123265743255615
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.268 Vali Acc: 0.903 Test Loss: 0.268 Test Acc: 0.903
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.4141919612884521
+Epoch: 14, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.268 Vali Acc: 0.903 Test Loss: 0.268 Test Acc: 0.903
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.5247738361358643
+Epoch: 15, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.267 Vali Acc: 0.903 Test Loss: 0.267 Test Acc: 0.903
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9305555555555556
+model parameter : 1899648
+model size : 9.69MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.4583659172058105
+Epoch: 1, Steps: 7 | Train Loss: 2.462 Vali Loss: 2.348 Vali Acc: 0.653 Test Loss: 2.348 Test Acc: 0.653
+Validation loss decreased (inf --> -0.652754).  Saving model ...
+Epoch: 2 cost time: 1.1529488563537598
+Epoch: 2, Steps: 7 | Train Loss: 2.041 Vali Loss: 1.744 Vali Acc: 0.903 Test Loss: 1.744 Test Acc: 0.903
+Validation loss decreased (-0.652754 --> -0.902760).  Saving model ...
+Epoch: 3 cost time: 1.0892078876495361
+Epoch: 3, Steps: 7 | Train Loss: 1.153 Vali Loss: 0.961 Vali Acc: 0.931 Test Loss: 0.961 Test Acc: 0.931
+Validation loss decreased (-0.902760 --> -0.930546).  Saving model ...
+Epoch: 4 cost time: 1.2952260971069336
+Epoch: 4, Steps: 7 | Train Loss: 0.375 Vali Loss: 0.397 Vali Acc: 0.931 Test Loss: 0.397 Test Acc: 0.931
+Validation loss decreased (-0.930546 --> -0.930552).  Saving model ...
+Epoch: 5 cost time: 0.9638054370880127
+Epoch: 5, Steps: 7 | Train Loss: 0.055 Vali Loss: 0.227 Vali Acc: 0.917 Test Loss: 0.227 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.3405969142913818
+Epoch: 6, Steps: 7 | Train Loss: 0.008 Vali Loss: 0.209 Vali Acc: 0.931 Test Loss: 0.209 Test Acc: 0.931
+Validation loss decreased (-0.930552 --> -0.930553).  Saving model ...
+Epoch: 7 cost time: 1.4838809967041016
+Epoch: 7, Steps: 7 | Train Loss: 0.001 Vali Loss: 0.225 Vali Acc: 0.931 Test Loss: 0.225 Test Acc: 0.931
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.1123571395874023
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.240 Vali Acc: 0.931 Test Loss: 0.240 Test Acc: 0.931
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.126438856124878
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.248 Vali Acc: 0.931 Test Loss: 0.248 Test Acc: 0.931
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.1589224338531494
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.252 Vali Acc: 0.931 Test Loss: 0.252 Test Acc: 0.931
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.4267618656158447
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.254 Vali Acc: 0.931 Test Loss: 0.254 Test Acc: 0.931
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.4786717891693115
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.255 Vali Acc: 0.931 Test Loss: 0.255 Test Acc: 0.931
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.3189597129821777
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.254 Vali Acc: 0.931 Test Loss: 0.254 Test Acc: 0.931
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.0709853172302246
+Epoch: 14, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.254 Vali Acc: 0.931 Test Loss: 0.254 Test Acc: 0.931
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.1754279136657715
+Epoch: 15, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.253 Vali Acc: 0.931 Test Loss: 0.253 Test Acc: 0.931
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 0.8979861736297607
+Epoch: 16, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.252 Vali Acc: 0.931 Test Loss: 0.252 Test Acc: 0.931
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9305555555555556
+model parameter : 1896576
+model size : 9.68MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.8531503677368164
+Epoch: 1, Steps: 7 | Train Loss: 2.478 Vali Loss: 2.349 Vali Acc: 0.653 Test Loss: 2.349 Test Acc: 0.653
+Validation loss decreased (inf --> -0.652754).  Saving model ...
+Epoch: 2 cost time: 1.178443431854248
+Epoch: 2, Steps: 7 | Train Loss: 2.034 Vali Loss: 1.698 Vali Acc: 0.917 Test Loss: 1.698 Test Acc: 0.917
+Validation loss decreased (-0.652754 --> -0.916650).  Saving model ...
+Epoch: 3 cost time: 1.5653116703033447
+Epoch: 3, Steps: 7 | Train Loss: 1.098 Vali Loss: 0.893 Vali Acc: 0.889 Test Loss: 0.893 Test Acc: 0.889
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.3774209022521973
+Epoch: 4, Steps: 7 | Train Loss: 0.336 Vali Loss: 0.358 Vali Acc: 0.944 Test Loss: 0.358 Test Acc: 0.944
+Validation loss decreased (-0.916650 --> -0.944441).  Saving model ...
+Epoch: 5 cost time: 1.2981531620025635
+Epoch: 5, Steps: 7 | Train Loss: 0.039 Vali Loss: 0.225 Vali Acc: 0.931 Test Loss: 0.225 Test Acc: 0.931
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.5428142547607422
+Epoch: 6, Steps: 7 | Train Loss: 0.010 Vali Loss: 0.200 Vali Acc: 0.917 Test Loss: 0.200 Test Acc: 0.917
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 1.2448976039886475
+Epoch: 7, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.207 Vali Acc: 0.917 Test Loss: 0.207 Test Acc: 0.917
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 1.2852180004119873
+Epoch: 8, Steps: 7 | Train Loss: 0.001 Vali Loss: 0.216 Vali Acc: 0.917 Test Loss: 0.216 Test Acc: 0.917
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 1.4071362018585205
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.223 Vali Acc: 0.917 Test Loss: 0.223 Test Acc: 0.917
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 1.167980432510376
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.227 Vali Acc: 0.917 Test Loss: 0.227 Test Acc: 0.917
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 1.2585501670837402
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.230 Vali Acc: 0.917 Test Loss: 0.230 Test Acc: 0.917
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 1.4680721759796143
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.231 Vali Acc: 0.917 Test Loss: 0.231 Test Acc: 0.917
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 1.677750825881958
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.232 Vali Acc: 0.917 Test Loss: 0.232 Test Acc: 0.917
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 1.2547430992126465
+Epoch: 14, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.232 Vali Acc: 0.917 Test Loss: 0.232 Test Acc: 0.917
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9444444444444444
+model parameter : 1895040
+model size : 9.68MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.929335355758667
+Epoch: 1, Steps: 7 | Train Loss: 2.457 Vali Loss: 2.344 Vali Acc: 0.569 Test Loss: 2.344 Test Acc: 0.569
+Validation loss decreased (inf --> -0.569421).  Saving model ...
+Epoch: 2 cost time: 1.0698657035827637
+Epoch: 2, Steps: 7 | Train Loss: 2.032 Vali Loss: 1.716 Vali Acc: 0.889 Test Loss: 1.716 Test Acc: 0.889
+Validation loss decreased (-0.569421 --> -0.888872).  Saving model ...
+Epoch: 3 cost time: 1.2280354499816895
+Epoch: 3, Steps: 7 | Train Loss: 1.138 Vali Loss: 0.909 Vali Acc: 0.917 Test Loss: 0.909 Test Acc: 0.917
+Validation loss decreased (-0.888872 --> -0.916658).  Saving model ...
+Epoch: 4 cost time: 0.8428628444671631
+Epoch: 4, Steps: 7 | Train Loss: 0.358 Vali Loss: 0.385 Vali Acc: 0.931 Test Loss: 0.385 Test Acc: 0.931
+Validation loss decreased (-0.916658 --> -0.930552).  Saving model ...
+Epoch: 5 cost time: 0.9365420341491699
+Epoch: 5, Steps: 7 | Train Loss: 0.053 Vali Loss: 0.251 Vali Acc: 0.917 Test Loss: 0.251 Test Acc: 0.917
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.0902132987976074
+Epoch: 6, Steps: 7 | Train Loss: 0.006 Vali Loss: 0.242 Vali Acc: 0.917 Test Loss: 0.242 Test Acc: 0.917
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 1.240187644958496
+Epoch: 7, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.251 Vali Acc: 0.917 Test Loss: 0.251 Test Acc: 0.917
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 1.6012992858886719
+Epoch: 8, Steps: 7 | Train Loss: 0.001 Vali Loss: 0.258 Vali Acc: 0.917 Test Loss: 0.258 Test Acc: 0.917
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 1.1762127876281738
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.263 Vali Acc: 0.917 Test Loss: 0.263 Test Acc: 0.917
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 1.4020559787750244
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.266 Vali Acc: 0.917 Test Loss: 0.266 Test Acc: 0.917
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 1.3462467193603516
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.267 Vali Acc: 0.917 Test Loss: 0.267 Test Acc: 0.917
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 0.9184725284576416
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.267 Vali Acc: 0.917 Test Loss: 0.267 Test Acc: 0.917
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 1.1663453578948975
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.267 Vali Acc: 0.917 Test Loss: 0.267 Test Acc: 0.917
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 1.1924424171447754
+Epoch: 14, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.267 Vali Acc: 0.917 Test Loss: 0.267 Test Acc: 0.917
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9305555555555556
+model parameter : 1894272
+model size : 9.67MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.233567476272583
+Epoch: 1, Steps: 7 | Train Loss: 2.463 Vali Loss: 2.345 Vali Acc: 0.681 Test Loss: 2.345 Test Acc: 0.681
+Validation loss decreased (inf --> -0.680532).  Saving model ...
+Epoch: 2 cost time: 1.5729050636291504
+Epoch: 2, Steps: 7 | Train Loss: 1.998 Vali Loss: 1.691 Vali Acc: 0.861 Test Loss: 1.691 Test Acc: 0.861
+Validation loss decreased (-0.680532 --> -0.861094).  Saving model ...
+Epoch: 3 cost time: 1.1238923072814941
+Epoch: 3, Steps: 7 | Train Loss: 1.104 Vali Loss: 0.894 Vali Acc: 0.931 Test Loss: 0.894 Test Acc: 0.931
+Validation loss decreased (-0.861094 --> -0.930547).  Saving model ...
+Epoch: 4 cost time: 1.656480073928833
+Epoch: 4, Steps: 7 | Train Loss: 0.347 Vali Loss: 0.380 Vali Acc: 0.903 Test Loss: 0.380 Test Acc: 0.903
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.154808759689331
+Epoch: 5, Steps: 7 | Train Loss: 0.045 Vali Loss: 0.230 Vali Acc: 0.903 Test Loss: 0.230 Test Acc: 0.903
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.1142778396606445
+Epoch: 6, Steps: 7 | Train Loss: 0.007 Vali Loss: 0.210 Vali Acc: 0.917 Test Loss: 0.210 Test Acc: 0.917
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.1843364238739014
+Epoch: 7, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.220 Vali Acc: 0.917 Test Loss: 0.220 Test Acc: 0.917
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.0340170860290527
+Epoch: 8, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.231 Vali Acc: 0.917 Test Loss: 0.231 Test Acc: 0.917
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.5660662651062012
+Epoch: 9, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.238 Vali Acc: 0.917 Test Loss: 0.238 Test Acc: 0.917
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.2879245281219482
+Epoch: 10, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.243 Vali Acc: 0.917 Test Loss: 0.243 Test Acc: 0.917
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.256227970123291
+Epoch: 11, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.245 Vali Acc: 0.917 Test Loss: 0.245 Test Acc: 0.917
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.5179457664489746
+Epoch: 12, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.247 Vali Acc: 0.917 Test Loss: 0.247 Test Acc: 0.917
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.3737812042236328
+Epoch: 13, Steps: 7 | Train Loss: 0.000 Vali Loss: 0.247 Vali Acc: 0.917 Test Loss: 0.247 Test Acc: 0.917
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm128_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.9305555555555556
+model parameter : 1893888
+model size : 9.67MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.928607940673828
+Epoch: 1, Steps: 7 | Train Loss: 2.488 Vali Loss: 2.433 Vali Acc: 0.278 Test Loss: 2.433 Test Acc: 0.278
+Validation loss decreased (inf --> -0.277753).  Saving model ...
+Epoch: 2 cost time: 0.9223518371582031
+Epoch: 2, Steps: 7 | Train Loss: 2.312 Vali Loss: 2.215 Vali Acc: 0.708 Test Loss: 2.215 Test Acc: 0.708
+Validation loss decreased (-0.277753 --> -0.708311).  Saving model ...
+Epoch: 3 cost time: 1.0799448490142822
+Epoch: 3, Steps: 7 | Train Loss: 1.941 Vali Loss: 1.867 Vali Acc: 0.764 Test Loss: 1.867 Test Acc: 0.764
+Validation loss decreased (-0.708311 --> -0.763870).  Saving model ...
+Epoch: 4 cost time: 1.211308479309082
+Epoch: 4, Steps: 7 | Train Loss: 1.441 Vali Loss: 1.440 Vali Acc: 0.819 Test Loss: 1.440 Test Acc: 0.819
+Validation loss decreased (-0.763870 --> -0.819430).  Saving model ...
+Epoch: 5 cost time: 1.2223522663116455
+Epoch: 5, Steps: 7 | Train Loss: 0.867 Vali Loss: 1.020 Vali Acc: 0.847 Test Loss: 1.020 Test Acc: 0.847
+Validation loss decreased (-0.819430 --> -0.847212).  Saving model ...
+Epoch: 6 cost time: 1.3677647113800049
+Epoch: 6, Steps: 7 | Train Loss: 0.386 Vali Loss: 0.754 Vali Acc: 0.833 Test Loss: 0.754 Test Acc: 0.833
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.3403465747833252
+Epoch: 7, Steps: 7 | Train Loss: 0.120 Vali Loss: 0.721 Vali Acc: 0.806 Test Loss: 0.721 Test Acc: 0.806
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.9757616519927979
+Epoch: 8, Steps: 7 | Train Loss: 0.031 Vali Loss: 0.779 Vali Acc: 0.792 Test Loss: 0.779 Test Acc: 0.792
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.447610855102539
+Epoch: 9, Steps: 7 | Train Loss: 0.009 Vali Loss: 0.859 Vali Acc: 0.792 Test Loss: 0.859 Test Acc: 0.792
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.187859296798706
+Epoch: 10, Steps: 7 | Train Loss: 0.004 Vali Loss: 0.926 Vali Acc: 0.792 Test Loss: 0.926 Test Acc: 0.792
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.1475543975830078
+Epoch: 11, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.975 Vali Acc: 0.792 Test Loss: 0.975 Test Acc: 0.792
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.246692180633545
+Epoch: 12, Steps: 7 | Train Loss: 0.002 Vali Loss: 1.009 Vali Acc: 0.792 Test Loss: 1.009 Test Acc: 0.792
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.5333256721496582
+Epoch: 13, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.034 Vali Acc: 0.806 Test Loss: 1.034 Test Acc: 0.806
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 2.1528098583221436
+Epoch: 14, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.053 Vali Acc: 0.819 Test Loss: 1.053 Test Acc: 0.819
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.6105215549468994
+Epoch: 15, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.066 Vali Acc: 0.819 Test Loss: 1.066 Test Acc: 0.819
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.8472222222222222
+model parameter : 937024
+model size : 4.80MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.8101203441619873
+Epoch: 1, Steps: 7 | Train Loss: 2.492 Vali Loss: 2.438 Vali Acc: 0.319 Test Loss: 2.438 Test Acc: 0.319
+Validation loss decreased (inf --> -0.319420).  Saving model ...
+Epoch: 2 cost time: 1.199864149093628
+Epoch: 2, Steps: 7 | Train Loss: 2.323 Vali Loss: 2.217 Vali Acc: 0.778 Test Loss: 2.217 Test Acc: 0.778
+Validation loss decreased (-0.319420 --> -0.777756).  Saving model ...
+Epoch: 3 cost time: 1.7449216842651367
+Epoch: 3, Steps: 7 | Train Loss: 1.970 Vali Loss: 1.887 Vali Acc: 0.778 Test Loss: 1.887 Test Acc: 0.778
+Validation loss decreased (-0.777756 --> -0.777759).  Saving model ...
+Epoch: 4 cost time: 1.5036180019378662
+Epoch: 4, Steps: 7 | Train Loss: 1.451 Vali Loss: 1.474 Vali Acc: 0.833 Test Loss: 1.474 Test Acc: 0.833
+Validation loss decreased (-0.777759 --> -0.833319).  Saving model ...
+Epoch: 5 cost time: 1.5125279426574707
+Epoch: 5, Steps: 7 | Train Loss: 0.879 Vali Loss: 1.063 Vali Acc: 0.833 Test Loss: 1.063 Test Acc: 0.833
+Validation loss decreased (-0.833319 --> -0.833323).  Saving model ...
+Epoch: 6 cost time: 1.4956650733947754
+Epoch: 6, Steps: 7 | Train Loss: 0.398 Vali Loss: 0.792 Vali Acc: 0.847 Test Loss: 0.792 Test Acc: 0.847
+Validation loss decreased (-0.833323 --> -0.847214).  Saving model ...
+Epoch: 7 cost time: 1.536703109741211
+Epoch: 7, Steps: 7 | Train Loss: 0.126 Vali Loss: 0.699 Vali Acc: 0.847 Test Loss: 0.699 Test Acc: 0.847
+Validation loss decreased (-0.847214 --> -0.847215).  Saving model ...
+Epoch: 8 cost time: 1.3383259773254395
+Epoch: 8, Steps: 7 | Train Loss: 0.032 Vali Loss: 0.746 Vali Acc: 0.847 Test Loss: 0.746 Test Acc: 0.847
+EarlyStopping counter: 1 out of 10
+Epoch: 9 cost time: 1.7618188858032227
+Epoch: 9, Steps: 7 | Train Loss: 0.010 Vali Loss: 0.830 Vali Acc: 0.847 Test Loss: 0.830 Test Acc: 0.847
+EarlyStopping counter: 2 out of 10
+Epoch: 10 cost time: 1.724297285079956
+Epoch: 10, Steps: 7 | Train Loss: 0.004 Vali Loss: 0.906 Vali Acc: 0.847 Test Loss: 0.906 Test Acc: 0.847
+EarlyStopping counter: 3 out of 10
+Epoch: 11 cost time: 1.805999755859375
+Epoch: 11, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.961 Vali Acc: 0.847 Test Loss: 0.961 Test Acc: 0.847
+EarlyStopping counter: 4 out of 10
+Epoch: 12 cost time: 1.563875675201416
+Epoch: 12, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.999 Vali Acc: 0.847 Test Loss: 0.999 Test Acc: 0.847
+EarlyStopping counter: 5 out of 10
+Epoch: 13 cost time: 1.3587229251861572
+Epoch: 13, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.026 Vali Acc: 0.847 Test Loss: 1.026 Test Acc: 0.847
+EarlyStopping counter: 6 out of 10
+Epoch: 14 cost time: 1.3882248401641846
+Epoch: 14, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.046 Vali Acc: 0.847 Test Loss: 1.046 Test Acc: 0.847
+EarlyStopping counter: 7 out of 10
+Epoch: 15 cost time: 1.786177158355713
+Epoch: 15, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.063 Vali Acc: 0.847 Test Loss: 1.063 Test Acc: 0.847
+EarlyStopping counter: 8 out of 10
+Epoch: 16 cost time: 1.912438154220581
+Epoch: 16, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.078 Vali Acc: 0.847 Test Loss: 1.078 Test Acc: 0.847
+EarlyStopping counter: 9 out of 10
+Epoch: 17 cost time: 1.6127972602844238
+Epoch: 17, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.091 Vali Acc: 0.847 Test Loss: 1.091 Test Acc: 0.847
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.8472222222222222
+model parameter : 935488
+model size : 4.79MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.733949661254883
+Epoch: 1, Steps: 7 | Train Loss: 2.469 Vali Loss: 2.431 Vali Acc: 0.347 Test Loss: 2.431 Test Acc: 0.347
+Validation loss decreased (inf --> -0.347198).  Saving model ...
+Epoch: 2 cost time: 1.1270718574523926
+Epoch: 2, Steps: 7 | Train Loss: 2.295 Vali Loss: 2.194 Vali Acc: 0.722 Test Loss: 2.194 Test Acc: 0.722
+Validation loss decreased (-0.347198 --> -0.722200).  Saving model ...
+Epoch: 3 cost time: 1.0734336376190186
+Epoch: 3, Steps: 7 | Train Loss: 1.904 Vali Loss: 1.843 Vali Acc: 0.722 Test Loss: 1.843 Test Acc: 0.722
+Validation loss decreased (-0.722200 --> -0.722204).  Saving model ...
+Epoch: 4 cost time: 1.39597487449646
+Epoch: 4, Steps: 7 | Train Loss: 1.366 Vali Loss: 1.425 Vali Acc: 0.778 Test Loss: 1.425 Test Acc: 0.778
+Validation loss decreased (-0.722204 --> -0.777764).  Saving model ...
+Epoch: 5 cost time: 1.7336313724517822
+Epoch: 5, Steps: 7 | Train Loss: 0.803 Vali Loss: 1.062 Vali Acc: 0.861 Test Loss: 1.062 Test Acc: 0.861
+Validation loss decreased (-0.777764 --> -0.861100).  Saving model ...
+Epoch: 6 cost time: 1.256528377532959
+Epoch: 6, Steps: 7 | Train Loss: 0.341 Vali Loss: 0.888 Vali Acc: 0.833 Test Loss: 0.888 Test Acc: 0.833
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.0687119960784912
+Epoch: 7, Steps: 7 | Train Loss: 0.102 Vali Loss: 0.960 Vali Acc: 0.819 Test Loss: 0.960 Test Acc: 0.819
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.364192008972168
+Epoch: 8, Steps: 7 | Train Loss: 0.026 Vali Loss: 1.144 Vali Acc: 0.819 Test Loss: 1.144 Test Acc: 0.819
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.51743483543396
+Epoch: 9, Steps: 7 | Train Loss: 0.009 Vali Loss: 1.336 Vali Acc: 0.819 Test Loss: 1.336 Test Acc: 0.819
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.377021312713623
+Epoch: 10, Steps: 7 | Train Loss: 0.004 Vali Loss: 1.483 Vali Acc: 0.819 Test Loss: 1.483 Test Acc: 0.819
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.1918621063232422
+Epoch: 11, Steps: 7 | Train Loss: 0.002 Vali Loss: 1.582 Vali Acc: 0.806 Test Loss: 1.582 Test Acc: 0.806
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.2752695083618164
+Epoch: 12, Steps: 7 | Train Loss: 0.002 Vali Loss: 1.647 Vali Acc: 0.806 Test Loss: 1.647 Test Acc: 0.806
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.5950243473052979
+Epoch: 13, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.695 Vali Acc: 0.806 Test Loss: 1.695 Test Acc: 0.806
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.240753412246704
+Epoch: 14, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.727 Vali Acc: 0.806 Test Loss: 1.727 Test Acc: 0.806
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.4747116565704346
+Epoch: 15, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.753 Vali Acc: 0.806 Test Loss: 1.753 Test Acc: 0.806
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.8611111111111112
+model parameter : 934720
+model size : 4.79MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.066586971282959
+Epoch: 1, Steps: 7 | Train Loss: 2.456 Vali Loss: 2.430 Vali Acc: 0.431 Test Loss: 2.430 Test Acc: 0.431
+Validation loss decreased (inf --> -0.430531).  Saving model ...
+Epoch: 2 cost time: 1.4921174049377441
+Epoch: 2, Steps: 7 | Train Loss: 2.265 Vali Loss: 2.194 Vali Acc: 0.736 Test Loss: 2.194 Test Acc: 0.736
+Validation loss decreased (-0.430531 --> -0.736089).  Saving model ...
+Epoch: 3 cost time: 1.4697911739349365
+Epoch: 3, Steps: 7 | Train Loss: 1.850 Vali Loss: 1.857 Vali Acc: 0.861 Test Loss: 1.857 Test Acc: 0.861
+Validation loss decreased (-0.736089 --> -0.861093).  Saving model ...
+Epoch: 4 cost time: 1.1804938316345215
+Epoch: 4, Steps: 7 | Train Loss: 1.317 Vali Loss: 1.448 Vali Acc: 0.819 Test Loss: 1.448 Test Acc: 0.819
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.7483704090118408
+Epoch: 5, Steps: 7 | Train Loss: 0.737 Vali Loss: 1.157 Vali Acc: 0.819 Test Loss: 1.157 Test Acc: 0.819
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.9462201595306396
+Epoch: 6, Steps: 7 | Train Loss: 0.297 Vali Loss: 1.106 Vali Acc: 0.847 Test Loss: 1.106 Test Acc: 0.847
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.7872703075408936
+Epoch: 7, Steps: 7 | Train Loss: 0.079 Vali Loss: 1.379 Vali Acc: 0.792 Test Loss: 1.379 Test Acc: 0.792
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.662353754043579
+Epoch: 8, Steps: 7 | Train Loss: 0.021 Vali Loss: 1.706 Vali Acc: 0.806 Test Loss: 1.706 Test Acc: 0.806
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.3685705661773682
+Epoch: 9, Steps: 7 | Train Loss: 0.006 Vali Loss: 1.974 Vali Acc: 0.806 Test Loss: 1.974 Test Acc: 0.806
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.3226020336151123
+Epoch: 10, Steps: 7 | Train Loss: 0.003 Vali Loss: 2.162 Vali Acc: 0.806 Test Loss: 2.162 Test Acc: 0.806
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.2073640823364258
+Epoch: 11, Steps: 7 | Train Loss: 0.002 Vali Loss: 2.288 Vali Acc: 0.806 Test Loss: 2.288 Test Acc: 0.806
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.1803336143493652
+Epoch: 12, Steps: 7 | Train Loss: 0.001 Vali Loss: 2.369 Vali Acc: 0.819 Test Loss: 2.369 Test Acc: 0.819
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.7555859088897705
+Epoch: 13, Steps: 7 | Train Loss: 0.001 Vali Loss: 2.425 Vali Acc: 0.819 Test Loss: 2.425 Test Acc: 0.819
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.8611111111111112
+model parameter : 934336
+model size : 4.79MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.458784103393555
+Epoch: 1, Steps: 7 | Train Loss: 2.493 Vali Loss: 2.447 Vali Acc: 0.208 Test Loss: 2.447 Test Acc: 0.208
+Validation loss decreased (inf --> -0.208309).  Saving model ...
+Epoch: 2 cost time: 1.6198618412017822
+Epoch: 2, Steps: 7 | Train Loss: 2.321 Vali Loss: 2.224 Vali Acc: 0.736 Test Loss: 2.224 Test Acc: 0.736
+Validation loss decreased (-0.208309 --> -0.736089).  Saving model ...
+Epoch: 3 cost time: 1.4534657001495361
+Epoch: 3, Steps: 7 | Train Loss: 1.927 Vali Loss: 1.884 Vali Acc: 0.764 Test Loss: 1.884 Test Acc: 0.764
+Validation loss decreased (-0.736089 --> -0.763870).  Saving model ...
+Epoch: 4 cost time: 1.3988478183746338
+Epoch: 4, Steps: 7 | Train Loss: 1.417 Vali Loss: 1.455 Vali Acc: 0.847 Test Loss: 1.455 Test Acc: 0.847
+Validation loss decreased (-0.763870 --> -0.847208).  Saving model ...
+Epoch: 5 cost time: 1.6865155696868896
+Epoch: 5, Steps: 7 | Train Loss: 0.858 Vali Loss: 1.032 Vali Acc: 0.861 Test Loss: 1.032 Test Acc: 0.861
+Validation loss decreased (-0.847208 --> -0.861101).  Saving model ...
+Epoch: 6 cost time: 1.3531029224395752
+Epoch: 6, Steps: 7 | Train Loss: 0.373 Vali Loss: 0.778 Vali Acc: 0.861 Test Loss: 0.778 Test Acc: 0.861
+Validation loss decreased (-0.861101 --> -0.861103).  Saving model ...
+Epoch: 7 cost time: 1.3718855381011963
+Epoch: 7, Steps: 7 | Train Loss: 0.111 Vali Loss: 0.756 Vali Acc: 0.833 Test Loss: 0.756 Test Acc: 0.833
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.3864820003509521
+Epoch: 8, Steps: 7 | Train Loss: 0.031 Vali Loss: 0.837 Vali Acc: 0.833 Test Loss: 0.837 Test Acc: 0.833
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.1441700458526611
+Epoch: 9, Steps: 7 | Train Loss: 0.010 Vali Loss: 0.931 Vali Acc: 0.847 Test Loss: 0.931 Test Acc: 0.847
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.55784010887146
+Epoch: 10, Steps: 7 | Train Loss: 0.005 Vali Loss: 1.010 Vali Acc: 0.847 Test Loss: 1.010 Test Acc: 0.847
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.4373188018798828
+Epoch: 11, Steps: 7 | Train Loss: 0.003 Vali Loss: 1.067 Vali Acc: 0.847 Test Loss: 1.067 Test Acc: 0.847
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.7631375789642334
+Epoch: 12, Steps: 7 | Train Loss: 0.002 Vali Loss: 1.106 Vali Acc: 0.833 Test Loss: 1.106 Test Acc: 0.833
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.2147903442382812
+Epoch: 13, Steps: 7 | Train Loss: 0.002 Vali Loss: 1.130 Vali Acc: 0.833 Test Loss: 1.130 Test Acc: 0.833
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.605851411819458
+Epoch: 14, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.149 Vali Acc: 0.833 Test Loss: 1.149 Test Acc: 0.833
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.5794775485992432
+Epoch: 15, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.164 Vali Acc: 0.833 Test Loss: 1.164 Test Acc: 0.833
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 1.7668120861053467
+Epoch: 16, Steps: 7 | Train Loss: 0.001 Vali Loss: 1.176 Vali Acc: 0.847 Test Loss: 1.176 Test Acc: 0.847
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm64_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.8611111111111112
+model parameter : 934144
+model size : 4.79MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.412602186203003
+Epoch: 1, Steps: 7 | Train Loss: 2.481 Vali Loss: 2.459 Vali Acc: 0.306 Test Loss: 2.459 Test Acc: 0.306
+Validation loss decreased (inf --> -0.305531).  Saving model ...
+Epoch: 2 cost time: 2.062180995941162
+Epoch: 2, Steps: 7 | Train Loss: 2.410 Vali Loss: 2.356 Vali Acc: 0.681 Test Loss: 2.356 Test Acc: 0.681
+Validation loss decreased (-0.305531 --> -0.680532).  Saving model ...
+Epoch: 3 cost time: 1.439847707748413
+Epoch: 3, Steps: 7 | Train Loss: 2.249 Vali Loss: 2.203 Vali Acc: 0.778 Test Loss: 2.203 Test Acc: 0.778
+Validation loss decreased (-0.680532 --> -0.777756).  Saving model ...
+Epoch: 4 cost time: 1.1644277572631836
+Epoch: 4, Steps: 7 | Train Loss: 2.030 Vali Loss: 2.013 Vali Acc: 0.792 Test Loss: 2.013 Test Acc: 0.792
+Validation loss decreased (-0.777756 --> -0.791647).  Saving model ...
+Epoch: 5 cost time: 1.0866930484771729
+Epoch: 5, Steps: 7 | Train Loss: 1.764 Vali Loss: 1.784 Vali Acc: 0.819 Test Loss: 1.784 Test Acc: 0.819
+Validation loss decreased (-0.791647 --> -0.819427).  Saving model ...
+Epoch: 6 cost time: 0.9914958477020264
+Epoch: 6, Steps: 7 | Train Loss: 1.448 Vali Loss: 1.521 Vali Acc: 0.833 Test Loss: 1.521 Test Acc: 0.833
+Validation loss decreased (-0.819427 --> -0.833318).  Saving model ...
+Epoch: 7 cost time: 1.5375587940216064
+Epoch: 7, Steps: 7 | Train Loss: 1.101 Vali Loss: 1.251 Vali Acc: 0.847 Test Loss: 1.251 Test Acc: 0.847
+Validation loss decreased (-0.833318 --> -0.847210).  Saving model ...
+Epoch: 8 cost time: 1.262331247329712
+Epoch: 8, Steps: 7 | Train Loss: 0.772 Vali Loss: 1.003 Vali Acc: 0.875 Test Loss: 1.003 Test Acc: 0.875
+Validation loss decreased (-0.847210 --> -0.874990).  Saving model ...
+Epoch: 9 cost time: 1.2902958393096924
+Epoch: 9, Steps: 7 | Train Loss: 0.493 Vali Loss: 0.788 Vali Acc: 0.847 Test Loss: 0.788 Test Acc: 0.847
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 1.563037633895874
+Epoch: 10, Steps: 7 | Train Loss: 0.280 Vali Loss: 0.631 Vali Acc: 0.875 Test Loss: 0.631 Test Acc: 0.875
+Validation loss decreased (-0.874990 --> -0.874994).  Saving model ...
+Epoch: 11 cost time: 1.4768309593200684
+Epoch: 11, Steps: 7 | Train Loss: 0.149 Vali Loss: 0.529 Vali Acc: 0.875 Test Loss: 0.529 Test Acc: 0.875
+Validation loss decreased (-0.874994 --> -0.874995).  Saving model ...
+Epoch: 12 cost time: 1.2979800701141357
+Epoch: 12, Steps: 7 | Train Loss: 0.080 Vali Loss: 0.481 Vali Acc: 0.889 Test Loss: 0.481 Test Acc: 0.889
+Validation loss decreased (-0.874995 --> -0.888884).  Saving model ...
+Epoch: 13 cost time: 1.2359685897827148
+Epoch: 13, Steps: 7 | Train Loss: 0.043 Vali Loss: 0.456 Vali Acc: 0.889 Test Loss: 0.456 Test Acc: 0.889
+Validation loss decreased (-0.888884 --> -0.888884).  Saving model ...
+Epoch: 14 cost time: 1.532301902770996
+Epoch: 14, Steps: 7 | Train Loss: 0.028 Vali Loss: 0.438 Vali Acc: 0.889 Test Loss: 0.438 Test Acc: 0.889
+Validation loss decreased (-0.888884 --> -0.888885).  Saving model ...
+Epoch: 15 cost time: 1.3627758026123047
+Epoch: 15, Steps: 7 | Train Loss: 0.019 Vali Loss: 0.430 Vali Acc: 0.889 Test Loss: 0.430 Test Acc: 0.889
+Validation loss decreased (-0.888885 --> -0.888885).  Saving model ...
+Epoch: 16 cost time: 1.5505144596099854
+Epoch: 16, Steps: 7 | Train Loss: 0.014 Vali Loss: 0.426 Vali Acc: 0.889 Test Loss: 0.426 Test Acc: 0.889
+Validation loss decreased (-0.888885 --> -0.888885).  Saving model ...
+Epoch: 17 cost time: 1.2488305568695068
+Epoch: 17, Steps: 7 | Train Loss: 0.011 Vali Loss: 0.425 Vali Acc: 0.889 Test Loss: 0.425 Test Acc: 0.889
+Validation loss decreased (-0.888885 --> -0.888885).  Saving model ...
+Epoch: 18 cost time: 1.086838960647583
+Epoch: 18, Steps: 7 | Train Loss: 0.009 Vali Loss: 0.424 Vali Acc: 0.889 Test Loss: 0.424 Test Acc: 0.889
+Validation loss decreased (-0.888885 --> -0.888885).  Saving model ...
+Epoch: 19 cost time: 1.2859368324279785
+Epoch: 19, Steps: 7 | Train Loss: 0.008 Vali Loss: 0.423 Vali Acc: 0.889 Test Loss: 0.423 Test Acc: 0.889
+Validation loss decreased (-0.888885 --> -0.888885).  Saving model ...
+Epoch: 20 cost time: 1.5334272384643555
+Epoch: 20, Steps: 7 | Train Loss: 0.006 Vali Loss: 0.423 Vali Acc: 0.889 Test Loss: 0.423 Test Acc: 0.889
+Validation loss decreased (-0.888885 --> -0.888885).  Saving model ...
+Epoch: 21 cost time: 1.4352829456329346
+Epoch: 21, Steps: 7 | Train Loss: 0.005 Vali Loss: 0.424 Vali Acc: 0.889 Test Loss: 0.424 Test Acc: 0.889
+EarlyStopping counter: 1 out of 10
+Epoch: 22 cost time: 1.2602105140686035
+Epoch: 22, Steps: 7 | Train Loss: 0.005 Vali Loss: 0.424 Vali Acc: 0.889 Test Loss: 0.424 Test Acc: 0.889
+EarlyStopping counter: 2 out of 10
+Epoch: 23 cost time: 1.3022105693817139
+Epoch: 23, Steps: 7 | Train Loss: 0.004 Vali Loss: 0.425 Vali Acc: 0.889 Test Loss: 0.425 Test Acc: 0.889
+EarlyStopping counter: 3 out of 10
+Epoch: 24 cost time: 1.1302251815795898
+Epoch: 24, Steps: 7 | Train Loss: 0.004 Vali Loss: 0.426 Vali Acc: 0.889 Test Loss: 0.426 Test Acc: 0.889
+EarlyStopping counter: 4 out of 10
+Epoch: 25 cost time: 1.2073163986206055
+Epoch: 25, Steps: 7 | Train Loss: 0.004 Vali Loss: 0.427 Vali Acc: 0.889 Test Loss: 0.427 Test Acc: 0.889
+EarlyStopping counter: 5 out of 10
+Epoch: 26 cost time: 1.4423091411590576
+Epoch: 26, Steps: 7 | Train Loss: 0.003 Vali Loss: 0.428 Vali Acc: 0.889 Test Loss: 0.428 Test Acc: 0.889
+EarlyStopping counter: 6 out of 10
+Epoch: 27 cost time: 1.3085870742797852
+Epoch: 27, Steps: 7 | Train Loss: 0.003 Vali Loss: 0.429 Vali Acc: 0.889 Test Loss: 0.429 Test Acc: 0.889
+EarlyStopping counter: 7 out of 10
+Epoch: 28 cost time: 1.341012716293335
+Epoch: 28, Steps: 7 | Train Loss: 0.003 Vali Loss: 0.430 Vali Acc: 0.889 Test Loss: 0.430 Test Acc: 0.889
+EarlyStopping counter: 8 out of 10
+Epoch: 29 cost time: 1.5218560695648193
+Epoch: 29, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.430 Vali Acc: 0.889 Test Loss: 0.430 Test Acc: 0.889
+EarlyStopping counter: 9 out of 10
+Epoch: 30 cost time: 1.1220901012420654
+Epoch: 30, Steps: 7 | Train Loss: 0.002 Vali Loss: 0.432 Vali Acc: 0.889 Test Loss: 0.432 Test Acc: 0.889
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.8888888888888888
+model parameter : 465312
+model size : 2.39MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.643392324447632
+Epoch: 1, Steps: 7 | Train Loss: 2.477 Vali Loss: 2.449 Vali Acc: 0.292 Test Loss: 2.449 Test Acc: 0.292
+Validation loss decreased (inf --> -0.291642).  Saving model ...
+Epoch: 2 cost time: 1.7103931903839111
+Epoch: 2, Steps: 7 | Train Loss: 2.395 Vali Loss: 2.347 Vali Acc: 0.625 Test Loss: 2.347 Test Acc: 0.625
+Validation loss decreased (-0.291642 --> -0.624977).  Saving model ...
+Epoch: 3 cost time: 1.4907171726226807
+Epoch: 3, Steps: 7 | Train Loss: 2.234 Vali Loss: 2.196 Vali Acc: 0.750 Test Loss: 2.196 Test Acc: 0.750
+Validation loss decreased (-0.624977 --> -0.749978).  Saving model ...
+Epoch: 4 cost time: 1.6329965591430664
+Epoch: 4, Steps: 7 | Train Loss: 2.012 Vali Loss: 2.000 Vali Acc: 0.806 Test Loss: 2.000 Test Acc: 0.806
+Validation loss decreased (-0.749978 --> -0.805536).  Saving model ...
+Epoch: 5 cost time: 1.10758376121521
+Epoch: 5, Steps: 7 | Train Loss: 1.723 Vali Loss: 1.779 Vali Acc: 0.792 Test Loss: 1.779 Test Acc: 0.792
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.1629111766815186
+Epoch: 6, Steps: 7 | Train Loss: 1.407 Vali Loss: 1.531 Vali Acc: 0.806 Test Loss: 1.531 Test Acc: 0.806
+Validation loss decreased (-0.805536 --> -0.805540).  Saving model ...
+Epoch: 7 cost time: 1.2237889766693115
+Epoch: 7, Steps: 7 | Train Loss: 1.080 Vali Loss: 1.281 Vali Acc: 0.819 Test Loss: 1.281 Test Acc: 0.819
+Validation loss decreased (-0.805540 --> -0.819432).  Saving model ...
+Epoch: 8 cost time: 0.9279265403747559
+Epoch: 8, Steps: 7 | Train Loss: 0.741 Vali Loss: 1.039 Vali Acc: 0.847 Test Loss: 1.039 Test Acc: 0.847
+Validation loss decreased (-0.819432 --> -0.847212).  Saving model ...
+Epoch: 9 cost time: 1.1620395183563232
+Epoch: 9, Steps: 7 | Train Loss: 0.463 Vali Loss: 0.838 Vali Acc: 0.833 Test Loss: 0.838 Test Acc: 0.833
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 1.3535938262939453
+Epoch: 10, Steps: 7 | Train Loss: 0.260 Vali Loss: 0.679 Vali Acc: 0.875 Test Loss: 0.679 Test Acc: 0.875
+Validation loss decreased (-0.847212 --> -0.874993).  Saving model ...
+Epoch: 11 cost time: 1.2716295719146729
+Epoch: 11, Steps: 7 | Train Loss: 0.134 Vali Loss: 0.599 Vali Acc: 0.861 Test Loss: 0.599 Test Acc: 0.861
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 1.315474033355713
+Epoch: 12, Steps: 7 | Train Loss: 0.068 Vali Loss: 0.573 Vali Acc: 0.847 Test Loss: 0.573 Test Acc: 0.847
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 1.4524240493774414
+Epoch: 13, Steps: 7 | Train Loss: 0.039 Vali Loss: 0.569 Vali Acc: 0.847 Test Loss: 0.569 Test Acc: 0.847
+EarlyStopping counter: 3 out of 10
+Epoch: 14 cost time: 1.0950462818145752
+Epoch: 14, Steps: 7 | Train Loss: 0.023 Vali Loss: 0.568 Vali Acc: 0.847 Test Loss: 0.568 Test Acc: 0.847
+EarlyStopping counter: 4 out of 10
+Epoch: 15 cost time: 1.3415114879608154
+Epoch: 15, Steps: 7 | Train Loss: 0.016 Vali Loss: 0.568 Vali Acc: 0.847 Test Loss: 0.568 Test Acc: 0.847
+EarlyStopping counter: 5 out of 10
+Epoch: 16 cost time: 1.2611055374145508
+Epoch: 16, Steps: 7 | Train Loss: 0.012 Vali Loss: 0.572 Vali Acc: 0.833 Test Loss: 0.572 Test Acc: 0.833
+EarlyStopping counter: 6 out of 10
+Epoch: 17 cost time: 1.0746662616729736
+Epoch: 17, Steps: 7 | Train Loss: 0.009 Vali Loss: 0.578 Vali Acc: 0.833 Test Loss: 0.578 Test Acc: 0.833
+EarlyStopping counter: 7 out of 10
+Epoch: 18 cost time: 1.2181403636932373
+Epoch: 18, Steps: 7 | Train Loss: 0.007 Vali Loss: 0.583 Vali Acc: 0.833 Test Loss: 0.583 Test Acc: 0.833
+EarlyStopping counter: 8 out of 10
+Epoch: 19 cost time: 1.4497790336608887
+Epoch: 19, Steps: 7 | Train Loss: 0.007 Vali Loss: 0.589 Vali Acc: 0.833 Test Loss: 0.589 Test Acc: 0.833
+EarlyStopping counter: 9 out of 10
+Epoch: 20 cost time: 1.417412519454956
+Epoch: 20, Steps: 7 | Train Loss: 0.005 Vali Loss: 0.594 Vali Acc: 0.819 Test Loss: 0.594 Test Acc: 0.819
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.875
+model parameter : 464544
+model size : 2.39MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.349042892456055
+Epoch: 1, Steps: 7 | Train Loss: 2.488 Vali Loss: 2.463 Vali Acc: 0.167 Test Loss: 2.463 Test Acc: 0.167
+Validation loss decreased (inf --> -0.166642).  Saving model ...
+Epoch: 2 cost time: 1.538144826889038
+Epoch: 2, Steps: 7 | Train Loss: 2.409 Vali Loss: 2.359 Vali Acc: 0.597 Test Loss: 2.359 Test Acc: 0.597
+Validation loss decreased (-0.166642 --> -0.597199).  Saving model ...
+Epoch: 3 cost time: 1.5585322380065918
+Epoch: 3, Steps: 7 | Train Loss: 2.243 Vali Loss: 2.205 Vali Acc: 0.736 Test Loss: 2.205 Test Acc: 0.736
+Validation loss decreased (-0.597199 --> -0.736089).  Saving model ...
+Epoch: 4 cost time: 1.1761140823364258
+Epoch: 4, Steps: 7 | Train Loss: 2.013 Vali Loss: 2.018 Vali Acc: 0.736 Test Loss: 2.018 Test Acc: 0.736
+Validation loss decreased (-0.736089 --> -0.736091).  Saving model ...
+Epoch: 5 cost time: 0.9071722030639648
+Epoch: 5, Steps: 7 | Train Loss: 1.740 Vali Loss: 1.800 Vali Acc: 0.778 Test Loss: 1.800 Test Acc: 0.778
+Validation loss decreased (-0.736091 --> -0.777760).  Saving model ...
+Epoch: 6 cost time: 1.4715793132781982
+Epoch: 6, Steps: 7 | Train Loss: 1.412 Vali Loss: 1.554 Vali Acc: 0.792 Test Loss: 1.554 Test Acc: 0.792
+Validation loss decreased (-0.777760 --> -0.791651).  Saving model ...
+Epoch: 7 cost time: 1.1969659328460693
+Epoch: 7, Steps: 7 | Train Loss: 1.091 Vali Loss: 1.306 Vali Acc: 0.847 Test Loss: 1.306 Test Acc: 0.847
+Validation loss decreased (-0.791651 --> -0.847209).  Saving model ...
+Epoch: 8 cost time: 1.424774408340454
+Epoch: 8, Steps: 7 | Train Loss: 0.763 Vali Loss: 1.058 Vali Acc: 0.847 Test Loss: 1.058 Test Acc: 0.847
+Validation loss decreased (-0.847209 --> -0.847212).  Saving model ...
+Epoch: 9 cost time: 1.4981536865234375
+Epoch: 9, Steps: 7 | Train Loss: 0.470 Vali Loss: 0.848 Vali Acc: 0.833 Test Loss: 0.848 Test Acc: 0.833
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 1.8041110038757324
+Epoch: 10, Steps: 7 | Train Loss: 0.266 Vali Loss: 0.686 Vali Acc: 0.847 Test Loss: 0.686 Test Acc: 0.847
+Validation loss decreased (-0.847212 --> -0.847215).  Saving model ...
+Epoch: 11 cost time: 1.5282716751098633
+Epoch: 11, Steps: 7 | Train Loss: 0.134 Vali Loss: 0.590 Vali Acc: 0.861 Test Loss: 0.590 Test Acc: 0.861
+Validation loss decreased (-0.847215 --> -0.861105).  Saving model ...
+Epoch: 12 cost time: 1.3916256427764893
+Epoch: 12, Steps: 7 | Train Loss: 0.067 Vali Loss: 0.549 Vali Acc: 0.847 Test Loss: 0.549 Test Acc: 0.847
+EarlyStopping counter: 1 out of 10
+Epoch: 13 cost time: 1.2835445404052734
+Epoch: 13, Steps: 7 | Train Loss: 0.039 Vali Loss: 0.537 Vali Acc: 0.847 Test Loss: 0.537 Test Acc: 0.847
+EarlyStopping counter: 2 out of 10
+Epoch: 14 cost time: 1.5322465896606445
+Epoch: 14, Steps: 7 | Train Loss: 0.025 Vali Loss: 0.534 Vali Acc: 0.833 Test Loss: 0.534 Test Acc: 0.833
+EarlyStopping counter: 3 out of 10
+Epoch: 15 cost time: 1.5094659328460693
+Epoch: 15, Steps: 7 | Train Loss: 0.017 Vali Loss: 0.529 Vali Acc: 0.833 Test Loss: 0.529 Test Acc: 0.833
+EarlyStopping counter: 4 out of 10
+Epoch: 16 cost time: 1.2996270656585693
+Epoch: 16, Steps: 7 | Train Loss: 0.013 Vali Loss: 0.533 Vali Acc: 0.833 Test Loss: 0.533 Test Acc: 0.833
+EarlyStopping counter: 5 out of 10
+Epoch: 17 cost time: 1.4792943000793457
+Epoch: 17, Steps: 7 | Train Loss: 0.010 Vali Loss: 0.537 Vali Acc: 0.833 Test Loss: 0.537 Test Acc: 0.833
+EarlyStopping counter: 6 out of 10
+Epoch: 18 cost time: 1.6114938259124756
+Epoch: 18, Steps: 7 | Train Loss: 0.008 Vali Loss: 0.541 Vali Acc: 0.833 Test Loss: 0.541 Test Acc: 0.833
+EarlyStopping counter: 7 out of 10
+Epoch: 19 cost time: 1.8906824588775635
+Epoch: 19, Steps: 7 | Train Loss: 0.007 Vali Loss: 0.543 Vali Acc: 0.833 Test Loss: 0.543 Test Acc: 0.833
+EarlyStopping counter: 8 out of 10
+Epoch: 20 cost time: 1.3376710414886475
+Epoch: 20, Steps: 7 | Train Loss: 0.006 Vali Loss: 0.545 Vali Acc: 0.833 Test Loss: 0.545 Test Acc: 0.833
+EarlyStopping counter: 9 out of 10
+Epoch: 21 cost time: 1.2970831394195557
+Epoch: 21, Steps: 7 | Train Loss: 0.005 Vali Loss: 0.549 Vali Acc: 0.833 Test Loss: 0.549 Test Acc: 0.833
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.8611111111111112
+model parameter : 464160
+model size : 2.39MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.81031346321106
+Epoch: 1, Steps: 7 | Train Loss: 2.485 Vali Loss: 2.466 Vali Acc: 0.167 Test Loss: 2.466 Test Acc: 0.167
+Validation loss decreased (inf --> -0.166642).  Saving model ...
+Epoch: 2 cost time: 1.486124038696289
+Epoch: 2, Steps: 7 | Train Loss: 2.408 Vali Loss: 2.364 Vali Acc: 0.486 Test Loss: 2.364 Test Acc: 0.486
+Validation loss decreased (-0.166642 --> -0.486087).  Saving model ...
+Epoch: 3 cost time: 1.1688671112060547
+Epoch: 3, Steps: 7 | Train Loss: 2.237 Vali Loss: 2.213 Vali Acc: 0.681 Test Loss: 2.213 Test Acc: 0.681
+Validation loss decreased (-0.486087 --> -0.680533).  Saving model ...
+Epoch: 4 cost time: 1.6203205585479736
+Epoch: 4, Steps: 7 | Train Loss: 2.004 Vali Loss: 2.019 Vali Acc: 0.764 Test Loss: 2.019 Test Acc: 0.764
+Validation loss decreased (-0.680533 --> -0.763869).  Saving model ...
+Epoch: 5 cost time: 1.483839750289917
+Epoch: 5, Steps: 7 | Train Loss: 1.717 Vali Loss: 1.791 Vali Acc: 0.764 Test Loss: 1.791 Test Acc: 0.764
+Validation loss decreased (-0.763869 --> -0.763871).  Saving model ...
+Epoch: 6 cost time: 1.3109347820281982
+Epoch: 6, Steps: 7 | Train Loss: 1.398 Vali Loss: 1.545 Vali Acc: 0.764 Test Loss: 1.545 Test Acc: 0.764
+Validation loss decreased (-0.763871 --> -0.763873).  Saving model ...
+Epoch: 7 cost time: 1.2928779125213623
+Epoch: 7, Steps: 7 | Train Loss: 1.056 Vali Loss: 1.295 Vali Acc: 0.833 Test Loss: 1.295 Test Acc: 0.833
+Validation loss decreased (-0.763873 --> -0.833320).  Saving model ...
+Epoch: 8 cost time: 1.3074774742126465
+Epoch: 8, Steps: 7 | Train Loss: 0.737 Vali Loss: 1.043 Vali Acc: 0.847 Test Loss: 1.043 Test Acc: 0.847
+Validation loss decreased (-0.833320 --> -0.847212).  Saving model ...
+Epoch: 9 cost time: 1.2757532596588135
+Epoch: 9, Steps: 7 | Train Loss: 0.452 Vali Loss: 0.823 Vali Acc: 0.889 Test Loss: 0.823 Test Acc: 0.889
+Validation loss decreased (-0.847212 --> -0.888881).  Saving model ...
+Epoch: 10 cost time: 1.5651047229766846
+Epoch: 10, Steps: 7 | Train Loss: 0.249 Vali Loss: 0.671 Vali Acc: 0.875 Test Loss: 0.671 Test Acc: 0.875
+EarlyStopping counter: 1 out of 10
+Epoch: 11 cost time: 1.4460077285766602
+Epoch: 11, Steps: 7 | Train Loss: 0.124 Vali Loss: 0.570 Vali Acc: 0.861 Test Loss: 0.570 Test Acc: 0.861
+EarlyStopping counter: 2 out of 10
+Epoch: 12 cost time: 1.4181122779846191
+Epoch: 12, Steps: 7 | Train Loss: 0.062 Vali Loss: 0.533 Vali Acc: 0.861 Test Loss: 0.533 Test Acc: 0.861
+EarlyStopping counter: 3 out of 10
+Epoch: 13 cost time: 1.4631397724151611
+Epoch: 13, Steps: 7 | Train Loss: 0.036 Vali Loss: 0.517 Vali Acc: 0.847 Test Loss: 0.517 Test Acc: 0.847
+EarlyStopping counter: 4 out of 10
+Epoch: 14 cost time: 1.8432610034942627
+Epoch: 14, Steps: 7 | Train Loss: 0.021 Vali Loss: 0.511 Vali Acc: 0.847 Test Loss: 0.511 Test Acc: 0.847
+EarlyStopping counter: 5 out of 10
+Epoch: 15 cost time: 1.5165605545043945
+Epoch: 15, Steps: 7 | Train Loss: 0.015 Vali Loss: 0.505 Vali Acc: 0.847 Test Loss: 0.505 Test Acc: 0.847
+EarlyStopping counter: 6 out of 10
+Epoch: 16 cost time: 1.4863438606262207
+Epoch: 16, Steps: 7 | Train Loss: 0.011 Vali Loss: 0.504 Vali Acc: 0.833 Test Loss: 0.504 Test Acc: 0.833
+EarlyStopping counter: 7 out of 10
+Epoch: 17 cost time: 1.270906925201416
+Epoch: 17, Steps: 7 | Train Loss: 0.009 Vali Loss: 0.504 Vali Acc: 0.833 Test Loss: 0.504 Test Acc: 0.833
+EarlyStopping counter: 8 out of 10
+Epoch: 18 cost time: 1.2624099254608154
+Epoch: 18, Steps: 7 | Train Loss: 0.007 Vali Loss: 0.507 Vali Acc: 0.833 Test Loss: 0.507 Test Acc: 0.833
+EarlyStopping counter: 9 out of 10
+Epoch: 19 cost time: 1.2824764251708984
+Epoch: 19, Steps: 7 | Train Loss: 0.006 Vali Loss: 0.512 Vali Acc: 0.833 Test Loss: 0.512 Test Acc: 0.833
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.8888888888888888
+model parameter : 463968
+model size : 2.39MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_Cricket         Model:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             6                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+108
+72
+72
+>>>>>>>start training : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.2396464347839355
+Epoch: 1, Steps: 7 | Train Loss: 2.485 Vali Loss: 2.456 Vali Acc: 0.278 Test Loss: 2.456 Test Acc: 0.278
+Validation loss decreased (inf --> -0.277753).  Saving model ...
+Epoch: 2 cost time: 1.0500404834747314
+Epoch: 2, Steps: 7 | Train Loss: 2.405 Vali Loss: 2.354 Vali Acc: 0.653 Test Loss: 2.354 Test Acc: 0.653
+Validation loss decreased (-0.277753 --> -0.652754).  Saving model ...
+Epoch: 3 cost time: 1.1483757495880127
+Epoch: 3, Steps: 7 | Train Loss: 2.246 Vali Loss: 2.205 Vali Acc: 0.750 Test Loss: 2.205 Test Acc: 0.750
+Validation loss decreased (-0.652754 --> -0.749978).  Saving model ...
+Epoch: 4 cost time: 1.040459156036377
+Epoch: 4, Steps: 7 | Train Loss: 2.013 Vali Loss: 2.013 Vali Acc: 0.736 Test Loss: 2.013 Test Acc: 0.736
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.3356292247772217
+Epoch: 5, Steps: 7 | Train Loss: 1.741 Vali Loss: 1.797 Vali Acc: 0.792 Test Loss: 1.797 Test Acc: 0.792
+Validation loss decreased (-0.749978 --> -0.791649).  Saving model ...
+Epoch: 6 cost time: 1.3884248733520508
+Epoch: 6, Steps: 7 | Train Loss: 1.417 Vali Loss: 1.555 Vali Acc: 0.806 Test Loss: 1.555 Test Acc: 0.806
+Validation loss decreased (-0.791649 --> -0.805540).  Saving model ...
+Epoch: 7 cost time: 1.5250020027160645
+Epoch: 7, Steps: 7 | Train Loss: 1.096 Vali Loss: 1.308 Vali Acc: 0.819 Test Loss: 1.308 Test Acc: 0.819
+Validation loss decreased (-0.805540 --> -0.819431).  Saving model ...
+Epoch: 8 cost time: 1.0960102081298828
+Epoch: 8, Steps: 7 | Train Loss: 0.766 Vali Loss: 1.071 Vali Acc: 0.847 Test Loss: 1.071 Test Acc: 0.847
+Validation loss decreased (-0.819431 --> -0.847212).  Saving model ...
+Epoch: 9 cost time: 1.0470800399780273
+Epoch: 9, Steps: 7 | Train Loss: 0.477 Vali Loss: 0.859 Vali Acc: 0.833 Test Loss: 0.859 Test Acc: 0.833
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 1.4768459796905518
+Epoch: 10, Steps: 7 | Train Loss: 0.268 Vali Loss: 0.693 Vali Acc: 0.847 Test Loss: 0.693 Test Acc: 0.847
+Validation loss decreased (-0.847212 --> -0.847215).  Saving model ...
+Epoch: 11 cost time: 1.119795799255371
+Epoch: 11, Steps: 7 | Train Loss: 0.135 Vali Loss: 0.605 Vali Acc: 0.833 Test Loss: 0.605 Test Acc: 0.833
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 1.3353891372680664
+Epoch: 12, Steps: 7 | Train Loss: 0.073 Vali Loss: 0.567 Vali Acc: 0.833 Test Loss: 0.567 Test Acc: 0.833
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 1.4517061710357666
+Epoch: 13, Steps: 7 | Train Loss: 0.041 Vali Loss: 0.545 Vali Acc: 0.833 Test Loss: 0.545 Test Acc: 0.833
+EarlyStopping counter: 3 out of 10
+Epoch: 14 cost time: 1.510958194732666
+Epoch: 14, Steps: 7 | Train Loss: 0.026 Vali Loss: 0.533 Vali Acc: 0.833 Test Loss: 0.533 Test Acc: 0.833
+EarlyStopping counter: 4 out of 10
+Epoch: 15 cost time: 1.518472671508789
+Epoch: 15, Steps: 7 | Train Loss: 0.018 Vali Loss: 0.531 Vali Acc: 0.833 Test Loss: 0.531 Test Acc: 0.833
+EarlyStopping counter: 5 out of 10
+Epoch: 16 cost time: 1.1126177310943604
+Epoch: 16, Steps: 7 | Train Loss: 0.013 Vali Loss: 0.534 Vali Acc: 0.833 Test Loss: 0.534 Test Acc: 0.833
+EarlyStopping counter: 6 out of 10
+Epoch: 17 cost time: 1.5299899578094482
+Epoch: 17, Steps: 7 | Train Loss: 0.010 Vali Loss: 0.535 Vali Acc: 0.833 Test Loss: 0.535 Test Acc: 0.833
+EarlyStopping counter: 7 out of 10
+Epoch: 18 cost time: 1.8507397174835205
+Epoch: 18, Steps: 7 | Train Loss: 0.009 Vali Loss: 0.538 Vali Acc: 0.833 Test Loss: 0.538 Test Acc: 0.833
+EarlyStopping counter: 8 out of 10
+Epoch: 19 cost time: 2.0073232650756836
+Epoch: 19, Steps: 7 | Train Loss: 0.008 Vali Loss: 0.540 Vali Acc: 0.833 Test Loss: 0.540 Test Acc: 0.833
+EarlyStopping counter: 9 out of 10
+Epoch: 20 cost time: 1.4449045658111572
+Epoch: 20, Steps: 7 | Train Loss: 0.006 Vali Loss: 0.546 Vali Acc: 0.833 Test Loss: 0.546 Test Acc: 0.833
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_Cricket_Mamba_UEA_ftM_sl1197_ll0_pl0_dm32_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([72, 12]) torch.Size([72, 1])
+accuracy:0.8472222222222222
+model parameter : 463872
+model size : 2.38MB

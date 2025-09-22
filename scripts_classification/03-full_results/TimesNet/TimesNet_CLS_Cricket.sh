@@ -1,0 +1,7308 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 4 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 3 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 128 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 64 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 32 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 16 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 3 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 2 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 6 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Cricket \
+  --seq_len 1197 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model TimesNet \
+  --model_id CLS_Cricket \
+  --e_layers 2 \
+  --top_k 1 \
+  --num_kernels 4 \
+  --d_model 8 \
+  --d_ff 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 30 \
+  --patience 10
+

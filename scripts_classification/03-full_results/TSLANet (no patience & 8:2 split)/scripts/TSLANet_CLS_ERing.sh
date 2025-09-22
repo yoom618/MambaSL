@@ -1,0 +1,6048 @@
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm256_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm128_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm64_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth3_dm32_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm256_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm128_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm64_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth2_dm32_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm256_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm128_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm64_mlp1_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp3_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp3_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp3_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp3_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp3_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp2_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp2_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp2_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp2_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp2_ps17.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 2 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp1_ps2.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 4 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp1_ps4.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 7 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp1_ps7.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 13 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp1_ps13.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/ERing \
+  --data_type uea \
+  --data_name ERing \
+  --model_id CLS_ERing \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 17 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/ERing/ERing_depth1_dm32_mlp1_ps17.log 2>&1
+

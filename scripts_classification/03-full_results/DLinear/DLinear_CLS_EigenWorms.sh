@@ -1,0 +1,376 @@
+# Runed via Google Colab A100 (cannot run on 1080ti)
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 8992 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 8093 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 7194 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 6295 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 5396 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 4496 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 3597 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 2698 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 1799 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 900 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 720 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 540 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 360 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 180 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python TSLib/run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path ./dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints ./checkpoints \
+  --model DLinear \
+  --model_id CLS_EigenWorms \
+  --moving_avg 90 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

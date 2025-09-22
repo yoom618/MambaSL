@@ -1,0 +1,720 @@
+JapaneseVowels_dim256_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_59_52  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8363801836967468, 'val': 1.0}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_04_00  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9810810685157776, 'val': 0.9629629850387573}, mf1:{'test': 0.8901534080505371, 'val': 0.9333333373069763}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_07_48  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 0.9629629850387573}, mf1:{'test': 0.8765118718147278, 'val': 0.9333333373069763}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_11_27  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8533905744552612, 'val': 0.939393937587738}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_14_27  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9675675630569458, 'val': 0.9814814925193787}, mf1:{'test': 0.7980012893676758, 'val': 0.939393937587738}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_16_51  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8347494602203369, 'val': 1.0}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_19_09  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9837837815284729, 'val': 1.0}, mf1:{'test': 0.9032281637191772, 'val': 1.0}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_21_25  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.8447712659835815, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_23_50  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.7940875887870789, 'val': 0.939393937587738}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_26_15  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9810810685157776, 'val': 0.9444444179534912}, mf1:{'test': 0.879686176776886, 'val': 0.9074074029922485}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_28_15  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9675675630569458, 'val': 1.0}, mf1:{'test': 0.7857761979103088, 'val': 1.0}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_30_17  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.8415387272834778, 'val': 0.939393937587738}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_32_17  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9864864945411682, 'val': 0.9629629850387573}, mf1:{'test': 0.9092589616775513, 'val': 0.9185184836387634}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_34_09  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8659878373146057, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim256_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_36_04  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8455151319503784, 'val': 1.0}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_37_55  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8490093946456909, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_39_46  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.857081413269043, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_41_45  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 0.9629629850387573}, mf1:{'test': 0.834062397480011, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_43_37  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9567567706108093, 'val': 0.9444444179534912}, mf1:{'test': 0.7248016595840454, 'val': 0.8525252938270569}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_45_25  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9648648500442505, 'val': 0.9629629850387573}, mf1:{'test': 0.8208852410316467, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_47_12  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 0.9629629850387573}, mf1:{'test': 0.8689830303192139, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_48_49  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9891892075538635, 'val': 0.9629629850387573}, mf1:{'test': 0.9173179268836975, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_50_31  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8505721688270569, 'val': 1.0}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_52_10  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.954054057598114, 'val': 0.9629629850387573}, mf1:{'test': 0.7477043271064758, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_53_48  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9864864945411682, 'val': 1.0}, mf1:{'test': 0.9022171497344971, 'val': 1.0}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_55_25  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.845515251159668, 'val': 1.0}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_56_58  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.7983719110488892, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_58_26  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 0.9629629850387573}, mf1:{'test': 0.8278241157531738, 'val': 0.9333333373069763}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_59_56  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8289095759391785, 'val': 1.0}
+
+JapaneseVowels_dim128_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_01_24  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8729594349861145, 'val': 1.0}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_02_56  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 0.9814814925193787}, mf1:{'test': 0.8529859185218811, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_04_25  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8653293251991272, 'val': 1.0}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_05_54  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.8444529175758362, 'val': 0.9353535175323486}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_07_26  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9702702760696411, 'val': 0.9629629850387573}, mf1:{'test': 0.7974956035614014, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_08_57  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 0.9444444179534912}, mf1:{'test': 0.8757097125053406, 'val': 0.8101009726524353}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_10_31  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.8231961727142334, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_12_02  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8283211588859558, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_13_34  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9648648500442505, 'val': 1.0}, mf1:{'test': 0.8235704302787781, 'val': 1.0}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_15_06  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8547229766845703, 'val': 1.0}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_16_38  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9702702760696411, 'val': 0.9814814925193787}, mf1:{'test': 0.80924391746521, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_18_09  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 0.9814814925193787}, mf1:{'test': 0.8289026021957397, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_19_35  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8384733200073242, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_21_07  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.8726166486740112, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_22_41  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8350479602813721, 'val': 1.0}
+
+JapaneseVowels_dim64_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_24_08  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8653873801231384, 'val': 1.0}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_25_39  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 0.9814814925193787}, mf1:{'test': 0.8459440469741821, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_27_08  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 0.9444444179534912}, mf1:{'test': 0.8357919454574585, 'val': 0.8505050539970398}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_28_36  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9702702760696411, 'val': 0.9629629850387573}, mf1:{'test': 0.8092440366744995, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_30_08  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 1.0}, mf1:{'test': 0.834252655506134, 'val': 1.0}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_31_34  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9837837815284729, 'val': 0.9814814925193787}, mf1:{'test': 0.8877451419830322, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_33_08  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 1.0}, mf1:{'test': 0.8228940963745117, 'val': 1.0}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_34_42  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9702702760696411, 'val': 0.9814814925193787}, mf1:{'test': 0.809459388256073, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_36_13  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9783783555030823, 'val': 0.9814814925193787}, mf1:{'test': 0.8428899049758911, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_37_43  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9702702760696411, 'val': 0.9814814925193787}, mf1:{'test': 0.849327564239502, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_39_18  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.8654260635375977, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_40_44  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 0.9444444179534912}, mf1:{'test': 0.832403838634491, 'val': 0.7777777910232544}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_42_10  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9810810685157776, 'val': 0.9629629850387573}, mf1:{'test': 0.8581110835075378, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_43_41  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8349387645721436, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_45_05  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9729729890823364, 'val': 0.9444444179534912}, mf1:{'test': 0.8251485228538513, 'val': 0.7777777910232544}
+
+JapaneseVowels_dim32_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_46_28  
+TSLANet_JapaneseVowels_l_3  
+acc:{'test': 0.9756757020950317, 'val': 0.9629629850387573}, mf1:{'test': 0.8326192498207092, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_47_52  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9864864945411682, 'val': 1.0}, mf1:{'test': 0.8967431783676147, 'val': 1.0}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_49_32  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8396221399307251, 'val': 1.0}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_51_07  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 0.9814814925193787}, mf1:{'test': 0.8506402969360352, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_52_44  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.845515251159668, 'val': 0.939393937587738}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_54_18  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9675675630569458, 'val': 0.9814814925193787}, mf1:{'test': 0.8052194714546204, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_55_51  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8332802653312683, 'val': 1.0}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_57_14  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8729594349861145, 'val': 1.0}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_58_42  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.8659175634384155, 'val': 0.939393937587738}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_00_10  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 0.9814814925193787}, mf1:{'test': 0.8512285947799683, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_01_35  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8289095759391785, 'val': 1.0}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_03_05  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9837837815284729, 'val': 0.9814814925193787}, mf1:{'test': 0.884512722492218, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_04_26  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9837837815284729, 'val': 0.9814814925193787}, mf1:{'test': 0.8661700487136841, 'val': 0.939393937587738}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_05_53  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9702702760696411, 'val': 0.9814814925193787}, mf1:{'test': 0.7916326522827148, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_07_14  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9648648500442505, 'val': 1.0}, mf1:{'test': 0.7923079133033752, 'val': 1.0}
+
+JapaneseVowels_dim256_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_08_38  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9729729890823364, 'val': 0.9444444179534912}, mf1:{'test': 0.8299229145050049, 'val': 0.837710440158844}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_10_01  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9729729890823364, 'val': 1.0}, mf1:{'test': 0.8304144144058228, 'val': 1.0}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_11_21  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9837837815284729, 'val': 1.0}, mf1:{'test': 0.8733882308006287, 'val': 1.0}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_12_40  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 0.9629629850387573}, mf1:{'test': 0.849364161491394, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_13_59  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9837837815284729, 'val': 0.9814814925193787}, mf1:{'test': 0.8724730610847473, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_15_21  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9729729890823364, 'val': 0.9629629850387573}, mf1:{'test': 0.8462926745414734, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_16_37  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9729729890823364, 'val': 1.0}, mf1:{'test': 0.8299227952957153, 'val': 1.0}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_17_53  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8164066672325134, 'val': 1.0}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_19_11  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9729729890823364, 'val': 1.0}, mf1:{'test': 0.8348410129547119, 'val': 1.0}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_20_28  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9864864945411682, 'val': 1.0}, mf1:{'test': 0.8884891271591187, 'val': 1.0}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_21_42  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.850360631942749, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_22_59  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8215317726135254, 'val': 1.0}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_24_14  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9702702760696411, 'val': 0.9814814925193787}, mf1:{'test': 0.7875500917434692, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_25_27  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9837837815284729, 'val': 0.9814814925193787}, mf1:{'test': 0.9021540284156799, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_26_44  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8350479602813721, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_28_03  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8573670983314514, 'val': 1.0}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_29_20  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.845515251159668, 'val': 1.0}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_30_39  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8581110835075378, 'val': 1.0}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_32_01  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8581110239028931, 'val': 1.0}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_33_19  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9891892075538635, 'val': 0.9814814925193787}, mf1:{'test': 0.9108081459999084, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_34_35  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9729729890823364, 'val': 1.0}, mf1:{'test': 0.8283792734146118, 'val': 1.0}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_35_53  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 0.9814814925193787}, mf1:{'test': 0.8387258052825928, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_37_06  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 0.9814814925193787}, mf1:{'test': 0.8760542869567871, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_38_19  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9837837815284729, 'val': 0.9629629850387573}, mf1:{'test': 0.884512722492218, 'val': 0.9185184836387634}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_39_32  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8438509702682495, 'val': 1.0}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_46  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9864864945411682, 'val': 0.9629629850387573}, mf1:{'test': 0.8949988484382629, 'val': 0.8547378778457642}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_42_02  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8533906936645508, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_43_14  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8455151319503784, 'val': 1.0}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_44_23  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.822155773639679, 'val': 1.0}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_45_40  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8653293251991272, 'val': 1.0}
+
+JapaneseVowels_dim64_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_46_56  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8579553365707397, 'val': 1.0}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_48_15  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.7992127537727356, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_49_34  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9837837815284729, 'val': 0.9629629850387573}, mf1:{'test': 0.8876484036445618, 'val': 0.9185184836387634}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_50_52  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 0.9259259104728699}, mf1:{'test': 0.855704128742218, 'val': 0.7282154560089111}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_52_05  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8444748520851135, 'val': 1.0}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_53_23  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9729729890823364, 'val': 0.9629629850387573}, mf1:{'test': 0.7917420268058777, 'val': 0.8707070350646973}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_54_39  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9648648500442505, 'val': 0.9444444179534912}, mf1:{'test': 0.7673466801643372, 'val': 0.8281964659690857}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_55_55  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8581110835075378, 'val': 1.0}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_12  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 0.9444444179534912}, mf1:{'test': 0.8781123161315918, 'val': 0.7739297151565552}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_58_31  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9648648500442505, 'val': 0.9814814925193787}, mf1:{'test': 0.7684264183044434, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_59_45  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.8586993217468262, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_00_57  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9621621370315552, 'val': 0.9814814925193787}, mf1:{'test': 0.7676364183425903, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_02_12  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8283212184906006, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_03_24  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9783783555030823, 'val': 0.9629629850387573}, mf1:{'test': 0.8426833152770996, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_04_41  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9756757020950317, 'val': 0.9444444179534912}, mf1:{'test': 0.8289095759391785, 'val': 0.8386332392692566}
+
+JapaneseVowels_dim32_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_05_54  
+TSLANet_JapaneseVowels_l_2  
+acc:{'test': 0.9837837815284729, 'val': 0.9259259104728699}, mf1:{'test': 0.8810184001922607, 'val': 0.7569023370742798}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_07_13  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9629629850387573}, mf1:{'test': 0.8347494006156921, 'val': 0.9185184836387634}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_08_22  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9864864945411682, 'val': 0.9814814925193787}, mf1:{'test': 0.8884891271591187, 'val': 0.939393937587738}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_09_34  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9864864945411682, 'val': 0.9814814925193787}, mf1:{'test': 0.8884891271591187, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_10_50  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 1.0}, mf1:{'test': 0.8573864698410034, 'val': 1.0}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_12_04  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9837837815284729, 'val': 1.0}, mf1:{'test': 0.8869398236274719, 'val': 1.0}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_13_15  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8324038982391357, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_14_24  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8581110239028931, 'val': 1.0}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_15_36  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9837837815284729, 'val': 0.9629629850387573}, mf1:{'test': 0.8804301619529724, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_16_48  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9837837815284729, 'val': 1.0}, mf1:{'test': 0.8877451419830322, 'val': 1.0}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_17_57  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 0.9259259104728699}, mf1:{'test': 0.88181471824646, 'val': 0.8005579710006714}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_19_00  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8394750356674194, 'val': 1.0}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_20_00  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9891892075538635, 'val': 1.0}, mf1:{'test': 0.9181312322616577, 'val': 1.0}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_21_03  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9629629850387573}, mf1:{'test': 0.8631327748298645, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_22_05  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9675675630569458, 'val': 0.9629629850387573}, mf1:{'test': 0.79726243019104, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim256_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_23_07  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8586993217468262, 'val': 1.0}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_24_12  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8724272847175598, 'val': 1.0}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_25_11  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8384733200073242, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_26_16  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9837837815284729, 'val': 0.9814814925193787}, mf1:{'test': 0.8810184001922607, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_27_20  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9783783555030823, 'val': 0.9629629850387573}, mf1:{'test': 0.8614497184753418, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_28_22  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 0.9629629850387573}, mf1:{'test': 0.8208504915237427, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_29_31  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9783783555030823, 'val': 0.9629629850387573}, mf1:{'test': 0.8387258052825928, 'val': 0.9185184836387634}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_30_41  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.8132203817367554, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_31_49  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.8826199769973755, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_32_59  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.8337205052375793, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_34_06  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 0.9629629850387573}, mf1:{'test': 0.8094964027404785, 'val': 0.8707070350646973}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_35_11  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8398746252059937, 'val': 1.0}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_36_20  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9891892075538635, 'val': 0.9444444179534912}, mf1:{'test': 0.9173179268836975, 'val': 0.8525252938270569}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_37_27  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.8610448837280273, 'val': 0.939393937587738}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_38_28  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9837837815284729, 'val': 1.0}, mf1:{'test': 0.8869398236274719, 'val': 1.0}
+
+JapaneseVowels_dim128_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_39_33  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.8581110239028931, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_40_35  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9837837815284729, 'val': 1.0}, mf1:{'test': 0.8804301619529724, 'val': 1.0}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_41_40  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 1.0}, mf1:{'test': 0.8592432141304016, 'val': 1.0}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_42_44  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9864864945411682, 'val': 0.9629629850387573}, mf1:{'test': 0.8967431783676147, 'val': 0.8383838534355164}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_43_50  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.8343039751052856, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_44_51  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9444444179534912}, mf1:{'test': 0.8356361985206604, 'val': 0.7777777910232544}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_45_52  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.8892223238945007, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_46_55  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9891892075538635, 'val': 0.9814814925193787}, mf1:{'test': 0.9247255325317383, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_48_00  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9783783555030823, 'val': 1.0}, mf1:{'test': 0.8535741567611694, 'val': 1.0}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_49_03  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9702702760696411, 'val': 0.9814814925193787}, mf1:{'test': 0.790901243686676, 'val': 0.939393937587738}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_50_07  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9783783555030823, 'val': 0.9629629850387573}, mf1:{'test': 0.8512285947799683, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_51_09  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.832403838634491, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_52_11  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9814814925193787}, mf1:{'test': 0.8175554275512695, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_53_15  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9629629850387573}, mf1:{'test': 0.8355395197868347, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_54_17  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9864864945411682, 'val': 0.9629629850387573}, mf1:{'test': 0.9033374786376953, 'val': 0.8383838534355164}
+
+JapaneseVowels_dim64_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_55_17  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9783783555030823, 'val': 0.9629629850387573}, mf1:{'test': 0.8569434285163879, 'val': 0.8585858345031738}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_56_15  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 0.9444444179534912}, mf1:{'test': 0.8610448837280273, 'val': 0.7777777910232544}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_57_15  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9783783555030823, 'val': 0.9814814925193787}, mf1:{'test': 0.8773760795593262, 'val': 0.9191918969154358}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_58_16  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 1.0}, mf1:{'test': 0.8586993217468262, 'val': 1.0}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_59_12  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.8439416289329529, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_00_17  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 1.0}, mf1:{'test': 0.8060020804405212, 'val': 1.0}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_01_16  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9702702760696411, 'val': 1.0}, mf1:{'test': 0.8514423966407776, 'val': 1.0}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_02_20  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.8581110239028931, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_03_22  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9629629850387573}, mf1:{'test': 0.8306668400764465, 'val': 0.8383838534355164}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_04_19  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9837837815284729, 'val': 0.9629629850387573}, mf1:{'test': 0.8595756888389587, 'val': 0.9185184836387634}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_05_20  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9810810685157776, 'val': 0.9814814925193787}, mf1:{'test': 0.872644305229187, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_06_19  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9783783555030823, 'val': 0.9629629850387573}, mf1:{'test': 0.8535741567611694, 'val': 0.8383838534355164}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_07_17  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9675675630569458, 'val': 0.9629629850387573}, mf1:{'test': 0.7616609930992126, 'val': 0.9176872372627258}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_08_19  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 0.9814814925193787}, mf1:{'test': 0.8493993282318115, 'val': 0.939393937587738}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_09_19  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9729729890823364, 'val': 0.9074074029922485}, mf1:{'test': 0.7974568009376526, 'val': 0.6960718631744385}
+
+JapaneseVowels_dim32_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_10_22  
+TSLANet_JapaneseVowels_l_1  
+acc:{'test': 0.9756757020950317, 'val': 0.9444444179534912}, mf1:{'test': 0.8289095759391785, 'val': 0.7939393520355225}
+

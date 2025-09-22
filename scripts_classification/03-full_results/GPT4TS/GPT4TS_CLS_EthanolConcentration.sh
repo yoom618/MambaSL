@@ -1,0 +1,7560 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 71 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 19 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 39 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 77 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 80 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 84 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 22 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 44 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 47 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 93 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 98 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 26 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 52 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 103 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 110 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 30 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 59 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 117 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 126 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 34 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 135 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 146 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 160 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 44 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 176 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 98 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 195 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 110 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 219 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 126 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 251 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 146 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 292 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 176 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 351 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 71 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 19 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 39 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 77 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 80 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 84 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 22 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 44 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 47 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 93 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 98 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 26 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 52 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 103 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 110 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 30 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 59 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 117 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 126 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 34 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 135 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 146 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 160 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 44 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 176 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 98 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 195 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 110 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 219 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 126 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 251 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 146 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 292 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 176 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 351 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 71 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 19 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 39 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 77 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 80 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 84 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 22 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 44 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 47 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 93 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 98 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 26 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 52 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 103 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 110 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 30 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 59 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 117 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 126 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 34 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 135 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 146 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 160 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 44 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 176 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 98 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 195 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 110 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 219 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 126 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 251 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 146 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 292 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 176 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 351 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 71 \
+  --patch_stride 71 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 19 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 73 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 39 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 77 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 80 \
+  --patch_stride 80 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 84 \
+  --patch_stride 84 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 22 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 44 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 88 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 47 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 93 \
+  --patch_stride 93 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 25 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 98 \
+  --patch_stride 98 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 26 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 52 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 103 \
+  --patch_stride 103 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 110 \
+  --patch_stride 110 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 30 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 59 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 117 \
+  --patch_stride 117 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 126 \
+  --patch_stride 126 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 34 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 135 \
+  --patch_stride 135 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 37 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 146 \
+  --patch_stride 146 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 40 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 160 \
+  --patch_stride 160 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 44 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 176 \
+  --patch_stride 176 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 49 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 98 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 195 \
+  --patch_stride 195 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 110 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 219 \
+  --patch_stride 219 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 63 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 126 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 251 \
+  --patch_stride 251 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 73 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 146 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 292 \
+  --patch_stride 292 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 88 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 176 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --seq_len 1751 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_EthanolConcentration \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 351 \
+  --patch_stride 351 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+

@@ -75,34 +75,33 @@ if __name__ == '__main__':
 
     ### Add some args for each model
     # Mamba
+    parser.add_argument('--save_log', type=str2bool, default=False, help='whether to save log for MambaSingleLayer')
+    parser.add_argument('--save_csv', type=str2bool, default=False, help='whether to save csv result for MambaSingleLayer')
     parser.add_argument('--expand', type=int, default=2, help='expansion factor for Mamba')
     parser.add_argument('--d_conv', type=int, default=4, help='conv kernel size for Mamba')
     parser.add_argument('--tv_dt', type=int, default=0, help='whether to use time variant dt for Mamba')
     parser.add_argument('--tv_B', type=int, default=0, help='whether to use time variant B for Mamba')
     parser.add_argument('--tv_C', type=int, default=0, help='whether to use time variant C for Mamba')
+    parser.add_argument('--use_D', type=int, default=0, help='whether to use D for Mamba')
+    parser.add_argument('--mamba_projection_type', type=str, default='average', 
+                        help='select projection/aggregation method for Mamba ablation study, options: [last, average, gating, flatten]')
     
     # DLinear
     parser.add_argument('--individual', type=str2bool, default=False, help='DLinear: a linear layer for each variate(channel) individually')
+    # +) moving_avg
 
     # LightTS
     parser.add_argument('--chunk_size', type=int, default=24, help='subsequence size for LightTS')
+    # +) d_model
 
     # MTSMixer
     parser.add_argument('--fac_T', type=str2bool, default=False, help='whether to apply factorized temporal interaction')
     parser.add_argument('--fac_C', type=str2bool, default=False, help='whether to apply factorized channel interaction')
     parser.add_argument('--use_revin', type=str2bool, default=False, help='whether to apply RevIN')
-    # +) use_norm, down_sampling_window, individual
-    
-    # PatchTST
-    parser.add_argument('--patch_size', type=int, default=16, help='the patch size')
-    parser.add_argument('--patch_stride', type=int, default=8, help='the patch stride')
+    # +) e_layers, d_model, d_ff, use_norm, down_sampling_window, individual
 
-    # Crossformer
-    parser.add_argument('--seg_len_cf', type=int, default=12, help='the length of segment for Crossformer')
-
-    # GPT4TS (One-fits-all)
-    parser.add_argument('--huggingface_cache_dir', type=str, default='./huggingface', help='huggingface cache directory for GPT2')
-    # +) d_model, e_layer, d_ff, patch_size, patch_stride
+    # TimesNet
+    # +) e_layers, d_model, d_ff, num_kernels, top_k
 
     # ModernTCN
     parser.add_argument('--stem_ratio', type=int, default=6, help='stem ratio')
@@ -126,6 +125,29 @@ if __name__ == '__main__':
     parser.add_argument('--channel_mixing', type=int, default=1,
                         help='0: channel mixing 1: whether to use channel_mixing')
     parser.add_argument('--output_attention', type=str2bool, default=False, help='whether to output attention in ecoder')
+    # +) e_layers, d_model, d_ff, n_heads, top_k, down_sampling_method, down_sampling_layers, down_sampling_window, ...
+    
+    # FEDformer
+    # +) e_layers, d_model, d_ff, n_heads, moving_avg
+
+    # ETSformer
+    # +) e_layers, d_model, d_ff, n_heads, top_k
+
+    # Crossformer
+    parser.add_argument('--seg_len_cf', type=int, default=12, help='the length of segment for Crossformer')
+    # +) e_layers, d_model, d_ff, n_heads, factor
+
+    # PatchTST
+    parser.add_argument('--patch_size', type=int, default=16, help='the patch size')
+    parser.add_argument('--patch_stride', type=int, default=8, help='the patch stride')
+    # +) e_layers, d_model, d_ff, n_heads
+
+    # GPT4TS (One-fits-all)
+    parser.add_argument('--huggingface_cache_dir', type=str, default='./huggingface', help='huggingface cache directory for GPT2')
+    # +) d_model, e_layer, d_ff, patch_size, patch_stride
+
+    # iTransformer
+    # +) e_layer, d_model, d_ff, n_head, factor
 
     # InterpretGN
     parser.add_argument('--dnn_type', type=str, default='FCN', choices=['FCN', 'Transformer', 'TimesNet', 'PatchTST', 'ResNet'])
@@ -139,7 +161,6 @@ if __name__ == '__main__':
     parser.add_argument("--gating_value", type=float, default=None)
 
     # TSCMamba
-    # +) d_model(=projected_space), patch_size, e_layers(=num_mambas), d_conv, expand(=e_fact), d_ff(=d_state), 
     parser.add_argument('--variation',type=int,default=64,help='variation in CWT')
     parser.add_argument('--wavelet_name',type=str,default='morl',help='Wavelet Name')
     parser.add_argument('--rescale_size',type=int,default=64,help='Rescale size after WT')
@@ -152,6 +173,8 @@ if __name__ == '__main__':
     parser.add_argument('--flip_dir',type=int,default=2,help='Flip Direction')
     parser.add_argument('--reverse_flip',type=int,default=0,help='reverse scan with flipped addition')
     parser.add_argument('--max_pooling',type=int,default=0,help='avg pooling or max pooling')
+    # +) d_model(=projected_space), patch_size, e_layers(=num_mambas), d_conv, expand(=e_fact), d_ff(=d_state), 
+
 
 
     # optimization
@@ -166,6 +189,7 @@ if __name__ == '__main__':
     parser.add_argument('--loss', type=str, default='MSE', help='loss function')
     parser.add_argument('--lradj', type=str, default='type1', help='adjust learning rate')
     parser.add_argument('--use_amp', action='store_true', help='use automatic mixed precision training', default=False)
+    parser.add_argument('--use_pretrained', type=str2bool, default=False, help='use pretrained model')
 
     # GPU
     parser.add_argument('--use_gpu', type=bool, default=True, help='use gpu')
@@ -250,18 +274,18 @@ if __name__ == '__main__':
     print('Args in experiment:')
     print_args(args)
 
-    if args.task_name == 'long_term_forecast':
-        Exp = Exp_Long_Term_Forecast
-    elif args.task_name == 'short_term_forecast':
-        Exp = Exp_Short_Term_Forecast
-    elif args.task_name == 'imputation':
-        Exp = Exp_Imputation
-    elif args.task_name == 'anomaly_detection':
-        Exp = Exp_Anomaly_Detection
-    elif args.task_name == 'classification':
+    if args.task_name == 'classification':
         Exp = Exp_Classification
+    # elif args.task_name == 'long_term_forecast':
+    #     Exp = Exp_Long_Term_Forecast
+    # elif args.task_name == 'short_term_forecast':
+    #     Exp = Exp_Short_Term_Forecast
+    # elif args.task_name == 'imputation':
+    #     Exp = Exp_Imputation
+    # elif args.task_name == 'anomaly_detection':
+    #     Exp = Exp_Anomaly_Detection
     else:
-        Exp = Exp_Long_Term_Forecast
+        raise ValueError('This repository is basically for time series classification tasks.')
 
     if args.is_training:
         for ii in range(args.itr):
@@ -294,6 +318,19 @@ if __name__ == '__main__':
                         + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
                         + f'_el{args.e_layers}_dm{args.d_model}_df{args.d_ff}_nk{args.num_kernels}_tk{args.top_k}' \
                         + f'_{args.des}_{ii}'
+            elif args.model == 'ModernTCN':
+                setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
+                        + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_dim{'-'.join([str(i) for i in args.dims])}' \
+                        + f'_nb{'-'.join([str(i) for i in args.num_blocks])}_lk{'-'.join([str(i) for i in args.large_size])}_sk{'-'.join([str(i) for i in args.small_size])}' \
+                        + f'_ffr{args.ffn_ratio}_ps{args.patch_size}_str{args.patch_stride}_multi{args.use_multi_scale}' \
+                        + f'_merged{args.small_kernel_merged}_{args.des}_{ii}'
+            elif args.model == 'TimeMixerPP':
+                setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
+                        + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
+                        + f'_el{args.e_layers}_dm{args.d_model}_nh{args.n_heads}_df{args.d_ff}' \
+                        + f'_{args.down_sampling_method}{args.down_sampling_layers}-{args.down_sampling_window}' \
+                        + f'_cm{args.channel_mixing}_ci{args.channel_independence}_oa{args.output_attention}_nk{args.num_kernels}_tk{args.top_k}' \
+                        + f'_{args.des}_{ii}'
             elif args.model == 'ETSformer':
                 setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                         + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
@@ -319,19 +356,11 @@ if __name__ == '__main__':
                         + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
                         + f'_el{args.e_layers}_dm{args.d_model}_df{args.d_ff}' \
                         + f'_ps{args.patch_size}_str{args.patch_stride}_{args.des}_{ii}'
-            elif args.model == 'ModernTCN':
-                setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
-                        + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_dim{'-'.join([str(i) for i in args.dims])}' \
-                        + f'_nb{'-'.join([str(i) for i in args.num_blocks])}_lk{'-'.join([str(i) for i in args.large_size])}_sk{'-'.join([str(i) for i in args.small_size])}' \
-                        + f'_ffr{args.ffn_ratio}_ps{args.patch_size}_str{args.patch_stride}_multi{args.use_multi_scale}' \
-                        + f'_merged{args.small_kernel_merged}_{args.des}_{ii}'
-            elif args.model == 'TimeMixerPP':
+            elif args.model == 'iTransformer':
                 setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                         + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
                         + f'_el{args.e_layers}_dm{args.d_model}_nh{args.n_heads}_df{args.d_ff}' \
-                        + f'_{args.down_sampling_method}{args.down_sampling_layers}-{args.down_sampling_window}' \
-                        + f'_cm{args.channel_mixing}_ci{args.channel_independence}_oa{args.output_attention}_nk{args.num_kernels}_tk{args.top_k}' \
-                        + f'_{args.des}_{ii}'
+                        + f'_fac{args.factor}_{args.des}_{ii}'
             elif args.model == 'InterpretGN':
                 setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                         + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
@@ -408,6 +437,19 @@ if __name__ == '__main__':
                     + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
                     + f'_el{args.e_layers}_dm{args.d_model}_df{args.d_ff}_nk{args.num_kernels}_tk{args.top_k}' \
                     + f'_{args.des}_{ii}'
+        elif args.model == 'ModernTCN':
+            setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
+                    + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_dim{'-'.join([str(i) for i in args.dims])}' \
+                    + f'_nb{'-'.join([str(i) for i in args.num_blocks])}_lk{'-'.join([str(i) for i in args.large_size])}_sk{'-'.join([str(i) for i in args.small_size])}' \
+                    + f'_ffr{args.ffn_ratio}_ps{args.patch_size}_str{args.patch_stride}_multi{args.use_multi_scale}' \
+                    + f'_merged{args.small_kernel_merged}_{args.des}_{ii}'
+        elif args.model == 'TimeMixerPP':
+            setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
+                    + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
+                    + f'_el{args.e_layers}_dm{args.d_model}_nh{args.n_heads}_df{args.d_ff}' \
+                    + f'_{args.down_sampling_method}{args.down_sampling_layers}-{args.down_sampling_window}' \
+                    + f'_cm{args.channel_mixing}_ci{args.channel_independence}_oa{args.output_attention}_nk{args.num_kernels}_tk{args.top_k}' \
+                    + f'_{args.des}_{ii}'
         elif args.model == 'ETSformer':
             setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                     + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
@@ -433,19 +475,11 @@ if __name__ == '__main__':
                     + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
                     + f'_el{args.e_layers}_dm{args.d_model}_df{args.d_ff}' \
                     + f'_ps{args.patch_size}_str{args.patch_stride}_{args.des}_{ii}'
-        elif args.model == 'ModernTCN':
-            setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
-                    + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_dim{'-'.join([str(i) for i in args.dims])}' \
-                    + f'_nb{'-'.join([str(i) for i in args.num_blocks])}_lk{'-'.join([str(i) for i in args.large_size])}_sk{'-'.join([str(i) for i in args.small_size])}' \
-                    + f'_ffr{args.ffn_ratio}_ps{args.patch_size}_str{args.patch_stride}_multi{args.use_multi_scale}' \
-                    + f'_merged{args.small_kernel_merged}_{args.des}_{ii}'
-        elif args.model == 'TimeMixerPP':
+        elif args.model == 'iTransformer':
             setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                     + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
                     + f'_el{args.e_layers}_dm{args.d_model}_nh{args.n_heads}_df{args.d_ff}' \
-                    + f'_{args.down_sampling_method}{args.down_sampling_layers}-{args.down_sampling_window}' \
-                    + f'_cm{args.channel_mixing}_ci{args.channel_independence}_oa{args.output_attention}_nk{args.num_kernels}_tk{args.top_k}' \
-                    + f'_{args.des}_{ii}'
+                    + f'_fac{args.factor}_{args.des}_{ii}'
         elif args.model == 'InterpretGN':
             setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                     + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \

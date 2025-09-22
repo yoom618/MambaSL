@@ -1,0 +1,7560 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 47 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 26 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 51 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 61 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 17 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 68 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 72 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 39 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 77 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 83 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 89 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 96 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 116 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 72 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 144 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 83 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 165 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 96 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 192 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 116 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 6 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 231 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 47 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 26 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 51 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 61 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 17 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 68 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 72 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 39 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 77 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 83 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 89 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 96 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 116 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 72 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 144 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 83 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 165 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 96 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 192 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 116 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 5 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 231 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 47 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 26 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 51 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 61 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 17 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 68 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 72 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 39 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 77 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 83 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 89 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 96 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 116 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 72 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 144 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 83 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 165 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 96 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 192 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 116 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 4 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 231 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 47 \
+  --patch_stride 47 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 48 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 13 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 26 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 51 \
+  --patch_stride 51 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 53 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 14 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 28 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 55 \
+  --patch_stride 55 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 58 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 61 \
+  --patch_stride 61 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 64 \
+  --patch_stride 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 17 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 68 \
+  --patch_stride 68 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 18 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 72 \
+  --patch_stride 72 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 20 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 39 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 77 \
+  --patch_stride 77 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 21 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 83 \
+  --patch_stride 83 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 23 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 45 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 89 \
+  --patch_stride 89 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 24 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 96 \
+  --patch_stride 96 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 27 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 53 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 105 \
+  --patch_stride 105 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 29 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 116 \
+  --patch_stride 116 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 128 \
+  --patch_stride 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 36 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 72 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 144 \
+  --patch_stride 144 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 42 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 83 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 165 \
+  --patch_stride 165 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 48 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 96 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 192 \
+  --patch_stride 192 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 58 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 116 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --model GPT4TS \
+  --model_id CLS_SelfRegulationSCP2 \
+  --e_layers 3 \
+  --d_model 768 \
+  --d_ff 768 \
+  --patch_size 231 \
+  --patch_stride 231 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+

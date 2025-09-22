@@ -1,0 +1,1008 @@
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_59_52  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5055555701255798, 'val': 0.574999988079071}, mf1:{'test': 0.37939611077308655, 'val': 0.43458646535873413}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_03_59  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4833333194255829, 'val': 0.4749999940395355}, mf1:{'test': 0.33514440059661865, 'val': 0.26476189494132996}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_06_12  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5611110925674438, 'val': 0.5249999761581421}, mf1:{'test': 0.4598503112792969, 'val': 0.40740737318992615}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_08_26  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.5}, mf1:{'test': 0.3596072196960449, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_10_45  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5222222208976746, 'val': 0.550000011920929}, mf1:{'test': 0.48730045557022095, 'val': 0.3525083661079407}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_13_32  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.5249999761581421}, mf1:{'test': 0.45533403754234314, 'val': 0.3893040418624878}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_15_48  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5222222208976746, 'val': 0.4749999940395355}, mf1:{'test': 0.41191720962524414, 'val': 0.27982571721076965}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_17_56  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5444444417953491, 'val': 0.6499999761581421}, mf1:{'test': 0.5214039087295532, 'val': 0.4532400965690613}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_20_16  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5277777910232544, 'val': 0.4749999940395355}, mf1:{'test': 0.4750242829322815, 'val': 0.3142857253551483}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_22_06  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5722222328186035, 'val': 0.4749999940395355}, mf1:{'test': 0.5306004285812378, 'val': 0.27982571721076965}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_23_58  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_26_00  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5222222208976746, 'val': 0.6000000238418579}, mf1:{'test': 0.49527692794799805, 'val': 0.45286402106285095}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_27_52  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5722222328186035, 'val': 0.375}, mf1:{'test': 0.5174431800842285, 'val': 0.25470083951950073}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_29_55  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5444444417953491, 'val': 0.550000011920929}, mf1:{'test': 0.4644593894481659, 'val': 0.4261208474636078}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_31_43  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5555555820465088, 'val': 0.625}, mf1:{'test': 0.5187603235244751, 'val': 0.46909087896347046}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_33_38  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_35_17  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5166666507720947, 'val': 0.5}, mf1:{'test': 0.3918894827365875, 'val': 0.3527601957321167}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_36_48  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5388888716697693, 'val': 0.42500001192092896}, mf1:{'test': 0.45017942786216736, 'val': 0.24717947840690613}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_38_16  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5444444417953491, 'val': 0.5}, mf1:{'test': 0.46061334013938904, 'val': 0.4406723082065582}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_39_53  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5}, mf1:{'test': 0.5053407549858093, 'val': 0.36654457449913025}
+
+SelfRegulationSCP2_dim256_depth3_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_41_34  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4333333373069763, 'val': 0.4749999940395355}, mf1:{'test': 0.41665852069854736, 'val': 0.3529629707336426}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_43_13  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.3355660140514374, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_44_48  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3282248377799988, 'val': 0.48000001907348633}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_46_13  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5055555701255798, 'val': 0.5249999761581421}, mf1:{'test': 0.42273810505867004, 'val': 0.387936532497406}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_47_33  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.5249999761581421}, mf1:{'test': 0.3518199622631073, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_48_52  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.47777777910232544, 'val': 0.574999988079071}, mf1:{'test': 0.4452432096004486, 'val': 0.42787879705429077}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_50_17  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_51_38  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.49444442987442017, 'val': 0.5249999761581421}, mf1:{'test': 0.34499672055244446, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_53_01  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4555555582046509, 'val': 0.574999988079071}, mf1:{'test': 0.4421754479408264, 'val': 0.4412698745727539}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_54_29  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.5249999761581421}, mf1:{'test': 0.37498804926872253, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_55_50  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4722222089767456, 'val': 0.574999988079071}, mf1:{'test': 0.4031597673892975, 'val': 0.3562704026699066}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_57_08  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4888888895511627, 'val': 0.625}, mf1:{'test': 0.41841137409210205, 'val': 0.4850909113883972}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_58_27  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.550000011920929, 'val': 0.574999988079071}, mf1:{'test': 0.5280846953392029, 'val': 0.3590724766254425}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_59_47  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5166666507720947, 'val': 0.5249999761581421}, mf1:{'test': 0.43189480900764465, 'val': 0.32030075788497925}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_01_04  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.574999988079071}, mf1:{'test': 0.38906872272491455, 'val': 0.43458646535873413}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_02_20  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5166666507720947, 'val': 0.550000011920929}, mf1:{'test': 0.38820940256118774, 'val': 0.4813072085380554}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_03_46  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.625}, mf1:{'test': 0.4615285098552704, 'val': 0.5112727284431458}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_05_03  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4833333194255829, 'val': 0.550000011920929}, mf1:{'test': 0.3832876980304718, 'val': 0.3676660358905792}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_06_25  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4555555582046509, 'val': 0.5}, mf1:{'test': 0.39595431089401245, 'val': 0.29670628905296326}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_07_40  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.33826786279678345, 'val': 0.38649237155914307}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_08_59  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5277777910232544, 'val': 0.5}, mf1:{'test': 0.40893152356147766, 'val': 0.38649237155914307}
+
+SelfRegulationSCP2_dim128_depth3_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_10_20  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5388888716697693, 'val': 0.5249999761581421}, mf1:{'test': 0.4236290752887726, 'val': 0.4594268798828125}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_11_43  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.550000011920929}, mf1:{'test': 0.3765326142311096, 'val': 0.5179487466812134}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_13_05  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5611110925674438, 'val': 0.5249999761581421}, mf1:{'test': 0.5406373739242554, 'val': 0.34400004148483276}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_14_26  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3355660140514374, 'val': 0.2882913053035736}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_15_42  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5277777910232544, 'val': 0.550000011920929}, mf1:{'test': 0.40850165486335754, 'val': 0.4813072085380554}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_16_58  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.550000011920929}, mf1:{'test': 0.3769737780094147, 'val': 0.41587305068969727}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_18_13  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.47777777910232544, 'val': 0.550000011920929}, mf1:{'test': 0.4533427059650421, 'val': 0.35746997594833374}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_19_29  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5611110925674438, 'val': 0.4749999940395355}, mf1:{'test': 0.5104647874832153, 'val': 0.316161185503006}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_20_50  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.6000000238418579}, mf1:{'test': 0.4829084575176239, 'val': 0.5090909004211426}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_22_08  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_23_24  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.4749999940395355}, mf1:{'test': 0.36522406339645386, 'val': 0.2735483944416046}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_24_33  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.550000011920929}, mf1:{'test': 0.36045488715171814, 'val': 0.41587305068969727}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_25_50  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_27_05  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5611110925674438, 'val': 0.6000000238418579}, mf1:{'test': 0.4823131561279297, 'val': 0.43111109733581543}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_28_18  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4722222089767456, 'val': 0.44999998807907104}, mf1:{'test': 0.3892974555492401, 'val': 0.3174603283405304}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_29_31  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.4749999940395355}, mf1:{'test': 0.44020360708236694, 'val': 0.3340056240558624}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_30_44  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.49444442987442017, 'val': 0.5}, mf1:{'test': 0.33963873982429504, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_32_01  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5388888716697693, 'val': 0.550000011920929}, mf1:{'test': 0.4332277178764343, 'val': 0.4813072085380554}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_33_17  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4444444477558136, 'val': 0.4749999940395355}, mf1:{'test': 0.4297003746032715, 'val': 0.30039218068122864}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_34_38  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5055555701255798, 'val': 0.4749999940395355}, mf1:{'test': 0.33309614658355713, 'val': 0.3629629611968994}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_35_52  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5166666507720947, 'val': 0.5249999761581421}, mf1:{'test': 0.3694092631340027, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim64_depth3_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_37_09  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4833333194255829, 'val': 0.5249999761581421}, mf1:{'test': 0.39725494384765625, 'val': 0.33075037598609924}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_38_24  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.5}, mf1:{'test': 0.4172348380088806, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_39_38  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5388888716697693, 'val': 0.550000011920929}, mf1:{'test': 0.4586988687515259, 'val': 0.41587305068969727}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_40_50  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.43888887763023376, 'val': 0.550000011920929}, mf1:{'test': 0.378825843334198, 'val': 0.37666669487953186}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_42_02  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5277777910232544, 'val': 0.5249999761581421}, mf1:{'test': 0.40206655859947205, 'val': 0.4615873396396637}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_43_18  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5055555701255798, 'val': 0.574999988079071}, mf1:{'test': 0.37939611077308655, 'val': 0.3515343964099884}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_44_31  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4888888895511627, 'val': 0.4749999940395355}, mf1:{'test': 0.37302330136299133, 'val': 0.2735483944416046}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_45_40  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5055555701255798, 'val': 0.5249999761581421}, mf1:{'test': 0.3728000223636627, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_46_50  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4888888895511627, 'val': 0.550000011920929}, mf1:{'test': 0.417772501707077, 'val': 0.3424175977706909}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_48_01  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5055555701255798, 'val': 0.5249999761581421}, mf1:{'test': 0.38210979104042053, 'val': 0.45777779817581177}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_49_18  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4888888895511627, 'val': 0.5249999761581421}, mf1:{'test': 0.34114938974380493, 'val': 0.40740737318992615}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_50_28  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3282248377799988, 'val': 0.48000001907348633}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_51_42  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5277777910232544, 'val': 0.550000011920929}, mf1:{'test': 0.46912944316864014, 'val': 0.5138151049613953}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_52_56  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.4749999940395355}, mf1:{'test': 0.3786388039588928, 'val': 0.3629629611968994}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_54_08  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.47777777910232544, 'val': 0.574999988079071}, mf1:{'test': 0.3860187530517578, 'val': 0.3935483992099762}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_55_21  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5111111402511597, 'val': 0.5249999761581421}, mf1:{'test': 0.4210597574710846, 'val': 0.40740737318992615}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_56_36  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4166666567325592, 'val': 0.5249999761581421}, mf1:{'test': 0.3631702959537506, 'val': 0.31354838609695435}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_57_46  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3282248377799988, 'val': 0.48000001907348633}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_58_56  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_00_09  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.39849671721458435, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_01_20  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.5}, mf1:{'test': 0.3969312012195587, 'val': 0.3085281252861023}
+
+SelfRegulationSCP2_dim32_depth3_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_02_29  
+TSLANet_SelfRegulationSCP2_l_3  
+acc:{'test': 0.4888888895511627, 'val': 0.4749999940395355}, mf1:{'test': 0.3536338806152344, 'val': 0.26476189494132996}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_03_36  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.35758641362190247, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_04_57  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5388888716697693, 'val': 0.574999988079071}, mf1:{'test': 0.5135887861251831, 'val': 0.41638097167015076}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_06_14  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_07_32  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5166666507720947, 'val': 0.625}, mf1:{'test': 0.4938044250011444, 'val': 0.4353439211845398}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_08_48  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4277777671813965, 'val': 0.4749999940395355}, mf1:{'test': 0.4126890003681183, 'val': 0.3444955348968506}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_10_04  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.5249999761581421}, mf1:{'test': 0.36445245146751404, 'val': 0.45777779817581177}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_11_20  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4722222089767456, 'val': 0.550000011920929}, mf1:{'test': 0.37894460558891296, 'val': 0.537202000617981}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_12_35  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5166666507720947, 'val': 0.574999988079071}, mf1:{'test': 0.49479714035987854, 'val': 0.39698702096939087}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_13_52  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.550000011920929}, mf1:{'test': 0.4757383465766907, 'val': 0.40758976340293884}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_15_04  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.5}, mf1:{'test': 0.3406382203102112, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_16_16  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_17_33  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5222222208976746, 'val': 0.6499999761581421}, mf1:{'test': 0.478728324174881, 'val': 0.5757575631141663}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_18_47  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5166666507720947, 'val': 0.4749999940395355}, mf1:{'test': 0.38555896282196045, 'val': 0.28067225217819214}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_20_00  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5166666507720947, 'val': 0.5249999761581421}, mf1:{'test': 0.3888704478740692, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_21_10  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_22_21  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_23_27  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4833333194255829, 'val': 0.5}, mf1:{'test': 0.44693753123283386, 'val': 0.3770580291748047}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_24_36  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.550000011920929}, mf1:{'test': 0.41172298789024353, 'val': 0.39047619700431824}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_25_43  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4888888895511627, 'val': 0.5}, mf1:{'test': 0.35255181789398193, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_26_54  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5666666626930237, 'val': 0.574999988079071}, mf1:{'test': 0.48392367362976074, 'val': 0.4057142734527588}
+
+SelfRegulationSCP2_dim256_depth2_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_28_04  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5444444417953491, 'val': 0.574999988079071}, mf1:{'test': 0.49512460827827454, 'val': 0.44677695631980896}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_29_14  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5222222208976746, 'val': 0.5249999761581421}, mf1:{'test': 0.43563392758369446, 'val': 0.32030075788497925}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_30_27  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.47777777910232544, 'val': 0.625}, mf1:{'test': 0.4623291790485382, 'val': 0.4562237858772278}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_31_39  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5611110925674438, 'val': 0.6000000238418579}, mf1:{'test': 0.5143473148345947, 'val': 0.42459625005722046}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_32_47  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4555555582046509, 'val': 0.574999988079071}, mf1:{'test': 0.39875712990760803, 'val': 0.5345454812049866}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_33_52  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5277777910232544, 'val': 0.5249999761581421}, mf1:{'test': 0.385940283536911, 'val': 0.45777779817581177}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_34_58  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5444444417953491, 'val': 0.675000011920929}, mf1:{'test': 0.5194215178489685, 'val': 0.5254021286964417}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_36_09  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4722222089767456, 'val': 0.44999998807907104}, mf1:{'test': 0.4212256073951721, 'val': 0.2567062973976135}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_37_11  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5111111402511597, 'val': 0.5}, mf1:{'test': 0.43179401755332947, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_38_16  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4888888895511627, 'val': 0.4749999940395355}, mf1:{'test': 0.3887084126472473, 'val': 0.3884444534778595}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_39_20  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.5}, mf1:{'test': 0.3377540409564972, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_24  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5666666626930237, 'val': 0.574999988079071}, mf1:{'test': 0.5394116044044495, 'val': 0.4339820444583893}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_41_28  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.3305196464061737, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_42_32  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5222222208976746, 'val': 0.625}, mf1:{'test': 0.44849252700805664, 'val': 0.5262337923049927}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_43_37  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.550000011920929, 'val': 0.4749999940395355}, mf1:{'test': 0.4522784352302551, 'val': 0.35692307353019714}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_44_39  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5666666626930237, 'val': 0.5}, mf1:{'test': 0.5141096115112305, 'val': 0.39682537317276}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_45_48  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.3480847179889679, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_46_49  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.47777777910232544, 'val': 0.625}, mf1:{'test': 0.4354419410228729, 'val': 0.37803542613983154}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_47_56  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.44999998807907104}, mf1:{'test': 0.5075436234474182, 'val': 0.3390551507472992}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_49_08  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5388888716697693, 'val': 0.6000000238418579}, mf1:{'test': 0.5181402564048767, 'val': 0.4205128252506256}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_50_13  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5277777910232544, 'val': 0.44999998807907104}, mf1:{'test': 0.5025385618209839, 'val': 0.28261440992355347}
+
+SelfRegulationSCP2_dim128_depth2_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_51_19  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5611110925674438, 'val': 0.5}, mf1:{'test': 0.48131269216537476, 'val': 0.3118351399898529}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_52_26  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.3757734000682831, 'val': 0.40740737318992615}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_53_30  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4722222089767456, 'val': 0.550000011920929}, mf1:{'test': 0.45775604248046875, 'val': 0.3725988268852234}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_54_32  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.574999988079071}, mf1:{'test': 0.4832814633846283, 'val': 0.43571096658706665}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_55_38  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.625}, mf1:{'test': 0.46322953701019287, 'val': 0.4850909113883972}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_56_40  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.5}, mf1:{'test': 0.3592848777770996, 'val': 0.48000001907348633}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_45  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.49444442987442017, 'val': 0.4749999940395355}, mf1:{'test': 0.4037805199623108, 'val': 0.2888889014720917}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_58_50  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.550000011920929}, mf1:{'test': 0.3999806344509125, 'val': 0.537202000617981}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_59_56  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.574999988079071}, mf1:{'test': 0.3718539774417877, 'val': 0.3447619080543518}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_00_55  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5111111402511597, 'val': 0.550000011920929}, mf1:{'test': 0.4172348380088806, 'val': 0.4813072085380554}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_02_00  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4444444477558136, 'val': 0.6499999761581421}, mf1:{'test': 0.39048856496810913, 'val': 0.4438095688819885}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_03_05  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5277777910232544, 'val': 0.4749999940395355}, mf1:{'test': 0.38975685834884644, 'val': 0.26476189494132996}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_04_19  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.574999988079071}, mf1:{'test': 0.3911505937576294, 'val': 0.5549797415733337}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_05_19  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5166666507720947, 'val': 0.574999988079071}, mf1:{'test': 0.4117002785205841, 'val': 0.3447619080543518}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_06_25  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.44999998807907104, 'val': 0.6000000238418579}, mf1:{'test': 0.3974094092845917, 'val': 0.5900000333786011}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_07_27  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4277777671813965, 'val': 0.4749999940395355}, mf1:{'test': 0.39035141468048096, 'val': 0.33968254923820496}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_08_28  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.39849671721458435, 'val': 0.38649237155914307}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_09_35  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5277777910232544, 'val': 0.5}, mf1:{'test': 0.4924669563770294, 'val': 0.36571428179740906}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_10_41  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5222222208976746, 'val': 0.5249999761581421}, mf1:{'test': 0.43327292799949646, 'val': 0.40740737318992615}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_11_53  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3265892565250397, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_12_59  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.550000011920929}, mf1:{'test': 0.41754645109176636, 'val': 0.5200000405311584}
+
+SelfRegulationSCP2_dim64_depth2_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_14_03  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.550000011920929, 'val': 0.625}, mf1:{'test': 0.5173091292381287, 'val': 0.4894929826259613}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_15_09  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.49444442987442017, 'val': 0.5249999761581421}, mf1:{'test': 0.37560781836509705, 'val': 0.5239216089248657}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_16_14  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5166666507720947, 'val': 0.5249999761581421}, mf1:{'test': 0.4834807813167572, 'val': 0.4171689450740814}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_17_27  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4888888895511627, 'val': 0.550000011920929}, mf1:{'test': 0.4672086536884308, 'val': 0.38819581270217896}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_18_28  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.550000011920929, 'val': 0.550000011920929}, mf1:{'test': 0.48785480856895447, 'val': 0.3279198110103607}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_19_28  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.4749999940395355}, mf1:{'test': 0.37534263730049133, 'val': 0.46315789222717285}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_20_29  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.5249999761581421}, mf1:{'test': 0.39075276255607605, 'val': 0.45777779817581177}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_21_27  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.550000011920929, 'val': 0.5249999761581421}, mf1:{'test': 0.5119562149047852, 'val': 0.48861247301101685}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_22_32  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.3979472219944, 'val': 0.5149797201156616}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_23_32  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4833333194255829, 'val': 0.550000011920929}, mf1:{'test': 0.38986676931381226, 'val': 0.5461438298225403}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_24_32  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.4840630292892456, 'val': 0.4052170217037201}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_25_39  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.550000011920929}, mf1:{'test': 0.37847667932510376, 'val': 0.4015325605869293}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_26_41  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.550000011920929, 'val': 0.4749999940395355}, mf1:{'test': 0.45772624015808105, 'val': 0.37591034173965454}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_27_42  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.550000011920929}, mf1:{'test': 0.3999958038330078, 'val': 0.4261208474636078}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_28_45  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3589959144592285, 'val': 0.48000001907348633}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_29_52  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4888888895511627, 'val': 0.550000011920929}, mf1:{'test': 0.3917480409145355, 'val': 0.5352381467819214}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_31_07  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4555555582046509, 'val': 0.5}, mf1:{'test': 0.37863969802856445, 'val': 0.2957706153392792}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_32_18  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5055555701255798, 'val': 0.4749999940395355}, mf1:{'test': 0.4086153209209442, 'val': 0.27982571721076965}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_33_26  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.4722222089767456, 'val': 0.550000011920929}, mf1:{'test': 0.3823246955871582, 'val': 0.35619187355041504}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_34_32  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.44999998807907104, 'val': 0.44999998807907104}, mf1:{'test': 0.38071614503860474, 'val': 0.2914285957813263}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_35_35  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.5111111402511597, 'val': 0.5249999761581421}, mf1:{'test': 0.4172348380088806, 'val': 0.3194541931152344}
+
+SelfRegulationSCP2_dim32_depth2_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_36_43  
+TSLANet_SelfRegulationSCP2_l_2  
+acc:{'test': 0.49444442987442017, 'val': 0.5249999761581421}, mf1:{'test': 0.395370751619339, 'val': 0.31354838609695435}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_37_41  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.3692774772644043, 'val': 0.4615873396396637}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_38_47  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5111111402511597, 'val': 0.550000011920929}, mf1:{'test': 0.42588475346565247, 'val': 0.33629629015922546}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_39_49  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5111111402511597, 'val': 0.5}, mf1:{'test': 0.4160269498825073, 'val': 0.3660561740398407}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_40_52  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5388888716697693, 'val': 0.5}, mf1:{'test': 0.43872952461242676, 'val': 0.38649237155914307}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_41_54  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5555555820465088, 'val': 0.6000000238418579}, mf1:{'test': 0.49762848019599915, 'val': 0.37371429800987244}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_42_54  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.47777777910232544, 'val': 0.5}, mf1:{'test': 0.4275428056716919, 'val': 0.38194578886032104}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_44_03  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5055555701255798, 'val': 0.44999998807907104}, mf1:{'test': 0.43935322761535645, 'val': 0.34547966718673706}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_45_03  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.4555555582046509, 'val': 0.5249999761581421}, mf1:{'test': 0.384155809879303, 'val': 0.3588889241218567}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_46_00  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.49444442987442017, 'val': 0.375}, mf1:{'test': 0.4288650453090668, 'val': 0.29014381766319275}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_47_04  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.49444442987442017, 'val': 0.5249999761581421}, mf1:{'test': 0.37479299306869507, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_48_08  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.49444442987442017, 'val': 0.6000000238418579}, mf1:{'test': 0.4758639931678772, 'val': 0.42009463906288147}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_49_02  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5055555701255798, 'val': 0.44999998807907104}, mf1:{'test': 0.3787387013435364, 'val': 0.2666666805744171}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_50_06  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5166666507720947, 'val': 0.5249999761581421}, mf1:{'test': 0.3818697929382324, 'val': 0.40740737318992615}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_51_02  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.550000011920929, 'val': 0.550000011920929}, mf1:{'test': 0.5180253982543945, 'val': 0.4401276111602783}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_52_05  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5444444417953491, 'val': 0.550000011920929}, mf1:{'test': 0.46670272946357727, 'val': 0.3923886716365814}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_53_01  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5111111402511597, 'val': 0.6000000238418579}, mf1:{'test': 0.45422592759132385, 'val': 0.4614718556404114}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_53_54  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5555555820465088, 'val': 0.5}, mf1:{'test': 0.44057151675224304, 'val': 0.38649237155914307}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_54_49  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.49444442987442017, 'val': 0.4749999940395355}, mf1:{'test': 0.4180241525173187, 'val': 0.32545414566993713}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_55_43  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.4833333194255829, 'val': 0.5}, mf1:{'test': 0.46412500739097595, 'val': 0.3976157307624817}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_56_38  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.49444442987442017, 'val': 0.5}, mf1:{'test': 0.373248428106308, 'val': 0.3110087215900421}
+
+SelfRegulationSCP2_dim256_depth1_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_57_33  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5166666507720947, 'val': 0.4749999940395355}, mf1:{'test': 0.3698691129684448, 'val': 0.3629629611968994}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_58_29  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5277777910232544, 'val': 0.574999988079071}, mf1:{'test': 0.5022211074829102, 'val': 0.456277072429657}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_59_17  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.33807867765426636, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_00_12  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.4749999940395355}, mf1:{'test': 0.4473087787628174, 'val': 0.3773755431175232}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_01_05  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5722222328186035, 'val': 0.375}, mf1:{'test': 0.5113362669944763, 'val': 0.2769230902194977}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_01_58  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5111111402511597, 'val': 0.5}, mf1:{'test': 0.3540191054344177, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_02_54  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5277777910232544, 'val': 0.5249999761581421}, mf1:{'test': 0.44943058490753174, 'val': 0.3893040418624878}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_03_49  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5}, mf1:{'test': 0.43565115332603455, 'val': 0.3173333406448364}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_04_45  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.4833333194255829, 'val': 0.6000000238418579}, mf1:{'test': 0.3879000246524811, 'val': 0.6000000238418579}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_05_38  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.41111111640930176, 'val': 0.550000011920929}, mf1:{'test': 0.36723044514656067, 'val': 0.3657706379890442}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_06_28  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5388888716697693, 'val': 0.550000011920929}, mf1:{'test': 0.462162047624588, 'val': 0.4261208474636078}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_07_21  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3859146237373352, 'val': 0.40715789794921875}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_08_12  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5166666507720947, 'val': 0.550000011920929}, mf1:{'test': 0.36348846554756165, 'val': 0.4813072085380554}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_09_02  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5277777910232544, 'val': 0.5}, mf1:{'test': 0.4436146914958954, 'val': 0.3103373944759369}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_09_53  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5722222328186035, 'val': 0.6000000238418579}, mf1:{'test': 0.5089603662490845, 'val': 0.5406487584114075}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_10_41  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.550000011920929, 'val': 0.44999998807907104}, mf1:{'test': 0.49862661957740784, 'val': 0.2939271330833435}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_11_31  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5555555820465088, 'val': 0.44999998807907104}, mf1:{'test': 0.5269444584846497, 'val': 0.36000004410743713}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_12_20  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.49444442987442017, 'val': 0.5}, mf1:{'test': 0.38987720012664795, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_13_10  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5166666507720947, 'val': 0.5249999761581421}, mf1:{'test': 0.37436676025390625, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_14_02  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5111111402511597, 'val': 0.5249999761581421}, mf1:{'test': 0.40476736426353455, 'val': 0.40740737318992615}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_14_53  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.49444442987442017, 'val': 0.5249999761581421}, mf1:{'test': 0.366727739572525, 'val': 0.30920636653900146}
+
+SelfRegulationSCP2_dim128_depth1_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_15_42  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.47777777910232544, 'val': 0.550000011920929}, mf1:{'test': 0.38228750228881836, 'val': 0.537202000617981}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_16_33  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5111111402511597, 'val': 0.5}, mf1:{'test': 0.36714935302734375, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_17_21  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.4749999940395355}, mf1:{'test': 0.4817407727241516, 'val': 0.3557360768318176}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_18_07  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5055555701255798, 'val': 0.574999988079071}, mf1:{'test': 0.40358251333236694, 'val': 0.49905532598495483}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_19_00  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.4833333194255829, 'val': 0.625}, mf1:{'test': 0.40765392780303955, 'val': 0.4989011287689209}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_19_50  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.33488357067108154, 'val': 0.48000001907348633}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_20_40  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5111111402511597, 'val': 0.5}, mf1:{'test': 0.4172348380088806, 'val': 0.2882913053035736}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_21_30  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5666666626930237, 'val': 0.550000011920929}, mf1:{'test': 0.4496418833732605, 'val': 0.4813072085380554}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_22_21  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5444444417953491, 'val': 0.5}, mf1:{'test': 0.4301549196243286, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_23_12  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5277777910232544, 'val': 0.625}, mf1:{'test': 0.4787830710411072, 'val': 0.4433508515357971}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_23_59  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5055555701255798, 'val': 0.4749999940395355}, mf1:{'test': 0.4086153209209442, 'val': 0.3629629611968994}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_24_49  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5111111402511597, 'val': 0.5}, mf1:{'test': 0.36639976501464844, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_25_38  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5666666626930237, 'val': 0.6499999761581421}, mf1:{'test': 0.5196633338928223, 'val': 0.5757575631141663}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_26_22  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.574999988079071}, mf1:{'test': 0.4558762311935425, 'val': 0.4066876471042633}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_27_09  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.4277777671813965, 'val': 0.5}, mf1:{'test': 0.3664408028125763, 'val': 0.2957706153392792}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_27_56  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.3265892565250397, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_28_47  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5249999761581421}, mf1:{'test': 0.34425076842308044, 'val': 0.5022222399711609}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_29_37  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5055555701255798, 'val': 0.5249999761581421}, mf1:{'test': 0.4010731875896454, 'val': 0.3746405243873596}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_30_26  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.392453670501709, 'val': 0.38649237155914307}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_31_15  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.4888888895511627, 'val': 0.550000011920929}, mf1:{'test': 0.38655123114585876, 'val': 0.5200000405311584}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_32_02  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5222222208976746, 'val': 0.574999988079071}, mf1:{'test': 0.44080400466918945, 'val': 0.5022222399711609}
+
+SelfRegulationSCP2_dim64_depth1_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_32_47  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5277777910232544, 'val': 0.4749999940395355}, mf1:{'test': 0.4414002597332001, 'val': 0.28067225217819214}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_33_35  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3282248377799988, 'val': 0.48000001907348633}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch58_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_34_25  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.39801859855651855, 'val': 0.3085281252861023}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch87_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_35_14  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5055555701255798, 'val': 0.5}, mf1:{'test': 0.3377540409564972, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch116_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_36_02  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5666666626930237, 'val': 0.5249999761581421}, mf1:{'test': 0.5262490510940552, 'val': 0.4114685654640198}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch173_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_36_47  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5444444417953491, 'val': 0.6000000238418579}, mf1:{'test': 0.47589293122291565, 'val': 0.5158974528312683}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch231_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_37_33  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.334170401096344, 'val': 0.37142857909202576}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch288_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_38_25  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.4444444477558136, 'val': 0.5}, mf1:{'test': 0.40778130292892456, 'val': 0.36776846647262573}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_39_14  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.37195640802383423, 'val': 0.3085281252861023}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch58_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_40_01  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5166666507720947, 'val': 0.5249999761581421}, mf1:{'test': 0.425854355096817, 'val': 0.45777779817581177}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch87_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_40_50  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5111111402511597, 'val': 0.5249999761581421}, mf1:{'test': 0.4172348380088806, 'val': 0.394957959651947}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch116_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_41_40  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.43888887763023376, 'val': 0.5249999761581421}, mf1:{'test': 0.3977833092212677, 'val': 0.3270588517189026}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch173_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_42_28  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.49444442987442017, 'val': 0.550000011920929}, mf1:{'test': 0.3941705822944641, 'val': 0.537202000617981}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch231_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_43_14  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3282248377799988, 'val': 0.48000001907348633}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch288_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_44_05  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5388888716697693, 'val': 0.5}, mf1:{'test': 0.46750587224960327, 'val': 0.35111111402511597}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_44_53  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.49444442987442017, 'val': 0.5}, mf1:{'test': 0.38987720012664795, 'val': 0.3007407486438751}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch58_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_45_39  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.4722222089767456, 'val': 0.5}, mf1:{'test': 0.3896081745624542, 'val': 0.3534279763698578}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch87_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_46_28  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.3419237434864044, 'val': 0.48000001907348633}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch116_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_47_16  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5, 'val': 0.5}, mf1:{'test': 0.39849671721458435, 'val': 0.38649237155914307}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch173_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_48_04  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.4277777671813965, 'val': 0.5249999761581421}, mf1:{'test': 0.3712577521800995, 'val': 0.34354838728904724}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch231_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_48_54  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5611110925674438, 'val': 0.5249999761581421}, mf1:{'test': 0.49575942754745483, 'val': 0.40190187096595764}
+
+SelfRegulationSCP2_dim32_depth1_mask0.4_patch288_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_49_43  
+TSLANet_SelfRegulationSCP2_l_1  
+acc:{'test': 0.5388888716697693, 'val': 0.5249999761581421}, mf1:{'test': 0.4708685874938965, 'val': 0.45777779817581177}
+

@@ -1,0 +1,1008 @@
+AtrialFibrillation_dim256_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_38_01  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_41_28  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_45_17  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.29333335161209106, 'val': 0.29333335161209106}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_48_32  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.37444445490837097, 'val': 0.37444445490837097}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_52_27  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_56_08  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3400000333786011, 'val': 0.3400000333786011}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_59_56  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4044444262981415, 'val': 0.4044444262981415}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_03_29  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_05_49  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.28333333134651184, 'val': 0.28333333134651184}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_08_07  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_11_05  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.41777774691581726, 'val': 0.41777774691581726}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_14_20  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_17_15  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2966666519641876, 'val': 0.2966666519641876}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_19_51  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4044444262981415, 'val': 0.4044444262981415}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_22_16  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_23_36  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2666666805744171, 'val': 0.2666666805744171}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_25_36  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_27_39  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4099999666213989, 'val': 0.4099999666213989}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_29_41  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.2666666805744171, 'val': 0.2666666805744171}, mf1:{'test': 0.18000000715255737, 'val': 0.18000000715255737}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_31_38  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3633333146572113, 'val': 0.3633333146572113}
+
+AtrialFibrillation_dim256_depth3_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_33_36  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.3333333432674408, 'val': 0.3333333432674408}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_35_18  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_36_49  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2711111009120941, 'val': 0.2711111009120941}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_38_54  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.41333332657814026, 'val': 0.41333332657814026}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_41_12  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.5077778100967407, 'val': 0.5077778100967407}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_43_34  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_45_47  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.4333333373069763, 'val': 0.4333333373069763}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_47_47  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35777777433395386, 'val': 0.35777777433395386}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_50_03  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.25777778029441833, 'val': 0.25777778029441833}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_51_29  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3266666829586029, 'val': 0.3266666829586029}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_53_08  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_54_42  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.30222222208976746, 'val': 0.30222222208976746}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_56_18  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3911111056804657, 'val': 0.3911111056804657}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_57_55  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.37444445490837097, 'val': 0.37444445490837097}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_59_30  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24000000953674316, 'val': 0.24000000953674316}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_01_02  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_02_08  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24666666984558105, 'val': 0.24666666984558105}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_04_01  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_05_42  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.38777777552604675, 'val': 0.38777777552604675}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_07_35  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.25777778029441833, 'val': 0.25777778029441833}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_09_19  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2900000214576721, 'val': 0.2900000214576721}
+
+AtrialFibrillation_dim128_depth3_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_10_53  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3744444251060486, 'val': 0.3744444251060486}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_12_30  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_13_34  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_15_19  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_16_37  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.6666666865348816, 'val': 0.6666666865348816}, mf1:{'test': 0.5433332920074463, 'val': 0.5433332920074463}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_18_21  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_19_50  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.324444442987442, 'val': 0.324444442987442}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_21_24  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2433333396911621, 'val': 0.2433333396911621}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_22_39  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_23_32  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_24_40  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.5244444608688354, 'val': 0.5244444608688354}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_25_59  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.4466666579246521, 'val': 0.4466666579246521}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_27_20  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.37444445490837097, 'val': 0.37444445490837097}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_28_43  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.6666666865348816, 'val': 0.6666666865348816}, mf1:{'test': 0.48444443941116333, 'val': 0.48444443941116333}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_29_58  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2433333396911621, 'val': 0.2433333396911621}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_31_06  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24111111462116241, 'val': 0.24111111462116241}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_32_12  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2711111009120941, 'val': 0.2711111009120941}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_33_22  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.324444442987442, 'val': 0.324444442987442}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_34_34  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4466666579246521, 'val': 0.4466666579246521}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_36_04  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.3444444239139557, 'val': 0.3444444239139557}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_37_20  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4099999666213989, 'val': 0.4099999666213989}
+
+AtrialFibrillation_dim64_depth3_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_38_45  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3633333146572113, 'val': 0.3633333146572113}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_40_08  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2544444501399994, 'val': 0.2544444501399994}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_41_42  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_43_14  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.28777778148651123, 'val': 0.28777778148651123}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_44_37  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3733333647251129, 'val': 0.3733333647251129}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_45_59  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_47_25  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_49_03  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2433333396911621, 'val': 0.2433333396911621}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_50_27  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_51_30  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_52_40  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3100000023841858, 'val': 0.3100000023841858}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_54_19  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.34333333373069763, 'val': 0.34333333373069763}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_55_50  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_57_11  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.6666666865348816, 'val': 0.6666666865348816}, mf1:{'test': 0.48444443941116333, 'val': 0.48444443941116333}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_58_29  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_59_29  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_00_34  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_01_33  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_02_55  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_04_13  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_05_29  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3911110758781433, 'val': 0.3911110758781433}
+
+AtrialFibrillation_dim32_depth3_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_06_42  
+TSLANet_AtrialFibrillation_l_3  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.4000000059604645, 'val': 0.4000000059604645}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_07_40  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_08_50  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.3077777922153473, 'val': 0.3077777922153473}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_10_15  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.36666667461395264, 'val': 0.36666667461395264}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_11_42  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.5133333206176758, 'val': 0.5133333206176758}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_13_03  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.37444445490837097, 'val': 0.37444445490837097}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_14_15  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3266666829586029, 'val': 0.3266666829586029}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_15_25  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.3166666626930237, 'val': 0.3166666626930237}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_16_35  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_17_31  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.26333335041999817, 'val': 0.26333335041999817}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_18_50  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_19_56  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3744444251060486, 'val': 0.3744444251060486}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_21_03  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2544444501399994, 'val': 0.2544444501399994}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_22_19  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2266666740179062, 'val': 0.2266666740179062}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_23_30  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2433333396911621, 'val': 0.2433333396911621}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_24_45  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_26_37  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.3444444537162781, 'val': 0.3444444537162781}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_27_37  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3633333146572113, 'val': 0.3633333146572113}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_28_52  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4188888967037201, 'val': 0.4188888967037201}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_30_05  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.23000000417232513, 'val': 0.23000000417232513}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_31_07  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.44111111760139465, 'val': 0.44111111760139465}
+
+AtrialFibrillation_dim256_depth2_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_32_10  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2433333396911621, 'val': 0.2433333396911621}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_33_38  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_34_42  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.31333333253860474, 'val': 0.31333333253860474}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_35_55  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2433333396911621, 'val': 0.2433333396911621}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_37_25  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_38_54  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.24666666984558105, 'val': 0.24666666984558105}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_41_05  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.43777772784233093, 'val': 0.43777772784233093}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_42_34  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2600000202655792, 'val': 0.2600000202655792}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_43_52  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_45_10  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.31333333253860474, 'val': 0.31333333253860474}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_46_23  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.21000000834465027, 'val': 0.21000000834465027}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_47_34  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4188889265060425, 'val': 0.4188889265060425}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_48_59  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.21000000834465027, 'val': 0.21000000834465027}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_50_14  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4355555772781372, 'val': 0.4355555772781372}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_51_25  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2733333706855774, 'val': 0.2733333706855774}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_52_35  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.27666667103767395, 'val': 0.27666667103767395}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_53_47  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.31333333253860474, 'val': 0.31333333253860474}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_54_49  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3633333146572113, 'val': 0.3633333146572113}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_55_59  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3466666638851166, 'val': 0.3466666638851166}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_57_07  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_58_57  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.41333332657814026, 'val': 0.41333332657814026}
+
+AtrialFibrillation_dim128_depth2_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_59_52  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.21000000834465027, 'val': 0.21000000834465027}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_00_49  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24111111462116241, 'val': 0.24111111462116241}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_01_46  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_02_53  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_04_07  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.47999998927116394, 'val': 0.47999998927116394}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_05_10  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.31333333253860474, 'val': 0.31333333253860474}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_06_15  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.5, 'val': 0.5}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_07_30  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_09_03  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24111111462116241, 'val': 0.24111111462116241}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_10_43  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4099999666213989, 'val': 0.4099999666213989}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_11_45  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3566666841506958, 'val': 0.3566666841506958}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_13_17  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.47999998927116394, 'val': 0.47999998927116394}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_14_58  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_16_10  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.41333332657814026, 'val': 0.41333332657814026}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_17_15  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2900000214576721, 'val': 0.2900000214576721}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_18_27  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_19_47  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3633333146572113, 'val': 0.3633333146572113}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_20_53  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.37111109495162964, 'val': 0.37111109495162964}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_22_26  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.4233333468437195, 'val': 0.4233333468437195}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_23_34  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_24_48  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2711111009120941, 'val': 0.2711111009120941}
+
+AtrialFibrillation_dim64_depth2_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_26_00  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_26_52  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.37444445490837097, 'val': 0.37444445490837097}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_28_11  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.34333333373069763, 'val': 0.34333333373069763}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_29_23  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_30_49  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.6666666865348816, 'val': 0.6666666865348816}, mf1:{'test': 0.5433332920074463, 'val': 0.5433332920074463}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_32_21  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_33_26  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3911110758781433, 'val': 0.3911110758781433}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_34_23  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.25777778029441833, 'val': 0.25777778029441833}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_35_29  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.37444445490837097, 'val': 0.37444445490837097}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_36_31  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.42666664719581604, 'val': 0.42666664719581604}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_37_36  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24000000953674316, 'val': 0.24000000953674316}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_40_35  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4633333086967468, 'val': 0.4633333086967468}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_41_34  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_42_36  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.42444440722465515, 'val': 0.42444440722465515}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_43_45  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.3077777922153473, 'val': 0.3077777922153473}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_44_59  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.44111111760139465, 'val': 0.44111111760139465}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_46_01  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_46_57  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_48_12  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3733333647251129, 'val': 0.3733333647251129}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_49_16  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_50_20  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.42444440722465515, 'val': 0.42444440722465515}
+
+AtrialFibrillation_dim32_depth2_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_51_14  
+TSLANet_AtrialFibrillation_l_2  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_52_05  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3799999952316284, 'val': 0.3799999952316284}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_52_56  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2966666519641876, 'val': 0.2966666519641876}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_53_54  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.28777778148651123, 'val': 0.28777778148651123}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_55_13  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.5299999713897705, 'val': 0.5299999713897705}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_56_10  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.23777778446674347, 'val': 0.23777778446674347}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_57_20  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.44333329796791077, 'val': 0.44333329796791077}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_58_34  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2777777910232544, 'val': 0.2777777910232544}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_59_56  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_00_42  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35777777433395386, 'val': 0.35777777433395386}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_02_03  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_03_04  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.38777777552604675, 'val': 0.38777777552604675}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_05_28  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3744444251060486, 'val': 0.3744444251060486}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_06_28  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3633333146572113, 'val': 0.3633333146572113}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_07_18  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24000000953674316, 'val': 0.24000000953674316}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_08_31  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_09_40  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_10_48  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.30000001192092896, 'val': 0.30000001192092896}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_11_48  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.4933333098888397, 'val': 0.4933333098888397}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_12_54  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32777777314186096, 'val': 0.32777777314186096}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_14_01  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.43777772784233093, 'val': 0.43777772784233093}
+
+AtrialFibrillation_dim256_depth1_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_14_58  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3744444251060486, 'val': 0.3744444251060486}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_16_22  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24111111462116241, 'val': 0.24111111462116241}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_17_19  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3266666829586029, 'val': 0.3266666829586029}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_18_32  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_19_35  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4188889265060425, 'val': 0.4188889265060425}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_20_41  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_21_51  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4099999666213989, 'val': 0.4099999666213989}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_23_00  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2433333396911621, 'val': 0.2433333396911621}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_24_03  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4099999666213989, 'val': 0.4099999666213989}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_25_10  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.31333333253860474, 'val': 0.31333333253860474}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_26_10  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2433333396911621, 'val': 0.2433333396911621}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_27_20  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3911111056804657, 'val': 0.3911111056804657}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_28_18  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4044444262981415, 'val': 0.4044444262981415}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_29_57  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.29333335161209106, 'val': 0.29333335161209106}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_31_07  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4099999666213989, 'val': 0.4099999666213989}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_32_20  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3633333146572113, 'val': 0.3633333146572113}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_33_38  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4466666579246521, 'val': 0.4466666579246521}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_34_49  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24111111462116241, 'val': 0.24111111462116241}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_35_54  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.4933333098888397, 'val': 0.4933333098888397}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_36_56  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_37_48  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.28777778148651123, 'val': 0.28777778148651123}
+
+AtrialFibrillation_dim128_depth1_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_38_57  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35777774453163147, 'val': 0.35777774453163147}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_40_03  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.29333335161209106, 'val': 0.29333335161209106}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_41_08  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_42_07  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2600000202655792, 'val': 0.2600000202655792}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_43_16  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_44_19  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_45_18  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.27666667103767395, 'val': 0.27666667103767395}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_46_12  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.24000000953674316, 'val': 0.24000000953674316}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_47_13  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.38777777552604675, 'val': 0.38777777552604675}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_48_25  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_49_26  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3655555844306946, 'val': 0.3655555844306946}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_50_34  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3511110842227936, 'val': 0.3511110842227936}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_51_43  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3466666638851166, 'val': 0.3466666638851166}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_52_32  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4099999666213989, 'val': 0.4099999666213989}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_54_06  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2433333396911621, 'val': 0.2433333396911621}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_54_59  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.29333335161209106, 'val': 0.29333335161209106}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_55_55  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_56_55  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.2600000202655792, 'val': 0.2600000202655792}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_58_00  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3633333146572113, 'val': 0.3633333146572113}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_59_18  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_00_03  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.30444443225860596, 'val': 0.30444443225860596}
+
+AtrialFibrillation_dim64_depth1_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_01_06  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.44999998807907104, 'val': 0.44999998807907104}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_01_42  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.44111111760139465, 'val': 0.44111111760139465}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_02_34  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4466666579246521, 'val': 0.4466666579246521}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_03_13  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch64_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_04_00  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.3266666829586029, 'val': 0.3266666829586029}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch96_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_04_48  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.3333333432674408, 'val': 0.3333333432674408}, mf1:{'test': 0.2800000011920929, 'val': 0.2800000011920929}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch128_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_05_29  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch160_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_07_15  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_08_01  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.32111111283302307, 'val': 0.32111111283302307}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_08_52  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2844444513320923, 'val': 0.2844444513320923}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_09_59  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch64_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_11_07  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.4400000274181366, 'val': 0.4400000274181366}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch96_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_12_08  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch128_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_12_58  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.32111111283302307, 'val': 0.32111111283302307}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch160_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_13_45  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_14_33  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.37444445490837097, 'val': 0.37444445490837097}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_15_28  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.4044444262981415, 'val': 0.4044444262981415}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_16_23  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.35999998450279236, 'val': 0.35999998450279236}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch64_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_17_12  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.5333333611488342, 'val': 0.5333333611488342}, mf1:{'test': 0.3733333647251129, 'val': 0.3733333647251129}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch96_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_18_11  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.4000000059604645}, mf1:{'test': 0.32999998331069946, 'val': 0.32999998331069946}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch128_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_18_51  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.6000000238418579, 'val': 0.6000000238418579}, mf1:{'test': 0.4599999785423279, 'val': 0.4599999785423279}
+
+AtrialFibrillation_dim32_depth1_mask0.4_patch160_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_19_40  
+TSLANet_AtrialFibrillation_l_1  
+acc:{'test': 0.46666666865348816, 'val': 0.46666666865348816}, mf1:{'test': 0.2900000214576721, 'val': 0.2900000214576721}
+

@@ -1,0 +1,1008 @@
+HandMovementDirection_dim256_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_07_58  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2432432472705841, 'val': 0.375}, mf1:{'test': 0.13641823828220367, 'val': 0.26753801107406616}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_11_02  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.36486485600471497, 'val': 0.25}, mf1:{'test': 0.1589495688676834, 'val': 0.15665584802627563}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_13_42  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2702702581882477, 'val': 0.375}, mf1:{'test': 0.13178031146526337, 'val': 0.22501803934574127}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_16_33  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.1875}, mf1:{'test': 0.1825644075870514, 'val': 0.125}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_19_26  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2702702581882477, 'val': 0.34375}, mf1:{'test': 0.14585520327091217, 'val': 0.21463674306869507}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_22_46  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.36486485600471497, 'val': 0.4375}, mf1:{'test': 0.15574368834495544, 'val': 0.26025640964508057}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_25_32  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3378378450870514, 'val': 0.28125}, mf1:{'test': 0.16458414494991302, 'val': 0.18677157163619995}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_28_08  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.29729729890823364, 'val': 0.21875}, mf1:{'test': 0.14849379658699036, 'val': 0.14957264065742493}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_30_13  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3513513505458832, 'val': 0.3125}, mf1:{'test': 0.15330511331558228, 'val': 0.21047009527683258}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_32_20  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3513513505458832, 'val': 0.28125}, mf1:{'test': 0.16248051822185516, 'val': 0.1875}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_34_27  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3378378450870514, 'val': 0.28125}, mf1:{'test': 0.16861355304718018, 'val': 0.18733766674995422}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_36_42  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2567567527294159, 'val': 0.34375}, mf1:{'test': 0.1157279685139656, 'val': 0.20969551801681519}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_38_52  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.36486485600471497, 'val': 0.34375}, mf1:{'test': 0.17446206510066986, 'val': 0.21375292539596558}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_41_03  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3513513505458832, 'val': 0.21875}, mf1:{'test': 0.16093897819519043, 'val': 0.14362028241157532}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_43_15  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.22972972691059113, 'val': 0.40625}, mf1:{'test': 0.1252819150686264, 'val': 0.25636863708496094}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_45_26  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.31081080436706543, 'val': 0.25}, mf1:{'test': 0.15248481929302216, 'val': 0.17424242198467255}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_47_18  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.31081080436706543, 'val': 0.1875}, mf1:{'test': 0.1690410077571869, 'val': 0.14595960080623627}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_49_31  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3513513505458832, 'val': 0.375}, mf1:{'test': 0.18307587504386902, 'val': 0.25211039185523987}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_51_31  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.3125}, mf1:{'test': 0.13329383730888367, 'val': 0.19534632563591003}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_53_35  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.29729729890823364, 'val': 0.28125}, mf1:{'test': 0.14065289497375488, 'val': 0.19262820482254028}
+
+HandMovementDirection_dim256_depth3_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_55_54  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2567567527294159, 'val': 0.25}, mf1:{'test': 0.11967851966619492, 'val': 0.16282051801681519}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_58_07  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2702702581882477, 'val': 0.25}, mf1:{'test': 0.14411918818950653, 'val': 0.15634921193122864}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_59_59  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.31081080436706543, 'val': 0.3125}, mf1:{'test': 0.1608072817325592, 'val': 0.1914682686328888}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_02_07  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3513513505458832, 'val': 0.34375}, mf1:{'test': 0.19133080542087555, 'val': 0.22970780730247498}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_03_52  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.31081080436706543, 'val': 0.375}, mf1:{'test': 0.171707421541214, 'val': 0.230128213763237}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_05_51  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2432432472705841, 'val': 0.21875}, mf1:{'test': 0.11756756156682968, 'val': 0.15015539526939392}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_07_56  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2432432472705841, 'val': 0.40625}, mf1:{'test': 0.12728293240070343, 'val': 0.2516788840293884}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_09_52  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.21875}, mf1:{'test': 0.14004267752170563, 'val': 0.15909090638160706}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_11_38  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.34375}, mf1:{'test': 0.15828976035118103, 'val': 0.23246754705905914}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_13_36  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.36486485600471497, 'val': 0.3125}, mf1:{'test': 0.1725781112909317, 'val': 0.20887446403503418}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_15_25  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.31081080436706543, 'val': 0.40625}, mf1:{'test': 0.16887149214744568, 'val': 0.25352564454078674}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_17_17  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3378378450870514, 'val': 0.25}, mf1:{'test': 0.18316054344177246, 'val': 0.15656566619873047}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_19_27  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2567567527294159, 'val': 0.25}, mf1:{'test': 0.132353276014328, 'val': 0.16816239058971405}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_21_00  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2702702581882477, 'val': 0.34375}, mf1:{'test': 0.12749171257019043, 'val': 0.22564935684204102}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_22_54  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3243243098258972, 'val': 0.3125}, mf1:{'test': 0.17348191142082214, 'val': 0.18127185106277466}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_25_06  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.22972972691059113, 'val': 0.28125}, mf1:{'test': 0.12323036789894104, 'val': 0.20192308723926544}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_26_58  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.36486485600471497, 'val': 0.3125}, mf1:{'test': 0.18088550865650177, 'val': 0.1964285671710968}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_28_37  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.37837839126586914, 'val': 0.375}, mf1:{'test': 0.18545955419540405, 'val': 0.22596153616905212}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_30_33  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.36486485600471497, 'val': 0.28125}, mf1:{'test': 0.18591904640197754, 'val': 0.18354979157447815}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_32_35  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3243243098258972, 'val': 0.375}, mf1:{'test': 0.1450483202934265, 'val': 0.2110169231891632}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_34_14  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3513513505458832, 'val': 0.40625}, mf1:{'test': 0.13044239580631256, 'val': 0.24783550202846527}
+
+HandMovementDirection_dim128_depth3_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_35_44  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3378378450870514, 'val': 0.09375}, mf1:{'test': 0.15044277906417847, 'val': 0.06818182021379471}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_39_33  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2702702581882477, 'val': 0.3125}, mf1:{'test': 0.14931359887123108, 'val': 0.21984127163887024}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_41_43  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.29729729890823364, 'val': 0.375}, mf1:{'test': 0.1567336618900299, 'val': 0.2287878841161728}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_43_36  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.31081080436706543, 'val': 0.4375}, mf1:{'test': 0.14842663705348969, 'val': 0.2670634984970093}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_45_41  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2702702581882477, 'val': 0.3125}, mf1:{'test': 0.14786532521247864, 'val': 0.21780303120613098}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_47_40  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.29729729890823364, 'val': 0.34375}, mf1:{'test': 0.1433587521314621, 'val': 0.2257978916168213}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_50_00  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.4324324429035187, 'val': 0.21875}, mf1:{'test': 0.2524462640285492, 'val': 0.1477564126253128}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_53_13  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2567567527294159, 'val': 0.34375}, mf1:{'test': 0.1227944865822792, 'val': 0.20725108683109283}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_55_14  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.29729729890823364, 'val': 0.34375}, mf1:{'test': 0.16106820106506348, 'val': 0.25862473249435425}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_57_25  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3378378450870514, 'val': 0.25}, mf1:{'test': 0.19051556289196014, 'val': 0.15000000596046448}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_58_50  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.3125}, mf1:{'test': 0.12852463126182556, 'val': 0.2030303180217743}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_00_46  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.31081080436706543, 'val': 0.21875}, mf1:{'test': 0.17276856303215027, 'val': 0.15795454382896423}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_04_19  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.21621622145175934, 'val': 0.40625}, mf1:{'test': 0.10549900680780411, 'val': 0.26335471868515015}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_07_04  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.44594594836235046, 'val': 0.5}, mf1:{'test': 0.21118900179862976, 'val': 0.3241342008113861}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_08_41  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3243243098258972, 'val': 0.25}, mf1:{'test': 0.1442907750606537, 'val': 0.17414529621601105}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_10_34  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.4189189076423645, 'val': 0.28125}, mf1:{'test': 0.23213210701942444, 'val': 0.20886752009391785}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_12_11  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.18918919563293457, 'val': 0.25}, mf1:{'test': 0.10390390455722809, 'val': 0.14962120354175568}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_13_59  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2567567527294159, 'val': 0.3125}, mf1:{'test': 0.10458216071128845, 'val': 0.1875000149011612}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_15_53  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.29729729890823364, 'val': 0.40625}, mf1:{'test': 0.1678755134344101, 'val': 0.2541666626930237}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_18_49  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.31081080436706543, 'val': 0.25}, mf1:{'test': 0.15432029962539673, 'val': 0.17019230127334595}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_20_56  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.40625}, mf1:{'test': 0.12746775150299072, 'val': 0.29003268480300903}
+
+HandMovementDirection_dim64_depth3_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_22_31  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3243243098258972, 'val': 0.21875}, mf1:{'test': 0.17430034279823303, 'val': 0.13461539149284363}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_26_26  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.3125}, mf1:{'test': 0.12042812258005142, 'val': 0.1944805234670639}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_28_22  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.21621622145175934, 'val': 0.28125}, mf1:{'test': 0.13274507224559784, 'val': 0.1547619104385376}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_33_52  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.21621622145175934, 'val': 0.1875}, mf1:{'test': 0.09664928168058395, 'val': 0.12208624929189682}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_35_07  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3378378450870514, 'val': 0.3125}, mf1:{'test': 0.16893695294857025, 'val': 0.20192307233810425}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_36_25  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3513513505458832, 'val': 0.34375}, mf1:{'test': 0.16620294749736786, 'val': 0.19861111044883728}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_38_14  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.1756756752729416, 'val': 0.1875}, mf1:{'test': 0.0921216756105423, 'val': 0.12208625674247742}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_39_42  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.1875}, mf1:{'test': 0.13771609961986542, 'val': 0.12814685702323914}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_41_19  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.28125}, mf1:{'test': 0.1333298236131668, 'val': 0.17307692766189575}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_42_47  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.31081080436706543, 'val': 0.28125}, mf1:{'test': 0.16243936121463776, 'val': 0.18369963765144348}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_44_14  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.28378379344940186, 'val': 0.34375}, mf1:{'test': 0.14567962288856506, 'val': 0.2123015820980072}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_46_06  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3243243098258972, 'val': 0.28125}, mf1:{'test': 0.17817145586013794, 'val': 0.17078754305839539}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_48_57  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2567567527294159, 'val': 0.25}, mf1:{'test': 0.1349216103553772, 'val': 0.14347662031650543}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_50_34  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.29729729890823364, 'val': 0.375}, mf1:{'test': 0.16344165802001953, 'val': 0.22976191341876984}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_51_53  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2432432472705841, 'val': 0.3125}, mf1:{'test': 0.14168204367160797, 'val': 0.2035256326198578}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_53_45  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.20270270109176636, 'val': 0.28125}, mf1:{'test': 0.1014157086610794, 'val': 0.16335228085517883}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_55_10  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2432432472705841, 'val': 0.28125}, mf1:{'test': 0.18659919500350952, 'val': 0.210317462682724}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_56_28  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.3513513505458832, 'val': 0.40625}, mf1:{'test': 0.19188904762268066, 'val': 0.28525644540786743}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_57_39  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2567567527294159, 'val': 0.28125}, mf1:{'test': 0.1367867887020111, 'val': 0.1666666716337204}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_59_06  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.37837839126586914, 'val': 0.28125}, mf1:{'test': 0.19306865334510803, 'val': 0.2081945836544037}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_00_44  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.2702702581882477, 'val': 0.34375}, mf1:{'test': 0.1343497484922409, 'val': 0.23863635957241058}
+
+HandMovementDirection_dim32_depth3_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_02_05  
+TSLANet_HandMovementDirection_l_3  
+acc:{'test': 0.29729729890823364, 'val': 0.3125}, mf1:{'test': 0.1438767910003662, 'val': 0.20155678689479828}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_03_35  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.22972972691059113, 'val': 0.375}, mf1:{'test': 0.10553409904241562, 'val': 0.262487530708313}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_05_20  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.22972972691059113, 'val': 0.34375}, mf1:{'test': 0.11461125314235687, 'val': 0.2341269850730896}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_07_08  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3378378450870514, 'val': 0.375}, mf1:{'test': 0.18571428954601288, 'val': 0.22832722961902618}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_08_52  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.15625}, mf1:{'test': 0.15204556286334991, 'val': 0.11363636702299118}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_10_30  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3513513505458832, 'val': 0.1875}, mf1:{'test': 0.18054872751235962, 'val': 0.13333334028720856}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_12_11  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3243243098258972, 'val': 0.15625}, mf1:{'test': 0.1568971574306488, 'val': 0.10984848439693451}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_13_55  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3513513505458832, 'val': 0.3125}, mf1:{'test': 0.17690624296665192, 'val': 0.20512820780277252}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_15_44  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.29729729890823364, 'val': 0.3125}, mf1:{'test': 0.14795251190662384, 'val': 0.19161707162857056}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_17_13  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3243243098258972, 'val': 0.3125}, mf1:{'test': 0.17133691906929016, 'val': 0.20293040573596954}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_18_38  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.21875}, mf1:{'test': 0.14755021035671234, 'val': 0.1467532515525818}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_20_12  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.4189189076423645, 'val': 0.3125}, mf1:{'test': 0.19739338755607605, 'val': 0.1970113217830658}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_21_50  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3513513505458832, 'val': 0.34375}, mf1:{'test': 0.17816035449504852, 'val': 0.23235930502414703}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_23_41  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.45945945382118225, 'val': 0.21875}, mf1:{'test': 0.2171080857515335, 'val': 0.14962121844291687}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_25_26  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3378378450870514, 'val': 0.25}, mf1:{'test': 0.15182159841060638, 'val': 0.1815476268529892}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_27_04  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2432432472705841, 'val': 0.34375}, mf1:{'test': 0.12221553176641464, 'val': 0.22239011526107788}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_28_22  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.28125}, mf1:{'test': 0.14072851836681366, 'val': 0.18108974397182465}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_29_32  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2702702581882477, 'val': 0.40625}, mf1:{'test': 0.11889644712209702, 'val': 0.2613636255264282}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_30_52  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.3125}, mf1:{'test': 0.15120120346546173, 'val': 0.1792200803756714}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_32_03  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2702702581882477, 'val': 0.3125}, mf1:{'test': 0.13304084539413452, 'val': 0.21185897290706635}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_33_30  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2702702581882477, 'val': 0.3125}, mf1:{'test': 0.12722663581371307, 'val': 0.1977272778749466}
+
+HandMovementDirection_dim256_depth2_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_35_12  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3243243098258972, 'val': 0.28125}, mf1:{'test': 0.17003431916236877, 'val': 0.18145743012428284}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_36_22  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.18918919563293457, 'val': 0.375}, mf1:{'test': 0.09675852954387665, 'val': 0.23607954382896423}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_37_31  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3243243098258972, 'val': 0.15625}, mf1:{'test': 0.149349644780159, 'val': 0.1143939346075058}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_38_32  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.29729729890823364, 'val': 0.3125}, mf1:{'test': 0.12497951835393906, 'val': 0.19024725258350372}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_39_36  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.1875}, mf1:{'test': 0.1788834184408188, 'val': 0.125}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_40_52  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.29729729890823364, 'val': 0.375}, mf1:{'test': 0.13511961698532104, 'val': 0.24413087964057922}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_41_58  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.4054054021835327, 'val': 0.21875}, mf1:{'test': 0.22430069744586945, 'val': 0.1369047611951828}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_43_13  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.22972972691059113, 'val': 0.15625}, mf1:{'test': 0.111909881234169, 'val': 0.10819736123085022}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_44_27  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.25}, mf1:{'test': 0.13919363915920258, 'val': 0.16212120652198792}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_45_37  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3243243098258972, 'val': 0.3125}, mf1:{'test': 0.13800360262393951, 'val': 0.19761905074119568}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_46_54  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.4375}, mf1:{'test': 0.16124464571475983, 'val': 0.2797619104385376}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_48_05  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3918918967247009, 'val': 0.40625}, mf1:{'test': 0.19639639556407928, 'val': 0.27578669786453247}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_49_10  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.28378379344940186, 'val': 0.21875}, mf1:{'test': 0.1303192675113678, 'val': 0.1470862478017807}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_50_30  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.29729729890823364, 'val': 0.34375}, mf1:{'test': 0.12754572927951813, 'val': 0.2361111044883728}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_51_51  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3378378450870514, 'val': 0.25}, mf1:{'test': 0.17876067757606506, 'val': 0.17103730142116547}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_53_09  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.28125}, mf1:{'test': 0.1461692750453949, 'val': 0.18205128610134125}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_54_24  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.28125}, mf1:{'test': 0.1461668461561203, 'val': 0.19679488241672516}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_55_39  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.22972972691059113, 'val': 0.4375}, mf1:{'test': 0.12379181385040283, 'val': 0.2671703100204468}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_56_51  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3513513505458832, 'val': 0.1875}, mf1:{'test': 0.2000156044960022, 'val': 0.12019230425357819}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_58_11  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2702702581882477, 'val': 0.375}, mf1:{'test': 0.13624365627765656, 'val': 0.23862943053245544}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_59_20  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.3125}, mf1:{'test': 0.1430959403514862, 'val': 0.19176135957241058}
+
+HandMovementDirection_dim128_depth2_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_00_37  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3378378450870514, 'val': 0.34375}, mf1:{'test': 0.1619015634059906, 'val': 0.21590909361839294}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_01_45  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2702702581882477, 'val': 0.125}, mf1:{'test': 0.13834995031356812, 'val': 0.08012820780277252}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_02_51  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.18918919563293457, 'val': 0.34375}, mf1:{'test': 0.09965633600950241, 'val': 0.20691287517547607}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_03_54  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.22972972691059113, 'val': 0.3125}, mf1:{'test': 0.09890531003475189, 'val': 0.1728883981704712}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_05_01  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2432432472705841, 'val': 0.21875}, mf1:{'test': 0.1174427717924118, 'val': 0.13923993706703186}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_06_08  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.3125}, mf1:{'test': 0.12927928566932678, 'val': 0.20608973503112793}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_07_15  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3243243098258972, 'val': 0.25}, mf1:{'test': 0.16661447286605835, 'val': 0.15184815227985382}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_08_20  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3378378450870514, 'val': 0.40625}, mf1:{'test': 0.18572601675987244, 'val': 0.2592824101448059}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_09_23  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2432432472705841, 'val': 0.1875}, mf1:{'test': 0.12215787172317505, 'val': 0.12193362414836884}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_10_36  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3513513505458832, 'val': 0.15625}, mf1:{'test': 0.14694438874721527, 'val': 0.09775641560554504}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_11_39  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.28378379344940186, 'val': 0.25}, mf1:{'test': 0.11789609491825104, 'val': 0.15757575631141663}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_12_49  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2702702581882477, 'val': 0.28125}, mf1:{'test': 0.13693436980247498, 'val': 0.18677157163619995}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_13_51  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.21621622145175934, 'val': 0.25}, mf1:{'test': 0.10589050501585007, 'val': 0.16914334893226624}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_14_56  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.36486485600471497, 'val': 0.3125}, mf1:{'test': 0.16537967324256897, 'val': 0.22837302088737488}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_15_55  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.375}, mf1:{'test': 0.144926980137825, 'val': 0.27115386724472046}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_16_57  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2567567527294159, 'val': 0.25}, mf1:{'test': 0.13082173466682434, 'val': 0.15884116291999817}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_18_10  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.29729729890823364, 'val': 0.15625}, mf1:{'test': 0.1639082282781601, 'val': 0.0922619104385376}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_19_15  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2432432472705841, 'val': 0.34375}, mf1:{'test': 0.12246701866388321, 'val': 0.2168220728635788}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_20_18  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.36486485600471497, 'val': 0.21875}, mf1:{'test': 0.16603034734725952, 'val': 0.13106060028076172}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_21_21  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2702702581882477, 'val': 0.4375}, mf1:{'test': 0.13724051415920258, 'val': 0.28200966119766235}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_24_52  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.28378379344940186, 'val': 0.25}, mf1:{'test': 0.12992294132709503, 'val': 0.16943472623825073}
+
+HandMovementDirection_dim64_depth2_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_25_47  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.36486485600471497, 'val': 0.40625}, mf1:{'test': 0.1749403476715088, 'val': 0.24935898184776306}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_26_52  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3243243098258972, 'val': 0.28125}, mf1:{'test': 0.15870682895183563, 'val': 0.17451298236846924}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_28_01  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.15625}, mf1:{'test': 0.12284397333860397, 'val': 0.12024086713790894}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_29_02  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.21621622145175934, 'val': 0.28125}, mf1:{'test': 0.11051051318645477, 'val': 0.20066045224666595}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_30_08  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.29729729890823364, 'val': 0.3125}, mf1:{'test': 0.16320185363292694, 'val': 0.19696970283985138}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_31_06  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.1756756752729416, 'val': 0.28125}, mf1:{'test': 0.10108735412359238, 'val': 0.17083334922790527}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_32_04  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.22972972691059113, 'val': 0.28125}, mf1:{'test': 0.11874732375144958, 'val': 0.18269230425357819}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_33_03  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.21621622145175934, 'val': 0.25}, mf1:{'test': 0.1255207061767578, 'val': 0.1679195761680603}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_34_08  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3378378450870514, 'val': 0.34375}, mf1:{'test': 0.15355651080608368, 'val': 0.23170995712280273}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_35_11  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3243243098258972, 'val': 0.1875}, mf1:{'test': 0.1319318264722824, 'val': 0.1160714328289032}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_36_13  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.36486485600471497, 'val': 0.28125}, mf1:{'test': 0.16826967895030975, 'val': 0.16025641560554504}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_37_15  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.2567567527294159, 'val': 0.21875}, mf1:{'test': 0.1383451372385025, 'val': 0.14340659976005554}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_38_15  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3243243098258972, 'val': 0.28125}, mf1:{'test': 0.1669427454471588, 'val': 0.19452215731143951}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_39_19  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3378378450870514, 'val': 0.375}, mf1:{'test': 0.16302406787872314, 'val': 0.24756494164466858}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_40_31  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.1875}, mf1:{'test': 0.1522015631198883, 'val': 0.1306818127632141}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_41_38  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.28378379344940186, 'val': 0.28125}, mf1:{'test': 0.13584835827350616, 'val': 0.17549020051956177}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_42_37  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.36486485600471497, 'val': 0.34375}, mf1:{'test': 0.1773233860731125, 'val': 0.23487763106822968}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_43_41  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.25}, mf1:{'test': 0.13699524104595184, 'val': 0.15563325583934784}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_44_45  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.29729729890823364, 'val': 0.21875}, mf1:{'test': 0.1582966446876526, 'val': 0.14696970582008362}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_45_43  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.3378378450870514, 'val': 0.3125}, mf1:{'test': 0.1387440413236618, 'val': 0.24084249138832092}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_46_46  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.31081080436706543, 'val': 0.40625}, mf1:{'test': 0.1442728489637375, 'val': 0.25448718667030334}
+
+HandMovementDirection_dim32_depth2_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_47_48  
+TSLANet_HandMovementDirection_l_2  
+acc:{'test': 0.21621622145175934, 'val': 0.21875}, mf1:{'test': 0.09292466938495636, 'val': 0.14423078298568726}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_48_56  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.29729729890823364, 'val': 0.5}, mf1:{'test': 0.12144696712493896, 'val': 0.29226189851760864}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_49_57  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.36486485600471497, 'val': 0.40625}, mf1:{'test': 0.1664067506790161, 'val': 0.2508741319179535}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_50_57  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.25}, mf1:{'test': 0.13373789191246033, 'val': 0.16375291347503662}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_52_13  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.29729729890823364, 'val': 0.28125}, mf1:{'test': 0.14867174625396729, 'val': 0.18167249858379364}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_53_28  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2432432472705841, 'val': 0.40625}, mf1:{'test': 0.11250536143779755, 'val': 0.29809635877609253}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_54_41  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.31081080436706543, 'val': 0.25}, mf1:{'test': 0.1551891267299652, 'val': 0.17424242198467255}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_55_45  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3513513505458832, 'val': 0.3125}, mf1:{'test': 0.1801588088274002, 'val': 0.20448718965053558}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_56_51  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.29729729890823364, 'val': 0.4375}, mf1:{'test': 0.134455606341362, 'val': 0.2771395444869995}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_57_55  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3513513505458832, 'val': 0.28125}, mf1:{'test': 0.19859860837459564, 'val': 0.17301587760448456}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_58_56  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.28125}, mf1:{'test': 0.16208302974700928, 'val': 0.17978313565254211}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_59_55  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.3125}, mf1:{'test': 0.2162342369556427, 'val': 0.2102564126253128}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_01_03  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2702702581882477, 'val': 0.3125}, mf1:{'test': 0.1173369288444519, 'val': 0.20854979753494263}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_02_11  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.28125}, mf1:{'test': 0.158173605799675, 'val': 0.19316239655017853}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_03_18  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.25}, mf1:{'test': 0.15078528225421906, 'val': 0.16021478176116943}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_04_25  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.29729729890823364, 'val': 0.28125}, mf1:{'test': 0.13513512909412384, 'val': 0.18037518858909607}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_05_21  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3513513505458832, 'val': 0.40625}, mf1:{'test': 0.1861957311630249, 'val': 0.2536519169807434}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_06_26  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.21875}, mf1:{'test': 0.1743495613336563, 'val': 0.14801865816116333}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_07_18  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2432432472705841, 'val': 0.21875}, mf1:{'test': 0.11726725846529007, 'val': 0.1686868667602539}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_08_19  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2432432472705841, 'val': 0.4375}, mf1:{'test': 0.11333216726779938, 'val': 0.2650183439254761}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_09_23  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3378378450870514, 'val': 0.34375}, mf1:{'test': 0.15581119060516357, 'val': 0.22234848141670227}
+
+HandMovementDirection_dim256_depth1_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_10_32  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.36486485600471497, 'val': 0.375}, mf1:{'test': 0.19892749190330505, 'val': 0.23269230127334595}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_11_42  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.25}, mf1:{'test': 0.15353535115718842, 'val': 0.19780220091342926}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_12_36  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.31081080436706543, 'val': 0.40625}, mf1:{'test': 0.15023408830165863, 'val': 0.25947803258895874}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_13_36  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2702702581882477, 'val': 0.25}, mf1:{'test': 0.12940993905067444, 'val': 0.16360029578208923}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_14_35  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.37837839126586914, 'val': 0.25}, mf1:{'test': 0.19592450559139252, 'val': 0.14935898780822754}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_15_27  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2567567527294159, 'val': 0.25}, mf1:{'test': 0.13173627853393555, 'val': 0.1723484992980957}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_16_28  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.1875}, mf1:{'test': 0.14436784386634827, 'val': 0.13750000298023224}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_17_28  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3513513505458832, 'val': 0.375}, mf1:{'test': 0.16776779294013977, 'val': 0.25}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_18_25  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.20270270109176636, 'val': 0.25}, mf1:{'test': 0.09974755346775055, 'val': 0.16054779291152954}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_19_16  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.21875}, mf1:{'test': 0.1505879908800125, 'val': 0.14510490000247955}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_20_10  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2567567527294159, 'val': 0.375}, mf1:{'test': 0.12225701659917831, 'val': 0.23125000298023224}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_21_09  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3378378450870514, 'val': 0.3125}, mf1:{'test': 0.17628070712089539, 'val': 0.2112637460231781}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_22_07  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.21621622145175934, 'val': 0.25}, mf1:{'test': 0.10900900512933731, 'val': 0.15293040871620178}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_23_06  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.40625}, mf1:{'test': 0.14243178069591522, 'val': 0.2431318610906601}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_24_04  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.29729729890823364, 'val': 0.25}, mf1:{'test': 0.14932887256145477, 'val': 0.14404761791229248}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_25_03  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2702702581882477, 'val': 0.1875}, mf1:{'test': 0.1535443812608719, 'val': 0.12713675200939178}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_25_58  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.36486485600471497, 'val': 0.34375}, mf1:{'test': 0.17899459600448608, 'val': 0.1921568661928177}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_26_47  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.46875}, mf1:{'test': 0.1341172456741333, 'val': 0.3053613305091858}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_27_47  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3918918967247009, 'val': 0.25}, mf1:{'test': 0.21026483178138733, 'val': 0.18068182468414307}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_28_43  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.20270270109176636, 'val': 0.28125}, mf1:{'test': 0.09453024715185165, 'val': 0.19262820482254028}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_29_34  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.3125}, mf1:{'test': 0.1611190289258957, 'val': 0.22132867574691772}
+
+HandMovementDirection_dim128_depth1_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_30_27  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.29729729890823364, 'val': 0.375}, mf1:{'test': 0.1408778876066208, 'val': 0.23674242198467255}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_31_24  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.34375}, mf1:{'test': 0.16499735414981842, 'val': 0.22970086336135864}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_32_22  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3378378450870514, 'val': 0.28125}, mf1:{'test': 0.1657375693321228, 'val': 0.1792929321527481}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_33_21  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.31081080436706543, 'val': 0.3125}, mf1:{'test': 0.13685467839241028, 'val': 0.20279720425605774}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_34_19  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.37837839126586914, 'val': 0.28125}, mf1:{'test': 0.19787059724330902, 'val': 0.1940559446811676}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_35_12  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.31081080436706543, 'val': 0.375}, mf1:{'test': 0.18872611224651337, 'val': 0.23745422065258026}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_36_12  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3378378450870514, 'val': 0.3125}, mf1:{'test': 0.1596074402332306, 'val': 0.2140151560306549}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_37_06  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.29729729890823364, 'val': 0.28125}, mf1:{'test': 0.149929478764534, 'val': 0.1768481582403183}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_37_58  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.375}, mf1:{'test': 0.17492491006851196, 'val': 0.24815747141838074}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_38_55  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.18918919563293457, 'val': 0.25}, mf1:{'test': 0.09351464360952377, 'val': 0.1458333432674408}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_39_46  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.3125}, mf1:{'test': 0.14977790415287018, 'val': 0.18992812931537628}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_40_43  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.21621622145175934, 'val': 0.21875}, mf1:{'test': 0.11167661845684052, 'val': 0.12912088632583618}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_41_35  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2702702581882477, 'val': 0.34375}, mf1:{'test': 0.12011496722698212, 'val': 0.1979166716337204}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_42_24  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3918918967247009, 'val': 0.28125}, mf1:{'test': 0.20346958935260773, 'val': 0.18449607491493225}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_43_17  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.37837839126586914, 'val': 0.1875}, mf1:{'test': 0.16423039138317108, 'val': 0.11089743673801422}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_44_06  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.31081080436706543, 'val': 0.1875}, mf1:{'test': 0.15262062847614288, 'val': 0.12321428209543228}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_44_59  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3378378450870514, 'val': 0.1875}, mf1:{'test': 0.1676521748304367, 'val': 0.12398019433021545}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_45_47  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.25}, mf1:{'test': 0.15660661458969116, 'val': 0.16386114060878754}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_46_34  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.29729729890823364, 'val': 0.25}, mf1:{'test': 0.15746119618415833, 'val': 0.17587412893772125}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_47_25  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.28125}, mf1:{'test': 0.1591096669435501, 'val': 0.19291958212852478}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_48_16  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.34375}, mf1:{'test': 0.1498694270849228, 'val': 0.20427490770816803}
+
+HandMovementDirection_dim64_depth1_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_49_02  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3243243098258972, 'val': 0.25}, mf1:{'test': 0.14089256525039673, 'val': 0.155316561460495}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_49_52  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2567567527294159, 'val': 0.21875}, mf1:{'test': 0.12276462465524673, 'val': 0.15750916302204132}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_50_42  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.22972972691059113, 'val': 0.28125}, mf1:{'test': 0.10848011821508408, 'val': 0.17399267852306366}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch30_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_51_31  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2567567527294159, 'val': 0.25}, mf1:{'test': 0.12112375348806381, 'val': 0.17613637447357178}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch40_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_52_19  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2702702581882477, 'val': 0.25}, mf1:{'test': 0.1457957923412323, 'val': 0.17558275163173676}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch60_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_53_13  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3513513505458832, 'val': 0.25}, mf1:{'test': 0.1849849969148636, 'val': 0.1672494113445282}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch80_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_53_59  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3513513505458832, 'val': 0.28125}, mf1:{'test': 0.16085097193717957, 'val': 0.16643668711185455}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch100_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_54_45  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.3378378450870514, 'val': 0.34375}, mf1:{'test': 0.1483996957540512, 'val': 0.22021034359931946}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_55_31  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.29729729890823364, 'val': 0.1875}, mf1:{'test': 0.15372590720653534, 'val': 0.1130952388048172}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_56_19  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.25}, mf1:{'test': 0.1425900012254715, 'val': 0.1596153825521469}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch30_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_57_09  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.31081080436706543, 'val': 0.25}, mf1:{'test': 0.14415022730827332, 'val': 0.17937064170837402}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch40_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_57_59  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.22972972691059113, 'val': 0.375}, mf1:{'test': 0.120328389108181, 'val': 0.26849377155303955}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch60_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_58_48  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.31081080436706543, 'val': 0.34375}, mf1:{'test': 0.16630442440509796, 'val': 0.24318180978298187}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch80_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_59_34  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.22972972691059113, 'val': 0.21875}, mf1:{'test': 0.10147254168987274, 'val': 0.15530303120613098}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch100_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_00_18  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.25}, mf1:{'test': 0.1335848867893219, 'val': 0.14857955276966095}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_01_03  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.22972972691059113, 'val': 0.125}, mf1:{'test': 0.12538352608680725, 'val': 0.0833333358168602}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_01_58  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.1875}, mf1:{'test': 0.13080689311027527, 'val': 0.1217532530426979}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch30_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_02_48  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2567567527294159, 'val': 0.1875}, mf1:{'test': 0.1258765310049057, 'val': 0.11825674772262573}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch40_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_03_36  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.3125}, mf1:{'test': 0.14140279591083527, 'val': 0.21833722293376923}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch60_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_04_21  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.375}, mf1:{'test': 0.13592877984046936, 'val': 0.2874417304992676}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch80_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_05_07  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.2702702581882477, 'val': 0.25}, mf1:{'test': 0.14342498779296875, 'val': 0.1547618955373764}
+
+HandMovementDirection_dim32_depth1_mask0.4_patch100_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_05_52  
+TSLANet_HandMovementDirection_l_1  
+acc:{'test': 0.28378379344940186, 'val': 0.28125}, mf1:{'test': 0.14525504410266876, 'val': 0.17840909957885742}
+

@@ -1,0 +1,16 @@
+data_name,model,seq_len,moving_average,moving_average_ratio,acc,model_params,model_size (MB)
+HandMovementDirection,DLinear,400,200,0.5,0.6351351351351351,336804,1.29
+HandMovementDirection,DLinear,400,180,0.45,0.6351351351351351,336804,1.29
+HandMovementDirection,DLinear,400,160,0.4,0.6621621621621622,336804,1.29
+HandMovementDirection,DLinear,400,140,0.35,0.5945945945945946,336804,1.29
+HandMovementDirection,DLinear,400,120,0.3,0.5405405405405406,336804,1.29
+HandMovementDirection,DLinear,400,100,0.25,0.527027027027027,336804,1.29
+HandMovementDirection,DLinear,400,80,0.2,0.581081081081081,336804,1.29
+HandMovementDirection,DLinear,400,60,0.15,0.5945945945945946,336804,1.29
+HandMovementDirection,DLinear,400,40,0.1,0.5945945945945946,336804,1.29
+HandMovementDirection,DLinear,400,20,0.05,0.581081081081081,336804,1.29
+HandMovementDirection,DLinear,400,16,0.04,0.5675675675675675,336804,1.29
+HandMovementDirection,DLinear,400,12,0.03,0.6081081081081081,336804,1.29
+HandMovementDirection,DLinear,400,8,0.02,0.6351351351351351,336804,1.29
+HandMovementDirection,DLinear,400,4,0.01,0.6081081081081081,336804,1.29
+HandMovementDirection,DLinear,400,2,0.005,0.6081081081081081,336804,1.29

@@ -1,0 +1,6048 @@
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm256_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm128_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm64_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth3_dm32_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm256_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm128_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm64_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth2_dm32_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm256_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm128_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm64_mlp1_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp3_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp3_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp3_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp3_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp3_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp3_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp3_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp2_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp2_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp2_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp2_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp2_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp2_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp2_ps224.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 23 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp1_ps23.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 45 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp1_ps45.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 68 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp1_ps68.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 90 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp1_ps90.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 135 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp1_ps135.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 180 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp1_ps180.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1 \
+  --data_type uea \
+  --data_name SelfRegulationSCP1 \
+  --model_id CLS_SelfRegulationSCP1 \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 224 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/SelfRegulationSCP1/SelfRegulationSCP1_depth1_dm32_mlp1_ps224.log 2>&1
+

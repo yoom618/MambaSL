@@ -1,0 +1,1008 @@
+PhonemeSpectra_dim256_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_38_02  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.034894123673439026, 'val': 0.034894123673439026}, mf1:{'test': 0.028060348704457283, 'val': 0.028060348704457283}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_44_01  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03549060598015785, 'val': 0.03549060598015785}, mf1:{'test': 0.024787861853837967, 'val': 0.024787861853837967}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_02_09  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.031315241008996964, 'val': 0.031315241008996964}, mf1:{'test': 0.022876741364598274, 'val': 0.022876741364598274}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_24_46  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.028929317370057106, 'val': 0.028929317370057106}, mf1:{'test': 0.02569114975631237, 'val': 0.02569114975631237}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_38_51  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.030718758702278137, 'val': 0.030718758702278137}, mf1:{'test': 0.021175485104322433, 'val': 0.021175485104322433}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_59_10  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.037578288465738297, 'val': 0.037578288465738297}, mf1:{'test': 0.027977531775832176, 'val': 0.027977531775832176}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_20_53  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03698180615901947, 'val': 0.03698180615901947}, mf1:{'test': 0.02762722782790661, 'val': 0.02762722782790661}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_29_59  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03280644118785858, 'val': 0.03280644118785858}, mf1:{'test': 0.025962121784687042, 'val': 0.025962121784687042}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_05_50  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03698180615901947, 'val': 0.03698180615901947}, mf1:{'test': 0.019452843815088272, 'val': 0.019452843815088272}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_25_56  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.036683566868305206, 'val': 0.036683566868305206}, mf1:{'test': 0.029399560764431953, 'val': 0.029399560764431953}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_41_27  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.02863343246281147, 'val': 0.02863343246281147}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_52_48  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.031315241008996964, 'val': 0.031315241008996964}, mf1:{'test': 0.02515740692615509, 'val': 0.02515740692615509}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_08_53  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03161348029971123, 'val': 0.03161348029971123}, mf1:{'test': 0.025104118511080742, 'val': 0.025104118511080742}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_23_47  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.024796953424811363, 'val': 0.024796953424811363}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_37_14  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.02575792372226715, 'val': 0.02575792372226715}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_04_38  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.02922755666077137, 'val': 0.02922755666077137}, mf1:{'test': 0.026359979063272476, 'val': 0.026359979063272476}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_24_57  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03340292349457741, 'val': 0.03340292349457741}, mf1:{'test': 0.0257440023124218, 'val': 0.0257440023124218}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_39_50  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.029525797814130783, 'val': 0.029525797814130783}, mf1:{'test': 0.025760069489479065, 'val': 0.025760069489479065}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_52_30  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.032209962606430054, 'val': 0.032209962606430054}, mf1:{'test': 0.022863438352942467, 'val': 0.022863438352942467}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_11_34  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03549060598015785, 'val': 0.03549060598015785}, mf1:{'test': 0.028717922046780586, 'val': 0.028717922046780586}
+
+PhonemeSpectra_dim256_depth3_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_22_58  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03161348029971123, 'val': 0.03161348029971123}, mf1:{'test': 0.02093987725675106, 'val': 0.02093987725675106}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_35_04  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.039964210242033005, 'val': 0.039964210242033005}, mf1:{'test': 0.020901471376419067, 'val': 0.020901471376419067}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_05_54  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03698180615901947, 'val': 0.03698180615901947}, mf1:{'test': 0.02869410440325737, 'val': 0.02869410440325737}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_17_46  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.029824038967490196, 'val': 0.029824038967490196}, mf1:{'test': 0.023724230006337166, 'val': 0.023724230006337166}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_29_56  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.025147709995508194, 'val': 0.025147709995508194}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_42_22  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03608708456158638, 'val': 0.03608708456158638}, mf1:{'test': 0.02572636306285858, 'val': 0.02572636306285858}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_51_24  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03698180615901947, 'val': 0.03698180615901947}, mf1:{'test': 0.02618173323571682, 'val': 0.02618173323571682}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_35  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03012227825820446, 'val': 0.03012227825820446}, mf1:{'test': 0.016559863463044167, 'val': 0.016559863463044167}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_08_06  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.026109546422958374, 'val': 0.026109546422958374}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_22_22  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.02019812911748886, 'val': 0.02019812911748886}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_34_36  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.024471553042531013, 'val': 0.024471553042531013}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_49_23  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.028929317370057106, 'val': 0.028929317370057106}, mf1:{'test': 0.024731948971748352, 'val': 0.024731948971748352}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_02_05  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03340292349457741, 'val': 0.03340292349457741}, mf1:{'test': 0.02626030333340168, 'val': 0.02626030333340168}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_26_03  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03012227825820446, 'val': 0.03012227825820446}, mf1:{'test': 0.026676317676901817, 'val': 0.026676317676901817}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_38_39  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03340292349457741, 'val': 0.03340292349457741}, mf1:{'test': 0.02255432680249214, 'val': 0.02255432680249214}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_54_39  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.028929317370057106, 'val': 0.028929317370057106}, mf1:{'test': 0.0251031331717968, 'val': 0.0251031331717968}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_18_03  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03608708456158638, 'val': 0.03608708456158638}, mf1:{'test': 0.025846784934401512, 'val': 0.025846784934401512}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_40_50  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.032209962606430054, 'val': 0.032209962606430054}, mf1:{'test': 0.024593809619545937, 'val': 0.024593809619545937}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_00_22  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.0342976450920105, 'val': 0.0342976450920105}, mf1:{'test': 0.02547437697649002, 'val': 0.02547437697649002}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_27_34  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.032209962606430054, 'val': 0.032209962606430054}, mf1:{'test': 0.0261089988052845, 'val': 0.0261089988052845}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_48_20  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.029525797814130783, 'val': 0.029525797814130783}, mf1:{'test': 0.026610761880874634, 'val': 0.026610761880874634}
+
+PhonemeSpectra_dim128_depth3_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_59_40  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.0199537742882967, 'val': 0.0199537742882967}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_18_18  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03787652775645256, 'val': 0.03787652775645256}, mf1:{'test': 0.021999787539243698, 'val': 0.021999787539243698}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_45_51  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.029105279594659805, 'val': 0.029105279594659805}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_10_49  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03877124935388565, 'val': 0.03877124935388565}, mf1:{'test': 0.02529206871986389, 'val': 0.02529206871986389}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_32_54  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03280644118785858, 'val': 0.03280644118785858}, mf1:{'test': 0.026716701686382294, 'val': 0.026716701686382294}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_44_34  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03698180615901947, 'val': 0.03698180615901947}, mf1:{'test': 0.020378101617097855, 'val': 0.020378101617097855}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_02_03  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03191171959042549, 'val': 0.03191171959042549}, mf1:{'test': 0.026775788515806198, 'val': 0.026775788515806198}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_22_24  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03638532757759094, 'val': 0.03638532757759094}, mf1:{'test': 0.018412046134471893, 'val': 0.018412046134471893}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_51_47  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03549060598015785, 'val': 0.03549060598015785}, mf1:{'test': 0.017172029241919518, 'val': 0.017172029241919518}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_11_41  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.04294661432504654, 'val': 0.04294661432504654}, mf1:{'test': 0.01737387292087078, 'val': 0.01737387292087078}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_41_19  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.045034296810626984, 'val': 0.045034296810626984}, mf1:{'test': 0.021985789760947227, 'val': 0.021985789760947227}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_04_22  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.037578288465738297, 'val': 0.037578288465738297}, mf1:{'test': 0.020840270444750786, 'val': 0.020840270444750786}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_33_47  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.04026245325803757, 'val': 0.04026245325803757}, mf1:{'test': 0.01981096714735031, 'val': 0.01981096714735031}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_53_58  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.029525797814130783, 'val': 0.029525797814130783}, mf1:{'test': 0.024807680398225784, 'val': 0.024807680398225784}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_06_41  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03459588438272476, 'val': 0.03459588438272476}, mf1:{'test': 0.016216769814491272, 'val': 0.016216769814491272}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_23_26  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.034894123673439026, 'val': 0.034894123673439026}, mf1:{'test': 0.02419924922287464, 'val': 0.02419924922287464}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_49_44  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.0432448536157608, 'val': 0.0432448536157608}, mf1:{'test': 0.019564902409911156, 'val': 0.019564902409911156}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_19_04  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.04235013574361801, 'val': 0.04235013574361801}, mf1:{'test': 0.025717146694660187, 'val': 0.025717146694660187}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_45_21  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.026008017361164093, 'val': 0.026008017361164093}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_00_51  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03966597095131874, 'val': 0.03966597095131874}, mf1:{'test': 0.022148452699184418, 'val': 0.022148452699184418}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_21_48  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03280644118785858, 'val': 0.03280644118785858}, mf1:{'test': 0.024083325639367104, 'val': 0.024083325639367104}
+
+PhonemeSpectra_dim64_depth3_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_33_03  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03280644118785858, 'val': 0.03280644118785858}, mf1:{'test': 0.018530547618865967, 'val': 0.018530547618865967}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_46_55  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.034894123673439026, 'val': 0.034894123673439026}, mf1:{'test': 0.016624201089143753, 'val': 0.016624201089143753}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_09_15  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.037578288465738297, 'val': 0.037578288465738297}, mf1:{'test': 0.01884084939956665, 'val': 0.01884084939956665}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_27_27  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03966597095131874, 'val': 0.03966597095131874}, mf1:{'test': 0.02233586274087429, 'val': 0.02233586274087429}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_46_08  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.04145541414618492, 'val': 0.04145541414618492}, mf1:{'test': 0.022134345024824142, 'val': 0.022134345024824142}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_14_13  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.04145541414618492, 'val': 0.04145541414618492}, mf1:{'test': 0.01916796714067459, 'val': 0.01916796714067459}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_30_20  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.038174767047166824, 'val': 0.038174767047166824}, mf1:{'test': 0.01973598450422287, 'val': 0.01973598450422287}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_49_41  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.034894123673439026, 'val': 0.034894123673439026}, mf1:{'test': 0.024263251572847366, 'val': 0.024263251572847366}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_59_15  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.02564867213368416, 'val': 0.02564867213368416}, mf1:{'test': 0.02534380368888378, 'val': 0.02534380368888378}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_13_44  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.040858931839466095, 'val': 0.040858931839466095}, mf1:{'test': 0.01952105201780796, 'val': 0.01952105201780796}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_34_46  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.04056069254875183, 'val': 0.04056069254875183}, mf1:{'test': 0.022144056856632233, 'val': 0.022144056856632233}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_53_31  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.047718461602926254, 'val': 0.047718461602926254}, mf1:{'test': 0.023889875039458275, 'val': 0.023889875039458275}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_17_03  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.040858931839466095, 'val': 0.040858931839466095}, mf1:{'test': 0.020710168406367302, 'val': 0.020710168406367302}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_31_29  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03549060598015785, 'val': 0.03549060598015785}, mf1:{'test': 0.018378565087914467, 'val': 0.018378565087914467}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_47_27  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.04026245325803757, 'val': 0.04026245325803757}, mf1:{'test': 0.016240505501627922, 'val': 0.016240505501627922}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_56_58  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03936773166060448, 'val': 0.03936773166060448}, mf1:{'test': 0.0194843877106905, 'val': 0.0194843877106905}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_18_16  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.02152119018137455, 'val': 0.02152119018137455}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_31_19  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.039964210242033005, 'val': 0.039964210242033005}, mf1:{'test': 0.019037267193198204, 'val': 0.019037267193198204}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_50_23  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03340292349457741, 'val': 0.03340292349457741}, mf1:{'test': 0.018015986308455467, 'val': 0.018015986308455467}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_05_39  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.0342976450920105, 'val': 0.0342976450920105}, mf1:{'test': 0.019135212525725365, 'val': 0.019135212525725365}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_17_48  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03012227825820446, 'val': 0.03012227825820446}, mf1:{'test': 0.023828605189919472, 'val': 0.023828605189919472}
+
+PhonemeSpectra_dim32_depth3_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_35_18  
+TSLANet_PhonemeSpectra_l_3  
+acc:{'test': 0.03459588438272476, 'val': 0.03459588438272476}, mf1:{'test': 0.02791685424745083, 'val': 0.02791685424745083}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_47_06  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.037578288465738297, 'val': 0.037578288465738297}, mf1:{'test': 0.02819715440273285, 'val': 0.02819715440273285}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_10_25  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03280644118785858, 'val': 0.03280644118785858}, mf1:{'test': 0.02696424163877964, 'val': 0.02696424163877964}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_26_10  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.030718758702278137, 'val': 0.030718758702278137}, mf1:{'test': 0.024026213213801384, 'val': 0.024026213213801384}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_39_15  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.037578288465738297, 'val': 0.037578288465738297}, mf1:{'test': 0.02751610241830349, 'val': 0.02751610241830349}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_54_07  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03340292349457741, 'val': 0.03340292349457741}, mf1:{'test': 0.025293318554759026, 'val': 0.025293318554759026}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_07_54  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.02860358916223049, 'val': 0.02860358916223049}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_16_24  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.027840668335556984, 'val': 0.027840668335556984}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_25_48  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.032209962606430054, 'val': 0.032209962606430054}, mf1:{'test': 0.020322317257523537, 'val': 0.020322317257523537}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_42_13  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.033104684203863144, 'val': 0.033104684203863144}, mf1:{'test': 0.025958264246582985, 'val': 0.025958264246582985}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_59_54  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03340292349457741, 'val': 0.03340292349457741}, mf1:{'test': 0.026450803503394127, 'val': 0.026450803503394127}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_15_00  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.040858931839466095, 'val': 0.040858931839466095}, mf1:{'test': 0.021798186004161835, 'val': 0.021798186004161835}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_26_51  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03012227825820446, 'val': 0.03012227825820446}, mf1:{'test': 0.023673957213759422, 'val': 0.023673957213759422}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_38_14  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03638532757759094, 'val': 0.03638532757759094}, mf1:{'test': 0.027247650548815727, 'val': 0.027247650548815727}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_54_03  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03101699985563755, 'val': 0.03101699985563755}, mf1:{'test': 0.02154914103448391, 'val': 0.02154914103448391}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_02_25  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.031315241008996964, 'val': 0.031315241008996964}, mf1:{'test': 0.025686753913760185, 'val': 0.025686753913760185}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_20_58  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.027032211422920227, 'val': 0.027032211422920227}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_36_59  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03519236668944359, 'val': 0.03519236668944359}, mf1:{'test': 0.019660357385873795, 'val': 0.019660357385873795}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_50_09  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.02922755666077137, 'val': 0.02922755666077137}, mf1:{'test': 0.02442813292145729, 'val': 0.02442813292145729}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_00_23  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03459588438272476, 'val': 0.03459588438272476}, mf1:{'test': 0.027357174083590508, 'val': 0.027357174083590508}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_10_47  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03191171959042549, 'val': 0.03191171959042549}, mf1:{'test': 0.027740705758333206, 'val': 0.027740705758333206}
+
+PhonemeSpectra_dim256_depth2_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_21_33  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.036683566868305206, 'val': 0.036683566868305206}, mf1:{'test': 0.027591267600655556, 'val': 0.027591267600655556}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_28_53  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03519236668944359, 'val': 0.03519236668944359}, mf1:{'test': 0.028279032558202744, 'val': 0.028279032558202744}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_40_38  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.030420519411563873, 'val': 0.030420519411563873}, mf1:{'test': 0.027626128867268562, 'val': 0.027626128867268562}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_52_10  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03101699985563755, 'val': 0.03101699985563755}, mf1:{'test': 0.022958174347877502, 'val': 0.022958174347877502}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_08_07  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.031315241008996964, 'val': 0.031315241008996964}, mf1:{'test': 0.024917416274547577, 'val': 0.024917416274547577}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_18_21  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.030420519411563873, 'val': 0.030420519411563873}, mf1:{'test': 0.026695044711232185, 'val': 0.026695044711232185}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_29_10  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.036683566868305206, 'val': 0.036683566868305206}, mf1:{'test': 0.028190596029162407, 'val': 0.028190596029162407}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_37_13  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.033104684203863144, 'val': 0.033104684203863144}, mf1:{'test': 0.02197265811264515, 'val': 0.02197265811264515}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_43_48  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03161348029971123, 'val': 0.03161348029971123}, mf1:{'test': 0.02576393261551857, 'val': 0.02576393261551857}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_52_20  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.029525797814130783, 'val': 0.029525797814130783}, mf1:{'test': 0.024014610797166824, 'val': 0.024014610797166824}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_06_42  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.028631076216697693, 'val': 0.028631076216697693}, mf1:{'test': 0.024508703500032425, 'val': 0.024508703500032425}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_15_55  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.026231864467263222, 'val': 0.026231864467263222}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_27_12  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.032209962606430054, 'val': 0.032209962606430054}, mf1:{'test': 0.019894925877451897, 'val': 0.019894925877451897}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_35_52  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.030718758702278137, 'val': 0.030718758702278137}, mf1:{'test': 0.02477051503956318, 'val': 0.02477051503956318}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_44_02  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03101699985563755, 'val': 0.03101699985563755}, mf1:{'test': 0.025596193969249725, 'val': 0.025596193969249725}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_49_37  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.033104684203863144, 'val': 0.033104684203863144}, mf1:{'test': 0.017353329807519913, 'val': 0.017353329807519913}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_59_48  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.026309046894311905, 'val': 0.026309046894311905}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_16_03  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03191171959042549, 'val': 0.03191171959042549}, mf1:{'test': 0.024870386347174644, 'val': 0.024870386347174644}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_29_09  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.039964210242033005, 'val': 0.039964210242033005}, mf1:{'test': 0.03012688085436821, 'val': 0.03012688085436821}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_36_28  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.022506240755319595, 'val': 0.022506240755319595}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_45_26  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.029525797814130783, 'val': 0.029525797814130783}, mf1:{'test': 0.022204400971531868, 'val': 0.022204400971531868}
+
+PhonemeSpectra_dim128_depth2_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_51_53  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03370116278529167, 'val': 0.03370116278529167}, mf1:{'test': 0.026722639799118042, 'val': 0.026722639799118042}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_58_08  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.036683566868305206, 'val': 0.036683566868305206}, mf1:{'test': 0.02900046482682228, 'val': 0.02900046482682228}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_09_54  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03728004917502403, 'val': 0.03728004917502403}, mf1:{'test': 0.027070889249444008, 'val': 0.027070889249444008}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_23_26  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03519236668944359, 'val': 0.03519236668944359}, mf1:{'test': 0.02832544967532158, 'val': 0.02832544967532158}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_31_31  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.037578288465738297, 'val': 0.037578288465738297}, mf1:{'test': 0.03003556840121746, 'val': 0.03003556840121746}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_41_45  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03161348029971123, 'val': 0.03161348029971123}, mf1:{'test': 0.02646772190928459, 'val': 0.02646772190928459}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_47_43  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03728004917502403, 'val': 0.03728004917502403}, mf1:{'test': 0.028357496485114098, 'val': 0.028357496485114098}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_54_17  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04235013574361801, 'val': 0.04235013574361801}, mf1:{'test': 0.023078657686710358, 'val': 0.023078657686710358}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_04_24  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04712197929620743, 'val': 0.04712197929620743}, mf1:{'test': 0.022669514641165733, 'val': 0.022669514641165733}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_22_26  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.0432448536157608, 'val': 0.0432448536157608}, mf1:{'test': 0.023699047043919563, 'val': 0.023699047043919563}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_31_24  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04563077911734581, 'val': 0.04563077911734581}, mf1:{'test': 0.0299777090549469, 'val': 0.0299777090549469}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_42_29  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03370116278529167, 'val': 0.03370116278529167}, mf1:{'test': 0.02977626770734787, 'val': 0.02977626770734787}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_47_33  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03728004917502403, 'val': 0.03728004917502403}, mf1:{'test': 0.023531673476099968, 'val': 0.023531673476099968}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_54_10  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03519236668944359, 'val': 0.03519236668944359}, mf1:{'test': 0.022779934108257294, 'val': 0.022779934108257294}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_01_38  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.032209962606430054, 'val': 0.032209962606430054}, mf1:{'test': 0.01913953572511673, 'val': 0.01913953572511673}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_11_42  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04145541414618492, 'val': 0.04145541414618492}, mf1:{'test': 0.02035236917436123, 'val': 0.02035236917436123}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_24_30  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.033104684203863144, 'val': 0.033104684203863144}, mf1:{'test': 0.029958300292491913, 'val': 0.029958300292491913}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_33_31  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.022133048623800278, 'val': 0.022133048623800278}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_44_06  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.029824038967490196, 'val': 0.029824038967490196}, mf1:{'test': 0.023962436243891716, 'val': 0.023962436243891716}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_54_18  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.037578288465738297, 'val': 0.037578288465738297}, mf1:{'test': 0.028480609878897667, 'val': 0.028480609878897667}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_05_38  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03519236668944359, 'val': 0.03519236668944359}, mf1:{'test': 0.020354129374027252, 'val': 0.020354129374027252}
+
+PhonemeSpectra_dim64_depth2_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_11_14  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03549060598015785, 'val': 0.03549060598015785}, mf1:{'test': 0.02847634069621563, 'val': 0.02847634069621563}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_15_45  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.034894123673439026, 'val': 0.034894123673439026}, mf1:{'test': 0.02289969101548195, 'val': 0.02289969101548195}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_28_44  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04384133592247963, 'val': 0.04384133592247963}, mf1:{'test': 0.02337001822888851, 'val': 0.02337001822888851}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_39_14  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.041753653436899185, 'val': 0.041753653436899185}, mf1:{'test': 0.02127060666680336, 'val': 0.02127060666680336}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_49_17  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04115717113018036, 'val': 0.04115717113018036}, mf1:{'test': 0.02137167938053608, 'val': 0.02137167938053608}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_58_30  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03012227825820446, 'val': 0.03012227825820446}, mf1:{'test': 0.0182879026979208, 'val': 0.0182879026979208}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_09_28  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04026245325803757, 'val': 0.04026245325803757}, mf1:{'test': 0.018174292519688606, 'val': 0.018174292519688606}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_20_25  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03608708456158638, 'val': 0.03608708456158638}, mf1:{'test': 0.02754814922809601, 'val': 0.02754814922809601}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_25_45  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03877124935388565, 'val': 0.03877124935388565}, mf1:{'test': 0.01919606700539589, 'val': 0.01919606700539589}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_35_47  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03608708456158638, 'val': 0.03608708456158638}, mf1:{'test': 0.015461510978639126, 'val': 0.015461510978639126}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_46_32  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03787652775645256, 'val': 0.03787652775645256}, mf1:{'test': 0.02380206063389778, 'val': 0.02380206063389778}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_55_32  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03966597095131874, 'val': 0.03966597095131874}, mf1:{'test': 0.021763676777482033, 'val': 0.021763676777482033}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_06_46  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04056069254875183, 'val': 0.04056069254875183}, mf1:{'test': 0.025138821452856064, 'val': 0.025138821452856064}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_13_50  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04920966178178787, 'val': 0.04920966178178787}, mf1:{'test': 0.021516256034374237, 'val': 0.021516256034374237}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_24_00  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.024716831743717194, 'val': 0.024716831743717194}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_03_36_53  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03698180615901947, 'val': 0.03698180615901947}, mf1:{'test': 0.021085601300001144, 'val': 0.021085601300001144}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_03_47_04  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03012227825820446, 'val': 0.03012227825820446}, mf1:{'test': 0.02244645729660988, 'val': 0.02244645729660988}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_03_53_56  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03936773166060448, 'val': 0.03936773166060448}, mf1:{'test': 0.021255461499094963, 'val': 0.021255461499094963}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_07_31  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.04235013574361801, 'val': 0.04235013574361801}, mf1:{'test': 0.021051635965704918, 'val': 0.021051635965704918}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_19_44  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.041753653436899185, 'val': 0.041753653436899185}, mf1:{'test': 0.026664992794394493, 'val': 0.026664992794394493}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_27_46  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03728004917502403, 'val': 0.03728004917502403}, mf1:{'test': 0.018961330875754356, 'val': 0.018961330875754356}
+
+PhonemeSpectra_dim32_depth2_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_35_52  
+TSLANet_PhonemeSpectra_l_2  
+acc:{'test': 0.03966597095131874, 'val': 0.03966597095131874}, mf1:{'test': 0.022676603868603706, 'val': 0.022676603868603706}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_42_21  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.04235013574361801, 'val': 0.04235013574361801}, mf1:{'test': 0.02211206778883934, 'val': 0.02211206778883934}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_50_24  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.027861343696713448, 'val': 0.027861343696713448}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_55_50  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03101699985563755, 'val': 0.03101699985563755}, mf1:{'test': 0.026245195418596268, 'val': 0.026245195418596268}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_03_35  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03012227825820446, 'val': 0.03012227825820446}, mf1:{'test': 0.018256153911352158, 'val': 0.018256153911352158}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_11_08  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.040858931839466095, 'val': 0.040858931839466095}, mf1:{'test': 0.02668054960668087, 'val': 0.02668054960668087}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_17_11  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.019323252141475677, 'val': 0.019323252141475677}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_25_16  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03728004917502403, 'val': 0.03728004917502403}, mf1:{'test': 0.026633549481630325, 'val': 0.026633549481630325}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_32_04  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.02833283692598343, 'val': 0.02833283692598343}, mf1:{'test': 0.02432691864669323, 'val': 0.02432691864669323}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_38_08  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.031315241008996964, 'val': 0.031315241008996964}, mf1:{'test': 0.01847686804831028, 'val': 0.01847686804831028}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_44_10  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.04026245325803757, 'val': 0.04026245325803757}, mf1:{'test': 0.02132624387741089, 'val': 0.02132624387741089}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_55_17  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.026218868792057037, 'val': 0.026218868792057037}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_02_37  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03161348029971123, 'val': 0.03161348029971123}, mf1:{'test': 0.019043028354644775, 'val': 0.019043028354644775}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_07_17  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.02798532135784626, 'val': 0.02798532135784626}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_12_40  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03698180615901947, 'val': 0.03698180615901947}, mf1:{'test': 0.021564282476902008, 'val': 0.021564282476902008}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_18_03  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.026883438229560852, 'val': 0.026883438229560852}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_26_28  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.028034595772624016, 'val': 0.028034595772624016}, mf1:{'test': 0.026062197983264923, 'val': 0.026062197983264923}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_30_58  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.031315241008996964, 'val': 0.031315241008996964}, mf1:{'test': 0.028271855786442757, 'val': 0.028271855786442757}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_36_16  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.030718758702278137, 'val': 0.030718758702278137}, mf1:{'test': 0.025995688512921333, 'val': 0.025995688512921333}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_40_49  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03519236668944359, 'val': 0.03519236668944359}, mf1:{'test': 0.022752422839403152, 'val': 0.022752422839403152}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_47_17  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03519236668944359, 'val': 0.03519236668944359}, mf1:{'test': 0.028148852288722992, 'val': 0.028148852288722992}
+
+PhonemeSpectra_dim256_depth1_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_52_47  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03370116278529167, 'val': 0.03370116278529167}, mf1:{'test': 0.02746426872909069, 'val': 0.02746426872909069}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_56_31  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.04145541414618492, 'val': 0.04145541414618492}, mf1:{'test': 0.022282933816313744, 'val': 0.022282933816313744}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_05_42  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.0342976450920105, 'val': 0.0342976450920105}, mf1:{'test': 0.026114322245121002, 'val': 0.026114322245121002}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_12_18  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.02922755666077137, 'val': 0.02922755666077137}, mf1:{'test': 0.026914138346910477, 'val': 0.026914138346910477}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_17_30  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033104684203863144, 'val': 0.033104684203863144}, mf1:{'test': 0.026448747143149376, 'val': 0.026448747143149376}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_25_50  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03340292349457741, 'val': 0.03340292349457741}, mf1:{'test': 0.020770620554685593, 'val': 0.020770620554685593}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_32_01  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033104684203863144, 'val': 0.033104684203863144}, mf1:{'test': 0.02939356304705143, 'val': 0.02939356304705143}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_35_50  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033104684203863144, 'val': 0.033104684203863144}, mf1:{'test': 0.02939356304705143, 'val': 0.02939356304705143}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_39_27  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03728004917502403, 'val': 0.03728004917502403}, mf1:{'test': 0.018564198166131973, 'val': 0.018564198166131973}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_48_23  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03936773166060448, 'val': 0.03936773166060448}, mf1:{'test': 0.02276517078280449, 'val': 0.02276517078280449}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_54_27  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03608708456158638, 'val': 0.03608708456158638}, mf1:{'test': 0.0215211883187294, 'val': 0.0215211883187294}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_03_11  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03638532757759094, 'val': 0.03638532757759094}, mf1:{'test': 0.020625723525881767, 'val': 0.020625723525881767}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_09_12  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03549060598015785, 'val': 0.03549060598015785}, mf1:{'test': 0.02083292230963707, 'val': 0.02083292230963707}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_15_08  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.036683566868305206, 'val': 0.036683566868305206}, mf1:{'test': 0.02596738189458847, 'val': 0.02596738189458847}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_21_40  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.031311288475990295, 'val': 0.031311288475990295}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_25_29  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03728004917502403, 'val': 0.03728004917502403}, mf1:{'test': 0.029601113870739937, 'val': 0.029601113870739937}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_32_48  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.038174767047166824, 'val': 0.038174767047166824}, mf1:{'test': 0.0302139725536108, 'val': 0.0302139725536108}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_39_24  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03370116278529167, 'val': 0.03370116278529167}, mf1:{'test': 0.02764381282031536, 'val': 0.02764381282031536}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_43_23  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.02833283692598343, 'val': 0.02833283692598343}, mf1:{'test': 0.02175905369222164, 'val': 0.02175905369222164}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_48_06  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03638532757759094, 'val': 0.03638532757759094}, mf1:{'test': 0.028968535363674164, 'val': 0.028968535363674164}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_52_36  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033104684203863144, 'val': 0.033104684203863144}, mf1:{'test': 0.020232364535331726, 'val': 0.020232364535331726}
+
+PhonemeSpectra_dim128_depth1_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_57_18  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03787652775645256, 'val': 0.03787652775645256}, mf1:{'test': 0.02088521420955658, 'val': 0.02088521420955658}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_01_59  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03728004917502403, 'val': 0.03728004917502403}, mf1:{'test': 0.018519090488553047, 'val': 0.018519090488553047}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_07_59  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.038174767047166824, 'val': 0.038174767047166824}, mf1:{'test': 0.023651059716939926, 'val': 0.023651059716939926}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_15_40  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03340292349457741, 'val': 0.03340292349457741}, mf1:{'test': 0.021116062998771667, 'val': 0.021116062998771667}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_19_42  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03191171959042549, 'val': 0.03191171959042549}, mf1:{'test': 0.020292840898036957, 'val': 0.020292840898036957}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_23_15  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03698180615901947, 'val': 0.03698180615901947}, mf1:{'test': 0.020836912095546722, 'val': 0.020836912095546722}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_29_26  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03549060598015785, 'val': 0.03549060598015785}, mf1:{'test': 0.028521189466118813, 'val': 0.028521189466118813}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_32_58  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03608708456158638, 'val': 0.03608708456158638}, mf1:{'test': 0.020675189793109894, 'val': 0.020675189793109894}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_36_56  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.028929317370057106, 'val': 0.028929317370057106}, mf1:{'test': 0.024255162104964256, 'val': 0.024255162104964256}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_42_19  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03549060598015785, 'val': 0.03549060598015785}, mf1:{'test': 0.02706356719136238, 'val': 0.02706356719136238}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_48_46  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.02740398421883583, 'val': 0.02740398421883583}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_55_02  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.039964210242033005, 'val': 0.039964210242033005}, mf1:{'test': 0.029289070516824722, 'val': 0.029289070516824722}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_01_35  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.0432448536157608, 'val': 0.0432448536157608}, mf1:{'test': 0.027945341542363167, 'val': 0.027945341542363167}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_06_42  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03936773166060448, 'val': 0.03936773166060448}, mf1:{'test': 0.022530678659677505, 'val': 0.022530678659677505}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_11_40  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03638532757759094, 'val': 0.03638532757759094}, mf1:{'test': 0.02922787517309189, 'val': 0.02922787517309189}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_14_50  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.039964210242033005, 'val': 0.039964210242033005}, mf1:{'test': 0.021366063505411148, 'val': 0.021366063505411148}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_20_35  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.04235013574361801, 'val': 0.04235013574361801}, mf1:{'test': 0.021920790895819664, 'val': 0.021920790895819664}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_27_36  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03936773166060448, 'val': 0.03936773166060448}, mf1:{'test': 0.023483779281377792, 'val': 0.023483779281377792}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_34_41  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03877124935388565, 'val': 0.03877124935388565}, mf1:{'test': 0.02156762033700943, 'val': 0.02156762033700943}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_39_56  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.031315241008996964, 'val': 0.031315241008996964}, mf1:{'test': 0.02024887688457966, 'val': 0.02024887688457966}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_44_41  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03638532757759094, 'val': 0.03638532757759094}, mf1:{'test': 0.021064922213554382, 'val': 0.021064922213554382}
+
+PhonemeSpectra_dim64_depth1_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_49_12  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03638532757759094, 'val': 0.03638532757759094}, mf1:{'test': 0.021037230268120766, 'val': 0.021037230268120766}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_52_45  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.0432448536157608, 'val': 0.0432448536157608}, mf1:{'test': 0.02241314761340618, 'val': 0.02241314761340618}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_00_20  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.033999402076005936, 'val': 0.033999402076005936}, mf1:{'test': 0.019461361691355705, 'val': 0.019461361691355705}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch17_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_07_30  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03877124935388565, 'val': 0.03877124935388565}, mf1:{'test': 0.021694766357541084, 'val': 0.021694766357541084}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_13_19  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03936773166060448, 'val': 0.03936773166060448}, mf1:{'test': 0.02370835281908512, 'val': 0.02370835281908512}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch33_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_18_08  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03966597095131874, 'val': 0.03966597095131874}, mf1:{'test': 0.02195901796221733, 'val': 0.02195901796221733}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch44_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_22_24  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03638532757759094, 'val': 0.03638532757759094}, mf1:{'test': 0.018055010586977005, 'val': 0.018055010586977005}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch55_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_29_02  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.035788845270872116, 'val': 0.035788845270872116}, mf1:{'test': 0.019354863092303276, 'val': 0.019354863092303276}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_34_25  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.040858931839466095, 'val': 0.040858931839466095}, mf1:{'test': 0.02280511148273945, 'val': 0.02280511148273945}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_40_23  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03698180615901947, 'val': 0.03698180615901947}, mf1:{'test': 0.02538732811808586, 'val': 0.02538732811808586}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch17_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_46_09  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03936773166060448, 'val': 0.03936773166060448}, mf1:{'test': 0.0208022091537714, 'val': 0.0208022091537714}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_51_58  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.040858931839466095, 'val': 0.040858931839466095}, mf1:{'test': 0.02232009917497635, 'val': 0.02232009917497635}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch33_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_56_41  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.020625676959753036, 'val': 0.020625676959753036}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch44_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_00_37  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.02922755666077137, 'val': 0.02922755666077137}, mf1:{'test': 0.02037017233669758, 'val': 0.02037017233669758}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch55_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_04_43  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03250820189714432, 'val': 0.03250820189714432}, mf1:{'test': 0.018099607899785042, 'val': 0.018099607899785042}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_08_23  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.04622725769877434, 'val': 0.04622725769877434}, mf1:{'test': 0.017950208857655525, 'val': 0.017950208857655525}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_15_49  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.039069488644599915, 'val': 0.039069488644599915}, mf1:{'test': 0.021426483988761902, 'val': 0.021426483988761902}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch17_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_23_23  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.030718758702278137, 'val': 0.030718758702278137}, mf1:{'test': 0.01454478781670332, 'val': 0.01454478781670332}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_29_57  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03459588438272476, 'val': 0.03459588438272476}, mf1:{'test': 0.018255140632390976, 'val': 0.018255140632390976}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch33_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_33_43  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03608708456158638, 'val': 0.03608708456158638}, mf1:{'test': 0.020891260355710983, 'val': 0.020891260355710983}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch44_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_38_33  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03340292349457741, 'val': 0.03340292349457741}, mf1:{'test': 0.016797777265310287, 'val': 0.016797777265310287}
+
+PhonemeSpectra_dim32_depth1_mask0.4_patch55_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_42_16  
+TSLANet_PhonemeSpectra_l_1  
+acc:{'test': 0.03877124935388565, 'val': 0.03877124935388565}, mf1:{'test': 0.028720881789922714, 'val': 0.028720881789922714}
+

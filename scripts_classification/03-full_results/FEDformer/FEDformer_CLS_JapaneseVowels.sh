@@ -1,0 +1,5075 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 2048 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 2048 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 2048 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 2048 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 2048 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 2048 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 2048 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 1024 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 1024 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 1024 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 1024 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 1024 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 1024 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 1024 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 512 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 512 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 512 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 512 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 512 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 512 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 512 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 256 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 256 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 256 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 256 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 256 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 256 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 256 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 128 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 128 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 128 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 128 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 128 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 128 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 512 \
+  --d_ff 128 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 2048 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 2048 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 2048 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 2048 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 2048 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 2048 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 2048 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 1024 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 1024 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 1024 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 1024 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 1024 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 1024 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 1024 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 512 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 512 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 512 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 512 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 512 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 512 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 512 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 256 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 256 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 256 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 256 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 256 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 256 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 256 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 128 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 128 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 128 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 128 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 128 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 128 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 256 \
+  --d_ff 128 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 2048 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 2048 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 2048 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 2048 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 2048 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 2048 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 2048 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 1024 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 1024 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 1024 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 1024 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 1024 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 1024 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 1024 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 512 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 512 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 512 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 512 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 512 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 512 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 512 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 256 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 256 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 256 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 256 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 256 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 256 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 256 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 128 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 128 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 128 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 128 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 128 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 128 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 128 \
+  --d_ff 128 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 2048 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 2048 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 2048 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 2048 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 2048 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 2048 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 2048 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 1024 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 1024 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 1024 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 1024 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 1024 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 1024 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 1024 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 512 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 512 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 512 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 512 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 512 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 512 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 512 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 256 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 256 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 256 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 256 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 256 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 256 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 256 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 128 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 128 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 128 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 128 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 128 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 128 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 64 \
+  --d_ff 128 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 2048 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 2048 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 2048 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 2048 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 2048 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 2048 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 2048 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 1024 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 1024 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 1024 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 1024 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 1024 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 1024 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 1024 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 512 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 512 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 512 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 512 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 512 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 512 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 512 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 256 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 256 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 256 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 256 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 256 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 256 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 256 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 128 \
+  --moving_avg 15 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 128 \
+  --moving_avg 12 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 128 \
+  --moving_avg 9 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 128 \
+  --moving_avg 6 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 128 \
+  --moving_avg 3 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 128 \
+  --moving_avg 2 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --seq_len 29 \
+  --enc_in 12 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model FEDformer \
+  --model_id CLS_JapaneseVowels \
+  --e_layers 2 \
+  --n_heads 8 \
+  --d_model 32 \
+  --d_ff 128 \
+  --moving_avg 1 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

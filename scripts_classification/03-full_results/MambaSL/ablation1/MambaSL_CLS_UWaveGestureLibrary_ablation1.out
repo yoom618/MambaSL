@@ -1,0 +1,2901 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 2.424168109893799
+Epoch: 1, Steps: 8 | Train Loss: 2.002 Vali Loss: 1.637 Vali Acc: 0.794 Test Loss: 1.637 Test Acc: 0.794
+Validation loss decreased (inf --> -0.793734).  Saving model ...
+Epoch: 2 cost time: 1.147388219833374
+Epoch: 2, Steps: 8 | Train Loss: 0.944 Vali Loss: 0.582 Vali Acc: 0.819 Test Loss: 0.582 Test Acc: 0.819
+Validation loss decreased (-0.793734 --> -0.818744).  Saving model ...
+Epoch: 3 cost time: 1.4499351978302002
+Epoch: 3, Steps: 8 | Train Loss: 0.213 Vali Loss: 1.031 Vali Acc: 0.819 Test Loss: 1.031 Test Acc: 0.819
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.2849462032318115
+Epoch: 4, Steps: 8 | Train Loss: 0.053 Vali Loss: 2.388 Vali Acc: 0.766 Test Loss: 2.388 Test Acc: 0.766
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.2542057037353516
+Epoch: 5, Steps: 8 | Train Loss: 0.138 Vali Loss: 2.853 Vali Acc: 0.778 Test Loss: 2.853 Test Acc: 0.778
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9163975715637207
+Epoch: 6, Steps: 8 | Train Loss: 0.158 Vali Loss: 3.150 Vali Acc: 0.784 Test Loss: 3.150 Test Acc: 0.784
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.009659767150879
+Epoch: 7, Steps: 8 | Train Loss: 0.003 Vali Loss: 3.813 Vali Acc: 0.772 Test Loss: 3.813 Test Acc: 0.772
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.2128393650054932
+Epoch: 8, Steps: 8 | Train Loss: 0.014 Vali Loss: 3.960 Vali Acc: 0.803 Test Loss: 3.960 Test Acc: 0.803
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.8877711296081543
+Epoch: 9, Steps: 8 | Train Loss: 0.003 Vali Loss: 5.656 Vali Acc: 0.753 Test Loss: 5.656 Test Acc: 0.753
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.2444069385528564
+Epoch: 10, Steps: 8 | Train Loss: 0.142 Vali Loss: 4.776 Vali Acc: 0.759 Test Loss: 4.776 Test Acc: 0.759
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.1224329471588135
+Epoch: 11, Steps: 8 | Train Loss: 0.561 Vali Loss: 4.556 Vali Acc: 0.794 Test Loss: 4.556 Test Acc: 0.794
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.9620621204376221
+Epoch: 12, Steps: 8 | Train Loss: 1.076 Vali Loss: 5.167 Vali Acc: 0.700 Test Loss: 5.167 Test Acc: 0.700
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.81875
+model parameter : 5926912
+model size : 42.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.260936975479126
+Epoch: 1, Steps: 8 | Train Loss: 2.023 Vali Loss: 1.633 Vali Acc: 0.803 Test Loss: 1.633 Test Acc: 0.803
+Validation loss decreased (inf --> -0.803109).  Saving model ...
+Epoch: 2 cost time: 1.1153957843780518
+Epoch: 2, Steps: 8 | Train Loss: 0.951 Vali Loss: 0.562 Vali Acc: 0.825 Test Loss: 0.562 Test Acc: 0.825
+Validation loss decreased (-0.803109 --> -0.824994).  Saving model ...
+Epoch: 3 cost time: 1.0220742225646973
+Epoch: 3, Steps: 8 | Train Loss: 0.245 Vali Loss: 1.079 Vali Acc: 0.806 Test Loss: 1.079 Test Acc: 0.806
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.191049575805664
+Epoch: 4, Steps: 8 | Train Loss: 0.068 Vali Loss: 1.861 Vali Acc: 0.769 Test Loss: 1.861 Test Acc: 0.769
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.144300937652588
+Epoch: 5, Steps: 8 | Train Loss: 0.110 Vali Loss: 2.077 Vali Acc: 0.812 Test Loss: 2.077 Test Acc: 0.812
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9891345500946045
+Epoch: 6, Steps: 8 | Train Loss: 0.215 Vali Loss: 3.791 Vali Acc: 0.744 Test Loss: 3.791 Test Acc: 0.744
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.3293061256408691
+Epoch: 7, Steps: 8 | Train Loss: 0.163 Vali Loss: 3.167 Vali Acc: 0.744 Test Loss: 3.167 Test Acc: 0.744
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.2958848476409912
+Epoch: 8, Steps: 8 | Train Loss: 0.131 Vali Loss: 2.666 Vali Acc: 0.781 Test Loss: 2.666 Test Acc: 0.781
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.3231675624847412
+Epoch: 9, Steps: 8 | Train Loss: 0.059 Vali Loss: 2.508 Vali Acc: 0.775 Test Loss: 2.508 Test Acc: 0.775
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.2889246940612793
+Epoch: 10, Steps: 8 | Train Loss: 0.189 Vali Loss: 2.640 Vali Acc: 0.756 Test Loss: 2.640 Test Acc: 0.756
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.0825893878936768
+Epoch: 11, Steps: 8 | Train Loss: 0.016 Vali Loss: 3.020 Vali Acc: 0.728 Test Loss: 3.020 Test Acc: 0.728
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.1865224838256836
+Epoch: 12, Steps: 8 | Train Loss: 0.199 Vali Loss: 4.773 Vali Acc: 0.719 Test Loss: 4.773 Test Acc: 0.719
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.825
+model parameter : 5902336
+model size : 42.05MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.6989684104919434
+Epoch: 1, Steps: 8 | Train Loss: 2.021 Vali Loss: 1.638 Vali Acc: 0.762 Test Loss: 1.638 Test Acc: 0.762
+Validation loss decreased (inf --> -0.762484).  Saving model ...
+Epoch: 2 cost time: 0.9654676914215088
+Epoch: 2, Steps: 8 | Train Loss: 0.946 Vali Loss: 0.593 Vali Acc: 0.812 Test Loss: 0.593 Test Acc: 0.812
+Validation loss decreased (-0.762484 --> -0.812494).  Saving model ...
+Epoch: 3 cost time: 1.4154205322265625
+Epoch: 3, Steps: 8 | Train Loss: 0.273 Vali Loss: 1.285 Vali Acc: 0.791 Test Loss: 1.285 Test Acc: 0.791
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.0668468475341797
+Epoch: 4, Steps: 8 | Train Loss: 0.067 Vali Loss: 2.274 Vali Acc: 0.797 Test Loss: 2.274 Test Acc: 0.797
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.1407287120819092
+Epoch: 5, Steps: 8 | Train Loss: 0.149 Vali Loss: 3.343 Vali Acc: 0.784 Test Loss: 3.343 Test Acc: 0.784
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.350433111190796
+Epoch: 6, Steps: 8 | Train Loss: 0.027 Vali Loss: 3.347 Vali Acc: 0.738 Test Loss: 3.347 Test Acc: 0.738
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.3392143249511719
+Epoch: 7, Steps: 8 | Train Loss: 0.118 Vali Loss: 2.096 Vali Acc: 0.784 Test Loss: 2.096 Test Acc: 0.784
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.4782390594482422
+Epoch: 8, Steps: 8 | Train Loss: 0.058 Vali Loss: 2.189 Vali Acc: 0.800 Test Loss: 2.189 Test Acc: 0.800
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.3596608638763428
+Epoch: 9, Steps: 8 | Train Loss: 0.058 Vali Loss: 2.147 Vali Acc: 0.791 Test Loss: 2.147 Test Acc: 0.791
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.3005414009094238
+Epoch: 10, Steps: 8 | Train Loss: 0.018 Vali Loss: 4.122 Vali Acc: 0.713 Test Loss: 4.122 Test Acc: 0.713
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.397869348526001
+Epoch: 11, Steps: 8 | Train Loss: 0.116 Vali Loss: 3.844 Vali Acc: 0.728 Test Loss: 3.844 Test Acc: 0.728
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.1288692951202393
+Epoch: 12, Steps: 8 | Train Loss: 0.190 Vali Loss: 4.072 Vali Acc: 0.750 Test Loss: 4.072 Test Acc: 0.750
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.8125
+model parameter : 5890048
+model size : 42.01MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.9249274730682373
+Epoch: 1, Steps: 8 | Train Loss: 2.019 Vali Loss: 1.656 Vali Acc: 0.772 Test Loss: 1.656 Test Acc: 0.772
+Validation loss decreased (inf --> -0.771858).  Saving model ...
+Epoch: 2 cost time: 1.5065090656280518
+Epoch: 2, Steps: 8 | Train Loss: 0.961 Vali Loss: 0.601 Vali Acc: 0.825 Test Loss: 0.601 Test Acc: 0.825
+Validation loss decreased (-0.771858 --> -0.824994).  Saving model ...
+Epoch: 3 cost time: 1.1798598766326904
+Epoch: 3, Steps: 8 | Train Loss: 0.419 Vali Loss: 1.058 Vali Acc: 0.803 Test Loss: 1.058 Test Acc: 0.803
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.0383572578430176
+Epoch: 4, Steps: 8 | Train Loss: 0.098 Vali Loss: 1.505 Vali Acc: 0.806 Test Loss: 1.505 Test Acc: 0.806
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.8233821392059326
+Epoch: 5, Steps: 8 | Train Loss: 0.011 Vali Loss: 2.155 Vali Acc: 0.759 Test Loss: 2.155 Test Acc: 0.759
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.2720792293548584
+Epoch: 6, Steps: 8 | Train Loss: 0.053 Vali Loss: 2.203 Vali Acc: 0.772 Test Loss: 2.203 Test Acc: 0.772
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.4082400798797607
+Epoch: 7, Steps: 8 | Train Loss: 0.011 Vali Loss: 2.326 Vali Acc: 0.791 Test Loss: 2.326 Test Acc: 0.791
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.1529810428619385
+Epoch: 8, Steps: 8 | Train Loss: 0.038 Vali Loss: 2.537 Vali Acc: 0.800 Test Loss: 2.537 Test Acc: 0.800
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.3730583190917969
+Epoch: 9, Steps: 8 | Train Loss: 0.206 Vali Loss: 3.004 Vali Acc: 0.803 Test Loss: 3.004 Test Acc: 0.803
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.210470199584961
+Epoch: 10, Steps: 8 | Train Loss: 0.175 Vali Loss: 2.585 Vali Acc: 0.791 Test Loss: 2.585 Test Acc: 0.791
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.1554896831512451
+Epoch: 11, Steps: 8 | Train Loss: 0.103 Vali Loss: 1.544 Vali Acc: 0.816 Test Loss: 1.544 Test Acc: 0.816
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.2976713180541992
+Epoch: 12, Steps: 8 | Train Loss: 0.181 Vali Loss: 5.060 Vali Acc: 0.725 Test Loss: 5.060 Test Acc: 0.725
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.825
+model parameter : 5883904
+model size : 41.98MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.6521449089050293
+Epoch: 1, Steps: 8 | Train Loss: 2.024 Vali Loss: 1.661 Vali Acc: 0.797 Test Loss: 1.661 Test Acc: 0.797
+Validation loss decreased (inf --> -0.796858).  Saving model ...
+Epoch: 2 cost time: 0.8606522083282471
+Epoch: 2, Steps: 8 | Train Loss: 1.001 Vali Loss: 0.601 Vali Acc: 0.816 Test Loss: 0.601 Test Acc: 0.816
+Validation loss decreased (-0.796858 --> -0.815619).  Saving model ...
+Epoch: 3 cost time: 1.031740665435791
+Epoch: 3, Steps: 8 | Train Loss: 0.375 Vali Loss: 0.963 Vali Acc: 0.812 Test Loss: 0.963 Test Acc: 0.812
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.023191213607788
+Epoch: 4, Steps: 8 | Train Loss: 0.100 Vali Loss: 1.234 Vali Acc: 0.809 Test Loss: 1.234 Test Acc: 0.809
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.098642110824585
+Epoch: 5, Steps: 8 | Train Loss: 0.073 Vali Loss: 1.738 Vali Acc: 0.778 Test Loss: 1.738 Test Acc: 0.778
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.0570852756500244
+Epoch: 6, Steps: 8 | Train Loss: 0.008 Vali Loss: 1.866 Vali Acc: 0.791 Test Loss: 1.866 Test Acc: 0.791
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.1073760986328125
+Epoch: 7, Steps: 8 | Train Loss: 0.127 Vali Loss: 1.956 Vali Acc: 0.784 Test Loss: 1.956 Test Acc: 0.784
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.5705528259277344
+Epoch: 8, Steps: 8 | Train Loss: 0.081 Vali Loss: 2.348 Vali Acc: 0.734 Test Loss: 2.348 Test Acc: 0.734
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.1345179080963135
+Epoch: 9, Steps: 8 | Train Loss: 0.055 Vali Loss: 3.063 Vali Acc: 0.775 Test Loss: 3.063 Test Acc: 0.775
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.0771262645721436
+Epoch: 10, Steps: 8 | Train Loss: 0.001 Vali Loss: 3.794 Vali Acc: 0.744 Test Loss: 3.794 Test Acc: 0.744
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.199822187423706
+Epoch: 11, Steps: 8 | Train Loss: 0.553 Vali Loss: 3.059 Vali Acc: 0.766 Test Loss: 3.059 Test Acc: 0.766
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.4199144840240479
+Epoch: 12, Steps: 8 | Train Loss: 0.006 Vali Loss: 2.788 Vali Acc: 0.806 Test Loss: 2.788 Test Acc: 0.806
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm1024_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.815625
+model parameter : 5880832
+model size : 41.97MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.76871395111084
+Epoch: 1, Steps: 8 | Train Loss: 2.045 Vali Loss: 1.875 Vali Acc: 0.775 Test Loss: 1.875 Test Acc: 0.775
+Validation loss decreased (inf --> -0.774981).  Saving model ...
+Epoch: 2 cost time: 0.9792952537536621
+Epoch: 2, Steps: 8 | Train Loss: 1.436 Vali Loss: 0.953 Vali Acc: 0.825 Test Loss: 0.953 Test Acc: 0.825
+Validation loss decreased (-0.774981 --> -0.824990).  Saving model ...
+Epoch: 3 cost time: 1.2936656475067139
+Epoch: 3, Steps: 8 | Train Loss: 0.448 Vali Loss: 0.582 Vali Acc: 0.834 Test Loss: 0.582 Test Acc: 0.834
+Validation loss decreased (-0.824990 --> -0.834369).  Saving model ...
+Epoch: 4 cost time: 0.8452324867248535
+Epoch: 4, Steps: 8 | Train Loss: 0.109 Vali Loss: 1.121 Vali Acc: 0.812 Test Loss: 1.121 Test Acc: 0.812
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.035308599472046
+Epoch: 5, Steps: 8 | Train Loss: 0.023 Vali Loss: 1.684 Vali Acc: 0.800 Test Loss: 1.684 Test Acc: 0.800
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 0.8130171298980713
+Epoch: 6, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.967 Vali Acc: 0.797 Test Loss: 1.967 Test Acc: 0.797
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 0.7284553050994873
+Epoch: 7, Steps: 8 | Train Loss: 0.021 Vali Loss: 2.373 Vali Acc: 0.781 Test Loss: 2.373 Test Acc: 0.781
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 0.9345850944519043
+Epoch: 8, Steps: 8 | Train Loss: 0.001 Vali Loss: 2.291 Vali Acc: 0.803 Test Loss: 2.291 Test Acc: 0.803
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 0.9391257762908936
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.340 Vali Acc: 0.797 Test Loss: 2.340 Test Acc: 0.797
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.0168812274932861
+Epoch: 10, Steps: 8 | Train Loss: 0.002 Vali Loss: 2.276 Vali Acc: 0.803 Test Loss: 2.276 Test Acc: 0.803
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.6151509284973145
+Epoch: 11, Steps: 8 | Train Loss: 0.015 Vali Loss: 3.012 Vali Acc: 0.803 Test Loss: 3.012 Test Acc: 0.803
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 0.9450528621673584
+Epoch: 12, Steps: 8 | Train Loss: 0.023 Vali Loss: 2.696 Vali Acc: 0.803 Test Loss: 2.696 Test Acc: 0.803
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.0478899478912354
+Epoch: 13, Steps: 8 | Train Loss: 0.025 Vali Loss: 3.215 Vali Acc: 0.762 Test Loss: 3.215 Test Acc: 0.762
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.834375
+model parameter : 2144256
+model size : 17.95MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.827023506164551
+Epoch: 1, Steps: 8 | Train Loss: 2.038 Vali Loss: 1.855 Vali Acc: 0.781 Test Loss: 1.855 Test Acc: 0.781
+Validation loss decreased (inf --> -0.781231).  Saving model ...
+Epoch: 2 cost time: 0.9871413707733154
+Epoch: 2, Steps: 8 | Train Loss: 1.424 Vali Loss: 0.931 Vali Acc: 0.816 Test Loss: 0.931 Test Acc: 0.816
+Validation loss decreased (-0.781231 --> -0.815616).  Saving model ...
+Epoch: 3 cost time: 0.9816787242889404
+Epoch: 3, Steps: 8 | Train Loss: 0.381 Vali Loss: 0.616 Vali Acc: 0.825 Test Loss: 0.616 Test Acc: 0.825
+Validation loss decreased (-0.815616 --> -0.824994).  Saving model ...
+Epoch: 4 cost time: 0.7973542213439941
+Epoch: 4, Steps: 8 | Train Loss: 0.163 Vali Loss: 1.128 Vali Acc: 0.800 Test Loss: 1.128 Test Acc: 0.800
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.0486042499542236
+Epoch: 5, Steps: 8 | Train Loss: 0.079 Vali Loss: 1.827 Vali Acc: 0.784 Test Loss: 1.827 Test Acc: 0.784
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.004237413406372
+Epoch: 6, Steps: 8 | Train Loss: 0.006 Vali Loss: 2.239 Vali Acc: 0.797 Test Loss: 2.239 Test Acc: 0.797
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.0298995971679688
+Epoch: 7, Steps: 8 | Train Loss: 0.011 Vali Loss: 2.225 Vali Acc: 0.797 Test Loss: 2.225 Test Acc: 0.797
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 0.7296137809753418
+Epoch: 8, Steps: 8 | Train Loss: 0.001 Vali Loss: 2.268 Vali Acc: 0.787 Test Loss: 2.268 Test Acc: 0.787
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.1645140647888184
+Epoch: 9, Steps: 8 | Train Loss: 0.004 Vali Loss: 2.307 Vali Acc: 0.800 Test Loss: 2.307 Test Acc: 0.800
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.0167951583862305
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.514 Vali Acc: 0.812 Test Loss: 2.514 Test Acc: 0.812
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 0.9320480823516846
+Epoch: 11, Steps: 8 | Train Loss: 0.001 Vali Loss: 2.691 Vali Acc: 0.806 Test Loss: 2.691 Test Acc: 0.806
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.1907753944396973
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.910 Vali Acc: 0.797 Test Loss: 2.910 Test Acc: 0.797
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.1737051010131836
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 3.023 Vali Acc: 0.791 Test Loss: 3.023 Test Acc: 0.791
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.825
+model parameter : 2131968
+model size : 17.90MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.44061017036438
+Epoch: 1, Steps: 8 | Train Loss: 2.040 Vali Loss: 1.863 Vali Acc: 0.803 Test Loss: 1.863 Test Acc: 0.803
+Validation loss decreased (inf --> -0.803106).  Saving model ...
+Epoch: 2 cost time: 1.1622228622436523
+Epoch: 2, Steps: 8 | Train Loss: 1.456 Vali Loss: 0.979 Vali Acc: 0.825 Test Loss: 0.979 Test Acc: 0.825
+Validation loss decreased (-0.803106 --> -0.824990).  Saving model ...
+Epoch: 3 cost time: 1.080622911453247
+Epoch: 3, Steps: 8 | Train Loss: 0.498 Vali Loss: 0.568 Vali Acc: 0.834 Test Loss: 0.568 Test Acc: 0.834
+Validation loss decreased (-0.824990 --> -0.834369).  Saving model ...
+Epoch: 4 cost time: 1.035804271697998
+Epoch: 4, Steps: 8 | Train Loss: 0.123 Vali Loss: 0.942 Vali Acc: 0.794 Test Loss: 0.942 Test Acc: 0.794
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.3340539932250977
+Epoch: 5, Steps: 8 | Train Loss: 0.036 Vali Loss: 1.494 Vali Acc: 0.791 Test Loss: 1.494 Test Acc: 0.791
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.067002296447754
+Epoch: 6, Steps: 8 | Train Loss: 0.009 Vali Loss: 1.857 Vali Acc: 0.803 Test Loss: 1.857 Test Acc: 0.803
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 0.9934031963348389
+Epoch: 7, Steps: 8 | Train Loss: 0.022 Vali Loss: 1.978 Vali Acc: 0.778 Test Loss: 1.978 Test Acc: 0.778
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.2189528942108154
+Epoch: 8, Steps: 8 | Train Loss: 0.002 Vali Loss: 2.454 Vali Acc: 0.766 Test Loss: 2.454 Test Acc: 0.766
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.0768303871154785
+Epoch: 9, Steps: 8 | Train Loss: 0.004 Vali Loss: 2.413 Vali Acc: 0.762 Test Loss: 2.413 Test Acc: 0.762
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.0140256881713867
+Epoch: 10, Steps: 8 | Train Loss: 0.001 Vali Loss: 2.678 Vali Acc: 0.772 Test Loss: 2.678 Test Acc: 0.772
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 0.8825862407684326
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.710 Vali Acc: 0.784 Test Loss: 2.710 Test Acc: 0.784
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.1113078594207764
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.704 Vali Acc: 0.784 Test Loss: 2.704 Test Acc: 0.784
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.0272929668426514
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.675 Vali Acc: 0.791 Test Loss: 2.675 Test Acc: 0.791
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.834375
+model parameter : 2125824
+model size : 17.88MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.4046411514282227
+Epoch: 1, Steps: 8 | Train Loss: 2.038 Vali Loss: 1.844 Vali Acc: 0.794 Test Loss: 1.844 Test Acc: 0.794
+Validation loss decreased (inf --> -0.793732).  Saving model ...
+Epoch: 2 cost time: 1.021763801574707
+Epoch: 2, Steps: 8 | Train Loss: 1.400 Vali Loss: 0.932 Vali Acc: 0.812 Test Loss: 0.932 Test Acc: 0.812
+Validation loss decreased (-0.793732 --> -0.812491).  Saving model ...
+Epoch: 3 cost time: 0.9559187889099121
+Epoch: 3, Steps: 8 | Train Loss: 0.524 Vali Loss: 0.604 Vali Acc: 0.806 Test Loss: 0.604 Test Acc: 0.806
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.0374855995178223
+Epoch: 4, Steps: 8 | Train Loss: 0.141 Vali Loss: 0.786 Vali Acc: 0.844 Test Loss: 0.786 Test Acc: 0.844
+Validation loss decreased (-0.812491 --> -0.843742).  Saving model ...
+Epoch: 5 cost time: 1.2993528842926025
+Epoch: 5, Steps: 8 | Train Loss: 0.054 Vali Loss: 1.304 Vali Acc: 0.803 Test Loss: 1.304 Test Acc: 0.803
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.1195576190948486
+Epoch: 6, Steps: 8 | Train Loss: 0.055 Vali Loss: 1.812 Vali Acc: 0.800 Test Loss: 1.812 Test Acc: 0.800
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 1.0125548839569092
+Epoch: 7, Steps: 8 | Train Loss: 0.009 Vali Loss: 2.186 Vali Acc: 0.775 Test Loss: 2.186 Test Acc: 0.775
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 1.4265332221984863
+Epoch: 8, Steps: 8 | Train Loss: 0.003 Vali Loss: 2.465 Vali Acc: 0.766 Test Loss: 2.465 Test Acc: 0.766
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 1.3639132976531982
+Epoch: 9, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.897 Vali Acc: 0.766 Test Loss: 2.897 Test Acc: 0.766
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 1.0725538730621338
+Epoch: 10, Steps: 8 | Train Loss: 0.022 Vali Loss: 3.044 Vali Acc: 0.762 Test Loss: 3.044 Test Acc: 0.762
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 1.5211546421051025
+Epoch: 11, Steps: 8 | Train Loss: 0.188 Vali Loss: 2.415 Vali Acc: 0.778 Test Loss: 2.415 Test Acc: 0.778
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 1.391965627670288
+Epoch: 12, Steps: 8 | Train Loss: 0.005 Vali Loss: 2.048 Vali Acc: 0.791 Test Loss: 2.048 Test Acc: 0.791
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 1.4595413208007812
+Epoch: 13, Steps: 8 | Train Loss: 0.002 Vali Loss: 2.294 Vali Acc: 0.778 Test Loss: 2.294 Test Acc: 0.778
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 1.2708139419555664
+Epoch: 14, Steps: 8 | Train Loss: 0.001 Vali Loss: 2.932 Vali Acc: 0.794 Test Loss: 2.932 Test Acc: 0.794
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.84375
+model parameter : 2122752
+model size : 17.87MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.6268630027770996
+Epoch: 1, Steps: 8 | Train Loss: 2.049 Vali Loss: 1.852 Vali Acc: 0.806 Test Loss: 1.852 Test Acc: 0.806
+Validation loss decreased (inf --> -0.806231).  Saving model ...
+Epoch: 2 cost time: 1.1015985012054443
+Epoch: 2, Steps: 8 | Train Loss: 1.394 Vali Loss: 0.957 Vali Acc: 0.828 Test Loss: 0.957 Test Acc: 0.828
+Validation loss decreased (-0.806231 --> -0.828115).  Saving model ...
+Epoch: 3 cost time: 0.956721305847168
+Epoch: 3, Steps: 8 | Train Loss: 0.404 Vali Loss: 0.634 Vali Acc: 0.828 Test Loss: 0.634 Test Acc: 0.828
+Validation loss decreased (-0.828115 --> -0.828119).  Saving model ...
+Epoch: 4 cost time: 0.8659648895263672
+Epoch: 4, Steps: 8 | Train Loss: 0.179 Vali Loss: 1.107 Vali Acc: 0.816 Test Loss: 1.107 Test Acc: 0.816
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.3960251808166504
+Epoch: 5, Steps: 8 | Train Loss: 0.022 Vali Loss: 1.915 Vali Acc: 0.762 Test Loss: 1.915 Test Acc: 0.762
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.2070274353027344
+Epoch: 6, Steps: 8 | Train Loss: 0.107 Vali Loss: 1.962 Vali Acc: 0.803 Test Loss: 1.962 Test Acc: 0.803
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 0.6931004524230957
+Epoch: 7, Steps: 8 | Train Loss: 0.009 Vali Loss: 2.324 Vali Acc: 0.778 Test Loss: 2.324 Test Acc: 0.778
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.213679313659668
+Epoch: 8, Steps: 8 | Train Loss: 0.027 Vali Loss: 2.213 Vali Acc: 0.781 Test Loss: 2.213 Test Acc: 0.781
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 0.7969765663146973
+Epoch: 9, Steps: 8 | Train Loss: 0.001 Vali Loss: 2.111 Vali Acc: 0.781 Test Loss: 2.111 Test Acc: 0.781
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.138627290725708
+Epoch: 10, Steps: 8 | Train Loss: 0.001 Vali Loss: 2.062 Vali Acc: 0.791 Test Loss: 2.062 Test Acc: 0.791
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.0076758861541748
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.047 Vali Acc: 0.806 Test Loss: 2.047 Test Acc: 0.806
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 0.8494784832000732
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.048 Vali Acc: 0.816 Test Loss: 2.048 Test Acc: 0.816
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 0.8235023021697998
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 2.043 Vali Acc: 0.816 Test Loss: 2.043 Test Acc: 0.816
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm512_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.828125
+model parameter : 2121216
+model size : 17.86MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.9434525966644287
+Epoch: 1, Steps: 8 | Train Loss: 2.055 Vali Loss: 1.960 Vali Acc: 0.706 Test Loss: 1.960 Test Acc: 0.706
+Validation loss decreased (inf --> -0.706230).  Saving model ...
+Epoch: 2 cost time: 0.9984419345855713
+Epoch: 2, Steps: 8 | Train Loss: 1.764 Vali Loss: 1.509 Vali Acc: 0.791 Test Loss: 1.509 Test Acc: 0.791
+Validation loss decreased (-0.706230 --> -0.790610).  Saving model ...
+Epoch: 3 cost time: 1.1762900352478027
+Epoch: 3, Steps: 8 | Train Loss: 1.105 Vali Loss: 0.863 Vali Acc: 0.806 Test Loss: 0.863 Test Acc: 0.806
+Validation loss decreased (-0.790610 --> -0.806241).  Saving model ...
+Epoch: 4 cost time: 1.1161248683929443
+Epoch: 4, Steps: 8 | Train Loss: 0.458 Vali Loss: 0.561 Vali Acc: 0.819 Test Loss: 0.561 Test Acc: 0.819
+Validation loss decreased (-0.806241 --> -0.818744).  Saving model ...
+Epoch: 5 cost time: 1.2378528118133545
+Epoch: 5, Steps: 8 | Train Loss: 0.198 Vali Loss: 0.576 Vali Acc: 0.828 Test Loss: 0.576 Test Acc: 0.828
+Validation loss decreased (-0.818744 --> -0.828119).  Saving model ...
+Epoch: 6 cost time: 1.210639476776123
+Epoch: 6, Steps: 8 | Train Loss: 0.046 Vali Loss: 0.818 Vali Acc: 0.803 Test Loss: 0.818 Test Acc: 0.803
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.4745559692382812
+Epoch: 7, Steps: 8 | Train Loss: 0.010 Vali Loss: 1.096 Vali Acc: 0.806 Test Loss: 1.096 Test Acc: 0.806
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.2587699890136719
+Epoch: 8, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.323 Vali Acc: 0.812 Test Loss: 1.323 Test Acc: 0.812
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.1753990650177002
+Epoch: 9, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.476 Vali Acc: 0.800 Test Loss: 1.476 Test Acc: 0.800
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.1972253322601318
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.572 Vali Acc: 0.781 Test Loss: 1.572 Test Acc: 0.781
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.0739383697509766
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.623 Vali Acc: 0.784 Test Loss: 1.623 Test Acc: 0.784
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.1957285404205322
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.638 Vali Acc: 0.787 Test Loss: 1.638 Test Acc: 0.787
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.1410627365112305
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.639 Vali Acc: 0.791 Test Loss: 1.639 Test Acc: 0.791
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.2537269592285156
+Epoch: 14, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.640 Vali Acc: 0.797 Test Loss: 1.640 Test Acc: 0.797
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.3091089725494385
+Epoch: 15, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.636 Vali Acc: 0.794 Test Loss: 1.636 Test Acc: 0.794
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.828125
+model parameter : 867328
+model size : 8.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.5613913536071777
+Epoch: 1, Steps: 8 | Train Loss: 2.060 Vali Loss: 1.962 Vali Acc: 0.688 Test Loss: 1.962 Test Acc: 0.688
+Validation loss decreased (inf --> -0.687480).  Saving model ...
+Epoch: 2 cost time: 0.8100264072418213
+Epoch: 2, Steps: 8 | Train Loss: 1.761 Vali Loss: 1.515 Vali Acc: 0.797 Test Loss: 1.515 Test Acc: 0.797
+Validation loss decreased (-0.687480 --> -0.796860).  Saving model ...
+Epoch: 3 cost time: 1.4158785343170166
+Epoch: 3, Steps: 8 | Train Loss: 1.109 Vali Loss: 0.909 Vali Acc: 0.766 Test Loss: 0.909 Test Acc: 0.766
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.2191481590270996
+Epoch: 4, Steps: 8 | Train Loss: 0.508 Vali Loss: 0.606 Vali Acc: 0.816 Test Loss: 0.606 Test Acc: 0.816
+Validation loss decreased (-0.796860 --> -0.815619).  Saving model ...
+Epoch: 5 cost time: 1.1466379165649414
+Epoch: 5, Steps: 8 | Train Loss: 0.233 Vali Loss: 0.585 Vali Acc: 0.825 Test Loss: 0.585 Test Acc: 0.825
+Validation loss decreased (-0.815619 --> -0.824994).  Saving model ...
+Epoch: 6 cost time: 1.1960809230804443
+Epoch: 6, Steps: 8 | Train Loss: 0.094 Vali Loss: 0.726 Vali Acc: 0.816 Test Loss: 0.726 Test Acc: 0.816
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.000584602355957
+Epoch: 7, Steps: 8 | Train Loss: 0.017 Vali Loss: 0.959 Vali Acc: 0.803 Test Loss: 0.959 Test Acc: 0.803
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 0.8991093635559082
+Epoch: 8, Steps: 8 | Train Loss: 0.005 Vali Loss: 1.152 Vali Acc: 0.800 Test Loss: 1.152 Test Acc: 0.800
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.080127477645874
+Epoch: 9, Steps: 8 | Train Loss: 0.003 Vali Loss: 1.272 Vali Acc: 0.787 Test Loss: 1.272 Test Acc: 0.787
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 0.9379088878631592
+Epoch: 10, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.332 Vali Acc: 0.800 Test Loss: 1.332 Test Acc: 0.800
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.0462534427642822
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.376 Vali Acc: 0.806 Test Loss: 1.376 Test Acc: 0.806
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.0637075901031494
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.408 Vali Acc: 0.812 Test Loss: 1.408 Test Acc: 0.812
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 0.9322893619537354
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.427 Vali Acc: 0.812 Test Loss: 1.427 Test Acc: 0.812
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.051898717880249
+Epoch: 14, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.439 Vali Acc: 0.816 Test Loss: 1.439 Test Acc: 0.816
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.2163236141204834
+Epoch: 15, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.448 Vali Acc: 0.816 Test Loss: 1.448 Test Acc: 0.816
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.825
+model parameter : 861184
+model size : 8.17MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.149970531463623
+Epoch: 1, Steps: 8 | Train Loss: 2.033 Vali Loss: 1.950 Vali Acc: 0.741 Test Loss: 1.950 Test Acc: 0.741
+Validation loss decreased (inf --> -0.740606).  Saving model ...
+Epoch: 2 cost time: 1.0523512363433838
+Epoch: 2, Steps: 8 | Train Loss: 1.754 Vali Loss: 1.497 Vali Acc: 0.762 Test Loss: 1.497 Test Acc: 0.762
+Validation loss decreased (-0.740606 --> -0.762485).  Saving model ...
+Epoch: 3 cost time: 1.3320629596710205
+Epoch: 3, Steps: 8 | Train Loss: 1.113 Vali Loss: 0.874 Vali Acc: 0.784 Test Loss: 0.874 Test Acc: 0.784
+Validation loss decreased (-0.762485 --> -0.784366).  Saving model ...
+Epoch: 4 cost time: 0.8782403469085693
+Epoch: 4, Steps: 8 | Train Loss: 0.510 Vali Loss: 0.586 Vali Acc: 0.812 Test Loss: 0.586 Test Acc: 0.812
+Validation loss decreased (-0.784366 --> -0.812494).  Saving model ...
+Epoch: 5 cost time: 1.0464801788330078
+Epoch: 5, Steps: 8 | Train Loss: 0.225 Vali Loss: 0.583 Vali Acc: 0.825 Test Loss: 0.583 Test Acc: 0.825
+Validation loss decreased (-0.812494 --> -0.824994).  Saving model ...
+Epoch: 6 cost time: 1.235780954360962
+Epoch: 6, Steps: 8 | Train Loss: 0.072 Vali Loss: 0.752 Vali Acc: 0.828 Test Loss: 0.752 Test Acc: 0.828
+Validation loss decreased (-0.824994 --> -0.828117).  Saving model ...
+Epoch: 7 cost time: 0.9272041320800781
+Epoch: 7, Steps: 8 | Train Loss: 0.022 Vali Loss: 1.037 Vali Acc: 0.803 Test Loss: 1.037 Test Acc: 0.803
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 0.9078259468078613
+Epoch: 8, Steps: 8 | Train Loss: 0.005 Vali Loss: 1.195 Vali Acc: 0.797 Test Loss: 1.195 Test Acc: 0.797
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.1289443969726562
+Epoch: 9, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.308 Vali Acc: 0.797 Test Loss: 1.308 Test Acc: 0.797
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.329535961151123
+Epoch: 10, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.332 Vali Acc: 0.809 Test Loss: 1.332 Test Acc: 0.809
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.1308643817901611
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.353 Vali Acc: 0.812 Test Loss: 1.353 Test Acc: 0.812
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.0981953144073486
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.368 Vali Acc: 0.816 Test Loss: 1.368 Test Acc: 0.816
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.2664296627044678
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.380 Vali Acc: 0.812 Test Loss: 1.380 Test Acc: 0.812
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.4505741596221924
+Epoch: 14, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.390 Vali Acc: 0.816 Test Loss: 1.390 Test Acc: 0.816
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.249525785446167
+Epoch: 15, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.398 Vali Acc: 0.816 Test Loss: 1.398 Test Acc: 0.816
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 0.9348597526550293
+Epoch: 16, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.404 Vali Acc: 0.812 Test Loss: 1.404 Test Acc: 0.812
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.828125
+model parameter : 858112
+model size : 8.16MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.5389256477355957
+Epoch: 1, Steps: 8 | Train Loss: 2.062 Vali Loss: 1.971 Vali Acc: 0.684 Test Loss: 1.971 Test Acc: 0.684
+Validation loss decreased (inf --> -0.684355).  Saving model ...
+Epoch: 2 cost time: 1.0788753032684326
+Epoch: 2, Steps: 8 | Train Loss: 1.776 Vali Loss: 1.539 Vali Acc: 0.784 Test Loss: 1.539 Test Acc: 0.784
+Validation loss decreased (-0.684355 --> -0.784360).  Saving model ...
+Epoch: 3 cost time: 0.6963746547698975
+Epoch: 3, Steps: 8 | Train Loss: 1.149 Vali Loss: 0.915 Vali Acc: 0.794 Test Loss: 0.915 Test Acc: 0.794
+Validation loss decreased (-0.784360 --> -0.793741).  Saving model ...
+Epoch: 4 cost time: 0.7930939197540283
+Epoch: 4, Steps: 8 | Train Loss: 0.486 Vali Loss: 0.576 Vali Acc: 0.822 Test Loss: 0.576 Test Acc: 0.822
+Validation loss decreased (-0.793741 --> -0.821869).  Saving model ...
+Epoch: 5 cost time: 1.0805001258850098
+Epoch: 5, Steps: 8 | Train Loss: 0.228 Vali Loss: 0.537 Vali Acc: 0.841 Test Loss: 0.537 Test Acc: 0.841
+Validation loss decreased (-0.821869 --> -0.840620).  Saving model ...
+Epoch: 6 cost time: 0.863429069519043
+Epoch: 6, Steps: 8 | Train Loss: 0.075 Vali Loss: 0.719 Vali Acc: 0.819 Test Loss: 0.719 Test Acc: 0.819
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 0.8295841217041016
+Epoch: 7, Steps: 8 | Train Loss: 0.010 Vali Loss: 0.938 Vali Acc: 0.812 Test Loss: 0.938 Test Acc: 0.812
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.0859971046447754
+Epoch: 8, Steps: 8 | Train Loss: 0.004 Vali Loss: 1.065 Vali Acc: 0.797 Test Loss: 1.065 Test Acc: 0.797
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.4684042930603027
+Epoch: 9, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.142 Vali Acc: 0.800 Test Loss: 1.142 Test Acc: 0.800
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.1278884410858154
+Epoch: 10, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.192 Vali Acc: 0.797 Test Loss: 1.192 Test Acc: 0.797
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.1289751529693604
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.217 Vali Acc: 0.800 Test Loss: 1.217 Test Acc: 0.800
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 0.9441661834716797
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.237 Vali Acc: 0.803 Test Loss: 1.237 Test Acc: 0.803
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.4197652339935303
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.252 Vali Acc: 0.800 Test Loss: 1.252 Test Acc: 0.800
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 0.9715018272399902
+Epoch: 14, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.265 Vali Acc: 0.803 Test Loss: 1.265 Test Acc: 0.803
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.359309434890747
+Epoch: 15, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.277 Vali Acc: 0.806 Test Loss: 1.277 Test Acc: 0.806
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.840625
+model parameter : 856576
+model size : 8.16MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            256                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.541376113891602
+Epoch: 1, Steps: 8 | Train Loss: 2.057 Vali Loss: 1.968 Vali Acc: 0.722 Test Loss: 1.968 Test Acc: 0.722
+Validation loss decreased (inf --> -0.721855).  Saving model ...
+Epoch: 2 cost time: 0.8545470237731934
+Epoch: 2, Steps: 8 | Train Loss: 1.780 Vali Loss: 1.523 Vali Acc: 0.772 Test Loss: 1.523 Test Acc: 0.772
+Validation loss decreased (-0.721855 --> -0.771860).  Saving model ...
+Epoch: 3 cost time: 1.0668680667877197
+Epoch: 3, Steps: 8 | Train Loss: 1.167 Vali Loss: 0.924 Vali Acc: 0.775 Test Loss: 0.924 Test Acc: 0.775
+Validation loss decreased (-0.771860 --> -0.774991).  Saving model ...
+Epoch: 4 cost time: 1.0159227848052979
+Epoch: 4, Steps: 8 | Train Loss: 0.527 Vali Loss: 0.590 Vali Acc: 0.819 Test Loss: 0.590 Test Acc: 0.819
+Validation loss decreased (-0.774991 --> -0.818744).  Saving model ...
+Epoch: 5 cost time: 1.212472915649414
+Epoch: 5, Steps: 8 | Train Loss: 0.209 Vali Loss: 0.597 Vali Acc: 0.825 Test Loss: 0.597 Test Acc: 0.825
+Validation loss decreased (-0.818744 --> -0.824994).  Saving model ...
+Epoch: 6 cost time: 1.1122748851776123
+Epoch: 6, Steps: 8 | Train Loss: 0.057 Vali Loss: 0.786 Vali Acc: 0.809 Test Loss: 0.786 Test Acc: 0.809
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 0.869816780090332
+Epoch: 7, Steps: 8 | Train Loss: 0.009 Vali Loss: 1.011 Vali Acc: 0.794 Test Loss: 1.011 Test Acc: 0.794
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.183683156967163
+Epoch: 8, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.176 Vali Acc: 0.797 Test Loss: 1.176 Test Acc: 0.797
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.234632968902588
+Epoch: 9, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.306 Vali Acc: 0.800 Test Loss: 1.306 Test Acc: 0.800
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.610408067703247
+Epoch: 10, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.398 Vali Acc: 0.797 Test Loss: 1.398 Test Acc: 0.797
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.2591466903686523
+Epoch: 11, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.462 Vali Acc: 0.791 Test Loss: 1.462 Test Acc: 0.791
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.0989937782287598
+Epoch: 12, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.501 Vali Acc: 0.784 Test Loss: 1.501 Test Acc: 0.784
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.4994986057281494
+Epoch: 13, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.524 Vali Acc: 0.787 Test Loss: 1.524 Test Acc: 0.787
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.414585828781128
+Epoch: 14, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.540 Vali Acc: 0.787 Test Loss: 1.540 Test Acc: 0.787
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.1661815643310547
+Epoch: 15, Steps: 8 | Train Loss: 0.000 Vali Loss: 1.550 Vali Acc: 0.787 Test Loss: 1.550 Test Acc: 0.787
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm256_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.825
+model parameter : 855808
+model size : 8.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.2742602825164795
+Epoch: 1, Steps: 8 | Train Loss: 2.067 Vali Loss: 2.024 Vali Acc: 0.566 Test Loss: 2.024 Test Acc: 0.566
+Validation loss decreased (inf --> -0.565605).  Saving model ...
+Epoch: 2 cost time: 1.4111754894256592
+Epoch: 2, Steps: 8 | Train Loss: 1.925 Vali Loss: 1.813 Vali Acc: 0.775 Test Loss: 1.813 Test Acc: 0.775
+Validation loss decreased (-0.565605 --> -0.774982).  Saving model ...
+Epoch: 3 cost time: 1.4369256496429443
+Epoch: 3, Steps: 8 | Train Loss: 1.607 Vali Loss: 1.452 Vali Acc: 0.778 Test Loss: 1.452 Test Acc: 0.778
+Validation loss decreased (-0.774982 --> -0.778110).  Saving model ...
+Epoch: 4 cost time: 1.2848191261291504
+Epoch: 4, Steps: 8 | Train Loss: 1.126 Vali Loss: 0.996 Vali Acc: 0.803 Test Loss: 0.996 Test Acc: 0.803
+Validation loss decreased (-0.778110 --> -0.803115).  Saving model ...
+Epoch: 5 cost time: 2.215759038925171
+Epoch: 5, Steps: 8 | Train Loss: 0.628 Vali Loss: 0.665 Vali Acc: 0.828 Test Loss: 0.665 Test Acc: 0.828
+Validation loss decreased (-0.803115 --> -0.828118).  Saving model ...
+Epoch: 6 cost time: 1.252427339553833
+Epoch: 6, Steps: 8 | Train Loss: 0.296 Vali Loss: 0.599 Vali Acc: 0.825 Test Loss: 0.599 Test Acc: 0.825
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.8487236499786377
+Epoch: 7, Steps: 8 | Train Loss: 0.164 Vali Loss: 0.659 Vali Acc: 0.828 Test Loss: 0.659 Test Acc: 0.828
+Validation loss decreased (-0.828118 --> -0.828118).  Saving model ...
+Epoch: 8 cost time: 1.061798334121704
+Epoch: 8, Steps: 8 | Train Loss: 0.077 Vali Loss: 0.769 Vali Acc: 0.803 Test Loss: 0.769 Test Acc: 0.803
+EarlyStopping counter: 1 out of 10
+Epoch: 9 cost time: 1.469069004058838
+Epoch: 9, Steps: 8 | Train Loss: 0.034 Vali Loss: 0.876 Vali Acc: 0.806 Test Loss: 0.876 Test Acc: 0.806
+EarlyStopping counter: 2 out of 10
+Epoch: 10 cost time: 1.9125571250915527
+Epoch: 10, Steps: 8 | Train Loss: 0.019 Vali Loss: 0.949 Vali Acc: 0.822 Test Loss: 0.949 Test Acc: 0.822
+EarlyStopping counter: 3 out of 10
+Epoch: 11 cost time: 1.5370509624481201
+Epoch: 11, Steps: 8 | Train Loss: 0.006 Vali Loss: 1.006 Vali Acc: 0.822 Test Loss: 1.006 Test Acc: 0.822
+EarlyStopping counter: 4 out of 10
+Epoch: 12 cost time: 1.5853242874145508
+Epoch: 12, Steps: 8 | Train Loss: 0.003 Vali Loss: 1.073 Vali Acc: 0.822 Test Loss: 1.073 Test Acc: 0.822
+EarlyStopping counter: 5 out of 10
+Epoch: 13 cost time: 1.9723608493804932
+Epoch: 13, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.109 Vali Acc: 0.822 Test Loss: 1.109 Test Acc: 0.822
+EarlyStopping counter: 6 out of 10
+Epoch: 14 cost time: 1.3206017017364502
+Epoch: 14, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.137 Vali Acc: 0.825 Test Loss: 1.137 Test Acc: 0.825
+EarlyStopping counter: 7 out of 10
+Epoch: 15 cost time: 1.494410753250122
+Epoch: 15, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.164 Vali Acc: 0.819 Test Loss: 1.164 Test Acc: 0.819
+EarlyStopping counter: 8 out of 10
+Epoch: 16 cost time: 1.5115869045257568
+Epoch: 16, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.183 Vali Acc: 0.819 Test Loss: 1.183 Test Acc: 0.819
+EarlyStopping counter: 9 out of 10
+Epoch: 17 cost time: 1.4245986938476562
+Epoch: 17, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.202 Vali Acc: 0.819 Test Loss: 1.202 Test Acc: 0.819
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.828125
+model parameter : 382464
+model size : 3.91MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.611468553543091
+Epoch: 1, Steps: 8 | Train Loss: 2.070 Vali Loss: 2.025 Vali Acc: 0.547 Test Loss: 2.025 Test Acc: 0.547
+Validation loss decreased (inf --> -0.546855).  Saving model ...
+Epoch: 2 cost time: 1.0591802597045898
+Epoch: 2, Steps: 8 | Train Loss: 1.938 Vali Loss: 1.822 Vali Acc: 0.775 Test Loss: 1.822 Test Acc: 0.775
+Validation loss decreased (-0.546855 --> -0.774982).  Saving model ...
+Epoch: 3 cost time: 1.3225481510162354
+Epoch: 3, Steps: 8 | Train Loss: 1.612 Vali Loss: 1.488 Vali Acc: 0.812 Test Loss: 1.488 Test Acc: 0.812
+Validation loss decreased (-0.774982 --> -0.812485).  Saving model ...
+Epoch: 4 cost time: 1.1329522132873535
+Epoch: 4, Steps: 8 | Train Loss: 1.172 Vali Loss: 1.048 Vali Acc: 0.819 Test Loss: 1.048 Test Acc: 0.819
+Validation loss decreased (-0.812485 --> -0.818740).  Saving model ...
+Epoch: 5 cost time: 0.9928209781646729
+Epoch: 5, Steps: 8 | Train Loss: 0.671 Vali Loss: 0.682 Vali Acc: 0.822 Test Loss: 0.682 Test Acc: 0.822
+Validation loss decreased (-0.818740 --> -0.821868).  Saving model ...
+Epoch: 6 cost time: 1.1329588890075684
+Epoch: 6, Steps: 8 | Train Loss: 0.338 Vali Loss: 0.568 Vali Acc: 0.825 Test Loss: 0.568 Test Acc: 0.825
+Validation loss decreased (-0.821868 --> -0.824994).  Saving model ...
+Epoch: 7 cost time: 1.3815646171569824
+Epoch: 7, Steps: 8 | Train Loss: 0.184 Vali Loss: 0.609 Vali Acc: 0.812 Test Loss: 0.609 Test Acc: 0.812
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.1322357654571533
+Epoch: 8, Steps: 8 | Train Loss: 0.092 Vali Loss: 0.699 Vali Acc: 0.800 Test Loss: 0.699 Test Acc: 0.800
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.4442920684814453
+Epoch: 9, Steps: 8 | Train Loss: 0.049 Vali Loss: 0.782 Vali Acc: 0.791 Test Loss: 0.782 Test Acc: 0.791
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.494018316268921
+Epoch: 10, Steps: 8 | Train Loss: 0.016 Vali Loss: 0.827 Vali Acc: 0.806 Test Loss: 0.827 Test Acc: 0.806
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.1858117580413818
+Epoch: 11, Steps: 8 | Train Loss: 0.009 Vali Loss: 0.896 Vali Acc: 0.803 Test Loss: 0.896 Test Acc: 0.803
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.4482941627502441
+Epoch: 12, Steps: 8 | Train Loss: 0.004 Vali Loss: 0.963 Vali Acc: 0.806 Test Loss: 0.963 Test Acc: 0.806
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.39290189743042
+Epoch: 13, Steps: 8 | Train Loss: 0.003 Vali Loss: 1.016 Vali Acc: 0.806 Test Loss: 1.016 Test Acc: 0.806
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.0971224308013916
+Epoch: 14, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.059 Vali Acc: 0.803 Test Loss: 1.059 Test Acc: 0.803
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.1458415985107422
+Epoch: 15, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.095 Vali Acc: 0.794 Test Loss: 1.095 Test Acc: 0.794
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 1.2170250415802002
+Epoch: 16, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.126 Vali Acc: 0.797 Test Loss: 1.126 Test Acc: 0.797
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.825
+model parameter : 379392
+model size : 3.89MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.388041019439697
+Epoch: 1, Steps: 8 | Train Loss: 2.070 Vali Loss: 2.029 Vali Acc: 0.438 Test Loss: 2.029 Test Acc: 0.438
+Validation loss decreased (inf --> -0.437480).  Saving model ...
+Epoch: 2 cost time: 1.4247291088104248
+Epoch: 2, Steps: 8 | Train Loss: 1.919 Vali Loss: 1.827 Vali Acc: 0.772 Test Loss: 1.827 Test Acc: 0.772
+Validation loss decreased (-0.437480 --> -0.771857).  Saving model ...
+Epoch: 3 cost time: 1.0508465766906738
+Epoch: 3, Steps: 8 | Train Loss: 1.618 Vali Loss: 1.472 Vali Acc: 0.800 Test Loss: 1.472 Test Acc: 0.800
+Validation loss decreased (-0.771857 --> -0.799985).  Saving model ...
+Epoch: 4 cost time: 1.4926254749298096
+Epoch: 4, Steps: 8 | Train Loss: 1.121 Vali Loss: 1.014 Vali Acc: 0.794 Test Loss: 1.014 Test Acc: 0.794
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.254438877105713
+Epoch: 5, Steps: 8 | Train Loss: 0.611 Vali Loss: 0.684 Vali Acc: 0.819 Test Loss: 0.684 Test Acc: 0.819
+Validation loss decreased (-0.799985 --> -0.818743).  Saving model ...
+Epoch: 6 cost time: 0.9785194396972656
+Epoch: 6, Steps: 8 | Train Loss: 0.285 Vali Loss: 0.638 Vali Acc: 0.822 Test Loss: 0.638 Test Acc: 0.822
+Validation loss decreased (-0.818743 --> -0.821869).  Saving model ...
+Epoch: 7 cost time: 1.1253876686096191
+Epoch: 7, Steps: 8 | Train Loss: 0.133 Vali Loss: 0.715 Vali Acc: 0.809 Test Loss: 0.715 Test Acc: 0.809
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.136857509613037
+Epoch: 8, Steps: 8 | Train Loss: 0.062 Vali Loss: 0.842 Vali Acc: 0.794 Test Loss: 0.842 Test Acc: 0.794
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.2810814380645752
+Epoch: 9, Steps: 8 | Train Loss: 0.023 Vali Loss: 0.961 Vali Acc: 0.800 Test Loss: 0.961 Test Acc: 0.800
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 0.9722082614898682
+Epoch: 10, Steps: 8 | Train Loss: 0.007 Vali Loss: 1.087 Vali Acc: 0.791 Test Loss: 1.087 Test Acc: 0.791
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.382892370223999
+Epoch: 11, Steps: 8 | Train Loss: 0.005 Vali Loss: 1.196 Vali Acc: 0.791 Test Loss: 1.196 Test Acc: 0.791
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.2210359573364258
+Epoch: 12, Steps: 8 | Train Loss: 0.004 Vali Loss: 1.314 Vali Acc: 0.781 Test Loss: 1.314 Test Acc: 0.781
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.2405986785888672
+Epoch: 13, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.356 Vali Acc: 0.784 Test Loss: 1.356 Test Acc: 0.784
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.2814395427703857
+Epoch: 14, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.392 Vali Acc: 0.787 Test Loss: 1.392 Test Acc: 0.787
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.0760161876678467
+Epoch: 15, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.418 Vali Acc: 0.784 Test Loss: 1.418 Test Acc: 0.784
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 0.9859776496887207
+Epoch: 16, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.439 Vali Acc: 0.791 Test Loss: 1.439 Test Acc: 0.791
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.821875
+model parameter : 377856
+model size : 3.89MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.7038321495056152
+Epoch: 1, Steps: 8 | Train Loss: 2.060 Vali Loss: 2.013 Vali Acc: 0.650 Test Loss: 2.013 Test Acc: 0.650
+Validation loss decreased (inf --> -0.649980).  Saving model ...
+Epoch: 2 cost time: 1.252042531967163
+Epoch: 2, Steps: 8 | Train Loss: 1.907 Vali Loss: 1.799 Vali Acc: 0.809 Test Loss: 1.799 Test Acc: 0.809
+Validation loss decreased (-0.649980 --> -0.809357).  Saving model ...
+Epoch: 3 cost time: 0.88189697265625
+Epoch: 3, Steps: 8 | Train Loss: 1.577 Vali Loss: 1.453 Vali Acc: 0.822 Test Loss: 1.453 Test Acc: 0.822
+Validation loss decreased (-0.809357 --> -0.821860).  Saving model ...
+Epoch: 4 cost time: 1.0377113819122314
+Epoch: 4, Steps: 8 | Train Loss: 1.105 Vali Loss: 1.010 Vali Acc: 0.822 Test Loss: 1.010 Test Acc: 0.822
+Validation loss decreased (-0.821860 --> -0.821865).  Saving model ...
+Epoch: 5 cost time: 1.2930934429168701
+Epoch: 5, Steps: 8 | Train Loss: 0.625 Vali Loss: 0.669 Vali Acc: 0.834 Test Loss: 0.669 Test Acc: 0.834
+Validation loss decreased (-0.821865 --> -0.834368).  Saving model ...
+Epoch: 6 cost time: 1.048534870147705
+Epoch: 6, Steps: 8 | Train Loss: 0.316 Vali Loss: 0.550 Vali Acc: 0.838 Test Loss: 0.550 Test Acc: 0.838
+Validation loss decreased (-0.834368 --> -0.837494).  Saving model ...
+Epoch: 7 cost time: 0.9504342079162598
+Epoch: 7, Steps: 8 | Train Loss: 0.160 Vali Loss: 0.559 Vali Acc: 0.831 Test Loss: 0.559 Test Acc: 0.831
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.4470548629760742
+Epoch: 8, Steps: 8 | Train Loss: 0.083 Vali Loss: 0.638 Vali Acc: 0.825 Test Loss: 0.638 Test Acc: 0.825
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.11004638671875
+Epoch: 9, Steps: 8 | Train Loss: 0.041 Vali Loss: 0.705 Vali Acc: 0.812 Test Loss: 0.705 Test Acc: 0.812
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 0.9846618175506592
+Epoch: 10, Steps: 8 | Train Loss: 0.017 Vali Loss: 0.775 Vali Acc: 0.819 Test Loss: 0.775 Test Acc: 0.819
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.480881929397583
+Epoch: 11, Steps: 8 | Train Loss: 0.013 Vali Loss: 0.835 Vali Acc: 0.816 Test Loss: 0.835 Test Acc: 0.816
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.6248791217803955
+Epoch: 12, Steps: 8 | Train Loss: 0.006 Vali Loss: 0.932 Vali Acc: 0.806 Test Loss: 0.932 Test Acc: 0.806
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.3403472900390625
+Epoch: 13, Steps: 8 | Train Loss: 0.008 Vali Loss: 0.926 Vali Acc: 0.825 Test Loss: 0.926 Test Acc: 0.825
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.4845452308654785
+Epoch: 14, Steps: 8 | Train Loss: 0.004 Vali Loss: 0.972 Vali Acc: 0.825 Test Loss: 0.972 Test Acc: 0.825
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.5432066917419434
+Epoch: 15, Steps: 8 | Train Loss: 0.002 Vali Loss: 0.997 Vali Acc: 0.819 Test Loss: 0.997 Test Acc: 0.819
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 1.4705872535705566
+Epoch: 16, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.031 Vali Acc: 0.812 Test Loss: 1.031 Test Acc: 0.812
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.8375
+model parameter : 377088
+model size : 3.88MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.94981837272644
+Epoch: 1, Steps: 8 | Train Loss: 2.067 Vali Loss: 2.024 Vali Acc: 0.484 Test Loss: 2.024 Test Acc: 0.484
+Validation loss decreased (inf --> -0.484355).  Saving model ...
+Epoch: 2 cost time: 1.2773857116699219
+Epoch: 2, Steps: 8 | Train Loss: 1.924 Vali Loss: 1.816 Vali Acc: 0.738 Test Loss: 1.816 Test Acc: 0.738
+Validation loss decreased (-0.484355 --> -0.737482).  Saving model ...
+Epoch: 3 cost time: 1.098973274230957
+Epoch: 3, Steps: 8 | Train Loss: 1.616 Vali Loss: 1.470 Vali Acc: 0.800 Test Loss: 1.470 Test Acc: 0.800
+Validation loss decreased (-0.737482 --> -0.799985).  Saving model ...
+Epoch: 4 cost time: 1.5275225639343262
+Epoch: 4, Steps: 8 | Train Loss: 1.139 Vali Loss: 1.029 Vali Acc: 0.803 Test Loss: 1.029 Test Acc: 0.803
+Validation loss decreased (-0.799985 --> -0.803115).  Saving model ...
+Epoch: 5 cost time: 1.1922273635864258
+Epoch: 5, Steps: 8 | Train Loss: 0.633 Vali Loss: 0.688 Vali Acc: 0.822 Test Loss: 0.688 Test Acc: 0.822
+Validation loss decreased (-0.803115 --> -0.821868).  Saving model ...
+Epoch: 6 cost time: 1.2700328826904297
+Epoch: 6, Steps: 8 | Train Loss: 0.316 Vali Loss: 0.581 Vali Acc: 0.834 Test Loss: 0.581 Test Acc: 0.834
+Validation loss decreased (-0.821868 --> -0.834369).  Saving model ...
+Epoch: 7 cost time: 1.3337407112121582
+Epoch: 7, Steps: 8 | Train Loss: 0.194 Vali Loss: 0.641 Vali Acc: 0.834 Test Loss: 0.641 Test Acc: 0.834
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.11185622215271
+Epoch: 8, Steps: 8 | Train Loss: 0.094 Vali Loss: 0.719 Vali Acc: 0.816 Test Loss: 0.719 Test Acc: 0.816
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.176452398300171
+Epoch: 9, Steps: 8 | Train Loss: 0.053 Vali Loss: 0.762 Vali Acc: 0.806 Test Loss: 0.762 Test Acc: 0.806
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.4365260601043701
+Epoch: 10, Steps: 8 | Train Loss: 0.019 Vali Loss: 0.838 Vali Acc: 0.822 Test Loss: 0.838 Test Acc: 0.822
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.1486930847167969
+Epoch: 11, Steps: 8 | Train Loss: 0.012 Vali Loss: 0.877 Vali Acc: 0.822 Test Loss: 0.877 Test Acc: 0.822
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.3354747295379639
+Epoch: 12, Steps: 8 | Train Loss: 0.005 Vali Loss: 0.920 Vali Acc: 0.819 Test Loss: 0.920 Test Acc: 0.819
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.4494421482086182
+Epoch: 13, Steps: 8 | Train Loss: 0.004 Vali Loss: 0.968 Vali Acc: 0.822 Test Loss: 0.968 Test Acc: 0.822
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.8606624603271484
+Epoch: 14, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.018 Vali Acc: 0.816 Test Loss: 1.018 Test Acc: 0.816
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.0196361541748047
+Epoch: 15, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.057 Vali Acc: 0.816 Test Loss: 1.057 Test Acc: 0.816
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 1.6441140174865723
+Epoch: 16, Steps: 8 | Train Loss: 0.001 Vali Loss: 1.086 Vali Acc: 0.816 Test Loss: 1.086 Test Acc: 0.816
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm128_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.834375
+model parameter : 376704
+model size : 3.88MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.546411514282227
+Epoch: 1, Steps: 8 | Train Loss: 2.069 Vali Loss: 2.040 Vali Acc: 0.275 Test Loss: 2.040 Test Acc: 0.275
+Validation loss decreased (inf --> -0.274980).  Saving model ...
+Epoch: 2 cost time: 1.2612762451171875
+Epoch: 2, Steps: 8 | Train Loss: 1.981 Vali Loss: 1.928 Vali Acc: 0.603 Test Loss: 1.928 Test Acc: 0.603
+Validation loss decreased (-0.274980 --> -0.603106).  Saving model ...
+Epoch: 3 cost time: 1.6044533252716064
+Epoch: 3, Steps: 8 | Train Loss: 1.817 Vali Loss: 1.748 Vali Acc: 0.706 Test Loss: 1.748 Test Acc: 0.706
+Validation loss decreased (-0.603106 --> -0.706233).  Saving model ...
+Epoch: 4 cost time: 1.4223122596740723
+Epoch: 4, Steps: 8 | Train Loss: 1.555 Vali Loss: 1.517 Vali Acc: 0.725 Test Loss: 1.517 Test Acc: 0.725
+Validation loss decreased (-0.706233 --> -0.724985).  Saving model ...
+Epoch: 5 cost time: 1.7477810382843018
+Epoch: 5, Steps: 8 | Train Loss: 1.214 Vali Loss: 1.253 Vali Acc: 0.738 Test Loss: 1.253 Test Acc: 0.738
+Validation loss decreased (-0.724985 --> -0.737487).  Saving model ...
+Epoch: 6 cost time: 1.6167457103729248
+Epoch: 6, Steps: 8 | Train Loss: 0.869 Vali Loss: 1.019 Vali Acc: 0.741 Test Loss: 1.019 Test Acc: 0.741
+Validation loss decreased (-0.737487 --> -0.740615).  Saving model ...
+Epoch: 7 cost time: 1.3716857433319092
+Epoch: 7, Steps: 8 | Train Loss: 0.584 Vali Loss: 0.916 Vali Acc: 0.722 Test Loss: 0.916 Test Acc: 0.722
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.6605932712554932
+Epoch: 8, Steps: 8 | Train Loss: 0.403 Vali Loss: 0.936 Vali Acc: 0.725 Test Loss: 0.936 Test Acc: 0.725
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.1989555358886719
+Epoch: 9, Steps: 8 | Train Loss: 0.257 Vali Loss: 1.013 Vali Acc: 0.738 Test Loss: 1.013 Test Acc: 0.738
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.407578945159912
+Epoch: 10, Steps: 8 | Train Loss: 0.175 Vali Loss: 1.167 Vali Acc: 0.731 Test Loss: 1.167 Test Acc: 0.731
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.0709009170532227
+Epoch: 11, Steps: 8 | Train Loss: 0.120 Vali Loss: 1.294 Vali Acc: 0.731 Test Loss: 1.294 Test Acc: 0.731
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.7483477592468262
+Epoch: 12, Steps: 8 | Train Loss: 0.065 Vali Loss: 1.472 Vali Acc: 0.722 Test Loss: 1.472 Test Acc: 0.722
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.235001802444458
+Epoch: 13, Steps: 8 | Train Loss: 0.052 Vali Loss: 1.719 Vali Acc: 0.691 Test Loss: 1.719 Test Acc: 0.691
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.82692551612854
+Epoch: 14, Steps: 8 | Train Loss: 0.022 Vali Loss: 1.795 Vali Acc: 0.713 Test Loss: 1.795 Test Acc: 0.713
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.4100968837738037
+Epoch: 15, Steps: 8 | Train Loss: 0.039 Vali Loss: 1.920 Vali Acc: 0.716 Test Loss: 1.920 Test Acc: 0.716
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 1.672760009765625
+Epoch: 16, Steps: 8 | Train Loss: 0.017 Vali Loss: 2.069 Vali Acc: 0.703 Test Loss: 2.069 Test Acc: 0.703
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.740625
+model parameter : 178432
+model size : 1.91MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.996440410614014
+Epoch: 1, Steps: 8 | Train Loss: 2.071 Vali Loss: 2.040 Vali Acc: 0.381 Test Loss: 2.040 Test Acc: 0.381
+Validation loss decreased (inf --> -0.381230).  Saving model ...
+Epoch: 2 cost time: 1.400892972946167
+Epoch: 2, Steps: 8 | Train Loss: 1.975 Vali Loss: 1.927 Vali Acc: 0.706 Test Loss: 1.927 Test Acc: 0.706
+Validation loss decreased (-0.381230 --> -0.706231).  Saving model ...
+Epoch: 3 cost time: 1.4397554397583008
+Epoch: 3, Steps: 8 | Train Loss: 1.805 Vali Loss: 1.751 Vali Acc: 0.725 Test Loss: 1.751 Test Acc: 0.725
+Validation loss decreased (-0.706231 --> -0.724982).  Saving model ...
+Epoch: 4 cost time: 1.4210712909698486
+Epoch: 4, Steps: 8 | Train Loss: 1.558 Vali Loss: 1.523 Vali Acc: 0.719 Test Loss: 1.523 Test Acc: 0.719
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.3504114151000977
+Epoch: 5, Steps: 8 | Train Loss: 1.243 Vali Loss: 1.271 Vali Acc: 0.731 Test Loss: 1.271 Test Acc: 0.731
+Validation loss decreased (-0.724982 --> -0.731237).  Saving model ...
+Epoch: 6 cost time: 1.1199240684509277
+Epoch: 6, Steps: 8 | Train Loss: 0.890 Vali Loss: 1.049 Vali Acc: 0.731 Test Loss: 1.049 Test Acc: 0.731
+Validation loss decreased (-0.731237 --> -0.731240).  Saving model ...
+Epoch: 7 cost time: 1.589963674545288
+Epoch: 7, Steps: 8 | Train Loss: 0.612 Vali Loss: 0.924 Vali Acc: 0.738 Test Loss: 0.924 Test Acc: 0.738
+Validation loss decreased (-0.731240 --> -0.737491).  Saving model ...
+Epoch: 8 cost time: 1.5190017223358154
+Epoch: 8, Steps: 8 | Train Loss: 0.438 Vali Loss: 0.901 Vali Acc: 0.741 Test Loss: 0.901 Test Acc: 0.741
+Validation loss decreased (-0.737491 --> -0.740616).  Saving model ...
+Epoch: 9 cost time: 1.2476832866668701
+Epoch: 9, Steps: 8 | Train Loss: 0.287 Vali Loss: 0.934 Vali Acc: 0.725 Test Loss: 0.934 Test Acc: 0.725
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 1.5582315921783447
+Epoch: 10, Steps: 8 | Train Loss: 0.192 Vali Loss: 1.012 Vali Acc: 0.728 Test Loss: 1.012 Test Acc: 0.728
+EarlyStopping counter: 2 out of 10
+Epoch: 11 cost time: 1.1442992687225342
+Epoch: 11, Steps: 8 | Train Loss: 0.120 Vali Loss: 1.135 Vali Acc: 0.738 Test Loss: 1.135 Test Acc: 0.738
+EarlyStopping counter: 3 out of 10
+Epoch: 12 cost time: 1.1005463600158691
+Epoch: 12, Steps: 8 | Train Loss: 0.059 Vali Loss: 1.286 Vali Acc: 0.734 Test Loss: 1.286 Test Acc: 0.734
+EarlyStopping counter: 4 out of 10
+Epoch: 13 cost time: 0.9513809680938721
+Epoch: 13, Steps: 8 | Train Loss: 0.038 Vali Loss: 1.456 Vali Acc: 0.709 Test Loss: 1.456 Test Acc: 0.709
+EarlyStopping counter: 5 out of 10
+Epoch: 14 cost time: 1.3448138236999512
+Epoch: 14, Steps: 8 | Train Loss: 0.022 Vali Loss: 1.604 Vali Acc: 0.713 Test Loss: 1.604 Test Acc: 0.713
+EarlyStopping counter: 6 out of 10
+Epoch: 15 cost time: 1.253845453262329
+Epoch: 15, Steps: 8 | Train Loss: 0.015 Vali Loss: 1.754 Vali Acc: 0.694 Test Loss: 1.754 Test Acc: 0.694
+EarlyStopping counter: 7 out of 10
+Epoch: 16 cost time: 1.4068081378936768
+Epoch: 16, Steps: 8 | Train Loss: 0.009 Vali Loss: 1.847 Vali Acc: 0.697 Test Loss: 1.847 Test Acc: 0.697
+EarlyStopping counter: 8 out of 10
+Epoch: 17 cost time: 1.618910551071167
+Epoch: 17, Steps: 8 | Train Loss: 0.005 Vali Loss: 1.931 Vali Acc: 0.700 Test Loss: 1.931 Test Acc: 0.700
+EarlyStopping counter: 9 out of 10
+Epoch: 18 cost time: 1.7841856479644775
+Epoch: 18, Steps: 8 | Train Loss: 0.005 Vali Loss: 1.998 Vali Acc: 0.697 Test Loss: 1.998 Test Acc: 0.697
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.740625
+model parameter : 176896
+model size : 1.90MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.711700439453125
+Epoch: 1, Steps: 8 | Train Loss: 2.055 Vali Loss: 2.027 Vali Acc: 0.444 Test Loss: 2.027 Test Acc: 0.444
+Validation loss decreased (inf --> -0.443730).  Saving model ...
+Epoch: 2 cost time: 1.3542113304138184
+Epoch: 2, Steps: 8 | Train Loss: 1.962 Vali Loss: 1.909 Vali Acc: 0.647 Test Loss: 1.909 Test Acc: 0.647
+Validation loss decreased (-0.443730 --> -0.646856).  Saving model ...
+Epoch: 3 cost time: 1.2681622505187988
+Epoch: 3, Steps: 8 | Train Loss: 1.784 Vali Loss: 1.726 Vali Acc: 0.700 Test Loss: 1.726 Test Acc: 0.700
+Validation loss decreased (-0.646856 --> -0.699983).  Saving model ...
+Epoch: 4 cost time: 1.339099407196045
+Epoch: 4, Steps: 8 | Train Loss: 1.514 Vali Loss: 1.485 Vali Acc: 0.709 Test Loss: 1.485 Test Acc: 0.709
+Validation loss decreased (-0.699983 --> -0.709360).  Saving model ...
+Epoch: 5 cost time: 0.9635055065155029
+Epoch: 5, Steps: 8 | Train Loss: 1.185 Vali Loss: 1.235 Vali Acc: 0.713 Test Loss: 1.235 Test Acc: 0.713
+Validation loss decreased (-0.709360 --> -0.712488).  Saving model ...
+Epoch: 6 cost time: 1.3367650508880615
+Epoch: 6, Steps: 8 | Train Loss: 0.846 Vali Loss: 1.038 Vali Acc: 0.719 Test Loss: 1.038 Test Acc: 0.719
+Validation loss decreased (-0.712488 --> -0.718740).  Saving model ...
+Epoch: 7 cost time: 1.2706294059753418
+Epoch: 7, Steps: 8 | Train Loss: 0.575 Vali Loss: 0.959 Vali Acc: 0.722 Test Loss: 0.959 Test Acc: 0.722
+Validation loss decreased (-0.718740 --> -0.721865).  Saving model ...
+Epoch: 8 cost time: 1.564880132675171
+Epoch: 8, Steps: 8 | Train Loss: 0.390 Vali Loss: 0.976 Vali Acc: 0.728 Test Loss: 0.976 Test Acc: 0.728
+Validation loss decreased (-0.721865 --> -0.728115).  Saving model ...
+Epoch: 9 cost time: 1.7479236125946045
+Epoch: 9, Steps: 8 | Train Loss: 0.278 Vali Loss: 1.044 Vali Acc: 0.722 Test Loss: 1.044 Test Acc: 0.722
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 1.134228229522705
+Epoch: 10, Steps: 8 | Train Loss: 0.175 Vali Loss: 1.171 Vali Acc: 0.713 Test Loss: 1.171 Test Acc: 0.713
+EarlyStopping counter: 2 out of 10
+Epoch: 11 cost time: 1.116201400756836
+Epoch: 11, Steps: 8 | Train Loss: 0.099 Vali Loss: 1.409 Vali Acc: 0.713 Test Loss: 1.409 Test Acc: 0.713
+EarlyStopping counter: 3 out of 10
+Epoch: 12 cost time: 1.3275187015533447
+Epoch: 12, Steps: 8 | Train Loss: 0.050 Vali Loss: 1.612 Vali Acc: 0.691 Test Loss: 1.612 Test Acc: 0.691
+EarlyStopping counter: 4 out of 10
+Epoch: 13 cost time: 1.2527832984924316
+Epoch: 13, Steps: 8 | Train Loss: 0.045 Vali Loss: 1.716 Vali Acc: 0.697 Test Loss: 1.716 Test Acc: 0.697
+EarlyStopping counter: 5 out of 10
+Epoch: 14 cost time: 1.5719058513641357
+Epoch: 14, Steps: 8 | Train Loss: 0.079 Vali Loss: 1.782 Vali Acc: 0.709 Test Loss: 1.782 Test Acc: 0.709
+EarlyStopping counter: 6 out of 10
+Epoch: 15 cost time: 1.214834213256836
+Epoch: 15, Steps: 8 | Train Loss: 0.033 Vali Loss: 1.903 Vali Acc: 0.694 Test Loss: 1.903 Test Acc: 0.694
+EarlyStopping counter: 7 out of 10
+Epoch: 16 cost time: 1.9604218006134033
+Epoch: 16, Steps: 8 | Train Loss: 0.012 Vali Loss: 2.090 Vali Acc: 0.672 Test Loss: 2.090 Test Acc: 0.672
+EarlyStopping counter: 8 out of 10
+Epoch: 17 cost time: 1.2919025421142578
+Epoch: 17, Steps: 8 | Train Loss: 0.012 Vali Loss: 2.030 Vali Acc: 0.700 Test Loss: 2.030 Test Acc: 0.700
+EarlyStopping counter: 9 out of 10
+Epoch: 18 cost time: 1.2562856674194336
+Epoch: 18, Steps: 8 | Train Loss: 0.005 Vali Loss: 2.088 Vali Acc: 0.700 Test Loss: 2.088 Test Acc: 0.700
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.728125
+model parameter : 176128
+model size : 1.90MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.625448226928711
+Epoch: 1, Steps: 8 | Train Loss: 2.079 Vali Loss: 2.049 Vali Acc: 0.328 Test Loss: 2.049 Test Acc: 0.328
+Validation loss decreased (inf --> -0.328105).  Saving model ...
+Epoch: 2 cost time: 1.2638332843780518
+Epoch: 2, Steps: 8 | Train Loss: 1.993 Vali Loss: 1.940 Vali Acc: 0.572 Test Loss: 1.940 Test Acc: 0.572
+Validation loss decreased (-0.328105 --> -0.571856).  Saving model ...
+Epoch: 3 cost time: 1.4152429103851318
+Epoch: 3, Steps: 8 | Train Loss: 1.826 Vali Loss: 1.770 Vali Acc: 0.697 Test Loss: 1.770 Test Acc: 0.697
+Validation loss decreased (-0.571856 --> -0.696857).  Saving model ...
+Epoch: 4 cost time: 1.4676992893218994
+Epoch: 4, Steps: 8 | Train Loss: 1.570 Vali Loss: 1.544 Vali Acc: 0.722 Test Loss: 1.544 Test Acc: 0.722
+Validation loss decreased (-0.696857 --> -0.721860).  Saving model ...
+Epoch: 5 cost time: 1.2575721740722656
+Epoch: 5, Steps: 8 | Train Loss: 1.274 Vali Loss: 1.288 Vali Acc: 0.725 Test Loss: 1.288 Test Acc: 0.725
+Validation loss decreased (-0.721860 --> -0.724987).  Saving model ...
+Epoch: 6 cost time: 1.303281307220459
+Epoch: 6, Steps: 8 | Train Loss: 0.911 Vali Loss: 1.059 Vali Acc: 0.728 Test Loss: 1.059 Test Acc: 0.728
+Validation loss decreased (-0.724987 --> -0.728114).  Saving model ...
+Epoch: 7 cost time: 1.5271837711334229
+Epoch: 7, Steps: 8 | Train Loss: 0.682 Vali Loss: 0.926 Vali Acc: 0.719 Test Loss: 0.926 Test Acc: 0.719
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.3689911365509033
+Epoch: 8, Steps: 8 | Train Loss: 0.442 Vali Loss: 0.900 Vali Acc: 0.725 Test Loss: 0.900 Test Acc: 0.725
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 2.013681650161743
+Epoch: 9, Steps: 8 | Train Loss: 0.318 Vali Loss: 0.925 Vali Acc: 0.734 Test Loss: 0.925 Test Acc: 0.734
+Validation loss decreased (-0.728114 --> -0.734366).  Saving model ...
+Epoch: 10 cost time: 1.5481114387512207
+Epoch: 10, Steps: 8 | Train Loss: 0.216 Vali Loss: 1.001 Vali Acc: 0.734 Test Loss: 1.001 Test Acc: 0.734
+EarlyStopping counter: 1 out of 10
+Epoch: 11 cost time: 1.1616268157958984
+Epoch: 11, Steps: 8 | Train Loss: 0.146 Vali Loss: 1.044 Vali Acc: 0.753 Test Loss: 1.044 Test Acc: 0.753
+Validation loss decreased (-0.734366 --> -0.753115).  Saving model ...
+Epoch: 12 cost time: 1.3550903797149658
+Epoch: 12, Steps: 8 | Train Loss: 0.091 Vali Loss: 1.146 Vali Acc: 0.731 Test Loss: 1.146 Test Acc: 0.731
+EarlyStopping counter: 1 out of 10
+Epoch: 13 cost time: 1.5704677104949951
+Epoch: 13, Steps: 8 | Train Loss: 0.048 Vali Loss: 1.281 Vali Acc: 0.722 Test Loss: 1.281 Test Acc: 0.722
+EarlyStopping counter: 2 out of 10
+Epoch: 14 cost time: 1.2149765491485596
+Epoch: 14, Steps: 8 | Train Loss: 0.033 Vali Loss: 1.404 Vali Acc: 0.709 Test Loss: 1.404 Test Acc: 0.709
+EarlyStopping counter: 3 out of 10
+Epoch: 15 cost time: 1.0781545639038086
+Epoch: 15, Steps: 8 | Train Loss: 0.019 Vali Loss: 1.504 Vali Acc: 0.713 Test Loss: 1.504 Test Acc: 0.713
+EarlyStopping counter: 4 out of 10
+Epoch: 16 cost time: 1.3495173454284668
+Epoch: 16, Steps: 8 | Train Loss: 0.015 Vali Loss: 1.661 Vali Acc: 0.700 Test Loss: 1.661 Test Acc: 0.700
+EarlyStopping counter: 5 out of 10
+Epoch: 17 cost time: 1.2165272235870361
+Epoch: 17, Steps: 8 | Train Loss: 0.009 Vali Loss: 1.710 Vali Acc: 0.703 Test Loss: 1.710 Test Acc: 0.703
+EarlyStopping counter: 6 out of 10
+Epoch: 18 cost time: 1.3956644535064697
+Epoch: 18, Steps: 8 | Train Loss: 0.007 Vali Loss: 1.732 Vali Acc: 0.716 Test Loss: 1.732 Test Acc: 0.716
+EarlyStopping counter: 7 out of 10
+Epoch: 19 cost time: 1.4163002967834473
+Epoch: 19, Steps: 8 | Train Loss: 0.005 Vali Loss: 1.868 Vali Acc: 0.703 Test Loss: 1.868 Test Acc: 0.703
+EarlyStopping counter: 8 out of 10
+Epoch: 20 cost time: 1.3677613735198975
+Epoch: 20, Steps: 8 | Train Loss: 0.006 Vali Loss: 1.925 Vali Acc: 0.706 Test Loss: 1.925 Test Acc: 0.706
+EarlyStopping counter: 9 out of 10
+Epoch: 21 cost time: 1.6040887832641602
+Epoch: 21, Steps: 8 | Train Loss: 0.002 Vali Loss: 1.941 Vali Acc: 0.706 Test Loss: 1.941 Test Acc: 0.706
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.753125
+model parameter : 175744
+model size : 1.90MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.149379730224609
+Epoch: 1, Steps: 8 | Train Loss: 2.063 Vali Loss: 2.040 Vali Acc: 0.325 Test Loss: 2.040 Test Acc: 0.325
+Validation loss decreased (inf --> -0.324980).  Saving model ...
+Epoch: 2 cost time: 1.2912495136260986
+Epoch: 2, Steps: 8 | Train Loss: 1.975 Vali Loss: 1.925 Vali Acc: 0.600 Test Loss: 1.925 Test Acc: 0.600
+Validation loss decreased (-0.324980 --> -0.599981).  Saving model ...
+Epoch: 3 cost time: 1.0688436031341553
+Epoch: 3, Steps: 8 | Train Loss: 1.804 Vali Loss: 1.743 Vali Acc: 0.706 Test Loss: 1.743 Test Acc: 0.706
+Validation loss decreased (-0.599981 --> -0.706233).  Saving model ...
+Epoch: 4 cost time: 1.548865556716919
+Epoch: 4, Steps: 8 | Train Loss: 1.555 Vali Loss: 1.518 Vali Acc: 0.713 Test Loss: 1.518 Test Acc: 0.713
+Validation loss decreased (-0.706233 --> -0.712485).  Saving model ...
+Epoch: 5 cost time: 1.291642427444458
+Epoch: 5, Steps: 8 | Train Loss: 1.236 Vali Loss: 1.268 Vali Acc: 0.738 Test Loss: 1.268 Test Acc: 0.738
+Validation loss decreased (-0.712485 --> -0.737487).  Saving model ...
+Epoch: 6 cost time: 1.3523576259613037
+Epoch: 6, Steps: 8 | Train Loss: 0.908 Vali Loss: 1.044 Vali Acc: 0.725 Test Loss: 1.044 Test Acc: 0.725
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.7933237552642822
+Epoch: 7, Steps: 8 | Train Loss: 0.618 Vali Loss: 0.935 Vali Acc: 0.728 Test Loss: 0.935 Test Acc: 0.728
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.6213533878326416
+Epoch: 8, Steps: 8 | Train Loss: 0.429 Vali Loss: 0.923 Vali Acc: 0.725 Test Loss: 0.923 Test Acc: 0.725
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.2323663234710693
+Epoch: 9, Steps: 8 | Train Loss: 0.295 Vali Loss: 0.934 Vali Acc: 0.722 Test Loss: 0.934 Test Acc: 0.722
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.3931357860565186
+Epoch: 10, Steps: 8 | Train Loss: 0.243 Vali Loss: 1.003 Vali Acc: 0.738 Test Loss: 1.003 Test Acc: 0.738
+Validation loss decreased (-0.737487 --> -0.737490).  Saving model ...
+Epoch: 11 cost time: 1.359262228012085
+Epoch: 11, Steps: 8 | Train Loss: 0.140 Vali Loss: 1.122 Vali Acc: 0.731 Test Loss: 1.122 Test Acc: 0.731
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 1.695967435836792
+Epoch: 12, Steps: 8 | Train Loss: 0.088 Vali Loss: 1.248 Vali Acc: 0.725 Test Loss: 1.248 Test Acc: 0.725
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 2.2907440662384033
+Epoch: 13, Steps: 8 | Train Loss: 0.046 Vali Loss: 1.344 Vali Acc: 0.722 Test Loss: 1.344 Test Acc: 0.722
+EarlyStopping counter: 3 out of 10
+Epoch: 14 cost time: 1.7196128368377686
+Epoch: 14, Steps: 8 | Train Loss: 0.038 Vali Loss: 1.437 Vali Acc: 0.709 Test Loss: 1.437 Test Acc: 0.709
+EarlyStopping counter: 4 out of 10
+Epoch: 15 cost time: 1.2331171035766602
+Epoch: 15, Steps: 8 | Train Loss: 0.023 Vali Loss: 1.567 Vali Acc: 0.706 Test Loss: 1.567 Test Acc: 0.706
+EarlyStopping counter: 5 out of 10
+Epoch: 16 cost time: 1.587968349456787
+Epoch: 16, Steps: 8 | Train Loss: 0.013 Vali Loss: 1.694 Vali Acc: 0.684 Test Loss: 1.694 Test Acc: 0.684
+EarlyStopping counter: 6 out of 10
+Epoch: 17 cost time: 1.6452019214630127
+Epoch: 17, Steps: 8 | Train Loss: 0.009 Vali Loss: 1.681 Vali Acc: 0.709 Test Loss: 1.681 Test Acc: 0.709
+EarlyStopping counter: 7 out of 10
+Epoch: 18 cost time: 1.4417541027069092
+Epoch: 18, Steps: 8 | Train Loss: 0.008 Vali Loss: 1.833 Vali Acc: 0.675 Test Loss: 1.833 Test Acc: 0.675
+EarlyStopping counter: 8 out of 10
+Epoch: 19 cost time: 1.7926735877990723
+Epoch: 19, Steps: 8 | Train Loss: 0.009 Vali Loss: 1.834 Vali Acc: 0.697 Test Loss: 1.834 Test Acc: 0.697
+EarlyStopping counter: 9 out of 10
+Epoch: 20 cost time: 1.793388843536377
+Epoch: 20, Steps: 8 | Train Loss: 0.009 Vali Loss: 1.773 Vali Acc: 0.703 Test Loss: 1.773 Test Acc: 0.703
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm64_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.7375
+model parameter : 175552
+model size : 1.90MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               16                  
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds16_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.609900236129761
+Epoch: 1, Steps: 8 | Train Loss: 2.076 Vali Loss: 2.062 Vali Acc: 0.247 Test Loss: 2.062 Test Acc: 0.247
+Validation loss decreased (inf --> -0.246854).  Saving model ...
+Epoch: 2 cost time: 1.0324695110321045
+Epoch: 2, Steps: 8 | Train Loss: 2.038 Vali Loss: 2.008 Vali Acc: 0.562 Test Loss: 2.008 Test Acc: 0.562
+Validation loss decreased (-0.246854 --> -0.562480).  Saving model ...
+Epoch: 3 cost time: 0.7827680110931396
+Epoch: 3, Steps: 8 | Train Loss: 1.963 Vali Loss: 1.927 Vali Acc: 0.719 Test Loss: 1.927 Test Acc: 0.719
+Validation loss decreased (-0.562480 --> -0.718731).  Saving model ...
+Epoch: 4 cost time: 1.1607205867767334
+Epoch: 4, Steps: 8 | Train Loss: 1.861 Vali Loss: 1.810 Vali Acc: 0.741 Test Loss: 1.810 Test Acc: 0.741
+Validation loss decreased (-0.718731 --> -0.740607).  Saving model ...
+Epoch: 5 cost time: 1.152090311050415
+Epoch: 5, Steps: 8 | Train Loss: 1.702 Vali Loss: 1.657 Vali Acc: 0.744 Test Loss: 1.657 Test Acc: 0.744
+Validation loss decreased (-0.740607 --> -0.743733).  Saving model ...
+Epoch: 6 cost time: 1.348893642425537
+Epoch: 6, Steps: 8 | Train Loss: 1.502 Vali Loss: 1.457 Vali Acc: 0.756 Test Loss: 1.457 Test Acc: 0.756
+Validation loss decreased (-0.743733 --> -0.756235).  Saving model ...
+Epoch: 7 cost time: 1.037358283996582
+Epoch: 7, Steps: 8 | Train Loss: 1.247 Vali Loss: 1.219 Vali Acc: 0.762 Test Loss: 1.219 Test Acc: 0.762
+Validation loss decreased (-0.756235 --> -0.762488).  Saving model ...
+Epoch: 8 cost time: 1.2928988933563232
+Epoch: 8, Steps: 8 | Train Loss: 1.001 Vali Loss: 0.975 Vali Acc: 0.772 Test Loss: 0.975 Test Acc: 0.772
+Validation loss decreased (-0.762488 --> -0.771865).  Saving model ...
+Epoch: 9 cost time: 1.350877046585083
+Epoch: 9, Steps: 8 | Train Loss: 0.692 Vali Loss: 0.789 Vali Acc: 0.772 Test Loss: 0.789 Test Acc: 0.772
+Validation loss decreased (-0.771865 --> -0.771867).  Saving model ...
+Epoch: 10 cost time: 1.2531304359436035
+Epoch: 10, Steps: 8 | Train Loss: 0.495 Vali Loss: 0.676 Vali Acc: 0.778 Test Loss: 0.676 Test Acc: 0.778
+Validation loss decreased (-0.771867 --> -0.778118).  Saving model ...
+Epoch: 11 cost time: 1.149179458618164
+Epoch: 11, Steps: 8 | Train Loss: 0.376 Vali Loss: 0.644 Vali Acc: 0.791 Test Loss: 0.644 Test Acc: 0.791
+Validation loss decreased (-0.778118 --> -0.790619).  Saving model ...
+Epoch: 12 cost time: 1.6554064750671387
+Epoch: 12, Steps: 8 | Train Loss: 0.244 Vali Loss: 0.652 Vali Acc: 0.797 Test Loss: 0.652 Test Acc: 0.797
+Validation loss decreased (-0.790619 --> -0.796868).  Saving model ...
+Epoch: 13 cost time: 1.1924858093261719
+Epoch: 13, Steps: 8 | Train Loss: 0.175 Vali Loss: 0.673 Vali Acc: 0.794 Test Loss: 0.673 Test Acc: 0.794
+EarlyStopping counter: 1 out of 10
+Epoch: 14 cost time: 1.5615100860595703
+Epoch: 14, Steps: 8 | Train Loss: 0.116 Vali Loss: 0.721 Vali Acc: 0.787 Test Loss: 0.721 Test Acc: 0.787
+EarlyStopping counter: 2 out of 10
+Epoch: 15 cost time: 1.4906303882598877
+Epoch: 15, Steps: 8 | Train Loss: 0.084 Vali Loss: 0.757 Vali Acc: 0.781 Test Loss: 0.757 Test Acc: 0.781
+EarlyStopping counter: 3 out of 10
+Epoch: 16 cost time: 1.5921125411987305
+Epoch: 16, Steps: 8 | Train Loss: 0.049 Vali Loss: 0.811 Vali Acc: 0.784 Test Loss: 0.811 Test Acc: 0.784
+EarlyStopping counter: 4 out of 10
+Epoch: 17 cost time: 1.78200364112854
+Epoch: 17, Steps: 8 | Train Loss: 0.040 Vali Loss: 0.870 Vali Acc: 0.781 Test Loss: 0.870 Test Acc: 0.781
+EarlyStopping counter: 5 out of 10
+Epoch: 18 cost time: 1.206249713897705
+Epoch: 18, Steps: 8 | Train Loss: 0.025 Vali Loss: 0.916 Vali Acc: 0.781 Test Loss: 0.916 Test Acc: 0.781
+EarlyStopping counter: 6 out of 10
+Epoch: 19 cost time: 1.427598237991333
+Epoch: 19, Steps: 8 | Train Loss: 0.020 Vali Loss: 0.959 Vali Acc: 0.784 Test Loss: 0.959 Test Acc: 0.784
+EarlyStopping counter: 7 out of 10
+Epoch: 20 cost time: 1.5249972343444824
+Epoch: 20, Steps: 8 | Train Loss: 0.015 Vali Loss: 0.995 Vali Acc: 0.784 Test Loss: 0.995 Test Acc: 0.784
+EarlyStopping counter: 8 out of 10
+Epoch: 21 cost time: 1.5019197463989258
+Epoch: 21, Steps: 8 | Train Loss: 0.013 Vali Loss: 1.042 Vali Acc: 0.778 Test Loss: 1.042 Test Acc: 0.778
+EarlyStopping counter: 9 out of 10
+Epoch: 22 cost time: 1.4146902561187744
+Epoch: 22, Steps: 8 | Train Loss: 0.010 Vali Loss: 1.086 Vali Acc: 0.781 Test Loss: 1.086 Test Acc: 0.781
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds16_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.796875
+model parameter : 86016
+model size : 0.94MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               8                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds8_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.191088676452637
+Epoch: 1, Steps: 8 | Train Loss: 2.080 Vali Loss: 2.065 Vali Acc: 0.231 Test Loss: 2.065 Test Acc: 0.231
+Validation loss decreased (inf --> -0.231229).  Saving model ...
+Epoch: 2 cost time: 1.4951865673065186
+Epoch: 2, Steps: 8 | Train Loss: 2.031 Vali Loss: 2.005 Vali Acc: 0.575 Test Loss: 2.005 Test Acc: 0.575
+Validation loss decreased (-0.231229 --> -0.574980).  Saving model ...
+Epoch: 3 cost time: 1.320791244506836
+Epoch: 3, Steps: 8 | Train Loss: 1.943 Vali Loss: 1.911 Vali Acc: 0.684 Test Loss: 1.911 Test Acc: 0.684
+Validation loss decreased (-0.574980 --> -0.684356).  Saving model ...
+Epoch: 4 cost time: 1.1275835037231445
+Epoch: 4, Steps: 8 | Train Loss: 1.818 Vali Loss: 1.781 Vali Acc: 0.700 Test Loss: 1.781 Test Acc: 0.700
+Validation loss decreased (-0.684356 --> -0.699982).  Saving model ...
+Epoch: 5 cost time: 1.6309888362884521
+Epoch: 5, Steps: 8 | Train Loss: 1.650 Vali Loss: 1.614 Vali Acc: 0.691 Test Loss: 1.614 Test Acc: 0.691
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.268763542175293
+Epoch: 6, Steps: 8 | Train Loss: 1.425 Vali Loss: 1.415 Vali Acc: 0.694 Test Loss: 1.415 Test Acc: 0.694
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 1.3631751537322998
+Epoch: 7, Steps: 8 | Train Loss: 1.195 Vali Loss: 1.209 Vali Acc: 0.694 Test Loss: 1.209 Test Acc: 0.694
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 1.8588578701019287
+Epoch: 8, Steps: 8 | Train Loss: 0.929 Vali Loss: 1.050 Vali Acc: 0.697 Test Loss: 1.050 Test Acc: 0.697
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 1.5207927227020264
+Epoch: 9, Steps: 8 | Train Loss: 0.739 Vali Loss: 0.936 Vali Acc: 0.719 Test Loss: 0.936 Test Acc: 0.719
+Validation loss decreased (-0.699982 --> -0.718741).  Saving model ...
+Epoch: 10 cost time: 1.5002014636993408
+Epoch: 10, Steps: 8 | Train Loss: 0.564 Vali Loss: 0.870 Vali Acc: 0.731 Test Loss: 0.870 Test Acc: 0.731
+Validation loss decreased (-0.718741 --> -0.731241).  Saving model ...
+Epoch: 11 cost time: 1.3324470520019531
+Epoch: 11, Steps: 8 | Train Loss: 0.406 Vali Loss: 0.843 Vali Acc: 0.753 Test Loss: 0.843 Test Acc: 0.753
+Validation loss decreased (-0.731241 --> -0.753117).  Saving model ...
+Epoch: 12 cost time: 1.2135939598083496
+Epoch: 12, Steps: 8 | Train Loss: 0.312 Vali Loss: 0.846 Vali Acc: 0.756 Test Loss: 0.846 Test Acc: 0.756
+Validation loss decreased (-0.753117 --> -0.756242).  Saving model ...
+Epoch: 13 cost time: 1.125992774963379
+Epoch: 13, Steps: 8 | Train Loss: 0.227 Vali Loss: 0.868 Vali Acc: 0.747 Test Loss: 0.868 Test Acc: 0.747
+EarlyStopping counter: 1 out of 10
+Epoch: 14 cost time: 1.221830129623413
+Epoch: 14, Steps: 8 | Train Loss: 0.175 Vali Loss: 0.906 Vali Acc: 0.734 Test Loss: 0.906 Test Acc: 0.734
+EarlyStopping counter: 2 out of 10
+Epoch: 15 cost time: 1.9397375583648682
+Epoch: 15, Steps: 8 | Train Loss: 0.125 Vali Loss: 0.970 Vali Acc: 0.744 Test Loss: 0.970 Test Acc: 0.744
+EarlyStopping counter: 3 out of 10
+Epoch: 16 cost time: 1.3638086318969727
+Epoch: 16, Steps: 8 | Train Loss: 0.099 Vali Loss: 1.031 Vali Acc: 0.744 Test Loss: 1.031 Test Acc: 0.744
+EarlyStopping counter: 4 out of 10
+Epoch: 17 cost time: 1.453904390335083
+Epoch: 17, Steps: 8 | Train Loss: 0.062 Vali Loss: 1.063 Vali Acc: 0.756 Test Loss: 1.063 Test Acc: 0.756
+EarlyStopping counter: 5 out of 10
+Epoch: 18 cost time: 1.1952424049377441
+Epoch: 18, Steps: 8 | Train Loss: 0.044 Vali Loss: 1.126 Vali Acc: 0.753 Test Loss: 1.126 Test Acc: 0.753
+EarlyStopping counter: 6 out of 10
+Epoch: 19 cost time: 1.131723403930664
+Epoch: 19, Steps: 8 | Train Loss: 0.033 Vali Loss: 1.173 Vali Acc: 0.769 Test Loss: 1.173 Test Acc: 0.769
+Validation loss decreased (-0.756242 --> -0.768738).  Saving model ...
+Epoch: 20 cost time: 1.2773914337158203
+Epoch: 20, Steps: 8 | Train Loss: 0.022 Vali Loss: 1.251 Vali Acc: 0.753 Test Loss: 1.251 Test Acc: 0.753
+EarlyStopping counter: 1 out of 10
+Epoch: 21 cost time: 1.3195867538452148
+Epoch: 21, Steps: 8 | Train Loss: 0.018 Vali Loss: 1.356 Vali Acc: 0.741 Test Loss: 1.356 Test Acc: 0.741
+EarlyStopping counter: 2 out of 10
+Epoch: 22 cost time: 1.3997883796691895
+Epoch: 22, Steps: 8 | Train Loss: 0.013 Vali Loss: 1.415 Vali Acc: 0.738 Test Loss: 1.415 Test Acc: 0.738
+EarlyStopping counter: 3 out of 10
+Epoch: 23 cost time: 1.5348947048187256
+Epoch: 23, Steps: 8 | Train Loss: 0.012 Vali Loss: 1.477 Vali Acc: 0.741 Test Loss: 1.477 Test Acc: 0.741
+EarlyStopping counter: 4 out of 10
+Epoch: 24 cost time: 1.2687909603118896
+Epoch: 24, Steps: 8 | Train Loss: 0.009 Vali Loss: 1.552 Vali Acc: 0.750 Test Loss: 1.552 Test Acc: 0.750
+EarlyStopping counter: 5 out of 10
+Epoch: 25 cost time: 1.921898603439331
+Epoch: 25, Steps: 8 | Train Loss: 0.009 Vali Loss: 1.593 Vali Acc: 0.759 Test Loss: 1.593 Test Acc: 0.759
+EarlyStopping counter: 6 out of 10
+Epoch: 26 cost time: 1.0502264499664307
+Epoch: 26, Steps: 8 | Train Loss: 0.007 Vali Loss: 1.624 Vali Acc: 0.747 Test Loss: 1.624 Test Acc: 0.747
+EarlyStopping counter: 7 out of 10
+Epoch: 27 cost time: 1.121051549911499
+Epoch: 27, Steps: 8 | Train Loss: 0.006 Vali Loss: 1.649 Vali Acc: 0.738 Test Loss: 1.649 Test Acc: 0.738
+EarlyStopping counter: 8 out of 10
+Epoch: 28 cost time: 1.0008904933929443
+Epoch: 28, Steps: 8 | Train Loss: 0.004 Vali Loss: 1.669 Vali Acc: 0.744 Test Loss: 1.669 Test Acc: 0.744
+EarlyStopping counter: 9 out of 10
+Epoch: 29 cost time: 1.5183308124542236
+Epoch: 29, Steps: 8 | Train Loss: 0.003 Vali Loss: 1.692 Vali Acc: 0.741 Test Loss: 1.692 Test Acc: 0.741
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds8_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.76875
+model parameter : 85248
+model size : 0.94MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds4_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 4.557708978652954
+Epoch: 1, Steps: 8 | Train Loss: 2.075 Vali Loss: 2.061 Vali Acc: 0.219 Test Loss: 2.061 Test Acc: 0.219
+Validation loss decreased (inf --> -0.218729).  Saving model ...
+Epoch: 2 cost time: 1.6833100318908691
+Epoch: 2, Steps: 8 | Train Loss: 2.031 Vali Loss: 2.002 Vali Acc: 0.541 Test Loss: 2.002 Test Acc: 0.541
+Validation loss decreased (-0.218729 --> -0.540605).  Saving model ...
+Epoch: 3 cost time: 1.447331428527832
+Epoch: 3, Steps: 8 | Train Loss: 1.947 Vali Loss: 1.910 Vali Acc: 0.662 Test Loss: 1.910 Test Acc: 0.662
+Validation loss decreased (-0.540605 --> -0.662481).  Saving model ...
+Epoch: 4 cost time: 1.0429542064666748
+Epoch: 4, Steps: 8 | Train Loss: 1.826 Vali Loss: 1.786 Vali Acc: 0.700 Test Loss: 1.786 Test Acc: 0.700
+Validation loss decreased (-0.662481 --> -0.699982).  Saving model ...
+Epoch: 5 cost time: 1.2681398391723633
+Epoch: 5, Steps: 8 | Train Loss: 1.666 Vali Loss: 1.624 Vali Acc: 0.731 Test Loss: 1.624 Test Acc: 0.731
+Validation loss decreased (-0.699982 --> -0.731234).  Saving model ...
+Epoch: 6 cost time: 1.596827745437622
+Epoch: 6, Steps: 8 | Train Loss: 1.455 Vali Loss: 1.427 Vali Acc: 0.722 Test Loss: 1.427 Test Acc: 0.722
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.2230348587036133
+Epoch: 7, Steps: 8 | Train Loss: 1.205 Vali Loss: 1.222 Vali Acc: 0.722 Test Loss: 1.222 Test Acc: 0.722
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.1948649883270264
+Epoch: 8, Steps: 8 | Train Loss: 0.964 Vali Loss: 1.050 Vali Acc: 0.719 Test Loss: 1.050 Test Acc: 0.719
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.4059467315673828
+Epoch: 9, Steps: 8 | Train Loss: 0.757 Vali Loss: 0.921 Vali Acc: 0.728 Test Loss: 0.921 Test Acc: 0.728
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.1087727546691895
+Epoch: 10, Steps: 8 | Train Loss: 0.575 Vali Loss: 0.845 Vali Acc: 0.734 Test Loss: 0.845 Test Acc: 0.734
+Validation loss decreased (-0.731234 --> -0.734367).  Saving model ...
+Epoch: 11 cost time: 1.2455143928527832
+Epoch: 11, Steps: 8 | Train Loss: 0.427 Vali Loss: 0.799 Vali Acc: 0.753 Test Loss: 0.799 Test Acc: 0.753
+Validation loss decreased (-0.734367 --> -0.753117).  Saving model ...
+Epoch: 12 cost time: 1.3995966911315918
+Epoch: 12, Steps: 8 | Train Loss: 0.327 Vali Loss: 0.793 Vali Acc: 0.769 Test Loss: 0.793 Test Acc: 0.769
+Validation loss decreased (-0.753117 --> -0.768742).  Saving model ...
+Epoch: 13 cost time: 1.3055200576782227
+Epoch: 13, Steps: 8 | Train Loss: 0.253 Vali Loss: 0.817 Vali Acc: 0.750 Test Loss: 0.817 Test Acc: 0.750
+EarlyStopping counter: 1 out of 10
+Epoch: 14 cost time: 1.227088451385498
+Epoch: 14, Steps: 8 | Train Loss: 0.202 Vali Loss: 0.863 Vali Acc: 0.744 Test Loss: 0.863 Test Acc: 0.744
+EarlyStopping counter: 2 out of 10
+Epoch: 15 cost time: 1.8048121929168701
+Epoch: 15, Steps: 8 | Train Loss: 0.133 Vali Loss: 0.931 Vali Acc: 0.744 Test Loss: 0.931 Test Acc: 0.744
+EarlyStopping counter: 3 out of 10
+Epoch: 16 cost time: 1.3810501098632812
+Epoch: 16, Steps: 8 | Train Loss: 0.099 Vali Loss: 0.953 Vali Acc: 0.753 Test Loss: 0.953 Test Acc: 0.753
+EarlyStopping counter: 4 out of 10
+Epoch: 17 cost time: 1.3513877391815186
+Epoch: 17, Steps: 8 | Train Loss: 0.068 Vali Loss: 1.033 Vali Acc: 0.744 Test Loss: 1.033 Test Acc: 0.744
+EarlyStopping counter: 5 out of 10
+Epoch: 18 cost time: 1.6500048637390137
+Epoch: 18, Steps: 8 | Train Loss: 0.050 Vali Loss: 1.099 Vali Acc: 0.738 Test Loss: 1.099 Test Acc: 0.738
+EarlyStopping counter: 6 out of 10
+Epoch: 19 cost time: 1.4816620349884033
+Epoch: 19, Steps: 8 | Train Loss: 0.034 Vali Loss: 1.182 Vali Acc: 0.734 Test Loss: 1.182 Test Acc: 0.734
+EarlyStopping counter: 7 out of 10
+Epoch: 20 cost time: 1.4217846393585205
+Epoch: 20, Steps: 8 | Train Loss: 0.025 Vali Loss: 1.279 Vali Acc: 0.728 Test Loss: 1.279 Test Acc: 0.728
+EarlyStopping counter: 8 out of 10
+Epoch: 21 cost time: 1.5125794410705566
+Epoch: 21, Steps: 8 | Train Loss: 0.021 Vali Loss: 1.353 Vali Acc: 0.734 Test Loss: 1.353 Test Acc: 0.734
+EarlyStopping counter: 9 out of 10
+Epoch: 22 cost time: 1.6965110301971436
+Epoch: 22, Steps: 8 | Train Loss: 0.015 Vali Loss: 1.419 Vali Acc: 0.734 Test Loss: 1.419 Test Acc: 0.734
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds4_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.76875
+model parameter : 84864
+model size : 0.94MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds2_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 5.7338268756866455
+Epoch: 1, Steps: 8 | Train Loss: 2.071 Vali Loss: 2.054 Vali Acc: 0.375 Test Loss: 2.054 Test Acc: 0.375
+Validation loss decreased (inf --> -0.374979).  Saving model ...
+Epoch: 2 cost time: 1.232621669769287
+Epoch: 2, Steps: 8 | Train Loss: 2.034 Vali Loss: 2.001 Vali Acc: 0.672 Test Loss: 2.001 Test Acc: 0.672
+Validation loss decreased (-0.374979 --> -0.671855).  Saving model ...
+Epoch: 3 cost time: 0.9871411323547363
+Epoch: 3, Steps: 8 | Train Loss: 1.958 Vali Loss: 1.919 Vali Acc: 0.744 Test Loss: 1.919 Test Acc: 0.744
+Validation loss decreased (-0.671855 --> -0.743731).  Saving model ...
+Epoch: 4 cost time: 0.9652853012084961
+Epoch: 4, Steps: 8 | Train Loss: 1.853 Vali Loss: 1.807 Vali Acc: 0.753 Test Loss: 1.807 Test Acc: 0.753
+Validation loss decreased (-0.743731 --> -0.753107).  Saving model ...
+Epoch: 5 cost time: 1.4503731727600098
+Epoch: 5, Steps: 8 | Train Loss: 1.712 Vali Loss: 1.657 Vali Acc: 0.744 Test Loss: 1.657 Test Acc: 0.744
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 1.146104097366333
+Epoch: 6, Steps: 8 | Train Loss: 1.517 Vali Loss: 1.467 Vali Acc: 0.734 Test Loss: 1.467 Test Acc: 0.734
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 1.3477332592010498
+Epoch: 7, Steps: 8 | Train Loss: 1.282 Vali Loss: 1.245 Vali Acc: 0.747 Test Loss: 1.245 Test Acc: 0.747
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 1.1180522441864014
+Epoch: 8, Steps: 8 | Train Loss: 1.020 Vali Loss: 1.022 Vali Acc: 0.734 Test Loss: 1.022 Test Acc: 0.734
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 1.2010254859924316
+Epoch: 9, Steps: 8 | Train Loss: 0.783 Vali Loss: 0.854 Vali Acc: 0.741 Test Loss: 0.854 Test Acc: 0.741
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 1.0380167961120605
+Epoch: 10, Steps: 8 | Train Loss: 0.573 Vali Loss: 0.736 Vali Acc: 0.769 Test Loss: 0.736 Test Acc: 0.769
+Validation loss decreased (-0.753107 --> -0.768743).  Saving model ...
+Epoch: 11 cost time: 1.2910175323486328
+Epoch: 11, Steps: 8 | Train Loss: 0.454 Vali Loss: 0.679 Vali Acc: 0.775 Test Loss: 0.679 Test Acc: 0.775
+Validation loss decreased (-0.768743 --> -0.774993).  Saving model ...
+Epoch: 12 cost time: 1.2300481796264648
+Epoch: 12, Steps: 8 | Train Loss: 0.351 Vali Loss: 0.657 Vali Acc: 0.794 Test Loss: 0.657 Test Acc: 0.794
+Validation loss decreased (-0.774993 --> -0.793743).  Saving model ...
+Epoch: 13 cost time: 1.5490357875823975
+Epoch: 13, Steps: 8 | Train Loss: 0.242 Vali Loss: 0.663 Vali Acc: 0.794 Test Loss: 0.663 Test Acc: 0.794
+EarlyStopping counter: 1 out of 10
+Epoch: 14 cost time: 0.9815058708190918
+Epoch: 14, Steps: 8 | Train Loss: 0.179 Vali Loss: 0.684 Vali Acc: 0.794 Test Loss: 0.684 Test Acc: 0.794
+EarlyStopping counter: 2 out of 10
+Epoch: 15 cost time: 1.2142126560211182
+Epoch: 15, Steps: 8 | Train Loss: 0.124 Vali Loss: 0.719 Vali Acc: 0.797 Test Loss: 0.719 Test Acc: 0.797
+Validation loss decreased (-0.793743 --> -0.796868).  Saving model ...
+Epoch: 16 cost time: 1.219132661819458
+Epoch: 16, Steps: 8 | Train Loss: 0.096 Vali Loss: 0.773 Vali Acc: 0.797 Test Loss: 0.773 Test Acc: 0.797
+EarlyStopping counter: 1 out of 10
+Epoch: 17 cost time: 1.3791921138763428
+Epoch: 17, Steps: 8 | Train Loss: 0.066 Vali Loss: 0.826 Vali Acc: 0.794 Test Loss: 0.826 Test Acc: 0.794
+EarlyStopping counter: 2 out of 10
+Epoch: 18 cost time: 1.7250595092773438
+Epoch: 18, Steps: 8 | Train Loss: 0.043 Vali Loss: 0.898 Vali Acc: 0.791 Test Loss: 0.898 Test Acc: 0.791
+EarlyStopping counter: 3 out of 10
+Epoch: 19 cost time: 1.6337158679962158
+Epoch: 19, Steps: 8 | Train Loss: 0.029 Vali Loss: 0.964 Vali Acc: 0.787 Test Loss: 0.964 Test Acc: 0.787
+EarlyStopping counter: 4 out of 10
+Epoch: 20 cost time: 1.6557743549346924
+Epoch: 20, Steps: 8 | Train Loss: 0.026 Vali Loss: 0.994 Vali Acc: 0.787 Test Loss: 0.994 Test Acc: 0.787
+EarlyStopping counter: 5 out of 10
+Epoch: 21 cost time: 1.812854528427124
+Epoch: 21, Steps: 8 | Train Loss: 0.018 Vali Loss: 1.024 Vali Acc: 0.778 Test Loss: 1.024 Test Acc: 0.778
+EarlyStopping counter: 6 out of 10
+Epoch: 22 cost time: 1.480518102645874
+Epoch: 22, Steps: 8 | Train Loss: 0.013 Vali Loss: 1.047 Vali Acc: 0.781 Test Loss: 1.047 Test Acc: 0.781
+EarlyStopping counter: 7 out of 10
+Epoch: 23 cost time: 1.1724085807800293
+Epoch: 23, Steps: 8 | Train Loss: 0.011 Vali Loss: 1.081 Vali Acc: 0.778 Test Loss: 1.081 Test Acc: 0.778
+EarlyStopping counter: 8 out of 10
+Epoch: 24 cost time: 2.130035400390625
+Epoch: 24, Steps: 8 | Train Loss: 0.010 Vali Loss: 1.104 Vali Acc: 0.778 Test Loss: 1.104 Test Acc: 0.778
+EarlyStopping counter: 9 out of 10
+Epoch: 25 cost time: 2.068991184234619
+Epoch: 25, Steps: 8 | Train Loss: 0.007 Vali Loss: 1.127 Vali Acc: 0.778 Test Loss: 1.127 Test Acc: 0.778
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds2_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.796875
+model parameter : 84672
+model size : 0.94MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_UWaveGestureLibraryModel:              Mamba               
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             3                   Dec In:             7                   
+  C Out:              0                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                full4ablation1      Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                2                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+Please make sure you have successfully installed mamba_ssm
+120
+320
+320
+>>>>>>>start training : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds1_expand1_dc4_full4ablation1_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 3.7317354679107666
+Epoch: 1, Steps: 8 | Train Loss: 2.067 Vali Loss: 2.057 Vali Acc: 0.362 Test Loss: 2.057 Test Acc: 0.362
+Validation loss decreased (inf --> -0.362479).  Saving model ...
+Epoch: 2 cost time: 1.289111614227295
+Epoch: 2, Steps: 8 | Train Loss: 2.026 Vali Loss: 1.999 Vali Acc: 0.562 Test Loss: 1.999 Test Acc: 0.562
+Validation loss decreased (-0.362479 --> -0.562480).  Saving model ...
+Epoch: 3 cost time: 1.5476186275482178
+Epoch: 3, Steps: 8 | Train Loss: 1.947 Vali Loss: 1.909 Vali Acc: 0.703 Test Loss: 1.909 Test Acc: 0.703
+Validation loss decreased (-0.562480 --> -0.703106).  Saving model ...
+Epoch: 4 cost time: 1.7289950847625732
+Epoch: 4, Steps: 8 | Train Loss: 1.833 Vali Loss: 1.787 Vali Acc: 0.719 Test Loss: 1.787 Test Acc: 0.719
+Validation loss decreased (-0.703106 --> -0.718732).  Saving model ...
+Epoch: 5 cost time: 1.357027292251587
+Epoch: 5, Steps: 8 | Train Loss: 1.677 Vali Loss: 1.632 Vali Acc: 0.725 Test Loss: 1.632 Test Acc: 0.725
+Validation loss decreased (-0.718732 --> -0.724984).  Saving model ...
+Epoch: 6 cost time: 1.3442401885986328
+Epoch: 6, Steps: 8 | Train Loss: 1.488 Vali Loss: 1.440 Vali Acc: 0.722 Test Loss: 1.440 Test Acc: 0.722
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.023604393005371
+Epoch: 7, Steps: 8 | Train Loss: 1.239 Vali Loss: 1.232 Vali Acc: 0.738 Test Loss: 1.232 Test Acc: 0.738
+Validation loss decreased (-0.724984 --> -0.737488).  Saving model ...
+Epoch: 8 cost time: 1.1980407238006592
+Epoch: 8, Steps: 8 | Train Loss: 0.998 Vali Loss: 1.033 Vali Acc: 0.741 Test Loss: 1.033 Test Acc: 0.741
+Validation loss decreased (-0.737488 --> -0.740615).  Saving model ...
+Epoch: 9 cost time: 1.4416453838348389
+Epoch: 9, Steps: 8 | Train Loss: 0.790 Vali Loss: 0.868 Vali Acc: 0.753 Test Loss: 0.868 Test Acc: 0.753
+Validation loss decreased (-0.740615 --> -0.753116).  Saving model ...
+Epoch: 10 cost time: 1.441483736038208
+Epoch: 10, Steps: 8 | Train Loss: 0.590 Vali Loss: 0.763 Vali Acc: 0.756 Test Loss: 0.763 Test Acc: 0.756
+Validation loss decreased (-0.753116 --> -0.756242).  Saving model ...
+Epoch: 11 cost time: 1.176966905593872
+Epoch: 11, Steps: 8 | Train Loss: 0.454 Vali Loss: 0.703 Vali Acc: 0.772 Test Loss: 0.703 Test Acc: 0.772
+Validation loss decreased (-0.756242 --> -0.771868).  Saving model ...
+Epoch: 12 cost time: 1.6663925647735596
+Epoch: 12, Steps: 8 | Train Loss: 0.372 Vali Loss: 0.668 Vali Acc: 0.800 Test Loss: 0.668 Test Acc: 0.800
+Validation loss decreased (-0.771868 --> -0.799993).  Saving model ...
+Epoch: 13 cost time: 1.261044979095459
+Epoch: 13, Steps: 8 | Train Loss: 0.288 Vali Loss: 0.662 Vali Acc: 0.803 Test Loss: 0.662 Test Acc: 0.803
+Validation loss decreased (-0.799993 --> -0.803118).  Saving model ...
+Epoch: 14 cost time: 1.2579083442687988
+Epoch: 14, Steps: 8 | Train Loss: 0.206 Vali Loss: 0.680 Vali Acc: 0.794 Test Loss: 0.680 Test Acc: 0.794
+EarlyStopping counter: 1 out of 10
+Epoch: 15 cost time: 1.058518648147583
+Epoch: 15, Steps: 8 | Train Loss: 0.155 Vali Loss: 0.684 Vali Acc: 0.797 Test Loss: 0.684 Test Acc: 0.797
+EarlyStopping counter: 2 out of 10
+Epoch: 16 cost time: 1.4647517204284668
+Epoch: 16, Steps: 8 | Train Loss: 0.107 Vali Loss: 0.699 Vali Acc: 0.797 Test Loss: 0.699 Test Acc: 0.797
+EarlyStopping counter: 3 out of 10
+Epoch: 17 cost time: 1.398043155670166
+Epoch: 17, Steps: 8 | Train Loss: 0.085 Vali Loss: 0.734 Vali Acc: 0.797 Test Loss: 0.734 Test Acc: 0.797
+EarlyStopping counter: 4 out of 10
+Epoch: 18 cost time: 1.3260838985443115
+Epoch: 18, Steps: 8 | Train Loss: 0.061 Vali Loss: 0.762 Vali Acc: 0.794 Test Loss: 0.762 Test Acc: 0.794
+EarlyStopping counter: 5 out of 10
+Epoch: 19 cost time: 1.325465440750122
+Epoch: 19, Steps: 8 | Train Loss: 0.046 Vali Loss: 0.790 Vali Acc: 0.797 Test Loss: 0.790 Test Acc: 0.797
+EarlyStopping counter: 6 out of 10
+Epoch: 20 cost time: 1.2341628074645996
+Epoch: 20, Steps: 8 | Train Loss: 0.034 Vali Loss: 0.819 Vali Acc: 0.791 Test Loss: 0.819 Test Acc: 0.791
+EarlyStopping counter: 7 out of 10
+Epoch: 21 cost time: 1.456399917602539
+Epoch: 21, Steps: 8 | Train Loss: 0.028 Vali Loss: 0.855 Vali Acc: 0.784 Test Loss: 0.855 Test Acc: 0.784
+EarlyStopping counter: 8 out of 10
+Epoch: 22 cost time: 1.625138759613037
+Epoch: 22, Steps: 8 | Train Loss: 0.021 Vali Loss: 0.882 Vali Acc: 0.787 Test Loss: 0.882 Test Acc: 0.787
+EarlyStopping counter: 9 out of 10
+Epoch: 23 cost time: 1.523475170135498
+Epoch: 23, Steps: 8 | Train Loss: 0.016 Vali Loss: 0.905 Vali Acc: 0.784 Test Loss: 0.905 Test Acc: 0.784
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_UWaveGestureLibrary_Mamba_UEA_ftM_sl315_ll0_pl0_dm32_ds1_expand1_dc4_full4ablation1_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([320, 8]) torch.Size([320, 1])
+accuracy:0.803125
+model parameter : 84576
+model size : 0.94MB

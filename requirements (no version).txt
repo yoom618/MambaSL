@@ -1,7 +1,10 @@
+### non-DL models (aeon dependencies)
+aeon
+### DL models (time-series-library dependencies)
 einops
 local-attention
-matplotlib
 numpy
+numba
 pandas
 patool
 reformer-pytorch
@@ -13,3 +16,11 @@ torch
 tqdm
 PyWavelets
 timm
+# mamba-ssm
+# causal-conv1d
+### visualization
+matplotlib
+seaborn
+plotly
+kaleido
+umap-learn

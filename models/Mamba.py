@@ -14,9 +14,6 @@ class Model(nn.Module):
         super(Model, self).__init__()
         self.task_name = configs.task_name
         self.pred_len = configs.pred_len
-
-        self.d_inner = configs.d_model * configs.expand
-        self.dt_rank = math.ceil(configs.d_model / 16) # TODO implement "auto"
         
         self.embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq, configs.dropout, seq_len=configs.seq_len)
 
@@ -28,10 +25,9 @@ class Model(nn.Module):
         )
 
         if self.task_name == 'classification': # add classification task code. refer to other models given in tslib
-            self.act = F.gelu
+            self.act = F.silu
             self.dropout = nn.Dropout(configs.dropout)
-            self.projection = nn.Linear(
-                configs.d_model * configs.seq_len, configs.num_class, bias=False)          
+            self.projection = nn.Linear(configs.d_model * configs.seq_len, configs.num_class, bias=False)          
         elif self.task_name in ['short_term_forecast', 'long_term_forecast']:
             self.out_layer = nn.Linear(configs.d_model, configs.c_out, bias=False)
         else:

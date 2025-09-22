@@ -1,0 +1,1920 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 19 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 16 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 8 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 5 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 4 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 2 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 19 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 16 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 12 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 8 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 5 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 4 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 2 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 19 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 16 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 8 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 5 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 4 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 2 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 19 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 16 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 12 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 8 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 5 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 4 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 2 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 19 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 16 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 8 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 5 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 4 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 2 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 19 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 16 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 12 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 8 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 5 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 4 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 2 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 19 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 16 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 8 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 5 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 4 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 2 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 19 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 16 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 12 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 8 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 5 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 4 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 2 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Handwriting \
+  --seq_len 152 \
+  --enc_in 3 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_Handwriting \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

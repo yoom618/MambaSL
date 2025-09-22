@@ -1,0 +1,1242 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         576                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma576_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 4.657388687133789
+Epoch: 1, Steps: 13 | Train Loss: 0.723 Vali Loss: 0.697 Vali Acc: 0.561 Test Loss: 0.697 Test Acc: 0.561
+Validation loss decreased (inf --> -0.561104).  Saving model ...
+Epoch: 2 cost time: 1.7267489433288574
+Epoch: 2, Steps: 13 | Train Loss: 0.701 Vali Loss: 0.797 Vali Acc: 0.556 Test Loss: 0.797 Test Acc: 0.556
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.6470117568969727
+Epoch: 3, Steps: 13 | Train Loss: 0.668 Vali Loss: 1.054 Vali Acc: 0.550 Test Loss: 1.054 Test Acc: 0.550
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.4636218547821045
+Epoch: 4, Steps: 13 | Train Loss: 0.682 Vali Loss: 0.859 Vali Acc: 0.472 Test Loss: 0.859 Test Acc: 0.472
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.956787109375
+Epoch: 5, Steps: 13 | Train Loss: 0.536 Vali Loss: 1.122 Vali Acc: 0.483 Test Loss: 1.122 Test Acc: 0.483
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.5316805839538574
+Epoch: 6, Steps: 13 | Train Loss: 0.476 Vali Loss: 1.004 Vali Acc: 0.467 Test Loss: 1.004 Test Acc: 0.467
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.9652912616729736
+Epoch: 7, Steps: 13 | Train Loss: 0.452 Vali Loss: 1.018 Vali Acc: 0.417 Test Loss: 1.018 Test Acc: 0.417
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 1.846951961517334
+Epoch: 8, Steps: 13 | Train Loss: 0.400 Vali Loss: 1.190 Vali Acc: 0.467 Test Loss: 1.190 Test Acc: 0.467
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 2.1324315071105957
+Epoch: 9, Steps: 13 | Train Loss: 0.531 Vali Loss: 1.287 Vali Acc: 0.500 Test Loss: 1.287 Test Acc: 0.500
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 1.5616371631622314
+Epoch: 10, Steps: 13 | Train Loss: 0.351 Vali Loss: 1.584 Vali Acc: 0.461 Test Loss: 1.584 Test Acc: 0.461
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 1.7880845069885254
+Epoch: 11, Steps: 13 | Train Loss: 0.340 Vali Loss: 1.476 Vali Acc: 0.433 Test Loss: 1.476 Test Acc: 0.433
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma576_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5611111111111111
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         519                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma519_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 3.5524120330810547
+Epoch: 1, Steps: 13 | Train Loss: 0.723 Vali Loss: 0.696 Vali Acc: 0.561 Test Loss: 0.696 Test Acc: 0.561
+Validation loss decreased (inf --> -0.561104).  Saving model ...
+Epoch: 2 cost time: 1.26942777633667
+Epoch: 2, Steps: 13 | Train Loss: 0.697 Vali Loss: 0.817 Vali Acc: 0.572 Test Loss: 0.817 Test Acc: 0.572
+Validation loss decreased (-0.561104 --> -0.572214).  Saving model ...
+Epoch: 3 cost time: 1.2289183139801025
+Epoch: 3, Steps: 13 | Train Loss: 0.668 Vali Loss: 1.031 Vali Acc: 0.556 Test Loss: 1.031 Test Acc: 0.556
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.3497135639190674
+Epoch: 4, Steps: 13 | Train Loss: 0.659 Vali Loss: 0.938 Vali Acc: 0.478 Test Loss: 0.938 Test Acc: 0.478
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.231438398361206
+Epoch: 5, Steps: 13 | Train Loss: 0.583 Vali Loss: 1.203 Vali Acc: 0.456 Test Loss: 1.203 Test Acc: 0.456
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.333186149597168
+Epoch: 6, Steps: 13 | Train Loss: 0.567 Vali Loss: 1.243 Vali Acc: 0.467 Test Loss: 1.243 Test Acc: 0.467
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.4722394943237305
+Epoch: 7, Steps: 13 | Train Loss: 0.471 Vali Loss: 1.138 Vali Acc: 0.417 Test Loss: 1.138 Test Acc: 0.417
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.6527674198150635
+Epoch: 8, Steps: 13 | Train Loss: 0.422 Vali Loss: 1.248 Vali Acc: 0.461 Test Loss: 1.248 Test Acc: 0.461
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.5312566757202148
+Epoch: 9, Steps: 13 | Train Loss: 0.475 Vali Loss: 1.239 Vali Acc: 0.483 Test Loss: 1.239 Test Acc: 0.483
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.3840806484222412
+Epoch: 10, Steps: 13 | Train Loss: 0.321 Vali Loss: 1.358 Vali Acc: 0.417 Test Loss: 1.358 Test Acc: 0.417
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.422947883605957
+Epoch: 11, Steps: 13 | Train Loss: 0.408 Vali Loss: 1.447 Vali Acc: 0.467 Test Loss: 1.447 Test Acc: 0.467
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.5393908023834229
+Epoch: 12, Steps: 13 | Train Loss: 0.355 Vali Loss: 1.609 Vali Acc: 0.450 Test Loss: 1.609 Test Acc: 0.450
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma519_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5722222222222222
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         461                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma461_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 4.297661542892456
+Epoch: 1, Steps: 13 | Train Loss: 0.723 Vali Loss: 0.694 Vali Acc: 0.550 Test Loss: 0.694 Test Acc: 0.550
+Validation loss decreased (inf --> -0.549993).  Saving model ...
+Epoch: 2 cost time: 2.1947641372680664
+Epoch: 2, Steps: 13 | Train Loss: 0.692 Vali Loss: 0.852 Vali Acc: 0.550 Test Loss: 0.852 Test Acc: 0.550
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.7715182304382324
+Epoch: 3, Steps: 13 | Train Loss: 0.673 Vali Loss: 0.994 Vali Acc: 0.550 Test Loss: 0.994 Test Acc: 0.550
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.7896156311035156
+Epoch: 4, Steps: 13 | Train Loss: 0.658 Vali Loss: 0.955 Vali Acc: 0.461 Test Loss: 0.955 Test Acc: 0.461
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.9334111213684082
+Epoch: 5, Steps: 13 | Train Loss: 0.540 Vali Loss: 1.169 Vali Acc: 0.472 Test Loss: 1.169 Test Acc: 0.472
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.609710931777954
+Epoch: 6, Steps: 13 | Train Loss: 0.470 Vali Loss: 1.001 Vali Acc: 0.483 Test Loss: 1.001 Test Acc: 0.483
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 2.012375593185425
+Epoch: 7, Steps: 13 | Train Loss: 0.574 Vali Loss: 1.243 Vali Acc: 0.428 Test Loss: 1.243 Test Acc: 0.428
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 1.8967955112457275
+Epoch: 8, Steps: 13 | Train Loss: 0.490 Vali Loss: 1.477 Vali Acc: 0.456 Test Loss: 1.477 Test Acc: 0.456
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 1.896674394607544
+Epoch: 9, Steps: 13 | Train Loss: 0.429 Vali Loss: 1.244 Vali Acc: 0.489 Test Loss: 1.244 Test Acc: 0.489
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 2.064950704574585
+Epoch: 10, Steps: 13 | Train Loss: 0.341 Vali Loss: 1.466 Vali Acc: 0.450 Test Loss: 1.466 Test Acc: 0.450
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 2.1191585063934326
+Epoch: 11, Steps: 13 | Train Loss: 0.407 Vali Loss: 1.483 Vali Acc: 0.428 Test Loss: 1.483 Test Acc: 0.428
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma461_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.55
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         404                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma404_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 4.028431415557861
+Epoch: 1, Steps: 13 | Train Loss: 0.723 Vali Loss: 0.693 Vali Acc: 0.561 Test Loss: 0.693 Test Acc: 0.561
+Validation loss decreased (inf --> -0.561104).  Saving model ...
+Epoch: 2 cost time: 1.2886993885040283
+Epoch: 2, Steps: 13 | Train Loss: 0.692 Vali Loss: 0.881 Vali Acc: 0.544 Test Loss: 0.881 Test Acc: 0.544
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.58534836769104
+Epoch: 3, Steps: 13 | Train Loss: 0.687 Vali Loss: 1.010 Vali Acc: 0.556 Test Loss: 1.010 Test Acc: 0.556
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.392282485961914
+Epoch: 4, Steps: 13 | Train Loss: 0.646 Vali Loss: 0.991 Vali Acc: 0.489 Test Loss: 0.991 Test Acc: 0.489
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.1152148246765137
+Epoch: 5, Steps: 13 | Train Loss: 0.603 Vali Loss: 1.350 Vali Acc: 0.456 Test Loss: 1.350 Test Acc: 0.456
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.2855360507965088
+Epoch: 6, Steps: 13 | Train Loss: 0.819 Vali Loss: 0.909 Vali Acc: 0.478 Test Loss: 0.909 Test Acc: 0.478
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.1209311485290527
+Epoch: 7, Steps: 13 | Train Loss: 0.578 Vali Loss: 1.161 Vali Acc: 0.444 Test Loss: 1.161 Test Acc: 0.444
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 1.4009780883789062
+Epoch: 8, Steps: 13 | Train Loss: 0.511 Vali Loss: 1.301 Vali Acc: 0.467 Test Loss: 1.301 Test Acc: 0.467
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 1.3289759159088135
+Epoch: 9, Steps: 13 | Train Loss: 0.425 Vali Loss: 1.309 Vali Acc: 0.472 Test Loss: 1.309 Test Acc: 0.472
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 1.7111573219299316
+Epoch: 10, Steps: 13 | Train Loss: 0.326 Vali Loss: 1.477 Vali Acc: 0.461 Test Loss: 1.477 Test Acc: 0.461
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 1.449284315109253
+Epoch: 11, Steps: 13 | Train Loss: 0.381 Vali Loss: 1.463 Vali Acc: 0.461 Test Loss: 1.463 Test Acc: 0.461
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma404_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5611111111111111
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         346                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma346_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 4.037633419036865
+Epoch: 1, Steps: 13 | Train Loss: 0.724 Vali Loss: 0.692 Vali Acc: 0.550 Test Loss: 0.692 Test Acc: 0.550
+Validation loss decreased (inf --> -0.549993).  Saving model ...
+Epoch: 2 cost time: 1.3914453983306885
+Epoch: 2, Steps: 13 | Train Loss: 0.695 Vali Loss: 0.891 Vali Acc: 0.539 Test Loss: 0.891 Test Acc: 0.539
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.469045639038086
+Epoch: 3, Steps: 13 | Train Loss: 0.705 Vali Loss: 1.171 Vali Acc: 0.539 Test Loss: 1.171 Test Acc: 0.539
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.683518409729004
+Epoch: 4, Steps: 13 | Train Loss: 0.831 Vali Loss: 0.820 Vali Acc: 0.522 Test Loss: 0.820 Test Acc: 0.522
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.3882780075073242
+Epoch: 5, Steps: 13 | Train Loss: 0.524 Vali Loss: 1.191 Vali Acc: 0.428 Test Loss: 1.191 Test Acc: 0.428
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.4247839450836182
+Epoch: 6, Steps: 13 | Train Loss: 0.676 Vali Loss: 0.978 Vali Acc: 0.439 Test Loss: 0.978 Test Acc: 0.439
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.6421165466308594
+Epoch: 7, Steps: 13 | Train Loss: 0.723 Vali Loss: 1.028 Vali Acc: 0.483 Test Loss: 1.028 Test Acc: 0.483
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 1.270721197128296
+Epoch: 8, Steps: 13 | Train Loss: 0.548 Vali Loss: 1.170 Vali Acc: 0.450 Test Loss: 1.170 Test Acc: 0.450
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 1.1977872848510742
+Epoch: 9, Steps: 13 | Train Loss: 0.381 Vali Loss: 1.222 Vali Acc: 0.461 Test Loss: 1.222 Test Acc: 0.461
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 1.5754444599151611
+Epoch: 10, Steps: 13 | Train Loss: 0.299 Vali Loss: 1.413 Vali Acc: 0.461 Test Loss: 1.413 Test Acc: 0.461
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 1.73549485206604
+Epoch: 11, Steps: 13 | Train Loss: 0.352 Vali Loss: 1.474 Vali Acc: 0.456 Test Loss: 1.474 Test Acc: 0.456
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma346_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.55
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         288                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma288_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 4.0723748207092285
+Epoch: 1, Steps: 13 | Train Loss: 0.724 Vali Loss: 0.689 Vali Acc: 0.544 Test Loss: 0.689 Test Acc: 0.544
+Validation loss decreased (inf --> -0.544438).  Saving model ...
+Epoch: 2 cost time: 1.0868678092956543
+Epoch: 2, Steps: 13 | Train Loss: 0.698 Vali Loss: 0.878 Vali Acc: 0.528 Test Loss: 0.878 Test Acc: 0.528
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.6669270992279053
+Epoch: 3, Steps: 13 | Train Loss: 0.717 Vali Loss: 1.279 Vali Acc: 0.533 Test Loss: 1.279 Test Acc: 0.533
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.5410308837890625
+Epoch: 4, Steps: 13 | Train Loss: 0.854 Vali Loss: 0.811 Vali Acc: 0.500 Test Loss: 0.811 Test Acc: 0.500
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.1780006885528564
+Epoch: 5, Steps: 13 | Train Loss: 0.555 Vali Loss: 1.194 Vali Acc: 0.439 Test Loss: 1.194 Test Acc: 0.439
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.4286293983459473
+Epoch: 6, Steps: 13 | Train Loss: 0.756 Vali Loss: 0.908 Vali Acc: 0.478 Test Loss: 0.908 Test Acc: 0.478
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.3664720058441162
+Epoch: 7, Steps: 13 | Train Loss: 0.562 Vali Loss: 1.218 Vali Acc: 0.428 Test Loss: 1.218 Test Acc: 0.428
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 1.403200387954712
+Epoch: 8, Steps: 13 | Train Loss: 0.596 Vali Loss: 1.108 Vali Acc: 0.456 Test Loss: 1.108 Test Acc: 0.456
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 1.2612004280090332
+Epoch: 9, Steps: 13 | Train Loss: 0.388 Vali Loss: 1.224 Vali Acc: 0.456 Test Loss: 1.224 Test Acc: 0.456
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 1.1130790710449219
+Epoch: 10, Steps: 13 | Train Loss: 0.335 Vali Loss: 1.345 Vali Acc: 0.461 Test Loss: 1.345 Test Acc: 0.461
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 1.2325186729431152
+Epoch: 11, Steps: 13 | Train Loss: 0.364 Vali Loss: 1.435 Vali Acc: 0.467 Test Loss: 1.435 Test Acc: 0.467
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma288_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5444444444444444
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         231                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma231_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 4.891190528869629
+Epoch: 1, Steps: 13 | Train Loss: 0.723 Vali Loss: 0.688 Vali Acc: 0.561 Test Loss: 0.688 Test Acc: 0.561
+Validation loss decreased (inf --> -0.561104).  Saving model ...
+Epoch: 2 cost time: 1.4220266342163086
+Epoch: 2, Steps: 13 | Train Loss: 0.696 Vali Loss: 0.877 Vali Acc: 0.550 Test Loss: 0.877 Test Acc: 0.550
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.701892375946045
+Epoch: 3, Steps: 13 | Train Loss: 0.698 Vali Loss: 1.201 Vali Acc: 0.539 Test Loss: 1.201 Test Acc: 0.539
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.5779378414154053
+Epoch: 4, Steps: 13 | Train Loss: 0.907 Vali Loss: 0.824 Vali Acc: 0.550 Test Loss: 0.824 Test Acc: 0.550
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.8480172157287598
+Epoch: 5, Steps: 13 | Train Loss: 0.531 Vali Loss: 1.028 Vali Acc: 0.439 Test Loss: 1.028 Test Acc: 0.439
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.869767665863037
+Epoch: 6, Steps: 13 | Train Loss: 0.474 Vali Loss: 0.976 Vali Acc: 0.517 Test Loss: 0.976 Test Acc: 0.517
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.4956672191619873
+Epoch: 7, Steps: 13 | Train Loss: 0.479 Vali Loss: 1.182 Vali Acc: 0.444 Test Loss: 1.182 Test Acc: 0.444
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 1.7623705863952637
+Epoch: 8, Steps: 13 | Train Loss: 0.461 Vali Loss: 1.483 Vali Acc: 0.444 Test Loss: 1.483 Test Acc: 0.444
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 1.7709462642669678
+Epoch: 9, Steps: 13 | Train Loss: 0.436 Vali Loss: 1.290 Vali Acc: 0.478 Test Loss: 1.290 Test Acc: 0.478
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 1.2807295322418213
+Epoch: 10, Steps: 13 | Train Loss: 0.322 Vali Loss: 1.406 Vali Acc: 0.461 Test Loss: 1.406 Test Acc: 0.461
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 1.518895149230957
+Epoch: 11, Steps: 13 | Train Loss: 0.449 Vali Loss: 1.457 Vali Acc: 0.439 Test Loss: 1.457 Test Acc: 0.439
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma231_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5611111111111111
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         173                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma173_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 3.4408929347991943
+Epoch: 1, Steps: 13 | Train Loss: 0.723 Vali Loss: 0.688 Vali Acc: 0.539 Test Loss: 0.688 Test Acc: 0.539
+Validation loss decreased (inf --> -0.538882).  Saving model ...
+Epoch: 2 cost time: 1.1518919467926025
+Epoch: 2, Steps: 13 | Train Loss: 0.695 Vali Loss: 0.869 Vali Acc: 0.567 Test Loss: 0.869 Test Acc: 0.567
+Validation loss decreased (-0.538882 --> -0.566658).  Saving model ...
+Epoch: 3 cost time: 1.8037073612213135
+Epoch: 3, Steps: 13 | Train Loss: 0.691 Vali Loss: 1.207 Vali Acc: 0.528 Test Loss: 1.207 Test Acc: 0.528
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.0853509902954102
+Epoch: 4, Steps: 13 | Train Loss: 0.894 Vali Loss: 0.810 Vali Acc: 0.522 Test Loss: 0.810 Test Acc: 0.522
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.9438552856445312
+Epoch: 5, Steps: 13 | Train Loss: 0.523 Vali Loss: 1.000 Vali Acc: 0.444 Test Loss: 1.000 Test Acc: 0.444
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.35282301902771
+Epoch: 6, Steps: 13 | Train Loss: 0.482 Vali Loss: 1.012 Vali Acc: 0.467 Test Loss: 1.012 Test Acc: 0.467
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.3522529602050781
+Epoch: 7, Steps: 13 | Train Loss: 0.413 Vali Loss: 1.084 Vali Acc: 0.467 Test Loss: 1.084 Test Acc: 0.467
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.4831032752990723
+Epoch: 8, Steps: 13 | Train Loss: 0.459 Vali Loss: 1.446 Vali Acc: 0.461 Test Loss: 1.446 Test Acc: 0.461
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.3012962341308594
+Epoch: 9, Steps: 13 | Train Loss: 0.444 Vali Loss: 1.285 Vali Acc: 0.494 Test Loss: 1.285 Test Acc: 0.494
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.3877778053283691
+Epoch: 10, Steps: 13 | Train Loss: 0.324 Vali Loss: 1.364 Vali Acc: 0.483 Test Loss: 1.364 Test Acc: 0.483
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.4197006225585938
+Epoch: 11, Steps: 13 | Train Loss: 0.407 Vali Loss: 1.447 Vali Acc: 0.444 Test Loss: 1.447 Test Acc: 0.444
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.3220360279083252
+Epoch: 12, Steps: 13 | Train Loss: 0.319 Vali Loss: 1.559 Vali Acc: 0.456 Test Loss: 1.559 Test Acc: 0.456
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma173_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5666666666666667
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         116                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma116_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 3.59171986579895
+Epoch: 1, Steps: 13 | Train Loss: 0.724 Vali Loss: 0.687 Vali Acc: 0.539 Test Loss: 0.687 Test Acc: 0.539
+Validation loss decreased (inf --> -0.538882).  Saving model ...
+Epoch: 2 cost time: 1.332655668258667
+Epoch: 2, Steps: 13 | Train Loss: 0.695 Vali Loss: 0.869 Vali Acc: 0.556 Test Loss: 0.869 Test Acc: 0.556
+Validation loss decreased (-0.538882 --> -0.555547).  Saving model ...
+Epoch: 3 cost time: 1.1733193397521973
+Epoch: 3, Steps: 13 | Train Loss: 0.678 Vali Loss: 1.094 Vali Acc: 0.544 Test Loss: 1.094 Test Acc: 0.544
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.3855626583099365
+Epoch: 4, Steps: 13 | Train Loss: 0.652 Vali Loss: 0.952 Vali Acc: 0.478 Test Loss: 0.952 Test Acc: 0.478
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.3664264678955078
+Epoch: 5, Steps: 13 | Train Loss: 0.618 Vali Loss: 1.282 Vali Acc: 0.444 Test Loss: 1.282 Test Acc: 0.444
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.078885555267334
+Epoch: 6, Steps: 13 | Train Loss: 0.727 Vali Loss: 0.895 Vali Acc: 0.456 Test Loss: 0.895 Test Acc: 0.456
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.2855072021484375
+Epoch: 7, Steps: 13 | Train Loss: 0.609 Vali Loss: 1.011 Vali Acc: 0.461 Test Loss: 1.011 Test Acc: 0.461
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.1169538497924805
+Epoch: 8, Steps: 13 | Train Loss: 0.532 Vali Loss: 1.262 Vali Acc: 0.439 Test Loss: 1.262 Test Acc: 0.439
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.3072726726531982
+Epoch: 9, Steps: 13 | Train Loss: 0.413 Vali Loss: 1.298 Vali Acc: 0.467 Test Loss: 1.298 Test Acc: 0.467
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.379847764968872
+Epoch: 10, Steps: 13 | Train Loss: 0.358 Vali Loss: 1.396 Vali Acc: 0.472 Test Loss: 1.396 Test Acc: 0.472
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.2948846817016602
+Epoch: 11, Steps: 13 | Train Loss: 0.376 Vali Loss: 1.498 Vali Acc: 0.478 Test Loss: 1.498 Test Acc: 0.478
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.4779198169708252
+Epoch: 12, Steps: 13 | Train Loss: 0.318 Vali Loss: 1.556 Vali Acc: 0.472 Test Loss: 1.556 Test Acc: 0.472
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma116_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5555555555555556
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         58                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma58_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 3.7929608821868896
+Epoch: 1, Steps: 13 | Train Loss: 0.725 Vali Loss: 0.687 Vali Acc: 0.528 Test Loss: 0.687 Test Acc: 0.528
+Validation loss decreased (inf --> -0.527771).  Saving model ...
+Epoch: 2 cost time: 1.4820210933685303
+Epoch: 2, Steps: 13 | Train Loss: 0.693 Vali Loss: 0.868 Vali Acc: 0.544 Test Loss: 0.868 Test Acc: 0.544
+Validation loss decreased (-0.527771 --> -0.544436).  Saving model ...
+Epoch: 3 cost time: 1.7522847652435303
+Epoch: 3, Steps: 13 | Train Loss: 0.672 Vali Loss: 1.034 Vali Acc: 0.539 Test Loss: 1.034 Test Acc: 0.539
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.3265321254730225
+Epoch: 4, Steps: 13 | Train Loss: 0.632 Vali Loss: 0.937 Vali Acc: 0.461 Test Loss: 0.937 Test Acc: 0.461
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.593724250793457
+Epoch: 5, Steps: 13 | Train Loss: 0.553 Vali Loss: 1.123 Vali Acc: 0.456 Test Loss: 1.123 Test Acc: 0.456
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 2.178433418273926
+Epoch: 6, Steps: 13 | Train Loss: 0.528 Vali Loss: 1.264 Vali Acc: 0.439 Test Loss: 1.264 Test Acc: 0.439
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 2.229780912399292
+Epoch: 7, Steps: 13 | Train Loss: 0.498 Vali Loss: 1.395 Vali Acc: 0.450 Test Loss: 1.395 Test Acc: 0.450
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.3218367099761963
+Epoch: 8, Steps: 13 | Train Loss: 0.465 Vali Loss: 1.392 Vali Acc: 0.489 Test Loss: 1.392 Test Acc: 0.489
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.6238508224487305
+Epoch: 9, Steps: 13 | Train Loss: 0.432 Vali Loss: 1.271 Vali Acc: 0.478 Test Loss: 1.271 Test Acc: 0.478
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.6542785167694092
+Epoch: 10, Steps: 13 | Train Loss: 0.330 Vali Loss: 1.390 Vali Acc: 0.444 Test Loss: 1.390 Test Acc: 0.444
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.497199296951294
+Epoch: 11, Steps: 13 | Train Loss: 0.377 Vali Loss: 1.508 Vali Acc: 0.461 Test Loss: 1.508 Test Acc: 0.461
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.2896902561187744
+Epoch: 12, Steps: 13 | Train Loss: 0.315 Vali Loss: 1.617 Vali Acc: 0.461 Test Loss: 1.617 Test Acc: 0.461
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma58_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5444444444444444
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         47                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma47_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 4.692406892776489
+Epoch: 1, Steps: 13 | Train Loss: 0.725 Vali Loss: 0.687 Vali Acc: 0.528 Test Loss: 0.687 Test Acc: 0.528
+Validation loss decreased (inf --> -0.527771).  Saving model ...
+Epoch: 2 cost time: 1.8155059814453125
+Epoch: 2, Steps: 13 | Train Loss: 0.693 Vali Loss: 0.863 Vali Acc: 0.539 Test Loss: 0.863 Test Acc: 0.539
+Validation loss decreased (-0.527771 --> -0.538880).  Saving model ...
+Epoch: 3 cost time: 1.503615140914917
+Epoch: 3, Steps: 13 | Train Loss: 0.673 Vali Loss: 1.116 Vali Acc: 0.556 Test Loss: 1.116 Test Acc: 0.556
+Validation loss decreased (-0.538880 --> -0.555544).  Saving model ...
+Epoch: 4 cost time: 1.7261872291564941
+Epoch: 4, Steps: 13 | Train Loss: 0.657 Vali Loss: 0.919 Vali Acc: 0.461 Test Loss: 0.919 Test Acc: 0.461
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.9121227264404297
+Epoch: 5, Steps: 13 | Train Loss: 0.544 Vali Loss: 1.213 Vali Acc: 0.467 Test Loss: 1.213 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.5752630233764648
+Epoch: 6, Steps: 13 | Train Loss: 0.539 Vali Loss: 1.245 Vali Acc: 0.450 Test Loss: 1.245 Test Acc: 0.450
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.656445026397705
+Epoch: 7, Steps: 13 | Train Loss: 0.520 Vali Loss: 1.581 Vali Acc: 0.439 Test Loss: 1.581 Test Acc: 0.439
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.5957839488983154
+Epoch: 8, Steps: 13 | Train Loss: 0.522 Vali Loss: 1.590 Vali Acc: 0.439 Test Loss: 1.590 Test Acc: 0.439
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.597186803817749
+Epoch: 9, Steps: 13 | Train Loss: 0.466 Vali Loss: 1.264 Vali Acc: 0.461 Test Loss: 1.264 Test Acc: 0.461
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.6554086208343506
+Epoch: 10, Steps: 13 | Train Loss: 0.311 Vali Loss: 1.492 Vali Acc: 0.456 Test Loss: 1.492 Test Acc: 0.456
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.5284855365753174
+Epoch: 11, Steps: 13 | Train Loss: 0.353 Vali Loss: 1.510 Vali Acc: 0.444 Test Loss: 1.510 Test Acc: 0.444
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.6567974090576172
+Epoch: 12, Steps: 13 | Train Loss: 0.323 Vali Loss: 1.598 Vali Acc: 0.433 Test Loss: 1.598 Test Acc: 0.433
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.8471019268035889
+Epoch: 13, Steps: 13 | Train Loss: 0.243 Vali Loss: 1.764 Vali Acc: 0.461 Test Loss: 1.764 Test Acc: 0.461
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma47_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5555555555555556
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         35                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma35_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 4.577802419662476
+Epoch: 1, Steps: 13 | Train Loss: 0.725 Vali Loss: 0.689 Vali Acc: 0.528 Test Loss: 0.689 Test Acc: 0.528
+Validation loss decreased (inf --> -0.527771).  Saving model ...
+Epoch: 2 cost time: 2.315852403640747
+Epoch: 2, Steps: 13 | Train Loss: 0.692 Vali Loss: 0.806 Vali Acc: 0.550 Test Loss: 0.806 Test Acc: 0.550
+Validation loss decreased (-0.527771 --> -0.549992).  Saving model ...
+Epoch: 3 cost time: 1.4923982620239258
+Epoch: 3, Steps: 13 | Train Loss: 0.674 Vali Loss: 1.371 Vali Acc: 0.544 Test Loss: 1.371 Test Acc: 0.544
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 1.6319985389709473
+Epoch: 4, Steps: 13 | Train Loss: 0.851 Vali Loss: 0.806 Vali Acc: 0.483 Test Loss: 0.806 Test Acc: 0.483
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.7156403064727783
+Epoch: 5, Steps: 13 | Train Loss: 0.548 Vali Loss: 1.235 Vali Acc: 0.422 Test Loss: 1.235 Test Acc: 0.422
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 1.5863046646118164
+Epoch: 6, Steps: 13 | Train Loss: 0.903 Vali Loss: 1.156 Vali Acc: 0.522 Test Loss: 1.156 Test Acc: 0.522
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.8053643703460693
+Epoch: 7, Steps: 13 | Train Loss: 0.671 Vali Loss: 1.014 Vali Acc: 0.461 Test Loss: 1.014 Test Acc: 0.461
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 2.01314115524292
+Epoch: 8, Steps: 13 | Train Loss: 0.491 Vali Loss: 1.236 Vali Acc: 0.472 Test Loss: 1.236 Test Acc: 0.472
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 2.1910178661346436
+Epoch: 9, Steps: 13 | Train Loss: 0.431 Vali Loss: 1.204 Vali Acc: 0.483 Test Loss: 1.204 Test Acc: 0.483
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.5806546211242676
+Epoch: 10, Steps: 13 | Train Loss: 0.339 Vali Loss: 1.346 Vali Acc: 0.478 Test Loss: 1.346 Test Acc: 0.478
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.9135510921478271
+Epoch: 11, Steps: 13 | Train Loss: 0.350 Vali Loss: 1.552 Vali Acc: 0.467 Test Loss: 1.552 Test Acc: 0.467
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.6043317317962646
+Epoch: 12, Steps: 13 | Train Loss: 0.268 Vali Loss: 1.624 Vali Acc: 0.467 Test Loss: 1.624 Test Acc: 0.467
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma35_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.55
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         24                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma24_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 4.111444473266602
+Epoch: 1, Steps: 13 | Train Loss: 0.725 Vali Loss: 0.690 Vali Acc: 0.517 Test Loss: 0.690 Test Acc: 0.517
+Validation loss decreased (inf --> -0.516660).  Saving model ...
+Epoch: 2 cost time: 1.4062821865081787
+Epoch: 2, Steps: 13 | Train Loss: 0.692 Vali Loss: 0.771 Vali Acc: 0.522 Test Loss: 0.771 Test Acc: 0.522
+Validation loss decreased (-0.516660 --> -0.522215).  Saving model ...
+Epoch: 3 cost time: 1.2648358345031738
+Epoch: 3, Steps: 13 | Train Loss: 0.575 Vali Loss: 0.884 Vali Acc: 0.544 Test Loss: 0.884 Test Acc: 0.544
+Validation loss decreased (-0.522215 --> -0.544436).  Saving model ...
+Epoch: 4 cost time: 1.4294569492340088
+Epoch: 4, Steps: 13 | Train Loss: 0.716 Vali Loss: 0.871 Vali Acc: 0.500 Test Loss: 0.871 Test Acc: 0.500
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 1.3753747940063477
+Epoch: 5, Steps: 13 | Train Loss: 0.697 Vali Loss: 0.918 Vali Acc: 0.506 Test Loss: 0.918 Test Acc: 0.506
+EarlyStopping counter: 2 out of 10
+Epoch: 6 cost time: 1.192645788192749
+Epoch: 6, Steps: 13 | Train Loss: 0.508 Vali Loss: 0.992 Vali Acc: 0.428 Test Loss: 0.992 Test Acc: 0.428
+EarlyStopping counter: 3 out of 10
+Epoch: 7 cost time: 1.344236135482788
+Epoch: 7, Steps: 13 | Train Loss: 0.392 Vali Loss: 1.181 Vali Acc: 0.417 Test Loss: 1.181 Test Acc: 0.417
+EarlyStopping counter: 4 out of 10
+Epoch: 8 cost time: 1.1278815269470215
+Epoch: 8, Steps: 13 | Train Loss: 0.413 Vali Loss: 1.639 Vali Acc: 0.428 Test Loss: 1.639 Test Acc: 0.428
+EarlyStopping counter: 5 out of 10
+Epoch: 9 cost time: 1.3650672435760498
+Epoch: 9, Steps: 13 | Train Loss: 0.481 Vali Loss: 1.302 Vali Acc: 0.461 Test Loss: 1.302 Test Acc: 0.461
+EarlyStopping counter: 6 out of 10
+Epoch: 10 cost time: 1.4092698097229004
+Epoch: 10, Steps: 13 | Train Loss: 0.311 Vali Loss: 1.527 Vali Acc: 0.444 Test Loss: 1.527 Test Acc: 0.444
+EarlyStopping counter: 7 out of 10
+Epoch: 11 cost time: 1.2598533630371094
+Epoch: 11, Steps: 13 | Train Loss: 0.435 Vali Loss: 1.668 Vali Acc: 0.478 Test Loss: 1.668 Test Acc: 0.478
+EarlyStopping counter: 8 out of 10
+Epoch: 12 cost time: 1.3562934398651123
+Epoch: 12, Steps: 13 | Train Loss: 0.284 Vali Loss: 1.663 Vali Acc: 0.478 Test Loss: 1.663 Test Acc: 0.478
+EarlyStopping counter: 9 out of 10
+Epoch: 13 cost time: 1.4211065769195557
+Epoch: 13, Steps: 13 | Train Loss: 0.239 Vali Loss: 1.879 Vali Acc: 0.478 Test Loss: 1.879 Test Acc: 0.478
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma24_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5444444444444444
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         12                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma12_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 3.491966724395752
+Epoch: 1, Steps: 13 | Train Loss: 0.726 Vali Loss: 0.690 Vali Acc: 0.517 Test Loss: 0.690 Test Acc: 0.517
+Validation loss decreased (inf --> -0.516660).  Saving model ...
+Epoch: 2 cost time: 1.2642080783843994
+Epoch: 2, Steps: 13 | Train Loss: 0.702 Vali Loss: 0.766 Vali Acc: 0.500 Test Loss: 0.766 Test Acc: 0.500
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.4063279628753662
+Epoch: 3, Steps: 13 | Train Loss: 0.587 Vali Loss: 0.833 Vali Acc: 0.511 Test Loss: 0.833 Test Acc: 0.511
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.3037505149841309
+Epoch: 4, Steps: 13 | Train Loss: 0.699 Vali Loss: 0.891 Vali Acc: 0.511 Test Loss: 0.891 Test Acc: 0.511
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.7466471195220947
+Epoch: 5, Steps: 13 | Train Loss: 0.726 Vali Loss: 0.898 Vali Acc: 0.494 Test Loss: 0.898 Test Acc: 0.494
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.4594786167144775
+Epoch: 6, Steps: 13 | Train Loss: 0.520 Vali Loss: 0.873 Vali Acc: 0.472 Test Loss: 0.873 Test Acc: 0.472
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.4099493026733398
+Epoch: 7, Steps: 13 | Train Loss: 0.401 Vali Loss: 1.029 Vali Acc: 0.444 Test Loss: 1.029 Test Acc: 0.444
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 1.331083059310913
+Epoch: 8, Steps: 13 | Train Loss: 0.438 Vali Loss: 1.229 Vali Acc: 0.478 Test Loss: 1.229 Test Acc: 0.478
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 1.380594253540039
+Epoch: 9, Steps: 13 | Train Loss: 0.436 Vali Loss: 1.243 Vali Acc: 0.478 Test Loss: 1.243 Test Acc: 0.478
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 1.2578551769256592
+Epoch: 10, Steps: 13 | Train Loss: 0.324 Vali Loss: 1.199 Vali Acc: 0.467 Test Loss: 1.199 Test Acc: 0.467
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 1.480985164642334
+Epoch: 11, Steps: 13 | Train Loss: 0.390 Vali Loss: 1.403 Vali Acc: 0.478 Test Loss: 1.403 Test Acc: 0.478
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma12_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5166666666666667
+model parameter : 2672642
+model size : 10.20MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_SelfRegulationSCP2Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         6                   Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+200
+180
+>>>>>>>start training : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma6_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+200
+180
+180
+Epoch: 1 cost time: 3.878230333328247
+Epoch: 1, Steps: 13 | Train Loss: 0.727 Vali Loss: 0.691 Vali Acc: 0.556 Test Loss: 0.691 Test Acc: 0.556
+Validation loss decreased (inf --> -0.555549).  Saving model ...
+Epoch: 2 cost time: 1.4795339107513428
+Epoch: 2, Steps: 13 | Train Loss: 0.713 Vali Loss: 0.782 Vali Acc: 0.517 Test Loss: 0.782 Test Acc: 0.517
+EarlyStopping counter: 1 out of 10
+Epoch: 3 cost time: 1.320751667022705
+Epoch: 3, Steps: 13 | Train Loss: 0.597 Vali Loss: 0.816 Vali Acc: 0.533 Test Loss: 0.816 Test Acc: 0.533
+EarlyStopping counter: 2 out of 10
+Epoch: 4 cost time: 1.1949975490570068
+Epoch: 4, Steps: 13 | Train Loss: 0.714 Vali Loss: 0.864 Vali Acc: 0.517 Test Loss: 0.864 Test Acc: 0.517
+EarlyStopping counter: 3 out of 10
+Epoch: 5 cost time: 1.382659912109375
+Epoch: 5, Steps: 13 | Train Loss: 0.759 Vali Loss: 1.008 Vali Acc: 0.511 Test Loss: 1.008 Test Acc: 0.511
+EarlyStopping counter: 4 out of 10
+Epoch: 6 cost time: 1.2098960876464844
+Epoch: 6, Steps: 13 | Train Loss: 0.564 Vali Loss: 0.969 Vali Acc: 0.472 Test Loss: 0.969 Test Acc: 0.472
+EarlyStopping counter: 5 out of 10
+Epoch: 7 cost time: 1.3410875797271729
+Epoch: 7, Steps: 13 | Train Loss: 0.432 Vali Loss: 1.078 Vali Acc: 0.456 Test Loss: 1.078 Test Acc: 0.456
+EarlyStopping counter: 6 out of 10
+Epoch: 8 cost time: 1.2544147968292236
+Epoch: 8, Steps: 13 | Train Loss: 0.451 Vali Loss: 1.110 Vali Acc: 0.483 Test Loss: 1.110 Test Acc: 0.483
+EarlyStopping counter: 7 out of 10
+Epoch: 9 cost time: 1.407630205154419
+Epoch: 9, Steps: 13 | Train Loss: 0.527 Vali Loss: 1.091 Vali Acc: 0.517 Test Loss: 1.091 Test Acc: 0.517
+EarlyStopping counter: 8 out of 10
+Epoch: 10 cost time: 1.181570053100586
+Epoch: 10, Steps: 13 | Train Loss: 0.376 Vali Loss: 1.151 Vali Acc: 0.461 Test Loss: 1.151 Test Acc: 0.461
+EarlyStopping counter: 9 out of 10
+Epoch: 11 cost time: 1.1273846626281738
+Epoch: 11, Steps: 13 | Train Loss: 0.505 Vali Loss: 1.324 Vali Acc: 0.483 Test Loss: 1.324 Test Acc: 0.483
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_SelfRegulationSCP2_DLinear_UEA_ftM_sl1152_ll0_pl0_ma6_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 2]) torch.Size([180, 1])
+accuracy:0.5555555555555556
+model parameter : 2672642
+model size : 10.20MB

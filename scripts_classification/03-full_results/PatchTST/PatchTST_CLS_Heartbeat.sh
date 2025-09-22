@@ -1,0 +1,7560 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 11 \
+  --patch_stride 6 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 21 \
+  --patch_stride 11 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 31 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 41 \
+  --patch_stride 21 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 61 \
+  --patch_stride 31 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 81 \
+  --patch_stride 41 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/Heartbeat/ \
+  --seq_len 405 \
+  --enc_in 61 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_Heartbeat \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 102 \
+  --patch_stride 51 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

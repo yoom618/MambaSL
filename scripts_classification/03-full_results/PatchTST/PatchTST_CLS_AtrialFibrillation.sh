@@ -1,0 +1,7560 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 16 \
+  --patch_stride 8 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 32 \
+  --patch_stride 16 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 48 \
+  --patch_stride 24 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 64 \
+  --patch_stride 32 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 96 \
+  --patch_stride 48 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 128 \
+  --patch_stride 64 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --seq_len 640 \
+  --enc_in 2 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_AtrialFibrillation \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 160 \
+  --patch_stride 80 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

@@ -1,0 +1,6048 @@
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm256_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm128_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm64_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth3_dm32_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm256_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm128_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm64_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth2_dm32_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm256_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm128_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm64_mlp1_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp3_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp3_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp3_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp3_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp3_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp3_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp3_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp2_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp2_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp2_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp2_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp2_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp2_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp2_ps52.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 6 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp1_ps6.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 11 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp1_ps11.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 16 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp1_ps16.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 21 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp1_ps21.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 31 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp1_ps31.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 42 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp1_ps42.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --data_type uea \
+  --data_name Epilepsy \
+  --model_id CLS_Epilepsy \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 52 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/Epilepsy/Epilepsy_depth1_dm32_mlp1_ps52.log 2>&1
+

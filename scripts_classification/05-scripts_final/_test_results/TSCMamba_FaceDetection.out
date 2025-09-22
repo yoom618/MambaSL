@@ -1,0 +1,54 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_FaceDetection   Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/FaceDetection
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 536.88 seconds
+5890
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1796.19 seconds
+ROCKET model size: 1.56 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 292.91 seconds
+3524
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 1484.63 seconds
+ROCKET model size: 1.56 MB
+>>>>>>>testing : classification_CLS_FaceDetection_TSCMamba_UEA4TSCMamba_ftM_sl62_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df2_dconv4_expand2_nrocket0_hrocket1_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([3524, 2]) torch.Size([3524, 1])
+accuracy:0.7020431328036323
+model parameter : 2479603
+model size : 9.47MB

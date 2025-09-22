@@ -1,0 +1,7560 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 3 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 2 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 128 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 64 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 16 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 32 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 256 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 128 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 75 \
+  --patch_stride 38 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 150 \
+  --patch_stride 75 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 225 \
+  --patch_stride 113 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 300 \
+  --patch_stride 150 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 600 \
+  --patch_stride 300 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 1 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --seq_len 3000 \
+  --enc_in 64 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model PatchTST \
+  --model_id CLS_MotorImagery \
+  --e_layers 1 \
+  --d_model 16 \
+  --d_ff 64 \
+  --patch_size 750 \
+  --patch_stride 375 \
+  --n_heads 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

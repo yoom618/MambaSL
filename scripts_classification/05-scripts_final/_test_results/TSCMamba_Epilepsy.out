@@ -1,0 +1,108 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Epilepsy        Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Epilepsy
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        5                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.12 seconds
+137
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 2.83 seconds
+ROCKET model size: 0.02 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.17 seconds
+138
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.61 seconds
+ROCKET model size: 0.02 MB
+>>>>>>>testing : classification_CLS_Epilepsy_TSCMamba_UEA4TSCMamba_ftM_sl206_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df4_dconv4_expand1_nrocket0_hrocket1_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([138, 4]) torch.Size([138, 1])
+accuracy:0.9927536231884058
+model parameter : 565794
+model size : 2.17MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_Epilepsy        Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/Epilepsy
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        5                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            256                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+137
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 2.59 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+138
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 1.13 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_Epilepsy_TSCMamba_UEA4TSCMamba_ftM_sl206_ll0_pl0_dm256_cwt64_rescale64_ps8_el1_df2_dconv4_expand1_nrocket0_hrocket1_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([138, 4]) torch.Size([138, 1])
+accuracy:0.9927536231884058
+model parameter : 2195344
+model size : 8.38MB

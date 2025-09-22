@@ -1,0 +1,1008 @@
+PEMS-SF_dim256_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_38_02  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8670520186424255, 'val': 0.8670520186424255}, mf1:{'test': 0.8402606844902039, 'val': 0.8402606844902039}
+
+PEMS-SF_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_09_09  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.7001888155937195, 'val': 0.7001888155937195}
+
+PEMS-SF_dim256_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_36_16  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.7062324285507202, 'val': 0.7062324285507202}
+
+PEMS-SF_dim256_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_15_50  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7755382061004639, 'val': 0.7755382061004639}
+
+PEMS-SF_dim256_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_45_50  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7655874490737915, 'val': 0.7655874490737915}
+
+PEMS-SF_dim256_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_17_11  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7603499293327332, 'val': 0.7603499293327332}
+
+PEMS-SF_dim256_depth3_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_41_19  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.849711000919342, 'val': 0.849711000919342}, mf1:{'test': 0.8276534676551819, 'val': 0.8276534676551819}
+
+PEMS-SF_dim256_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_00_51  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.750770092010498, 'val': 0.750770092010498}
+
+PEMS-SF_dim256_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_28_34  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7656340003013611, 'val': 0.7656340003013611}
+
+PEMS-SF_dim256_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_57_15  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.6947753429412842, 'val': 0.6947753429412842}
+
+PEMS-SF_dim256_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_26_02  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.7026928663253784, 'val': 0.7026928663253784}
+
+PEMS-SF_dim256_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_49_45  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7586706876754761, 'val': 0.7586706876754761}
+
+PEMS-SF_dim256_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_11_50  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8554913401603699, 'val': 0.8554913401603699}, mf1:{'test': 0.7926826477050781, 'val': 0.7926826477050781}
+
+PEMS-SF_dim256_depth3_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_44_13  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7687861323356628, 'val': 0.7687861323356628}, mf1:{'test': 0.6858440041542053, 'val': 0.6858440041542053}
+
+PEMS-SF_dim256_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_04_58  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7326402068138123, 'val': 0.7326402068138123}
+
+PEMS-SF_dim256_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_35_23  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7177937030792236, 'val': 0.7177937030792236}
+
+PEMS-SF_dim256_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_04_01  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.7230939269065857, 'val': 0.7230939269065857}
+
+PEMS-SF_dim256_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_27_16  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.71209716796875, 'val': 0.71209716796875}
+
+PEMS-SF_dim256_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_47_28  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7463376522064209, 'val': 0.7463376522064209}
+
+PEMS-SF_dim256_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_04_37  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7670515775680542, 'val': 0.7670515775680542}
+
+PEMS-SF_dim256_depth3_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_18_39  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.849711000919342, 'val': 0.849711000919342}, mf1:{'test': 0.8170964121818542, 'val': 0.8170964121818542}
+
+PEMS-SF_dim128_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_38_17  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.7800436615943909, 'val': 0.7800436615943909}
+
+PEMS-SF_dim128_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_03_03  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7400593757629395, 'val': 0.7400593757629395}
+
+PEMS-SF_dim128_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_43_38  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7344197034835815, 'val': 0.7344197034835815}
+
+PEMS-SF_dim128_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_45_38  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7871670722961426, 'val': 0.7871670722961426}
+
+PEMS-SF_dim128_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_31_34  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7794049382209778, 'val': 0.7794049382209778}
+
+PEMS-SF_dim128_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_59_33  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.7190123200416565, 'val': 0.7190123200416565}
+
+PEMS-SF_dim128_depth3_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_05_39  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8670520186424255, 'val': 0.8670520186424255}, mf1:{'test': 0.8528061509132385, 'val': 0.8528061509132385}
+
+PEMS-SF_dim128_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_10_19  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7731046080589294, 'val': 0.7731046080589294}
+
+PEMS-SF_dim128_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_23_57  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7323396801948547, 'val': 0.7323396801948547}
+
+PEMS-SF_dim128_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_36_50  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7700819969177246, 'val': 0.7700819969177246}
+
+PEMS-SF_dim128_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_04_00  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.704812228679657, 'val': 0.704812228679657}
+
+PEMS-SF_dim128_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_20_27  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7763752937316895, 'val': 0.7763752937316895}
+
+PEMS-SF_dim128_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_11_29  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.8068044185638428, 'val': 0.8068044185638428}
+
+PEMS-SF_dim128_depth3_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_21_23  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8901734352111816, 'val': 0.8901734352111816}, mf1:{'test': 0.8666929602622986, 'val': 0.8666929602622986}
+
+PEMS-SF_dim128_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_55_34  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7817952632904053, 'val': 0.7817952632904053}
+
+PEMS-SF_dim128_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_59_10  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.77397620677948, 'val': 0.77397620677948}
+
+PEMS-SF_dim128_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_51_51  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7545328140258789, 'val': 0.7545328140258789}
+
+PEMS-SF_dim128_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_49_07  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7630948424339294, 'val': 0.7630948424339294}
+
+PEMS-SF_dim128_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_32_44  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.7144771218299866, 'val': 0.7144771218299866}
+
+PEMS-SF_dim128_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_17_09  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7893105149269104, 'val': 0.7893105149269104}
+
+PEMS-SF_dim128_depth3_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_17_12  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.7977140545845032, 'val': 0.7977140545845032}
+
+PEMS-SF_dim64_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_53_59  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.781044602394104, 'val': 0.781044602394104}
+
+PEMS-SF_dim64_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_53_54  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7110624313354492, 'val': 0.7110624313354492}
+
+PEMS-SF_dim64_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_24_39  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7668378353118896, 'val': 0.7668378353118896}
+
+PEMS-SF_dim64_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_06_00  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7551535964012146, 'val': 0.7551535964012146}
+
+PEMS-SF_dim64_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_37_58  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7434103488922119, 'val': 0.7434103488922119}
+
+PEMS-SF_dim64_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_09_21  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7398843765258789, 'val': 0.7398843765258789}, mf1:{'test': 0.6466386318206787, 'val': 0.6466386318206787}
+
+PEMS-SF_dim64_depth3_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_33_38  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.849711000919342, 'val': 0.849711000919342}, mf1:{'test': 0.8191778063774109, 'val': 0.8191778063774109}
+
+PEMS-SF_dim64_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_11_38  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7546494603157043, 'val': 0.7546494603157043}
+
+PEMS-SF_dim64_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_47_52  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7939780950546265, 'val': 0.7939780950546265}
+
+PEMS-SF_dim64_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_12_16  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8554913401603699, 'val': 0.8554913401603699}, mf1:{'test': 0.817135751247406, 'val': 0.817135751247406}
+
+PEMS-SF_dim64_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_02_51  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.6806865930557251, 'val': 0.6806865930557251}
+
+PEMS-SF_dim64_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_32_26  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7642946839332581, 'val': 0.7642946839332581}
+
+PEMS-SF_dim64_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_12_32  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.727335512638092, 'val': 0.727335512638092}
+
+PEMS-SF_dim64_depth3_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_45_25  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7565844058990479, 'val': 0.7565844058990479}
+
+PEMS-SF_dim64_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_02_10_17  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.7174044251441956, 'val': 0.7174044251441956}
+
+PEMS-SF_dim64_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_02_45_41  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.74459308385849, 'val': 0.74459308385849}
+
+PEMS-SF_dim64_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_03_14_54  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7699981927871704, 'val': 0.7699981927871704}
+
+PEMS-SF_dim64_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_03_52_26  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.7932853698730469, 'val': 0.7932853698730469}
+
+PEMS-SF_dim64_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_30_56  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.763005793094635, 'val': 0.763005793094635}, mf1:{'test': 0.6952813863754272, 'val': 0.6952813863754272}
+
+PEMS-SF_dim64_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_52_02  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7594738602638245, 'val': 0.7594738602638245}
+
+PEMS-SF_dim64_depth3_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_20_35  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7456647157669067, 'val': 0.7456647157669067}, mf1:{'test': 0.6513310074806213, 'val': 0.6513310074806213}
+
+PEMS-SF_dim32_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_35_52  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7348805069923401, 'val': 0.7348805069923401}
+
+PEMS-SF_dim32_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_00_39  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7289904356002808, 'val': 0.7289904356002808}
+
+PEMS-SF_dim32_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_23_37  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7196736931800842, 'val': 0.7196736931800842}
+
+PEMS-SF_dim32_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_55_30  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.769040048122406, 'val': 0.769040048122406}
+
+PEMS-SF_dim32_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_19_54  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.763005793094635, 'val': 0.763005793094635}, mf1:{'test': 0.7091121673583984, 'val': 0.7091121673583984}
+
+PEMS-SF_dim32_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_42_01  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7635214328765869, 'val': 0.7635214328765869}
+
+PEMS-SF_dim32_depth3_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_04_52  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.8056548237800598, 'val': 0.8056548237800598}
+
+PEMS-SF_dim32_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_20_15  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7899107933044434, 'val': 0.7899107933044434}
+
+PEMS-SF_dim32_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_38_46  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7285184860229492, 'val': 0.7285184860229492}
+
+PEMS-SF_dim32_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_56_21  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7072340846061707, 'val': 0.7072340846061707}
+
+PEMS-SF_dim32_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_19_38  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7397506833076477, 'val': 0.7397506833076477}
+
+PEMS-SF_dim32_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_34_04  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7803617119789124, 'val': 0.7803617119789124}
+
+PEMS-SF_dim32_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_50_49  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8554913401603699, 'val': 0.8554913401603699}, mf1:{'test': 0.7996006608009338, 'val': 0.7996006608009338}
+
+PEMS-SF_dim32_depth3_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_07_19  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.7972841858863831, 'val': 0.7972841858863831}
+
+PEMS-SF_dim32_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_16_51  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.724547266960144, 'val': 0.724547266960144}
+
+PEMS-SF_dim32_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_32_39  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7052023410797119, 'val': 0.7052023410797119}, mf1:{'test': 0.6188134551048279, 'val': 0.6188134551048279}
+
+PEMS-SF_dim32_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_39_13  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.6798558235168457, 'val': 0.6798558235168457}
+
+PEMS-SF_dim32_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_54_17  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7667090892791748, 'val': 0.7667090892791748}
+
+PEMS-SF_dim32_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_09_12  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7580101490020752, 'val': 0.7580101490020752}
+
+PEMS-SF_dim32_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_22_54  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8381502628326416, 'val': 0.8381502628326416}, mf1:{'test': 0.747863233089447, 'val': 0.747863233089447}
+
+PEMS-SF_dim32_depth3_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_33_37  
+TSLANet_PEMS-SF_l_3  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7929839491844177, 'val': 0.7929839491844177}
+
+PEMS-SF_dim256_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_42_00  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7500948309898376, 'val': 0.7500948309898376}
+
+PEMS-SF_dim256_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_51_03  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.733457088470459, 'val': 0.733457088470459}
+
+PEMS-SF_dim256_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_00_37  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7456647157669067, 'val': 0.7456647157669067}, mf1:{'test': 0.6518030166625977, 'val': 0.6518030166625977}
+
+PEMS-SF_dim256_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_07_24  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.7379029989242554, 'val': 0.7379029989242554}
+
+PEMS-SF_dim256_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_14_38  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7533342838287354, 'val': 0.7533342838287354}
+
+PEMS-SF_dim256_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_21_50  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7193991541862488, 'val': 0.7193991541862488}
+
+PEMS-SF_dim256_depth2_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_28_36  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8670520186424255, 'val': 0.8670520186424255}, mf1:{'test': 0.8152980804443359, 'val': 0.8152980804443359}
+
+PEMS-SF_dim256_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_36_28  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7189599275588989, 'val': 0.7189599275588989}
+
+PEMS-SF_dim256_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_44_05  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.7173862457275391, 'val': 0.7173862457275391}
+
+PEMS-SF_dim256_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_49_40  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7419492602348328, 'val': 0.7419492602348328}
+
+PEMS-SF_dim256_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_58_42  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7514451146125793, 'val': 0.7514451146125793}, mf1:{'test': 0.6636615991592407, 'val': 0.6636615991592407}
+
+PEMS-SF_dim256_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_04_36  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7644013166427612, 'val': 0.7644013166427612}
+
+PEMS-SF_dim256_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_10_21  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7232310771942139, 'val': 0.7232310771942139}
+
+PEMS-SF_dim256_depth2_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_16_12  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7709486484527588, 'val': 0.7709486484527588}
+
+PEMS-SF_dim256_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_21_44  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7236689329147339, 'val': 0.7236689329147339}
+
+PEMS-SF_dim256_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_29_24  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.6807147264480591, 'val': 0.6807147264480591}
+
+PEMS-SF_dim256_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_36_44  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.6998337507247925, 'val': 0.6998337507247925}
+
+PEMS-SF_dim256_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_44_14  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7687861323356628, 'val': 0.7687861323356628}, mf1:{'test': 0.6931474208831787, 'val': 0.6931474208831787}
+
+PEMS-SF_dim256_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_50_38  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.8134765028953552, 'val': 0.8134765028953552}
+
+PEMS-SF_dim256_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_58_34  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7484976649284363, 'val': 0.7484976649284363}
+
+PEMS-SF_dim256_depth2_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_06_44  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.8179330229759216, 'val': 0.8179330229759216}
+
+PEMS-SF_dim128_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_13_54  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7916853427886963, 'val': 0.7916853427886963}
+
+PEMS-SF_dim128_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_24_34  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7608299255371094, 'val': 0.7608299255371094}
+
+PEMS-SF_dim128_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_33_36  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.7997081875801086, 'val': 0.7997081875801086}
+
+PEMS-SF_dim128_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_44_29  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7456647157669067, 'val': 0.7456647157669067}, mf1:{'test': 0.6368618607521057, 'val': 0.6368618607521057}
+
+PEMS-SF_dim128_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_52_31  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.7191893458366394, 'val': 0.7191893458366394}
+
+PEMS-SF_dim128_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_00_20  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.774189829826355, 'val': 0.774189829826355}
+
+PEMS-SF_dim128_depth2_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_08_08  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8554913401603699, 'val': 0.8554913401603699}, mf1:{'test': 0.8219671249389648, 'val': 0.8219671249389648}
+
+PEMS-SF_dim128_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_13_07  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7192016839981079, 'val': 0.7192016839981079}
+
+PEMS-SF_dim128_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_23_24  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.763005793094635, 'val': 0.763005793094635}, mf1:{'test': 0.6449070572853088, 'val': 0.6449070572853088}
+
+PEMS-SF_dim128_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_33_30  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7734960913658142, 'val': 0.7734960913658142}
+
+PEMS-SF_dim128_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_44_09  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7270252704620361, 'val': 0.7270252704620361}
+
+PEMS-SF_dim128_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_53_39  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.7303619384765625, 'val': 0.7303619384765625}
+
+PEMS-SF_dim128_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_01_50  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.849711000919342, 'val': 0.849711000919342}, mf1:{'test': 0.7955976724624634, 'val': 0.7955976724624634}
+
+PEMS-SF_dim128_depth2_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_14_08  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.849711000919342, 'val': 0.849711000919342}, mf1:{'test': 0.8150812983512878, 'val': 0.8150812983512878}
+
+PEMS-SF_dim128_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_20_58  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7485108375549316, 'val': 0.7485108375549316}
+
+PEMS-SF_dim128_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_30_06  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.7724422216415405, 'val': 0.7724422216415405}
+
+PEMS-SF_dim128_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_41_20  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7715919613838196, 'val': 0.7715919613838196}
+
+PEMS-SF_dim128_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_51_08  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.7343751192092896, 'val': 0.7343751192092896}
+
+PEMS-SF_dim128_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_59_31  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.745714545249939, 'val': 0.745714545249939}
+
+PEMS-SF_dim128_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_04_01  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7581075429916382, 'val': 0.7581075429916382}
+
+PEMS-SF_dim128_depth2_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_06_10  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8554913401603699, 'val': 0.8554913401603699}, mf1:{'test': 0.8079002499580383, 'val': 0.8079002499580383}
+
+PEMS-SF_dim64_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_08_13  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7104177474975586, 'val': 0.7104177474975586}
+
+PEMS-SF_dim64_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_11_12  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7687861323356628, 'val': 0.7687861323356628}, mf1:{'test': 0.6875624656677246, 'val': 0.6875624656677246}
+
+PEMS-SF_dim64_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_13_19  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7204496264457703, 'val': 0.7204496264457703}
+
+PEMS-SF_dim64_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_16_24  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7832050919532776, 'val': 0.7832050919532776}
+
+PEMS-SF_dim64_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_19_11  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7398843765258789, 'val': 0.7398843765258789}, mf1:{'test': 0.6599092483520508, 'val': 0.6599092483520508}
+
+PEMS-SF_dim64_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_21_20  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7412939071655273, 'val': 0.7412939071655273}
+
+PEMS-SF_dim64_depth2_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_22_20  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8439306616783142, 'val': 0.8439306616783142}, mf1:{'test': 0.7971356511116028, 'val': 0.7971356511116028}
+
+PEMS-SF_dim64_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_23_44  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7668914794921875, 'val': 0.7668914794921875}
+
+PEMS-SF_dim64_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_25_13  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7509810328483582, 'val': 0.7509810328483582}
+
+PEMS-SF_dim64_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_26_41  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8381502628326416, 'val': 0.8381502628326416}, mf1:{'test': 0.7772439122200012, 'val': 0.7772439122200012}
+
+PEMS-SF_dim64_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_28_13  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7265817523002625, 'val': 0.7265817523002625}
+
+PEMS-SF_dim64_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_29_39  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7518898844718933, 'val': 0.7518898844718933}
+
+PEMS-SF_dim64_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_30_57  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7109826803207397, 'val': 0.7109826803207397}, mf1:{'test': 0.6230146884918213, 'val': 0.6230146884918213}
+
+PEMS-SF_dim64_depth2_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_32_04  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8381502628326416, 'val': 0.8381502628326416}, mf1:{'test': 0.7822381258010864, 'val': 0.7822381258010864}
+
+PEMS-SF_dim64_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_33_33  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7657679915428162, 'val': 0.7657679915428162}
+
+PEMS-SF_dim64_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_35_10  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.6895198225975037, 'val': 0.6895198225975037}
+
+PEMS-SF_dim64_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_36_30  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7468224763870239, 'val': 0.7468224763870239}
+
+PEMS-SF_dim64_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_37_34  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7689054012298584, 'val': 0.7689054012298584}
+
+PEMS-SF_dim64_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_38_53  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7298800349235535, 'val': 0.7298800349235535}
+
+PEMS-SF_dim64_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_40_14  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7403239011764526, 'val': 0.7403239011764526}
+
+PEMS-SF_dim64_depth2_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_41_24  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7204644083976746, 'val': 0.7204644083976746}
+
+PEMS-SF_dim32_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_42_42  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7878783941268921, 'val': 0.7878783941268921}
+
+PEMS-SF_dim32_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_44_27  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7527875900268555, 'val': 0.7527875900268555}
+
+PEMS-SF_dim32_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_45_49  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.695898711681366, 'val': 0.695898711681366}
+
+PEMS-SF_dim32_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_47_17  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7588315010070801, 'val': 0.7588315010070801}
+
+PEMS-SF_dim32_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_48_38  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7572254538536072, 'val': 0.7572254538536072}, mf1:{'test': 0.7129933834075928, 'val': 0.7129933834075928}
+
+PEMS-SF_dim32_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_49_33  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.849711000919342, 'val': 0.849711000919342}, mf1:{'test': 0.7960355281829834, 'val': 0.7960355281829834}
+
+PEMS-SF_dim32_depth2_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_50_55  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8381502628326416, 'val': 0.8381502628326416}, mf1:{'test': 0.8155366778373718, 'val': 0.8155366778373718}
+
+PEMS-SF_dim32_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_52_12  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.6978306770324707, 'val': 0.6978306770324707}
+
+PEMS-SF_dim32_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_53_46  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7572254538536072, 'val': 0.7572254538536072}, mf1:{'test': 0.638583779335022, 'val': 0.638583779335022}
+
+PEMS-SF_dim32_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_55_10  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.7222498655319214, 'val': 0.7222498655319214}
+
+PEMS-SF_dim32_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_56_55  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7405739426612854, 'val': 0.7405739426612854}
+
+PEMS-SF_dim32_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_58_15  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.6872853636741638, 'val': 0.6872853636741638}
+
+PEMS-SF_dim32_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_59_32  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.719811737537384, 'val': 0.719811737537384}
+
+PEMS-SF_dim32_depth2_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_01_15  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.7002529501914978, 'val': 0.7002529501914978}
+
+PEMS-SF_dim32_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_02_25  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8381502628326416, 'val': 0.8381502628326416}, mf1:{'test': 0.7971081137657166, 'val': 0.7971081137657166}
+
+PEMS-SF_dim32_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_04_16  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7109826803207397, 'val': 0.7109826803207397}, mf1:{'test': 0.6627084612846375, 'val': 0.6627084612846375}
+
+PEMS-SF_dim32_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_05_38  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7432712912559509, 'val': 0.7432712912559509}
+
+PEMS-SF_dim32_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_07_18  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7572254538536072, 'val': 0.7572254538536072}, mf1:{'test': 0.6916598081588745, 'val': 0.6916598081588745}
+
+PEMS-SF_dim32_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_08_22  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.7687861323356628, 'val': 0.7687861323356628}, mf1:{'test': 0.7099837064743042, 'val': 0.7099837064743042}
+
+PEMS-SF_dim32_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_09_31  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7730835676193237, 'val': 0.7730835676193237}
+
+PEMS-SF_dim32_depth2_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_10_55  
+TSLANet_PEMS-SF_l_2  
+acc:{'test': 0.8381502628326416, 'val': 0.8381502628326416}, mf1:{'test': 0.7949510812759399, 'val': 0.7949510812759399}
+
+PEMS-SF_dim256_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_12_15  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7192044854164124, 'val': 0.7192044854164124}
+
+PEMS-SF_dim256_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_13_26  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.763005793094635, 'val': 0.763005793094635}, mf1:{'test': 0.6713031530380249, 'val': 0.6713031530380249}
+
+PEMS-SF_dim256_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_14_48  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7687861323356628, 'val': 0.7687861323356628}, mf1:{'test': 0.6719851493835449, 'val': 0.6719851493835449}
+
+PEMS-SF_dim256_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_15_56  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.744330883026123, 'val': 0.744330883026123}
+
+PEMS-SF_dim256_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_17_14  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7336663603782654, 'val': 0.7336663603782654}
+
+PEMS-SF_dim256_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_18_42  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7524369359016418, 'val': 0.7524369359016418}
+
+PEMS-SF_dim256_depth1_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_20_33  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7459827661514282, 'val': 0.7459827661514282}
+
+PEMS-SF_dim256_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_22_08  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7617655992507935, 'val': 0.7617655992507935}
+
+PEMS-SF_dim256_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_23_19  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7136967182159424, 'val': 0.7136967182159424}
+
+PEMS-SF_dim256_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_24_36  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7344998717308044, 'val': 0.7344998717308044}
+
+PEMS-SF_dim256_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_25_51  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.763005793094635, 'val': 0.763005793094635}, mf1:{'test': 0.6707872152328491, 'val': 0.6707872152328491}
+
+PEMS-SF_dim256_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_26_44  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.7155693769454956, 'val': 0.7155693769454956}
+
+PEMS-SF_dim256_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_28_04  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.749538779258728, 'val': 0.749538779258728}
+
+PEMS-SF_dim256_depth1_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_29_19  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7362088561058044, 'val': 0.7362088561058044}
+
+PEMS-SF_dim256_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_30_55  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7440199851989746, 'val': 0.7440199851989746}
+
+PEMS-SF_dim256_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_32_09  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7477890849113464, 'val': 0.7477890849113464}
+
+PEMS-SF_dim256_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_33_25  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7480717301368713, 'val': 0.7480717301368713}
+
+PEMS-SF_dim256_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_34_36  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.763005793094635, 'val': 0.763005793094635}, mf1:{'test': 0.6538830995559692, 'val': 0.6538830995559692}
+
+PEMS-SF_dim256_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_35_54  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7522746920585632, 'val': 0.7522746920585632}
+
+PEMS-SF_dim256_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_37_24  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.751102089881897, 'val': 0.751102089881897}
+
+PEMS-SF_dim256_depth1_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_38_54  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7801344990730286, 'val': 0.7801344990730286}
+
+PEMS-SF_dim128_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_40_46  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.763005793094635, 'val': 0.763005793094635}, mf1:{'test': 0.6914868950843811, 'val': 0.6914868950843811}
+
+PEMS-SF_dim128_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_42_07  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.719579815864563, 'val': 0.719579815864563}
+
+PEMS-SF_dim128_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_43_40  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7386894822120667, 'val': 0.7386894822120667}
+
+PEMS-SF_dim128_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_45_20  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7700890302658081, 'val': 0.7700890302658081}
+
+PEMS-SF_dim128_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_46_37  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.728536069393158, 'val': 0.728536069393158}
+
+PEMS-SF_dim128_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_47_47  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7298208475112915, 'val': 0.7298208475112915}
+
+PEMS-SF_dim128_depth1_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_49_10  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7432407736778259, 'val': 0.7432407736778259}
+
+PEMS-SF_dim128_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_50_23  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7514650225639343, 'val': 0.7514650225639343}
+
+PEMS-SF_dim128_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_51_55  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7456647157669067, 'val': 0.7456647157669067}, mf1:{'test': 0.6668864488601685, 'val': 0.6668864488601685}
+
+PEMS-SF_dim128_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_53_14  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.763005793094635, 'val': 0.763005793094635}, mf1:{'test': 0.6963513493537903, 'val': 0.6963513493537903}
+
+PEMS-SF_dim128_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_54_32  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7445996403694153, 'val': 0.7445996403694153}
+
+PEMS-SF_dim128_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_55_56  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.8030570149421692, 'val': 0.8030570149421692}
+
+PEMS-SF_dim128_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_57_13  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7598775625228882, 'val': 0.7598775625228882}
+
+PEMS-SF_dim128_depth1_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_58_20  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8323699235916138, 'val': 0.8323699235916138}, mf1:{'test': 0.7933301329612732, 'val': 0.7933301329612732}
+
+PEMS-SF_dim128_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_59_39  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.6780445575714111, 'val': 0.6780445575714111}
+
+PEMS-SF_dim128_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_01_04  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7529555559158325, 'val': 0.7529555559158325}
+
+PEMS-SF_dim128_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_02_29  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8092485666275024, 'val': 0.8092485666275024}, mf1:{'test': 0.7620987892150879, 'val': 0.7620987892150879}
+
+PEMS-SF_dim128_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_03_50  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7140405774116516, 'val': 0.7140405774116516}
+
+PEMS-SF_dim128_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_05_12  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7687861323356628, 'val': 0.7687861323356628}, mf1:{'test': 0.6868947744369507, 'val': 0.6868947744369507}
+
+PEMS-SF_dim128_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_06_17  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.7459439039230347, 'val': 0.7459439039230347}
+
+PEMS-SF_dim128_depth1_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_07_52  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.753504753112793, 'val': 0.753504753112793}
+
+PEMS-SF_dim64_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_09_01  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7387953996658325, 'val': 0.7387953996658325}
+
+PEMS-SF_dim64_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_10_24  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.7057878971099854, 'val': 0.7057878971099854}
+
+PEMS-SF_dim64_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_11_39  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7109826803207397, 'val': 0.7109826803207397}, mf1:{'test': 0.6073189377784729, 'val': 0.6073189377784729}
+
+PEMS-SF_dim64_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_12_44  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7325364947319031, 'val': 0.7325364947319031}
+
+PEMS-SF_dim64_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_13_58  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.71591717004776, 'val': 0.71591717004776}
+
+PEMS-SF_dim64_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_14_58  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8265895843505859, 'val': 0.8265895843505859}, mf1:{'test': 0.753352701663971, 'val': 0.753352701663971}
+
+PEMS-SF_dim64_depth1_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_16_17  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7503873705863953, 'val': 0.7503873705863953}
+
+PEMS-SF_dim64_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_17_29  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7789762020111084, 'val': 0.7789762020111084}
+
+PEMS-SF_dim64_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_18_56  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7687861323356628, 'val': 0.7687861323356628}, mf1:{'test': 0.6646639108657837, 'val': 0.6646639108657837}
+
+PEMS-SF_dim64_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_19_59  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.6967083215713501, 'val': 0.6967083215713501}
+
+PEMS-SF_dim64_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_20_58  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7565706372261047, 'val': 0.7565706372261047}
+
+PEMS-SF_dim64_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_22_03  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7290131449699402, 'val': 0.7290131449699402}
+
+PEMS-SF_dim64_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_23_00  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7572254538536072, 'val': 0.7572254538536072}, mf1:{'test': 0.6996932625770569, 'val': 0.6996932625770569}
+
+PEMS-SF_dim64_depth1_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_23_58  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8208092451095581, 'val': 0.8208092451095581}, mf1:{'test': 0.7564564943313599, 'val': 0.7564564943313599}
+
+PEMS-SF_dim64_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_25_04  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7572254538536072, 'val': 0.7572254538536072}, mf1:{'test': 0.6651856303215027, 'val': 0.6651856303215027}
+
+PEMS-SF_dim64_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_26_10  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7398843765258789, 'val': 0.7398843765258789}, mf1:{'test': 0.6694402694702148, 'val': 0.6694402694702148}
+
+PEMS-SF_dim64_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_27_14  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7572254538536072, 'val': 0.7572254538536072}, mf1:{'test': 0.661953330039978, 'val': 0.661953330039978}
+
+PEMS-SF_dim64_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_28_20  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8034682273864746, 'val': 0.8034682273864746}, mf1:{'test': 0.7475119233131409, 'val': 0.7475119233131409}
+
+PEMS-SF_dim64_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_29_26  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7803468108177185, 'val': 0.7803468108177185}, mf1:{'test': 0.6980273723602295, 'val': 0.6980273723602295}
+
+PEMS-SF_dim64_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_30_38  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8150289058685303, 'val': 0.8150289058685303}, mf1:{'test': 0.7704533934593201, 'val': 0.7704533934593201}
+
+PEMS-SF_dim64_depth1_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_31_55  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.7528126239776611, 'val': 0.7528126239776611}
+
+PEMS-SF_dim32_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_33_09  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7745664715766907, 'val': 0.7745664715766907}, mf1:{'test': 0.6985113024711609, 'val': 0.6985113024711609}
+
+PEMS-SF_dim32_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_34_40  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7167630195617676, 'val': 0.7167630195617676}, mf1:{'test': 0.6183100938796997, 'val': 0.6183100938796997}
+
+PEMS-SF_dim32_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_35_49  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7341040372848511, 'val': 0.7341040372848511}, mf1:{'test': 0.6491369605064392, 'val': 0.6491369605064392}
+
+PEMS-SF_dim32_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_37_02  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7572254538536072, 'val': 0.7572254538536072}, mf1:{'test': 0.6474136710166931, 'val': 0.6474136710166931}
+
+PEMS-SF_dim32_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_38_13  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7572254538536072, 'val': 0.7572254538536072}, mf1:{'test': 0.7087956070899963, 'val': 0.7087956070899963}
+
+PEMS-SF_dim32_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_39_30  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7976878881454468, 'val': 0.7976878881454468}, mf1:{'test': 0.6933053135871887, 'val': 0.6933053135871887}
+
+PEMS-SF_dim32_depth1_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_41_07  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.8381502628326416, 'val': 0.8381502628326416}, mf1:{'test': 0.7601615786552429, 'val': 0.7601615786552429}
+
+PEMS-SF_dim32_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_42_19  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7514451146125793, 'val': 0.7514451146125793}, mf1:{'test': 0.6671055555343628, 'val': 0.6671055555343628}
+
+PEMS-SF_dim32_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_43_29  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.6589595079421997, 'val': 0.6589595079421997}, mf1:{'test': 0.5264157652854919, 'val': 0.5264157652854919}
+
+PEMS-SF_dim32_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_44_40  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7058917880058289, 'val': 0.7058917880058289}
+
+PEMS-SF_dim32_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_46_01  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7237132787704468, 'val': 0.7237132787704468}
+
+PEMS-SF_dim32_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_47_16  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7398843765258789, 'val': 0.7398843765258789}, mf1:{'test': 0.6785140037536621, 'val': 0.6785140037536621}
+
+PEMS-SF_dim32_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_48_16  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7398843765258789, 'val': 0.7398843765258789}, mf1:{'test': 0.6631548404693604, 'val': 0.6631548404693604}
+
+PEMS-SF_dim32_depth1_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_49_28  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7341040372848511, 'val': 0.7341040372848511}, mf1:{'test': 0.6215934753417969, 'val': 0.6215934753417969}
+
+PEMS-SF_dim32_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_50_23  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7109826803207397, 'val': 0.7109826803207397}, mf1:{'test': 0.6076603531837463, 'val': 0.6076603531837463}
+
+PEMS-SF_dim32_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_51_44  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7572254538536072, 'val': 0.7572254538536072}, mf1:{'test': 0.6590308547019958, 'val': 0.6590308547019958}
+
+PEMS-SF_dim32_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_53_07  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.6860462427139282, 'val': 0.6860462427139282}
+
+PEMS-SF_dim32_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_54_24  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7919074892997742, 'val': 0.7919074892997742}, mf1:{'test': 0.7058095932006836, 'val': 0.7058095932006836}
+
+PEMS-SF_dim32_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_55_48  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7861271500587463, 'val': 0.7861271500587463}, mf1:{'test': 0.6812698245048523, 'val': 0.6812698245048523}
+
+PEMS-SF_dim32_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_10  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.763005793094635, 'val': 0.763005793094635}, mf1:{'test': 0.6695839166641235, 'val': 0.6695839166641235}
+
+PEMS-SF_dim32_depth1_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_58_19  
+TSLANet_PEMS-SF_l_1  
+acc:{'test': 0.7398843765258789, 'val': 0.7398843765258789}, mf1:{'test': 0.641740083694458, 'val': 0.641740083694458}
+

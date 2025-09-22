@@ -1,0 +1,1008 @@
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_38_01  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6027597784996033, 'val': 0.6027597784996033}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_45_27  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5434386730194092, 'val': 0.5434386730194092}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_50_57  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.555213987827301, 'val': 0.555213987827301}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_57_11  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5167921781539917, 'val': 0.5167921781539917}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_01_32  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.5623098611831665, 'val': 0.5623098611831665}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_07_31  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6348921060562134, 'val': 0.6348921060562134}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_14_18  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6890051960945129, 'val': 0.6890051960945129}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_19_08  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6007869839668274, 'val': 0.6007869839668274}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_23_12  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.529927134513855, 'val': 0.529927134513855}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_27_08  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.5706594586372375, 'val': 0.5706594586372375}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_30_43  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.5698707103729248, 'val': 0.5698707103729248}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_35_00  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6234709620475769, 'val': 0.6234709620475769}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_39_05  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6572319269180298, 'val': 0.6572319269180298}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_43_12  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6718789339065552, 'val': 0.6718789339065552}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_46_03  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6013389229774475, 'val': 0.6013389229774475}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_50_49  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.5860312581062317, 'val': 0.5860312581062317}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_53_18  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5505586862564087, 'val': 0.5505586862564087}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_56_22  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.5595654249191284, 'val': 0.5595654249191284}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_59_19  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6139040589332581, 'val': 0.6139040589332581}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_01_51  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6306055784225464, 'val': 0.6306055784225464}
+
+UWaveGestureLibrary_dim256_depth3_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_05_11  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.7104389071464539, 'val': 0.7104389071464539}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_08_12  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.5713410973548889, 'val': 0.5713410973548889}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_10_56  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6572182774543762, 'val': 0.6572182774543762}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_14_14  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.5687963962554932, 'val': 0.5687963962554932}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_16_58  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.6131466627120972, 'val': 0.6131466627120972}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_19_26  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5877522826194763, 'val': 0.5877522826194763}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_22_07  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6576818227767944, 'val': 0.6576818227767944}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_25_01  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.660821795463562, 'val': 0.660821795463562}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_27_14  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.5417609810829163, 'val': 0.5417609810829163}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_30_06  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6092521548271179, 'val': 0.6092521548271179}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_32_52  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.878125011920929, 'val': 0.878125011920929}, mf1:{'test': 0.5470144748687744, 'val': 0.5470144748687744}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_35_32  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.5769129991531372, 'val': 0.5769129991531372}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_38_54  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.5654204487800598, 'val': 0.5654204487800598}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_42_09  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6354212164878845, 'val': 0.6354212164878845}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_45_16  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.658912718296051, 'val': 0.658912718296051}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_47_58  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5827188491821289, 'val': 0.5827188491821289}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_51_28  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.5579626560211182, 'val': 0.5579626560211182}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_54_43  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5301862359046936, 'val': 0.5301862359046936}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_58_31  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.878125011920929, 'val': 0.878125011920929}, mf1:{'test': 0.5124625563621521, 'val': 0.5124625563621521}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_00_39  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6379255056381226, 'val': 0.6379255056381226}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_03_52  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.6680046916007996, 'val': 0.6680046916007996}
+
+UWaveGestureLibrary_dim128_depth3_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_06_05  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6439424753189087, 'val': 0.6439424753189087}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_08_07  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.5439766645431519, 'val': 0.5439766645431519}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_10_52  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6043491959571838, 'val': 0.6043491959571838}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_13_44  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6109409332275391, 'val': 0.6109409332275391}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_16_23  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.890625, 'val': 0.890625}, mf1:{'test': 0.548312246799469, 'val': 0.548312246799469}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_18_51  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6174313426017761, 'val': 0.6174313426017761}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_21_07  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6396605968475342, 'val': 0.6396605968475342}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_24_16  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6759412288665771, 'val': 0.6759412288665771}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_27_26  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.5988327860832214, 'val': 0.5988327860832214}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_30_00  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.5424033403396606, 'val': 0.5424033403396606}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_32_22  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.5604100227355957, 'val': 0.5604100227355957}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_34_33  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5735644102096558, 'val': 0.5735644102096558}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_36_46  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.5994799137115479, 'val': 0.5994799137115479}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_39_25  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6231781244277954, 'val': 0.6231781244277954}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_42_36  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6124764084815979, 'val': 0.6124764084815979}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_45_11  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.5706268548965454, 'val': 0.5706268548965454}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_47_49  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.5396047234535217, 'val': 0.5396047234535217}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_50_23  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5481711626052856, 'val': 0.5481711626052856}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_52_26  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.5109849572181702, 'val': 0.5109849572181702}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_55_00  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6274482011795044, 'val': 0.6274482011795044}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_57_41  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.605255126953125, 'val': 0.605255126953125}
+
+UWaveGestureLibrary_dim64_depth3_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_59_54  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.934374988079071, 'val': 0.934374988079071}, mf1:{'test': 0.7023569345474243, 'val': 0.7023569345474243}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_01_55  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5536808967590332, 'val': 0.5536808967590332}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_04_13  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.5104106664657593, 'val': 0.5104106664657593}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_07_00  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.5567535758018494, 'val': 0.5567535758018494}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_10_14  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.5415986776351929, 'val': 0.5415986776351929}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_13_15  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8687499761581421, 'val': 0.8687499761581421}, mf1:{'test': 0.5447372198104858, 'val': 0.5447372198104858}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_16_09  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6291003227233887, 'val': 0.6291003227233887}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_18_38  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.6520211100578308, 'val': 0.6520211100578308}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_20_57  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.5582697987556458, 'val': 0.5582697987556458}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_23_56  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6233219504356384, 'val': 0.6233219504356384}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_27_43  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8812500238418579, 'val': 0.8812500238418579}, mf1:{'test': 0.5593262910842896, 'val': 0.5593262910842896}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_30_33  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.890625, 'val': 0.890625}, mf1:{'test': 0.5445002317428589, 'val': 0.5445002317428589}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_33_15  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6055118441581726, 'val': 0.6055118441581726}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_35_57  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6113513112068176, 'val': 0.6113513112068176}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_40_07  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.6429445743560791, 'val': 0.6429445743560791}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_41_50  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8656250238418579, 'val': 0.8656250238418579}, mf1:{'test': 0.5012961030006409, 'val': 0.5012961030006409}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_44_47  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.871874988079071, 'val': 0.871874988079071}, mf1:{'test': 0.522079348564148, 'val': 0.522079348564148}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_47_01  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8687499761581421, 'val': 0.8687499761581421}, mf1:{'test': 0.49390244483947754, 'val': 0.49390244483947754}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_49_33  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.5412609577178955, 'val': 0.5412609577178955}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_51_20  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5599758625030518, 'val': 0.5599758625030518}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_53_26  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.5468567609786987, 'val': 0.5468567609786987}
+
+UWaveGestureLibrary_dim32_depth3_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_55_59  
+TSLANet_UWaveGestureLibrary_l_3  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6757011413574219, 'val': 0.6757011413574219}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_58_49  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.5817813873291016, 'val': 0.5817813873291016}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_02_01  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.5987244844436646, 'val': 0.5987244844436646}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_05_19  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.5624347925186157, 'val': 0.5624347925186157}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_07_19  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.5752383470535278, 'val': 0.5752383470535278}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_10_05  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.624811053276062, 'val': 0.624811053276062}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_12_45  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6590661406517029, 'val': 0.6590661406517029}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_14_58  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9312499761581421, 'val': 0.9312499761581421}, mf1:{'test': 0.7072010636329651, 'val': 0.7072010636329651}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_17_06  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.61957186460495, 'val': 0.61957186460495}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_19_25  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6067885756492615, 'val': 0.6067885756492615}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_22_10  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.6026012897491455, 'val': 0.6026012897491455}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_24_47  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.5953188538551331, 'val': 0.5953188538551331}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_27_05  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.5787353515625, 'val': 0.5787353515625}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_29_59  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.934374988079071, 'val': 0.934374988079071}, mf1:{'test': 0.6829389929771423, 'val': 0.6829389929771423}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_33_18  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.940625011920929, 'val': 0.940625011920929}, mf1:{'test': 0.7149750590324402, 'val': 0.7149750590324402}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_35_16  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9312499761581421, 'val': 0.9312499761581421}, mf1:{'test': 0.6551462411880493, 'val': 0.6551462411880493}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_37_38  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6094204783439636, 'val': 0.6094204783439636}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_40_09  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.6137471199035645, 'val': 0.6137471199035645}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_42_26  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6346139311790466, 'val': 0.6346139311790466}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_44_53  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6028240919113159, 'val': 0.6028240919113159}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_46_43  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.934374988079071, 'val': 0.934374988079071}, mf1:{'test': 0.7078852653503418, 'val': 0.7078852653503418}
+
+UWaveGestureLibrary_dim256_depth2_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_49_35  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6628953218460083, 'val': 0.6628953218460083}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_52_15  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6234699487686157, 'val': 0.6234699487686157}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_55_33  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9312499761581421, 'val': 0.9312499761581421}, mf1:{'test': 0.6701639294624329, 'val': 0.6701639294624329}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_59_00  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6336084008216858, 'val': 0.6336084008216858}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_01_22  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.887499988079071, 'val': 0.887499988079071}, mf1:{'test': 0.558478593826294, 'val': 0.558478593826294}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_02_58  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.5966910123825073, 'val': 0.5966910123825073}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_04_48  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.934374988079071, 'val': 0.934374988079071}, mf1:{'test': 0.6427762508392334, 'val': 0.6427762508392334}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_07_39  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6793922185897827, 'val': 0.6793922185897827}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_09_28  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.5942954421043396, 'val': 0.5942954421043396}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_12_21  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.576214611530304, 'val': 0.576214611530304}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_14_40  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.5996868014335632, 'val': 0.5996868014335632}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_16_59  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5886169672012329, 'val': 0.5886169672012329}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_19_28  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6135882139205933, 'val': 0.6135882139205933}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_21_22  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.934374988079071, 'val': 0.934374988079071}, mf1:{'test': 0.6712222099304199, 'val': 0.6712222099304199}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_23_18  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.934374988079071, 'val': 0.934374988079071}, mf1:{'test': 0.7117477059364319, 'val': 0.7117477059364319}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_24_52  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.5796275734901428, 'val': 0.5796275734901428}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_26_42  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6389886140823364, 'val': 0.6389886140823364}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_28_43  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6331436038017273, 'val': 0.6331436038017273}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_30_39  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.5546209216117859, 'val': 0.5546209216117859}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_32_26  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6467649936676025, 'val': 0.6467649936676025}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_34_49  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9312499761581421, 'val': 0.9312499761581421}, mf1:{'test': 0.6382728815078735, 'val': 0.6382728815078735}
+
+UWaveGestureLibrary_dim128_depth2_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_36_43  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6819504499435425, 'val': 0.6819504499435425}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_38_17  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.5959010124206543, 'val': 0.5959010124206543}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_40_43  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.571104884147644, 'val': 0.571104884147644}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_42_27  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8843749761581421, 'val': 0.8843749761581421}, mf1:{'test': 0.541358470916748, 'val': 0.541358470916748}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_44_01  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6326018571853638, 'val': 0.6326018571853638}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_45_59  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.6057885885238647, 'val': 0.6057885885238647}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_47_35  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6327356100082397, 'val': 0.6327356100082397}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_49_14  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.7065225839614868, 'val': 0.7065225839614868}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_51_03  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.5922519564628601, 'val': 0.5922519564628601}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_52_46  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.586478590965271, 'val': 0.586478590965271}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_54_23  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.6460450887680054, 'val': 0.6460450887680054}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_56_33  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5861262679100037, 'val': 0.5861262679100037}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_58_45  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.6231743097305298, 'val': 0.6231743097305298}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_00_36  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6357560753822327, 'val': 0.6357560753822327}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_02_12  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6619617938995361, 'val': 0.6619617938995361}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_03_55  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.597537636756897, 'val': 0.597537636756897}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_06_21  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5969927906990051, 'val': 0.5969927906990051}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_07_55  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.5036538243293762, 'val': 0.5036538243293762}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_09_37  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.5977605581283569, 'val': 0.5977605581283569}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_11_37  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6221207976341248, 'val': 0.6221207976341248}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_13_27  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6206015944480896, 'val': 0.6206015944480896}
+
+UWaveGestureLibrary_dim64_depth2_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_14_54  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6527184247970581, 'val': 0.6527184247970581}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_16_20  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6207915544509888, 'val': 0.6207915544509888}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_18_53  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.5934118032455444, 'val': 0.5934118032455444}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_21_46  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5802438259124756, 'val': 0.5802438259124756}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_23_51  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6378146409988403, 'val': 0.6378146409988403}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_26_38  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6020766496658325, 'val': 0.6020766496658325}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_28_20  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6156903505325317, 'val': 0.6156903505325317}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_30_12  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6932401657104492, 'val': 0.6932401657104492}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_31_50  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.887499988079071, 'val': 0.887499988079071}, mf1:{'test': 0.5815026164054871, 'val': 0.5815026164054871}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_33_35  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8812500238418579, 'val': 0.8812500238418579}, mf1:{'test': 0.4949467182159424, 'val': 0.4949467182159424}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_35_25  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5854026079177856, 'val': 0.5854026079177856}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_37_17  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.871874988079071, 'val': 0.871874988079071}, mf1:{'test': 0.5001380443572998, 'val': 0.5001380443572998}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_38_49  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5819105505943298, 'val': 0.5819105505943298}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_40_22  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.6529626846313477, 'val': 0.6529626846313477}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_41_48  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.674507200717926, 'val': 0.674507200717926}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_43_17  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.887499988079071, 'val': 0.887499988079071}, mf1:{'test': 0.5376547574996948, 'val': 0.5376547574996948}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_45_26  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.890625, 'val': 0.890625}, mf1:{'test': 0.5604006052017212, 'val': 0.5604006052017212}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_47_33  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.4625000059604645, 'val': 0.4625000059604645}, mf1:{'test': 0.19380386173725128, 'val': 0.19380386173725128}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_48_42  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.8812500238418579, 'val': 0.8812500238418579}, mf1:{'test': 0.5514715909957886, 'val': 0.5514715909957886}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_50_14  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.6054559946060181, 'val': 0.6054559946060181}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_51_49  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.887499988079071, 'val': 0.887499988079071}, mf1:{'test': 0.6034095883369446, 'val': 0.6034095883369446}
+
+UWaveGestureLibrary_dim32_depth2_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_53_29  
+TSLANet_UWaveGestureLibrary_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6885630488395691, 'val': 0.6885630488395691}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_54_59  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.5935182571411133, 'val': 0.5935182571411133}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_56_31  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6181920766830444, 'val': 0.6181920766830444}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_57_51  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.6160761117935181, 'val': 0.6160761117935181}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_59_15  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.893750011920929, 'val': 0.893750011920929}, mf1:{'test': 0.5463317036628723, 'val': 0.5463317036628723}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_00_35  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9312499761581421, 'val': 0.9312499761581421}, mf1:{'test': 0.6935210227966309, 'val': 0.6935210227966309}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_02_00  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9375, 'val': 0.9375}, mf1:{'test': 0.6970287561416626, 'val': 0.6970287561416626}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_03_27  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9312499761581421, 'val': 0.9312499761581421}, mf1:{'test': 0.6952663064002991, 'val': 0.6952663064002991}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_04_46  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6011208295822144, 'val': 0.6011208295822144}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_06_05  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6375183463096619, 'val': 0.6375183463096619}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_07_44  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.5496441125869751, 'val': 0.5496441125869751}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_08_58  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6321473717689514, 'val': 0.6321473717689514}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_10_20  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6145089268684387, 'val': 0.6145089268684387}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_11_41  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9375, 'val': 0.9375}, mf1:{'test': 0.6758180856704712, 'val': 0.6758180856704712}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_13_13  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.934374988079071, 'val': 0.934374988079071}, mf1:{'test': 0.696337103843689, 'val': 0.696337103843689}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_14_18  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6010023951530457, 'val': 0.6010023951530457}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_15_36  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.600206732749939, 'val': 0.600206732749939}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_17_06  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.6077443361282349, 'val': 0.6077443361282349}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_18_24  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.8812500238418579, 'val': 0.8812500238418579}, mf1:{'test': 0.5384694933891296, 'val': 0.5384694933891296}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_19_30  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6352270245552063, 'val': 0.6352270245552063}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_20_57  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6168586015701294, 'val': 0.6168586015701294}
+
+UWaveGestureLibrary_dim256_depth1_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_22_00  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9312499761581421, 'val': 0.9312499761581421}, mf1:{'test': 0.6688246726989746, 'val': 0.6688246726989746}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_23_13  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6091523170471191, 'val': 0.6091523170471191}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_24_31  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.575518786907196, 'val': 0.575518786907196}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_26_13  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.6134849786758423, 'val': 0.6134849786758423}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_27_26  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5955807566642761, 'val': 0.5955807566642761}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_28_50  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6499367952346802, 'val': 0.6499367952346802}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_30_38  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9375, 'val': 0.9375}, mf1:{'test': 0.6762058138847351, 'val': 0.6762058138847351}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_32_32  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6628813147544861, 'val': 0.6628813147544861}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_33_39  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6299194097518921, 'val': 0.6299194097518921}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_34_59  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5878030061721802, 'val': 0.5878030061721802}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_36_34  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6159751415252686, 'val': 0.6159751415252686}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_37_52  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6412525177001953, 'val': 0.6412525177001953}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_39_19  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6199768781661987, 'val': 0.6199768781661987}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_30  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9437500238418579, 'val': 0.9437500238418579}, mf1:{'test': 0.7022375464439392, 'val': 0.7022375464439392}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_41_46  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9312499761581421, 'val': 0.9312499761581421}, mf1:{'test': 0.6957423686981201, 'val': 0.6957423686981201}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_42_47  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6495746374130249, 'val': 0.6495746374130249}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_44_15  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6410478949546814, 'val': 0.6410478949546814}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_46_21  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.6021822094917297, 'val': 0.6021822094917297}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_47_33  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.5889998078346252, 'val': 0.5889998078346252}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_49_04  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6104786992073059, 'val': 0.6104786992073059}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_50_21  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9375, 'val': 0.9375}, mf1:{'test': 0.6798601746559143, 'val': 0.6798601746559143}
+
+UWaveGestureLibrary_dim128_depth1_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_51_31  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9375, 'val': 0.9375}, mf1:{'test': 0.7021101117134094, 'val': 0.7021101117134094}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_53_22  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.5895353555679321, 'val': 0.5895353555679321}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_54_47  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.5906225442886353, 'val': 0.5906225442886353}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_56_23  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6424756646156311, 'val': 0.6424756646156311}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_56  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5885175466537476, 'val': 0.5885175466537476}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_59_17  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9312499761581421, 'val': 0.9312499761581421}, mf1:{'test': 0.6585420370101929, 'val': 0.6585420370101929}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_03_22  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.934374988079071, 'val': 0.934374988079071}, mf1:{'test': 0.6878024935722351, 'val': 0.6878024935722351}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_05_15  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.934374988079071, 'val': 0.934374988079071}, mf1:{'test': 0.719171404838562, 'val': 0.719171404838562}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_07_37  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5900689959526062, 'val': 0.5900689959526062}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_09_11  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6169163584709167, 'val': 0.6169163584709167}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_11_52  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6392154693603516, 'val': 0.6392154693603516}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_13_32  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6047571897506714, 'val': 0.6047571897506714}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_24_15  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.6552597284317017, 'val': 0.6552597284317017}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_35_16  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.7018217444419861, 'val': 0.7018217444419861}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_44_31  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6754449605941772, 'val': 0.6754449605941772}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_52_17  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.5831989645957947, 'val': 0.5831989645957947}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_01_59  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.909375011920929, 'val': 0.909375011920929}, mf1:{'test': 0.5649760961532593, 'val': 0.5649760961532593}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_13_21  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5700501203536987, 'val': 0.5700501203536987}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_15_03  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.6300169825553894, 'val': 0.6300169825553894}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_17_39  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.657787561416626, 'val': 0.657787561416626}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_19_37  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.940625011920929, 'val': 0.940625011920929}, mf1:{'test': 0.7091551423072815, 'val': 0.7091551423072815}
+
+UWaveGestureLibrary_dim64_depth1_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_21_40  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9125000238418579, 'val': 0.9125000238418579}, mf1:{'test': 0.6372970938682556, 'val': 0.6372970938682556}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_23_35  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.890625, 'val': 0.890625}, mf1:{'test': 0.5700032711029053, 'val': 0.5700032711029053}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_25_45  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.8968750238418579, 'val': 0.8968750238418579}, mf1:{'test': 0.5455949306488037, 'val': 0.5455949306488037}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch24_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_28_11  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.5107664465904236, 'val': 0.5107664465904236}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch32_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_30_05  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6405540704727173, 'val': 0.6405540704727173}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch48_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_32_24  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.5874999761581421, 'val': 0.5874999761581421}, mf1:{'test': 0.28259164094924927, 'val': 0.28259164094924927}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch63_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_33_59  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9156249761581421, 'val': 0.9156249761581421}, mf1:{'test': 0.6341766119003296, 'val': 0.6341766119003296}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch79_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_36_10  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6838904023170471, 'val': 0.6838904023170471}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_38_35  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.8843749761581421, 'val': 0.8843749761581421}, mf1:{'test': 0.524404764175415, 'val': 0.524404764175415}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_40_57  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.890625, 'val': 0.890625}, mf1:{'test': 0.5202299356460571, 'val': 0.5202299356460571}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch24_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_43_43  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.6235427856445312, 'val': 0.6235427856445312}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch32_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_46_03  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.4468750059604645, 'val': 0.4468750059604645}, mf1:{'test': 0.22422106564044952, 'val': 0.22422106564044952}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch48_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_47_32  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.48124998807907104, 'val': 0.48124998807907104}, mf1:{'test': 0.352599173784256, 'val': 0.352599173784256}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_49_10  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.6285701990127563, 'val': 0.6285701990127563}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch79_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_51_23  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.921875, 'val': 0.921875}, mf1:{'test': 0.6542069911956787, 'val': 0.6542069911956787}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_52_54  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.878125011920929, 'val': 0.878125011920929}, mf1:{'test': 0.47390085458755493, 'val': 0.47390085458755493}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_54_44  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.90625, 'val': 0.90625}, mf1:{'test': 0.5567308664321899, 'val': 0.5567308664321899}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch24_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_57_37  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.903124988079071, 'val': 0.903124988079071}, mf1:{'test': 0.62172931432724, 'val': 0.62172931432724}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch32_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_00_02  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.878125011920929, 'val': 0.878125011920929}, mf1:{'test': 0.5623683929443359, 'val': 0.5623683929443359}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch48_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_02_13  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.5949534177780151, 'val': 0.5949534177780151}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch63_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_04_26  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.9281250238418579, 'val': 0.9281250238418579}, mf1:{'test': 0.6451348066329956, 'val': 0.6451348066329956}
+
+UWaveGestureLibrary_dim32_depth1_mask0.4_patch79_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_06_30  
+TSLANet_UWaveGestureLibrary_l_1  
+acc:{'test': 0.918749988079071, 'val': 0.918749988079071}, mf1:{'test': 0.656079888343811, 'val': 0.656079888343811}
+

@@ -1,0 +1,1281 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         320                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma320_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.309023141860962
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.3829619884490967
+Epoch: 2, Steps: 1 | Train Loss: 1.109 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.4274449348449707
+Epoch: 3, Steps: 1 | Train Loss: 1.095 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.49928736686706543
+Epoch: 4, Steps: 1 | Train Loss: 1.081 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.4149632453918457
+Epoch: 5, Steps: 1 | Train Loss: 1.067 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.4236183166503906
+Epoch: 6, Steps: 1 | Train Loss: 1.053 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.5802381038665771
+Epoch: 7, Steps: 1 | Train Loss: 1.005 Vali Loss: 1.094 Vali Acc: 0.400 Test Loss: 1.094 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.45064640045166016
+Epoch: 8, Steps: 1 | Train Loss: 0.948 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.41336703300476074
+Epoch: 9, Steps: 1 | Train Loss: 0.887 Vali Loss: 1.098 Vali Acc: 0.333 Test Loss: 1.098 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.5127074718475342
+Epoch: 10, Steps: 1 | Train Loss: 0.824 Vali Loss: 1.102 Vali Acc: 0.400 Test Loss: 1.102 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.43630194664001465
+Epoch: 11, Steps: 1 | Train Loss: 0.761 Vali Loss: 1.108 Vali Acc: 0.333 Test Loss: 1.108 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.4066579341888428
+Epoch: 12, Steps: 1 | Train Loss: 0.699 Vali Loss: 1.116 Vali Acc: 0.333 Test Loss: 1.116 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma320_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         288                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma288_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.6282901763916016
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.6962845325469971
+Epoch: 2, Steps: 1 | Train Loss: 1.109 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.6460421085357666
+Epoch: 3, Steps: 1 | Train Loss: 1.095 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.6563014984130859
+Epoch: 4, Steps: 1 | Train Loss: 1.081 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.7011947631835938
+Epoch: 5, Steps: 1 | Train Loss: 1.067 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.5701239109039307
+Epoch: 6, Steps: 1 | Train Loss: 1.054 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.6585521697998047
+Epoch: 7, Steps: 1 | Train Loss: 1.006 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.5871250629425049
+Epoch: 8, Steps: 1 | Train Loss: 0.949 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.5992395877838135
+Epoch: 9, Steps: 1 | Train Loss: 0.888 Vali Loss: 1.097 Vali Acc: 0.333 Test Loss: 1.097 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.4924314022064209
+Epoch: 10, Steps: 1 | Train Loss: 0.825 Vali Loss: 1.101 Vali Acc: 0.400 Test Loss: 1.101 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.5379858016967773
+Epoch: 11, Steps: 1 | Train Loss: 0.762 Vali Loss: 1.107 Vali Acc: 0.333 Test Loss: 1.107 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.7305889129638672
+Epoch: 12, Steps: 1 | Train Loss: 0.700 Vali Loss: 1.114 Vali Acc: 0.333 Test Loss: 1.114 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma288_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         256                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma256_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 3.468647003173828
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.7215969562530518
+Epoch: 2, Steps: 1 | Train Loss: 1.109 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.6552252769470215
+Epoch: 3, Steps: 1 | Train Loss: 1.095 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.8225727081298828
+Epoch: 4, Steps: 1 | Train Loss: 1.081 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.8735466003417969
+Epoch: 5, Steps: 1 | Train Loss: 1.068 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9651393890380859
+Epoch: 6, Steps: 1 | Train Loss: 1.054 Vali Loss: 1.094 Vali Acc: 0.400 Test Loss: 1.094 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.7466208934783936
+Epoch: 7, Steps: 1 | Train Loss: 1.007 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9263834953308105
+Epoch: 8, Steps: 1 | Train Loss: 0.950 Vali Loss: 1.096 Vali Acc: 0.467 Test Loss: 1.096 Test Acc: 0.467
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.1435356140136719
+Epoch: 9, Steps: 1 | Train Loss: 0.889 Vali Loss: 1.099 Vali Acc: 0.333 Test Loss: 1.099 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.6566681861877441
+Epoch: 10, Steps: 1 | Train Loss: 0.825 Vali Loss: 1.103 Vali Acc: 0.400 Test Loss: 1.103 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.693638801574707
+Epoch: 11, Steps: 1 | Train Loss: 0.762 Vali Loss: 1.109 Vali Acc: 0.333 Test Loss: 1.109 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.6212997436523438
+Epoch: 12, Steps: 1 | Train Loss: 0.701 Vali Loss: 1.117 Vali Acc: 0.333 Test Loss: 1.117 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma256_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         224                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma224_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.7133965492248535
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.8948090076446533
+Epoch: 2, Steps: 1 | Train Loss: 1.110 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.9230306148529053
+Epoch: 3, Steps: 1 | Train Loss: 1.096 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9771842956542969
+Epoch: 4, Steps: 1 | Train Loss: 1.082 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.9221935272216797
+Epoch: 5, Steps: 1 | Train Loss: 1.069 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.926983118057251
+Epoch: 6, Steps: 1 | Train Loss: 1.055 Vali Loss: 1.094 Vali Acc: 0.400 Test Loss: 1.094 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.7982494831085205
+Epoch: 7, Steps: 1 | Train Loss: 1.008 Vali Loss: 1.095 Vali Acc: 0.400 Test Loss: 1.095 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9617805480957031
+Epoch: 8, Steps: 1 | Train Loss: 0.952 Vali Loss: 1.097 Vali Acc: 0.467 Test Loss: 1.097 Test Acc: 0.467
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.8307690620422363
+Epoch: 9, Steps: 1 | Train Loss: 0.891 Vali Loss: 1.100 Vali Acc: 0.333 Test Loss: 1.100 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.7890326976776123
+Epoch: 10, Steps: 1 | Train Loss: 0.827 Vali Loss: 1.104 Vali Acc: 0.400 Test Loss: 1.104 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.8494503498077393
+Epoch: 11, Steps: 1 | Train Loss: 0.764 Vali Loss: 1.110 Vali Acc: 0.333 Test Loss: 1.110 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.6127369403839111
+Epoch: 12, Steps: 1 | Train Loss: 0.702 Vali Loss: 1.118 Vali Acc: 0.333 Test Loss: 1.118 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma224_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         192                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma192_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.803548574447632
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.9509243965148926
+Epoch: 2, Steps: 1 | Train Loss: 1.110 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.8029794692993164
+Epoch: 3, Steps: 1 | Train Loss: 1.096 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.8747446537017822
+Epoch: 4, Steps: 1 | Train Loss: 1.082 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.7425656318664551
+Epoch: 5, Steps: 1 | Train Loss: 1.068 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.6767089366912842
+Epoch: 6, Steps: 1 | Train Loss: 1.055 Vali Loss: 1.094 Vali Acc: 0.400 Test Loss: 1.094 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.7346315383911133
+Epoch: 7, Steps: 1 | Train Loss: 1.008 Vali Loss: 1.096 Vali Acc: 0.400 Test Loss: 1.096 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.9063482284545898
+Epoch: 8, Steps: 1 | Train Loss: 0.952 Vali Loss: 1.098 Vali Acc: 0.467 Test Loss: 1.098 Test Acc: 0.467
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.7741739749908447
+Epoch: 9, Steps: 1 | Train Loss: 0.890 Vali Loss: 1.101 Vali Acc: 0.333 Test Loss: 1.101 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.8192911148071289
+Epoch: 10, Steps: 1 | Train Loss: 0.827 Vali Loss: 1.106 Vali Acc: 0.400 Test Loss: 1.106 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.6587705612182617
+Epoch: 11, Steps: 1 | Train Loss: 0.763 Vali Loss: 1.112 Vali Acc: 0.333 Test Loss: 1.112 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.7012124061584473
+Epoch: 12, Steps: 1 | Train Loss: 0.701 Vali Loss: 1.120 Vali Acc: 0.333 Test Loss: 1.120 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma192_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         160                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma160_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 3.0721046924591064
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.6684699058532715
+Epoch: 2, Steps: 1 | Train Loss: 1.110 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.7367620468139648
+Epoch: 3, Steps: 1 | Train Loss: 1.096 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.668614387512207
+Epoch: 4, Steps: 1 | Train Loss: 1.082 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.644301176071167
+Epoch: 5, Steps: 1 | Train Loss: 1.069 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.7053630352020264
+Epoch: 6, Steps: 1 | Train Loss: 1.056 Vali Loss: 1.094 Vali Acc: 0.400 Test Loss: 1.094 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.8466475009918213
+Epoch: 7, Steps: 1 | Train Loss: 1.010 Vali Loss: 1.095 Vali Acc: 0.400 Test Loss: 1.095 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.6952366828918457
+Epoch: 8, Steps: 1 | Train Loss: 0.954 Vali Loss: 1.097 Vali Acc: 0.400 Test Loss: 1.097 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.8251967430114746
+Epoch: 9, Steps: 1 | Train Loss: 0.893 Vali Loss: 1.099 Vali Acc: 0.267 Test Loss: 1.099 Test Acc: 0.267
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.7560622692108154
+Epoch: 10, Steps: 1 | Train Loss: 0.830 Vali Loss: 1.104 Vali Acc: 0.333 Test Loss: 1.104 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.9004833698272705
+Epoch: 11, Steps: 1 | Train Loss: 0.766 Vali Loss: 1.109 Vali Acc: 0.267 Test Loss: 1.109 Test Acc: 0.267
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.6568429470062256
+Epoch: 12, Steps: 1 | Train Loss: 0.704 Vali Loss: 1.116 Vali Acc: 0.267 Test Loss: 1.116 Test Acc: 0.267
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma160_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         128                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma128_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.776775598526001
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.876945972442627
+Epoch: 2, Steps: 1 | Train Loss: 1.110 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.6874327659606934
+Epoch: 3, Steps: 1 | Train Loss: 1.097 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.5929720401763916
+Epoch: 4, Steps: 1 | Train Loss: 1.083 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 1.1646835803985596
+Epoch: 5, Steps: 1 | Train Loss: 1.071 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.7346687316894531
+Epoch: 6, Steps: 1 | Train Loss: 1.058 Vali Loss: 1.095 Vali Acc: 0.400 Test Loss: 1.095 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.0210022926330566
+Epoch: 7, Steps: 1 | Train Loss: 1.012 Vali Loss: 1.097 Vali Acc: 0.400 Test Loss: 1.097 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.8009448051452637
+Epoch: 8, Steps: 1 | Train Loss: 0.956 Vali Loss: 1.099 Vali Acc: 0.400 Test Loss: 1.099 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.8472716808319092
+Epoch: 9, Steps: 1 | Train Loss: 0.895 Vali Loss: 1.103 Vali Acc: 0.400 Test Loss: 1.103 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.8281204700469971
+Epoch: 10, Steps: 1 | Train Loss: 0.832 Vali Loss: 1.107 Vali Acc: 0.333 Test Loss: 1.107 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.9280438423156738
+Epoch: 11, Steps: 1 | Train Loss: 0.768 Vali Loss: 1.113 Vali Acc: 0.333 Test Loss: 1.113 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.8585388660430908
+Epoch: 12, Steps: 1 | Train Loss: 0.706 Vali Loss: 1.121 Vali Acc: 0.267 Test Loss: 1.121 Test Acc: 0.267
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma128_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         96                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma96_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.6996474266052246
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.6580886840820312
+Epoch: 2, Steps: 1 | Train Loss: 1.110 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.6657121181488037
+Epoch: 3, Steps: 1 | Train Loss: 1.096 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.8619418144226074
+Epoch: 4, Steps: 1 | Train Loss: 1.083 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.7172315120697021
+Epoch: 5, Steps: 1 | Train Loss: 1.070 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9016492366790771
+Epoch: 6, Steps: 1 | Train Loss: 1.057 Vali Loss: 1.094 Vali Acc: 0.400 Test Loss: 1.094 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.9375002384185791
+Epoch: 7, Steps: 1 | Train Loss: 1.011 Vali Loss: 1.095 Vali Acc: 0.400 Test Loss: 1.095 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.6938509941101074
+Epoch: 8, Steps: 1 | Train Loss: 0.956 Vali Loss: 1.097 Vali Acc: 0.467 Test Loss: 1.097 Test Acc: 0.467
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.8910305500030518
+Epoch: 9, Steps: 1 | Train Loss: 0.895 Vali Loss: 1.100 Vali Acc: 0.533 Test Loss: 1.100 Test Acc: 0.533
+Validation loss decreased (-0.466656 --> -0.533322).  Saving model ...
+Epoch: 10 cost time: 0.6585907936096191
+Epoch: 10, Steps: 1 | Train Loss: 0.832 Vali Loss: 1.104 Vali Acc: 0.400 Test Loss: 1.104 Test Acc: 0.400
+EarlyStopping counter: 1 out of 10
+Epoch: 11 cost time: 0.7585699558258057
+Epoch: 11, Steps: 1 | Train Loss: 0.768 Vali Loss: 1.110 Vali Acc: 0.400 Test Loss: 1.110 Test Acc: 0.400
+EarlyStopping counter: 2 out of 10
+Epoch: 12 cost time: 0.9519667625427246
+Epoch: 12, Steps: 1 | Train Loss: 0.707 Vali Loss: 1.117 Vali Acc: 0.333 Test Loss: 1.117 Test Acc: 0.333
+EarlyStopping counter: 3 out of 10
+Epoch: 13 cost time: 0.6672136783599854
+Epoch: 13, Steps: 1 | Train Loss: 0.648 Vali Loss: 1.125 Vali Acc: 0.333 Test Loss: 1.125 Test Acc: 0.333
+EarlyStopping counter: 4 out of 10
+Epoch: 14 cost time: 0.6736114025115967
+Epoch: 14, Steps: 1 | Train Loss: 0.592 Vali Loss: 1.135 Vali Acc: 0.333 Test Loss: 1.135 Test Acc: 0.333
+EarlyStopping counter: 5 out of 10
+Epoch: 15 cost time: 0.8469722270965576
+Epoch: 15, Steps: 1 | Train Loss: 0.539 Vali Loss: 1.146 Vali Acc: 0.333 Test Loss: 1.146 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 16 cost time: 0.8295402526855469
+Epoch: 16, Steps: 1 | Train Loss: 0.490 Vali Loss: 1.158 Vali Acc: 0.333 Test Loss: 1.158 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 17 cost time: 0.7614636421203613
+Epoch: 17, Steps: 1 | Train Loss: 0.444 Vali Loss: 1.170 Vali Acc: 0.333 Test Loss: 1.170 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 18 cost time: 0.7995290756225586
+Epoch: 18, Steps: 1 | Train Loss: 0.401 Vali Loss: 1.184 Vali Acc: 0.333 Test Loss: 1.184 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 19 cost time: 0.8082423210144043
+Epoch: 19, Steps: 1 | Train Loss: 0.362 Vali Loss: 1.198 Vali Acc: 0.333 Test Loss: 1.198 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma96_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.5333333333333333
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         64                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma64_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.5045392513275146
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.5392956733703613
+Epoch: 2, Steps: 1 | Train Loss: 1.110 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.8227646350860596
+Epoch: 3, Steps: 1 | Train Loss: 1.096 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.6704649925231934
+Epoch: 4, Steps: 1 | Train Loss: 1.083 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.7100415229797363
+Epoch: 5, Steps: 1 | Train Loss: 1.070 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.6794121265411377
+Epoch: 6, Steps: 1 | Train Loss: 1.057 Vali Loss: 1.097 Vali Acc: 0.400 Test Loss: 1.097 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.7625904083251953
+Epoch: 7, Steps: 1 | Train Loss: 1.010 Vali Loss: 1.101 Vali Acc: 0.467 Test Loss: 1.101 Test Acc: 0.467
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.724041223526001
+Epoch: 8, Steps: 1 | Train Loss: 0.955 Vali Loss: 1.105 Vali Acc: 0.467 Test Loss: 1.105 Test Acc: 0.467
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.639033317565918
+Epoch: 9, Steps: 1 | Train Loss: 0.894 Vali Loss: 1.111 Vali Acc: 0.400 Test Loss: 1.111 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.701923131942749
+Epoch: 10, Steps: 1 | Train Loss: 0.830 Vali Loss: 1.118 Vali Acc: 0.333 Test Loss: 1.118 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.7366464138031006
+Epoch: 11, Steps: 1 | Train Loss: 0.767 Vali Loss: 1.127 Vali Acc: 0.400 Test Loss: 1.127 Test Acc: 0.400
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.7600803375244141
+Epoch: 12, Steps: 1 | Train Loss: 0.705 Vali Loss: 1.138 Vali Acc: 0.333 Test Loss: 1.138 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma64_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         32                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma32_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 3.6269519329071045
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.7933380603790283
+Epoch: 2, Steps: 1 | Train Loss: 1.111 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.7440991401672363
+Epoch: 3, Steps: 1 | Train Loss: 1.098 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.8181805610656738
+Epoch: 4, Steps: 1 | Train Loss: 1.086 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.9932222366333008
+Epoch: 5, Steps: 1 | Train Loss: 1.073 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.9844012260437012
+Epoch: 6, Steps: 1 | Train Loss: 1.061 Vali Loss: 1.097 Vali Acc: 0.400 Test Loss: 1.097 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.9147024154663086
+Epoch: 7, Steps: 1 | Train Loss: 1.014 Vali Loss: 1.099 Vali Acc: 0.400 Test Loss: 1.099 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.0561096668243408
+Epoch: 8, Steps: 1 | Train Loss: 0.958 Vali Loss: 1.102 Vali Acc: 0.400 Test Loss: 1.102 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.0303280353546143
+Epoch: 9, Steps: 1 | Train Loss: 0.896 Vali Loss: 1.106 Vali Acc: 0.400 Test Loss: 1.106 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 1.0866379737854004
+Epoch: 10, Steps: 1 | Train Loss: 0.832 Vali Loss: 1.111 Vali Acc: 0.400 Test Loss: 1.111 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.184767723083496
+Epoch: 11, Steps: 1 | Train Loss: 0.767 Vali Loss: 1.117 Vali Acc: 0.400 Test Loss: 1.117 Test Acc: 0.400
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 1.208613395690918
+Epoch: 12, Steps: 1 | Train Loss: 0.703 Vali Loss: 1.124 Vali Acc: 0.400 Test Loss: 1.124 Test Acc: 0.400
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma32_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         26                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma26_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 3.40567684173584
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.9160895347595215
+Epoch: 2, Steps: 1 | Train Loss: 1.111 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.8105404376983643
+Epoch: 3, Steps: 1 | Train Loss: 1.098 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.9740917682647705
+Epoch: 4, Steps: 1 | Train Loss: 1.086 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.7887132167816162
+Epoch: 5, Steps: 1 | Train Loss: 1.073 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.8137140274047852
+Epoch: 6, Steps: 1 | Train Loss: 1.061 Vali Loss: 1.097 Vali Acc: 0.400 Test Loss: 1.097 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 1.0034947395324707
+Epoch: 7, Steps: 1 | Train Loss: 1.014 Vali Loss: 1.100 Vali Acc: 0.400 Test Loss: 1.100 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.7983787059783936
+Epoch: 8, Steps: 1 | Train Loss: 0.957 Vali Loss: 1.103 Vali Acc: 0.400 Test Loss: 1.103 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.8913278579711914
+Epoch: 9, Steps: 1 | Train Loss: 0.894 Vali Loss: 1.108 Vali Acc: 0.400 Test Loss: 1.108 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.8509650230407715
+Epoch: 10, Steps: 1 | Train Loss: 0.829 Vali Loss: 1.113 Vali Acc: 0.333 Test Loss: 1.113 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.94148850440979
+Epoch: 11, Steps: 1 | Train Loss: 0.764 Vali Loss: 1.120 Vali Acc: 0.400 Test Loss: 1.120 Test Acc: 0.400
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.9285552501678467
+Epoch: 12, Steps: 1 | Train Loss: 0.700 Vali Loss: 1.128 Vali Acc: 0.400 Test Loss: 1.128 Test Acc: 0.400
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma26_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         20                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma20_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.364119529724121
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.6367309093475342
+Epoch: 2, Steps: 1 | Train Loss: 1.111 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.6861155033111572
+Epoch: 3, Steps: 1 | Train Loss: 1.098 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.8168246746063232
+Epoch: 4, Steps: 1 | Train Loss: 1.086 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.9174048900604248
+Epoch: 5, Steps: 1 | Train Loss: 1.074 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.6489212512969971
+Epoch: 6, Steps: 1 | Train Loss: 1.062 Vali Loss: 1.097 Vali Acc: 0.400 Test Loss: 1.097 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.8658812046051025
+Epoch: 7, Steps: 1 | Train Loss: 1.013 Vali Loss: 1.099 Vali Acc: 0.400 Test Loss: 1.099 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.5782806873321533
+Epoch: 8, Steps: 1 | Train Loss: 0.955 Vali Loss: 1.103 Vali Acc: 0.400 Test Loss: 1.103 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.7121217250823975
+Epoch: 9, Steps: 1 | Train Loss: 0.892 Vali Loss: 1.107 Vali Acc: 0.400 Test Loss: 1.107 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.6853153705596924
+Epoch: 10, Steps: 1 | Train Loss: 0.827 Vali Loss: 1.113 Vali Acc: 0.333 Test Loss: 1.113 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.6499602794647217
+Epoch: 11, Steps: 1 | Train Loss: 0.762 Vali Loss: 1.119 Vali Acc: 0.400 Test Loss: 1.119 Test Acc: 0.400
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.7456161975860596
+Epoch: 12, Steps: 1 | Train Loss: 0.698 Vali Loss: 1.127 Vali Acc: 0.467 Test Loss: 1.127 Test Acc: 0.467
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma20_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         13                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma13_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 3.026553153991699
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.7829039096832275
+Epoch: 2, Steps: 1 | Train Loss: 1.111 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.6521389484405518
+Epoch: 3, Steps: 1 | Train Loss: 1.099 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.7667133808135986
+Epoch: 4, Steps: 1 | Train Loss: 1.087 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.7534894943237305
+Epoch: 5, Steps: 1 | Train Loss: 1.075 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.6122052669525146
+Epoch: 6, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.095 Vali Acc: 0.400 Test Loss: 1.095 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.7954819202423096
+Epoch: 7, Steps: 1 | Train Loss: 1.015 Vali Loss: 1.095 Vali Acc: 0.400 Test Loss: 1.095 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 1.00089693069458
+Epoch: 8, Steps: 1 | Train Loss: 0.957 Vali Loss: 1.096 Vali Acc: 0.400 Test Loss: 1.096 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.8227884769439697
+Epoch: 9, Steps: 1 | Train Loss: 0.893 Vali Loss: 1.098 Vali Acc: 0.400 Test Loss: 1.098 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.9865105152130127
+Epoch: 10, Steps: 1 | Train Loss: 0.828 Vali Loss: 1.101 Vali Acc: 0.400 Test Loss: 1.101 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 1.1141269207000732
+Epoch: 11, Steps: 1 | Train Loss: 0.764 Vali Loss: 1.105 Vali Acc: 0.467 Test Loss: 1.105 Test Acc: 0.467
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.8431947231292725
+Epoch: 12, Steps: 1 | Train Loss: 0.701 Vali Loss: 1.109 Vali Acc: 0.400 Test Loss: 1.109 Test Acc: 0.400
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma13_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         7                   Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma7_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.403564214706421
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.8472111225128174
+Epoch: 2, Steps: 1 | Train Loss: 1.112 Vali Loss: 1.093 Vali Acc: 0.467 Test Loss: 1.093 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.7252929210662842
+Epoch: 3, Steps: 1 | Train Loss: 1.101 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.7932319641113281
+Epoch: 4, Steps: 1 | Train Loss: 1.090 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.7294838428497314
+Epoch: 5, Steps: 1 | Train Loss: 1.079 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.7473247051239014
+Epoch: 6, Steps: 1 | Train Loss: 1.068 Vali Loss: 1.095 Vali Acc: 0.400 Test Loss: 1.095 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.7809112071990967
+Epoch: 7, Steps: 1 | Train Loss: 1.022 Vali Loss: 1.096 Vali Acc: 0.400 Test Loss: 1.096 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.5737297534942627
+Epoch: 8, Steps: 1 | Train Loss: 0.966 Vali Loss: 1.096 Vali Acc: 0.400 Test Loss: 1.096 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 0.7770276069641113
+Epoch: 9, Steps: 1 | Train Loss: 0.905 Vali Loss: 1.098 Vali Acc: 0.400 Test Loss: 1.098 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.7884864807128906
+Epoch: 10, Steps: 1 | Train Loss: 0.843 Vali Loss: 1.100 Vali Acc: 0.400 Test Loss: 1.100 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.7496142387390137
+Epoch: 11, Steps: 1 | Train Loss: 0.780 Vali Loss: 1.103 Vali Acc: 0.400 Test Loss: 1.103 Test Acc: 0.400
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.7509686946868896
+Epoch: 12, Steps: 1 | Train Loss: 0.718 Vali Loss: 1.106 Vali Acc: 0.400 Test Loss: 1.106 Test Acc: 0.400
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma7_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_AtrialFibrillationModel:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             2                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         4                   Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+15
+15
+>>>>>>>start training : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma4_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+15
+15
+15
+Epoch: 1 cost time: 2.8442890644073486
+Epoch: 1, Steps: 1 | Train Loss: 1.124 Vali Loss: 1.093 Vali Acc: 0.400 Test Loss: 1.093 Test Acc: 0.400
+Validation loss decreased (inf --> -0.399989).  Saving model ...
+Epoch: 2 cost time: 0.6954054832458496
+Epoch: 2, Steps: 1 | Train Loss: 1.112 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+Validation loss decreased (-0.399989 --> -0.466656).  Saving model ...
+Epoch: 3 cost time: 0.6842877864837646
+Epoch: 3, Steps: 1 | Train Loss: 1.100 Vali Loss: 1.094 Vali Acc: 0.467 Test Loss: 1.094 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 4 cost time: 0.6742463111877441
+Epoch: 4, Steps: 1 | Train Loss: 1.089 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 5 cost time: 0.844588041305542
+Epoch: 5, Steps: 1 | Train Loss: 1.078 Vali Loss: 1.095 Vali Acc: 0.467 Test Loss: 1.095 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 6 cost time: 0.6892852783203125
+Epoch: 6, Steps: 1 | Train Loss: 1.066 Vali Loss: 1.096 Vali Acc: 0.400 Test Loss: 1.096 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 7 cost time: 0.715545654296875
+Epoch: 7, Steps: 1 | Train Loss: 1.022 Vali Loss: 1.097 Vali Acc: 0.400 Test Loss: 1.097 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 8 cost time: 0.692922830581665
+Epoch: 8, Steps: 1 | Train Loss: 0.969 Vali Loss: 1.098 Vali Acc: 0.400 Test Loss: 1.098 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 9 cost time: 1.1693005561828613
+Epoch: 9, Steps: 1 | Train Loss: 0.911 Vali Loss: 1.100 Vali Acc: 0.400 Test Loss: 1.100 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 10 cost time: 0.7555074691772461
+Epoch: 10, Steps: 1 | Train Loss: 0.850 Vali Loss: 1.103 Vali Acc: 0.400 Test Loss: 1.103 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 11 cost time: 0.71824049949646
+Epoch: 11, Steps: 1 | Train Loss: 0.789 Vali Loss: 1.107 Vali Acc: 0.400 Test Loss: 1.107 Test Acc: 0.400
+EarlyStopping counter: 9 out of 10
+Epoch: 12 cost time: 0.6904232501983643
+Epoch: 12, Steps: 1 | Train Loss: 0.729 Vali Loss: 1.111 Vali Acc: 0.333 Test Loss: 1.111 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_AtrialFibrillation_DLinear_UEA_ftM_sl640_ll0_pl0_ma4_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 824323
+model size : 3.15MB

@@ -1,0 +1,1008 @@
+Epilepsy_dim256_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_46_36  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.7975021600723267, 'val': 0.8551440834999084}
+
+Epilepsy_dim256_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_49_57  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8783231973648071, 'val': 1.0}
+
+Epilepsy_dim256_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_52_52  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9637681245803833, 'val': 1.0}, mf1:{'test': 0.8047409057617188, 'val': 1.0}
+
+Epilepsy_dim256_depth3_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_55_29  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9710144996643066, 'val': 0.9629629850387573}, mf1:{'test': 0.8582930564880371, 'val': 0.9716365933418274}
+
+Epilepsy_dim256_depth3_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_58_14  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9347826242446899, 'val': 0.9629629850387573}, mf1:{'test': 0.7828090786933899, 'val': 0.942536473274231}
+
+Epilepsy_dim256_depth3_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_00_50  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9347826242446899, 'val': 1.0}, mf1:{'test': 0.7213159799575806, 'val': 1.0}
+
+Epilepsy_dim256_depth3_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_04_29  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9130434989929199, 'val': 0.9629629850387573}, mf1:{'test': 0.7364531755447388, 'val': 0.9696106314659119}
+
+Epilepsy_dim256_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_07_34  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9637681245803833, 'val': 1.0}, mf1:{'test': 0.8164874911308289, 'val': 1.0}
+
+Epilepsy_dim256_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_09_56  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9710144996643066, 'val': 0.9629629850387573}, mf1:{'test': 0.8184821605682373, 'val': 0.8537512421607971}
+
+Epilepsy_dim256_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_12_01  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9710144996643066, 'val': 0.9629629850387573}, mf1:{'test': 0.8184821605682373, 'val': 0.9731858372688293}
+
+Epilepsy_dim256_depth3_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_13_59  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.95652174949646, 'val': 0.9259259104728699}, mf1:{'test': 0.754283607006073, 'val': 0.9470899105072021}
+
+Epilepsy_dim256_depth3_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_16_03  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9130434989929199, 'val': 0.9259259104728699}, mf1:{'test': 0.7322291135787964, 'val': 0.800443172454834}
+
+Epilepsy_dim256_depth3_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_18_41  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9420289993286133, 'val': 0.9259259104728699}, mf1:{'test': 0.7920405268669128, 'val': 0.7975308299064636}
+
+Epilepsy_dim256_depth3_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_21_01  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8985507488250732, 'val': 0.8888888955116272}, mf1:{'test': 0.7259253859519958, 'val': 0.8761000633239746}
+
+Epilepsy_dim256_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_22_38  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim256_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_24_15  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim256_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_25_42  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9637681245803833, 'val': 1.0}, mf1:{'test': 0.7984520196914673, 'val': 1.0}
+
+Epilepsy_dim256_depth3_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_27_14  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9855072498321533, 'val': 0.9629629850387573}, mf1:{'test': 0.8803179264068604, 'val': 0.8537512421607971}
+
+Epilepsy_dim256_depth3_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_28_48  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9420289993286133, 'val': 0.9629629850387573}, mf1:{'test': 0.7929035425186157, 'val': 0.9716365933418274}
+
+Epilepsy_dim256_depth3_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_30_25  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9275362491607666, 'val': 0.8888888955116272}, mf1:{'test': 0.7197928428649902, 'val': 0.8076131343841553}
+
+Epilepsy_dim256_depth3_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_31_48  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8985507488250732, 'val': 1.0}, mf1:{'test': 0.7178531885147095, 'val': 1.0}
+
+Epilepsy_dim128_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_33_03  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9637681245803833, 'val': 1.0}, mf1:{'test': 0.8163498640060425, 'val': 1.0}
+
+Epilepsy_dim128_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_35_29  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.797030508518219, 'val': 0.8404557704925537}
+
+Epilepsy_dim128_depth3_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_36_48  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9420289993286133, 'val': 0.9259259104728699}, mf1:{'test': 0.7938715815544128, 'val': 0.7777777910232544}
+
+Epilepsy_dim128_depth3_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_38_02  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9347826242446899, 'val': 0.8888888955116272}, mf1:{'test': 0.7906190156936646, 'val': 0.9008818864822388}
+
+Epilepsy_dim128_depth3_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_39_27  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9057971239089966, 'val': 0.8888888955116272}, mf1:{'test': 0.7631807327270508, 'val': 0.7940035462379456}
+
+Epilepsy_dim128_depth3_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_40_36  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8623188138008118, 'val': 0.8888888955116272}, mf1:{'test': 0.614842414855957, 'val': 0.7645122408866882}
+
+Epilepsy_dim128_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_41_48  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9927536249160767, 'val': 0.9629629850387573}, mf1:{'test': 0.940159022808075, 'val': 0.8383838534355164}
+
+Epilepsy_dim128_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_43_08  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9927536249160767, 'val': 1.0}, mf1:{'test': 0.940159022808075, 'val': 1.0}
+
+Epilepsy_dim128_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_44_22  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.95652174949646, 'val': 1.0}, mf1:{'test': 0.797030508518219, 'val': 1.0}
+
+Epilepsy_dim128_depth3_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_45_37  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9492753744125366, 'val': 0.9629629850387573}, mf1:{'test': 0.7950358390808105, 'val': 0.9573192000389099}
+
+Epilepsy_dim128_depth3_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_46_47  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8840579986572266, 'val': 1.0}, mf1:{'test': 0.6472366452217102, 'val': 1.0}
+
+Epilepsy_dim128_depth3_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_48_00  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8840579986572266, 'val': 0.9259259104728699}, mf1:{'test': 0.6512775421142578, 'val': 0.8240180015563965}
+
+Epilepsy_dim128_depth3_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_49_09  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8550724387168884, 'val': 0.9259259104728699}, mf1:{'test': 0.5979008078575134, 'val': 0.8253968358039856}
+
+Epilepsy_dim128_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_50_20  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim128_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_51_23  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9420289993286133, 'val': 0.9259259104728699}, mf1:{'test': 0.780293881893158, 'val': 0.8250377178192139}
+
+Epilepsy_dim128_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_52_27  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9492753744125366, 'val': 0.9259259104728699}, mf1:{'test': 0.7449275851249695, 'val': 0.9093682169914246}
+
+Epilepsy_dim128_depth3_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_53_31  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9202898740768433, 'val': 0.9629629850387573}, mf1:{'test': 0.7702876925468445, 'val': 0.8551440834999084}
+
+Epilepsy_dim128_depth3_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_54_40  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9347826242446899, 'val': 0.9629629850387573}, mf1:{'test': 0.7913805246353149, 'val': 0.9704232215881348}
+
+Epilepsy_dim128_depth3_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_55_54  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9202898740768433, 'val': 0.9629629850387573}, mf1:{'test': 0.7696390151977539, 'val': 0.8404557704925537}
+
+Epilepsy_dim128_depth3_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_56_54  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8623188138008118, 'val': 0.9629629850387573}, mf1:{'test': 0.6781871914863586, 'val': 0.8537512421607971}
+
+Epilepsy_dim64_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_57_56  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim64_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_59_02  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim64_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_00_21  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9347826242446899, 'val': 0.9629629850387573}, mf1:{'test': 0.7413737773895264, 'val': 0.9716365933418274}
+
+Epilepsy_dim64_depth3_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_01_34  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9130434989929199, 'val': 0.8888888955116272}, mf1:{'test': 0.7360825538635254, 'val': 0.7964997887611389}
+
+Epilepsy_dim64_depth3_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_02_38  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8768116235733032, 'val': 0.9259259104728699}, mf1:{'test': 0.7029880285263062, 'val': 0.7727129459381104}
+
+Epilepsy_dim64_depth3_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_03_40  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8985507488250732, 'val': 0.9629629850387573}, mf1:{'test': 0.7360628247261047, 'val': 0.9538239240646362}
+
+Epilepsy_dim64_depth3_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_04_52  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8985507488250732, 'val': 0.8888888955116272}, mf1:{'test': 0.6904017329216003, 'val': 0.9112696051597595}
+
+Epilepsy_dim64_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_06_06  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8761909604072571, 'val': 1.0}
+
+Epilepsy_dim64_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_07_13  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9492753744125366, 'val': 0.9629629850387573}, mf1:{'test': 0.7862359285354614, 'val': 0.9664326906204224}
+
+Epilepsy_dim64_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_08_15  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9420289993286133, 'val': 1.0}, mf1:{'test': 0.752519428730011, 'val': 1.0}
+
+Epilepsy_dim64_depth3_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_09_21  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9275362491607666, 'val': 1.0}, mf1:{'test': 0.7349939346313477, 'val': 1.0}
+
+Epilepsy_dim64_depth3_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_10_26  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8985507488250732, 'val': 0.8148148059844971}, mf1:{'test': 0.6904017329216003, 'val': 0.6842038631439209}
+
+Epilepsy_dim64_depth3_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_11_36  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9057971239089966, 'val': 1.0}, mf1:{'test': 0.7201850414276123, 'val': 1.0}
+
+Epilepsy_dim64_depth3_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_12_45  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8840579986572266, 'val': 0.8518518805503845}, mf1:{'test': 0.6949895620346069, 'val': 0.7422199845314026}
+
+Epilepsy_dim64_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_13_55  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim64_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_14_57  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9710144996643066, 'val': 0.9259259104728699}, mf1:{'test': 0.8184821605682373, 'val': 0.8998557329177856}
+
+Epilepsy_dim64_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_16_08  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9420289993286133, 'val': 0.9259259104728699}, mf1:{'test': 0.7920405268669128, 'val': 0.9170804619789124}
+
+Epilepsy_dim64_depth3_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_17_20  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9202898740768433, 'val': 0.9259259104728699}, mf1:{'test': 0.7529630064964294, 'val': 0.9191064238548279}
+
+Epilepsy_dim64_depth3_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_18_30  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8188405632972717, 'val': 0.9629629850387573}, mf1:{'test': 0.5299838185310364, 'val': 0.9716365933418274}
+
+Epilepsy_dim64_depth3_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_19_29  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8550724387168884, 'val': 0.8888888955116272}, mf1:{'test': 0.6877866983413696, 'val': 0.7717737555503845}
+
+Epilepsy_dim64_depth3_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_20_37  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.804347813129425, 'val': 0.7037037014961243}, mf1:{'test': 0.5647051930427551, 'val': 0.5099415183067322}
+
+Epilepsy_dim32_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_21_44  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.97826087474823, 'val': 0.9629629850387573}, mf1:{'test': 0.8204768896102905, 'val': 0.9573192000389099}
+
+Epilepsy_dim32_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_22_51  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9420289993286133, 'val': 1.0}, mf1:{'test': 0.7760505080223083, 'val': 1.0}
+
+Epilepsy_dim32_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_23_59  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9275362491607666, 'val': 0.9629629850387573}, mf1:{'test': 0.7720798254013062, 'val': 0.9498333930969238}
+
+Epilepsy_dim32_depth3_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_25_05  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9275362491607666, 'val': 1.0}, mf1:{'test': 0.7719235420227051, 'val': 1.0}
+
+Epilepsy_dim32_depth3_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_26_12  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8985507488250732, 'val': 0.9629629850387573}, mf1:{'test': 0.6898669004440308, 'val': 0.9716365933418274}
+
+Epilepsy_dim32_depth3_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_27_24  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9130434989929199, 'val': 0.8518518805503845}, mf1:{'test': 0.6762908697128296, 'val': 0.7363904118537903}
+
+Epilepsy_dim32_depth3_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_28_32  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8333333134651184, 'val': 0.7777777910232544}, mf1:{'test': 0.5877006649971008, 'val': 0.6966490745544434}
+
+Epilepsy_dim32_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_29_41  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim32_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_30_44  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9492753744125366, 'val': 1.0}, mf1:{'test': 0.7950358390808105, 'val': 1.0}
+
+Epilepsy_dim32_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_32_01  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9130434989929199, 'val': 0.9259259104728699}, mf1:{'test': 0.7271226048469543, 'val': 0.8189300298690796}
+
+Epilepsy_dim32_depth3_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_33_12  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9202898740768433, 'val': 1.0}, mf1:{'test': 0.763383150100708, 'val': 1.0}
+
+Epilepsy_dim32_depth3_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_34_20  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8840579986572266, 'val': 1.0}, mf1:{'test': 0.63218092918396, 'val': 1.0}
+
+Epilepsy_dim32_depth3_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_35_36  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8768116235733032, 'val': 0.8888888955116272}, mf1:{'test': 0.7101213932037354, 'val': 0.7989417910575867}
+
+Epilepsy_dim32_depth3_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_36_43  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8623188138008118, 'val': 0.9259259104728699}, mf1:{'test': 0.5859616994857788, 'val': 0.9170804619789124}
+
+Epilepsy_dim32_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_37_46  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.97826087474823, 'val': 0.9629629850387573}, mf1:{'test': 0.8204768896102905, 'val': 0.9616967439651489}
+
+Epilepsy_dim32_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_38_53  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9492753744125366, 'val': 1.0}, mf1:{'test': 0.7589649558067322, 'val': 1.0}
+
+Epilepsy_dim32_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_39_54  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9347826242446899, 'val': 0.9629629850387573}, mf1:{'test': 0.7907712459564209, 'val': 0.9573192000389099}
+
+Epilepsy_dim32_depth3_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_41_05  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8405796885490417, 'val': 0.9259259104728699}, mf1:{'test': 0.6002607345581055, 'val': 0.8306878209114075}
+
+Epilepsy_dim32_depth3_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_42_06  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8840579986572266, 'val': 0.9629629850387573}, mf1:{'test': 0.6488656401634216, 'val': 0.9731858372688293}
+
+Epilepsy_dim32_depth3_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_43_08  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8550724387168884, 'val': 0.9259259104728699}, mf1:{'test': 0.5834477543830872, 'val': 0.8255673050880432}
+
+Epilepsy_dim32_depth3_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_44_16  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.8188405632972717, 'val': 0.8148148059844971}, mf1:{'test': 0.5891490578651428, 'val': 0.6265726685523987}
+
+Epilepsy_dim256_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_45_21  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim256_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_46_55  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9855072498321533, 'val': 0.9629629850387573}, mf1:{'test': 0.8803179264068604, 'val': 0.9688739776611328}
+
+Epilepsy_dim256_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_48_27  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.7964572906494141, 'val': 0.9538239240646362}
+
+Epilepsy_dim256_depth2_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_49_48  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.95652174949646, 'val': 0.9259259104728699}, mf1:{'test': 0.7678966522216797, 'val': 0.8253878355026245}
+
+Epilepsy_dim256_depth2_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_51_13  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9347826242446899, 'val': 0.9629629850387573}, mf1:{'test': 0.7335638403892517, 'val': 0.9688739776611328}
+
+Epilepsy_dim256_depth2_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_52_24  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9130434989929199, 'val': 1.0}, mf1:{'test': 0.7108274698257446, 'val': 1.0}
+
+Epilepsy_dim256_depth2_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_53_45  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9275362491607666, 'val': 0.8888888955116272}, mf1:{'test': 0.7776392102241516, 'val': 0.8136711716651917}
+
+Epilepsy_dim256_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_55_08  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9855072498321533, 'val': 0.9629629850387573}, mf1:{'test': 0.8803179264068604, 'val': 0.9716365933418274}
+
+Epilepsy_dim256_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_56_15  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim256_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_57_22  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8783231973648071, 'val': 1.0}
+
+Epilepsy_dim256_depth2_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_58_38  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.797030508518219, 'val': 0.9573192000389099}
+
+Epilepsy_dim256_depth2_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_59_45  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9347826242446899, 'val': 0.9259259104728699}, mf1:{'test': 0.7419829964637756, 'val': 0.9388595223426819}
+
+Epilepsy_dim256_depth2_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_00_57  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.95652174949646, 'val': 0.8888888955116272}, mf1:{'test': 0.7847107648849487, 'val': 0.9040835499763489}
+
+Epilepsy_dim256_depth2_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_02_12  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9275362491607666, 'val': 0.9629629850387573}, mf1:{'test': 0.7398506999015808, 'val': 0.9716365933418274}
+
+Epilepsy_dim256_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_03_36  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9637681245803833, 'val': 1.0}, mf1:{'test': 0.8164874911308289, 'val': 1.0}
+
+Epilepsy_dim256_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_04_38  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.858866274356842, 'val': 1.0}
+
+Epilepsy_dim256_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_05_49  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.97826087474823, 'val': 0.9629629850387573}, mf1:{'test': 0.8602877855300903, 'val': 0.9616967439651489}
+
+Epilepsy_dim256_depth2_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_07_01  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9637681245803833, 'val': 0.9259259104728699}, mf1:{'test': 0.7990252375602722, 'val': 0.8157644867897034}
+
+Epilepsy_dim256_depth2_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_08_08  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9057971239089966, 'val': 0.9259259104728699}, mf1:{'test': 0.7172348499298096, 'val': 0.9144032597541809}
+
+Epilepsy_dim256_depth2_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_10_02  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8985507488250732, 'val': 1.0}, mf1:{'test': 0.7525001168251038, 'val': 1.0}
+
+Epilepsy_dim256_depth2_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_11_34  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8768116235733032, 'val': 0.9259259104728699}, mf1:{'test': 0.6808642148971558, 'val': 0.7976804375648499}
+
+Epilepsy_dim128_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_12_57  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_14_32  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_15_55  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8004466891288757, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_17_22  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9057971239089966, 'val': 1.0}, mf1:{'test': 0.7331493496894836, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_18_53  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8840579986572266, 'val': 0.9629629850387573}, mf1:{'test': 0.6637997627258301, 'val': 0.9629629850387573}
+
+Epilepsy_dim128_depth2_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_20_09  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8768116235733032, 'val': 0.8888888955116272}, mf1:{'test': 0.6221479177474976, 'val': 0.8271605372428894}
+
+Epilepsy_dim128_depth2_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_21_39  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8623188138008118, 'val': 0.8888888955116272}, mf1:{'test': 0.6215486526489258, 'val': 0.7432098388671875}
+
+Epilepsy_dim128_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_22_59  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_24_40  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.97826087474823, 'val': 0.9629629850387573}, mf1:{'test': 0.8204768896102905, 'val': 0.9573192000389099}
+
+Epilepsy_dim128_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_26_15  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9492753744125366, 'val': 1.0}, mf1:{'test': 0.794325053691864, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_27_40  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9492753744125366, 'val': 1.0}, mf1:{'test': 0.7950358390808105, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_29_07  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8913043737411499, 'val': 0.9259259104728699}, mf1:{'test': 0.7208897471427917, 'val': 0.9111431241035461}
+
+Epilepsy_dim128_depth2_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_30_20  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8115941882133484, 'val': 0.8888888955116272}, mf1:{'test': 0.5544365644454956, 'val': 0.7766110301017761}
+
+Epilepsy_dim128_depth2_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_31_45  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8695651888847351, 'val': 0.8518518805503845}, mf1:{'test': 0.583993136882782, 'val': 0.824434757232666}
+
+Epilepsy_dim128_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_33_04  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9637681245803833, 'val': 1.0}, mf1:{'test': 0.8163498640060425, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_34_20  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_35_32  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.95652174949646, 'val': 1.0}, mf1:{'test': 0.7964572906494141, 'val': 1.0}
+
+Epilepsy_dim128_depth2_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_36_52  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9347826242446899, 'val': 0.9629629850387573}, mf1:{'test': 0.7665420770645142, 'val': 0.9716365933418274}
+
+Epilepsy_dim128_depth2_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_38_14  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8840579986572266, 'val': 0.9629629850387573}, mf1:{'test': 0.6746987700462341, 'val': 0.8447971940040588}
+
+Epilepsy_dim128_depth2_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_39_27  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8985507488250732, 'val': 0.8518518805503845}, mf1:{'test': 0.6338323950767517, 'val': 0.7850947976112366}
+
+Epilepsy_dim128_depth2_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_40_48  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8550724387168884, 'val': 0.9629629850387573}, mf1:{'test': 0.5729303359985352, 'val': 0.942536473274231}
+
+Epilepsy_dim64_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_42_13  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim64_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_43_32  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.95652174949646, 'val': 1.0}, mf1:{'test': 0.7723190784454346, 'val': 1.0}
+
+Epilepsy_dim64_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_44_59  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9130434989929199, 'val': 0.8888888955116272}, mf1:{'test': 0.6944405436515808, 'val': 0.8566932678222656}
+
+Epilepsy_dim64_depth2_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_46_13  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8985507488250732, 'val': 0.9259259104728699}, mf1:{'test': 0.6983871459960938, 'val': 0.8253968358039856}
+
+Epilepsy_dim64_depth2_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_47_31  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8768116235733032, 'val': 0.8148148059844971}, mf1:{'test': 0.7029880285263062, 'val': 0.6415050029754639}
+
+Epilepsy_dim64_depth2_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_48_55  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8623188138008118, 'val': 0.8888888955116272}, mf1:{'test': 0.6792113780975342, 'val': 0.7986211180686951}
+
+Epilepsy_dim64_depth2_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_50_13  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8913043737411499, 'val': 0.9259259104728699}, mf1:{'test': 0.6965126395225525, 'val': 0.828329861164093}
+
+Epilepsy_dim64_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_51_37  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8761909604072571, 'val': 1.0}
+
+Epilepsy_dim64_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_53_10  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9492753744125366, 'val': 0.9259259104728699}, mf1:{'test': 0.7449275851249695, 'val': 0.9333333373069763}
+
+Epilepsy_dim64_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_54_37  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9202898740768433, 'val': 0.9259259104728699}, mf1:{'test': 0.7382148504257202, 'val': 0.9236648082733154}
+
+Epilepsy_dim64_depth2_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_56_06  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9130434989929199, 'val': 0.9629629850387573}, mf1:{'test': 0.7681159377098083, 'val': 0.8537512421607971}
+
+Epilepsy_dim64_depth2_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_57_15  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8405796885490417, 'val': 0.8888888955116272}, mf1:{'test': 0.5621124505996704, 'val': 0.7763668298721313}
+
+Epilepsy_dim64_depth2_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_59_00  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8115941882133484, 'val': 0.8888888955116272}, mf1:{'test': 0.508665919303894, 'val': 0.86388099193573}
+
+Epilepsy_dim64_depth2_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_00_14  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8550724387168884, 'val': 0.8518518805503845}, mf1:{'test': 0.606442391872406, 'val': 0.7824946045875549}
+
+Epilepsy_dim64_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_01_39  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9637681245803833, 'val': 1.0}, mf1:{'test': 0.8163498640060425, 'val': 1.0}
+
+Epilepsy_dim64_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_02_45  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9420289993286133, 'val': 1.0}, mf1:{'test': 0.7921927571296692, 'val': 1.0}
+
+Epilepsy_dim64_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_03_55  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8985507488250732, 'val': 0.9259259104728699}, mf1:{'test': 0.7252766489982605, 'val': 0.8253968358039856}
+
+Epilepsy_dim64_depth2_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_05_14  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9130434989929199, 'val': 0.9629629850387573}, mf1:{'test': 0.743769109249115, 'val': 0.9716365933418274}
+
+Epilepsy_dim64_depth2_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_06_23  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8478260636329651, 'val': 0.8888888955116272}, mf1:{'test': 0.6139137148857117, 'val': 0.7845702171325684}
+
+Epilepsy_dim64_depth2_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_07_51  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8405796885490417, 'val': 0.8148148059844971}, mf1:{'test': 0.5800937414169312, 'val': 0.7133058905601501}
+
+Epilepsy_dim64_depth2_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_09_18  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.7971014380455017, 'val': 0.8148148059844971}, mf1:{'test': 0.5573194622993469, 'val': 0.7877718806266785}
+
+Epilepsy_dim32_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_10_28  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.95652174949646, 'val': 1.0}, mf1:{'test': 0.7964572906494141, 'val': 1.0}
+
+Epilepsy_dim32_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_11_39  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9420289993286133, 'val': 0.9629629850387573}, mf1:{'test': 0.7929035425186157, 'val': 0.9189617037773132}
+
+Epilepsy_dim32_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_12_58  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9057971239089966, 'val': 0.9629629850387573}, mf1:{'test': 0.7837957143783569, 'val': 0.8404557704925537}
+
+Epilepsy_dim32_depth2_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_13_59  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9057971239089966, 'val': 0.8888888955116272}, mf1:{'test': 0.6417049765586853, 'val': 0.761877715587616}
+
+Epilepsy_dim32_depth2_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_15_21  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8623188138008118, 'val': 0.9259259104728699}, mf1:{'test': 0.5782235264778137, 'val': 0.9069958329200745}
+
+Epilepsy_dim32_depth2_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_16_49  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8478260636329651, 'val': 0.8148148059844971}, mf1:{'test': 0.4946734607219696, 'val': 0.7895586490631104}
+
+Epilepsy_dim32_depth2_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_18_10  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8623188138008118, 'val': 0.8518518805503845}, mf1:{'test': 0.6753906011581421, 'val': 0.6379135251045227}
+
+Epilepsy_dim32_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_19_52  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim32_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_20_56  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9202898740768433, 'val': 0.9629629850387573}, mf1:{'test': 0.8033575415611267, 'val': 0.8551440834999084}
+
+Epilepsy_dim32_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_22_29  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9202898740768433, 'val': 1.0}, mf1:{'test': 0.7377184629440308, 'val': 1.0}
+
+Epilepsy_dim32_depth2_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_23_45  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8985507488250732, 'val': 1.0}, mf1:{'test': 0.6921504139900208, 'val': 1.0}
+
+Epilepsy_dim32_depth2_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_24_56  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8985507488250732, 'val': 0.9629629850387573}, mf1:{'test': 0.7077264189720154, 'val': 0.8537512421607971}
+
+Epilepsy_dim32_depth2_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_26_13  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8768116235733032, 'val': 0.9629629850387573}, mf1:{'test': 0.6264984607696533, 'val': 0.9696106314659119}
+
+Epilepsy_dim32_depth2_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_27_14  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.782608687877655, 'val': 0.7037037014961243}, mf1:{'test': 0.5858394503593445, 'val': 0.5390946865081787}
+
+Epilepsy_dim32_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_28_32  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.9492753744125366, 'val': 1.0}, mf1:{'test': 0.8006138801574707, 'val': 1.0}
+
+Epilepsy_dim32_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_29_59  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8768116235733032, 'val': 0.9259259104728699}, mf1:{'test': 0.7036800980567932, 'val': 0.8415637612342834}
+
+Epilepsy_dim32_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_31_09  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8695651888847351, 'val': 0.8148148059844971}, mf1:{'test': 0.7073372006416321, 'val': 0.7181748151779175}
+
+Epilepsy_dim32_depth2_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_32_38  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8695651888847351, 'val': 0.9259259104728699}, mf1:{'test': 0.6915920376777649, 'val': 0.8247546553611755}
+
+Epilepsy_dim32_depth2_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_33_50  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8768116235733032, 'val': 0.9259259104728699}, mf1:{'test': 0.6279252767562866, 'val': 0.803418755531311}
+
+Epilepsy_dim32_depth2_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_35_00  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8478260636329651, 'val': 0.9629629850387573}, mf1:{'test': 0.5582125186920166, 'val': 0.8404557704925537}
+
+Epilepsy_dim32_depth2_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_36_00  
+TSLANet_Epilepsy_l_2  
+acc:{'test': 0.8260869383811951, 'val': 0.8518518805503845}, mf1:{'test': 0.6654649972915649, 'val': 0.7893062233924866}
+
+Epilepsy_dim256_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_39_27  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim256_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_40_51  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8783231973648071, 'val': 1.0}
+
+Epilepsy_dim256_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_42_51  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim256_depth1_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_44_35  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9420289993286133, 'val': 0.9629629850387573}, mf1:{'test': 0.8095442652702332, 'val': 0.8383838534355164}
+
+Epilepsy_dim256_depth1_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_45_44  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9202898740768433, 'val': 0.9259259104728699}, mf1:{'test': 0.7319781184196472, 'val': 0.9111431241035461}
+
+Epilepsy_dim256_depth1_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_47_34  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9492753744125366, 'val': 0.9259259104728699}, mf1:{'test': 0.7837609052658081, 'val': 0.826474666595459}
+
+Epilepsy_dim256_depth1_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_49_33  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9275362491607666, 'val': 0.9259259104728699}, mf1:{'test': 0.7225260734558105, 'val': 0.9277424216270447}
+
+Epilepsy_dim256_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_52_47  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim256_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_54_06  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9855072498321533, 'val': 1.0}, mf1:{'test': 0.8803179264068604, 'val': 1.0}
+
+Epilepsy_dim256_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_55_21  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9855072498321533, 'val': 0.9629629850387573}, mf1:{'test': 0.8803179264068604, 'val': 0.9716365933418274}
+
+Epilepsy_dim256_depth1_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_57_12  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.97826087474823, 'val': 0.9629629850387573}, mf1:{'test': 0.8602877855300903, 'val': 0.9716365933418274}
+
+Epilepsy_dim256_depth1_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_58_15  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9347826242446899, 'val': 0.9259259104728699}, mf1:{'test': 0.7740558385848999, 'val': 0.82741379737854}
+
+Epilepsy_dim256_depth1_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_59_30  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9347826242446899, 'val': 0.8888888955116272}, mf1:{'test': 0.7791622877120972, 'val': 0.7961380481719971}
+
+Epilepsy_dim256_depth1_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_01_10  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9130434989929199, 'val': 0.8888888955116272}, mf1:{'test': 0.7298458218574524, 'val': 0.9002426862716675}
+
+Epilepsy_dim256_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_04_15  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8184821605682373, 'val': 1.0}
+
+Epilepsy_dim256_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_06_09  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.797030508518219, 'val': 0.9704232215881348}
+
+Epilepsy_dim256_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_07_47  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9492753744125366, 'val': 1.0}, mf1:{'test': 0.7948982119560242, 'val': 1.0}
+
+Epilepsy_dim256_depth1_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_08_55  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.855348527431488, 'val': 0.8551440834999084}
+
+Epilepsy_dim256_depth1_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_10_20  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9202898740768433, 'val': 0.9259259104728699}, mf1:{'test': 0.7382148504257202, 'val': 0.8157644867897034}
+
+Epilepsy_dim256_depth1_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_11_32  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9130434989929199, 'val': 0.8888888955116272}, mf1:{'test': 0.7653129696846008, 'val': 0.7559987306594849}
+
+Epilepsy_dim256_depth1_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_12_26  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8985507488250732, 'val': 0.8888888955116272}, mf1:{'test': 0.7643117308616638, 'val': 0.6512820720672607}
+
+Epilepsy_dim128_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_13_50  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9637681245803833, 'val': 1.0}, mf1:{'test': 0.8163498640060425, 'val': 1.0}
+
+Epilepsy_dim128_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_15_07  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim128_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_16_06  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9710144996643066, 'val': 0.9629629850387573}, mf1:{'test': 0.8184821605682373, 'val': 0.9664326906204224}
+
+Epilepsy_dim128_depth1_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_18_38  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.855348527431488, 'val': 0.9452991485595703}
+
+Epilepsy_dim128_depth1_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_20_07  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9202898740768433, 'val': 0.9629629850387573}, mf1:{'test': 0.7369569540023804, 'val': 0.9736625552177429}
+
+Epilepsy_dim128_depth1_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_21_33  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9057971239089966, 'val': 0.8518518805503845}, mf1:{'test': 0.6790218353271484, 'val': 0.7700371742248535}
+
+Epilepsy_dim128_depth1_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_22_28  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8913043737411499, 'val': 0.9629629850387573}, mf1:{'test': 0.6422690749168396, 'val': 0.9736625552177429}
+
+Epilepsy_dim128_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_25_24  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.97826087474823, 'val': 0.9629629850387573}, mf1:{'test': 0.8204768896102905, 'val': 0.9704232215881348}
+
+Epilepsy_dim128_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_27_08  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9637681245803833, 'val': 0.9629629850387573}, mf1:{'test': 0.8164874911308289, 'val': 0.8383838534355164}
+
+Epilepsy_dim128_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_30_00  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.7648200988769531, 'val': 0.9716365933418274}
+
+Epilepsy_dim128_depth1_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_33_53  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9202898740768433, 'val': 1.0}, mf1:{'test': 0.7319781184196472, 'val': 1.0}
+
+Epilepsy_dim128_depth1_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_34_45  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9202898740768433, 'val': 0.9259259104728699}, mf1:{'test': 0.7203937768936157, 'val': 0.9111431241035461}
+
+Epilepsy_dim128_depth1_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_35_40  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8768116235733032, 'val': 0.8888888955116272}, mf1:{'test': 0.6432494521141052, 'val': 0.881930410861969}
+
+Epilepsy_dim128_depth1_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_36_34  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8768116235733032, 'val': 0.9629629850387573}, mf1:{'test': 0.6562635898590088, 'val': 0.9731858372688293}
+
+Epilepsy_dim128_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_37_59  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim128_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_38_53  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.97826087474823, 'val': 1.0}, mf1:{'test': 0.8204768896102905, 'val': 1.0}
+
+Epilepsy_dim128_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_39_50  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9275362491607666, 'val': 1.0}, mf1:{'test': 0.7770299911499023, 'val': 1.0}
+
+Epilepsy_dim128_depth1_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_41_10  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8985507488250732, 'val': 0.9629629850387573}, mf1:{'test': 0.709362268447876, 'val': 0.9736625552177429}
+
+Epilepsy_dim128_depth1_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_42_06  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9130434989929199, 'val': 0.8518518805503845}, mf1:{'test': 0.7015460729598999, 'val': 0.6205761432647705}
+
+Epilepsy_dim128_depth1_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_42_58  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8478260636329651, 'val': 0.9259259104728699}, mf1:{'test': 0.5975035429000854, 'val': 0.8246913552284241}
+
+Epilepsy_dim128_depth1_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_44_10  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8695651888847351, 'val': 0.8888888955116272}, mf1:{'test': 0.603854775428772, 'val': 0.6735899448394775}
+
+Epilepsy_dim64_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_45_22  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.95652174949646, 'val': 1.0}, mf1:{'test': 0.8143551349639893, 'val': 1.0}
+
+Epilepsy_dim64_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_47_55  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9347826242446899, 'val': 1.0}, mf1:{'test': 0.6906753182411194, 'val': 1.0}
+
+Epilepsy_dim64_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_49_23  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9275362491607666, 'val': 1.0}, mf1:{'test': 0.7884867191314697, 'val': 1.0}
+
+Epilepsy_dim64_depth1_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_50_30  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9130434989929199, 'val': 0.9259259104728699}, mf1:{'test': 0.7364531755447388, 'val': 0.7777777910232544}
+
+Epilepsy_dim64_depth1_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_51_32  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8405796885490417, 'val': 0.9259259104728699}, mf1:{'test': 0.5522167682647705, 'val': 0.7988777160644531}
+
+Epilepsy_dim64_depth1_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_52_38  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8260869383811951, 'val': 0.8888888955116272}, mf1:{'test': 0.5498618483543396, 'val': 0.8144078254699707}
+
+Epilepsy_dim64_depth1_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_53_52  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8623188138008118, 'val': 0.9629629850387573}, mf1:{'test': 0.6497050523757935, 'val': 0.9696106314659119}
+
+Epilepsy_dim64_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_54_38  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9637681245803833, 'val': 0.9629629850387573}, mf1:{'test': 0.8163498640060425, 'val': 0.9573192000389099}
+
+Epilepsy_dim64_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_55_29  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.7723190784454346, 'val': 0.8383838534355164}
+
+Epilepsy_dim64_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_56_23  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9130434989929199, 'val': 1.0}, mf1:{'test': 0.7298458218574524, 'val': 1.0}
+
+Epilepsy_dim64_depth1_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_57_15  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9202898740768433, 'val': 1.0}, mf1:{'test': 0.7121121883392334, 'val': 1.0}
+
+Epilepsy_dim64_depth1_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_58_09  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8985507488250732, 'val': 0.8888888955116272}, mf1:{'test': 0.7087419033050537, 'val': 0.7991452813148499}
+
+Epilepsy_dim64_depth1_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_59_11  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8550724387168884, 'val': 1.0}, mf1:{'test': 0.6084356307983398, 'val': 1.0}
+
+Epilepsy_dim64_depth1_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_00_15  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8550724387168884, 'val': 0.9629629850387573}, mf1:{'test': 0.5643155574798584, 'val': 0.8383838534355164}
+
+Epilepsy_dim64_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_01_18  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.95652174949646, 'val': 0.9629629850387573}, mf1:{'test': 0.7963197827339172, 'val': 0.9616967439651489}
+
+Epilepsy_dim64_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_02_13  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9710144996643066, 'val': 1.0}, mf1:{'test': 0.8004466891288757, 'val': 1.0}
+
+Epilepsy_dim64_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_03_06  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9130434989929199, 'val': 1.0}, mf1:{'test': 0.714013934135437, 'val': 1.0}
+
+Epilepsy_dim64_depth1_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_04_07  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8985507488250732, 'val': 0.9629629850387573}, mf1:{'test': 0.6695266962051392, 'val': 0.9616967439651489}
+
+Epilepsy_dim64_depth1_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_05_14  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8840579986572266, 'val': 1.0}, mf1:{'test': 0.6583227515220642, 'val': 1.0}
+
+Epilepsy_dim64_depth1_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_06_25  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8550724387168884, 'val': 0.9259259104728699}, mf1:{'test': 0.6693710684776306, 'val': 0.9144032597541809}
+
+Epilepsy_dim64_depth1_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_07_34  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8550724387168884, 'val': 0.9259259104728699}, mf1:{'test': 0.6855754852294922, 'val': 0.6935279369354248}
+
+Epilepsy_dim32_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_08_26  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9637681245803833, 'val': 1.0}, mf1:{'test': 0.8163498640060425, 'val': 1.0}
+
+Epilepsy_dim32_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_09_30  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8913043737411499, 'val': 0.9259259104728699}, mf1:{'test': 0.756507933139801, 'val': 0.90123450756073}
+
+Epilepsy_dim32_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_10_26  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9202898740768433, 'val': 0.9259259104728699}, mf1:{'test': 0.7377184629440308, 'val': 0.923751950263977}
+
+Epilepsy_dim32_depth1_mask0.4_patch21_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_11_20  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8913043737411499, 'val': 1.0}, mf1:{'test': 0.6565597057342529, 'val': 1.0}
+
+Epilepsy_dim32_depth1_mask0.4_patch31_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_12_14  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8985507488250732, 'val': 0.8518518805503845}, mf1:{'test': 0.6437694430351257, 'val': 0.7278463840484619}
+
+Epilepsy_dim32_depth1_mask0.4_patch42_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_13_14  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8478260636329651, 'val': 0.9629629850387573}, mf1:{'test': 0.6053695678710938, 'val': 0.8404557704925537}
+
+Epilepsy_dim32_depth1_mask0.4_patch52_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_14_08  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.7898550629615784, 'val': 0.8148148059844971}, mf1:{'test': 0.5568606853485107, 'val': 0.6317362189292908}
+
+Epilepsy_dim32_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_15_05  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9637681245803833, 'val': 0.9629629850387573}, mf1:{'test': 0.8163498640060425, 'val': 0.9704232215881348}
+
+Epilepsy_dim32_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_16_05  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9202898740768433, 'val': 0.9629629850387573}, mf1:{'test': 0.698230504989624, 'val': 0.9538239240646362}
+
+Epilepsy_dim32_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_17_04  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.9130434989929199, 'val': 0.9629629850387573}, mf1:{'test': 0.7481019496917725, 'val': 0.8551440834999084}
+
+Epilepsy_dim32_depth1_mask0.4_patch21_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_18_03  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8768116235733032, 'val': 0.9629629850387573}, mf1:{'test': 0.663695752620697, 'val': 0.8551440834999084}
+
+Epilepsy_dim32_depth1_mask0.4_patch31_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_18_59  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8550724387168884, 'val': 0.9259259104728699}, mf1:{'test': 0.6109963059425354, 'val': 0.9385460019111633}
+
+Epilepsy_dim32_depth1_mask0.4_patch42_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_19_55  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8550724387168884, 'val': 0.9259259104728699}, mf1:{'test': 0.5830001831054688, 'val': 0.7994301915168762}
+
+Epilepsy_dim32_depth1_mask0.4_patch52_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_20_53  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.782608687877655, 'val': 0.8518518805503845}, mf1:{'test': 0.5518887042999268, 'val': 0.7593964338302612}
+
+Epilepsy_dim32_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_21_52  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.95652174949646, 'val': 1.0}, mf1:{'test': 0.7565088868141174, 'val': 1.0}
+
+Epilepsy_dim32_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_22_52  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8695651888847351, 'val': 0.9259259104728699}, mf1:{'test': 0.7064838409423828, 'val': 0.8998557329177856}
+
+Epilepsy_dim32_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_23_50  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8985507488250732, 'val': 1.0}, mf1:{'test': 0.7056357264518738, 'val': 1.0}
+
+Epilepsy_dim32_depth1_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_24_54  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8840579986572266, 'val': 0.9629629850387573}, mf1:{'test': 0.5880281329154968, 'val': 0.8419753313064575}
+
+Epilepsy_dim32_depth1_mask0.4_patch31_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_25_46  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8260869383811951, 'val': 0.8518518805503845}, mf1:{'test': 0.5887171626091003, 'val': 0.7208667993545532}
+
+Epilepsy_dim32_depth1_mask0.4_patch42_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_26_48  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.8623188138008118, 'val': 0.9629629850387573}, mf1:{'test': 0.6211313009262085, 'val': 0.8537512421607971}
+
+Epilepsy_dim32_depth1_mask0.4_patch52_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_27_39  
+TSLANet_Epilepsy_l_1  
+acc:{'test': 0.7898550629615784, 'val': 0.8888888955116272}, mf1:{'test': 0.5452000498771667, 'val': 0.7563785910606384}
+
+Epilepsy_dim128_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_47_29  
+TSLANet_Epilepsy_l_3  
+acc:{'test': 0.9855072498321533, 'val': 1.0}, mf1:{'test': 0.8803179264068604, 'val': 1.0}
+

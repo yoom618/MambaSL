@@ -1,0 +1,7812 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 4 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 2 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 23 \
+  --patch_stride 12 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 45 \
+  --patch_stride 23 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 68 \
+  --patch_stride 34 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 90 \
+  --patch_stride 45 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 135 \
+  --patch_stride 68 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 180 \
+  --patch_stride 90 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --seq_len 896 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_SelfRegulationSCP1 \
+  --ffn_ratio 1 \
+  --patch_size 224 \
+  --patch_stride 112 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+

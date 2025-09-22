@@ -1,3 +1,5 @@
+# CHANGED: add data split code for UEA dataset, since the original repo doesn't provide the splited dataset
+# CHANGED: Unlike the original paper's mentioned 8:2 split, we use the full training set to match with the time-series-library pipeline
 import os
 
 import numpy as np
@@ -102,7 +104,7 @@ def get_datasets(DATASET_PATH, args):
         test_dataset = Load_Dataset(test_file)
 
     ############ Revised Code ###########
-    # since pt files are not provided in the original repo, we use the pkl files instead.
+    # since train/val/test pt files are not provided in the original repo, we use the pkl files instead.
     # The pkl files are generated from the ts files using data_provider/data_loader.py's UEAloader class
     # (we revised the UEAloader class to save the data in pkl format since loading ts file takes a lot of time)
     else:
@@ -128,27 +130,35 @@ def get_datasets(DATASET_PATH, args):
         labels_test_df = pd.DataFrame(labels_test.codes,
                                 dtype=np.int8)  # int8-32 gives an error when using nn.CrossEntropyLoss
 
-        # 1) stratified split - 8:2 for each class as much as possible
-        train_indices, val_indices = [], []
-        for class_idx in range(len(class_names)):
-            class_indices = np.where(labels_trainval_df.values == class_idx)[0]
-            np.random.shuffle(class_indices)
-            split_index = int(len(class_indices) * 0.8)
-            train_indices.extend(class_indices[:split_index])
-            val_indices.extend(class_indices[split_index:])
-        while len(val_indices) > int(0.25 * len(train_indices)):
-            tmp_idx = val_indices.pop(np.random.randint(0, len(val_indices) - 1))
-            train_indices.append(tmp_idx)
-        train_dataset = Load_Dataset_UEA30(df_trainval, labels_trainval_df, seq_len, labels_trainval_df.index[train_indices])
-        val_dataset = Load_Dataset_UEA30(df_trainval, labels_trainval_df, seq_len, labels_trainval_df.index[val_indices])
-        test_dataset = Load_Dataset_UEA30(df_test, labels_test_df, seq_len)
-        num_channels = train_dataset.num_channels
-        
-        # # 2) val = test
-        # train_dataset = Load_Dataset_UEA30(df_trainval, labels_trainval_df, seq_len)
-        # val_dataset = Load_Dataset_UEA30(df_test, labels_test_df, seq_len)
+        #################
+        # # 1) (unused) stratified split - 8:2 for each class as much as possible
+        # # the original paper mentioned that they used 8:2 split, but didn't provide the split
+        # # thus, we tested stratified split, but the results were not good.
+        # # so we used the full training set to match with the time-series-library pipeline
+        # train_indices, val_indices = [], []
+        # for class_idx in range(len(class_names)):
+        #     class_indices = np.where(labels_trainval_df.values == class_idx)[0]
+        #     np.random.shuffle(class_indices)
+        #     split_index = int(len(class_indices) * 0.8)
+        #     train_indices.extend(class_indices[:split_index])
+        #     val_indices.extend(class_indices[split_index:])
+        # while len(val_indices) > int(0.25 * len(train_indices)):
+        #     tmp_idx = val_indices.pop(np.random.randint(0, len(val_indices) - 1))
+        #     train_indices.append(tmp_idx)
+        # train_dataset = Load_Dataset_UEA30(df_trainval, labels_trainval_df, seq_len, labels_trainval_df.index[train_indices])
+        # val_dataset = Load_Dataset_UEA30(df_trainval, labels_trainval_df, seq_len, labels_trainval_df.index[val_indices])
         # test_dataset = Load_Dataset_UEA30(df_test, labels_test_df, seq_len)
         # num_channels = train_dataset.num_channels
+        
+        # 2) val = test
+        # though the original paper used 8:2 split, we use full training set to match with the time-series-library pipeline
+        
+        train_dataset = Load_Dataset_UEA30(df_trainval, labels_trainval_df, seq_len)
+        val_dataset = Load_Dataset_UEA30(df_test, labels_test_df, seq_len)
+        test_dataset = Load_Dataset_UEA30(df_test, labels_test_df, seq_len)
+        num_channels = train_dataset.num_channels
+
+        #################
         print(f'Train : {len(train_dataset)}, Val : {len(val_dataset)}, Test : {len(test_dataset)}')
 
     # in case the dataset is too small ...

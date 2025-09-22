@@ -1,0 +1,144 @@
+PenDigits_dim256_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_43_16  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.09719839692115784, 'val': 0.09679573029279709}, mf1:{'test': 0.022278983145952225, 'val': 0.09566409140825272}
+
+PenDigits_dim256_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_08_26  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.11463693529367447, 'val': 0.10280373692512512}, mf1:{'test': 0.041976675391197205, 'val': 0.1010504737496376}
+
+PenDigits_dim256_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_49_32  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.09605488926172256, 'val': 0.09612817317247391}, mf1:{'test': 0.02072693221271038, 'val': 0.09503579884767532}
+
+PenDigits_dim128_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_27_08  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.0966266468167305, 'val': 0.09612817317247391}, mf1:{'test': 0.02159624919295311, 'val': 0.09503579884767532}
+
+PenDigits_dim128_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_05_54  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.26729559898376465, 'val': 0.25166890025138855}, mf1:{'test': 0.1675468534231186, 'val': 0.2061888724565506}
+
+PenDigits_dim128_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_51_37  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.1666666716337204, 'val': 0.1468624770641327}, mf1:{'test': 0.10012847185134888, 'val': 0.13383296132087708}
+
+PenDigits_dim64_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_33_20  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.28787878155708313, 'val': 0.2883845269680023}, mf1:{'test': 0.20249521732330322, 'val': 0.2013896107673645}
+
+PenDigits_dim64_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_08_37  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.33819326758384705, 'val': 0.3357810378074646}, mf1:{'test': 0.22852008044719696, 'val': 0.24994446337223053}
+
+PenDigits_dim64_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_50_40  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.23870784044265747, 'val': 0.2076101452112198}, mf1:{'test': 0.1423385888338089, 'val': 0.1683262139558792}
+
+PenDigits_dim32_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_29_43  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.45626071095466614, 'val': 0.45861148834228516}, mf1:{'test': 0.36843326687812805, 'val': 0.3543238639831543}
+
+PenDigits_dim32_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_10_58  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.34162378311157227, 'val': 0.3351134955883026}, mf1:{'test': 0.25522202253341675, 'val': 0.2828124761581421}
+
+PenDigits_dim32_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_47_04  
+TSLANet_PenDigits_l_3  
+acc:{'test': 0.37021154165267944, 'val': 0.34512683749198914}, mf1:{'test': 0.276253342628479, 'val': 0.28366246819496155}
+
+PenDigits_dim256_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_18_45  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.09605488926172256, 'val': 0.09612817317247391}, mf1:{'test': 0.02072693221271038, 'val': 0.09503579884767532}
+
+PenDigits_dim256_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_01_54  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.10205832123756409, 'val': 0.09813084453344345}, mf1:{'test': 0.027267081663012505, 'val': 0.09685086458921432}
+
+PenDigits_dim256_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_43_17  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.09977129846811295, 'val': 0.10080106556415558}, mf1:{'test': 0.024722253903746605, 'val': 0.09929420799016953}
+
+PenDigits_dim128_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_16_48  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.27787306904792786, 'val': 0.23497997224330902}, mf1:{'test': 0.2077668160200119, 'val': 0.1728348582983017}
+
+PenDigits_dim128_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_55_36  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.11921098083257675, 'val': 0.10547396540641785}, mf1:{'test': 0.04519926756620407, 'val': 0.10576263815164566}
+
+PenDigits_dim128_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_30_34  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.13522012531757355, 'val': 0.1281708925962448}, mf1:{'test': 0.06811077147722244, 'val': 0.12040261179208755}
+
+PenDigits_dim64_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_05_24  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.39250999689102173, 'val': 0.38384512066841125}, mf1:{'test': 0.3163371980190277, 'val': 0.2907544672489166}
+
+PenDigits_dim64_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_37_21  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.27444252371788025, 'val': 0.2643524706363678}, mf1:{'test': 0.1725219041109085, 'val': 0.21239520609378815}
+
+PenDigits_dim64_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_03_10_07  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.36735278367996216, 'val': 0.3504672944545746}, mf1:{'test': 0.2822132408618927, 'val': 0.263927698135376}
+
+PenDigits_dim32_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_41_18  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.4239565432071686, 'val': 0.42323097586631775}, mf1:{'test': 0.3407662808895111, 'val': 0.31399843096733093}
+
+PenDigits_dim32_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_10_54  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.4459691345691681, 'val': 0.4606141448020935}, mf1:{'test': 0.3665815591812134, 'val': 0.3480098247528076}
+
+PenDigits_dim32_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_42_49  
+TSLANet_PenDigits_l_2  
+acc:{'test': 0.2958833575248718, 'val': 0.29105472564697266}, mf1:{'test': 0.19151128828525543, 'val': 0.22202104330062866}
+
+PenDigits_dim256_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_13_16  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.09691251814365387, 'val': 0.09612817317247391}, mf1:{'test': 0.0220022052526474, 'val': 0.09503579884767532}
+
+PenDigits_dim256_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_38_09  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.1134934276342392, 'val': 0.10881175100803375}, mf1:{'test': 0.035262804478406906, 'val': 0.1050347164273262}
+
+PenDigits_dim256_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_02_46  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.12264151126146317, 'val': 0.12216288596391678}, mf1:{'test': 0.052938733249902725, 'val': 0.11759616434574127}
+
+PenDigits_dim128_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_26_33  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.24785591661930084, 'val': 0.2283044010400772}, mf1:{'test': 0.16337618231773376, 'val': 0.1866377592086792}
+
+PenDigits_dim128_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_50_42  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.27444252371788025, 'val': 0.24365821480751038}, mf1:{'test': 0.19653931260108948, 'val': 0.19940128922462463}
+
+PenDigits_dim128_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_13_25  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.24499714374542236, 'val': 0.2216288447380066}, mf1:{'test': 0.14495496451854706, 'val': 0.1969103366136551}
+
+PenDigits_dim64_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_35_01  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.3004574179649353, 'val': 0.30574098229408264}, mf1:{'test': 0.19294212758541107, 'val': 0.25344476103782654}
+
+PenDigits_dim64_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_57_01  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.35048598051071167, 'val': 0.3457943797111511}, mf1:{'test': 0.2637854516506195, 'val': 0.25066542625427246}
+
+PenDigits_dim64_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_19_17  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.36306461691856384, 'val': 0.3317756950855255}, mf1:{'test': 0.28550079464912415, 'val': 0.2436455637216568}
+
+PenDigits_dim32_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_44_13  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.3839336633682251, 'val': 0.35447263717651367}, mf1:{'test': 0.30151301622390747, 'val': 0.25521188974380493}
+
+PenDigits_dim32_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_05_52  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.34362491965293884, 'val': 0.34779706597328186}, mf1:{'test': 0.24525080621242523, 'val': 0.2711314260959625}
+
+PenDigits_dim32_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_29_25  
+TSLANet_PenDigits_l_1  
+acc:{'test': 0.36649513244628906, 'val': 0.386515349149704}, mf1:{'test': 0.2639126181602478, 'val': 0.2927919328212738}
+

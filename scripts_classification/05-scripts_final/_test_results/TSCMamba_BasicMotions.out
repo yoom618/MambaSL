@@ -1,0 +1,1080 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.30 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.92 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.45 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.20 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df1_dconv4_expand1_nrocket0_hrocket1_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 146303
+model size : 0.57MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.66 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.01 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.12 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df2_dconv4_expand1_nrocket0_hrocket1_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 146897
+model size : 0.57MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.82 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.13 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df2_dconv4_expand1_nrocket0_hrocket1_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 146897
+model size : 0.57MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.65 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.13 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df1_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 260371
+model size : 1.00MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.96 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.12 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df1_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 260371
+model size : 1.01MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 2.09 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.12 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df2_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 261559
+model size : 1.01MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.72 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.12 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el1_df2_dconv4_expand2_nrocket0_hrocket1_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 264791
+model size : 1.02MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               3                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.01 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.88 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.12 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df3_dconv4_expand1_nrocket0_hrocket1_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 265979
+model size : 1.03MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.71 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.12 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df2_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 497347
+model size : 1.91MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            64                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.85 seconds
+ROCKET model size: 0.03 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.12 seconds
+ROCKET model size: 0.03 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm64_cwt64_rescale64_ps8_el2_df2_dconv4_expand2_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 497347
+model size : 1.91MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.89 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.20 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df1_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 550911
+model size : 2.11MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 2.00 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.25 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df1_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 550911
+model size : 2.11MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.77 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.22 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df1_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 550911
+model size : 2.11MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 2.06 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.23 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df1_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 550911
+model size : 2.11MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 2.03 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.24 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df2_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 552081
+model size : 2.12MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.83 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.22 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df2_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 552081
+model size : 2.12MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.93 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.23 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df2_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 552081
+model size : 2.12MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 2.14 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.24 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df2_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool1_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 552081
+model size : 2.12MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               3                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.75 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.28 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df3_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive0_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 553251
+model size : 2.12MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              TSCMamba            
+
+[1mData Loader[0m
+  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           1                   
+  d layers:           1                   d FF:               3                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+--Loading rescaled data with 64 wavelet transform and size 64 for TRAIN set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Train--
+Time taken to process ROCKET features: 1.83 seconds
+ROCKET model size: 0.05 MB
+--Loading rescaled data with 64 wavelet transform and size 64 for TEST set--
+Rescaling time: 0.00 seconds
+40
+--Found trained rocket transformer for Test--
+Time taken to process ROCKET features: 0.26 seconds
+ROCKET model size: 0.05 MB
+>>>>>>>testing : classification_CLS_BasicMotions_TSCMamba_UEA4TSCMamba_ftM_sl100_ll0_pl0_dm128_cwt64_rescale64_ps8_el1_df3_dconv4_expand1_nrocket0_hrocket0_focus1.0_additive1_onlyfs0_flipdir2_reverseflip0_maxpool0_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+accuracy:1.0
+model parameter : 553251
+model size : 2.12MB

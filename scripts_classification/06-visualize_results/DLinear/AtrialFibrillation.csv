@@ -1,0 +1,16 @@
+data_name,model,seq_len,moving_average,moving_average_ratio,acc,model_params,model_size (MB)
+AtrialFibrillation,DLinear,640,320,0.5,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,288,0.45,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,256,0.4,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,224,0.35,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,192,0.3,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,160,0.25,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,128,0.2,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,96,0.15,0.5333333333333333,824323,3.15
+AtrialFibrillation,DLinear,640,64,0.1,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,32,0.05,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,26,0.040625,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,20,0.03125,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,13,0.0203125,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,7,0.0109375,0.4666666666666667,824323,3.15
+AtrialFibrillation,DLinear,640,4,0.00625,0.4666666666666667,824323,3.15

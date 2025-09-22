@@ -1,0 +1,1494 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         1250                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma1250_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 4.104500770568848
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 1.5998272895812988
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 1.2994763851165771
+Epoch: 3, Steps: 1 | Train Loss: 1.037 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 1.2445311546325684
+Epoch: 4, Steps: 1 | Train Loss: 1.011 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 5 cost time: 0.9161214828491211
+Epoch: 5, Steps: 1 | Train Loss: 0.986 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 6 cost time: 1.108077049255371
+Epoch: 6, Steps: 1 | Train Loss: 0.961 Vali Loss: 1.108 Vali Acc: 0.200 Test Loss: 1.108 Test Acc: 0.200
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.2640724182128906
+Epoch: 7, Steps: 1 | Train Loss: 0.707 Vali Loss: 1.145 Vali Acc: 0.133 Test Loss: 1.145 Test Acc: 0.133
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.1882574558258057
+Epoch: 8, Steps: 1 | Train Loss: 0.493 Vali Loss: 1.201 Vali Acc: 0.200 Test Loss: 1.201 Test Acc: 0.200
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.416872262954712
+Epoch: 9, Steps: 1 | Train Loss: 0.344 Vali Loss: 1.276 Vali Acc: 0.200 Test Loss: 1.276 Test Acc: 0.200
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.1040353775024414
+Epoch: 10, Steps: 1 | Train Loss: 0.240 Vali Loss: 1.373 Vali Acc: 0.267 Test Loss: 1.373 Test Acc: 0.267
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.0126762390136719
+Epoch: 11, Steps: 1 | Train Loss: 0.162 Vali Loss: 1.489 Vali Acc: 0.333 Test Loss: 1.489 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.070495367050171
+Epoch: 12, Steps: 1 | Train Loss: 0.104 Vali Loss: 1.624 Vali Acc: 0.333 Test Loss: 1.624 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.1872384548187256
+Epoch: 13, Steps: 1 | Train Loss: 0.063 Vali Loss: 1.772 Vali Acc: 0.333 Test Loss: 1.772 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.2347421646118164
+Epoch: 14, Steps: 1 | Train Loss: 0.037 Vali Loss: 1.929 Vali Acc: 0.333 Test Loss: 1.929 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.1760268211364746
+Epoch: 15, Steps: 1 | Train Loss: 0.021 Vali Loss: 2.091 Vali Acc: 0.333 Test Loss: 2.091 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma1250_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.3333333333333333
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         1125                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma1125_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 3.779212236404419
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 1.2572317123413086
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 1.1158576011657715
+Epoch: 3, Steps: 1 | Train Loss: 1.037 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 0.9782342910766602
+Epoch: 4, Steps: 1 | Train Loss: 1.012 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 5 cost time: 0.8876018524169922
+Epoch: 5, Steps: 1 | Train Loss: 0.986 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 6 cost time: 0.9443254470825195
+Epoch: 6, Steps: 1 | Train Loss: 0.962 Vali Loss: 1.105 Vali Acc: 0.267 Test Loss: 1.105 Test Acc: 0.267
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.2872827053070068
+Epoch: 7, Steps: 1 | Train Loss: 0.708 Vali Loss: 1.138 Vali Acc: 0.133 Test Loss: 1.138 Test Acc: 0.133
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 0.8247971534729004
+Epoch: 8, Steps: 1 | Train Loss: 0.492 Vali Loss: 1.188 Vali Acc: 0.267 Test Loss: 1.188 Test Acc: 0.267
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.0635998249053955
+Epoch: 9, Steps: 1 | Train Loss: 0.341 Vali Loss: 1.257 Vali Acc: 0.267 Test Loss: 1.257 Test Acc: 0.267
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.4710924625396729
+Epoch: 10, Steps: 1 | Train Loss: 0.236 Vali Loss: 1.346 Vali Acc: 0.267 Test Loss: 1.346 Test Acc: 0.267
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.2791502475738525
+Epoch: 11, Steps: 1 | Train Loss: 0.159 Vali Loss: 1.455 Vali Acc: 0.333 Test Loss: 1.455 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.172220230102539
+Epoch: 12, Steps: 1 | Train Loss: 0.102 Vali Loss: 1.581 Vali Acc: 0.333 Test Loss: 1.581 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.2312803268432617
+Epoch: 13, Steps: 1 | Train Loss: 0.062 Vali Loss: 1.721 Vali Acc: 0.267 Test Loss: 1.721 Test Acc: 0.267
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.2111222743988037
+Epoch: 14, Steps: 1 | Train Loss: 0.036 Vali Loss: 1.869 Vali Acc: 0.267 Test Loss: 1.869 Test Acc: 0.267
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.3283169269561768
+Epoch: 15, Steps: 1 | Train Loss: 0.021 Vali Loss: 2.021 Vali Acc: 0.267 Test Loss: 2.021 Test Acc: 0.267
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma1125_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.3333333333333333
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         1000                Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma1000_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 3.435703754425049
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 0.9594931602478027
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 0.8523333072662354
+Epoch: 3, Steps: 1 | Train Loss: 1.038 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 0.8198280334472656
+Epoch: 4, Steps: 1 | Train Loss: 1.012 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 5 cost time: 0.7156713008880615
+Epoch: 5, Steps: 1 | Train Loss: 0.987 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 6 cost time: 0.9735472202301025
+Epoch: 6, Steps: 1 | Train Loss: 0.962 Vali Loss: 1.105 Vali Acc: 0.267 Test Loss: 1.105 Test Acc: 0.267
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 0.9814345836639404
+Epoch: 7, Steps: 1 | Train Loss: 0.708 Vali Loss: 1.137 Vali Acc: 0.200 Test Loss: 1.137 Test Acc: 0.200
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.0543544292449951
+Epoch: 8, Steps: 1 | Train Loss: 0.491 Vali Loss: 1.186 Vali Acc: 0.200 Test Loss: 1.186 Test Acc: 0.200
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.0013790130615234
+Epoch: 9, Steps: 1 | Train Loss: 0.339 Vali Loss: 1.254 Vali Acc: 0.267 Test Loss: 1.254 Test Acc: 0.267
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.001619577407837
+Epoch: 10, Steps: 1 | Train Loss: 0.234 Vali Loss: 1.342 Vali Acc: 0.333 Test Loss: 1.342 Test Acc: 0.333
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 0.9340994358062744
+Epoch: 11, Steps: 1 | Train Loss: 0.157 Vali Loss: 1.451 Vali Acc: 0.333 Test Loss: 1.451 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 1.1333746910095215
+Epoch: 12, Steps: 1 | Train Loss: 0.101 Vali Loss: 1.577 Vali Acc: 0.267 Test Loss: 1.577 Test Acc: 0.267
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 0.8871221542358398
+Epoch: 13, Steps: 1 | Train Loss: 0.061 Vali Loss: 1.716 Vali Acc: 0.267 Test Loss: 1.716 Test Acc: 0.267
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.2028353214263916
+Epoch: 14, Steps: 1 | Train Loss: 0.036 Vali Loss: 1.862 Vali Acc: 0.267 Test Loss: 1.862 Test Acc: 0.267
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.2585663795471191
+Epoch: 15, Steps: 1 | Train Loss: 0.020 Vali Loss: 2.013 Vali Acc: 0.333 Test Loss: 2.013 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma1000_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.3333333333333333
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         875                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma875_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 4.23602557182312
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 1.2052929401397705
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 1.4050312042236328
+Epoch: 3, Steps: 1 | Train Loss: 1.038 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 1.1747400760650635
+Epoch: 4, Steps: 1 | Train Loss: 1.012 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 5 cost time: 0.8782088756561279
+Epoch: 5, Steps: 1 | Train Loss: 0.987 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 6 cost time: 0.9974308013916016
+Epoch: 6, Steps: 1 | Train Loss: 0.963 Vali Loss: 1.101 Vali Acc: 0.267 Test Loss: 1.101 Test Acc: 0.267
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.2148830890655518
+Epoch: 7, Steps: 1 | Train Loss: 0.708 Vali Loss: 1.127 Vali Acc: 0.267 Test Loss: 1.127 Test Acc: 0.267
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.2528541088104248
+Epoch: 8, Steps: 1 | Train Loss: 0.491 Vali Loss: 1.167 Vali Acc: 0.333 Test Loss: 1.167 Test Acc: 0.333
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.4939393997192383
+Epoch: 9, Steps: 1 | Train Loss: 0.340 Vali Loss: 1.224 Vali Acc: 0.267 Test Loss: 1.224 Test Acc: 0.267
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.1208984851837158
+Epoch: 10, Steps: 1 | Train Loss: 0.235 Vali Loss: 1.300 Vali Acc: 0.333 Test Loss: 1.300 Test Acc: 0.333
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 0.9490323066711426
+Epoch: 11, Steps: 1 | Train Loss: 0.159 Vali Loss: 1.393 Vali Acc: 0.333 Test Loss: 1.393 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 0.9458637237548828
+Epoch: 12, Steps: 1 | Train Loss: 0.102 Vali Loss: 1.503 Vali Acc: 0.267 Test Loss: 1.503 Test Acc: 0.267
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 1.07181978225708
+Epoch: 13, Steps: 1 | Train Loss: 0.063 Vali Loss: 1.625 Vali Acc: 0.267 Test Loss: 1.625 Test Acc: 0.267
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.21348237991333
+Epoch: 14, Steps: 1 | Train Loss: 0.037 Vali Loss: 1.754 Vali Acc: 0.267 Test Loss: 1.754 Test Acc: 0.267
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 1.7487852573394775
+Epoch: 15, Steps: 1 | Train Loss: 0.021 Vali Loss: 1.887 Vali Acc: 0.267 Test Loss: 1.887 Test Acc: 0.267
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma875_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.3333333333333333
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         750                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma750_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 3.4957940578460693
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 0.851355791091919
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 0.8400819301605225
+Epoch: 3, Steps: 1 | Train Loss: 1.038 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 0.836000919342041
+Epoch: 4, Steps: 1 | Train Loss: 1.013 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 5 cost time: 1.0904951095581055
+Epoch: 5, Steps: 1 | Train Loss: 0.988 Vali Loss: 1.084 Vali Acc: 0.333 Test Loss: 1.084 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 6 cost time: 1.0867888927459717
+Epoch: 6, Steps: 1 | Train Loss: 0.964 Vali Loss: 1.096 Vali Acc: 0.333 Test Loss: 1.096 Test Acc: 0.333
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.2501695156097412
+Epoch: 7, Steps: 1 | Train Loss: 0.710 Vali Loss: 1.117 Vali Acc: 0.267 Test Loss: 1.117 Test Acc: 0.267
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 1.25425386428833
+Epoch: 8, Steps: 1 | Train Loss: 0.493 Vali Loss: 1.150 Vali Acc: 0.267 Test Loss: 1.150 Test Acc: 0.267
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 1.6459908485412598
+Epoch: 9, Steps: 1 | Train Loss: 0.340 Vali Loss: 1.198 Vali Acc: 0.400 Test Loss: 1.198 Test Acc: 0.400
+Validation loss decreased (-0.333322 --> -0.399988).  Saving model ...
+Epoch: 10 cost time: 1.557823896408081
+Epoch: 10, Steps: 1 | Train Loss: 0.235 Vali Loss: 1.263 Vali Acc: 0.467 Test Loss: 1.263 Test Acc: 0.467
+Validation loss decreased (-0.399988 --> -0.466654).  Saving model ...
+Epoch: 11 cost time: 1.379964828491211
+Epoch: 11, Steps: 1 | Train Loss: 0.158 Vali Loss: 1.345 Vali Acc: 0.400 Test Loss: 1.345 Test Acc: 0.400
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 1.0727591514587402
+Epoch: 12, Steps: 1 | Train Loss: 0.102 Vali Loss: 1.443 Vali Acc: 0.400 Test Loss: 1.443 Test Acc: 0.400
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 1.285428762435913
+Epoch: 13, Steps: 1 | Train Loss: 0.063 Vali Loss: 1.552 Vali Acc: 0.400 Test Loss: 1.552 Test Acc: 0.400
+EarlyStopping counter: 3 out of 10
+Epoch: 14 cost time: 1.1342334747314453
+Epoch: 14, Steps: 1 | Train Loss: 0.037 Vali Loss: 1.669 Vali Acc: 0.400 Test Loss: 1.669 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 15 cost time: 1.6029911041259766
+Epoch: 15, Steps: 1 | Train Loss: 0.021 Vali Loss: 1.790 Vali Acc: 0.333 Test Loss: 1.790 Test Acc: 0.333
+EarlyStopping counter: 5 out of 10
+Epoch: 16 cost time: 1.0625057220458984
+Epoch: 16, Steps: 1 | Train Loss: 0.012 Vali Loss: 1.914 Vali Acc: 0.267 Test Loss: 1.914 Test Acc: 0.267
+EarlyStopping counter: 6 out of 10
+Epoch: 17 cost time: 1.3016598224639893
+Epoch: 17, Steps: 1 | Train Loss: 0.007 Vali Loss: 2.036 Vali Acc: 0.267 Test Loss: 2.036 Test Acc: 0.267
+EarlyStopping counter: 7 out of 10
+Epoch: 18 cost time: 0.9514179229736328
+Epoch: 18, Steps: 1 | Train Loss: 0.004 Vali Loss: 2.157 Vali Acc: 0.267 Test Loss: 2.157 Test Acc: 0.267
+EarlyStopping counter: 8 out of 10
+Epoch: 19 cost time: 1.19148850440979
+Epoch: 19, Steps: 1 | Train Loss: 0.002 Vali Loss: 2.276 Vali Acc: 0.267 Test Loss: 2.276 Test Acc: 0.267
+EarlyStopping counter: 9 out of 10
+Epoch: 20 cost time: 1.0118331909179688
+Epoch: 20, Steps: 1 | Train Loss: 0.001 Vali Loss: 2.391 Vali Acc: 0.267 Test Loss: 2.391 Test Acc: 0.267
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma750_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         625                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma625_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 4.124799966812134
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 0.8823325634002686
+Epoch: 2, Steps: 1 | Train Loss: 1.063 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 0.9026806354522705
+Epoch: 3, Steps: 1 | Train Loss: 1.037 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 0.9842088222503662
+Epoch: 4, Steps: 1 | Train Loss: 1.011 Vali Loss: 1.084 Vali Acc: 0.333 Test Loss: 1.084 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 5 cost time: 0.791273832321167
+Epoch: 5, Steps: 1 | Train Loss: 0.985 Vali Loss: 1.083 Vali Acc: 0.333 Test Loss: 1.083 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333323).  Saving model ...
+Epoch: 6 cost time: 0.7912657260894775
+Epoch: 6, Steps: 1 | Train Loss: 0.961 Vali Loss: 1.090 Vali Acc: 0.267 Test Loss: 1.090 Test Acc: 0.267
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.0959584712982178
+Epoch: 7, Steps: 1 | Train Loss: 0.702 Vali Loss: 1.107 Vali Acc: 0.267 Test Loss: 1.107 Test Acc: 0.267
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 0.9181079864501953
+Epoch: 8, Steps: 1 | Train Loss: 0.486 Vali Loss: 1.138 Vali Acc: 0.267 Test Loss: 1.138 Test Acc: 0.267
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 0.7914853096008301
+Epoch: 9, Steps: 1 | Train Loss: 0.338 Vali Loss: 1.185 Vali Acc: 0.333 Test Loss: 1.185 Test Acc: 0.333
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 0.929041862487793
+Epoch: 10, Steps: 1 | Train Loss: 0.235 Vali Loss: 1.252 Vali Acc: 0.400 Test Loss: 1.252 Test Acc: 0.400
+Validation loss decreased (-0.333323 --> -0.399987).  Saving model ...
+Epoch: 11 cost time: 0.8286466598510742
+Epoch: 11, Steps: 1 | Train Loss: 0.158 Vali Loss: 1.339 Vali Acc: 0.333 Test Loss: 1.339 Test Acc: 0.333
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 0.8305909633636475
+Epoch: 12, Steps: 1 | Train Loss: 0.101 Vali Loss: 1.443 Vali Acc: 0.333 Test Loss: 1.443 Test Acc: 0.333
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 0.6918454170227051
+Epoch: 13, Steps: 1 | Train Loss: 0.062 Vali Loss: 1.560 Vali Acc: 0.333 Test Loss: 1.560 Test Acc: 0.333
+EarlyStopping counter: 3 out of 10
+Epoch: 14 cost time: 0.7162966728210449
+Epoch: 14, Steps: 1 | Train Loss: 0.036 Vali Loss: 1.686 Vali Acc: 0.333 Test Loss: 1.686 Test Acc: 0.333
+EarlyStopping counter: 4 out of 10
+Epoch: 15 cost time: 0.7323355674743652
+Epoch: 15, Steps: 1 | Train Loss: 0.021 Vali Loss: 1.817 Vali Acc: 0.333 Test Loss: 1.817 Test Acc: 0.333
+EarlyStopping counter: 5 out of 10
+Epoch: 16 cost time: 0.7975914478302002
+Epoch: 16, Steps: 1 | Train Loss: 0.012 Vali Loss: 1.949 Vali Acc: 0.333 Test Loss: 1.949 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 17 cost time: 0.6825311183929443
+Epoch: 17, Steps: 1 | Train Loss: 0.007 Vali Loss: 2.082 Vali Acc: 0.333 Test Loss: 2.082 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 18 cost time: 0.8225884437561035
+Epoch: 18, Steps: 1 | Train Loss: 0.004 Vali Loss: 2.213 Vali Acc: 0.333 Test Loss: 2.213 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 19 cost time: 0.8592407703399658
+Epoch: 19, Steps: 1 | Train Loss: 0.002 Vali Loss: 2.340 Vali Acc: 0.333 Test Loss: 2.340 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 20 cost time: 1.2168259620666504
+Epoch: 20, Steps: 1 | Train Loss: 0.001 Vali Loss: 2.465 Vali Acc: 0.333 Test Loss: 2.465 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma625_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         500                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma500_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 2.6408464908599854
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 0.8042769432067871
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 1.1228199005126953
+Epoch: 3, Steps: 1 | Train Loss: 1.037 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 0.8750383853912354
+Epoch: 4, Steps: 1 | Train Loss: 1.011 Vali Loss: 1.084 Vali Acc: 0.400 Test Loss: 1.084 Test Acc: 0.400
+Validation loss decreased (-0.333322 --> -0.399989).  Saving model ...
+Epoch: 5 cost time: 0.8754692077636719
+Epoch: 5, Steps: 1 | Train Loss: 0.986 Vali Loss: 1.083 Vali Acc: 0.400 Test Loss: 1.083 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 6 cost time: 0.7352890968322754
+Epoch: 6, Steps: 1 | Train Loss: 0.961 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 0.8941330909729004
+Epoch: 7, Steps: 1 | Train Loss: 0.702 Vali Loss: 1.101 Vali Acc: 0.200 Test Loss: 1.101 Test Acc: 0.200
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 0.7594735622406006
+Epoch: 8, Steps: 1 | Train Loss: 0.487 Vali Loss: 1.128 Vali Acc: 0.200 Test Loss: 1.128 Test Acc: 0.200
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 0.9511497020721436
+Epoch: 9, Steps: 1 | Train Loss: 0.339 Vali Loss: 1.172 Vali Acc: 0.267 Test Loss: 1.172 Test Acc: 0.267
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 0.9164466857910156
+Epoch: 10, Steps: 1 | Train Loss: 0.236 Vali Loss: 1.234 Vali Acc: 0.267 Test Loss: 1.234 Test Acc: 0.267
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 0.7313082218170166
+Epoch: 11, Steps: 1 | Train Loss: 0.159 Vali Loss: 1.314 Vali Acc: 0.333 Test Loss: 1.314 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 0.6949484348297119
+Epoch: 12, Steps: 1 | Train Loss: 0.102 Vali Loss: 1.410 Vali Acc: 0.333 Test Loss: 1.410 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 0.7027292251586914
+Epoch: 13, Steps: 1 | Train Loss: 0.063 Vali Loss: 1.519 Vali Acc: 0.333 Test Loss: 1.519 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 1.0773181915283203
+Epoch: 14, Steps: 1 | Train Loss: 0.037 Vali Loss: 1.637 Vali Acc: 0.333 Test Loss: 1.637 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 0.9266550540924072
+Epoch: 15, Steps: 1 | Train Loss: 0.022 Vali Loss: 1.760 Vali Acc: 0.333 Test Loss: 1.760 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma500_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         375                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma375_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 2.327745199203491
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 0.7281036376953125
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 0.8476755619049072
+Epoch: 3, Steps: 1 | Train Loss: 1.038 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 0.6431686878204346
+Epoch: 4, Steps: 1 | Train Loss: 1.012 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 5 cost time: 0.783405065536499
+Epoch: 5, Steps: 1 | Train Loss: 0.987 Vali Loss: 1.084 Vali Acc: 0.333 Test Loss: 1.084 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 6 cost time: 0.7820618152618408
+Epoch: 6, Steps: 1 | Train Loss: 0.963 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 0.7066771984100342
+Epoch: 7, Steps: 1 | Train Loss: 0.704 Vali Loss: 1.100 Vali Acc: 0.267 Test Loss: 1.100 Test Acc: 0.267
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 0.7194836139678955
+Epoch: 8, Steps: 1 | Train Loss: 0.487 Vali Loss: 1.123 Vali Acc: 0.267 Test Loss: 1.123 Test Acc: 0.267
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 0.9314498901367188
+Epoch: 9, Steps: 1 | Train Loss: 0.336 Vali Loss: 1.162 Vali Acc: 0.267 Test Loss: 1.162 Test Acc: 0.267
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 0.8030681610107422
+Epoch: 10, Steps: 1 | Train Loss: 0.232 Vali Loss: 1.217 Vali Acc: 0.333 Test Loss: 1.217 Test Acc: 0.333
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 1.1318151950836182
+Epoch: 11, Steps: 1 | Train Loss: 0.155 Vali Loss: 1.288 Vali Acc: 0.333 Test Loss: 1.288 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 0.7876865863800049
+Epoch: 12, Steps: 1 | Train Loss: 0.099 Vali Loss: 1.373 Vali Acc: 0.333 Test Loss: 1.373 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 0.5589570999145508
+Epoch: 13, Steps: 1 | Train Loss: 0.061 Vali Loss: 1.469 Vali Acc: 0.333 Test Loss: 1.469 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 0.5919477939605713
+Epoch: 14, Steps: 1 | Train Loss: 0.036 Vali Loss: 1.572 Vali Acc: 0.333 Test Loss: 1.572 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 0.7500114440917969
+Epoch: 15, Steps: 1 | Train Loss: 0.021 Vali Loss: 1.678 Vali Acc: 0.333 Test Loss: 1.678 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma375_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.3333333333333333
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         250                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma250_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 3.2234063148498535
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 1.075695514678955
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 0.9877843856811523
+Epoch: 3, Steps: 1 | Train Loss: 1.038 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 0.7590067386627197
+Epoch: 4, Steps: 1 | Train Loss: 1.012 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 5 cost time: 0.9801111221313477
+Epoch: 5, Steps: 1 | Train Loss: 0.987 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 6 cost time: 0.9508261680603027
+Epoch: 6, Steps: 1 | Train Loss: 0.963 Vali Loss: 1.080 Vali Acc: 0.267 Test Loss: 1.080 Test Acc: 0.267
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 1.3669254779815674
+Epoch: 7, Steps: 1 | Train Loss: 0.695 Vali Loss: 1.081 Vali Acc: 0.267 Test Loss: 1.081 Test Acc: 0.267
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 0.8319017887115479
+Epoch: 8, Steps: 1 | Train Loss: 0.477 Vali Loss: 1.094 Vali Acc: 0.267 Test Loss: 1.094 Test Acc: 0.267
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 0.7431032657623291
+Epoch: 9, Steps: 1 | Train Loss: 0.331 Vali Loss: 1.121 Vali Acc: 0.333 Test Loss: 1.121 Test Acc: 0.333
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 0.5859885215759277
+Epoch: 10, Steps: 1 | Train Loss: 0.230 Vali Loss: 1.165 Vali Acc: 0.333 Test Loss: 1.165 Test Acc: 0.333
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 0.6973371505737305
+Epoch: 11, Steps: 1 | Train Loss: 0.155 Vali Loss: 1.226 Vali Acc: 0.333 Test Loss: 1.226 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 0.688718318939209
+Epoch: 12, Steps: 1 | Train Loss: 0.100 Vali Loss: 1.300 Vali Acc: 0.333 Test Loss: 1.300 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 0.8621664047241211
+Epoch: 13, Steps: 1 | Train Loss: 0.061 Vali Loss: 1.385 Vali Acc: 0.333 Test Loss: 1.385 Test Acc: 0.333
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 0.888873815536499
+Epoch: 14, Steps: 1 | Train Loss: 0.036 Vali Loss: 1.478 Vali Acc: 0.333 Test Loss: 1.478 Test Acc: 0.333
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 0.9603762626647949
+Epoch: 15, Steps: 1 | Train Loss: 0.021 Vali Loss: 1.576 Vali Acc: 0.333 Test Loss: 1.576 Test Acc: 0.333
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma250_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.3333333333333333
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         125                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma125_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 3.3767197132110596
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 1.0245211124420166
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 1.2644984722137451
+Epoch: 3, Steps: 1 | Train Loss: 1.038 Vali Loss: 1.086 Vali Acc: 0.400 Test Loss: 1.086 Test Acc: 0.400
+Validation loss decreased (-0.333322 --> -0.399989).  Saving model ...
+Epoch: 4 cost time: 0.7719261646270752
+Epoch: 4, Steps: 1 | Train Loss: 1.013 Vali Loss: 1.085 Vali Acc: 0.333 Test Loss: 1.085 Test Acc: 0.333
+EarlyStopping counter: 1 out of 10
+Epoch: 5 cost time: 0.9349620342254639
+Epoch: 5, Steps: 1 | Train Loss: 0.989 Vali Loss: 1.084 Vali Acc: 0.400 Test Loss: 1.084 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 6 cost time: 0.780017614364624
+Epoch: 6, Steps: 1 | Train Loss: 0.964 Vali Loss: 1.068 Vali Acc: 0.400 Test Loss: 1.068 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 7 cost time: 0.7281618118286133
+Epoch: 7, Steps: 1 | Train Loss: 0.685 Vali Loss: 1.056 Vali Acc: 0.333 Test Loss: 1.056 Test Acc: 0.333
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 1.1366658210754395
+Epoch: 8, Steps: 1 | Train Loss: 0.469 Vali Loss: 1.055 Vali Acc: 0.333 Test Loss: 1.055 Test Acc: 0.333
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.1615324020385742
+Epoch: 9, Steps: 1 | Train Loss: 0.329 Vali Loss: 1.072 Vali Acc: 0.333 Test Loss: 1.072 Test Acc: 0.333
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 1.161134958267212
+Epoch: 10, Steps: 1 | Train Loss: 0.230 Vali Loss: 1.107 Vali Acc: 0.333 Test Loss: 1.107 Test Acc: 0.333
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 1.3442342281341553
+Epoch: 11, Steps: 1 | Train Loss: 0.155 Vali Loss: 1.162 Vali Acc: 0.333 Test Loss: 1.162 Test Acc: 0.333
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 1.145653486251831
+Epoch: 12, Steps: 1 | Train Loss: 0.099 Vali Loss: 1.234 Vali Acc: 0.333 Test Loss: 1.234 Test Acc: 0.333
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 1.2683615684509277
+Epoch: 13, Steps: 1 | Train Loss: 0.060 Vali Loss: 1.319 Vali Acc: 0.333 Test Loss: 1.319 Test Acc: 0.333
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 1.2232661247253418
+Epoch: 14, Steps: 1 | Train Loss: 0.035 Vali Loss: 1.412 Vali Acc: 0.400 Test Loss: 1.412 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 1.064396858215332
+Epoch: 15, Steps: 1 | Train Loss: 0.020 Vali Loss: 1.510 Vali Acc: 0.400 Test Loss: 1.510 Test Acc: 0.400
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 1.117004632949829
+Epoch: 16, Steps: 1 | Train Loss: 0.012 Vali Loss: 1.611 Vali Acc: 0.400 Test Loss: 1.611 Test Acc: 0.400
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma125_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         100                 Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma100_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 3.3890931606292725
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 0.8898656368255615
+Epoch: 2, Steps: 1 | Train Loss: 1.064 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 0.8865187168121338
+Epoch: 3, Steps: 1 | Train Loss: 1.039 Vali Loss: 1.087 Vali Acc: 0.400 Test Loss: 1.087 Test Acc: 0.400
+Validation loss decreased (-0.333322 --> -0.399989).  Saving model ...
+Epoch: 4 cost time: 1.2247364521026611
+Epoch: 4, Steps: 1 | Train Loss: 1.014 Vali Loss: 1.086 Vali Acc: 0.400 Test Loss: 1.086 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 5 cost time: 0.8426728248596191
+Epoch: 5, Steps: 1 | Train Loss: 0.989 Vali Loss: 1.085 Vali Acc: 0.400 Test Loss: 1.085 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 6 cost time: 0.8431413173675537
+Epoch: 6, Steps: 1 | Train Loss: 0.965 Vali Loss: 1.071 Vali Acc: 0.400 Test Loss: 1.071 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 7 cost time: 0.9463098049163818
+Epoch: 7, Steps: 1 | Train Loss: 0.681 Vali Loss: 1.063 Vali Acc: 0.333 Test Loss: 1.063 Test Acc: 0.333
+EarlyStopping counter: 1 out of 10
+Epoch: 8 cost time: 0.9578099250793457
+Epoch: 8, Steps: 1 | Train Loss: 0.466 Vali Loss: 1.066 Vali Acc: 0.333 Test Loss: 1.066 Test Acc: 0.333
+EarlyStopping counter: 2 out of 10
+Epoch: 9 cost time: 1.0218679904937744
+Epoch: 9, Steps: 1 | Train Loss: 0.327 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+EarlyStopping counter: 3 out of 10
+Epoch: 10 cost time: 0.725386381149292
+Epoch: 10, Steps: 1 | Train Loss: 0.229 Vali Loss: 1.129 Vali Acc: 0.333 Test Loss: 1.129 Test Acc: 0.333
+EarlyStopping counter: 4 out of 10
+Epoch: 11 cost time: 0.8687429428100586
+Epoch: 11, Steps: 1 | Train Loss: 0.153 Vali Loss: 1.190 Vali Acc: 0.400 Test Loss: 1.190 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 12 cost time: 0.8305313587188721
+Epoch: 12, Steps: 1 | Train Loss: 0.097 Vali Loss: 1.269 Vali Acc: 0.400 Test Loss: 1.269 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 13 cost time: 0.9996397495269775
+Epoch: 13, Steps: 1 | Train Loss: 0.059 Vali Loss: 1.362 Vali Acc: 0.400 Test Loss: 1.362 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 14 cost time: 0.8427596092224121
+Epoch: 14, Steps: 1 | Train Loss: 0.034 Vali Loss: 1.464 Vali Acc: 0.400 Test Loss: 1.464 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 15 cost time: 0.9994282722473145
+Epoch: 15, Steps: 1 | Train Loss: 0.020 Vali Loss: 1.572 Vali Acc: 0.400 Test Loss: 1.572 Test Acc: 0.400
+EarlyStopping counter: 9 out of 10
+Epoch: 16 cost time: 0.7418203353881836
+Epoch: 16, Steps: 1 | Train Loss: 0.011 Vali Loss: 1.682 Vali Acc: 0.400 Test Loss: 1.682 Test Acc: 0.400
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma100_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         75                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma75_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 3.277317762374878
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 1.247488021850586
+Epoch: 2, Steps: 1 | Train Loss: 1.065 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 1.0966362953186035
+Epoch: 3, Steps: 1 | Train Loss: 1.039 Vali Loss: 1.085 Vali Acc: 0.400 Test Loss: 1.085 Test Acc: 0.400
+Validation loss decreased (-0.333322 --> -0.399989).  Saving model ...
+Epoch: 4 cost time: 0.9690396785736084
+Epoch: 4, Steps: 1 | Train Loss: 1.014 Vali Loss: 1.083 Vali Acc: 0.400 Test Loss: 1.083 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 5 cost time: 1.2346272468566895
+Epoch: 5, Steps: 1 | Train Loss: 0.990 Vali Loss: 1.082 Vali Acc: 0.400 Test Loss: 1.082 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 6 cost time: 0.8550386428833008
+Epoch: 6, Steps: 1 | Train Loss: 0.966 Vali Loss: 1.058 Vali Acc: 0.400 Test Loss: 1.058 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 7 cost time: 0.9108633995056152
+Epoch: 7, Steps: 1 | Train Loss: 0.675 Vali Loss: 1.037 Vali Acc: 0.400 Test Loss: 1.037 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399990).  Saving model ...
+Epoch: 8 cost time: 0.9553358554840088
+Epoch: 8, Steps: 1 | Train Loss: 0.458 Vali Loss: 1.025 Vali Acc: 0.400 Test Loss: 1.025 Test Acc: 0.400
+Validation loss decreased (-0.399990 --> -0.399990).  Saving model ...
+Epoch: 9 cost time: 0.8227095603942871
+Epoch: 9, Steps: 1 | Train Loss: 0.319 Vali Loss: 1.028 Vali Acc: 0.400 Test Loss: 1.028 Test Acc: 0.400
+EarlyStopping counter: 1 out of 10
+Epoch: 10 cost time: 0.9764325618743896
+Epoch: 10, Steps: 1 | Train Loss: 0.222 Vali Loss: 1.049 Vali Acc: 0.467 Test Loss: 1.049 Test Acc: 0.467
+Validation loss decreased (-0.399990 --> -0.466656).  Saving model ...
+Epoch: 11 cost time: 0.8165171146392822
+Epoch: 11, Steps: 1 | Train Loss: 0.147 Vali Loss: 1.087 Vali Acc: 0.467 Test Loss: 1.087 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 0.7432057857513428
+Epoch: 12, Steps: 1 | Train Loss: 0.093 Vali Loss: 1.141 Vali Acc: 0.467 Test Loss: 1.141 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 0.8274638652801514
+Epoch: 13, Steps: 1 | Train Loss: 0.055 Vali Loss: 1.205 Vali Acc: 0.467 Test Loss: 1.205 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 14 cost time: 1.0371458530426025
+Epoch: 14, Steps: 1 | Train Loss: 0.032 Vali Loss: 1.278 Vali Acc: 0.467 Test Loss: 1.278 Test Acc: 0.467
+EarlyStopping counter: 4 out of 10
+Epoch: 15 cost time: 0.9778969287872314
+Epoch: 15, Steps: 1 | Train Loss: 0.018 Vali Loss: 1.356 Vali Acc: 0.467 Test Loss: 1.356 Test Acc: 0.467
+EarlyStopping counter: 5 out of 10
+Epoch: 16 cost time: 0.8357689380645752
+Epoch: 16, Steps: 1 | Train Loss: 0.010 Vali Loss: 1.437 Vali Acc: 0.467 Test Loss: 1.437 Test Acc: 0.467
+EarlyStopping counter: 6 out of 10
+Epoch: 17 cost time: 0.8951201438903809
+Epoch: 17, Steps: 1 | Train Loss: 0.006 Vali Loss: 1.520 Vali Acc: 0.467 Test Loss: 1.520 Test Acc: 0.467
+EarlyStopping counter: 7 out of 10
+Epoch: 18 cost time: 0.7105262279510498
+Epoch: 18, Steps: 1 | Train Loss: 0.003 Vali Loss: 1.602 Vali Acc: 0.467 Test Loss: 1.602 Test Acc: 0.467
+EarlyStopping counter: 8 out of 10
+Epoch: 19 cost time: 0.9912352561950684
+Epoch: 19, Steps: 1 | Train Loss: 0.002 Vali Loss: 1.684 Vali Acc: 0.467 Test Loss: 1.684 Test Acc: 0.467
+EarlyStopping counter: 9 out of 10
+Epoch: 20 cost time: 0.893099308013916
+Epoch: 20, Steps: 1 | Train Loss: 0.001 Vali Loss: 1.763 Vali Acc: 0.467 Test Loss: 1.763 Test Acc: 0.467
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma75_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4666666666666667
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         50                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma50_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 2.7114510536193848
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.087 Vali Acc: 0.333 Test Loss: 1.087 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 0.6085100173950195
+Epoch: 2, Steps: 1 | Train Loss: 1.065 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 0.7791895866394043
+Epoch: 3, Steps: 1 | Train Loss: 1.040 Vali Loss: 1.084 Vali Acc: 0.333 Test Loss: 1.084 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 4 cost time: 0.7043988704681396
+Epoch: 4, Steps: 1 | Train Loss: 1.016 Vali Loss: 1.083 Vali Acc: 0.333 Test Loss: 1.083 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333323).  Saving model ...
+Epoch: 5 cost time: 0.7881419658660889
+Epoch: 5, Steps: 1 | Train Loss: 0.992 Vali Loss: 1.081 Vali Acc: 0.333 Test Loss: 1.081 Test Acc: 0.333
+Validation loss decreased (-0.333323 --> -0.333323).  Saving model ...
+Epoch: 6 cost time: 0.8518044948577881
+Epoch: 6, Steps: 1 | Train Loss: 0.969 Vali Loss: 1.056 Vali Acc: 0.400 Test Loss: 1.056 Test Acc: 0.400
+Validation loss decreased (-0.333323 --> -0.399989).  Saving model ...
+Epoch: 7 cost time: 0.7054426670074463
+Epoch: 7, Steps: 1 | Train Loss: 0.674 Vali Loss: 1.032 Vali Acc: 0.400 Test Loss: 1.032 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399990).  Saving model ...
+Epoch: 8 cost time: 0.9367191791534424
+Epoch: 8, Steps: 1 | Train Loss: 0.450 Vali Loss: 1.017 Vali Acc: 0.400 Test Loss: 1.017 Test Acc: 0.400
+Validation loss decreased (-0.399990 --> -0.399990).  Saving model ...
+Epoch: 9 cost time: 0.8994643688201904
+Epoch: 9, Steps: 1 | Train Loss: 0.306 Vali Loss: 1.015 Vali Acc: 0.400 Test Loss: 1.015 Test Acc: 0.400
+Validation loss decreased (-0.399990 --> -0.399990).  Saving model ...
+Epoch: 10 cost time: 0.8704946041107178
+Epoch: 10, Steps: 1 | Train Loss: 0.207 Vali Loss: 1.029 Vali Acc: 0.400 Test Loss: 1.029 Test Acc: 0.400
+EarlyStopping counter: 1 out of 10
+Epoch: 11 cost time: 0.7957179546356201
+Epoch: 11, Steps: 1 | Train Loss: 0.134 Vali Loss: 1.056 Vali Acc: 0.400 Test Loss: 1.056 Test Acc: 0.400
+EarlyStopping counter: 2 out of 10
+Epoch: 12 cost time: 0.8609912395477295
+Epoch: 12, Steps: 1 | Train Loss: 0.082 Vali Loss: 1.096 Vali Acc: 0.400 Test Loss: 1.096 Test Acc: 0.400
+EarlyStopping counter: 3 out of 10
+Epoch: 13 cost time: 0.893892765045166
+Epoch: 13, Steps: 1 | Train Loss: 0.048 Vali Loss: 1.145 Vali Acc: 0.400 Test Loss: 1.145 Test Acc: 0.400
+EarlyStopping counter: 4 out of 10
+Epoch: 14 cost time: 0.9503328800201416
+Epoch: 14, Steps: 1 | Train Loss: 0.027 Vali Loss: 1.201 Vali Acc: 0.467 Test Loss: 1.201 Test Acc: 0.467
+Validation loss decreased (-0.399990 --> -0.466655).  Saving model ...
+Epoch: 15 cost time: 0.8716602325439453
+Epoch: 15, Steps: 1 | Train Loss: 0.015 Vali Loss: 1.260 Vali Acc: 0.467 Test Loss: 1.260 Test Acc: 0.467
+EarlyStopping counter: 1 out of 10
+Epoch: 16 cost time: 1.0223791599273682
+Epoch: 16, Steps: 1 | Train Loss: 0.008 Vali Loss: 1.322 Vali Acc: 0.467 Test Loss: 1.322 Test Acc: 0.467
+EarlyStopping counter: 2 out of 10
+Epoch: 17 cost time: 0.9360947608947754
+Epoch: 17, Steps: 1 | Train Loss: 0.004 Vali Loss: 1.384 Vali Acc: 0.467 Test Loss: 1.384 Test Acc: 0.467
+EarlyStopping counter: 3 out of 10
+Epoch: 18 cost time: 1.0591769218444824
+Epoch: 18, Steps: 1 | Train Loss: 0.003 Vali Loss: 1.447 Vali Acc: 0.467 Test Loss: 1.447 Test Acc: 0.467
+EarlyStopping counter: 4 out of 10
+Epoch: 19 cost time: 1.1787810325622559
+Epoch: 19, Steps: 1 | Train Loss: 0.001 Vali Loss: 1.509 Vali Acc: 0.467 Test Loss: 1.509 Test Acc: 0.467
+EarlyStopping counter: 5 out of 10
+Epoch: 20 cost time: 1.0573816299438477
+Epoch: 20, Steps: 1 | Train Loss: 0.001 Vali Loss: 1.570 Vali Acc: 0.467 Test Loss: 1.570 Test Acc: 0.467
+EarlyStopping counter: 6 out of 10
+Epoch: 21 cost time: 0.8774750232696533
+Epoch: 21, Steps: 1 | Train Loss: 0.000 Vali Loss: 1.629 Vali Acc: 0.467 Test Loss: 1.629 Test Acc: 0.467
+EarlyStopping counter: 7 out of 10
+Epoch: 22 cost time: 0.6647937297821045
+Epoch: 22, Steps: 1 | Train Loss: 0.000 Vali Loss: 1.686 Vali Acc: 0.533 Test Loss: 1.686 Test Acc: 0.533
+Validation loss decreased (-0.466655 --> -0.533316).  Saving model ...
+Epoch: 23 cost time: 0.9264914989471436
+Epoch: 23, Steps: 1 | Train Loss: 0.000 Vali Loss: 1.741 Vali Acc: 0.533 Test Loss: 1.741 Test Acc: 0.533
+EarlyStopping counter: 1 out of 10
+Epoch: 24 cost time: 0.7993168830871582
+Epoch: 24, Steps: 1 | Train Loss: 0.000 Vali Loss: 1.794 Vali Acc: 0.533 Test Loss: 1.794 Test Acc: 0.533
+EarlyStopping counter: 2 out of 10
+Epoch: 25 cost time: 1.0661776065826416
+Epoch: 25, Steps: 1 | Train Loss: 0.000 Vali Loss: 1.845 Vali Acc: 0.533 Test Loss: 1.845 Test Acc: 0.533
+EarlyStopping counter: 3 out of 10
+Epoch: 26 cost time: 1.0416014194488525
+Epoch: 26, Steps: 1 | Train Loss: 0.000 Vali Loss: 1.893 Vali Acc: 0.533 Test Loss: 1.893 Test Acc: 0.533
+EarlyStopping counter: 4 out of 10
+Epoch: 27 cost time: 0.7458839416503906
+Epoch: 27, Steps: 1 | Train Loss: 0.000 Vali Loss: 1.938 Vali Acc: 0.533 Test Loss: 1.938 Test Acc: 0.533
+EarlyStopping counter: 5 out of 10
+Epoch: 28 cost time: 0.9607977867126465
+Epoch: 28, Steps: 1 | Train Loss: 0.000 Vali Loss: 1.981 Vali Acc: 0.533 Test Loss: 1.981 Test Acc: 0.533
+EarlyStopping counter: 6 out of 10
+Epoch: 29 cost time: 1.0842704772949219
+Epoch: 29, Steps: 1 | Train Loss: 0.000 Vali Loss: 2.022 Vali Acc: 0.533 Test Loss: 2.022 Test Acc: 0.533
+EarlyStopping counter: 7 out of 10
+Epoch: 30 cost time: 0.7978384494781494
+Epoch: 30, Steps: 1 | Train Loss: 0.000 Vali Loss: 2.060 Vali Acc: 0.533 Test Loss: 2.060 Test Acc: 0.533
+EarlyStopping counter: 8 out of 10
+Epoch: 31 cost time: 0.7449417114257812
+Epoch: 31, Steps: 1 | Train Loss: 0.000 Vali Loss: 2.096 Vali Acc: 0.533 Test Loss: 2.096 Test Acc: 0.533
+EarlyStopping counter: 9 out of 10
+Epoch: 32 cost time: 0.8039329051971436
+Epoch: 32, Steps: 1 | Train Loss: 0.000 Vali Loss: 2.130 Vali Acc: 0.533 Test Loss: 2.130 Test Acc: 0.533
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma50_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.5333333333333333
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma25_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 2.9290077686309814
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 0.9243342876434326
+Epoch: 2, Steps: 1 | Train Loss: 1.067 Vali Loss: 1.087 Vali Acc: 0.400 Test Loss: 1.087 Test Acc: 0.400
+Validation loss decreased (-0.333322 --> -0.399989).  Saving model ...
+Epoch: 3 cost time: 0.6979384422302246
+Epoch: 3, Steps: 1 | Train Loss: 1.044 Vali Loss: 1.085 Vali Acc: 0.400 Test Loss: 1.085 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 4 cost time: 0.6892383098602295
+Epoch: 4, Steps: 1 | Train Loss: 1.021 Vali Loss: 1.084 Vali Acc: 0.400 Test Loss: 1.084 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 5 cost time: 0.7362592220306396
+Epoch: 5, Steps: 1 | Train Loss: 0.999 Vali Loss: 1.083 Vali Acc: 0.400 Test Loss: 1.083 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 6 cost time: 0.857691764831543
+Epoch: 6, Steps: 1 | Train Loss: 0.977 Vali Loss: 1.074 Vali Acc: 0.333 Test Loss: 1.074 Test Acc: 0.333
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 0.9888687133789062
+Epoch: 7, Steps: 1 | Train Loss: 0.701 Vali Loss: 1.069 Vali Acc: 0.267 Test Loss: 1.069 Test Acc: 0.267
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 0.9936230182647705
+Epoch: 8, Steps: 1 | Train Loss: 0.478 Vali Loss: 1.073 Vali Acc: 0.267 Test Loss: 1.073 Test Acc: 0.267
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 0.7625396251678467
+Epoch: 9, Steps: 1 | Train Loss: 0.328 Vali Loss: 1.088 Vali Acc: 0.267 Test Loss: 1.088 Test Acc: 0.267
+EarlyStopping counter: 4 out of 10
+Epoch: 10 cost time: 1.152818202972412
+Epoch: 10, Steps: 1 | Train Loss: 0.225 Vali Loss: 1.117 Vali Acc: 0.400 Test Loss: 1.117 Test Acc: 0.400
+EarlyStopping counter: 5 out of 10
+Epoch: 11 cost time: 0.8684136867523193
+Epoch: 11, Steps: 1 | Train Loss: 0.150 Vali Loss: 1.160 Vali Acc: 0.400 Test Loss: 1.160 Test Acc: 0.400
+EarlyStopping counter: 6 out of 10
+Epoch: 12 cost time: 0.8700106143951416
+Epoch: 12, Steps: 1 | Train Loss: 0.095 Vali Loss: 1.214 Vali Acc: 0.400 Test Loss: 1.214 Test Acc: 0.400
+EarlyStopping counter: 7 out of 10
+Epoch: 13 cost time: 0.7433021068572998
+Epoch: 13, Steps: 1 | Train Loss: 0.057 Vali Loss: 1.277 Vali Acc: 0.400 Test Loss: 1.277 Test Acc: 0.400
+EarlyStopping counter: 8 out of 10
+Epoch: 14 cost time: 0.6928515434265137
+Epoch: 14, Steps: 1 | Train Loss: 0.033 Vali Loss: 1.347 Vali Acc: 0.400 Test Loss: 1.347 Test Acc: 0.400
+EarlyStopping counter: 9 out of 10
+Epoch: 15 cost time: 0.7677388191223145
+Epoch: 15, Steps: 1 | Train Loss: 0.019 Vali Loss: 1.421 Vali Acc: 0.400 Test Loss: 1.421 Test Acc: 0.400
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma25_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4
+model parameter : 12535003
+model size : 47.82MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        1                   
+  Model ID:           CLS_StandWalkJump   Model:              DLinear             
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             4                   Dec In:             7                   
+  C Out:              0                   d model:            512                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2048                
+  Moving Avg:         13                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                Exp                 Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+12
+15
+>>>>>>>start training : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma13_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+12
+15
+15
+Epoch: 1 cost time: 3.3452253341674805
+Epoch: 1, Steps: 1 | Train Loss: 1.091 Vali Loss: 1.088 Vali Acc: 0.333 Test Loss: 1.088 Test Acc: 0.333
+Validation loss decreased (inf --> -0.333322).  Saving model ...
+Epoch: 2 cost time: 0.7590115070343018
+Epoch: 2, Steps: 1 | Train Loss: 1.066 Vali Loss: 1.086 Vali Acc: 0.333 Test Loss: 1.086 Test Acc: 0.333
+Validation loss decreased (-0.333322 --> -0.333322).  Saving model ...
+Epoch: 3 cost time: 0.9451406002044678
+Epoch: 3, Steps: 1 | Train Loss: 1.042 Vali Loss: 1.085 Vali Acc: 0.400 Test Loss: 1.085 Test Acc: 0.400
+Validation loss decreased (-0.333322 --> -0.399989).  Saving model ...
+Epoch: 4 cost time: 0.8307931423187256
+Epoch: 4, Steps: 1 | Train Loss: 1.018 Vali Loss: 1.084 Vali Acc: 0.400 Test Loss: 1.084 Test Acc: 0.400
+Validation loss decreased (-0.399989 --> -0.399989).  Saving model ...
+Epoch: 5 cost time: 0.8735964298248291
+Epoch: 5, Steps: 1 | Train Loss: 0.995 Vali Loss: 1.082 Vali Acc: 0.333 Test Loss: 1.082 Test Acc: 0.333
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 0.7163093090057373
+Epoch: 6, Steps: 1 | Train Loss: 0.972 Vali Loss: 1.078 Vali Acc: 0.333 Test Loss: 1.078 Test Acc: 0.333
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 0.7930262088775635
+Epoch: 7, Steps: 1 | Train Loss: 0.720 Vali Loss: 1.078 Vali Acc: 0.267 Test Loss: 1.078 Test Acc: 0.267
+EarlyStopping counter: 3 out of 10
+Epoch: 8 cost time: 0.939892053604126
+Epoch: 8, Steps: 1 | Train Loss: 0.504 Vali Loss: 1.086 Vali Acc: 0.267 Test Loss: 1.086 Test Acc: 0.267
+EarlyStopping counter: 4 out of 10
+Epoch: 9 cost time: 0.7445507049560547
+Epoch: 9, Steps: 1 | Train Loss: 0.350 Vali Loss: 1.105 Vali Acc: 0.267 Test Loss: 1.105 Test Acc: 0.267
+EarlyStopping counter: 5 out of 10
+Epoch: 10 cost time: 0.8409111499786377
+Epoch: 10, Steps: 1 | Train Loss: 0.244 Vali Loss: 1.136 Vali Acc: 0.267 Test Loss: 1.136 Test Acc: 0.267
+EarlyStopping counter: 6 out of 10
+Epoch: 11 cost time: 0.8079771995544434
+Epoch: 11, Steps: 1 | Train Loss: 0.166 Vali Loss: 1.181 Vali Acc: 0.200 Test Loss: 1.181 Test Acc: 0.200
+EarlyStopping counter: 7 out of 10
+Epoch: 12 cost time: 0.7228798866271973
+Epoch: 12, Steps: 1 | Train Loss: 0.109 Vali Loss: 1.236 Vali Acc: 0.267 Test Loss: 1.236 Test Acc: 0.267
+EarlyStopping counter: 8 out of 10
+Epoch: 13 cost time: 1.1931970119476318
+Epoch: 13, Steps: 1 | Train Loss: 0.068 Vali Loss: 1.301 Vali Acc: 0.267 Test Loss: 1.301 Test Acc: 0.267
+EarlyStopping counter: 9 out of 10
+Epoch: 14 cost time: 0.9042177200317383
+Epoch: 14, Steps: 1 | Train Loss: 0.042 Vali Loss: 1.372 Vali Acc: 0.267 Test Loss: 1.372 Test Acc: 0.267
+EarlyStopping counter: 10 out of 10
+Early stopping
+>>>>>>>testing : classification_CLS_StandWalkJump_DLinear_UEA_ftM_sl2500_ll0_pl0_ma13_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([15, 3]) torch.Size([15, 1])
+accuracy:0.4
+model parameter : 12535003
+model size : 47.82MB

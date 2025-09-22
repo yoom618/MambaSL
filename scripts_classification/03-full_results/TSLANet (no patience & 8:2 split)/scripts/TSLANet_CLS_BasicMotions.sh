@@ -1,0 +1,6048 @@
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm256_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm128_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm64_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth3_dm32_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm256_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm128_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm64_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth2_dm32_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm256_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm128_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm64_mlp1_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp3_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp3_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp3_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp3_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp3_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp3_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp3_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp2_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp2_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp2_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp2_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp2_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp2_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp2_ps25.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 3 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp1_ps3.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 5 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp1_ps5.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 8 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp1_ps8.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 10 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp1_ps10.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 15 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp1_ps15.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 20 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp1_ps20.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --data_type uea \
+  --data_name BasicMotions \
+  --model_id CLS_BasicMotions \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 25 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/BasicMotions/BasicMotions_depth1_dm32_mlp1_ps25.log 2>&1
+

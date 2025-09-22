@@ -1,0 +1,9 @@
+data_name,model,seq_len,n_layers,d_model,use_temporal_interaction,temporal_factor_ratio,use_channel_interaction,channel_factor_dim,revIn,norm,individual,acc,model_params,model_size (MB)
+PenDigits,MTSMixer,8,2,1024,True,1,False,0,False,True,False,0.40623213264722696,35014,0.14
+PenDigits,MTSMixer,8,2,1024,False,0,False,0,False,True,False,0.40623213264722696,35014,0.14
+PenDigits,MTSMixer,8,2,512,True,1,False,0,False,True,False,0.41852487135506006,17606,0.07
+PenDigits,MTSMixer,8,2,512,False,0,False,0,False,True,False,0.41852487135506006,17606,0.07
+PenDigits,MTSMixer,8,2,256,True,1,False,0,False,True,False,0.4694110920526015,8902,0.04
+PenDigits,MTSMixer,8,2,256,False,0,False,0,False,True,False,0.4694110920526015,8902,0.04
+PenDigits,MTSMixer,8,2,128,True,1,False,0,False,True,False,0.461978273299028,4550,0.02
+PenDigits,MTSMixer,8,2,128,False,0,False,0,False,True,False,0.461978273299028,4550,0.02

@@ -1,51 +1,34 @@
 import os
 import torch
-from models import Autoformer, Transformer, TimesNet, Nonstationary_Transformer, DLinear, FEDformer, \
-    Informer, LightTS, Reformer, ETSformer, Pyraformer, PatchTST, MICN, Crossformer, FiLM, iTransformer, \
-    Koopa, TiDE, FreTS, TimeMixer, TSMixer, SegRNN, MambaSimple, TemporalFusionTransformer, SCINet, PAttn, TimeXer, \
-    WPMixer, MambaFull, MambaSingleLayer, MTSMixer, GPT4TS, ModernTCN, TimeMixerPP, InterpretGN, TSCMamba
-
+from models import DLinear, LightTS, MTSMixer, \
+    TimesNet, ModernTCN, TimeMixerPP, \
+    FEDformer, ETSformer, Crossformer, PatchTST, GPT4TS, iTransformer, \
+    InterpretGN, MambaSimple, TSCMamba, \
+    MambaSingleLayer
 
 class Exp_Basic(object):
     def __init__(self, args):
         self.args = args
         self.model_dict = {
-            'TimesNet': TimesNet,
-            'Autoformer': Autoformer,
-            'Transformer': Transformer,
-            'Nonstationary_Transformer': Nonstationary_Transformer,
+            ### referred to tslib
             'DLinear': DLinear,
-            'FEDformer': FEDformer,
-            'Informer': Informer,
             'LightTS': LightTS,
-            'Reformer': Reformer,
+            'TimesNet': TimesNet,
+            'FEDformer': FEDformer,
             'ETSformer': ETSformer,
-            'PatchTST': PatchTST,
-            'Pyraformer': Pyraformer,
-            'MICN': MICN,
             'Crossformer': Crossformer,
-            'FiLM': FiLM,
+            'PatchTST': PatchTST,
             'iTransformer': iTransformer,
-            'Koopa': Koopa,
-            'TiDE': TiDE,
-            'FreTS': FreTS,
             'MambaSimple': MambaSimple,
-            'TimeMixer': TimeMixer,
-            'TSMixer': TSMixer,
-            'SegRNN': SegRNN,
-            'TemporalFusionTransformer': TemporalFusionTransformer,
-            "SCINet": SCINet,
-            'PAttn': PAttn,
-            'TimeXer': TimeXer,
-            'WPMixer': WPMixer,
-            'MambaFull': MambaFull,
-            'MambaSingleLayer': MambaSingleLayer,
+            
+            ### newly added (referred to the original repositories)
             'MTSMixer': MTSMixer,
-            'GPT4TS': GPT4TS,
             'ModernTCN': ModernTCN,
             'TimeMixerPP': TimeMixerPP,
+            'GPT4TS': GPT4TS,
             'InterpretGN': InterpretGN,
             'TSCMamba': TSCMamba,
+            'MambaSingleLayer': MambaSingleLayer,  # proposed
         }
         if args.model == 'Mamba':
             print('Please make sure you have successfully installed mamba_ssm')

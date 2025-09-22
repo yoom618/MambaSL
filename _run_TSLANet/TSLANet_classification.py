@@ -1,3 +1,6 @@
+# CHANGED: Add EarlyStopping callback & add patience argument to match with time-series-library pipeline
+# CHANGED: in model training stage, we monitor 'val_acc' instead of 'val_loss' to match with time-series-library pipeline
+# CHANGED: add seed argument for reproducibility
 import argparse
 import time
 import datetime
@@ -5,6 +8,7 @@ import os
 
 import lightning as L
 from lightning.pytorch.callbacks import LearningRateMonitor, ModelCheckpoint, TQDMProgressBar
+from lightning.pytorch.callbacks.early_stopping import EarlyStopping  ## Added to match with time-series-library pipeline
 
 import numpy as np
 import torch
@@ -219,7 +223,7 @@ class model_pretraining(L.LightningModule):
         return self.model(x)
 
     def configure_optimizers(self):
-        optimizer = optim.AdamW(self.parameters(), lr=args.pretrain_lr, weight_decay=1e-4)
+        optimizer = optim.AdamW(self.parameters(), lr=args.pretrain_lr, weight_decay=args.weight_decay)
         return optimizer
 
     def _calculate_loss(self, batch, mode="train"):
@@ -236,13 +240,16 @@ class model_pretraining(L.LightningModule):
         return loss
 
     def training_step(self, batch, batch_idx):
+        self.model.train()  # Ensure the model is in training mode
         loss = self._calculate_loss(batch, mode="train")
         return loss
 
     def validation_step(self, batch, batch_idx):
+        self.model.eval()  # Ensure the model is in evaluation mode
         self._calculate_loss(batch, mode="val")
 
     def test_step(self, batch, batch_idx):
+        self.model.eval()  # Ensure the model is in evaluation mode
         self._calculate_loss(batch, mode="test")
 
     def on_train_batch_start(self, batch, batch_idx):
@@ -275,7 +282,7 @@ class model_training(L.LightningModule):
         return self.model(x)
 
     def configure_optimizers(self):
-        optimizer = optim.AdamW(self.parameters(), lr=args.train_lr, weight_decay=1e-4)
+        optimizer = optim.AdamW(self.parameters(), lr=args.train_lr, weight_decay=args.weight_decay)
         return optimizer
 
     def _calculate_loss(self, batch, mode="train"):
@@ -331,6 +338,7 @@ def pretrain_model():
             pretrain_checkpoint_callback,
             LearningRateMonitor("epoch"),
             TQDMProgressBar(refresh_rate=500),
+            EarlyStopping(monitor='val_loss', patience=args.patience, mode='min')  # ADDED to match with time-series-library pipeline
         ],
     )
     trainer.logger._log_graph = False  # If True, we plot the computation graph in tensorboard
@@ -352,7 +360,8 @@ def train_model(pretrained_model_path):
         callbacks=[
             checkpoint_callback,
             LearningRateMonitor("epoch"),
-            TQDMProgressBar(refresh_rate=500)
+            TQDMProgressBar(refresh_rate=500),
+            EarlyStopping(monitor='val_acc', patience=args.patience, mode='max')  # ADDED to match with time-series-library pipeline
         ],
     )
     trainer.logger._log_graph = False  # If True, we plot the computation graph in tensorboard
@@ -397,7 +406,9 @@ if __name__ == '__main__':
     parser.add_argument('--batch_size', type=int, default=16)
     parser.add_argument('--train_lr', type=float, default=1e-3)
     parser.add_argument('--pretrain_lr', type=float, default=1e-3)
-    parser.add_argument('--seed', type=int, default=42)
+    parser.add_argument('--weight_decay', type=float, default=1e-4)
+    parser.add_argument('--seed', type=int, default=42)  # ADDED for reproducibility
+    parser.add_argument('--patience', type=int, default=3, help='early stopping patience')  # ADDED to match with time-series-library pipeline
 
     # Model parameters:
     parser.add_argument('--depth', type=int, default=2)
@@ -436,8 +447,8 @@ if __name__ == '__main__':
     checkpoint_callback = ModelCheckpoint(
         dirpath=CHECKPOINT_PATH,
         save_top_k=1,
-        monitor='val_loss',
-        mode='min'
+        monitor='val_acc',  # original code: monitor='val_loss'. changed to match with time-series-library pipeline
+        mode='max'  # original code: mode='min'
     )
 
     # Save a copy of this file and configs file as a backup

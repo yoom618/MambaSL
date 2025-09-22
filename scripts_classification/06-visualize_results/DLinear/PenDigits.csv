@@ -1,0 +1,5 @@
+data_name,model,seq_len,moving_average,moving_average_ratio,acc,model_params,model_size (MB)
+PenDigits,DLinear,8,4,0.5,0.9248141795311606,314,0.0
+PenDigits,DLinear,8,3,0.375,0.9248141795311606,314,0.0
+PenDigits,DLinear,8,2,0.25,0.9242424242424242,314,0.0
+PenDigits,DLinear,8,1,0.125,0.9236706689536878,314,0.0

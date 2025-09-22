@@ -1,0 +1,16 @@
+data_name,model,seq_len,moving_average,moving_average_ratio,acc,model_params,model_size (MB)
+MotorImagery,DLinear,3000,1500,0.5,0.61,18390002,70.16
+MotorImagery,DLinear,3000,1350,0.45,0.64,18390002,70.16
+MotorImagery,DLinear,3000,1200,0.4,0.57,18390002,70.16
+MotorImagery,DLinear,3000,1050,0.35,0.57,18390002,70.16
+MotorImagery,DLinear,3000,900,0.3,0.56,18390002,70.16
+MotorImagery,DLinear,3000,750,0.25,0.62,18390002,70.16
+MotorImagery,DLinear,3000,600,0.2,0.62,18390002,70.16
+MotorImagery,DLinear,3000,450,0.15,0.57,18390002,70.16
+MotorImagery,DLinear,3000,300,0.1,0.64,18390002,70.16
+MotorImagery,DLinear,3000,150,0.05,0.6,18390002,70.16
+MotorImagery,DLinear,3000,120,0.04,0.58,18390002,70.16
+MotorImagery,DLinear,3000,90,0.03,0.57,18390002,70.16
+MotorImagery,DLinear,3000,60,0.02,0.6,18390002,70.16
+MotorImagery,DLinear,3000,30,0.01,0.59,18390002,70.16
+MotorImagery,DLinear,3000,15,0.005,0.62,18390002,70.16

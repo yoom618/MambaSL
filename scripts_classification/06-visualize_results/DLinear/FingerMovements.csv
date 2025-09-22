@@ -1,0 +1,13 @@
+data_name,model,seq_len,moving_average,moving_average_ratio,acc,model_params,model_size (MB)
+FingerMovements,DLinear,50,25,0.5,0.56,7902,0.03
+FingerMovements,DLinear,50,23,0.46,0.62,7902,0.03
+FingerMovements,DLinear,50,20,0.4,0.62,7902,0.03
+FingerMovements,DLinear,50,18,0.36,0.53,7902,0.03
+FingerMovements,DLinear,50,15,0.3,0.53,7902,0.03
+FingerMovements,DLinear,50,13,0.26,0.53,7902,0.03
+FingerMovements,DLinear,50,10,0.2,0.53,7902,0.03
+FingerMovements,DLinear,50,8,0.16,0.53,7902,0.03
+FingerMovements,DLinear,50,5,0.1,0.53,7902,0.03
+FingerMovements,DLinear,50,3,0.06,0.54,7902,0.03
+FingerMovements,DLinear,50,2,0.04,0.53,7902,0.03
+FingerMovements,DLinear,50,1,0.02,0.52,7902,0.03

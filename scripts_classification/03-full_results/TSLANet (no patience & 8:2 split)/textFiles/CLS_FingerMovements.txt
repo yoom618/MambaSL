@@ -1,0 +1,1008 @@
+FingerMovements_dim256_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_07_59  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.6190476417541504}, mf1:{'test': 0.4461260735988617, 'val': 0.3607957661151886}
+
+FingerMovements_dim256_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_12_21  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4099999964237213, 'val': 0.6190476417541504}, mf1:{'test': 0.40120601654052734, 'val': 0.3769475519657135}
+
+FingerMovements_dim256_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_15_59  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.4285714328289032}, mf1:{'test': 0.3639237880706787, 'val': 0.24912972748279572}
+
+FingerMovements_dim256_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_19_20  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.5714285969734192}, mf1:{'test': 0.4766016900539398, 'val': 0.36147749423980713}
+
+FingerMovements_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_22_54  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5400000214576721, 'val': 0.5873016119003296}, mf1:{'test': 0.49726852774620056, 'val': 0.357151061296463}
+
+FingerMovements_dim256_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_26_23  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4300000071525574, 'val': 0.60317462682724}, mf1:{'test': 0.41842979192733765, 'val': 0.39399453997612}
+
+FingerMovements_dim256_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_29_44  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.44999998807907104, 'val': 0.4920634925365448}, mf1:{'test': 0.4162459075450897, 'val': 0.3224509060382843}
+
+FingerMovements_dim256_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_32_55  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.4920634925365448}, mf1:{'test': 0.4931164085865021, 'val': 0.324429988861084}
+
+FingerMovements_dim256_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_35_41  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.4761904776096344}, mf1:{'test': 0.43353816866874695, 'val': 0.2934395968914032}
+
+FingerMovements_dim256_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_38_30  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.5555555820465088}, mf1:{'test': 0.4558045268058777, 'val': 0.3378449082374573}
+
+FingerMovements_dim256_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_41_14  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.5873016119003296}, mf1:{'test': 0.47189033031463623, 'val': 0.41042137145996094}
+
+FingerMovements_dim256_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_44_20  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5299999713897705, 'val': 0.5396825671195984}, mf1:{'test': 0.47221633791923523, 'val': 0.322842538356781}
+
+FingerMovements_dim256_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_47_20  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5400000214576721, 'val': 0.5079365372657776}, mf1:{'test': 0.5178212523460388, 'val': 0.3276998698711395}
+
+FingerMovements_dim256_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_50_26  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.44999998807907104, 'val': 0.5079365372657776}, mf1:{'test': 0.4258650243282318, 'val': 0.3512273132801056}
+
+FingerMovements_dim256_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_53_22  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.5555555820465088}, mf1:{'test': 0.4984714388847351, 'val': 0.3849931061267853}
+
+FingerMovements_dim256_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_56_17  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.5396825671195984}, mf1:{'test': 0.4904300272464752, 'val': 0.3418259918689728}
+
+FingerMovements_dim256_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_59_39  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.47999998927116394, 'val': 0.5555555820465088}, mf1:{'test': 0.4130236804485321, 'val': 0.34473636746406555}
+
+FingerMovements_dim256_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_02_46  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4099999964237213, 'val': 0.6190476417541504}, mf1:{'test': 0.3902819752693176, 'val': 0.38202688097953796}
+
+FingerMovements_dim256_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_05_31  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.550000011920929, 'val': 0.5873016119003296}, mf1:{'test': 0.4936694800853729, 'val': 0.3468018174171448}
+
+FingerMovements_dim256_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_08_23  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.523809552192688}, mf1:{'test': 0.4685201346874237, 'val': 0.3216633200645447}
+
+FingerMovements_dim256_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_11_02  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.5079365372657776}, mf1:{'test': 0.33035650849342346, 'val': 0.5070028305053711}
+
+FingerMovements_dim128_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_13_40  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.6190476417541504}, mf1:{'test': 0.4983210265636444, 'val': 0.3769475817680359}
+
+FingerMovements_dim128_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_16_33  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4300000071525574, 'val': 0.4920634925365448}, mf1:{'test': 0.33418357372283936, 'val': 0.28550010919570923}
+
+FingerMovements_dim128_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_19_33  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4399999976158142, 'val': 0.523809552192688}, mf1:{'test': 0.40084269642829895, 'val': 0.3411768972873688}
+
+FingerMovements_dim128_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_21_58  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.5555555820465088}, mf1:{'test': 0.4156002402305603, 'val': 0.342166006565094}
+
+FingerMovements_dim128_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_24_47  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.5079365372657776}, mf1:{'test': 0.436722069978714, 'val': 0.3353884220123291}
+
+FingerMovements_dim128_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_27_17  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.44999998807907104, 'val': 0.5873016119003296}, mf1:{'test': 0.43381232023239136, 'val': 0.36508432030677795}
+
+FingerMovements_dim128_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_30_07  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.46000000834465027, 'val': 0.5079365372657776}, mf1:{'test': 0.40152254700660706, 'val': 0.3443257808685303}
+
+FingerMovements_dim128_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_32_57  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.46000000834465027, 'val': 0.6190476417541504}, mf1:{'test': 0.4404233992099762, 'val': 0.40669068694114685}
+
+FingerMovements_dim128_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_35_25  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.5714285969734192}, mf1:{'test': 0.40609437227249146, 'val': 0.452269583940506}
+
+FingerMovements_dim128_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_39_40  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.550000011920929, 'val': 0.5714285969734192}, mf1:{'test': 0.5053252577781677, 'val': 0.38747528195381165}
+
+FingerMovements_dim128_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_42_58  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.5079365372657776}, mf1:{'test': 0.445104718208313, 'val': 0.3296445310115814}
+
+FingerMovements_dim128_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_45_44  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.5079365372657776}, mf1:{'test': 0.47506290674209595, 'val': 0.33443060517311096}
+
+FingerMovements_dim128_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_49_07  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5400000214576721, 'val': 0.6507936716079712}, mf1:{'test': 0.510572075843811, 'val': 0.3933098316192627}
+
+FingerMovements_dim128_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_53_14  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5699999928474426, 'val': 0.5079365372657776}, mf1:{'test': 0.5473471283912659, 'val': 0.3661155700683594}
+
+FingerMovements_dim128_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_56_32  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.5396825671195984}, mf1:{'test': 0.43731093406677246, 'val': 0.3408079743385315}
+
+FingerMovements_dim128_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_58_49  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.5396825671195984}, mf1:{'test': 0.4380660355091095, 'val': 0.35003018379211426}
+
+FingerMovements_dim128_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_01_50  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.46000000834465027, 'val': 0.5555555820465088}, mf1:{'test': 0.43887245655059814, 'val': 0.3541119396686554}
+
+FingerMovements_dim128_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_06_29  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.5396825671195984}, mf1:{'test': 0.490085631608963, 'val': 0.347359299659729}
+
+FingerMovements_dim128_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_09_05  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.5396825671195984}, mf1:{'test': 0.3939163088798523, 'val': 0.31651848554611206}
+
+FingerMovements_dim128_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_11_34  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5699999928474426, 'val': 0.6666666865348816}, mf1:{'test': 0.5428734421730042, 'val': 0.39592888951301575}
+
+FingerMovements_dim128_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_14_07  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.44999998807907104, 'val': 0.6349206566810608}, mf1:{'test': 0.428948312997818, 'val': 0.422514408826828}
+
+FingerMovements_dim64_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_16_33  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.47999998927116394, 'val': 0.60317462682724}, mf1:{'test': 0.4593409597873688, 'val': 0.39307573437690735}
+
+FingerMovements_dim64_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_20_15  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.49000000953674316, 'val': 0.6349206566810608}, mf1:{'test': 0.4585321843624115, 'val': 0.38811448216438293}
+
+FingerMovements_dim64_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_22_28  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.47999998927116394, 'val': 0.5396825671195984}, mf1:{'test': 0.43612217903137207, 'val': 0.3465518653392792}
+
+FingerMovements_dim64_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_27_03  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5400000214576721, 'val': 0.7142857313156128}, mf1:{'test': 0.5195205807685852, 'val': 0.4163936972618103}
+
+FingerMovements_dim64_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_33_39  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4399999976158142, 'val': 0.5714285969734192}, mf1:{'test': 0.4283079504966736, 'val': 0.38074827194213867}
+
+FingerMovements_dim64_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_35_43  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.46000000834465027, 'val': 0.60317462682724}, mf1:{'test': 0.4300280511379242, 'val': 0.37399545311927795}
+
+FingerMovements_dim64_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_38_13  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4399999976158142, 'val': 0.523809552192688}, mf1:{'test': 0.4215284585952759, 'val': 0.35961174964904785}
+
+FingerMovements_dim64_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_40_14  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4300000071525574, 'val': 0.5079365372657776}, mf1:{'test': 0.3931262195110321, 'val': 0.3186948299407959}
+
+FingerMovements_dim64_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_42_28  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5199999809265137, 'val': 0.60317462682724}, mf1:{'test': 0.4836672842502594, 'val': 0.3692508935928345}
+
+FingerMovements_dim64_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_44_32  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4300000071525574, 'val': 0.60317462682724}, mf1:{'test': 0.41848957538604736, 'val': 0.365946501493454}
+
+FingerMovements_dim64_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_48_02  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.5714285969734192}, mf1:{'test': 0.46085652709007263, 'val': 0.35861435532569885}
+
+FingerMovements_dim64_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_50_47  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.47999998927116394, 'val': 0.60317462682724}, mf1:{'test': 0.4592394530773163, 'val': 0.3706960082054138}
+
+FingerMovements_dim64_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_53_00  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5899999737739563, 'val': 0.60317462682724}, mf1:{'test': 0.5645402669906616, 'val': 0.36801326274871826}
+
+FingerMovements_dim64_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_54_56  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.5873016119003296}, mf1:{'test': 0.4482153058052063, 'val': 0.3683348298072815}
+
+FingerMovements_dim64_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_56_50  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.46000000834465027, 'val': 0.5555555820465088}, mf1:{'test': 0.4350438714027405, 'val': 0.35483747720718384}
+
+FingerMovements_dim64_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_58_55  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5199999809265137, 'val': 0.5396825671195984}, mf1:{'test': 0.5096100568771362, 'val': 0.34952235221862793}
+
+FingerMovements_dim64_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_01_12  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.5873016119003296}, mf1:{'test': 0.4918886423110962, 'val': 0.36615189909935}
+
+FingerMovements_dim64_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_03_29  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.44999998807907104, 'val': 0.523809552192688}, mf1:{'test': 0.41225165128707886, 'val': 0.3219955265522003}
+
+FingerMovements_dim64_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_05_38  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.4761904776096344}, mf1:{'test': 0.4361378848552704, 'val': 0.3025376498699188}
+
+FingerMovements_dim64_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_08_00  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5699999928474426, 'val': 0.5396825671195984}, mf1:{'test': 0.5431223511695862, 'val': 0.3461702764034271}
+
+FingerMovements_dim64_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_10_09  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4300000071525574, 'val': 0.5079365372657776}, mf1:{'test': 0.4084101617336273, 'val': 0.334416002035141}
+
+FingerMovements_dim32_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_12_19  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.6190476417541504}, mf1:{'test': 0.4480963945388794, 'val': 0.37681424617767334}
+
+FingerMovements_dim32_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_14_22  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.46000000834465027, 'val': 0.5555555820465088}, mf1:{'test': 0.4378201961517334, 'val': 0.34348931908607483}
+
+FingerMovements_dim32_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_16_34  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.46000000834465027, 'val': 0.5714285969734192}, mf1:{'test': 0.4319521188735962, 'val': 0.3444497883319855}
+
+FingerMovements_dim32_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_18_42  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.682539701461792}, mf1:{'test': 0.4668865501880646, 'val': 0.43453431129455566}
+
+FingerMovements_dim32_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_20_54  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5400000214576721, 'val': 0.5873016119003296}, mf1:{'test': 0.4837024211883545, 'val': 0.35309818387031555}
+
+FingerMovements_dim32_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_23_02  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.44999998807907104, 'val': 0.5555555820465088}, mf1:{'test': 0.43882614374160767, 'val': 0.3557738661766052}
+
+FingerMovements_dim32_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_25_10  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5099999904632568, 'val': 0.6349206566810608}, mf1:{'test': 0.45668184757232666, 'val': 0.3820975124835968}
+
+FingerMovements_dim32_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_27_10  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5, 'val': 0.6349206566810608}, mf1:{'test': 0.4739190340042114, 'val': 0.4157218635082245}
+
+FingerMovements_dim32_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_29_17  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5199999809265137, 'val': 0.6190476417541504}, mf1:{'test': 0.49285563826560974, 'val': 0.3799612820148468}
+
+FingerMovements_dim32_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_31_20  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5199999809265137, 'val': 0.5396825671195984}, mf1:{'test': 0.4894023835659027, 'val': 0.3361372649669647}
+
+FingerMovements_dim32_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_33_19  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.5299999713897705, 'val': 0.5714285969734192}, mf1:{'test': 0.5002861022949219, 'val': 0.38252028822898865}
+
+FingerMovements_dim32_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_35_36  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4300000071525574, 'val': 0.5873016119003296}, mf1:{'test': 0.41422054171562195, 'val': 0.3630061149597168}
+
+FingerMovements_dim32_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_37_32  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.5873016119003296}, mf1:{'test': 0.4455483555793762, 'val': 0.3674298822879791}
+
+FingerMovements_dim32_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_39_21  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.46000000834465027, 'val': 0.6349206566810608}, mf1:{'test': 0.43065139651298523, 'val': 0.39986100792884827}
+
+FingerMovements_dim32_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_41_06  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.49000000953674316, 'val': 0.6984127163887024}, mf1:{'test': 0.4757443368434906, 'val': 0.43990930914878845}
+
+FingerMovements_dim32_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_42_59  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.44999998807907104, 'val': 0.5555555820465088}, mf1:{'test': 0.3409094512462616, 'val': 0.33630868792533875}
+
+FingerMovements_dim32_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_44_44  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.49000000953674316, 'val': 0.5714285969734192}, mf1:{'test': 0.46914660930633545, 'val': 0.3934010863304138}
+
+FingerMovements_dim32_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_46_40  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.44999998807907104, 'val': 0.4761904776096344}, mf1:{'test': 0.41945716738700867, 'val': 0.30472084879875183}
+
+FingerMovements_dim32_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_48_41  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.47999998927116394, 'val': 0.6507936716079712}, mf1:{'test': 0.45784705877304077, 'val': 0.3930263817310333}
+
+FingerMovements_dim32_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_50_42  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.5714285969734192}, mf1:{'test': 0.44531601667404175, 'val': 0.3956589996814728}
+
+FingerMovements_dim32_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_52_50  
+TSLANet_FingerMovements_l_3  
+acc:{'test': 0.4699999988079071, 'val': 0.6349206566810608}, mf1:{'test': 0.4241143465042114, 'val': 0.37738800048828125}
+
+FingerMovements_dim256_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_54_56  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.4920634925365448}, mf1:{'test': 0.3371121287345886, 'val': 0.2887550890445709}
+
+FingerMovements_dim256_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_56_59  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4399999976158142, 'val': 0.6507936716079712}, mf1:{'test': 0.41667601466178894, 'val': 0.3933098316192627}
+
+FingerMovements_dim256_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_59_14  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4099999964237213, 'val': 0.523809552192688}, mf1:{'test': 0.3768009543418884, 'val': 0.3325427174568176}
+
+FingerMovements_dim256_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_01_25  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.44999998807907104, 'val': 0.5396825671195984}, mf1:{'test': 0.39764031767845154, 'val': 0.3287520706653595}
+
+FingerMovements_dim256_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_03_17  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5, 'val': 0.6349206566810608}, mf1:{'test': 0.44914284348487854, 'val': 0.37831443548202515}
+
+FingerMovements_dim256_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_05_21  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.47999998927116394, 'val': 0.5714285969734192}, mf1:{'test': 0.44154462218284607, 'val': 0.3620832562446594}
+
+FingerMovements_dim256_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_07_16  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4399999976158142, 'val': 0.5396825671195984}, mf1:{'test': 0.40965282917022705, 'val': 0.3500264883041382}
+
+FingerMovements_dim256_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_09_05  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.47999998927116394, 'val': 0.60317462682724}, mf1:{'test': 0.47024691104888916, 'val': 0.375254362821579}
+
+FingerMovements_dim256_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_10_58  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.47999998927116394, 'val': 0.5555555820465088}, mf1:{'test': 0.4649142324924469, 'val': 0.3481042683124542}
+
+FingerMovements_dim256_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_12_49  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.44999998807907104, 'val': 0.6507936716079712}, mf1:{'test': 0.4398954510688782, 'val': 0.4159161150455475}
+
+FingerMovements_dim256_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_14_34  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4399999976158142, 'val': 0.6190476417541504}, mf1:{'test': 0.4085600972175598, 'val': 0.405916303396225}
+
+FingerMovements_dim256_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_16_16  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.60317462682724}, mf1:{'test': 0.43098992109298706, 'val': 0.3535187840461731}
+
+FingerMovements_dim256_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_18_12  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.682539701461792}, mf1:{'test': 0.43558433651924133, 'val': 0.40258556604385376}
+
+FingerMovements_dim256_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_20_00  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.41999998688697815, 'val': 0.4761904776096344}, mf1:{'test': 0.38377082347869873, 'val': 0.3093915283679962}
+
+FingerMovements_dim256_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_23_22  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.47999998927116394, 'val': 0.5079365372657776}, mf1:{'test': 0.46899932622909546, 'val': 0.334416002035141}
+
+FingerMovements_dim256_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_25_26  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4699999988079071, 'val': 0.5873016119003296}, mf1:{'test': 0.4608736038208008, 'val': 0.3677290678024292}
+
+FingerMovements_dim256_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_27_12  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.60317462682724}, mf1:{'test': 0.4396288990974426, 'val': 0.3804576098918915}
+
+FingerMovements_dim256_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_28_54  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5400000214576721, 'val': 0.60317462682724}, mf1:{'test': 0.5057313442230225, 'val': 0.3735133409500122}
+
+FingerMovements_dim256_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_30_38  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.550000011920929, 'val': 0.5714285969734192}, mf1:{'test': 0.5284531712532043, 'val': 0.3615623414516449}
+
+FingerMovements_dim256_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_32_18  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4399999976158142, 'val': 0.6666666865348816}, mf1:{'test': 0.41299980878829956, 'val': 0.5110712051391602}
+
+FingerMovements_dim256_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_34_02  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.47999998927116394, 'val': 0.60317462682724}, mf1:{'test': 0.4596886932849884, 'val': 0.37272578477859497}
+
+FingerMovements_dim128_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_35_47  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.44999998807907104, 'val': 0.6984127163887024}, mf1:{'test': 0.436271071434021, 'val': 0.4591786563396454}
+
+FingerMovements_dim128_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_37_24  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.49000000953674316, 'val': 0.5555555820465088}, mf1:{'test': 0.4692457318305969, 'val': 0.34895405173301697}
+
+FingerMovements_dim128_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_39_07  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4300000071525574, 'val': 0.5714285969734192}, mf1:{'test': 0.3892987072467804, 'val': 0.36236897110939026}
+
+FingerMovements_dim128_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_40_49  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.550000011920929, 'val': 0.5396825671195984}, mf1:{'test': 0.5060003399848938, 'val': 0.3388633131980896}
+
+FingerMovements_dim128_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_42_23  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4399999976158142, 'val': 0.5079365372657776}, mf1:{'test': 0.3804345726966858, 'val': 0.3051612675189972}
+
+FingerMovements_dim128_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_44_02  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5, 'val': 0.5873016119003296}, mf1:{'test': 0.48142457008361816, 'val': 0.3683348298072815}
+
+FingerMovements_dim128_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_45_36  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5, 'val': 0.5079365372657776}, mf1:{'test': 0.4756689965724945, 'val': 0.3331463038921356}
+
+FingerMovements_dim128_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_47_07  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.49000000953674316, 'val': 0.60317462682724}, mf1:{'test': 0.48020949959754944, 'val': 0.36086222529411316}
+
+FingerMovements_dim128_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_48_44  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.49000000953674316, 'val': 0.5079365372657776}, mf1:{'test': 0.4445827007293701, 'val': 0.31043389439582825}
+
+FingerMovements_dim128_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_50_19  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5299999713897705, 'val': 0.7142857313156128}, mf1:{'test': 0.5000628232955933, 'val': 0.4502122402191162}
+
+FingerMovements_dim128_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_51_56  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5, 'val': 0.60317462682724}, mf1:{'test': 0.46718546748161316, 'val': 0.4140366315841675}
+
+FingerMovements_dim128_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_53_34  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4699999988079071, 'val': 0.682539701461792}, mf1:{'test': 0.44268909096717834, 'val': 0.45095396041870117}
+
+FingerMovements_dim128_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_55_22  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.5873016119003296}, mf1:{'test': 0.4187852144241333, 'val': 0.3795780837535858}
+
+FingerMovements_dim128_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_56_56  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5099999904632568, 'val': 0.6349206566810608}, mf1:{'test': 0.46880263090133667, 'val': 0.3830237090587616}
+
+FingerMovements_dim128_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_58_30  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.44999998807907104, 'val': 0.6507936716079712}, mf1:{'test': 0.43299347162246704, 'val': 0.39319029450416565}
+
+FingerMovements_dim128_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_00_04  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.682539701461792}, mf1:{'test': 0.4465530514717102, 'val': 0.4196513295173645}
+
+FingerMovements_dim128_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_01_42  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4399999976158142, 'val': 0.4920634925365448}, mf1:{'test': 0.4152941107749939, 'val': 0.3116162419319153}
+
+FingerMovements_dim128_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_03_21  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4699999988079071, 'val': 0.3968254029750824}, mf1:{'test': 0.45396286249160767, 'val': 0.27750536799430847}
+
+FingerMovements_dim128_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_05_03  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.47999998927116394, 'val': 0.6349206566810608}, mf1:{'test': 0.45712044835090637, 'val': 0.4107877016067505}
+
+FingerMovements_dim128_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_06_45  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5099999904632568, 'val': 0.5396825671195984}, mf1:{'test': 0.4210134446620941, 'val': 0.32838577032089233}
+
+FingerMovements_dim128_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_08_20  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.5396825671195984}, mf1:{'test': 0.41213443875312805, 'val': 0.34823504090309143}
+
+FingerMovements_dim64_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_10_00  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.44999998807907104, 'val': 0.5714285969734192}, mf1:{'test': 0.40442192554473877, 'val': 0.346535325050354}
+
+FingerMovements_dim64_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_11_42  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5099999904632568, 'val': 0.5555555820465088}, mf1:{'test': 0.4377603530883789, 'val': 0.3406051993370056}
+
+FingerMovements_dim64_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_13_20  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4699999988079071, 'val': 0.523809552192688}, mf1:{'test': 0.3252604603767395, 'val': 0.4048673212528229}
+
+FingerMovements_dim64_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_14_53  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.47999998927116394, 'val': 0.460317462682724}, mf1:{'test': 0.44460299611091614, 'val': 0.30020299553871155}
+
+FingerMovements_dim64_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_16_30  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5, 'val': 0.5079365372657776}, mf1:{'test': 0.4778752028942108, 'val': 0.3553631603717804}
+
+FingerMovements_dim64_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_18_13  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5, 'val': 0.5396825671195984}, mf1:{'test': 0.41153937578201294, 'val': 0.432880699634552}
+
+FingerMovements_dim64_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_19_46  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4399999976158142, 'val': 0.5079365372657776}, mf1:{'test': 0.3997173607349396, 'val': 0.316310852766037}
+
+FingerMovements_dim64_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_21_28  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.49000000953674316, 'val': 0.6507936716079712}, mf1:{'test': 0.4765510857105255, 'val': 0.428466796875}
+
+FingerMovements_dim64_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_23_04  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.49000000953674316, 'val': 0.460317462682724}, mf1:{'test': 0.41663655638694763, 'val': 0.26746228337287903}
+
+FingerMovements_dim64_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_24_45  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.49000000953674316, 'val': 0.5079365372657776}, mf1:{'test': 0.3386431038379669, 'val': 0.2755959928035736}
+
+FingerMovements_dim64_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_26_21  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.47999998927116394, 'val': 0.5873016119003296}, mf1:{'test': 0.45795300602912903, 'val': 0.4060060381889343}
+
+FingerMovements_dim64_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_27_58  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.49000000953674316, 'val': 0.6190476417541504}, mf1:{'test': 0.4654043912887573, 'val': 0.38098642230033875}
+
+FingerMovements_dim64_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_29_31  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5799999833106995, 'val': 0.5873016119003296}, mf1:{'test': 0.5564780235290527, 'val': 0.4159855544567108}
+
+FingerMovements_dim64_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_31_06  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4699999988079071, 'val': 0.523809552192688}, mf1:{'test': 0.4476522207260132, 'val': 0.3435565233230591}
+
+FingerMovements_dim64_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_32_50  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4399999976158142, 'val': 0.5714285969734192}, mf1:{'test': 0.4202951192855835, 'val': 0.3517983555793762}
+
+FingerMovements_dim64_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_34_31  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.5873016119003296}, mf1:{'test': 0.4289904832839966, 'val': 0.37570738792419434}
+
+FingerMovements_dim64_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_36_04  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5, 'val': 0.5714285969734192}, mf1:{'test': 0.3971494436264038, 'val': 0.3343123197555542}
+
+FingerMovements_dim64_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_37_36  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.49000000953674316, 'val': 0.682539701461792}, mf1:{'test': 0.4631369113922119, 'val': 0.4337501525878906}
+
+FingerMovements_dim64_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_39_11  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5400000214576721, 'val': 0.682539701461792}, mf1:{'test': 0.5019193887710571, 'val': 0.43359139561653137}
+
+FingerMovements_dim64_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_40_47  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.5079365372657776}, mf1:{'test': 0.42059943079948425, 'val': 0.3182353377342224}
+
+FingerMovements_dim64_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_42_15  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5600000023841858, 'val': 0.60317462682724}, mf1:{'test': 0.5293464064598083, 'val': 0.37479132413864136}
+
+FingerMovements_dim32_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_43_46  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5099999904632568, 'val': 0.5714285969734192}, mf1:{'test': 0.39727604389190674, 'val': 0.4425307512283325}
+
+FingerMovements_dim32_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_45_09  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4399999976158142, 'val': 0.5079365372657776}, mf1:{'test': 0.3742227852344513, 'val': 0.2973816692829132}
+
+FingerMovements_dim32_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_46_38  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.682539701461792}, mf1:{'test': 0.41805168986320496, 'val': 0.3997051417827606}
+
+FingerMovements_dim32_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_48_09  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.523809552192688}, mf1:{'test': 0.32845357060432434, 'val': 0.4195519983768463}
+
+FingerMovements_dim32_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_49_31  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5, 'val': 0.5714285969734192}, mf1:{'test': 0.4827585518360138, 'val': 0.3822346031665802}
+
+FingerMovements_dim32_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_50_57  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.47999998927116394, 'val': 0.5555555820465088}, mf1:{'test': 0.45945098996162415, 'val': 0.35486897826194763}
+
+FingerMovements_dim32_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_52_22  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.550000011920929, 'val': 0.5079365372657776}, mf1:{'test': 0.5292338728904724, 'val': 0.34747475385665894}
+
+FingerMovements_dim32_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_53_51  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5799999833106995, 'val': 0.60317462682724}, mf1:{'test': 0.5530336499214172, 'val': 0.36801883578300476}
+
+FingerMovements_dim32_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_55_16  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5600000023841858, 'val': 0.5873016119003296}, mf1:{'test': 0.49624958634376526, 'val': 0.36152052879333496}
+
+FingerMovements_dim32_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_56_47  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5299999713897705, 'val': 0.6349206566810608}, mf1:{'test': 0.4942411184310913, 'val': 0.3776882290840149}
+
+FingerMovements_dim32_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_58_21  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5099999904632568, 'val': 0.5396825671195984}, mf1:{'test': 0.4847329258918762, 'val': 0.3503289818763733}
+
+FingerMovements_dim32_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_59_47  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.44999998807907104, 'val': 0.5873016119003296}, mf1:{'test': 0.4371391236782074, 'val': 0.38432762026786804}
+
+FingerMovements_dim32_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_01_08  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4699999988079071, 'val': 0.60317462682724}, mf1:{'test': 0.43353331089019775, 'val': 0.35996583104133606}
+
+FingerMovements_dim32_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_02_43  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4699999988079071, 'val': 0.5873016119003296}, mf1:{'test': 0.4462180435657501, 'val': 0.381640762090683}
+
+FingerMovements_dim32_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_04_09  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5299999713897705, 'val': 0.5396825671195984}, mf1:{'test': 0.5183812975883484, 'val': 0.3746492266654968}
+
+FingerMovements_dim32_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_05_32  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4300000071525574, 'val': 0.523809552192688}, mf1:{'test': 0.3931261897087097, 'val': 0.3375532925128937}
+
+FingerMovements_dim32_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_06_57  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.49000000953674316, 'val': 0.60317462682724}, mf1:{'test': 0.4510646164417267, 'val': 0.3659059405326843}
+
+FingerMovements_dim32_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_08_18  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.46000000834465027, 'val': 0.5396825671195984}, mf1:{'test': 0.4371988773345947, 'val': 0.34943753480911255}
+
+FingerMovements_dim32_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_09_40  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5, 'val': 0.5873016119003296}, mf1:{'test': 0.4649271070957184, 'val': 0.400915265083313}
+
+FingerMovements_dim32_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_11_03  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.5099999904632568, 'val': 0.5714285969734192}, mf1:{'test': 0.48664751648902893, 'val': 0.35503074526786804}
+
+FingerMovements_dim32_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_12_24  
+TSLANet_FingerMovements_l_2  
+acc:{'test': 0.4699999988079071, 'val': 0.6190476417541504}, mf1:{'test': 0.4143783152103424, 'val': 0.3706464171409607}
+
+FingerMovements_dim256_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_13_46  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5099999904632568, 'val': 0.6349206566810608}, mf1:{'test': 0.44948139786720276, 'val': 0.4121851921081543}
+
+FingerMovements_dim256_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_15_05  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5299999713897705, 'val': 0.5714285969734192}, mf1:{'test': 0.45315951108932495, 'val': 0.3413129448890686}
+
+FingerMovements_dim256_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_16_26  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.46000000834465027, 'val': 0.60317462682724}, mf1:{'test': 0.444142609834671, 'val': 0.366542786359787}
+
+FingerMovements_dim256_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_17_43  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4300000071525574, 'val': 0.523809552192688}, mf1:{'test': 0.41788238286972046, 'val': 0.31926998496055603}
+
+FingerMovements_dim256_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_19_01  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.4761904776096344}, mf1:{'test': 0.36900433897972107, 'val': 0.287570059299469}
+
+FingerMovements_dim256_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_20_22  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5400000214576721, 'val': 0.5079365372657776}, mf1:{'test': 0.5193970203399658, 'val': 0.3610363304615021}
+
+FingerMovements_dim256_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_21_37  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.46000000834465027, 'val': 0.4920634925365448}, mf1:{'test': 0.4401181936264038, 'val': 0.32458606362342834}
+
+FingerMovements_dim256_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_23_00  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.550000011920929, 'val': 0.6666666865348816}, mf1:{'test': 0.5134819149971008, 'val': 0.5158640742301941}
+
+FingerMovements_dim256_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_24_17  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5, 'val': 0.5555555820465088}, mf1:{'test': 0.48085957765579224, 'val': 0.3503098785877228}
+
+FingerMovements_dim256_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_37_04  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.4761904776096344}, mf1:{'test': 0.4205758571624756, 'val': 0.3409178555011749}
+
+FingerMovements_dim256_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_38_17  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5, 'val': 0.60317462682724}, mf1:{'test': 0.4504412114620209, 'val': 0.36976689100265503}
+
+FingerMovements_dim256_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_39_34  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.6349206566810608}, mf1:{'test': 0.4096378982067108, 'val': 0.38827839493751526}
+
+FingerMovements_dim256_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_40_56  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.46000000834465027, 'val': 0.6507936716079712}, mf1:{'test': 0.4506182074546814, 'val': 0.39348945021629333}
+
+FingerMovements_dim256_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_42_28  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4300000071525574, 'val': 0.5873016119003296}, mf1:{'test': 0.3992936611175537, 'val': 0.35248038172721863}
+
+FingerMovements_dim256_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_36_02  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.47999998927116394, 'val': 0.5873016119003296}, mf1:{'test': 0.4658309817314148, 'val': 0.3677290380001068}
+
+FingerMovements_dim256_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_05_45  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4300000071525574, 'val': 0.60317462682724}, mf1:{'test': 0.38465800881385803, 'val': 0.3689107596874237}
+
+FingerMovements_dim256_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_07_54  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.41999998688697815, 'val': 0.6349206566810608}, mf1:{'test': 0.40253594517707825, 'val': 0.38389259576797485}
+
+FingerMovements_dim256_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_10_17  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.5555555820465088}, mf1:{'test': 0.4239850640296936, 'val': 0.36883893609046936}
+
+FingerMovements_dim256_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_13_47  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4699999988079071, 'val': 0.5396825671195984}, mf1:{'test': 0.44042328000068665, 'val': 0.3461702764034271}
+
+FingerMovements_dim256_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_16_01  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4699999988079071, 'val': 0.60317462682724}, mf1:{'test': 0.4066579043865204, 'val': 0.37550675868988037}
+
+FingerMovements_dim256_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_18_10  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.5555555820465088}, mf1:{'test': 0.4212992489337921, 'val': 0.3536108434200287}
+
+FingerMovements_dim128_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_20_29  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.6349206566810608}, mf1:{'test': 0.44172677397727966, 'val': 0.44498488306999207}
+
+FingerMovements_dim128_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_22_57  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5400000214576721, 'val': 0.6507936716079712}, mf1:{'test': 0.5068172812461853, 'val': 0.3939029276371002}
+
+FingerMovements_dim128_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_25_16  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.41999998688697815, 'val': 0.4920634925365448}, mf1:{'test': 0.3992493748664856, 'val': 0.32228749990463257}
+
+FingerMovements_dim128_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_27_20  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.5555555820465088}, mf1:{'test': 0.4185647964477539, 'val': 0.36540764570236206}
+
+FingerMovements_dim128_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_29_05  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.46000000834465027, 'val': 0.5079365372657776}, mf1:{'test': 0.4406026601791382, 'val': 0.33619508147239685}
+
+FingerMovements_dim128_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_31_05  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4300000071525574, 'val': 0.5079365372657776}, mf1:{'test': 0.4166180491447449, 'val': 0.3284393548965454}
+
+FingerMovements_dim128_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_32_49  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5, 'val': 0.6349206566810608}, mf1:{'test': 0.47458508610725403, 'val': 0.4123498499393463}
+
+FingerMovements_dim128_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_34_30  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.46000000834465027, 'val': 0.5396825671195984}, mf1:{'test': 0.43968087434768677, 'val': 0.36712825298309326}
+
+FingerMovements_dim128_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_36_13  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.5555555820465088}, mf1:{'test': 0.43050822615623474, 'val': 0.38170742988586426}
+
+FingerMovements_dim128_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_38_08  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.60317462682724}, mf1:{'test': 0.4139091968536377, 'val': 0.4074934422969818}
+
+FingerMovements_dim128_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_40_09  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.5396825671195984}, mf1:{'test': 0.42718207836151123, 'val': 0.36957892775535583}
+
+FingerMovements_dim128_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_41_59  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4699999988079071, 'val': 0.5873016119003296}, mf1:{'test': 0.45437172055244446, 'val': 0.3690028786659241}
+
+FingerMovements_dim128_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_43_51  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.49000000953674316, 'val': 0.5079365372657776}, mf1:{'test': 0.42913180589675903, 'val': 0.35363343358039856}
+
+FingerMovements_dim128_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_45_40  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.5396825671195984}, mf1:{'test': 0.3930806815624237, 'val': 0.3431844115257263}
+
+FingerMovements_dim128_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_47_42  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5299999713897705, 'val': 0.682539701461792}, mf1:{'test': 0.4989480972290039, 'val': 0.4231862723827362}
+
+FingerMovements_dim128_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_49_32  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5199999809265137, 'val': 0.6349206566810608}, mf1:{'test': 0.4860071539878845, 'val': 0.4206538498401642}
+
+FingerMovements_dim128_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_51_16  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5199999809265137, 'val': 0.5555555820465088}, mf1:{'test': 0.4792941212654114, 'val': 0.3477541506290436}
+
+FingerMovements_dim128_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_52_54  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5099999904632568, 'val': 0.5396825671195984}, mf1:{'test': 0.463205486536026, 'val': 0.3484124541282654}
+
+FingerMovements_dim128_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_54_34  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5299999713897705, 'val': 0.6190476417541504}, mf1:{'test': 0.4610251486301422, 'val': 0.36965763568878174}
+
+FingerMovements_dim128_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_56_14  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4699999988079071, 'val': 0.5873016119003296}, mf1:{'test': 0.45118412375450134, 'val': 0.36862048506736755}
+
+FingerMovements_dim128_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_57_51  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.4761904776096344}, mf1:{'test': 0.43193480372428894, 'val': 0.3271090090274811}
+
+FingerMovements_dim64_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_59_27  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.46000000834465027, 'val': 0.5396825671195984}, mf1:{'test': 0.39868801832199097, 'val': 0.31995660066604614}
+
+FingerMovements_dim64_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_01_00  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4099999964237213, 'val': 0.5714285969734192}, mf1:{'test': 0.3824089765548706, 'val': 0.3985666334629059}
+
+FingerMovements_dim64_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_02_50  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.5079365372657776}, mf1:{'test': 0.3980993330478668, 'val': 0.3229060471057892}
+
+FingerMovements_dim64_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_04_23  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.46000000834465027, 'val': 0.5873016119003296}, mf1:{'test': 0.44361400604248047, 'val': 0.3568858504295349}
+
+FingerMovements_dim64_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_06_15  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5199999809265137, 'val': 0.5396825671195984}, mf1:{'test': 0.3926873505115509, 'val': 0.41980665922164917}
+
+FingerMovements_dim64_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_07_44  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.550000011920929, 'val': 0.5555555820465088}, mf1:{'test': 0.532672643661499, 'val': 0.385884553194046}
+
+FingerMovements_dim64_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_09_13  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.46000000834465027, 'val': 0.6190476417541504}, mf1:{'test': 0.4415071904659271, 'val': 0.37509432435035706}
+
+FingerMovements_dim64_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_11_00  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5600000023841858, 'val': 0.5079365372657776}, mf1:{'test': 0.5394468307495117, 'val': 0.3285686671733856}
+
+FingerMovements_dim64_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_12_26  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5, 'val': 0.6190476417541504}, mf1:{'test': 0.4599422514438629, 'val': 0.38076794147491455}
+
+FingerMovements_dim64_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_13_55  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.60317462682724}, mf1:{'test': 0.4250491261482239, 'val': 0.37479132413864136}
+
+FingerMovements_dim64_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_15_24  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5, 'val': 0.5714285969734192}, mf1:{'test': 0.47105056047439575, 'val': 0.3872101902961731}
+
+FingerMovements_dim64_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_17_16  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.5873016119003296}, mf1:{'test': 0.38143789768218994, 'val': 0.36656081676483154}
+
+FingerMovements_dim64_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_18_47  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5299999713897705, 'val': 0.5714285969734192}, mf1:{'test': 0.4851764738559723, 'val': 0.360685795545578}
+
+FingerMovements_dim64_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_20_34  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5199999809265137, 'val': 0.6666666865348816}, mf1:{'test': 0.4898809790611267, 'val': 0.39483389258384705}
+
+FingerMovements_dim64_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_22_02  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.47999998927116394, 'val': 0.6507936716079712}, mf1:{'test': 0.4653922915458679, 'val': 0.4283028542995453}
+
+FingerMovements_dim64_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_23_26  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.49000000953674316, 'val': 0.5079365372657776}, mf1:{'test': 0.3492955267429352, 'val': 0.5079365372657776}
+
+FingerMovements_dim64_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_24_50  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5600000023841858, 'val': 0.5555555820465088}, mf1:{'test': 0.527118444442749, 'val': 0.35070353746414185}
+
+FingerMovements_dim64_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_26_33  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.550000011920929, 'val': 0.6190476417541504}, mf1:{'test': 0.4947158694267273, 'val': 0.37779751420021057}
+
+FingerMovements_dim64_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_28_23  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5199999809265137, 'val': 0.5714285969734192}, mf1:{'test': 0.5021570324897766, 'val': 0.3630504906177521}
+
+FingerMovements_dim64_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_29_56  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.4761904776096344}, mf1:{'test': 0.41361549496650696, 'val': 0.30477002263069153}
+
+FingerMovements_dim64_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_31_21  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.49000000953674316, 'val': 0.60317462682724}, mf1:{'test': 0.4679952561855316, 'val': 0.40704435110092163}
+
+FingerMovements_dim32_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_32_49  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5, 'val': 0.6666666865348816}, mf1:{'test': 0.4524918496608734, 'val': 0.39278000593185425}
+
+FingerMovements_dim32_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_34_11  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4699999988079071, 'val': 0.6349206566810608}, mf1:{'test': 0.4411386549472809, 'val': 0.4275088608264923}
+
+FingerMovements_dim32_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_35_43  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.4761904776096344}, mf1:{'test': 0.4298155605792999, 'val': 0.32029667496681213}
+
+FingerMovements_dim32_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_37_36  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4000000059604645, 'val': 0.5714285969734192}, mf1:{'test': 0.38677501678466797, 'val': 0.35310858488082886}
+
+FingerMovements_dim32_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_39_04  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.60317462682724}, mf1:{'test': 0.41511812806129456, 'val': 0.3587954342365265}
+
+FingerMovements_dim32_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_40_30  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.5714285969734192}, mf1:{'test': 0.43077459931373596, 'val': 0.3922894299030304}
+
+FingerMovements_dim32_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_42_19  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5400000214576721, 'val': 0.4920634925365448}, mf1:{'test': 0.4867197871208191, 'val': 0.3095950186252594}
+
+FingerMovements_dim32_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_44_03  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5400000214576721, 'val': 0.60317462682724}, mf1:{'test': 0.488432914018631, 'val': 0.3611542284488678}
+
+FingerMovements_dim32_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_45_26  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.4761904776096344}, mf1:{'test': 0.3626137971878052, 'val': 0.2633107006549835}
+
+FingerMovements_dim32_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_46_51  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5299999713897705, 'val': 0.60317462682724}, mf1:{'test': 0.4634442925453186, 'val': 0.351723849773407}
+
+FingerMovements_dim32_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_48_15  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4399999976158142, 'val': 0.5873016119003296}, mf1:{'test': 0.41537460684776306, 'val': 0.3847576081752777}
+
+FingerMovements_dim32_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_49_38  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.44999998807907104, 'val': 0.523809552192688}, mf1:{'test': 0.42751774191856384, 'val': 0.3759521245956421}
+
+FingerMovements_dim32_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_51_03  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4099999964237213, 'val': 0.5714285969734192}, mf1:{'test': 0.3806747496128082, 'val': 0.36147749423980713}
+
+FingerMovements_dim32_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_52_34  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.46000000834465027, 'val': 0.5714285969734192}, mf1:{'test': 0.4276207685470581, 'val': 0.36147749423980713}
+
+FingerMovements_dim32_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_54_02  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4300000071525574, 'val': 0.5714285969734192}, mf1:{'test': 0.4105949401855469, 'val': 0.36164143681526184}
+
+FingerMovements_dim32_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_55_24  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5400000214576721, 'val': 0.6507936716079712}, mf1:{'test': 0.500138521194458, 'val': 0.3844461739063263}
+
+FingerMovements_dim32_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_56_52  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.49000000953674316, 'val': 0.523809552192688}, mf1:{'test': 0.3492955267429352, 'val': 0.28887537121772766}
+
+FingerMovements_dim32_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_58_44  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5099999904632568, 'val': 0.5714285969734192}, mf1:{'test': 0.40993213653564453, 'val': 0.32555848360061646}
+
+FingerMovements_dim32_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_00_03  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.49000000953674316, 'val': 0.60317462682724}, mf1:{'test': 0.4462200403213501, 'val': 0.36097145080566406}
+
+FingerMovements_dim32_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_01_32  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.5, 'val': 0.5714285969734192}, mf1:{'test': 0.46432459354400635, 'val': 0.356228768825531}
+
+FingerMovements_dim32_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_03_04  
+TSLANet_FingerMovements_l_1  
+acc:{'test': 0.4699999988079071, 'val': 0.60317462682724}, mf1:{'test': 0.4581936001777649, 'val': 0.4080813527107239}
+

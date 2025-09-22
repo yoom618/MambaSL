@@ -1,0 +1,7812 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 4 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 2 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 1 \
+  --large_size 13 13 13 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 1 \
+  --large_size 9 9 9 \
+  --small_size 5 5 5 \
+  --dims 32 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 13 13 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 128 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 64 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 1 \
+  --large_size 9 9 \
+  --small_size 5 5 \
+  --dims 32 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 256 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 128 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 64 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 450 \
+  --patch_stride 225 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 900 \
+  --patch_stride 450 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1349 \
+  --patch_stride 675 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 1799 \
+  --patch_stride 900 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 2698 \
+  --patch_stride 1349 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 3597 \
+  --patch_stride 1799 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 3 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/EigenWorms \
+  --seq_len 17984 \
+  --enc_in 6 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model ModernTCN \
+  --model_id CLS_EigenWorms \
+  --ffn_ratio 1 \
+  --patch_size 4496 \
+  --patch_stride 2248 \
+  --num_blocks 1 \
+  --large_size 13 \
+  --small_size 5 \
+  --dims 32 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 50 \
+  --patience 10
+

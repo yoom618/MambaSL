@@ -1,0 +1,720 @@
+RacketSports_dim256_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_43_16  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9013158082962036, 'val': 0.9333333373069763}, mf1:{'test': 0.6985659599304199, 'val': 0.932275116443634}
+
+RacketSports_dim256_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_48_35  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8815789222717285, 'val': 0.8999999761581421}, mf1:{'test': 0.7117306590080261, 'val': 0.8963562846183777}
+
+RacketSports_dim256_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_06_02  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8355262875556946, 'val': 0.8666666746139526}, mf1:{'test': 0.5882400274276733, 'val': 0.8645502924919128}
+
+RacketSports_dim256_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_08_13  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8684210777282715, 'val': 0.9666666388511658}, mf1:{'test': 0.6304557919502258, 'val': 0.9665359258651733}
+
+RacketSports_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_10_13  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.7828947305679321, 'val': 0.8333333134651184}, mf1:{'test': 0.551973819732666, 'val': 0.8310460448265076}
+
+RacketSports_dim256_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_12_00  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9013158082962036, 'val': 0.9333333373069763}, mf1:{'test': 0.6970409750938416, 'val': 0.9288889169692993}
+
+RacketSports_dim256_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_14_53  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9013158082962036, 'val': 0.9333333373069763}, mf1:{'test': 0.6982160806655884, 'val': 0.9288889169692993}
+
+RacketSports_dim256_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_16_48  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8486841917037964, 'val': 0.9333333373069763}, mf1:{'test': 0.596466064453125, 'val': 0.932275116443634}
+
+RacketSports_dim256_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_18_50  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8486841917037964, 'val': 0.9333333373069763}, mf1:{'test': 0.5990039706230164, 'val': 0.9288889169692993}
+
+RacketSports_dim256_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_20_42  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8092105388641357, 'val': 0.8999999761581421}, mf1:{'test': 0.5833494067192078, 'val': 0.8963562846183777}
+
+RacketSports_dim256_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_22_45  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9276315569877625, 'val': 0.9666666388511658}, mf1:{'test': 0.7145634293556213, 'val': 0.9654520750045776}
+
+RacketSports_dim256_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_24_30  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.875, 'val': 0.9333333373069763}, mf1:{'test': 0.7090474963188171, 'val': 0.932275116443634}
+
+RacketSports_dim256_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_26_04  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8355262875556946, 'val': 0.9666666388511658}, mf1:{'test': 0.5687406659126282, 'val': 0.9654520750045776}
+
+RacketSports_dim256_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_27_43  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8421052694320679, 'val': 0.8666666746139526}, mf1:{'test': 0.6220930218696594, 'val': 0.8666666746139526}
+
+RacketSports_dim256_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_29_32  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8092105388641357, 'val': 0.8999999761581421}, mf1:{'test': 0.5862164497375488, 'val': 0.8963562846183777}
+
+RacketSports_dim128_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_31_15  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8815789222717285, 'val': 0.9333333373069763}, mf1:{'test': 0.6642605662345886, 'val': 0.932275116443634}
+
+RacketSports_dim128_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_32_58  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9078947305679321, 'val': 0.9666666388511658}, mf1:{'test': 0.6523001194000244, 'val': 0.9665359258651733}
+
+RacketSports_dim128_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_34_28  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8881579041481018, 'val': 0.9666666388511658}, mf1:{'test': 0.6225610971450806, 'val': 0.9665359258651733}
+
+RacketSports_dim128_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_35_58  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8881579041481018, 'val': 0.9666666388511658}, mf1:{'test': 0.7085260152816772, 'val': 0.9665359258651733}
+
+RacketSports_dim128_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_37_41  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8421052694320679, 'val': 0.8333333134651184}, mf1:{'test': 0.5300682783126831, 'val': 0.8326797485351562}
+
+RacketSports_dim128_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_39_06  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8881579041481018, 'val': 1.0}, mf1:{'test': 0.6316127777099609, 'val': 1.0}
+
+RacketSports_dim128_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_40_35  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8881579041481018, 'val': 0.8999999761581421}, mf1:{'test': 0.6849010586738586, 'val': 0.8996078372001648}
+
+RacketSports_dim128_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_42_06  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8552631735801697, 'val': 0.9666666388511658}, mf1:{'test': 0.6084638833999634, 'val': 0.9665359258651733}
+
+RacketSports_dim128_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_43_30  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8552631735801697, 'val': 0.9333333373069763}, mf1:{'test': 0.5622963905334473, 'val': 0.932275116443634}
+
+RacketSports_dim128_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_44_54  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8157894611358643, 'val': 0.8666666746139526}, mf1:{'test': 0.5862923860549927, 'val': 0.7422221899032593}
+
+RacketSports_dim128_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_46_32  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8947368264198303, 'val': 0.9333333373069763}, mf1:{'test': 0.7347121834754944, 'val': 0.932275116443634}
+
+RacketSports_dim128_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_48_10  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8815789222717285, 'val': 0.9666666388511658}, mf1:{'test': 0.68819260597229, 'val': 0.9665359258651733}
+
+RacketSports_dim128_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_49_40  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8618420958518982, 'val': 0.9333333373069763}, mf1:{'test': 0.6065352559089661, 'val': 0.932275116443634}
+
+RacketSports_dim128_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_51_18  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8881579041481018, 'val': 0.8999999761581421}, mf1:{'test': 0.6373172998428345, 'val': 0.8996078372001648}
+
+RacketSports_dim128_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_52_50  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.7894737124443054, 'val': 0.8666666746139526}, mf1:{'test': 0.5501255393028259, 'val': 0.7320864796638489}
+
+RacketSports_dim64_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_54_29  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9144737124443054, 'val': 0.9333333373069763}, mf1:{'test': 0.7533195614814758, 'val': 0.932275116443634}
+
+RacketSports_dim64_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_55_49  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8947368264198303, 'val': 0.8666666746139526}, mf1:{'test': 0.6760699152946472, 'val': 0.8666666746139526}
+
+RacketSports_dim64_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_57_10  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8618420958518982, 'val': 0.9666666388511658}, mf1:{'test': 0.6612744331359863, 'val': 0.9654520750045776}
+
+RacketSports_dim64_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_58_30  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.875, 'val': 0.8999999761581421}, mf1:{'test': 0.6334595084190369, 'val': 0.8996078372001648}
+
+RacketSports_dim64_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_59_52  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8289473652839661, 'val': 0.8999999761581421}, mf1:{'test': 0.6413509845733643, 'val': 0.699999988079071}
+
+RacketSports_dim64_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_01_05  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8881579041481018, 'val': 0.8999999761581421}, mf1:{'test': 0.6836667656898499, 'val': 0.6989418268203735}
+
+RacketSports_dim64_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_02_19  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.875, 'val': 0.9666666388511658}, mf1:{'test': 0.6281752586364746, 'val': 0.9665359258651733}
+
+RacketSports_dim64_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_03_28  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.875, 'val': 0.8999999761581421}, mf1:{'test': 0.6319705843925476, 'val': 0.699999988079071}
+
+RacketSports_dim64_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_04_38  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.875, 'val': 0.9333333373069763}, mf1:{'test': 0.6849662661552429, 'val': 0.9288889169692993}
+
+RacketSports_dim64_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_05_44  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8157894611358643, 'val': 0.7333333492279053}, mf1:{'test': 0.6043956875801086, 'val': 0.44501426815986633}
+
+RacketSports_dim64_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_06_58  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8881579041481018, 'val': 1.0}, mf1:{'test': 0.6244513392448425, 'val': 1.0}
+
+RacketSports_dim64_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_08_24  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9144737124443054, 'val': 1.0}, mf1:{'test': 0.6804807782173157, 'val': 1.0}
+
+RacketSports_dim64_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_09_34  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8815789222717285, 'val': 0.9666666388511658}, mf1:{'test': 0.6789246797561646, 'val': 0.9665359258651733}
+
+RacketSports_dim64_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_10_44  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8355262875556946, 'val': 0.9666666388511658}, mf1:{'test': 0.6047285199165344, 'val': 0.9665359258651733}
+
+RacketSports_dim64_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_11_53  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.7894737124443054, 'val': 0.8999999761581421}, mf1:{'test': 0.587719202041626, 'val': 0.8996078372001648}
+
+RacketSports_dim32_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_13_01  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9078947305679321, 'val': 0.9666666388511658}, mf1:{'test': 0.7297035455703735, 'val': 0.9665359258651733}
+
+RacketSports_dim32_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_14_12  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8881579041481018, 'val': 0.9333333373069763}, mf1:{'test': 0.6381652355194092, 'val': 0.7863679528236389}
+
+RacketSports_dim32_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_15_19  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8684210777282715, 'val': 0.9666666388511658}, mf1:{'test': 0.6547004580497742, 'val': 0.9654520750045776}
+
+RacketSports_dim32_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_16_33  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8552631735801697, 'val': 0.8666666746139526}, mf1:{'test': 0.5848897695541382, 'val': 0.740056037902832}
+
+RacketSports_dim32_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_17_47  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8355262875556946, 'val': 0.8999999761581421}, mf1:{'test': 0.5145299434661865, 'val': 0.7735777497291565}
+
+RacketSports_dim32_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_19_10  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9013158082962036, 'val': 0.9666666388511658}, mf1:{'test': 0.6413561105728149, 'val': 0.9665359258651733}
+
+RacketSports_dim32_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_20_25  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9144737124443054, 'val': 0.9333333373069763}, mf1:{'test': 0.650349497795105, 'val': 0.9333333373069763}
+
+RacketSports_dim32_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_21_49  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8289473652839661, 'val': 0.9666666388511658}, mf1:{'test': 0.5974953174591064, 'val': 0.7666666507720947}
+
+RacketSports_dim32_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_23_16  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.7697368264198303, 'val': 0.699999988079071}, mf1:{'test': 0.6067809462547302, 'val': 0.6890688538551331}
+
+RacketSports_dim32_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_24_37  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.7302631735801697, 'val': 0.800000011920929}, mf1:{'test': 0.4700739085674286, 'val': 0.5602089166641235}
+
+RacketSports_dim32_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_25_47  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9013158082962036, 'val': 0.9666666388511658}, mf1:{'test': 0.6946794986724854, 'val': 0.9665359258651733}
+
+RacketSports_dim32_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_26_54  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.9342105388641357, 'val': 0.9666666388511658}, mf1:{'test': 0.7784420847892761, 'val': 0.9654520750045776}
+
+RacketSports_dim32_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_28_05  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8289473652839661, 'val': 0.8999999761581421}, mf1:{'test': 0.523301899433136, 'val': 0.8963562846183777}
+
+RacketSports_dim32_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_29_37  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.8223684430122375, 'val': 0.800000011920929}, mf1:{'test': 0.6033596396446228, 'val': 0.7968254089355469}
+
+RacketSports_dim32_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_30_59  
+TSLANet_RacketSports_l_3  
+acc:{'test': 0.7960526347160339, 'val': 0.8333333134651184}, mf1:{'test': 0.5748950839042664, 'val': 0.8326797485351562}
+
+RacketSports_dim256_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_32_08  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.9210526347160339, 'val': 0.9666666388511658}, mf1:{'test': 0.8044824600219727, 'val': 0.9665359258651733}
+
+RacketSports_dim256_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_33_22  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8881579041481018, 'val': 0.9666666388511658}, mf1:{'test': 0.6418452858924866, 'val': 0.9665359258651733}
+
+RacketSports_dim256_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_34_35  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8486841917037964, 'val': 0.9666666388511658}, mf1:{'test': 0.6252086162567139, 'val': 0.9665359258651733}
+
+RacketSports_dim256_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_35_57  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8486841917037964, 'val': 0.9666666388511658}, mf1:{'test': 0.592755138874054, 'val': 0.9665359258651733}
+
+RacketSports_dim256_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_37_19  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.7763158082962036, 'val': 0.8333333134651184}, mf1:{'test': 0.4783097207546234, 'val': 0.7161793112754822}
+
+RacketSports_dim256_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_38_36  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8947368264198303, 'val': 0.9666666388511658}, mf1:{'test': 0.7389081716537476, 'val': 0.9665359258651733}
+
+RacketSports_dim256_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_39_51  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8947368264198303, 'val': 0.9333333373069763}, mf1:{'test': 0.6463820338249207, 'val': 0.9333333373069763}
+
+RacketSports_dim256_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_40_59  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8552631735801697, 'val': 0.9333333373069763}, mf1:{'test': 0.6567527055740356, 'val': 0.932275116443634}
+
+RacketSports_dim256_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_42_02  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8289473652839661, 'val': 0.9333333373069763}, mf1:{'test': 0.6178494691848755, 'val': 0.932275116443634}
+
+RacketSports_dim256_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_43_12  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8026315569877625, 'val': 0.8999999761581421}, mf1:{'test': 0.5587643980979919, 'val': 0.8996078372001648}
+
+RacketSports_dim256_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_44_18  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8552631735801697, 'val': 0.9333333373069763}, mf1:{'test': 0.6553682088851929, 'val': 0.9333333373069763}
+
+RacketSports_dim256_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_45_19  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8618420958518982, 'val': 0.800000011920929}, mf1:{'test': 0.6199405193328857, 'val': 0.800000011920929}
+
+RacketSports_dim256_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_46_24  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8684210777282715, 'val': 0.8999999761581421}, mf1:{'test': 0.6167947053909302, 'val': 0.8963562846183777}
+
+RacketSports_dim256_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_47_31  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8223684430122375, 'val': 0.8999999761581421}, mf1:{'test': 0.538269579410553, 'val': 0.9077634215354919}
+
+RacketSports_dim256_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_48_33  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8355262875556946, 'val': 0.800000011920929}, mf1:{'test': 0.5695029497146606, 'val': 0.5918682813644409}
+
+RacketSports_dim128_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_49_35  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8815789222717285, 'val': 0.9333333373069763}, mf1:{'test': 0.6871622800827026, 'val': 0.9333333373069763}
+
+RacketSports_dim128_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_50_41  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.9013158082962036, 'val': 0.8999999761581421}, mf1:{'test': 0.7375378012657166, 'val': 0.8996078372001648}
+
+RacketSports_dim128_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_51_54  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8486841917037964, 'val': 0.9333333373069763}, mf1:{'test': 0.6069589257240295, 'val': 0.932275116443634}
+
+RacketSports_dim128_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_53_06  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.875, 'val': 0.8999999761581421}, mf1:{'test': 0.6227784156799316, 'val': 0.8963562846183777}
+
+RacketSports_dim128_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_54_15  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.7763158082962036, 'val': 0.8333333134651184}, mf1:{'test': 0.5203168392181396, 'val': 0.7161793112754822}
+
+RacketSports_dim128_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_55_32  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.9013158082962036, 'val': 0.8999999761581421}, mf1:{'test': 0.6981105804443359, 'val': 0.6989418268203735}
+
+RacketSports_dim128_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_56_49  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8815789222717285, 'val': 0.9666666388511658}, mf1:{'test': 0.6928831934928894, 'val': 0.9665359258651733}
+
+RacketSports_dim128_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_57_56  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8684210777282715, 'val': 0.8999999761581421}, mf1:{'test': 0.6599748730659485, 'val': 0.8963562846183777}
+
+RacketSports_dim128_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_59_18  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.875, 'val': 0.9333333373069763}, mf1:{'test': 0.6280774474143982, 'val': 0.9333333373069763}
+
+RacketSports_dim128_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_00_44  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8092105388641357, 'val': 0.9333333373069763}, mf1:{'test': 0.5872412323951721, 'val': 0.7863679528236389}
+
+RacketSports_dim128_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_02_02  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8684210777282715, 'val': 0.8999999761581421}, mf1:{'test': 0.6539679765701294, 'val': 0.8996078372001648}
+
+RacketSports_dim128_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_03_18  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.9078947305679321, 'val': 0.9666666388511658}, mf1:{'test': 0.7087423801422119, 'val': 0.9665359258651733}
+
+RacketSports_dim128_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_04_36  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8421052694320679, 'val': 0.800000011920929}, mf1:{'test': 0.6093047261238098, 'val': 0.7968254089355469}
+
+RacketSports_dim128_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_05_43  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8684210777282715, 'val': 0.8333333134651184}, mf1:{'test': 0.6181095242500305, 'val': 0.8326797485351562}
+
+RacketSports_dim128_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_06_44  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.7894737124443054, 'val': 0.699999988079071}, mf1:{'test': 0.5582388639450073, 'val': 0.6265172958374023}
+
+RacketSports_dim64_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_07_49  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8815789222717285, 'val': 0.8999999761581421}, mf1:{'test': 0.7394271492958069, 'val': 0.8963562846183777}
+
+RacketSports_dim64_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_08_47  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8618420958518982, 'val': 0.9333333373069763}, mf1:{'test': 0.5744839906692505, 'val': 0.9333333373069763}
+
+RacketSports_dim64_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_09_55  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8552631735801697, 'val': 0.8999999761581421}, mf1:{'test': 0.5125837326049805, 'val': 0.8684574961662292}
+
+RacketSports_dim64_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_11_04  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8552631735801697, 'val': 0.8999999761581421}, mf1:{'test': 0.6049144268035889, 'val': 0.8963562846183777}
+
+RacketSports_dim64_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_12_13  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8157894611358643, 'val': 0.800000011920929}, mf1:{'test': 0.5749378800392151, 'val': 0.686549723148346}
+
+RacketSports_dim64_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_13_22  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8618420958518982, 'val': 0.9333333373069763}, mf1:{'test': 0.6108757257461548, 'val': 0.9333333373069763}
+
+RacketSports_dim64_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_14_35  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8881579041481018, 'val': 0.9666666388511658}, mf1:{'test': 0.6822173595428467, 'val': 0.9654520750045776}
+
+RacketSports_dim64_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_15_40  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8223684430122375, 'val': 0.9666666388511658}, mf1:{'test': 0.5530580878257751, 'val': 0.9654520750045776}
+
+RacketSports_dim64_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_16_46  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.875, 'val': 0.9333333373069763}, mf1:{'test': 0.6421608924865723, 'val': 0.932275116443634}
+
+RacketSports_dim64_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_17_58  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.7763158082962036, 'val': 0.8666666746139526}, mf1:{'test': 0.5032796859741211, 'val': 0.740056037902832}
+
+RacketSports_dim64_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_19_00  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8684210777282715, 'val': 0.8999999761581421}, mf1:{'test': 0.57294762134552, 'val': 0.8963562846183777}
+
+RacketSports_dim64_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_19_58  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8684210777282715, 'val': 0.9333333373069763}, mf1:{'test': 0.5802139043807983, 'val': 0.9288889169692993}
+
+RacketSports_dim64_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_21_03  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8815789222717285, 'val': 1.0}, mf1:{'test': 0.6215041279792786, 'val': 1.0}
+
+RacketSports_dim64_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_22_14  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8947368264198303, 'val': 0.9333333373069763}, mf1:{'test': 0.6455769538879395, 'val': 0.7332026362419128}
+
+RacketSports_dim64_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_23_27  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.7960526347160339, 'val': 0.9333333373069763}, mf1:{'test': 0.5765430927276611, 'val': 0.932275116443634}
+
+RacketSports_dim32_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_24_31  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.875, 'val': 0.9333333373069763}, mf1:{'test': 0.5949212908744812, 'val': 0.932275116443634}
+
+RacketSports_dim32_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_25_42  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.9013158082962036, 'val': 0.9666666388511658}, mf1:{'test': 0.680854856967926, 'val': 0.7666666507720947}
+
+RacketSports_dim32_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_26_47  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8421052694320679, 'val': 0.9333333373069763}, mf1:{'test': 0.5611333847045898, 'val': 0.932275116443634}
+
+RacketSports_dim32_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_27_56  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8289473652839661, 'val': 0.9333333373069763}, mf1:{'test': 0.5435342788696289, 'val': 0.932275116443634}
+
+RacketSports_dim32_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_29_09  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8355262875556946, 'val': 0.7333333492279053}, mf1:{'test': 0.5711125731468201, 'val': 0.5982303023338318}
+
+RacketSports_dim32_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_30_31  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8421052694320679, 'val': 0.8333333134651184}, mf1:{'test': 0.5519251227378845, 'val': 0.8326797485351562}
+
+RacketSports_dim32_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_31_38  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8881579041481018, 'val': 0.9333333373069763}, mf1:{'test': 0.6501182913780212, 'val': 0.9330317378044128}
+
+RacketSports_dim32_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_32_44  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8684210777282715, 'val': 0.9666666388511658}, mf1:{'test': 0.5487664341926575, 'val': 0.9654520750045776}
+
+RacketSports_dim32_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_33_56  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8618420958518982, 'val': 0.7666666507720947}, mf1:{'test': 0.6156103014945984, 'val': 0.7581645846366882}
+
+RacketSports_dim32_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_35_06  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8157894611358643, 'val': 0.7333333492279053}, mf1:{'test': 0.5288860201835632, 'val': 0.6474834084510803}
+
+RacketSports_dim32_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_36_18  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8815789222717285, 'val': 0.9333333373069763}, mf1:{'test': 0.6153367161750793, 'val': 0.932275116443634}
+
+RacketSports_dim32_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_37_35  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.9013158082962036, 'val': 0.8999999761581421}, mf1:{'test': 0.6917192935943604, 'val': 0.908343493938446}
+
+RacketSports_dim32_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_38_47  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.875, 'val': 0.9666666388511658}, mf1:{'test': 0.6324478387832642, 'val': 0.9665359258651733}
+
+RacketSports_dim32_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_39_58  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.8355262875556946, 'val': 0.8333333134651184}, mf1:{'test': 0.6768978238105774, 'val': 0.7143399715423584}
+
+RacketSports_dim32_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_40_59  
+TSLANet_RacketSports_l_2  
+acc:{'test': 0.75, 'val': 0.8999999761581421}, mf1:{'test': 0.5236112475395203, 'val': 0.7644444704055786}
+
+RacketSports_dim256_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_42_08  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8486841917037964, 'val': 0.9333333373069763}, mf1:{'test': 0.6723844408988953, 'val': 0.932275116443634}
+
+RacketSports_dim256_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_43_05  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8618420958518982, 'val': 0.8999999761581421}, mf1:{'test': 0.72836834192276, 'val': 0.8996078372001648}
+
+RacketSports_dim256_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_44_08  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8157894611358643, 'val': 0.9333333373069763}, mf1:{'test': 0.5827688574790955, 'val': 0.9288889169692993}
+
+RacketSports_dim256_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_45_22  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8618420958518982, 'val': 0.8999999761581421}, mf1:{'test': 0.6622987985610962, 'val': 0.8963562846183777}
+
+RacketSports_dim256_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_46_20  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8355262875556946, 'val': 0.8666666746139526}, mf1:{'test': 0.5728437304496765, 'val': 0.8577777743339539}
+
+RacketSports_dim256_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_47_29  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8947368264198303, 'val': 0.9666666388511658}, mf1:{'test': 0.691938579082489, 'val': 0.9654520750045776}
+
+RacketSports_dim256_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_48_23  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.875, 'val': 0.9666666388511658}, mf1:{'test': 0.7292258739471436, 'val': 0.9665359258651733}
+
+RacketSports_dim256_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_49_22  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8421052694320679, 'val': 0.8999999761581421}, mf1:{'test': 0.648495614528656, 'val': 0.8963562846183777}
+
+RacketSports_dim256_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_50_16  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8815789222717285, 'val': 0.800000011920929}, mf1:{'test': 0.6866101622581482, 'val': 0.7968254089355469}
+
+RacketSports_dim256_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_51_21  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8026315569877625, 'val': 0.800000011920929}, mf1:{'test': 0.6164042353630066, 'val': 0.7968254089355469}
+
+RacketSports_dim256_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_52_25  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.875, 'val': 0.9333333373069763}, mf1:{'test': 0.6308279037475586, 'val': 0.932275116443634}
+
+RacketSports_dim256_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_53_19  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8815789222717285, 'val': 0.8999999761581421}, mf1:{'test': 0.6878998279571533, 'val': 0.8963562846183777}
+
+RacketSports_dim256_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_54_16  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8552631735801697, 'val': 1.0}, mf1:{'test': 0.6461009979248047, 'val': 1.0}
+
+RacketSports_dim256_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_55_19  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.9013158082962036, 'val': 0.8666666746139526}, mf1:{'test': 0.7391464114189148, 'val': 0.8724246621131897}
+
+RacketSports_dim256_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_56_21  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.7894737124443054, 'val': 0.8333333134651184}, mf1:{'test': 0.5608807802200317, 'val': 0.7161793112754822}
+
+RacketSports_dim128_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_57_18  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8684210777282715, 'val': 0.9333333373069763}, mf1:{'test': 0.6633033752441406, 'val': 0.932275116443634}
+
+RacketSports_dim128_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_58_18  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8355262875556946, 'val': 1.0}, mf1:{'test': 0.6205416321754456, 'val': 1.0}
+
+RacketSports_dim128_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_59_13  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8421052694320679, 'val': 0.8999999761581421}, mf1:{'test': 0.6621383428573608, 'val': 0.8996078372001648}
+
+RacketSports_dim128_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_00_12  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8684210777282715, 'val': 1.0}, mf1:{'test': 0.6044682860374451, 'val': 1.0}
+
+RacketSports_dim128_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_01_09  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8026315569877625, 'val': 0.7333333492279053}, mf1:{'test': 0.5038772225379944, 'val': 0.499715119600296}
+
+RacketSports_dim128_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_02_12  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8881579041481018, 'val': 0.8999999761581421}, mf1:{'test': 0.7369722723960876, 'val': 0.8996078372001648}
+
+RacketSports_dim128_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_03_11  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.875, 'val': 0.9666666388511658}, mf1:{'test': 0.629091203212738, 'val': 0.9654520750045776}
+
+RacketSports_dim128_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_04_04  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8355262875556946, 'val': 0.8666666746139526}, mf1:{'test': 0.6471743583679199, 'val': 0.8666666746139526}
+
+RacketSports_dim128_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_04_57  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8552631735801697, 'val': 0.8999999761581421}, mf1:{'test': 0.5664382576942444, 'val': 0.8996078372001648}
+
+RacketSports_dim128_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_05_49  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8157894611358643, 'val': 0.9333333373069763}, mf1:{'test': 0.5857763886451721, 'val': 0.9333333373069763}
+
+RacketSports_dim128_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_06_45  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8947368264198303, 'val': 0.9333333373069763}, mf1:{'test': 0.7483817934989929, 'val': 0.9288889169692993}
+
+RacketSports_dim128_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_07_38  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8815789222717285, 'val': 0.9333333373069763}, mf1:{'test': 0.6727523803710938, 'val': 0.932275116443634}
+
+RacketSports_dim128_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_08_35  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.875, 'val': 0.9666666388511658}, mf1:{'test': 0.6119093298912048, 'val': 0.9665359258651733}
+
+RacketSports_dim128_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_09_35  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8815789222717285, 'val': 0.9333333373069763}, mf1:{'test': 0.687436580657959, 'val': 0.932275116443634}
+
+RacketSports_dim128_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_10_35  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.7763158082962036, 'val': 0.699999988079071}, mf1:{'test': 0.5720115900039673, 'val': 0.6248803734779358}
+
+RacketSports_dim64_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_11_27  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8815789222717285, 'val': 1.0}, mf1:{'test': 0.6657387614250183, 'val': 1.0}
+
+RacketSports_dim64_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_12_21  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.9013158082962036, 'val': 0.9666666388511658}, mf1:{'test': 0.6970409750938416, 'val': 0.9665359258651733}
+
+RacketSports_dim64_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_13_11  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8421052694320679, 'val': 0.9666666388511658}, mf1:{'test': 0.5961857438087463, 'val': 0.9665359258651733}
+
+RacketSports_dim64_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_14_08  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8947368264198303, 'val': 0.9333333373069763}, mf1:{'test': 0.6523637175559998, 'val': 0.932275116443634}
+
+RacketSports_dim64_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_15_08  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.7828947305679321, 'val': 0.7333333492279053}, mf1:{'test': 0.6059704422950745, 'val': 0.6562963128089905}
+
+RacketSports_dim64_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_16_04  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8684210777282715, 'val': 0.8999999761581421}, mf1:{'test': 0.6775826215744019, 'val': 0.8963562846183777}
+
+RacketSports_dim64_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_16_56  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8881579041481018, 'val': 0.9333333373069763}, mf1:{'test': 0.6185629963874817, 'val': 0.7887939214706421}
+
+RacketSports_dim64_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_17_52  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8223684430122375, 'val': 0.8666666746139526}, mf1:{'test': 0.6065854430198669, 'val': 0.8666666746139526}
+
+RacketSports_dim64_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_18_49  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8684210777282715, 'val': 0.8999999761581421}, mf1:{'test': 0.6717555522918701, 'val': 0.8996078372001648}
+
+RacketSports_dim64_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_19_49  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.7763158082962036, 'val': 0.800000011920929}, mf1:{'test': 0.5512110590934753, 'val': 0.686549723148346}
+
+RacketSports_dim64_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_20_40  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.875, 'val': 0.8999999761581421}, mf1:{'test': 0.6416976451873779, 'val': 0.8963562846183777}
+
+RacketSports_dim64_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_21_34  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.9210526347160339, 'val': 1.0}, mf1:{'test': 0.7608043551445007, 'val': 1.0}
+
+RacketSports_dim64_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_22_29  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8421052694320679, 'val': 1.0}, mf1:{'test': 0.6759235262870789, 'val': 1.0}
+
+RacketSports_dim64_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_23_25  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8355262875556946, 'val': 0.800000011920929}, mf1:{'test': 0.5595094561576843, 'val': 0.7937562465667725}
+
+RacketSports_dim64_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_24_20  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.75, 'val': 0.8666666746139526}, mf1:{'test': 0.5074559450149536, 'val': 0.727939248085022}
+
+RacketSports_dim32_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_25_15  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8947368264198303, 'val': 1.0}, mf1:{'test': 0.6446534395217896, 'val': 1.0}
+
+RacketSports_dim32_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_26_11  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.9013158082962036, 'val': 0.9666666388511658}, mf1:{'test': 0.7070696949958801, 'val': 0.9665359258651733}
+
+RacketSports_dim32_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_27_03  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8552631735801697, 'val': 0.8333333134651184}, mf1:{'test': 0.5837759375572205, 'val': 0.6244444251060486}
+
+RacketSports_dim32_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_27_56  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8355262875556946, 'val': 0.8666666746139526}, mf1:{'test': 0.6040614247322083, 'val': 0.6662744879722595}
+
+RacketSports_dim32_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_28_53  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.75, 'val': 0.7333333492279053}, mf1:{'test': 0.44508492946624756, 'val': 0.44501426815986633}
+
+RacketSports_dim32_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_29_48  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.9013158082962036, 'val': 1.0}, mf1:{'test': 0.7431791424751282, 'val': 1.0}
+
+RacketSports_dim32_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_30_48  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.9013158082962036, 'val': 0.8999999761581421}, mf1:{'test': 0.6815499067306519, 'val': 0.6989418268203735}
+
+RacketSports_dim32_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_31_51  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8421052694320679, 'val': 0.8666666746139526}, mf1:{'test': 0.6129387021064758, 'val': 0.7348927855491638}
+
+RacketSports_dim32_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_32_45  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8421052694320679, 'val': 0.9333333373069763}, mf1:{'test': 0.6655189394950867, 'val': 0.932275116443634}
+
+RacketSports_dim32_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_33_41  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8157894611358643, 'val': 0.800000011920929}, mf1:{'test': 0.5450208783149719, 'val': 0.637639582157135}
+
+RacketSports_dim32_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_34_38  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.9210526347160339, 'val': 0.9333333373069763}, mf1:{'test': 0.7092610597610474, 'val': 0.7321187257766724}
+
+RacketSports_dim32_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_35_35  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8881579041481018, 'val': 0.9333333373069763}, mf1:{'test': 0.6720555424690247, 'val': 0.932275116443634}
+
+RacketSports_dim32_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_36_27  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8552631735801697, 'val': 0.9333333373069763}, mf1:{'test': 0.6140837669372559, 'val': 0.9288889169692993}
+
+RacketSports_dim32_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_37_22  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.8421052694320679, 'val': 0.8999999761581421}, mf1:{'test': 0.5384007692337036, 'val': 0.8963562846183777}
+
+RacketSports_dim32_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_38_11  
+TSLANet_RacketSports_l_1  
+acc:{'test': 0.7565789222717285, 'val': 0.8333333134651184}, mf1:{'test': 0.5537042617797852, 'val': 0.6333333253860474}
+

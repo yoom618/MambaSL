@@ -1,0 +1,2880 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 144 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 116 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 87 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 58 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 35 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 24 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 144 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 116 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 87 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 58 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 35 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 24 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 144 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 116 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 87 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 58 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 35 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 24 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 12 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 144 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 116 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 87 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 58 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 35 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 24 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 144 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 116 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 87 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 58 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 35 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 24 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 144 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 116 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 87 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 58 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 35 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 24 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 12 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 144 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 116 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 87 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 58 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 35 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 24 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 144 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 116 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 87 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 58 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 35 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 24 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 144 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 116 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 87 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 58 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 35 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 24 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 12 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 144 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 116 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 87 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 58 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 35 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 24 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 144 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 116 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 87 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 58 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 35 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 24 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 12 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 144 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 116 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 87 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 58 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 35 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 24 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 12 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP2/ \
+  --seq_len 1152 \
+  --enc_in 7 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_SelfRegulationSCP2 \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

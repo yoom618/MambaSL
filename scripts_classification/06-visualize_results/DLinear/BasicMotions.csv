@@ -1,0 +1,15 @@
+data_name,model,seq_len,moving_average,moving_average_ratio,acc,model_params,model_size (MB)
+BasicMotions,DLinear,100,50,0.5,0.875,22604,0.09
+BasicMotions,DLinear,100,45,0.45,0.875,22604,0.09
+BasicMotions,DLinear,100,40,0.4,0.875,22604,0.09
+BasicMotions,DLinear,100,35,0.35,0.875,22604,0.09
+BasicMotions,DLinear,100,30,0.3,0.875,22604,0.09
+BasicMotions,DLinear,100,25,0.25,0.875,22604,0.09
+BasicMotions,DLinear,100,20,0.2,0.875,22604,0.09
+BasicMotions,DLinear,100,15,0.15,0.85,22604,0.09
+BasicMotions,DLinear,100,10,0.1,0.85,22604,0.09
+BasicMotions,DLinear,100,5,0.05,0.875,22604,0.09
+BasicMotions,DLinear,100,4,0.04,0.875,22604,0.09
+BasicMotions,DLinear,100,3,0.03,0.875,22604,0.09
+BasicMotions,DLinear,100,2,0.02,0.875,22604,0.09
+BasicMotions,DLinear,100,1,0.01,0.875,22604,0.09

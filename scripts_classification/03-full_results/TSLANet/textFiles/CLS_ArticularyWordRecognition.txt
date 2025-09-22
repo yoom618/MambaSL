@@ -1,0 +1,1008 @@
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_38_02  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9222635626792908, 'val': 0.9222635626792908}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_48_00  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.896151602268219, 'val': 0.896151602268219}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_56_08  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_05_36  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.8847499489784241, 'val': 0.8847499489784241}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_14_11  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8745617866516113, 'val': 0.8745617866516113}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_22_56  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_30_17  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_34_56  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9222635626792908, 'val': 0.9222635626792908}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_40_09  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8749909400939941, 'val': 0.8749909400939941}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_44_54  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_51_48  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9037128686904907, 'val': 0.9037128686904907}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_57_24  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8864113092422485, 'val': 0.8864113092422485}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_02_22  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_07_57  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_11_45  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_17_37  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9054796099662781, 'val': 0.9054796099662781}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_22_50  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.914290189743042, 'val': 0.914290189743042}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_27_50  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.8957393169403076, 'val': 0.8957393169403076}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_32_19  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.875421941280365, 'val': 0.875421941280365}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_36_57  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim256_depth3_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_41_37  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_46_04  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9222635626792908, 'val': 0.9222635626792908}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_51_11  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8868235349655151, 'val': 0.8868235349655151}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_54_38  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8953083157539368, 'val': 0.8953083157539368}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_59_56  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9222635626792908, 'val': 0.9222635626792908}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_04_17  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9236181378364563, 'val': 0.9236181378364563}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_08_23  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_12_26  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9050673246383667, 'val': 0.9050673246383667}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_14_48  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9129356145858765, 'val': 0.9129356145858765}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_19_17  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9236181378364563, 'val': 0.9236181378364563}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_24_16  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9236181378364563, 'val': 0.9236181378364563}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_28_11  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_31_43  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_35_05  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9328407645225525, 'val': 0.9328407645225525}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_38_50  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.9421687722206116, 'val': 0.9421687722206116}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_43_41  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_49_39  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_53_25  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_57_06  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9037128686904907, 'val': 0.9037128686904907}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_00_29  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.914290189743042, 'val': 0.914290189743042}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_03_26  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim128_depth3_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_06_43  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_10_56  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_15_25  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_19_25  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9236181378364563, 'val': 0.9236181378364563}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_23_39  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9222635626792908, 'val': 0.9222635626792908}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_28_07  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_32_45  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_36_36  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_41_24  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_45_33  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_49_00  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_52_27  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9236181378364563, 'val': 0.9236181378364563}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_55_05  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_57_59  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9037128686904907, 'val': 0.9037128686904907}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_01_02  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.914290189743042, 'val': 0.914290189743042}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_04_37  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.953570544719696, 'val': 0.953570544719696}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_07_48  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_11_14  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_14_13  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_17_36  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_20_29  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth3_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_23_30  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_26_49  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9129356145858765, 'val': 0.9129356145858765}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_30_41  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_35_23  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_39_15  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_42_54  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9236181378364563, 'val': 0.9236181378364563}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_46_45  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.92392498254776, 'val': 0.92392498254776}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_50_34  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.92392498254776, 'val': 0.92392498254776}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_54_14  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8843189477920532, 'val': 0.8843189477920532}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_57_08  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_00_39  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_03_29  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.92392498254776, 'val': 0.92392498254776}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_05_49  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8557661771774292, 'val': 0.8557661771774292}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_08_39  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8647392988204956, 'val': 0.8647392988204956}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_11_10  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.896151602268219, 'val': 0.896151602268219}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_13_47  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8750096559524536, 'val': 0.8750096559524536}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_17_06  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8844463229179382, 'val': 0.8844463229179382}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_20_17  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9050673246383667, 'val': 0.9050673246383667}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_23_13  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.914009690284729, 'val': 0.914009690284729}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_25_49  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_28_27  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim32_depth3_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_31_04  
+TSLANet_ArticularyWordRecognition_l_3  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_33_35  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9227748513221741, 'val': 0.9227748513221741}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_36_06  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_39_51  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.875421941280365, 'val': 0.875421941280365}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_43_01  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_45_53  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8658133745193481, 'val': 0.8658133745193481}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_48_12  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.8957393169403076, 'val': 0.8957393169403076}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_50_31  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_53_14  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9033005833625793, 'val': 0.9033005833625793}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_55_58  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.8957393169403076, 'val': 0.8957393169403076}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_58_59  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.8943848609924316, 'val': 0.8943848609924316}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_02_09  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8488975763320923, 'val': 0.8488975763320923}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_04_55  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8670876026153564, 'val': 0.8670876026153564}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_07_28  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.92392498254776, 'val': 0.92392498254776}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_10_02  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9933333396911621, 'val': 0.9933333396911621}, mf1:{'test': 0.9611318111419678, 'val': 0.9611318111419678}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_12_17  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9933333396911621, 'val': 0.9933333396911621}, mf1:{'test': 0.9611318111419678, 'val': 0.9611318111419678}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_15_42  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_18_20  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9095892310142517, 'val': 0.9095892310142517}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_20_33  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_23_16  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_25_49  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9129356145858765, 'val': 0.9129356145858765}
+
+ArticularyWordRecognition_dim256_depth2_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_27_55  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_29_53  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_32_31  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8758341670036316, 'val': 0.8758341670036316}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_34_26  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.896151602268219, 'val': 0.896151602268219}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_36_41  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9236181378364563, 'val': 0.9236181378364563}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_38_44  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9054796099662781, 'val': 0.9054796099662781}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_40_46  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_43_16  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9933333396911621, 'val': 0.9933333396911621}, mf1:{'test': 0.9611318111419678, 'val': 0.9611318111419678}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_45_22  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9206839799880981, 'val': 0.9206839799880981}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_48_00  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_50_47  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9054796099662781, 'val': 0.9054796099662781}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_53_15  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_55_36  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_57_50  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_00_24  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_02_38  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_05_06  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_07_08  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_09_02  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_11_06  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_13_14  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim128_depth2_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_15_00  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_16_44  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_18_54  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9142900705337524, 'val': 0.9142900705337524}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_20_50  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_22_29  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8771887421607971, 'val': 0.8771887421607971}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_24_22  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_27_17  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9933333396911621, 'val': 0.9933333396911621}, mf1:{'test': 0.9611318111419678, 'val': 0.9611318111419678}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_30_01  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_32_33  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_34_30  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9666666388511658, 'val': 0.9666666388511658}, mf1:{'test': 0.8289923667907715, 'val': 0.8289923667907715}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_36_29  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_38_23  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9037128686904907, 'val': 0.9037128686904907}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_07  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_42_02  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_43_47  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_46_05  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_47_39  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_49_35  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.8957393169403076, 'val': 0.8957393169403076}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_51_22  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8556156158447266, 'val': 0.8556156158447266}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_53_36  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_55_43  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth2_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_36  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_59_43  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_05_09  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_08_07  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9138590693473816, 'val': 0.9138590693473816}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_09_58  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9325604438781738, 'val': 0.9325604438781738}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_13_04  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9054796099662781, 'val': 0.9054796099662781}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_22_25  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9053742289543152, 'val': 0.9053742289543152}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_33_58  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_46_26  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.9046816229820251, 'val': 0.9046816229820251}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_56_00  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8557664155960083, 'val': 0.8557664155960083}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_10_55  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_14_26  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9232323169708252, 'val': 0.9232323169708252}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_16_46  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.895458996295929, 'val': 0.895458996295929}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_19_17  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.92392498254776, 'val': 0.92392498254776}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_21_56  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_24_45  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9228452444076538, 'val': 0.9228452444076538}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_28_16  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9028696417808533, 'val': 0.9028696417808533}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_30_49  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9666666388511658, 'val': 0.9666666388511658}, mf1:{'test': 0.8451659083366394, 'val': 0.8451659083366394}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_33_35  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9122429490089417, 'val': 0.9122429490089417}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_36_19  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8807662129402161, 'val': 0.8807662129402161}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_40_02  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.92392498254776, 'val': 0.92392498254776}
+
+ArticularyWordRecognition_dim32_depth2_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_42_32  
+TSLANet_ArticularyWordRecognition_l_2  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9053742289543152, 'val': 0.9053742289543152}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_44_31  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8979624509811401, 'val': 0.8979624509811401}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_46_45  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8670173287391663, 'val': 0.8670173287391663}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_49_38  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9232323169708252, 'val': 0.9232323169708252}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_52_37  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9047067165374756, 'val': 0.9047067165374756}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_55_21  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9666666388511658, 'val': 0.9666666388511658}, mf1:{'test': 0.848205029964447, 'val': 0.848205029964447}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_57_45  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9050673246383667, 'val': 0.9050673246383667}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_00_03  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9933333396911621, 'val': 0.9933333396911621}, mf1:{'test': 0.9611318111419678, 'val': 0.9611318111419678}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_02_48  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9041018486022949, 'val': 0.9041018486022949}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_05_10  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.8961515426635742, 'val': 0.8961515426635742}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_07_32  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.866506040096283, 'val': 0.866506040096283}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_10_11  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.9020279049873352, 'val': 0.9020279049873352}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_12_35  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_15_43  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9129356145858765, 'val': 0.9129356145858765}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_17_38  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_19_26  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_21_37  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8860506415367126, 'val': 0.8860506415367126}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_23_35  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9151967167854309, 'val': 0.9151967167854309}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_25_42  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8564589619636536, 'val': 0.8564589619636536}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_27_33  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9142900705337524, 'val': 0.9142900705337524}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_29_29  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim256_depth1_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_31_42  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9129356145858765, 'val': 0.9129356145858765}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_33_21  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9054796099662781, 'val': 0.9054796099662781}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_35_45  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9053743481636047, 'val': 0.9053743481636047}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_38_10  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8953786492347717, 'val': 0.8953786492347717}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_40_09  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.877600908279419, 'val': 0.877600908279419}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_42_17  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.877600908279419, 'val': 0.877600908279419}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_44_21  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_47_03  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_49_45  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9257971048355103, 'val': 0.9257971048355103}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_52_31  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.896151602268219, 'val': 0.896151602268219}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_55_20  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8658133745193481, 'val': 0.8658133745193481}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_58_00  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.896151602268219, 'val': 0.896151602268219}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_00_49  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_03_31  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_06_08  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9222635626792908, 'val': 0.9222635626792908}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_08_30  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_11_14  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.886928915977478, 'val': 0.886928915977478}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_14_31  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8660937547683716, 'val': 0.8660937547683716}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_17_14  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9121626615524292, 'val': 0.9121626615524292}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_20_13  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_23_08  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim128_depth1_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_26_13  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9129356145858765, 'val': 0.9129356145858765}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_28_51  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9933333396911621, 'val': 0.9933333396911621}, mf1:{'test': 0.9628985524177551, 'val': 0.9628985524177551}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_32_20  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9283768534660339, 'val': 0.9283768534660339}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_35_02  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8571780323982239, 'val': 0.8571780323982239}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_37_45  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_40_08  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9090573191642761, 'val': 0.9090573191642761}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_42_32  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.92392498254776, 'val': 0.92392498254776}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_44_45  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_46_55  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9037128686904907, 'val': 0.9037128686904907}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_50_06  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9053742289543152, 'val': 0.9053742289543152}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_53_08  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8682727813720703, 'val': 0.8682727813720703}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_55_52  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_59_03  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.92392498254776, 'val': 0.92392498254776}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_02_10  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_04_38  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_06_40  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.866506040096283, 'val': 0.866506040096283}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_08_45  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9049619436264038, 'val': 0.9049619436264038}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_10_37  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_12_48  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.866506040096283, 'val': 0.866506040096283}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_15_12  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9308974146842957, 'val': 0.9308974146842957}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_17_37  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim64_depth1_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_19_32  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9036074876785278, 'val': 0.9036074876785278}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_21_29  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9147023558616638, 'val': 0.9147023558616638}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_25_08  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9053742289543152, 'val': 0.9053742289543152}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_27_59  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9666666388511658, 'val': 0.9666666388511658}, mf1:{'test': 0.8790451884269714, 'val': 0.8790451884269714}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_31_03  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9833333492279053, 'val': 0.9833333492279053}, mf1:{'test': 0.9129356145858765, 'val': 0.9129356145858765}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch22_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_34_16  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.914009690284729, 'val': 0.914009690284729}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch29_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_37_14  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9053742289543152, 'val': 0.9053742289543152}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch36_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_39_26  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.93179851770401, 'val': 0.93179851770401}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_41_57  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9240303635597229, 'val': 0.9240303635597229}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_45_04  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.8758341670036316, 'val': 0.8758341670036316}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_48_10  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.885718584060669, 'val': 0.885718584060669}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_50_28  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.9046816229820251, 'val': 0.9046816229820251}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch22_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_53_24  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9053742289543152, 'val': 0.9053742289543152}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch29_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_57_03  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.9046816229820251, 'val': 0.9046816229820251}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch36_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_00_14  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8682727813720703, 'val': 0.8682727813720703}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_02_56  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8819234371185303, 'val': 0.8819234371185303}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_05_14  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9900000095367432, 'val': 0.9900000095367432}, mf1:{'test': 0.942581057548523, 'val': 0.942581057548523}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_09_25  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9800000190734863, 'val': 0.9800000190734863}, mf1:{'test': 0.9232323169708252, 'val': 0.9232323169708252}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_13_23  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9700000286102295, 'val': 0.9700000286102295}, mf1:{'test': 0.8667556643486023, 'val': 0.8667556643486023}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch22_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_16_08  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9866666793823242, 'val': 0.9866666793823242}, mf1:{'test': 0.9332530498504639, 'val': 0.9332530498504639}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch29_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_18_38  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9733333587646484, 'val': 0.9733333587646484}, mf1:{'test': 0.8888760209083557, 'val': 0.8888760209083557}
+
+ArticularyWordRecognition_dim32_depth1_mask0.4_patch36_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_20_57  
+TSLANet_ArticularyWordRecognition_l_1  
+acc:{'test': 0.9766666889190674, 'val': 0.9766666889190674}, mf1:{'test': 0.9042693972587585, 'val': 0.9042693972587585}
+

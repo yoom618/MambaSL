@@ -1,0 +1,6048 @@
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm256_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm128_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm64_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 3 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth3_dm32_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm256_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm128_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm64_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 2 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth2_dm32_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 256 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm256_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 128 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm128_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 64 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm64_mlp1_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp3_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp3_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp3_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp3_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp3_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp3_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 3 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp3_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp2_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp2_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp2_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp2_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp2_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp2_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 2 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp2_ps625.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 63 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp1_ps63.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 125 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp1_ps125.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 188 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp1_ps188.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 250 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp1_ps250.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 375 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp1_ps375.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 500 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp1_ps500.log 2>&1
+
+python -u _run_TSLANet/TSLANet_classification.py \
+  --gpu 3 \
+  --data_path /data/yoom618/TSLib/dataset/StandWalkJump \
+  --data_type uea \
+  --data_name StandWalkJump \
+  --model_id CLS_StandWalkJump \
+  --depth 1 \
+  --emb_dim 32 \
+  --mlp_ratio 1 \
+  --masking_ratio 0.4 \
+  --ICB True \
+  --ASB True \
+  --adaptive_filter True \
+  --load_from_pretrained True \
+  --patch_size 625 \
+  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --batch_size 16 \
+  --dropout 0.15 \
+  --train_lr 0.001 \
+  --pretrain_lr 0.001 \
+  --num_epochs 100 \
+  --pretrain_epoch 50 \
+  --seed 2021 > _run_TSLANet/results/StandWalkJump/StandWalkJump_depth1_dm32_mlp1_ps625.log 2>&1
+

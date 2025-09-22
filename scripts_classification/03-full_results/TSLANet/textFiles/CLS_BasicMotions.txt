@@ -1,0 +1,1008 @@
+BasicMotions_dim256_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_38_01  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_42_01  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_44_29  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_46_32  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_48_22  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.8666666746139526, 'val': 0.8666666746139526}
+
+BasicMotions_dim256_depth3_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_51_13  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.7121692895889282, 'val': 0.7121692895889282}
+
+BasicMotions_dim256_depth3_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_54_06  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6945454478263855, 'val': 0.6945454478263855}
+
+BasicMotions_dim256_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_56_30  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_59_29  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_01_51  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_04_14  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_06_15  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.775873064994812, 'val': 0.775873064994812}
+
+BasicMotions_dim256_depth3_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_07_56  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.7952861785888672, 'val': 0.7952861785888672}
+
+BasicMotions_dim256_depth3_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_10_36  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6721693277359009, 'val': 0.6721693277359009}
+
+BasicMotions_dim256_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_12_51  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_14_30  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_16_13  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_17_58  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_19_31  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.6989899277687073, 'val': 0.6989899277687073}
+
+BasicMotions_dim256_depth3_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_21_10  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6855026483535767, 'val': 0.6855026483535767}
+
+BasicMotions_dim256_depth3_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_22_41  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.7000480890274048, 'val': 0.7000480890274048}
+
+BasicMotions_dim128_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_24_01  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_25_43  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_27_15  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_28_36  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_29_49  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.8769230842590332, 'val': 0.8769230842590332}
+
+BasicMotions_dim128_depth3_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_31_12  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.7952861785888672, 'val': 0.7952861785888672}
+
+BasicMotions_dim128_depth3_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_32_47  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6622222661972046, 'val': 0.6622222661972046}
+
+BasicMotions_dim128_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_34_02  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_35_27  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_36_56  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_38_16  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_39_43  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.8666666746139526, 'val': 0.8666666746139526}
+
+BasicMotions_dim128_depth3_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_41_08  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.7952861785888672, 'val': 0.7952861785888672}
+
+BasicMotions_dim128_depth3_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_42_33  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6622222661972046, 'val': 0.6622222661972046}
+
+BasicMotions_dim128_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_43_53  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_45_30  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_46_51  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_48_15  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_50_03  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.8666666746139526, 'val': 0.8666666746139526}
+
+BasicMotions_dim128_depth3_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_51_20  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.7952861785888672, 'val': 0.7952861785888672}
+
+BasicMotions_dim128_depth3_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_52_27  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6800000071525574, 'val': 0.6800000071525574}
+
+BasicMotions_dim64_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_53_40  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_54_52  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_55_57  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_57_14  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.9750000238418579, 'val': 0.9750000238418579}, mf1:{'test': 0.9492063522338867, 'val': 0.9492063522338867}
+
+BasicMotions_dim64_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_58_30  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8545454740524292, 'val': 0.8545454740524292}
+
+BasicMotions_dim64_depth3_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_59_39  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.8349205851554871, 'val': 0.8349205851554871}
+
+BasicMotions_dim64_depth3_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_00_52  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_01_55  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_02_59  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6778309345245361, 'val': 0.6778309345245361}
+
+BasicMotions_dim64_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_04_06  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_05_14  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_06_29  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8158730268478394, 'val': 0.8158730268478394}
+
+BasicMotions_dim64_depth3_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_07_40  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.8769230842590332, 'val': 0.8769230842590332}
+
+BasicMotions_dim64_depth3_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_08_48  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6721693277359009, 'val': 0.6721693277359009}
+
+BasicMotions_dim64_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_10_02  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_11_06  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_12_10  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_13_05  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_13_59  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.601403534412384, 'val': 0.601403534412384}
+
+BasicMotions_dim64_depth3_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_14_55  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.8666666746139526, 'val': 0.8666666746139526}
+
+BasicMotions_dim64_depth3_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_15_58  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6763636469841003, 'val': 0.6763636469841003}
+
+BasicMotions_dim32_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_16_58  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim32_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_18_03  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_19_07  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_20_04  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_21_09  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_22_10  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8074073791503906, 'val': 0.8074073791503906}
+
+BasicMotions_dim32_depth3_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_23_14  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6666666865348816, 'val': 0.6666666865348816}
+
+BasicMotions_dim32_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_24_18  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.5687400102615356, 'val': 0.5687400102615356}
+
+BasicMotions_dim32_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_25_00  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_25_53  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_26_54  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_27_41  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.8148148655891418, 'val': 0.8148148655891418}
+
+BasicMotions_dim32_depth3_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_28_44  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.7314685583114624, 'val': 0.7314685583114624}
+
+BasicMotions_dim32_depth3_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_29_46  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6603174805641174, 'val': 0.6603174805641174}
+
+BasicMotions_dim32_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_30_40  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_31_36  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_32_27  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_33_20  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_34_19  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth3_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_35_34  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8074073791503906, 'val': 0.8074073791503906}
+
+BasicMotions_dim32_depth3_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_37_01  
+TSLANet_BasicMotions_l_3  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6622222661972046, 'val': 0.6622222661972046}
+
+BasicMotions_dim256_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_38_21  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_39_52  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_41_31  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_42_45  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_43_51  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.7855700254440308, 'val': 0.7855700254440308}
+
+BasicMotions_dim256_depth2_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_45_16  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6603174805641174, 'val': 0.6603174805641174}
+
+BasicMotions_dim256_depth2_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_46_18  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6855026483535767, 'val': 0.6855026483535767}
+
+BasicMotions_dim256_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_47_37  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_49_23  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_50_26  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_51_42  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.9750000238418579, 'val': 0.9750000238418579}, mf1:{'test': 0.9407407641410828, 'val': 0.9407407641410828}
+
+BasicMotions_dim256_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_52_58  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.8769230842590332, 'val': 0.8769230842590332}
+
+BasicMotions_dim256_depth2_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_54_36  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.8769230842590332, 'val': 0.8769230842590332}
+
+BasicMotions_dim256_depth2_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_56_13  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.7555555105209351, 'val': 0.7555555105209351}
+
+BasicMotions_dim256_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_57_38  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_58_42  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_59_41  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_00_40  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_01_36  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.7892063856124878, 'val': 0.7892063856124878}
+
+BasicMotions_dim256_depth2_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_02_55  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.6899471282958984, 'val': 0.6899471282958984}
+
+BasicMotions_dim256_depth2_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_04_12  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6693602800369263, 'val': 0.6693602800369263}
+
+BasicMotions_dim128_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_05_28  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_06_39  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_07_38  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_08_37  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_09_39  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.775873064994812, 'val': 0.775873064994812}
+
+BasicMotions_dim128_depth2_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_10_36  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8074073791503906, 'val': 0.8074073791503906}
+
+BasicMotions_dim128_depth2_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_11_44  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6800000071525574, 'val': 0.6800000071525574}
+
+BasicMotions_dim128_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_12_37  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_13_39  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_14_37  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_15_34  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_16_32  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.7640211582183838, 'val': 0.7640211582183838}
+
+BasicMotions_dim128_depth2_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_17_22  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.7851852178573608, 'val': 0.7851852178573608}
+
+BasicMotions_dim128_depth2_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_18_23  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6800000071525574, 'val': 0.6800000071525574}
+
+BasicMotions_dim128_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_19_17  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_20_25  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_21_21  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_22_20  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.949999988079071, 'val': 0.949999988079071}, mf1:{'test': 0.8425396680831909, 'val': 0.8425396680831909}
+
+BasicMotions_dim128_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_23_18  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.7640211582183838, 'val': 0.7640211582183838}
+
+BasicMotions_dim128_depth2_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_24_20  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6818662881851196, 'val': 0.6818662881851196}
+
+BasicMotions_dim128_depth2_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_25_46  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6721693277359009, 'val': 0.6721693277359009}
+
+BasicMotions_dim64_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_26_51  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_27_48  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_28_43  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_29_50  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_30_54  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8545454740524292, 'val': 0.8545454740524292}
+
+BasicMotions_dim64_depth2_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_31_57  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.8769230842590332, 'val': 0.8769230842590332}
+
+BasicMotions_dim64_depth2_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_33_00  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6721693277359009, 'val': 0.6721693277359009}
+
+BasicMotions_dim64_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_33_56  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_34_46  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_35_41  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_36_37  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_37_33  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.8666666746139526, 'val': 0.8666666746139526}
+
+BasicMotions_dim64_depth2_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_38_45  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.7952861785888672, 'val': 0.7952861785888672}
+
+BasicMotions_dim64_depth2_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_40_40  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6721693277359009, 'val': 0.6721693277359009}
+
+BasicMotions_dim64_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_41_35  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_42_36  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_43_21  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_44_22  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_45_14  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8545454740524292, 'val': 0.8545454740524292}
+
+BasicMotions_dim64_depth2_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_46_16  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.8769230842590332, 'val': 0.8769230842590332}
+
+BasicMotions_dim64_depth2_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_47_15  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6721693277359009, 'val': 0.6721693277359009}
+
+BasicMotions_dim32_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_48_23  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_49_11  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_50_09  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_51_01  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_51_54  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.8399999737739563, 'val': 0.8399999737739563}
+
+BasicMotions_dim32_depth2_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_52_48  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.8444444537162781, 'val': 0.8444444537162781}
+
+BasicMotions_dim32_depth2_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_53_47  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6812121272087097, 'val': 0.6812121272087097}
+
+BasicMotions_dim32_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_54_35  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim32_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_55_31  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_56_23  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.7807407379150391, 'val': 0.7807407379150391}
+
+BasicMotions_dim32_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_57_13  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_58_42  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8545454740524292, 'val': 0.8545454740524292}
+
+BasicMotions_dim32_depth2_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_59_31  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_00_12  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6818662881851196, 'val': 0.6818662881851196}
+
+BasicMotions_dim32_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_00_58  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_01_47  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.7250000238418579, 'val': 0.7250000238418579}, mf1:{'test': 0.5747368335723877, 'val': 0.5747368335723877}
+
+BasicMotions_dim32_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_02_30  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_03_09  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_04_11  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth2_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_04_54  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6721693277359009, 'val': 0.6721693277359009}
+
+BasicMotions_dim32_depth2_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_05_45  
+TSLANet_BasicMotions_l_2  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6603174805641174, 'val': 0.6603174805641174}
+
+BasicMotions_dim256_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_06_41  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_07_53  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_09_08  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_10_35  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_11_31  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.949999988079071, 'val': 0.949999988079071}, mf1:{'test': 0.8857142329216003, 'val': 0.8857142329216003}
+
+BasicMotions_dim256_depth1_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_13_04  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6818662881851196, 'val': 0.6818662881851196}
+
+BasicMotions_dim256_depth1_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_14_31  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.6899471282958984, 'val': 0.6899471282958984}
+
+BasicMotions_dim256_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_15_23  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_16_34  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_17_30  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_18_28  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.9750000238418579, 'val': 0.9750000238418579}, mf1:{'test': 0.8933333158493042, 'val': 0.8933333158493042}
+
+BasicMotions_dim256_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_19_43  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.925000011920929, 'val': 0.925000011920929}, mf1:{'test': 0.8769230842590332, 'val': 0.8769230842590332}
+
+BasicMotions_dim256_depth1_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_20_30  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.7121692895889282, 'val': 0.7121692895889282}
+
+BasicMotions_dim256_depth1_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_21_53  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim256_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_22_36  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_23_39  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_24_48  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_25_49  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim256_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_26_34  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8363636136054993, 'val': 0.8363636136054993}
+
+BasicMotions_dim256_depth1_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_27_17  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6818662881851196, 'val': 0.6818662881851196}
+
+BasicMotions_dim256_depth1_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_28_11  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6909090876579285, 'val': 0.6909090876579285}
+
+BasicMotions_dim128_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_29_00  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_30_03  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_30_57  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_31_55  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.9750000238418579, 'val': 0.9750000238418579}, mf1:{'test': 0.8933333158493042, 'val': 0.8933333158493042}
+
+BasicMotions_dim128_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_32_52  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.8399999737739563, 'val': 0.8399999737739563}
+
+BasicMotions_dim128_depth1_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_33_56  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.7000480890274048, 'val': 0.7000480890274048}
+
+BasicMotions_dim128_depth1_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_34_34  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6666666865348816, 'val': 0.6666666865348816}
+
+BasicMotions_dim128_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_35_26  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_36_07  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_37_15  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_39_15  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_40_48  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.8399999737739563, 'val': 0.8399999737739563}
+
+BasicMotions_dim128_depth1_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_41_35  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.8500000238418579, 'val': 0.8500000238418579}, mf1:{'test': 0.7952861785888672, 'val': 0.7952861785888672}
+
+BasicMotions_dim128_depth1_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_42_35  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6548148393630981, 'val': 0.6548148393630981}
+
+BasicMotions_dim128_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_43_41  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_44_54  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_45_44  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim128_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_46_37  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.9750000238418579, 'val': 0.9750000238418579}, mf1:{'test': 0.8933333158493042, 'val': 0.8933333158493042}
+
+BasicMotions_dim128_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_47_55  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8545454740524292, 'val': 0.8545454740524292}
+
+BasicMotions_dim128_depth1_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_48_56  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.7000480890274048, 'val': 0.7000480890274048}
+
+BasicMotions_dim128_depth1_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_49_41  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6909090876579285, 'val': 0.6909090876579285}
+
+BasicMotions_dim64_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_50_35  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_51_36  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_52_32  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_53_21  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.9750000238418579, 'val': 0.9750000238418579}, mf1:{'test': 0.8933333158493042, 'val': 0.8933333158493042}
+
+BasicMotions_dim64_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_54_06  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.775873064994812, 'val': 0.775873064994812}
+
+BasicMotions_dim64_depth1_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_55_05  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.8666666746139526, 'val': 0.8666666746139526}
+
+BasicMotions_dim64_depth1_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_55_48  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6763636469841003, 'val': 0.6763636469841003}
+
+BasicMotions_dim64_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_56_26  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_57_56  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim64_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_58_46  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_59_48  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.9750000238418579, 'val': 0.9750000238418579}, mf1:{'test': 0.8933333158493042, 'val': 0.8933333158493042}
+
+BasicMotions_dim64_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_00_40  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.875, 'val': 0.875}, mf1:{'test': 0.8545454740524292, 'val': 0.8545454740524292}
+
+BasicMotions_dim64_depth1_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_01_58  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.8666666746139526, 'val': 0.8666666746139526}
+
+BasicMotions_dim64_depth1_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_02_56  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6666666865348816, 'val': 0.6666666865348816}
+
+BasicMotions_dim64_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_04_04  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_05_42  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_06_32  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_07_10  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim64_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_07_52  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.775873064994812, 'val': 0.775873064994812}
+
+BasicMotions_dim64_depth1_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_09_31  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.8999999761581421, 'val': 0.8999999761581421}, mf1:{'test': 0.8176637887954712, 'val': 0.8176637887954712}
+
+BasicMotions_dim64_depth1_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_10_26  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6603174805641174, 'val': 0.6603174805641174}
+
+BasicMotions_dim32_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_11_18  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 1.0, 'val': 1.0}, mf1:{'test': 1.0, 'val': 1.0}
+
+BasicMotions_dim32_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_12_21  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_13_25  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_14_13  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch15_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_14_59  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch20_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_16_13  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.7629629373550415, 'val': 0.7629629373550415}
+
+BasicMotions_dim32_depth1_mask0.4_patch25_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_16_59  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.824999988079071, 'val': 0.824999988079071}, mf1:{'test': 0.6818662881851196, 'val': 0.6818662881851196}
+
+BasicMotions_dim32_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_17_57  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.625, 'val': 0.625}, mf1:{'test': 0.5600000023841858, 'val': 0.5600000023841858}
+
+BasicMotions_dim32_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_18_43  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_19_29  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_20_15  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch15_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_21_03  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch20_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_21_54  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6603174805641174, 'val': 0.6603174805641174}
+
+BasicMotions_dim32_depth1_mask0.4_patch25_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_22_35  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.7749999761581421, 'val': 0.7749999761581421}, mf1:{'test': 0.6603174805641174, 'val': 0.6603174805641174}
+
+BasicMotions_dim32_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_23_28  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6545454263687134, 'val': 0.6545454263687134}
+
+BasicMotions_dim32_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_24_25  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_25_23  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_26_08  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch15_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_27_09  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6399999856948853, 'val': 0.6399999856948853}
+
+BasicMotions_dim32_depth1_mask0.4_patch20_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_27_59  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.800000011920929, 'val': 0.800000011920929}, mf1:{'test': 0.6812121272087097, 'val': 0.6812121272087097}
+
+BasicMotions_dim32_depth1_mask0.4_patch25_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_29_33  
+TSLANet_BasicMotions_l_1  
+acc:{'test': 0.75, 'val': 0.75}, mf1:{'test': 0.6455026865005493, 'val': 0.6455026865005493}
+

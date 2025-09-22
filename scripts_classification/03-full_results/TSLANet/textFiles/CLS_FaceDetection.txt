@@ -1,0 +1,1008 @@
+FaceDetection_dim256_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_38_02  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6186152100563049, 'val': 0.6186152100563049}, mf1:{'test': 0.6016040444374084, 'val': 0.6016040444374084}
+
+FaceDetection_dim256_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_38_25  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6305334568023682, 'val': 0.6305334568023682}, mf1:{'test': 0.6160100102424622, 'val': 0.6160100102424622}
+
+FaceDetection_dim256_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_15_43  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6288308501243591, 'val': 0.6288308501243591}, mf1:{'test': 0.6128910779953003, 'val': 0.6128910779953003}
+
+FaceDetection_dim256_depth3_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_45_29  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6163450479507446, 'val': 0.6163450479507446}, mf1:{'test': 0.6008414626121521, 'val': 0.6008414626121521}
+
+FaceDetection_dim256_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_09_04  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5788876414299011, 'val': 0.5788876414299011}, mf1:{'test': 0.5634726881980896, 'val': 0.5634726881980896}
+
+FaceDetection_dim256_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_48_50  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6106696724891663, 'val': 0.6106696724891663}, mf1:{'test': 0.5955126285552979, 'val': 0.5955126285552979}
+
+FaceDetection_dim256_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_13_26  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6569239497184753, 'val': 0.6569239497184753}, mf1:{'test': 0.6434417366981506, 'val': 0.6434417366981506}
+
+FaceDetection_dim256_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_40_30  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6268444657325745, 'val': 0.6268444657325745}, mf1:{'test': 0.6091748476028442, 'val': 0.6091748476028442}
+
+FaceDetection_dim256_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_20_25  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6140748858451843, 'val': 0.6140748858451843}, mf1:{'test': 0.5913204550743103, 'val': 0.5913204550743103}
+
+FaceDetection_dim256_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_44_10  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6217366456985474, 'val': 0.6217366456985474}, mf1:{'test': 0.6059434413909912, 'val': 0.6059434413909912}
+
+FaceDetection_dim256_depth3_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_03_04  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.620317816734314, 'val': 0.620317816734314}, mf1:{'test': 0.6047447919845581, 'val': 0.6047447919845581}
+
+FaceDetection_dim256_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_24_55  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5669693350791931, 'val': 0.5669693350791931}, mf1:{'test': 0.5394885540008545, 'val': 0.5394885540008545}
+
+FaceDetection_dim256_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_47_18  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6064131855964661, 'val': 0.6064131855964661}, mf1:{'test': 0.5883004069328308, 'val': 0.5883004069328308}
+
+FaceDetection_dim256_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_07_32  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6486946940422058, 'val': 0.6486946940422058}, mf1:{'test': 0.6357625722885132, 'val': 0.6357625722885132}
+
+FaceDetection_dim256_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_26_11  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6557888984680176, 'val': 0.6557888984680176}, mf1:{'test': 0.6408564448356628, 'val': 0.6408564448356628}
+
+FaceDetection_dim256_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_52_10  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6342224478721619, 'val': 0.6342224478721619}, mf1:{'test': 0.6204373240470886, 'val': 0.6204373240470886}
+
+FaceDetection_dim256_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_16_46  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6200340390205383, 'val': 0.6200340390205383}, mf1:{'test': 0.6024832129478455, 'val': 0.6024832129478455}
+
+FaceDetection_dim256_depth3_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_37_09  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6015890836715698, 'val': 0.6015890836715698}, mf1:{'test': 0.5860153436660767, 'val': 0.5860153436660767}
+
+FaceDetection_dim256_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_39  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5774688124656677, 'val': 0.5774688124656677}, mf1:{'test': 0.5619832277297974, 'val': 0.5619832277297974}
+
+FaceDetection_dim256_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_10_12  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5967650413513184, 'val': 0.5967650413513184}, mf1:{'test': 0.5804532170295715, 'val': 0.5804532170295715}
+
+FaceDetection_dim256_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_31_21  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.633938729763031, 'val': 0.633938729763031}, mf1:{'test': 0.6184740662574768, 'val': 0.6184740662574768}
+
+FaceDetection_dim128_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_48_48  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6413167119026184, 'val': 0.6413167119026184}, mf1:{'test': 0.6230370998382568, 'val': 0.6230370998382568}
+
+FaceDetection_dim128_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_20_01  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6234392523765564, 'val': 0.6234392523765564}, mf1:{'test': 0.6072020530700684, 'val': 0.6072020530700684}
+
+FaceDetection_dim128_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_44_31  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6163450479507446, 'val': 0.6163450479507446}, mf1:{'test': 0.5974411964416504, 'val': 0.5974411964416504}
+
+FaceDetection_dim128_depth3_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_12_07  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5922247171401978, 'val': 0.5922247171401978}, mf1:{'test': 0.5777029991149902, 'val': 0.5777029991149902}
+
+FaceDetection_dim128_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_42_18  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6078320145606995, 'val': 0.6078320145606995}, mf1:{'test': 0.5920406579971313, 'val': 0.5920406579971313}
+
+FaceDetection_dim128_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_12_50  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6171963810920715, 'val': 0.6171963810920715}, mf1:{'test': 0.6025148034095764, 'val': 0.6025148034095764}
+
+FaceDetection_dim128_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_19_37  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6347900032997131, 'val': 0.6347900032997131}, mf1:{'test': 0.6195760369300842, 'val': 0.6195760369300842}
+
+FaceDetection_dim128_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_19_37  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6549375653266907, 'val': 0.6549375653266907}, mf1:{'test': 0.6378439664840698, 'val': 0.6378439664840698}
+
+FaceDetection_dim128_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_55_59  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6180476546287537, 'val': 0.6180476546287537}, mf1:{'test': 0.5933431386947632, 'val': 0.5933431386947632}
+
+FaceDetection_dim128_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_27_14  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6061294078826904, 'val': 0.6061294078826904}, mf1:{'test': 0.5899748802185059, 'val': 0.5899748802185059}
+
+FaceDetection_dim128_depth3_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_58_39  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6081157922744751, 'val': 0.6081157922744751}, mf1:{'test': 0.5924783945083618, 'val': 0.5924783945083618}
+
+FaceDetection_dim128_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_31_58  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.616061270236969, 'val': 0.616061270236969}, mf1:{'test': 0.6002766489982605, 'val': 0.6002766489982605}
+
+FaceDetection_dim128_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_27_59  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6058456301689148, 'val': 0.6058456301689148}, mf1:{'test': 0.5884129405021667, 'val': 0.5884129405021667}
+
+FaceDetection_dim128_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_55_11  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6387627720832825, 'val': 0.6387627720832825}, mf1:{'test': 0.6254839301109314, 'val': 0.6254839301109314}
+
+FaceDetection_dim128_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_15_14  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6416004300117493, 'val': 0.6416004300117493}, mf1:{'test': 0.6240978837013245, 'val': 0.6240978837013245}
+
+FaceDetection_dim128_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_05_38_21  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.623723030090332, 'val': 0.623723030090332}, mf1:{'test': 0.6074873208999634, 'val': 0.6074873208999634}
+
+FaceDetection_dim128_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_22_52  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6035754680633545, 'val': 0.6035754680633545}, mf1:{'test': 0.5889624953269958, 'val': 0.5889624953269958}
+
+FaceDetection_dim128_depth3_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_43_52  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6234392523765564, 'val': 0.6234392523765564}, mf1:{'test': 0.6063735485076904, 'val': 0.6063735485076904}
+
+FaceDetection_dim128_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_33_33  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.59108966588974, 'val': 0.59108966588974}, mf1:{'test': 0.5614157319068909, 'val': 0.5614157319068909}
+
+FaceDetection_dim128_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_07_55_48  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6089670658111572, 'val': 0.6089670658111572}, mf1:{'test': 0.5928791761398315, 'val': 0.5928791761398315}
+
+FaceDetection_dim128_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_35_02  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6200340390205383, 'val': 0.6200340390205383}, mf1:{'test': 0.605532169342041, 'val': 0.605532169342041}
+
+FaceDetection_dim64_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_54_35  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6461407542228699, 'val': 0.6461407542228699}, mf1:{'test': 0.631665050983429, 'val': 0.631665050983429}
+
+FaceDetection_dim64_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_23_14  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6407491564750671, 'val': 0.6407491564750671}, mf1:{'test': 0.6211608052253723, 'val': 0.6211608052253723}
+
+FaceDetection_dim64_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_01_32  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6208853721618652, 'val': 0.6208853721618652}, mf1:{'test': 0.6069700121879578, 'val': 0.6069700121879578}
+
+FaceDetection_dim64_depth3_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_23_56  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6364926099777222, 'val': 0.6364926099777222}, mf1:{'test': 0.6220697164535522, 'val': 0.6220697164535522}
+
+FaceDetection_dim64_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_04_51  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5757661461830139, 'val': 0.5757661461830139}, mf1:{'test': 0.5551578998565674, 'val': 0.5551578998565674}
+
+FaceDetection_dim64_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_18_40  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.583427906036377, 'val': 0.583427906036377}, mf1:{'test': 0.566419780254364, 'val': 0.566419780254364}
+
+FaceDetection_dim64_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_36_02  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6086832880973816, 'val': 0.6086832880973816}, mf1:{'test': 0.5942891836166382, 'val': 0.5942891836166382}
+
+FaceDetection_dim64_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_01_54  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6345062255859375, 'val': 0.6345062255859375}, mf1:{'test': 0.6178891062736511, 'val': 0.6178891062736511}
+
+FaceDetection_dim64_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_16_43  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.633938729763031, 'val': 0.633938729763031}, mf1:{'test': 0.618242084980011, 'val': 0.618242084980011}
+
+FaceDetection_dim64_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_43_23  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6129398345947266, 'val': 0.6129398345947266}, mf1:{'test': 0.5965003967285156, 'val': 0.5965003967285156}
+
+FaceDetection_dim64_depth3_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_02_42  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.61435866355896, 'val': 0.61435866355896}, mf1:{'test': 0.5985220074653625, 'val': 0.5985220074653625}
+
+FaceDetection_dim64_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_24_46  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.566118061542511, 'val': 0.566118061542511}, mf1:{'test': 0.5450117588043213, 'val': 0.5450117588043213}
+
+FaceDetection_dim64_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_38_42  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6112372279167175, 'val': 0.6112372279167175}, mf1:{'test': 0.5975220799446106, 'val': 0.5975220799446106}
+
+FaceDetection_dim64_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_14_26_37  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.597048819065094, 'val': 0.597048819065094}, mf1:{'test': 0.5824494957923889, 'val': 0.5824494957923889}
+
+FaceDetection_dim64_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_51_24  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6464245319366455, 'val': 0.6464245319366455}, mf1:{'test': 0.6238009929656982, 'val': 0.6238009929656982}
+
+FaceDetection_dim64_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_08_40  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.627979576587677, 'val': 0.627979576587677}, mf1:{'test': 0.6108637452125549, 'val': 0.6108637452125549}
+
+FaceDetection_dim64_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_38_04  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6211691498756409, 'val': 0.6211691498756409}, mf1:{'test': 0.6076592803001404, 'val': 0.6076592803001404}
+
+FaceDetection_dim64_depth3_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_19_12  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6240068078041077, 'val': 0.6240068078041077}, mf1:{'test': 0.607178270816803, 'val': 0.607178270816803}
+
+FaceDetection_dim64_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_57_56  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6064131855964661, 'val': 0.6064131855964661}, mf1:{'test': 0.5920320153236389, 'val': 0.5920320153236389}
+
+FaceDetection_dim64_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_18_50  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5800226926803589, 'val': 0.5800226926803589}, mf1:{'test': 0.5499894618988037, 'val': 0.5499894618988037}
+
+FaceDetection_dim64_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_34_52  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5760499238967896, 'val': 0.5760499238967896}, mf1:{'test': 0.5614463090896606, 'val': 0.5614463090896606}
+
+FaceDetection_dim32_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_52_52  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6555051207542419, 'val': 0.6555051207542419}, mf1:{'test': 0.6385957598686218, 'val': 0.6385957598686218}
+
+FaceDetection_dim32_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_11_19  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6200340390205383, 'val': 0.6200340390205383}, mf1:{'test': 0.5969034433364868, 'val': 0.5969034433364868}
+
+FaceDetection_dim32_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_31_27  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6265607476234436, 'val': 0.6265607476234436}, mf1:{'test': 0.6126142740249634, 'val': 0.6126142740249634}
+
+FaceDetection_dim32_depth3_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_48_28  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6044268012046814, 'val': 0.6044268012046814}, mf1:{'test': 0.58571457862854, 'val': 0.58571457862854}
+
+FaceDetection_dim32_depth3_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_14_27  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5822928547859192, 'val': 0.5822928547859192}, mf1:{'test': 0.5652968287467957, 'val': 0.5652968287467957}
+
+FaceDetection_dim32_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_25_39  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5947786569595337, 'val': 0.5947786569595337}, mf1:{'test': 0.5792571902275085, 'val': 0.5792571902275085}
+
+FaceDetection_dim32_depth3_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_46_58  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5817252993583679, 'val': 0.5817252993583679}, mf1:{'test': 0.5666511654853821, 'val': 0.5666511654853821}
+
+FaceDetection_dim32_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_06_21  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6435868144035339, 'val': 0.6435868144035339}, mf1:{'test': 0.6230685114860535, 'val': 0.6230685114860535}
+
+FaceDetection_dim32_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_19_25  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6058456301689148, 'val': 0.6058456301689148}, mf1:{'test': 0.5906074047088623, 'val': 0.5906074047088623}
+
+FaceDetection_dim32_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_34_37  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6259931921958923, 'val': 0.6259931921958923}, mf1:{'test': 0.6122360229492188, 'val': 0.6122360229492188}
+
+FaceDetection_dim32_depth3_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_50_48  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5976163744926453, 'val': 0.5976163744926453}, mf1:{'test': 0.5777527093887329, 'val': 0.5777527093887329}
+
+FaceDetection_dim32_depth3_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_07_12  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.597048819065094, 'val': 0.597048819065094}, mf1:{'test': 0.5829281806945801, 'val': 0.5829281806945801}
+
+FaceDetection_dim32_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_34_20  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5754824280738831, 'val': 0.5754824280738831}, mf1:{'test': 0.5466101765632629, 'val': 0.5466101765632629}
+
+FaceDetection_dim32_depth3_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_49_31  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6066969633102417, 'val': 0.6066969633102417}, mf1:{'test': 0.5946133732795715, 'val': 0.5946133732795715}
+
+FaceDetection_dim32_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_11_00  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6518161296844482, 'val': 0.6518161296844482}, mf1:{'test': 0.6305425763130188, 'val': 0.6305425763130188}
+
+FaceDetection_dim32_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_26_58  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6120885610580444, 'val': 0.6120885610580444}, mf1:{'test': 0.5875619649887085, 'val': 0.5875619649887085}
+
+FaceDetection_dim32_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_44_51  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6240068078041077, 'val': 0.6240068078041077}, mf1:{'test': 0.6035616993904114, 'val': 0.6035616993904114}
+
+FaceDetection_dim32_depth3_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_02_33  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.6384789943695068, 'val': 0.6384789943695068}, mf1:{'test': 0.6229411363601685, 'val': 0.6229411363601685}
+
+FaceDetection_dim32_depth3_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_35_46  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5794551372528076, 'val': 0.5794551372528076}, mf1:{'test': 0.5609611868858337, 'val': 0.5609611868858337}
+
+FaceDetection_dim32_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_50_39  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5888195037841797, 'val': 0.5888195037841797}, mf1:{'test': 0.5720575451850891, 'val': 0.5720575451850891}
+
+FaceDetection_dim32_depth3_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_04_43  
+TSLANet_FaceDetection_l_3  
+acc:{'test': 0.5715096592903137, 'val': 0.5715096592903137}, mf1:{'test': 0.5529839992523193, 'val': 0.5529839992523193}
+
+FaceDetection_dim256_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_19_09  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.626276969909668, 'val': 0.626276969909668}, mf1:{'test': 0.5962798595428467, 'val': 0.5962798595428467}
+
+FaceDetection_dim256_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_36_30  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6166288256645203, 'val': 0.6166288256645203}, mf1:{'test': 0.5970923900604248, 'val': 0.5970923900604248}
+
+FaceDetection_dim256_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_51_46  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6154937744140625, 'val': 0.6154937744140625}, mf1:{'test': 0.6007578372955322, 'val': 0.6007578372955322}
+
+FaceDetection_dim256_depth2_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_08_58  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5944948792457581, 'val': 0.5944948792457581}, mf1:{'test': 0.5698066353797913, 'val': 0.5698066353797913}
+
+FaceDetection_dim256_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_22_38  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5672531127929688, 'val': 0.5672531127929688}, mf1:{'test': 0.5509557723999023, 'val': 0.5509557723999023}
+
+FaceDetection_dim256_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_33_07  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6038592457771301, 'val': 0.6038592457771301}, mf1:{'test': 0.5839556455612183, 'val': 0.5839556455612183}
+
+FaceDetection_dim256_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_44_21  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6316685676574707, 'val': 0.6316685676574707}, mf1:{'test': 0.6179200410842896, 'val': 0.6179200410842896}
+
+FaceDetection_dim256_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_56_32  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.63564133644104, 'val': 0.63564133644104}, mf1:{'test': 0.6169906854629517, 'val': 0.6169906854629517}
+
+FaceDetection_dim256_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_06_40  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6242905855178833, 'val': 0.6242905855178833}, mf1:{'test': 0.6068035364151001, 'val': 0.6068035364151001}
+
+FaceDetection_dim256_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_19_15  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6188989877700806, 'val': 0.6188989877700806}, mf1:{'test': 0.6015723347663879, 'val': 0.6015723347663879}
+
+FaceDetection_dim256_depth2_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_32_11  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5828604102134705, 'val': 0.5828604102134705}, mf1:{'test': 0.563555121421814, 'val': 0.563555121421814}
+
+FaceDetection_dim256_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_43_02  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5888195037841797, 'val': 0.5888195037841797}, mf1:{'test': 0.5720033645629883, 'val': 0.5720033645629883}
+
+FaceDetection_dim256_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_08_06  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6126560568809509, 'val': 0.6126560568809509}, mf1:{'test': 0.5974070429801941, 'val': 0.5974070429801941}
+
+FaceDetection_dim256_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_23_43  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6208853721618652, 'val': 0.6208853721618652}, mf1:{'test': 0.5994861125946045, 'val': 0.5994861125946045}
+
+FaceDetection_dim256_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_03_38_45  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6328036189079285, 'val': 0.6328036189079285}, mf1:{'test': 0.60938560962677, 'val': 0.60938560962677}
+
+FaceDetection_dim256_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_03_53_33  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6345062255859375, 'val': 0.6345062255859375}, mf1:{'test': 0.6188790202140808, 'val': 0.6188790202140808}
+
+FaceDetection_dim256_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_13_16  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6157775521278381, 'val': 0.6157775521278381}, mf1:{'test': 0.5985711812973022, 'val': 0.5985711812973022}
+
+FaceDetection_dim256_depth2_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_25_33  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6135073900222778, 'val': 0.6135073900222778}, mf1:{'test': 0.5982648134231567, 'val': 0.5982648134231567}
+
+FaceDetection_dim256_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_39_15  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5681044459342957, 'val': 0.5681044459342957}, mf1:{'test': 0.5449191927909851, 'val': 0.5449191927909851}
+
+FaceDetection_dim256_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_48_30  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6240068078041077, 'val': 0.6240068078041077}, mf1:{'test': 0.606561005115509, 'val': 0.606561005115509}
+
+FaceDetection_dim256_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_58_36  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.623723030090332, 'val': 0.623723030090332}, mf1:{'test': 0.6067772507667542, 'val': 0.6067772507667542}
+
+FaceDetection_dim128_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_12_31  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6660045385360718, 'val': 0.6660045385360718}, mf1:{'test': 0.6519455909729004, 'val': 0.6519455909729004}
+
+FaceDetection_dim128_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_30_06  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6242905855178833, 'val': 0.6242905855178833}, mf1:{'test': 0.6072918772697449, 'val': 0.6072918772697449}
+
+FaceDetection_dim128_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_38_27  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6259931921958923, 'val': 0.6259931921958923}, mf1:{'test': 0.6087133884429932, 'val': 0.6087133884429932}
+
+FaceDetection_dim128_depth2_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_05_54_36  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6251418590545654, 'val': 0.6251418590545654}, mf1:{'test': 0.6122768521308899, 'val': 0.6122768521308899}
+
+FaceDetection_dim128_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_14_47  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6140748858451843, 'val': 0.6140748858451843}, mf1:{'test': 0.6004742383956909, 'val': 0.6004742383956909}
+
+FaceDetection_dim128_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_35_41  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5990352034568787, 'val': 0.5990352034568787}, mf1:{'test': 0.5785656571388245, 'val': 0.5785656571388245}
+
+FaceDetection_dim128_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_51_17  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6194665431976318, 'val': 0.6194665431976318}, mf1:{'test': 0.6032333970069885, 'val': 0.6032333970069885}
+
+FaceDetection_dim128_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_03_40  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6393303275108337, 'val': 0.6393303275108337}, mf1:{'test': 0.622464656829834, 'val': 0.622464656829834}
+
+FaceDetection_dim128_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_13_09  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6299659609794617, 'val': 0.6299659609794617}, mf1:{'test': 0.6127750873565674, 'val': 0.6127750873565674}
+
+FaceDetection_dim128_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_24_45  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6276957988739014, 'val': 0.6276957988739014}, mf1:{'test': 0.6145850419998169, 'val': 0.6145850419998169}
+
+FaceDetection_dim128_depth2_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_34_55  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6157775521278381, 'val': 0.6157775521278381}, mf1:{'test': 0.6026749610900879, 'val': 0.6026749610900879}
+
+FaceDetection_dim128_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_48_31  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6049942970275879, 'val': 0.6049942970275879}, mf1:{'test': 0.5889970660209656, 'val': 0.5889970660209656}
+
+FaceDetection_dim128_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_04_49  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.604710578918457, 'val': 0.604710578918457}, mf1:{'test': 0.5881617665290833, 'val': 0.5881617665290833}
+
+FaceDetection_dim128_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_20_56  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.597048819065094, 'val': 0.597048819065094}, mf1:{'test': 0.5829609632492065, 'val': 0.5829609632492065}
+
+FaceDetection_dim128_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_27_41  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6393303275108337, 'val': 0.6393303275108337}, mf1:{'test': 0.6202729344367981, 'val': 0.6202729344367981}
+
+FaceDetection_dim128_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_35_49  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6376277208328247, 'val': 0.6376277208328247}, mf1:{'test': 0.6201971769332886, 'val': 0.6201971769332886}
+
+FaceDetection_dim128_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_52_13  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6194665431976318, 'val': 0.6194665431976318}, mf1:{'test': 0.6017880439758301, 'val': 0.6017880439758301}
+
+FaceDetection_dim128_depth2_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_00_42  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6240068078041077, 'val': 0.6240068078041077}, mf1:{'test': 0.6028249263763428, 'val': 0.6028249263763428}
+
+FaceDetection_dim128_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_15_08  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6041430234909058, 'val': 0.6041430234909058}, mf1:{'test': 0.5834447145462036, 'val': 0.5834447145462036}
+
+FaceDetection_dim128_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_28_19  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6217366456985474, 'val': 0.6217366456985474}, mf1:{'test': 0.6079638004302979, 'val': 0.6079638004302979}
+
+FaceDetection_dim128_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_40_58  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5896708369255066, 'val': 0.5896708369255066}, mf1:{'test': 0.5748133659362793, 'val': 0.5748133659362793}
+
+FaceDetection_dim64_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_49_55  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6350737810134888, 'val': 0.6350737810134888}, mf1:{'test': 0.6182383298873901, 'val': 0.6182383298873901}
+
+FaceDetection_dim64_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_57_57  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6489784121513367, 'val': 0.6489784121513367}, mf1:{'test': 0.6340057253837585, 'val': 0.6340057253837585}
+
+FaceDetection_dim64_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_13_58  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6376277208328247, 'val': 0.6376277208328247}, mf1:{'test': 0.6204923987388611, 'val': 0.6204923987388611}
+
+FaceDetection_dim64_depth2_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_29_04  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6015890836715698, 'val': 0.6015890836715698}, mf1:{'test': 0.5773271322250366, 'val': 0.5773271322250366}
+
+FaceDetection_dim64_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_38_34  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5930760502815247, 'val': 0.5930760502815247}, mf1:{'test': 0.5737596750259399, 'val': 0.5737596750259399}
+
+FaceDetection_dim64_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_10_53_19  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5984676480293274, 'val': 0.5984676480293274}, mf1:{'test': 0.581792414188385, 'val': 0.581792414188385}
+
+FaceDetection_dim64_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_11_02_33  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5947786569595337, 'val': 0.5947786569595337}, mf1:{'test': 0.5781305432319641, 'val': 0.5781305432319641}
+
+FaceDetection_dim64_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_13_15  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6362088322639465, 'val': 0.6362088322639465}, mf1:{'test': 0.6220704913139343, 'val': 0.6220704913139343}
+
+FaceDetection_dim64_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_22_58  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6347900032997131, 'val': 0.6347900032997131}, mf1:{'test': 0.6156322956085205, 'val': 0.6156322956085205}
+
+FaceDetection_dim64_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_33_31  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6472758054733276, 'val': 0.6472758054733276}, mf1:{'test': 0.6309652328491211, 'val': 0.6309652328491211}
+
+FaceDetection_dim64_depth2_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_54_47  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6313847899436951, 'val': 0.6313847899436951}, mf1:{'test': 0.6118296384811401, 'val': 0.6118296384811401}
+
+FaceDetection_dim64_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_19_13  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6041430234909058, 'val': 0.6041430234909058}, mf1:{'test': 0.588625431060791, 'val': 0.588625431060791}
+
+FaceDetection_dim64_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_34_26  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6112372279167175, 'val': 0.6112372279167175}, mf1:{'test': 0.59561687707901, 'val': 0.59561687707901}
+
+FaceDetection_dim64_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_45_36  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6015890836715698, 'val': 0.6015890836715698}, mf1:{'test': 0.5857480764389038, 'val': 0.5857480764389038}
+
+FaceDetection_dim64_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_58_02  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6384789943695068, 'val': 0.6384789943695068}, mf1:{'test': 0.6231981515884399, 'val': 0.6231981515884399}
+
+FaceDetection_dim64_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_09_47  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6430193185806274, 'val': 0.6430193185806274}, mf1:{'test': 0.629575252532959, 'val': 0.629575252532959}
+
+FaceDetection_dim64_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_23_17  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6257094144821167, 'val': 0.6257094144821167}, mf1:{'test': 0.6054801344871521, 'val': 0.6054801344871521}
+
+FaceDetection_dim64_depth2_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_38_19  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6137911677360535, 'val': 0.6137911677360535}, mf1:{'test': 0.5991451740264893, 'val': 0.5991451740264893}
+
+FaceDetection_dim64_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_47_34  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5610102415084839, 'val': 0.5610102415084839}, mf1:{'test': 0.5418119430541992, 'val': 0.5418119430541992}
+
+FaceDetection_dim64_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_54_13  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5950624346733093, 'val': 0.5950624346733093}, mf1:{'test': 0.580362856388092, 'val': 0.580362856388092}
+
+FaceDetection_dim64_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_13_28  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5876844525337219, 'val': 0.5876844525337219}, mf1:{'test': 0.5700662136077881, 'val': 0.5700662136077881}
+
+FaceDetection_dim32_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_27_52  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6557888984680176, 'val': 0.6557888984680176}, mf1:{'test': 0.6417468190193176, 'val': 0.6417468190193176}
+
+FaceDetection_dim32_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_39_42  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6271282434463501, 'val': 0.6271282434463501}, mf1:{'test': 0.6090791821479797, 'val': 0.6090791821479797}
+
+FaceDetection_dim32_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_48_23  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6285471320152283, 'val': 0.6285471320152283}, mf1:{'test': 0.6127169728279114, 'val': 0.6127169728279114}
+
+FaceDetection_dim32_depth2_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_58_09  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5950624346733093, 'val': 0.5950624346733093}, mf1:{'test': 0.572289228439331, 'val': 0.572289228439331}
+
+FaceDetection_dim32_depth2_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_11_25  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5689557194709778, 'val': 0.5689557194709778}, mf1:{'test': 0.5544847846031189, 'val': 0.5544847846031189}
+
+FaceDetection_dim32_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_26_16  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5956299901008606, 'val': 0.5956299901008606}, mf1:{'test': 0.5794080495834351, 'val': 0.5794080495834351}
+
+FaceDetection_dim32_depth2_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_35_35  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5913734436035156, 'val': 0.5913734436035156}, mf1:{'test': 0.5766564011573792, 'val': 0.5766564011573792}
+
+FaceDetection_dim32_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_50_46  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6486946940422058, 'val': 0.6486946940422058}, mf1:{'test': 0.6307926177978516, 'val': 0.6307926177978516}
+
+FaceDetection_dim32_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_57_50  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6126560568809509, 'val': 0.6126560568809509}, mf1:{'test': 0.5894716382026672, 'val': 0.5894716382026672}
+
+FaceDetection_dim32_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_06_59  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6115210056304932, 'val': 0.6115210056304932}, mf1:{'test': 0.5967479944229126, 'val': 0.5967479944229126}
+
+FaceDetection_dim32_depth2_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_17_26  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6038592457771301, 'val': 0.6038592457771301}, mf1:{'test': 0.5819829702377319, 'val': 0.5819829702377319}
+
+FaceDetection_dim32_depth2_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_27_03  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5825766324996948, 'val': 0.5825766324996948}, mf1:{'test': 0.5663365721702576, 'val': 0.5663365721702576}
+
+FaceDetection_dim32_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_41_05  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5856980681419373, 'val': 0.5856980681419373}, mf1:{'test': 0.568367600440979, 'val': 0.568367600440979}
+
+FaceDetection_dim32_depth2_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_49_12  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5865494012832642, 'val': 0.5865494012832642}, mf1:{'test': 0.5713165402412415, 'val': 0.5713165402412415}
+
+FaceDetection_dim32_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_04_35  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6540862917900085, 'val': 0.6540862917900085}, mf1:{'test': 0.6316275596618652, 'val': 0.6316275596618652}
+
+FaceDetection_dim32_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_15_24  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6248581409454346, 'val': 0.6248581409454346}, mf1:{'test': 0.6078227162361145, 'val': 0.6078227162361145}
+
+FaceDetection_dim32_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_23_06  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6225879788398743, 'val': 0.6225879788398743}, mf1:{'test': 0.6070062518119812, 'val': 0.6070062518119812}
+
+FaceDetection_dim32_depth2_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_30_50  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.6197502613067627, 'val': 0.6197502613067627}, mf1:{'test': 0.6023533344268799, 'val': 0.6023533344268799}
+
+FaceDetection_dim32_depth2_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_46_42  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5769012570381165, 'val': 0.5769012570381165}, mf1:{'test': 0.5617172718048096, 'val': 0.5617172718048096}
+
+FaceDetection_dim32_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_54_32  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5706583261489868, 'val': 0.5706583261489868}, mf1:{'test': 0.5520607233047485, 'val': 0.5520607233047485}
+
+FaceDetection_dim32_depth2_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_02_32  
+TSLANet_FaceDetection_l_2  
+acc:{'test': 0.5746310949325562, 'val': 0.5746310949325562}, mf1:{'test': 0.5558361411094666, 'val': 0.5558361411094666}
+
+FaceDetection_dim256_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_13_31  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6291146278381348, 'val': 0.6291146278381348}, mf1:{'test': 0.6112659573554993, 'val': 0.6112659573554993}
+
+FaceDetection_dim256_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_18_57  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6191827654838562, 'val': 0.6191827654838562}, mf1:{'test': 0.6039478182792664, 'val': 0.6039478182792664}
+
+FaceDetection_dim256_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_25_41  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6072644591331482, 'val': 0.6072644591331482}, mf1:{'test': 0.5747560262680054, 'val': 0.5747560262680054}
+
+FaceDetection_dim256_depth1_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_31_58  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5956299901008606, 'val': 0.5956299901008606}, mf1:{'test': 0.5796887278556824, 'val': 0.5796887278556824}
+
+FaceDetection_dim256_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_42_29  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5981838703155518, 'val': 0.5981838703155518}, mf1:{'test': 0.5810168385505676, 'val': 0.5810168385505676}
+
+FaceDetection_dim256_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_56_08  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5947786569595337, 'val': 0.5947786569595337}, mf1:{'test': 0.57895427942276, 'val': 0.57895427942276}
+
+FaceDetection_dim256_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_06_16  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5726447105407715, 'val': 0.5726447105407715}, mf1:{'test': 0.5580693483352661, 'val': 0.5580693483352661}
+
+FaceDetection_dim256_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_13_49  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6188989877700806, 'val': 0.6188989877700806}, mf1:{'test': 0.6026196479797363, 'val': 0.6026196479797363}
+
+FaceDetection_dim256_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_18_34  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6240068078041077, 'val': 0.6240068078041077}, mf1:{'test': 0.6061682105064392, 'val': 0.6061682105064392}
+
+FaceDetection_dim256_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_26_55  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6106696724891663, 'val': 0.6106696724891663}, mf1:{'test': 0.5941756963729858, 'val': 0.5941756963729858}
+
+FaceDetection_dim256_depth1_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_33_23  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.592792272567749, 'val': 0.592792272567749}, mf1:{'test': 0.576814591884613, 'val': 0.576814591884613}
+
+FaceDetection_dim256_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_57  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5652667284011841, 'val': 0.5652667284011841}, mf1:{'test': 0.5436317324638367, 'val': 0.5436317324638367}
+
+FaceDetection_dim256_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_45_59  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5859818458557129, 'val': 0.5859818458557129}, mf1:{'test': 0.5676929950714111, 'val': 0.5676929950714111}
+
+FaceDetection_dim256_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_58_02  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6024404168128967, 'val': 0.6024404168128967}, mf1:{'test': 0.5883361101150513, 'val': 0.5883361101150513}
+
+FaceDetection_dim256_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_09_58  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6308172345161438, 'val': 0.6308172345161438}, mf1:{'test': 0.613067090511322, 'val': 0.613067090511322}
+
+FaceDetection_dim256_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_14_54  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6345062255859375, 'val': 0.6345062255859375}, mf1:{'test': 0.614040195941925, 'val': 0.614040195941925}
+
+FaceDetection_dim256_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_28_35  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6081157922744751, 'val': 0.6081157922744751}, mf1:{'test': 0.5942021012306213, 'val': 0.5942021012306213}
+
+FaceDetection_dim256_depth1_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_34_37  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6186152100563049, 'val': 0.6186152100563049}, mf1:{'test': 0.60077303647995, 'val': 0.60077303647995}
+
+FaceDetection_dim256_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_49_53  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5726447105407715, 'val': 0.5726447105407715}, mf1:{'test': 0.5533093810081482, 'val': 0.5533093810081482}
+
+FaceDetection_dim256_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_59_07  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5896708369255066, 'val': 0.5896708369255066}, mf1:{'test': 0.5744258761405945, 'val': 0.5744258761405945}
+
+FaceDetection_dim256_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_06_09  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5879682302474976, 'val': 0.5879682302474976}, mf1:{'test': 0.5722941160202026, 'val': 0.5722941160202026}
+
+FaceDetection_dim128_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_15_55  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6347900032997131, 'val': 0.6347900032997131}, mf1:{'test': 0.6192841529846191, 'val': 0.6192841529846191}
+
+FaceDetection_dim128_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_23_01  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6089670658111572, 'val': 0.6089670658111572}, mf1:{'test': 0.591697096824646, 'val': 0.591697096824646}
+
+FaceDetection_dim128_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_29_45  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6242905855178833, 'val': 0.6242905855178833}, mf1:{'test': 0.6061183214187622, 'val': 0.6061183214187622}
+
+FaceDetection_dim128_depth1_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_36_59  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6052780747413635, 'val': 0.6052780747413635}, mf1:{'test': 0.582369863986969, 'val': 0.582369863986969}
+
+FaceDetection_dim128_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_42_24  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5777525305747986, 'val': 0.5777525305747986}, mf1:{'test': 0.5574920773506165, 'val': 0.5574920773506165}
+
+FaceDetection_dim128_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_51_02  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5581725239753723, 'val': 0.5581725239753723}, mf1:{'test': 0.5410362482070923, 'val': 0.5410362482070923}
+
+FaceDetection_dim128_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_55_31  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.585130512714386, 'val': 0.585130512714386}, mf1:{'test': 0.570937991142273, 'val': 0.570937991142273}
+
+FaceDetection_dim128_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_04_37  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6328036189079285, 'val': 0.6328036189079285}, mf1:{'test': 0.6154389381408691, 'val': 0.6154389381408691}
+
+FaceDetection_dim128_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_12_33  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6118047833442688, 'val': 0.6118047833442688}, mf1:{'test': 0.5962579250335693, 'val': 0.5962579250335693}
+
+FaceDetection_dim128_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_19_22  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.603007972240448, 'val': 0.603007972240448}, mf1:{'test': 0.5866442918777466, 'val': 0.5866442918777466}
+
+FaceDetection_dim128_depth1_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_26_27  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6061294078826904, 'val': 0.6061294078826904}, mf1:{'test': 0.5891844034194946, 'val': 0.5891844034194946}
+
+FaceDetection_dim128_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_32_14  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.583427906036377, 'val': 0.583427906036377}, mf1:{'test': 0.568697452545166, 'val': 0.568697452545166}
+
+FaceDetection_dim128_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_40_32  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5814415216445923, 'val': 0.5814415216445923}, mf1:{'test': 0.5561417937278748, 'val': 0.5561417937278748}
+
+FaceDetection_dim128_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_46_39  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5553348660469055, 'val': 0.5553348660469055}, mf1:{'test': 0.5377029776573181, 'val': 0.5377029776573181}
+
+FaceDetection_dim128_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_51_51  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6467083096504211, 'val': 0.6467083096504211}, mf1:{'test': 0.6304522752761841, 'val': 0.6304522752761841}
+
+FaceDetection_dim128_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_56_24  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6174801588058472, 'val': 0.6174801588058472}, mf1:{'test': 0.5989968776702881, 'val': 0.5989968776702881}
+
+FaceDetection_dim128_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_03_06  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6157775521278381, 'val': 0.6157775521278381}, mf1:{'test': 0.6005931496620178, 'val': 0.6005931496620178}
+
+FaceDetection_dim128_depth1_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_10_12  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6101021766662598, 'val': 0.6101021766662598}, mf1:{'test': 0.5920710563659668, 'val': 0.5920710563659668}
+
+FaceDetection_dim128_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_18_32  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5998864769935608, 'val': 0.5998864769935608}, mf1:{'test': 0.5839112401008606, 'val': 0.5839112401008606}
+
+FaceDetection_dim128_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_29_00  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5814415216445923, 'val': 0.5814415216445923}, mf1:{'test': 0.5642861127853394, 'val': 0.5642861127853394}
+
+FaceDetection_dim128_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_33_58  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5527809262275696, 'val': 0.5527809262275696}, mf1:{'test': 0.5267536044120789, 'val': 0.5267536044120789}
+
+FaceDetection_dim64_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_39_24  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6225879788398743, 'val': 0.6225879788398743}, mf1:{'test': 0.6033385396003723, 'val': 0.6033385396003723}
+
+FaceDetection_dim64_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_44_27  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6242905855178833, 'val': 0.6242905855178833}, mf1:{'test': 0.6097314357757568, 'val': 0.6097314357757568}
+
+FaceDetection_dim64_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_54_01  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6171963810920715, 'val': 0.6171963810920715}, mf1:{'test': 0.6004807949066162, 'val': 0.6004807949066162}
+
+FaceDetection_dim64_depth1_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_06_18  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6075482368469238, 'val': 0.6075482368469238}, mf1:{'test': 0.5925838351249695, 'val': 0.5925838351249695}
+
+FaceDetection_dim64_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_16_49  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.585130512714386, 'val': 0.585130512714386}, mf1:{'test': 0.5629340410232544, 'val': 0.5629340410232544}
+
+FaceDetection_dim64_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_25_53  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6021566390991211, 'val': 0.6021566390991211}, mf1:{'test': 0.5857743620872498, 'val': 0.5857743620872498}
+
+FaceDetection_dim64_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_36_04  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5627128481864929, 'val': 0.5627128481864929}, mf1:{'test': 0.5466856360435486, 'val': 0.5466856360435486}
+
+FaceDetection_dim64_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_42_24  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6467083096504211, 'val': 0.6467083096504211}, mf1:{'test': 0.6301290988922119, 'val': 0.6301290988922119}
+
+FaceDetection_dim64_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_48_59  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6271282434463501, 'val': 0.6271282434463501}, mf1:{'test': 0.6125912666320801, 'val': 0.6125912666320801}
+
+FaceDetection_dim64_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_56_20  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6007378101348877, 'val': 0.6007378101348877}, mf1:{'test': 0.5860010981559753, 'val': 0.5860010981559753}
+
+FaceDetection_dim64_depth1_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_02_32  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6001702547073364, 'val': 0.6001702547073364}, mf1:{'test': 0.5863370299339294, 'val': 0.5863370299339294}
+
+FaceDetection_dim64_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_08_35  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5942111015319824, 'val': 0.5942111015319824}, mf1:{'test': 0.5791298747062683, 'val': 0.5791298747062683}
+
+FaceDetection_dim64_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_18_53  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.597048819065094, 'val': 0.597048819065094}, mf1:{'test': 0.579816997051239, 'val': 0.579816997051239}
+
+FaceDetection_dim64_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_33_35  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6010215878486633, 'val': 0.6010215878486633}, mf1:{'test': 0.5854476690292358, 'val': 0.5854476690292358}
+
+FaceDetection_dim64_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_47_05  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6353575587272644, 'val': 0.6353575587272644}, mf1:{'test': 0.62015700340271, 'val': 0.62015700340271}
+
+FaceDetection_dim64_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_52_00  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.632236123085022, 'val': 0.632236123085022}, mf1:{'test': 0.6162025332450867, 'val': 0.6162025332450867}
+
+FaceDetection_dim64_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_02_03_10  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.629682183265686, 'val': 0.629682183265686}, mf1:{'test': 0.6119817495346069, 'val': 0.6119817495346069}
+
+FaceDetection_dim64_depth1_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_02_13_50  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6055618524551392, 'val': 0.6055618524551392}, mf1:{'test': 0.590152382850647, 'val': 0.590152382850647}
+
+FaceDetection_dim64_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_02_19_53  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5567536950111389, 'val': 0.5567536950111389}, mf1:{'test': 0.538764238357544, 'val': 0.538764238357544}
+
+FaceDetection_dim64_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_02_24_19  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.586833119392395, 'val': 0.586833119392395}, mf1:{'test': 0.5707182288169861, 'val': 0.5707182288169861}
+
+FaceDetection_dim64_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_02_32_23  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5788876414299011, 'val': 0.5788876414299011}, mf1:{'test': 0.5646560192108154, 'val': 0.5646560192108154}
+
+FaceDetection_dim32_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_41_02  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6696935296058655, 'val': 0.6696935296058655}, mf1:{'test': 0.6477190852165222, 'val': 0.6477190852165222}
+
+FaceDetection_dim32_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_46_03  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6291146278381348, 'val': 0.6291146278381348}, mf1:{'test': 0.6137950420379639, 'val': 0.6137950420379639}
+
+FaceDetection_dim32_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_51_31  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6157775521278381, 'val': 0.6157775521278381}, mf1:{'test': 0.6025072336196899, 'val': 0.6025072336196899}
+
+FaceDetection_dim32_depth1_mask0.4_patch7_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_58_24  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6052780747413635, 'val': 0.6052780747413635}, mf1:{'test': 0.5747614502906799, 'val': 0.5747614502906799}
+
+FaceDetection_dim32_depth1_mask0.4_patch10_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_04_59  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5865494012832642, 'val': 0.5865494012832642}, mf1:{'test': 0.5683391690254211, 'val': 0.5683391690254211}
+
+FaceDetection_dim32_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_13_36  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.573779821395874, 'val': 0.573779821395874}, mf1:{'test': 0.5563956499099731, 'val': 0.5563956499099731}
+
+FaceDetection_dim32_depth1_mask0.4_patch16_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_21_12  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5550510883331299, 'val': 0.5550510883331299}, mf1:{'test': 0.5409514904022217, 'val': 0.5409514904022217}
+
+FaceDetection_dim32_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_25_09  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6509647965431213, 'val': 0.6509647965431213}, mf1:{'test': 0.632440984249115, 'val': 0.632440984249115}
+
+FaceDetection_dim32_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_31_49  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6268444657325745, 'val': 0.6268444657325745}, mf1:{'test': 0.6110687255859375, 'val': 0.6110687255859375}
+
+FaceDetection_dim32_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_41_25  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5993189811706543, 'val': 0.5993189811706543}, mf1:{'test': 0.5827727317810059, 'val': 0.5827727317810059}
+
+FaceDetection_dim32_depth1_mask0.4_patch7_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_48_31  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6083995699882507, 'val': 0.6083995699882507}, mf1:{'test': 0.593659520149231, 'val': 0.593659520149231}
+
+FaceDetection_dim32_depth1_mask0.4_patch10_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_54_24  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5431327819824219, 'val': 0.5431327819824219}, mf1:{'test': 0.5151052474975586, 'val': 0.5151052474975586}
+
+FaceDetection_dim32_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_59_54  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5766174793243408, 'val': 0.5766174793243408}, mf1:{'test': 0.555796205997467, 'val': 0.555796205997467}
+
+FaceDetection_dim32_depth1_mask0.4_patch16_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_08_38  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5530647039413452, 'val': 0.5530647039413452}, mf1:{'test': 0.5371476411819458, 'val': 0.5371476411819458}
+
+FaceDetection_dim32_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_15_43  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6583427786827087, 'val': 0.6583427786827087}, mf1:{'test': 0.6425009965896606, 'val': 0.6425009965896606}
+
+FaceDetection_dim32_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_21_43  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6316685676574707, 'val': 0.6316685676574707}, mf1:{'test': 0.6140457987785339, 'val': 0.6140457987785339}
+
+FaceDetection_dim32_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_28_06  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.588535726070404, 'val': 0.588535726070404}, mf1:{'test': 0.5709755420684814, 'val': 0.5709755420684814}
+
+FaceDetection_dim32_depth1_mask0.4_patch7_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_33_52  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.6132236123085022, 'val': 0.6132236123085022}, mf1:{'test': 0.5947222113609314, 'val': 0.5947222113609314}
+
+FaceDetection_dim32_depth1_mask0.4_patch10_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_40_42  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5874006748199463, 'val': 0.5874006748199463}, mf1:{'test': 0.5718443989753723, 'val': 0.5718443989753723}
+
+FaceDetection_dim32_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_47_47  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5820090770721436, 'val': 0.5820090770721436}, mf1:{'test': 0.5666306614875793, 'val': 0.5666306614875793}
+
+FaceDetection_dim32_depth1_mask0.4_patch16_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_04_53_06  
+TSLANet_FaceDetection_l_1  
+acc:{'test': 0.5462542772293091, 'val': 0.5462542772293091}, mf1:{'test': 0.5314099788665771, 'val': 0.5314099788665771}
+

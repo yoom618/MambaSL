@@ -1,0 +1,1008 @@
+NATOPS_dim256_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_43_16  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.8981093764305115, 'val': 0.8814814686775208}
+
+NATOPS_dim256_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_14_46_31  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9257684350013733, 'val': 0.9751360416412354}
+
+NATOPS_dim256_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_06_04  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9333333373069763, 'val': 0.9722222089767456}, mf1:{'test': 0.9068055152893066, 'val': 0.9674399495124817}
+
+NATOPS_dim256_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_08_46  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.894444465637207, 'val': 0.9722222089767456}, mf1:{'test': 0.8453091979026794, 'val': 0.9700710773468018}
+
+NATOPS_dim256_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_11_28  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9166666865348816, 'val': 0.9444444179534912}, mf1:{'test': 0.8893445134162903, 'val': 0.9294533133506775}
+
+NATOPS_dim256_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_15_10  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.8893468379974365, 'val': 0.9751360416412354}
+
+NATOPS_dim256_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_17_45  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.9444444179534912}, mf1:{'test': 0.8520289063453674, 'val': 0.9407408237457275}
+
+NATOPS_dim256_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_20_13  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.949999988079071, 'val': 0.9722222089767456}, mf1:{'test': 0.9364632368087769, 'val': 0.9365079402923584}
+
+NATOPS_dim256_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_22_47  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9222221970558167, 'val': 0.9722222089767456}, mf1:{'test': 0.9099542498588562, 'val': 0.9700710773468018}
+
+NATOPS_dim256_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_25_07  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.894444465637207, 'val': 0.9166666865348816}, mf1:{'test': 0.8499864935874939, 'val': 0.879021406173706}
+
+NATOPS_dim256_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_27_16  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9111111164093018, 'val': 0.9444444179534912}, mf1:{'test': 0.8870611190795898, 'val': 0.9425134658813477}
+
+NATOPS_dim256_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_29_32  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8611111044883728, 'val': 0.8611111044883728}, mf1:{'test': 0.8019964694976807, 'val': 0.7556073665618896}
+
+NATOPS_dim256_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_31_57  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8833333253860474, 'val': 0.9166666865348816}, mf1:{'test': 0.8185579180717468, 'val': 0.9102132320404053}
+
+NATOPS_dim256_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_33_59  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8833333253860474, 'val': 0.9166666865348816}, mf1:{'test': 0.8228565454483032, 'val': 0.9095916748046875}
+
+NATOPS_dim256_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_35_50  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9277777671813965, 'val': 0.9166666865348816}, mf1:{'test': 0.9130483269691467, 'val': 0.8222222328186035}
+
+NATOPS_dim256_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_37_55  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9388889074325562, 'val': 1.0}, mf1:{'test': 0.9193480014801025, 'val': 1.0}
+
+NATOPS_dim256_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_40_04  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.894444465637207, 'val': 0.9166666865348816}, mf1:{'test': 0.8404697179794312, 'val': 0.9164984226226807}
+
+NATOPS_dim256_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_41_59  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9222221970558167, 'val': 0.8888888955116272}, mf1:{'test': 0.8985720276832581, 'val': 0.8877665400505066}
+
+NATOPS_dim256_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_43_57  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9277777671813965, 'val': 0.9166666865348816}, mf1:{'test': 0.9173615574836731, 'val': 0.8268611431121826}
+
+NATOPS_dim256_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_45_56  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8444444537162781, 'val': 0.75}, mf1:{'test': 0.8046920895576477, 'val': 0.7306396961212158}
+
+NATOPS_dim256_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_48_06  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9222221970558167, 'val': 0.9166666865348816}, mf1:{'test': 0.8989835381507874, 'val': 0.9095916748046875}
+
+NATOPS_dim128_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_49_56  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9388889074325562, 'val': 0.9444444179534912}, mf1:{'test': 0.9151864051818848, 'val': 0.9382716417312622}
+
+NATOPS_dim128_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_51_39  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9182209372520447, 'val': 0.9700710773468018}
+
+NATOPS_dim128_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_53_42  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.9444444179534912}, mf1:{'test': 0.8730928897857666, 'val': 0.9382716417312622}
+
+NATOPS_dim128_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_55_34  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8777777552604675, 'val': 0.9166666865348816}, mf1:{'test': 0.8241135478019714, 'val': 0.9153069257736206}
+
+NATOPS_dim128_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_57_37  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8666666746139526, 'val': 0.9166666865348816}, mf1:{'test': 0.8026025295257568, 'val': 0.9184436798095703}
+
+NATOPS_dim128_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_59_35  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9277777671813965, 'val': 0.9166666865348816}, mf1:{'test': 0.9125325679779053, 'val': 0.8222222328186035}
+
+NATOPS_dim128_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_01_21  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8888888955116272}, mf1:{'test': 0.8518518209457397, 'val': 0.8814814686775208}
+
+NATOPS_dim128_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_02_53  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.8874497413635254, 'val': 0.9674399495124817}
+
+NATOPS_dim128_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_04_25  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9222221970558167, 'val': 0.9444444179534912}, mf1:{'test': 0.9026660323143005, 'val': 0.9442039132118225}
+
+NATOPS_dim128_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_05_51  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8777777552604675, 'val': 0.9166666865348816}, mf1:{'test': 0.8183985948562622, 'val': 0.834343433380127}
+
+NATOPS_dim128_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_07_22  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9055555462837219, 'val': 1.0}, mf1:{'test': 0.8862504959106445, 'val': 1.0}
+
+NATOPS_dim128_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_08_55  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9333333373069763, 'val': 0.9166666865348816}, mf1:{'test': 0.9144333004951477, 'val': 0.9102132320404053}
+
+NATOPS_dim128_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_10_29  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9277777671813965, 'val': 0.9722222089767456}, mf1:{'test': 0.9073903560638428, 'val': 0.9751360416412354}
+
+NATOPS_dim128_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_12_00  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.949999988079071, 'val': 0.9444444179534912}, mf1:{'test': 0.932900071144104, 'val': 0.9294533133506775}
+
+NATOPS_dim128_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_13_29  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9166666865348816, 'val': 0.9444444179534912}, mf1:{'test': 0.8911387324333191, 'val': 0.9407408237457275}
+
+NATOPS_dim128_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_15_11  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9166666865348816, 'val': 0.9444444179534912}, mf1:{'test': 0.897499680519104, 'val': 0.9382716417312622}
+
+NATOPS_dim128_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_16_44  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9111111164093018, 'val': 0.9444444179534912}, mf1:{'test': 0.8915744423866272, 'val': 0.8543679118156433}
+
+NATOPS_dim128_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_18_32  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9444444179534912, 'val': 1.0}, mf1:{'test': 0.9244015216827393, 'val': 1.0}
+
+NATOPS_dim128_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_20_01  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9444444179534912, 'val': 1.0}, mf1:{'test': 0.9225538372993469, 'val': 1.0}
+
+NATOPS_dim128_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_21_43  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9277777671813965, 'val': 0.9722222089767456}, mf1:{'test': 0.9083733558654785, 'val': 0.9674399495124817}
+
+NATOPS_dim128_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_23_08  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9222221970558167, 'val': 0.9444444179534912}, mf1:{'test': 0.8966419696807861, 'val': 0.9407408237457275}
+
+NATOPS_dim64_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_24_32  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9055555462837219, 'val': 1.0}, mf1:{'test': 0.8566484451293945, 'val': 1.0}
+
+NATOPS_dim64_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_26_08  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9222221970558167, 'val': 0.9444444179534912}, mf1:{'test': 0.9029176235198975, 'val': 0.9425134658813477}
+
+NATOPS_dim64_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_27_53  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8333333134651184, 'val': 0.8055555820465088}, mf1:{'test': 0.7536036968231201, 'val': 0.763668417930603}
+
+NATOPS_dim64_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_29_20  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.9166666865348816}, mf1:{'test': 0.8728177547454834, 'val': 0.919956624507904}
+
+NATOPS_dim64_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_31_05  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9055555462837219, 'val': 0.9166666865348816}, mf1:{'test': 0.879752516746521, 'val': 0.8306878209114075}
+
+NATOPS_dim64_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_32_52  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8833333253860474, 'val': 0.9444444179534912}, mf1:{'test': 0.8481687903404236, 'val': 0.9294533133506775}
+
+NATOPS_dim64_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_34_40  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8833333253860474, 'val': 0.8888888955116272}, mf1:{'test': 0.842664361000061, 'val': 0.8868687152862549}
+
+NATOPS_dim64_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_36_15  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.949999988079071, 'val': 1.0}, mf1:{'test': 0.9296438694000244, 'val': 1.0}
+
+NATOPS_dim64_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_37_41  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.949999988079071, 'val': 0.9444444179534912}, mf1:{'test': 0.9366273880004883, 'val': 0.9427486062049866}
+
+NATOPS_dim64_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_39_03  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9166666865348816, 'val': 0.9166666865348816}, mf1:{'test': 0.9006484150886536, 'val': 0.9102132320404053}
+
+NATOPS_dim64_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_40_27  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.9444444179534912}, mf1:{'test': 0.8767613172531128, 'val': 0.9427486062049866}
+
+NATOPS_dim64_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_41_45  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9333333373069763, 'val': 0.9722222089767456}, mf1:{'test': 0.9195132851600647, 'val': 0.9700710773468018}
+
+NATOPS_dim64_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_43_08  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9444444179534912, 'val': 0.9722222089767456}, mf1:{'test': 0.9271816611289978, 'val': 0.9751360416412354}
+
+NATOPS_dim64_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_16_44_29  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9222221970558167, 'val': 1.0}, mf1:{'test': 0.9030470848083496, 'val': 1.0}
+
+NATOPS_dim64_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_45_50  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9722222089767456, 'val': 0.9722222089767456}, mf1:{'test': 0.9637178778648376, 'val': 0.9751360416412354}
+
+NATOPS_dim64_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_47_13  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9294503331184387, 'val': 0.9751360416412354}
+
+NATOPS_dim64_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_49_04  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9055555462837219, 'val': 0.9166666865348816}, mf1:{'test': 0.8819400072097778, 'val': 0.819753110408783}
+
+NATOPS_dim64_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_50_50  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8277778029441833, 'val': 0.8055555820465088}, mf1:{'test': 0.7514401078224182, 'val': 0.7720797657966614}
+
+NATOPS_dim64_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_52_19  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9055555462837219, 'val': 0.9722222089767456}, mf1:{'test': 0.8699952960014343, 'val': 0.9700710773468018}
+
+NATOPS_dim64_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_53_46  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9055555462837219, 'val': 0.9722222089767456}, mf1:{'test': 0.880139946937561, 'val': 0.9700710773468018}
+
+NATOPS_dim64_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_55_29  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9222221970558167, 'val': 1.0}, mf1:{'test': 0.9095655679702759, 'val': 1.0}
+
+NATOPS_dim32_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_57_14  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9111111164093018, 'val': 0.9722222089767456}, mf1:{'test': 0.8961617350578308, 'val': 0.9700710773468018}
+
+NATOPS_dim32_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_59_07  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9555555582046509, 'val': 0.9166666865348816}, mf1:{'test': 0.9535420536994934, 'val': 0.9111629128456116}
+
+NATOPS_dim32_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_00_58  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.894444465637207, 'val': 0.9444444179534912}, mf1:{'test': 0.8708995580673218, 'val': 0.9382716417312622}
+
+NATOPS_dim32_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_02_27  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9206414222717285, 'val': 0.9700710773468018}
+
+NATOPS_dim32_depth3_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_03_57  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8833333253860474, 'val': 0.9166666865348816}, mf1:{'test': 0.8373115658760071, 'val': 0.9111629128456116}
+
+NATOPS_dim32_depth3_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_05_29  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8500000238418579, 'val': 0.8333333134651184}, mf1:{'test': 0.7879317998886108, 'val': 0.7834757566452026}
+
+NATOPS_dim32_depth3_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_06_48  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9111111164093018, 'val': 0.9444444179534912}, mf1:{'test': 0.8872445821762085, 'val': 0.9453796744346619}
+
+NATOPS_dim32_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_08_12  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.9444444179534912}, mf1:{'test': 0.8424973487854004, 'val': 0.9407408237457275}
+
+NATOPS_dim32_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_09_38  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.9444444179534912}, mf1:{'test': 0.8672438859939575, 'val': 0.9382716417312622}
+
+NATOPS_dim32_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_11_06  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.9166666865348816}, mf1:{'test': 0.8838448524475098, 'val': 0.8268611431121826}
+
+NATOPS_dim32_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_12_36  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.898455023765564, 'val': 0.8814814686775208}
+
+NATOPS_dim32_depth3_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_14_14  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9277777671813965, 'val': 0.9166666865348816}, mf1:{'test': 0.9159547686576843, 'val': 0.8109347820281982}
+
+NATOPS_dim32_depth3_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_15_44  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9055555462837219, 'val': 0.9166666865348816}, mf1:{'test': 0.8795896172523499, 'val': 0.9153069257736206}
+
+NATOPS_dim32_depth3_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_17_08  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8888888955116272, 'val': 0.9166666865348816}, mf1:{'test': 0.8507296442985535, 'val': 0.8222222328186035}
+
+NATOPS_dim32_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_18_26  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.894444465637207, 'val': 1.0}, mf1:{'test': 0.8745044469833374, 'val': 1.0}
+
+NATOPS_dim32_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_19_46  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8999999761581421, 'val': 0.8888888955116272}, mf1:{'test': 0.8765785098075867, 'val': 0.8807118535041809}
+
+NATOPS_dim32_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_21_13  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9055555462837219, 'val': 0.9444444179534912}, mf1:{'test': 0.859950602054596, 'val': 0.9407408237457275}
+
+NATOPS_dim32_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_22_45  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.855555534362793, 'val': 0.9166666865348816}, mf1:{'test': 0.7906361222267151, 'val': 0.9102132320404053}
+
+NATOPS_dim32_depth3_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_24_21  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9111111164093018, 'val': 0.9444444179534912}, mf1:{'test': 0.887700080871582, 'val': 0.8515525460243225}
+
+NATOPS_dim32_depth3_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_25_51  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.9111111164093018, 'val': 0.9166666865348816}, mf1:{'test': 0.8820523619651794, 'val': 0.9023199081420898}
+
+NATOPS_dim32_depth3_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_27_15  
+TSLANet_NATOPS_l_3  
+acc:{'test': 0.8666666746139526, 'val': 0.9722222089767456}, mf1:{'test': 0.8203784227371216, 'val': 0.9674399495124817}
+
+NATOPS_dim256_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_28_42  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9277777671813965, 'val': 0.9444444179534912}, mf1:{'test': 0.9068888425827026, 'val': 0.9425134658813477}
+
+NATOPS_dim256_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_30_42  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9388889074325562, 'val': 0.9444444179534912}, mf1:{'test': 0.9157289862632751, 'val': 0.9382716417312622}
+
+NATOPS_dim256_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_32_31  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9111111164093018, 'val': 1.0}, mf1:{'test': 0.8857637047767639, 'val': 1.0}
+
+NATOPS_dim256_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_34_19  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8777777552604675, 'val': 0.8611111044883728}, mf1:{'test': 0.8415944576263428, 'val': 0.8024691343307495}
+
+NATOPS_dim256_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_36_07  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9555555582046509, 'val': 1.0}, mf1:{'test': 0.9426496624946594, 'val': 1.0}
+
+NATOPS_dim256_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_37_56  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9333333373069763, 'val': 0.9444444179534912}, mf1:{'test': 0.9107202291488647, 'val': 0.9039479494094849}
+
+NATOPS_dim256_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_39_43  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8777777552604675, 'val': 0.9444444179534912}, mf1:{'test': 0.8242305517196655, 'val': 0.9407408237457275}
+
+NATOPS_dim256_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_41_24  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.894444465637207, 'val': 0.9722222089767456}, mf1:{'test': 0.8652346134185791, 'val': 0.8814814686775208}
+
+NATOPS_dim256_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_42_44  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9222221970558167, 'val': 0.9722222089767456}, mf1:{'test': 0.8958348631858826, 'val': 0.9674399495124817}
+
+NATOPS_dim256_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_44_09  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.894444465637207, 'val': 1.0}, mf1:{'test': 0.8474844098091125, 'val': 1.0}
+
+NATOPS_dim256_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_45_39  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9111111164093018, 'val': 0.9444444179534912}, mf1:{'test': 0.876739501953125, 'val': 0.9065790176391602}
+
+NATOPS_dim256_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_47_02  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9388889074325562, 'val': 1.0}, mf1:{'test': 0.9250859022140503, 'val': 1.0}
+
+NATOPS_dim256_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_48_24  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9277777671813965, 'val': 1.0}, mf1:{'test': 0.9055561423301697, 'val': 1.0}
+
+NATOPS_dim256_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_49_52  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9444444179534912, 'val': 1.0}, mf1:{'test': 0.9137113094329834, 'val': 1.0}
+
+NATOPS_dim256_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_51_27  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9666666388511658, 'val': 1.0}, mf1:{'test': 0.9582622051239014, 'val': 1.0}
+
+NATOPS_dim256_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_53_02  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9333333373069763, 'val': 0.9166666865348816}, mf1:{'test': 0.9233839511871338, 'val': 0.8747795224189758}
+
+NATOPS_dim256_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_54_25  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9055555462837219, 'val': 0.9444444179534912}, mf1:{'test': 0.8896125555038452, 'val': 0.950617253780365}
+
+NATOPS_dim256_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_55_55  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9222221970558167, 'val': 0.9722222089767456}, mf1:{'test': 0.9044337868690491, 'val': 0.9700710773468018}
+
+NATOPS_dim256_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_57_24  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9111111164093018, 'val': 0.9166666865348816}, mf1:{'test': 0.8586313724517822, 'val': 0.9095916748046875}
+
+NATOPS_dim256_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_58_47  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8888888955116272, 'val': 0.9166666865348816}, mf1:{'test': 0.8605849146842957, 'val': 0.7896621823310852}
+
+NATOPS_dim256_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_00_17  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9277777671813965, 'val': 0.9166666865348816}, mf1:{'test': 0.9050629734992981, 'val': 0.9111629128456116}
+
+NATOPS_dim128_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_01_47  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9055555462837219, 'val': 0.9444444179534912}, mf1:{'test': 0.882777214050293, 'val': 0.9407408237457275}
+
+NATOPS_dim128_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_03_15  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9388889074325562, 'val': 0.9444444179534912}, mf1:{'test': 0.9255285263061523, 'val': 0.9294533133506775}
+
+NATOPS_dim128_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_04_45  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.9444444179534912}, mf1:{'test': 0.8596396446228027, 'val': 0.9382716417312622}
+
+NATOPS_dim128_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_06_01  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8999999761581421, 'val': 1.0}, mf1:{'test': 0.8854809403419495, 'val': 1.0}
+
+NATOPS_dim128_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_07_18  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9222221970558167, 'val': 0.9722222089767456}, mf1:{'test': 0.8961804509162903, 'val': 0.9751360416412354}
+
+NATOPS_dim128_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_08_44  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.9166666865348816}, mf1:{'test': 0.8666590452194214, 'val': 0.9095916748046875}
+
+NATOPS_dim128_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_10_14  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9277777671813965, 'val': 0.8888888955116272}, mf1:{'test': 0.9075320959091187, 'val': 0.7936508655548096}
+
+NATOPS_dim128_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_11_30  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9555555582046509, 'val': 1.0}, mf1:{'test': 0.945479154586792, 'val': 1.0}
+
+NATOPS_dim128_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_12_46  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9055555462837219, 'val': 1.0}, mf1:{'test': 0.8790382146835327, 'val': 1.0}
+
+NATOPS_dim128_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_14_12  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.949999988079071, 'val': 0.9722222089767456}, mf1:{'test': 0.9339582920074463, 'val': 0.8814814686775208}
+
+NATOPS_dim128_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_15_38  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9333333373069763, 'val': 0.9444444179534912}, mf1:{'test': 0.9209417700767517, 'val': 0.9407408237457275}
+
+NATOPS_dim128_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_16_55  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9111111164093018, 'val': 0.9444444179534912}, mf1:{'test': 0.8744268417358398, 'val': 0.9382716417312622}
+
+NATOPS_dim128_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_18_13  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9277777671813965, 'val': 0.9444444179534912}, mf1:{'test': 0.91148442029953, 'val': 0.8566175103187561}
+
+NATOPS_dim128_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_19_28  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9333333373069763, 'val': 1.0}, mf1:{'test': 0.9226778745651245, 'val': 1.0}
+
+NATOPS_dim128_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_20_42  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.9444444179534912}, mf1:{'test': 0.8695732355117798, 'val': 0.9425134658813477}
+
+NATOPS_dim128_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_21_55  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9333333373069763, 'val': 1.0}, mf1:{'test': 0.917206346988678, 'val': 1.0}
+
+NATOPS_dim128_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_23_12  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9333333373069763, 'val': 1.0}, mf1:{'test': 0.9080394506454468, 'val': 1.0}
+
+NATOPS_dim128_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_24_28  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9111111164093018, 'val': 0.9722222089767456}, mf1:{'test': 0.88450026512146, 'val': 0.8814814686775208}
+
+NATOPS_dim128_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_25_44  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9277777671813965, 'val': 0.9444444179534912}, mf1:{'test': 0.9099324345588684, 'val': 0.9442039132118225}
+
+NATOPS_dim128_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_27_01  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9277777671813965, 'val': 0.9722222089767456}, mf1:{'test': 0.9122604131698608, 'val': 0.9700710773468018}
+
+NATOPS_dim128_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_28_15  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.894444465637207, 'val': 0.9444444179534912}, mf1:{'test': 0.867068886756897, 'val': 0.8489214777946472}
+
+NATOPS_dim64_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_29_32  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.949999988079071, 'val': 0.9722222089767456}, mf1:{'test': 0.9362533688545227, 'val': 0.9751360416412354}
+
+NATOPS_dim64_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_30_47  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9111111164093018, 'val': 0.8888888955116272}, mf1:{'test': 0.9010975956916809, 'val': 0.7916947603225708}
+
+NATOPS_dim64_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_32_05  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.9166666865348816}, mf1:{'test': 0.8658490777015686, 'val': 0.9102132320404053}
+
+NATOPS_dim64_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_33_23  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9055555462837219, 'val': 0.9166666865348816}, mf1:{'test': 0.8734103441238403, 'val': 0.9102132320404053}
+
+NATOPS_dim64_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_34_36  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9277777671813965, 'val': 1.0}, mf1:{'test': 0.9046131372451782, 'val': 1.0}
+
+NATOPS_dim64_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_36_00  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9333333373069763, 'val': 0.9444444179534912}, mf1:{'test': 0.9137113690376282, 'val': 0.9427486062049866}
+
+NATOPS_dim64_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_37_10  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.9166666865348816}, mf1:{'test': 0.8751739263534546, 'val': 0.825685441493988}
+
+NATOPS_dim64_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_38_18  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9444444179534912, 'val': 0.9722222089767456}, mf1:{'test': 0.9255597591400146, 'val': 0.9700710773468018}
+
+NATOPS_dim64_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_39_30  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9444444179534912, 'val': 0.9722222089767456}, mf1:{'test': 0.9260852336883545, 'val': 0.9751360416412354}
+
+NATOPS_dim64_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_40_53  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8500000238418579, 'val': 0.8888888955116272}, mf1:{'test': 0.7911064028739929, 'val': 0.8765432238578796}
+
+NATOPS_dim64_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_42_03  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9111111164093018, 'val': 0.9722222089767456}, mf1:{'test': 0.8969094753265381, 'val': 0.9700710773468018}
+
+NATOPS_dim64_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_43_22  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9222221970558167, 'val': 0.9444444179534912}, mf1:{'test': 0.9062632918357849, 'val': 0.9407408237457275}
+
+NATOPS_dim64_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_44_38  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9555555582046509, 'val': 0.9166666865348816}, mf1:{'test': 0.9368506669998169, 'val': 0.825877845287323}
+
+NATOPS_dim64_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_45_51  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.8888888955116272}, mf1:{'test': 0.869488537311554, 'val': 0.8765432834625244}
+
+NATOPS_dim64_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_47_00  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9444444179534912, 'val': 0.9444444179534912}, mf1:{'test': 0.9298601150512695, 'val': 0.9425134658813477}
+
+NATOPS_dim64_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_48_10  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.934917688369751, 'val': 0.9674399495124817}
+
+NATOPS_dim64_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_49_18  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8999999761581421, 'val': 0.9444444179534912}, mf1:{'test': 0.8445479273796082, 'val': 0.9425134658813477}
+
+NATOPS_dim64_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_50_28  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9444444179534912, 'val': 0.9722222089767456}, mf1:{'test': 0.9272986650466919, 'val': 0.8814814686775208}
+
+NATOPS_dim64_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_51_43  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9055555462837219, 'val': 0.8888888955116272}, mf1:{'test': 0.8609340190887451, 'val': 0.8888888955116272}
+
+NATOPS_dim64_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_52_52  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9388889074325562, 'val': 1.0}, mf1:{'test': 0.9221205711364746, 'val': 1.0}
+
+NATOPS_dim64_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_54_09  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.8963021039962769, 'val': 0.9751360416412354}
+
+NATOPS_dim32_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_55_22  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9722222089767456, 'val': 1.0}, mf1:{'test': 0.9557672142982483, 'val': 1.0}
+
+NATOPS_dim32_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_56_36  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9166666865348816, 'val': 0.9166666865348816}, mf1:{'test': 0.8877876996994019, 'val': 0.819753110408783}
+
+NATOPS_dim32_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_57_49  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9388889074325562, 'val': 1.0}, mf1:{'test': 0.9307712316513062, 'val': 1.0}
+
+NATOPS_dim32_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_59_03  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.855555534362793, 'val': 0.9166666865348816}, mf1:{'test': 0.82830810546875, 'val': 0.819753110408783}
+
+NATOPS_dim32_depth2_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_00_19  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9222221970558167, 'val': 0.9166666865348816}, mf1:{'test': 0.9039335250854492, 'val': 0.8926875591278076}
+
+NATOPS_dim32_depth2_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_01_35  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8888888955116272, 'val': 0.9166666865348816}, mf1:{'test': 0.866235077381134, 'val': 0.9111629128456116}
+
+NATOPS_dim32_depth2_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_02_54  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.8946230411529541, 'val': 0.9700710773468018}
+
+NATOPS_dim32_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_04_03  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.949999988079071, 'val': 0.9722222089767456}, mf1:{'test': 0.9264732599258423, 'val': 0.8814814686775208}
+
+NATOPS_dim32_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_05_19  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9444444179534912, 'val': 1.0}, mf1:{'test': 0.93218994140625, 'val': 1.0}
+
+NATOPS_dim32_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_06_31  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9055555462837219, 'val': 0.8888888955116272}, mf1:{'test': 0.881494402885437, 'val': 0.7838013768196106}
+
+NATOPS_dim32_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_07_47  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9277777671813965, 'val': 0.9722222089767456}, mf1:{'test': 0.9099301099777222, 'val': 0.9674399495124817}
+
+NATOPS_dim32_depth2_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_09_04  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8333333134651184, 'val': 0.8055555820465088}, mf1:{'test': 0.7661439776420593, 'val': 0.7720797657966614}
+
+NATOPS_dim32_depth2_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_10_13  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9166666865348816, 'val': 0.9166666865348816}, mf1:{'test': 0.9013657569885254, 'val': 0.9075196385383606}
+
+NATOPS_dim32_depth2_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_11_33  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9166666865348816, 'val': 0.9444444179534912}, mf1:{'test': 0.9030188918113708, 'val': 0.9382716417312622}
+
+NATOPS_dim32_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_12_57  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9055555462837219, 'val': 0.8888888955116272}, mf1:{'test': 0.8855379819869995, 'val': 0.7979798316955566}
+
+NATOPS_dim32_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_14_19  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9222221970558167, 'val': 0.9722222089767456}, mf1:{'test': 0.8988417983055115, 'val': 0.9751360416412354}
+
+NATOPS_dim32_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_15_22  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9206560850143433, 'val': 0.9700710773468018}
+
+NATOPS_dim32_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_16_28  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9111111164093018, 'val': 1.0}, mf1:{'test': 0.8757800459861755, 'val': 1.0}
+
+NATOPS_dim32_depth2_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_17_37  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9222221970558167, 'val': 0.9166666865348816}, mf1:{'test': 0.8913544416427612, 'val': 0.819753110408783}
+
+NATOPS_dim32_depth2_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_18_54  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.9333333373069763, 'val': 0.8888888955116272}, mf1:{'test': 0.9147184491157532, 'val': 0.8573870658874512}
+
+NATOPS_dim32_depth2_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_20_01  
+TSLANet_NATOPS_l_2  
+acc:{'test': 0.8888888955116272, 'val': 0.9444444179534912}, mf1:{'test': 0.8604979515075684, 'val': 0.9382716417312622}
+
+NATOPS_dim256_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_21_21  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9166666865348816, 'val': 0.9444444179534912}, mf1:{'test': 0.8897613286972046, 'val': 0.8566175103187561}
+
+NATOPS_dim256_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_22_38  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9166666865348816, 'val': 1.0}, mf1:{'test': 0.9083033800125122, 'val': 1.0}
+
+NATOPS_dim256_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_23_51  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9444444179534912, 'val': 0.9444444179534912}, mf1:{'test': 0.9354333877563477, 'val': 0.9407408237457275}
+
+NATOPS_dim256_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_25_12  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.949999988079071, 'val': 0.9444444179534912}, mf1:{'test': 0.9399060010910034, 'val': 0.8179894089698792}
+
+NATOPS_dim256_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_26_25  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9055555462837219, 'val': 0.8888888955116272}, mf1:{'test': 0.87091064453125, 'val': 0.8741258978843689}
+
+NATOPS_dim256_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_27_34  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9277777671813965, 'val': 0.9166666865348816}, mf1:{'test': 0.9001263976097107, 'val': 0.8109347820281982}
+
+NATOPS_dim256_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_28_47  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.9030117392539978, 'val': 0.9700710773468018}
+
+NATOPS_dim256_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_30_07  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9254862666130066, 'val': 0.9751360416412354}
+
+NATOPS_dim256_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_31_25  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9277777671813965, 'val': 0.9722222089767456}, mf1:{'test': 0.8977919816970825, 'val': 0.9700710773468018}
+
+NATOPS_dim256_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_32_32  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9555555582046509, 'val': 0.9722222089767456}, mf1:{'test': 0.9524585008621216, 'val': 0.9700710773468018}
+
+NATOPS_dim256_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_33_39  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9277777671813965, 'val': 0.9722222089767456}, mf1:{'test': 0.9092786312103271, 'val': 0.9700710773468018}
+
+NATOPS_dim256_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_34_54  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.8888888955116272, 'val': 0.9722222089767456}, mf1:{'test': 0.8533791303634644, 'val': 0.9751360416412354}
+
+NATOPS_dim256_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_36_13  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9166666865348816, 'val': 1.0}, mf1:{'test': 0.895145833492279, 'val': 1.0}
+
+NATOPS_dim256_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_37_16  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 0.9444444179534912}, mf1:{'test': 0.8938118815422058, 'val': 0.9425134658813477}
+
+NATOPS_dim256_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_38_19  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9125761389732361, 'val': 0.9751360416412354}
+
+NATOPS_dim256_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_39_22  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9182623028755188, 'val': 0.8814814686775208}
+
+NATOPS_dim256_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_33  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9111111164093018, 'val': 0.9722222089767456}, mf1:{'test': 0.8919506669044495, 'val': 0.9700710773468018}
+
+NATOPS_dim256_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_41_47  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 1.0}, mf1:{'test': 0.922607958316803, 'val': 1.0}
+
+NATOPS_dim256_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_43_00  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9111111164093018, 'val': 0.9722222089767456}, mf1:{'test': 0.8864909410476685, 'val': 0.9700710773468018}
+
+NATOPS_dim256_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_44_01  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9166666865348816, 'val': 0.9444444179534912}, mf1:{'test': 0.886165201663971, 'val': 0.9453796744346619}
+
+NATOPS_dim256_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_45_02  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9055555462837219, 'val': 0.9444444179534912}, mf1:{'test': 0.877713680267334, 'val': 0.8566175103187561}
+
+NATOPS_dim128_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_46_12  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 1.0}, mf1:{'test': 0.9189207553863525, 'val': 1.0}
+
+NATOPS_dim128_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_47_22  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9277777671813965, 'val': 1.0}, mf1:{'test': 0.9012903571128845, 'val': 1.0}
+
+NATOPS_dim128_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_48_32  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 0.9444444179534912}, mf1:{'test': 0.9035415053367615, 'val': 0.8489214777946472}
+
+NATOPS_dim128_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_49_32  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9055555462837219, 'val': 0.9722222089767456}, mf1:{'test': 0.8773046135902405, 'val': 0.9751360416412354}
+
+NATOPS_dim128_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_50_30  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.8722222447395325, 'val': 0.8888888955116272}, mf1:{'test': 0.8102334141731262, 'val': 0.8460996150970459}
+
+NATOPS_dim128_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_51_25  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 0.9166666865348816}, mf1:{'test': 0.9048076868057251, 'val': 0.9102132320404053}
+
+NATOPS_dim128_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_52_22  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.8888888955116272, 'val': 0.9722222089767456}, mf1:{'test': 0.829410970211029, 'val': 0.9700710773468018}
+
+NATOPS_dim128_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_53_18  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.949999988079071, 'val': 1.0}, mf1:{'test': 0.932583212852478, 'val': 1.0}
+
+NATOPS_dim128_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_54_19  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9333333373069763, 'val': 1.0}, mf1:{'test': 0.9089494347572327, 'val': 1.0}
+
+NATOPS_dim128_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_55_29  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9555555582046509, 'val': 0.9722222089767456}, mf1:{'test': 0.9450512528419495, 'val': 0.9751360416412354}
+
+NATOPS_dim128_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_56_30  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.8787060976028442, 'val': 0.9751360416412354}
+
+NATOPS_dim128_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_39  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9166666865348816, 'val': 1.0}, mf1:{'test': 0.8870869874954224, 'val': 1.0}
+
+NATOPS_dim128_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_58_49  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 0.9166666865348816}, mf1:{'test': 0.9027508497238159, 'val': 0.819753110408783}
+
+NATOPS_dim128_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_59_56  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9555555582046509, 'val': 0.9722222089767456}, mf1:{'test': 0.949618935585022, 'val': 0.9751360416412354}
+
+NATOPS_dim128_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_01_05  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9333333373069763, 'val': 1.0}, mf1:{'test': 0.9137989282608032, 'val': 1.0}
+
+NATOPS_dim128_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_02_11  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 0.9166666865348816}, mf1:{'test': 0.9103610515594482, 'val': 0.9111629128456116}
+
+NATOPS_dim128_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_03_09  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9555555582046509, 'val': 0.9722222089767456}, mf1:{'test': 0.9399611353874207, 'val': 0.9674399495124817}
+
+NATOPS_dim128_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_04_06  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9277777671813965, 'val': 0.9444444179534912}, mf1:{'test': 0.9075267314910889, 'val': 0.8515525460243225}
+
+NATOPS_dim128_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_05_15  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 0.9722222089767456}, mf1:{'test': 0.8854392170906067, 'val': 0.9700710773468018}
+
+NATOPS_dim128_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_06_11  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9111111164093018, 'val': 0.9722222089767456}, mf1:{'test': 0.8789241313934326, 'val': 0.9700710773468018}
+
+NATOPS_dim128_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_07_05  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9333333373069763, 'val': 0.9444444179534912}, mf1:{'test': 0.9146943092346191, 'val': 0.8489214777946472}
+
+NATOPS_dim64_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_07_59  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 0.9166666865348816}, mf1:{'test': 0.9085408449172974, 'val': 0.9164984226226807}
+
+NATOPS_dim64_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_08_53  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9555555582046509, 'val': 1.0}, mf1:{'test': 0.949890673160553, 'val': 1.0}
+
+NATOPS_dim64_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_09_58  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 1.0}, mf1:{'test': 0.9186677932739258, 'val': 1.0}
+
+NATOPS_dim64_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_11_12  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 1.0}, mf1:{'test': 0.922029435634613, 'val': 1.0}
+
+NATOPS_dim64_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_12_19  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 0.9722222089767456}, mf1:{'test': 0.9127119183540344, 'val': 0.9365079402923584}
+
+NATOPS_dim64_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_13_21  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9611111283302307, 'val': 0.9722222089767456}, mf1:{'test': 0.9502499103546143, 'val': 0.9674399495124817}
+
+NATOPS_dim64_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_14_33  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.8833333253860474, 'val': 0.9166666865348816}, mf1:{'test': 0.8230899572372437, 'val': 0.9153069257736206}
+
+NATOPS_dim64_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_15_39  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9333333373069763, 'val': 1.0}, mf1:{'test': 0.9156114459037781, 'val': 1.0}
+
+NATOPS_dim64_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_16_48  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.949999988079071, 'val': 0.9166666865348816}, mf1:{'test': 0.9387161135673523, 'val': 0.9164984226226807}
+
+NATOPS_dim64_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_17_50  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9111111164093018, 'val': 0.9722222089767456}, mf1:{'test': 0.8816424608230591, 'val': 0.9751360416412354}
+
+NATOPS_dim64_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_19_03  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9333333373069763, 'val': 0.9444444179534912}, mf1:{'test': 0.904916524887085, 'val': 0.9492063522338867}
+
+NATOPS_dim64_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_20_02  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 0.9722222089767456}, mf1:{'test': 0.8937819004058838, 'val': 0.9751360416412354}
+
+NATOPS_dim64_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_20_59  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9277777671813965, 'val': 0.9722222089767456}, mf1:{'test': 0.9060705304145813, 'val': 0.9751360416412354}
+
+NATOPS_dim64_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_21_57  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9444444179534912, 'val': 1.0}, mf1:{'test': 0.9351999163627625, 'val': 1.0}
+
+NATOPS_dim64_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_22_56  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9333333373069763, 'val': 0.9722222089767456}, mf1:{'test': 0.9244344234466553, 'val': 0.9700710773468018}
+
+NATOPS_dim64_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_23_52  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9154709577560425, 'val': 0.9700710773468018}
+
+NATOPS_dim64_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_24_48  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9333333373069763, 'val': 0.8888888955116272}, mf1:{'test': 0.9145326614379883, 'val': 0.7916947603225708}
+
+NATOPS_dim64_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_25_46  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9333333373069763, 'val': 0.9166666865348816}, mf1:{'test': 0.9190963506698608, 'val': 0.825685441493988}
+
+NATOPS_dim64_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_26_46  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9336931705474854, 'val': 0.9674399495124817}
+
+NATOPS_dim64_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_27_45  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.8833333253860474, 'val': 0.9722222089767456}, mf1:{'test': 0.8274050354957581, 'val': 0.9751360416412354}
+
+NATOPS_dim64_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_28_42  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9277777671813965, 'val': 0.9444444179534912}, mf1:{'test': 0.908337414264679, 'val': 0.9453796744346619}
+
+NATOPS_dim32_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_29_41  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9722222089767456, 'val': 1.0}, mf1:{'test': 0.9666731357574463, 'val': 1.0}
+
+NATOPS_dim32_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_30_41  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 1.0}, mf1:{'test': 0.9105367064476013, 'val': 1.0}
+
+NATOPS_dim32_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_31_38  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9444444179534912, 'val': 0.9444444179534912}, mf1:{'test': 0.9289147853851318, 'val': 0.8489214777946472}
+
+NATOPS_dim32_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_32_36  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9055555462837219, 'val': 0.9722222089767456}, mf1:{'test': 0.8792445659637451, 'val': 0.8814814686775208}
+
+NATOPS_dim32_depth1_mask0.4_patch8_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_33_34  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 0.9444444179534912}, mf1:{'test': 0.9231928586959839, 'val': 0.9382716417312622}
+
+NATOPS_dim32_depth1_mask0.4_patch11_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_34_30  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9055555462837219, 'val': 0.9166666865348816}, mf1:{'test': 0.8815508484840393, 'val': 0.9075196385383606}
+
+NATOPS_dim32_depth1_mask0.4_patch13_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_35_24  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9111111164093018, 'val': 0.9166666865348816}, mf1:{'test': 0.8834891319274902, 'val': 0.825685441493988}
+
+NATOPS_dim32_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_36_19  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9611111283302307, 'val': 0.9722222089767456}, mf1:{'test': 0.9402604103088379, 'val': 0.9751360416412354}
+
+NATOPS_dim32_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_37_15  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 1.0}, mf1:{'test': 0.904668927192688, 'val': 1.0}
+
+NATOPS_dim32_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_38_08  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.8739935159683228, 'val': 0.9700710773468018}
+
+NATOPS_dim32_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_39_04  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9111111164093018, 'val': 0.9722222089767456}, mf1:{'test': 0.8918418288230896, 'val': 0.8814814686775208}
+
+NATOPS_dim32_depth1_mask0.4_patch8_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_40_10  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 0.9444444179534912}, mf1:{'test': 0.9064614772796631, 'val': 0.8515525460243225}
+
+NATOPS_dim32_depth1_mask0.4_patch11_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_41_07  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9222221970558167, 'val': 1.0}, mf1:{'test': 0.8993614912033081, 'val': 1.0}
+
+NATOPS_dim32_depth1_mask0.4_patch13_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_42_01  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9277777671813965, 'val': 0.9166666865348816}, mf1:{'test': 0.8918435573577881, 'val': 0.825685441493988}
+
+NATOPS_dim32_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_42_55  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 0.9444444179534912}, mf1:{'test': 0.9089793562889099, 'val': 0.9425134658813477}
+
+NATOPS_dim32_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_43_49  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.949999988079071, 'val': 0.9444444179534912}, mf1:{'test': 0.9457913041114807, 'val': 0.9382716417312622}
+
+NATOPS_dim32_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_44_43  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9055555462837219, 'val': 0.8611111044883728}, mf1:{'test': 0.8725825548171997, 'val': 0.8585858941078186}
+
+NATOPS_dim32_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_45_46  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.8888888955116272, 'val': 0.8333333134651184}, mf1:{'test': 0.8595049381256104, 'val': 0.7414141893386841}
+
+NATOPS_dim32_depth1_mask0.4_patch8_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_46_41  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9277777671813965, 'val': 0.9722222089767456}, mf1:{'test': 0.9071322679519653, 'val': 0.9751360416412354}
+
+NATOPS_dim32_depth1_mask0.4_patch11_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_47_44  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9388889074325562, 'val': 0.9722222089767456}, mf1:{'test': 0.9216360449790955, 'val': 0.8814814686775208}
+
+NATOPS_dim32_depth1_mask0.4_patch13_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_48_40  
+TSLANet_NATOPS_l_1  
+acc:{'test': 0.9166666865348816, 'val': 0.9722222089767456}, mf1:{'test': 0.8976808190345764, 'val': 0.9674399495124817}
+

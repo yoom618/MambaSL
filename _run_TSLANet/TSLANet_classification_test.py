@@ -1,3 +1,4 @@
+# Revise the original TSLANet_classification.py to test the pretrained checkpoint
 import argparse
 import time
 import datetime
@@ -220,9 +221,9 @@ class model_training(L.LightningModule):
     def forward(self, x):
         return self.model(x)
 
-    def configure_optimizers(self):
-        optimizer = optim.AdamW(self.parameters(), lr=args.train_lr, weight_decay=1e-4)
-        return optimizer
+    # def configure_optimizers(self):
+    #     optimizer = optim.AdamW(self.parameters(), lr=args.train_lr, weight_decay=args.weight_decay)
+    #     return optimizer
 
     def _calculate_loss(self, batch, mode="train"):
         data = batch[0]
@@ -239,30 +240,30 @@ class model_training(L.LightningModule):
         self.log(f"{mode}_f1", f1, on_step=False, on_epoch=True, prog_bar=True, logger=True)
         return loss
 
-    def training_step(self, batch, batch_idx):
-        loss = self._calculate_loss(batch, mode="train")
-        return loss
+    # def training_step(self, batch, batch_idx):
+    #     loss = self._calculate_loss(batch, mode="train")
+    #     return loss
 
-    def validation_step(self, batch, batch_idx):
-        self._calculate_loss(batch, mode="val")
+    # def validation_step(self, batch, batch_idx):
+    #     self._calculate_loss(batch, mode="val")
 
     def test_step(self, batch, batch_idx):
         self._calculate_loss(batch, mode="test")
 
-    def on_train_batch_start(self, batch, batch_idx):
-        self.start_time = time.time()
+    # def on_train_batch_start(self, batch, batch_idx):
+    #     self.start_time = time.time()
     
-    def on_train_batch_end(self, outputs, batch, batch_idx):
-        self.duration += time.time() - self.start_time
+    # def on_train_batch_end(self, outputs, batch, batch_idx):
+    #     self.duration += time.time() - self.start_time
     
-    def on_validation_epoch_start(self):
-        self.log("train_time", self.duration, prog_bar=False, logger=True)
-        self.start_time, self.duration = time.time(), 0
+    # def on_validation_epoch_start(self):
+    #     self.log("train_time", self.duration, prog_bar=False, logger=True)
+    #     self.start_time, self.duration = time.time(), 0
     
-    def on_validation_epoch_end(self):
-        # log timer information
-        self.log("val_time", time.time() - self.start_time, prog_bar=False, logger=True)
-        self.start_time = None
+    # def on_validation_epoch_end(self):
+    #     # log timer information
+    #     self.log("val_time", time.time() - self.start_time, prog_bar=False, logger=True)
+    #     self.start_time = None
 
 
 def test_model(model_path):

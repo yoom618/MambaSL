@@ -1,0 +1,1008 @@
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_59_52  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.76450514793396, 'val': 0.7735849022865295}, mf1:{'test': 0.7504890561103821, 'val': 0.6954962015151978}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_04_44  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6791808605194092, 'val': 0.7358490824699402}, mf1:{'test': 0.6377237439155579, 'val': 0.49658602476119995}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_07_43  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7269624471664429, 'val': 0.7547169923782349}, mf1:{'test': 0.7062524557113647, 'val': 0.5112799406051636}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_10_47  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7986348271369934, 'val': 0.7169811129570007}, mf1:{'test': 0.7883219122886658, 'val': 0.5460171103477478}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_13_38  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7747440338134766, 'val': 0.7735849022865295}, mf1:{'test': 0.766473114490509, 'val': 0.49791228771209717}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_16_09  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7337883710861206, 'val': 0.849056601524353}, mf1:{'test': 0.7170582413673401, 'val': 0.5971260666847229}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_18_51  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7508532404899597, 'val': 0.7924528121948242}, mf1:{'test': 0.7327633500099182, 'val': 0.5498578548431396}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_20_42  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7679181098937988, 'val': 0.7169811129570007}, mf1:{'test': 0.7551252841949463, 'val': 0.6728089451789856}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_23_26  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7918089032173157, 'val': 0.7924528121948242}, mf1:{'test': 0.781625509262085, 'val': 0.5359973311424255}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_25_43  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6621160507202148, 'val': 0.6792452931404114}, mf1:{'test': 0.6270358562469482, 'val': 0.4923456311225891}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_27_46  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7781569957733154, 'val': 0.7924528121948242}, mf1:{'test': 0.7636045813560486, 'val': 0.5568955540657043}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_29_47  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7372013926506042, 'val': 0.7547169923782349}, mf1:{'test': 0.7241683006286621, 'val': 0.5099098682403564}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_32_03  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7576791644096375, 'val': 0.849056601524353}, mf1:{'test': 0.7427610158920288, 'val': 0.585404098033905}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_34_04  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.788395881652832, 'val': 0.7169811129570007}, mf1:{'test': 0.7773354053497314, 'val': 0.5197088122367859}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_36_00  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7508532404899597, 'val': 0.6603773832321167}, mf1:{'test': 0.7337222695350647, 'val': 0.447642058134079}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_38_02  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7815699577331543, 'val': 0.7547169923782349}, mf1:{'test': 0.7707298994064331, 'val': 0.5750061869621277}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_39_46  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7747440338134766, 'val': 0.6792452931404114}, mf1:{'test': 0.7612366080284119, 'val': 0.4757303297519684}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_41_43  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7918089032173157, 'val': 0.7358490824699402}, mf1:{'test': 0.7807392477989197, 'val': 0.5400282740592957}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_43_42  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.8225256204605103, 'val': 0.6037735939025879}, mf1:{'test': 0.815416157245636, 'val': 0.41829004883766174}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_45_29  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7167235612869263, 'val': 0.7358490824699402}, mf1:{'test': 0.6949899792671204, 'val': 0.5404387712478638}
+
+SelfRegulationSCP1_dim256_depth3_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_47_18  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6757678985595703, 'val': 0.7735849022865295}, mf1:{'test': 0.654800295829773, 'val': 0.53676837682724}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_48_55  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7713310718536377, 'val': 0.6792452931404114}, mf1:{'test': 0.7581286430358887, 'val': 0.49271848797798157}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_50_47  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6825938820838928, 'val': 0.698113203048706}, mf1:{'test': 0.6467610597610474, 'val': 0.4900462329387665}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_52_31  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7542662024497986, 'val': 0.6603773832321167}, mf1:{'test': 0.7390434741973877, 'val': 0.46384236216545105}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_54_09  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7337883710861206, 'val': 0.849056601524353}, mf1:{'test': 0.7095653414726257, 'val': 0.6229727268218994}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_55_48  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.5460751056671143, 'val': 0.5660377144813538}, mf1:{'test': 0.4178548753261566, 'val': 0.39000019431114197}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_57_26  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.8225256204605103, 'val': 0.7924528121948242}, mf1:{'test': 0.8165085315704346, 'val': 0.7024204134941101}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_58_57  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.8327645063400269, 'val': 0.698113203048706}, mf1:{'test': 0.8268972635269165, 'val': 0.47126296162605286}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_00_28  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6996586918830872, 'val': 0.698113203048706}, mf1:{'test': 0.6723673939704895, 'val': 0.5072935819625854}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_02_10  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6791808605194092, 'val': 0.7735849022865295}, mf1:{'test': 0.6462206244468689, 'val': 0.5849356055259705}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_03_47  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.5870307087898254, 'val': 0.7547169923782349}, mf1:{'test': 0.502938449382782, 'val': 0.5585076808929443}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_05_19  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7918089032173157, 'val': 0.7358490824699402}, mf1:{'test': 0.7856478691101074, 'val': 0.5284527540206909}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_06_55  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6825938820838928, 'val': 0.7735849022865295}, mf1:{'test': 0.6474140882492065, 'val': 0.5555483102798462}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_08_26  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7064846158027649, 'val': 0.7924528121948242}, mf1:{'test': 0.6715520024299622, 'val': 0.5804318785667419}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_10_00  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.5938566327095032, 'val': 0.7547169923782349}, mf1:{'test': 0.572809636592865, 'val': 0.5652830600738525}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_11_35  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6655290126800537, 'val': 0.7169811129570007}, mf1:{'test': 0.6160610914230347, 'val': 0.5195444822311401}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_13_19  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7679181098937988, 'val': 0.7169811129570007}, mf1:{'test': 0.7551700472831726, 'val': 0.4517121911048889}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_14_58  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7167235612869263, 'val': 0.8113207817077637}, mf1:{'test': 0.6849607825279236, 'val': 0.568272590637207}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_16_30  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7269624471664429, 'val': 0.8301886916160583}, mf1:{'test': 0.6960909366607666, 'val': 0.5695624351501465}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_18_01  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7133105993270874, 'val': 0.698113203048706}, mf1:{'test': 0.6923027038574219, 'val': 0.450749933719635}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_19_32  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7474402785301208, 'val': 0.7924528121948242}, mf1:{'test': 0.7237674593925476, 'val': 0.6212983131408691}
+
+SelfRegulationSCP1_dim128_depth3_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_21_06  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.76450514793396, 'val': 0.7735849022865295}, mf1:{'test': 0.7526907920837402, 'val': 0.554377555847168}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_22_41  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7610921263694763, 'val': 0.7547169923782349}, mf1:{'test': 0.74753338098526, 'val': 0.5133139491081238}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_24_11  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7337883710861206, 'val': 0.6792452931404114}, mf1:{'test': 0.7090376019477844, 'val': 0.4617295265197754}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_25_39  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7815699577331543, 'val': 0.7358490824699402}, mf1:{'test': 0.7707474231719971, 'val': 0.5208647847175598}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_27_09  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7849829196929932, 'val': 0.698113203048706}, mf1:{'test': 0.7711919546127319, 'val': 0.5933513045310974}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_28_41  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7849829196929932, 'val': 0.6792452931404114}, mf1:{'test': 0.7723315358161926, 'val': 0.47934824228286743}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_30_12  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7952218651771545, 'val': 0.7735849022865295}, mf1:{'test': 0.7858117818832397, 'val': 0.503666341304779}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_31_45  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6689419746398926, 'val': 0.7547169923782349}, mf1:{'test': 0.631530225276947, 'val': 0.5903749465942383}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_33_17  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7337883710861206, 'val': 0.8113207817077637}, mf1:{'test': 0.7054926753044128, 'val': 0.567669689655304}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_34_54  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7406143546104431, 'val': 0.6792452931404114}, mf1:{'test': 0.7182227373123169, 'val': 0.46507710218429565}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_36_24  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6757678985595703, 'val': 0.6603773832321167}, mf1:{'test': 0.631421685218811, 'val': 0.471815824508667}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_37_54  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.638225257396698, 'val': 0.7735849022865295}, mf1:{'test': 0.5762537121772766, 'val': 0.5682678818702698}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_39_28  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7133105993270874, 'val': 0.7358490824699402}, mf1:{'test': 0.6837925314903259, 'val': 0.5416232347488403}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_40_58  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7952218651771545, 'val': 0.7735849022865295}, mf1:{'test': 0.7824084162712097, 'val': 0.5687252283096313}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_42_27  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7098976373672485, 'val': 0.7735849022865295}, mf1:{'test': 0.6903639435768127, 'val': 0.5908395051956177}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_43_56  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7610921263694763, 'val': 0.6603773832321167}, mf1:{'test': 0.7478781342506409, 'val': 0.4737962782382965}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_45_22  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7167235612869263, 'val': 0.7547169923782349}, mf1:{'test': 0.6903668642044067, 'val': 0.4910157322883606}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_46_50  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6928327679634094, 'val': 0.7547169923782349}, mf1:{'test': 0.6625399589538574, 'val': 0.5242522358894348}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_48_19  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7542662024497986, 'val': 0.7735849022865295}, mf1:{'test': 0.7296352386474609, 'val': 0.535839319229126}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_49_45  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7576791644096375, 'val': 0.698113203048706}, mf1:{'test': 0.7398573160171509, 'val': 0.4644540846347809}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_51_09  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7064846158027649, 'val': 0.6792452931404114}, mf1:{'test': 0.672235369682312, 'val': 0.47479283809661865}
+
+SelfRegulationSCP1_dim64_depth3_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_52_33  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6313993334770203, 'val': 0.7735849022865295}, mf1:{'test': 0.5685242414474487, 'val': 0.5308550596237183}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_54_05  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6894198060035706, 'val': 0.7547169923782349}, mf1:{'test': 0.6574623584747314, 'val': 0.5116197466850281}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_55_29  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.723549485206604, 'val': 0.7735849022865295}, mf1:{'test': 0.7008289098739624, 'val': 0.543468713760376}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_56_56  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7815699577331543, 'val': 0.8301886916160583}, mf1:{'test': 0.7701393961906433, 'val': 0.6945792436599731}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_58_19  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7474402785301208, 'val': 0.7358490824699402}, mf1:{'test': 0.7278327941894531, 'val': 0.5135917067527771}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_59_48  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7508532404899597, 'val': 0.7358490824699402}, mf1:{'test': 0.7337895631790161, 'val': 0.5043572187423706}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_01_17  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.8191125988960266, 'val': 0.849056601524353}, mf1:{'test': 0.809245228767395, 'val': 0.6076869368553162}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_02_45  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7815699577331543, 'val': 0.8113207817077637}, mf1:{'test': 0.7690613865852356, 'val': 0.5499887466430664}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_04_10  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7986348271369934, 'val': 0.7924528121948242}, mf1:{'test': 0.7902335524559021, 'val': 0.5551907420158386}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_05_43  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7474402785301208, 'val': 0.7735849022865295}, mf1:{'test': 0.732215404510498, 'val': 0.4974048435688019}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_07_10  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7952218651771545, 'val': 0.7547169923782349}, mf1:{'test': 0.7854278683662415, 'val': 0.48114827275276184}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_08_39  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7303754091262817, 'val': 0.8113207817077637}, mf1:{'test': 0.7015143036842346, 'val': 0.6705328226089478}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_10_10  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.703071653842926, 'val': 0.8113207817077637}, mf1:{'test': 0.672430694103241, 'val': 0.5274412035942078}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_11_37  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7576791644096375, 'val': 0.7358490824699402}, mf1:{'test': 0.7392494678497314, 'val': 0.5318772792816162}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_13_04  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6484641432762146, 'val': 0.698113203048706}, mf1:{'test': 0.5912292003631592, 'val': 0.49508774280548096}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_14_32  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7986348271369934, 'val': 0.6603773832321167}, mf1:{'test': 0.7907037138938904, 'val': 0.4769768714904785}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_16_00  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7815699577331543, 'val': 0.7547169923782349}, mf1:{'test': 0.7692692875862122, 'val': 0.5306455492973328}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_17_32  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7542662024497986, 'val': 0.7169811129570007}, mf1:{'test': 0.7422778010368347, 'val': 0.4811394214630127}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_19_03  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7064846158027649, 'val': 0.7358490824699402}, mf1:{'test': 0.6727278828620911, 'val': 0.45758071541786194}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_20_34  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.7542662024497986, 'val': 0.698113203048706}, mf1:{'test': 0.7342914938926697, 'val': 0.4587863087654114}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_22_01  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.6894198060035706, 'val': 0.7358490824699402}, mf1:{'test': 0.646025538444519, 'val': 0.5041956901550293}
+
+SelfRegulationSCP1_dim32_depth3_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_23_33  
+TSLANet_SelfRegulationSCP1_l_3  
+acc:{'test': 0.744027316570282, 'val': 0.6603773832321167}, mf1:{'test': 0.7267686724662781, 'val': 0.44464024901390076}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_24_56  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.788395881652832, 'val': 0.698113203048706}, mf1:{'test': 0.7764126658439636, 'val': 0.5072935819625854}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_26_28  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7986348271369934, 'val': 0.7547169923782349}, mf1:{'test': 0.7894333600997925, 'val': 0.5419210195541382}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_27_57  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.788395881652832, 'val': 0.6792452931404114}, mf1:{'test': 0.779206395149231, 'val': 0.5041705965995789}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_29_26  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.788395881652832, 'val': 0.7735849022865295}, mf1:{'test': 0.7788063883781433, 'val': 0.6665598750114441}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_30_54  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7337883710861206, 'val': 0.8113207817077637}, mf1:{'test': 0.7129247188568115, 'val': 0.555409848690033}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_32_27  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7372013926506042, 'val': 0.7547169923782349}, mf1:{'test': 0.7241119742393494, 'val': 0.5266633033752441}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_33_53  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7918089032173157, 'val': 0.7924528121948242}, mf1:{'test': 0.7782106995582581, 'val': 0.5508612394332886}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_35_22  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7406143546104431, 'val': 0.7169811129570007}, mf1:{'test': 0.7215157151222229, 'val': 0.4750935435295105}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_36_42  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6962457299232483, 'val': 0.8301886916160583}, mf1:{'test': 0.6640762090682983, 'val': 0.64766526222229}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_38_05  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.8054607510566711, 'val': 0.7169811129570007}, mf1:{'test': 0.7985002994537354, 'val': 0.47858312726020813}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_39_28  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.8054607510566711, 'val': 0.7735849022865295}, mf1:{'test': 0.7947658896446228, 'val': 0.6936700940132141}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_49  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.80887371301651, 'val': 0.7735849022865295}, mf1:{'test': 0.800851047039032, 'val': 0.6991553902626038}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_42_10  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6416382193565369, 'val': 0.8301886916160583}, mf1:{'test': 0.6184861063957214, 'val': 0.5724669098854065}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_43_29  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.744027316570282, 'val': 0.7169811129570007}, mf1:{'test': 0.7277593612670898, 'val': 0.5289379954338074}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_44_53  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7747440338134766, 'val': 0.698113203048706}, mf1:{'test': 0.7627325654029846, 'val': 0.4807754456996918}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_46_14  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7576791644096375, 'val': 0.698113203048706}, mf1:{'test': 0.7422907948493958, 'val': 0.502251386642456}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_47_41  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7815699577331543, 'val': 0.6415094137191772}, mf1:{'test': 0.7729859948158264, 'val': 0.4707011878490448}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_49_03  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7508532404899597, 'val': 0.7735849022865295}, mf1:{'test': 0.7300807237625122, 'val': 0.5605716109275818}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_50_21  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7474402785301208, 'val': 0.7547169923782349}, mf1:{'test': 0.7331482768058777, 'val': 0.5228284001350403}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_51_43  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7713310718536377, 'val': 0.7169811129570007}, mf1:{'test': 0.7539576888084412, 'val': 0.5548245310783386}
+
+SelfRegulationSCP1_dim256_depth2_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_53_09  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7133105993270874, 'val': 0.8301886916160583}, mf1:{'test': 0.6927070617675781, 'val': 0.5497466325759888}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_54_29  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.8156996369361877, 'val': 0.7169811129570007}, mf1:{'test': 0.8092288374900818, 'val': 0.505214273929596}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_55_51  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7576791644096375, 'val': 0.7547169923782349}, mf1:{'test': 0.7422866821289062, 'val': 0.5414141416549683}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_11  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7952218651771545, 'val': 0.698113203048706}, mf1:{'test': 0.7865859270095825, 'val': 0.49339035153388977}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_58_32  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7508532404899597, 'val': 0.7547169923782349}, mf1:{'test': 0.7297226190567017, 'val': 0.6138877272605896}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_59_52  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6962457299232483, 'val': 0.7735849022865295}, mf1:{'test': 0.6552546620368958, 'val': 0.5433065295219421}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_01_09  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6723549365997314, 'val': 0.6792452931404114}, mf1:{'test': 0.6285240650177002, 'val': 0.4851396679878235}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_02_30  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6279863715171814, 'val': 0.7547169923782349}, mf1:{'test': 0.5662772059440613, 'val': 0.4994680881500244}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_03_48  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.8156996369361877, 'val': 0.6792452931404114}, mf1:{'test': 0.8069358468055725, 'val': 0.4944685399532318}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_05_10  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.744027316570282, 'val': 0.7547169923782349}, mf1:{'test': 0.7237175703048706, 'val': 0.5133139491081238}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_06_29  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7679181098937988, 'val': 0.7358490824699402}, mf1:{'test': 0.7533155083656311, 'val': 0.4898897707462311}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_07_47  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.788395881652832, 'val': 0.7358490824699402}, mf1:{'test': 0.7731249928474426, 'val': 0.5244307518005371}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_09_02  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7815699577331543, 'val': 0.7547169923782349}, mf1:{'test': 0.7684508562088013, 'val': 0.5015060901641846}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_10_23  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6245733499526978, 'val': 0.7735849022865295}, mf1:{'test': 0.5906879901885986, 'val': 0.585867702960968}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_11_47  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6825938820838928, 'val': 0.7358490824699402}, mf1:{'test': 0.6535671353340149, 'val': 0.5147511959075928}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_13_02  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7679181098937988, 'val': 0.7358490824699402}, mf1:{'test': 0.7561473250389099, 'val': 0.5242864489555359}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_14_18  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7372013926506042, 'val': 0.8867924809455872}, mf1:{'test': 0.7154560685157776, 'val': 0.6043084263801575}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_15_36  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7098976373672485, 'val': 0.7169811129570007}, mf1:{'test': 0.6849323511123657, 'val': 0.5250455737113953}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_16_58  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.8122866749763489, 'val': 0.7547169923782349}, mf1:{'test': 0.8049668669700623, 'val': 0.6590164303779602}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_18_14  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7610921263694763, 'val': 0.8113207817077637}, mf1:{'test': 0.747643768787384, 'val': 0.581062912940979}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_19_28  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6109215021133423, 'val': 0.6603773832321167}, mf1:{'test': 0.5225913524627686, 'val': 0.4973977506160736}
+
+SelfRegulationSCP1_dim128_depth2_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_20_41  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7986348271369934, 'val': 0.8113207817077637}, mf1:{'test': 0.7847985029220581, 'val': 0.5636139512062073}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_21_51  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7952218651771545, 'val': 0.7169811129570007}, mf1:{'test': 0.7783542275428772, 'val': 0.5008814334869385}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_23_05  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7542662024497986, 'val': 0.7547169923782349}, mf1:{'test': 0.7318830490112305, 'val': 0.5112799406051636}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_24_24  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7713310718536377, 'val': 0.6792452931404114}, mf1:{'test': 0.7597483992576599, 'val': 0.5110146999359131}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_25_42  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7679181098937988, 'val': 0.6792452931404114}, mf1:{'test': 0.7527681589126587, 'val': 0.4438694715499878}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_27_01  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.49829351902008057, 'val': 0.49056604504585266}, mf1:{'test': 0.33039572834968567, 'val': 0.4681042432785034}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_28_16  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.8191125988960266, 'val': 0.7547169923782349}, mf1:{'test': 0.8131179809570312, 'val': 0.5220149159431458}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_29_37  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7542662024497986, 'val': 0.7735849022865295}, mf1:{'test': 0.736346423625946, 'val': 0.5319700241088867}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_31_04  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7508532404899597, 'val': 0.6037735939025879}, mf1:{'test': 0.7317430377006531, 'val': 0.4402677118778229}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_32_26  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7918089032173157, 'val': 0.7547169923782349}, mf1:{'test': 0.7816880345344543, 'val': 0.5574908256530762}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_33_50  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6757678985595703, 'val': 0.7547169923782349}, mf1:{'test': 0.6375041007995605, 'val': 0.5315252542495728}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_35_08  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7747440338134766, 'val': 0.698113203048706}, mf1:{'test': 0.756007194519043, 'val': 0.5029414296150208}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_36_27  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.8464163541793823, 'val': 0.6415094137191772}, mf1:{'test': 0.8413776159286499, 'val': 0.41940703988075256}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_37_47  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.80887371301651, 'val': 0.7735849022865295}, mf1:{'test': 0.7955040335655212, 'val': 0.5496388077735901}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_39_08  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7542662024497986, 'val': 0.8113207817077637}, mf1:{'test': 0.7354943752288818, 'val': 0.58478844165802}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_40_25  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7952218651771545, 'val': 0.7735849022865295}, mf1:{'test': 0.7869492769241333, 'val': 0.70802241563797}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_41_44  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7713310718536377, 'val': 0.7735849022865295}, mf1:{'test': 0.7553675770759583, 'val': 0.5644150376319885}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_42_58  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7064846158027649, 'val': 0.7547169923782349}, mf1:{'test': 0.6750460267066956, 'val': 0.6172558665275574}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_44_18  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7406143546104431, 'val': 0.8113207817077637}, mf1:{'test': 0.7175686955451965, 'val': 0.6808716654777527}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_45_29  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7747440338134766, 'val': 0.7924528121948242}, mf1:{'test': 0.7594907283782959, 'val': 0.5752765536308289}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_46_47  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7269624471664429, 'val': 0.849056601524353}, mf1:{'test': 0.7005664706230164, 'val': 0.5790182948112488}
+
+SelfRegulationSCP1_dim64_depth2_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_48_05  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.788395881652832, 'val': 0.8113207817077637}, mf1:{'test': 0.7764884829521179, 'val': 0.5573724508285522}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_49_20  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7201365232467651, 'val': 0.7169811129570007}, mf1:{'test': 0.6933099627494812, 'val': 0.499338835477829}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_50_36  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.723549485206604, 'val': 0.7924528121948242}, mf1:{'test': 0.7028006315231323, 'val': 0.5342925190925598}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_51_53  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6211603879928589, 'val': 0.6603773832321167}, mf1:{'test': 0.5486445426940918, 'val': 0.4863971471786499}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_53_09  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.8122866749763489, 'val': 0.6603773832321167}, mf1:{'test': 0.8037958741188049, 'val': 0.46247920393943787}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_54_27  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7303754091262817, 'val': 0.7169811129570007}, mf1:{'test': 0.708549976348877, 'val': 0.4861949682235718}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_55_39  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.80887371301651, 'val': 0.7358490824699402}, mf1:{'test': 0.8020797967910767, 'val': 0.47679173946380615}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_56_50  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7372013926506042, 'val': 0.7547169923782349}, mf1:{'test': 0.7123187184333801, 'val': 0.5033717751502991}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_58_03  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.723549485206604, 'val': 0.7547169923782349}, mf1:{'test': 0.6962957382202148, 'val': 0.5680942535400391}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_20_59_15  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7474402785301208, 'val': 0.7169811129570007}, mf1:{'test': 0.7273464202880859, 'val': 0.4691120982170105}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_00_28  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6894198060035706, 'val': 0.7924528121948242}, mf1:{'test': 0.6506747007369995, 'val': 0.5746737122535706}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_01_34  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7610921263694763, 'val': 0.8113207817077637}, mf1:{'test': 0.7380411028862, 'val': 0.5769962668418884}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_02_50  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7508532404899597, 'val': 0.698113203048706}, mf1:{'test': 0.7293888926506042, 'val': 0.4794178009033203}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_04_00  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.744027316570282, 'val': 0.7735849022865295}, mf1:{'test': 0.7227841019630432, 'val': 0.5669134855270386}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_05_14  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.788395881652832, 'val': 0.8113207817077637}, mf1:{'test': 0.775028645992279, 'val': 0.6921390891075134}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_06_23  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7201365232467651, 'val': 0.7547169923782349}, mf1:{'test': 0.6984118819236755, 'val': 0.5233725309371948}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_07_35  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7406143546104431, 'val': 0.6792452931404114}, mf1:{'test': 0.7210408449172974, 'val': 0.45697060227394104}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_08_44  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7372013926506042, 'val': 0.7358490824699402}, mf1:{'test': 0.7165731191635132, 'val': 0.49132484197616577}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_09_53  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.703071653842926, 'val': 0.8113207817077637}, mf1:{'test': 0.6710444688796997, 'val': 0.6093064546585083}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_11_01  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6621160507202148, 'val': 0.7547169923782349}, mf1:{'test': 0.60670405626297, 'val': 0.5514624714851379}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_12_09  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.6996586918830872, 'val': 0.8113207817077637}, mf1:{'test': 0.670434296131134, 'val': 0.532202959060669}
+
+SelfRegulationSCP1_dim32_depth2_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_13_17  
+TSLANet_SelfRegulationSCP1_l_2  
+acc:{'test': 0.7815699577331543, 'val': 0.6603773832321167}, mf1:{'test': 0.7663533687591553, 'val': 0.4604572355747223}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_14_26  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7849829196929932, 'val': 0.7547169923782349}, mf1:{'test': 0.7730777859687805, 'val': 0.5439125895500183}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_15_37  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8191125988960266, 'val': 0.7169811129570007}, mf1:{'test': 0.8111012578010559, 'val': 0.5217603445053101}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_16_48  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7269624471664429, 'val': 0.7169811129570007}, mf1:{'test': 0.703947126865387, 'val': 0.520024836063385}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_17_57  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7098976373672485, 'val': 0.7169811129570007}, mf1:{'test': 0.6833775639533997, 'val': 0.521613597869873}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_19_10  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7815699577331543, 'val': 0.7169811129570007}, mf1:{'test': 0.7689265012741089, 'val': 0.48138031363487244}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_20_23  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7406143546104431, 'val': 0.8113207817077637}, mf1:{'test': 0.7244390249252319, 'val': 0.5513464212417603}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_21_34  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.6689419746398926, 'val': 0.6415094137191772}, mf1:{'test': 0.6259603500366211, 'val': 0.4649352431297302}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_22_40  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7713310718536377, 'val': 0.7169811129570007}, mf1:{'test': 0.7580841183662415, 'val': 0.5435660481452942}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_23_44  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7064846158027649, 'val': 0.6037735939025879}, mf1:{'test': 0.6784057021141052, 'val': 0.4380952715873718}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_24_47  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7781569957733154, 'val': 0.7169811129570007}, mf1:{'test': 0.7677246928215027, 'val': 0.49977949261665344}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_25_51  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8225256204605103, 'val': 0.6792452931404114}, mf1:{'test': 0.8157668113708496, 'val': 0.45824867486953735}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_26_51  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7269624471664429, 'val': 0.7547169923782349}, mf1:{'test': 0.7014120817184448, 'val': 0.5475717782974243}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_27_53  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7781569957733154, 'val': 0.7924528121948242}, mf1:{'test': 0.7667649388313293, 'val': 0.5376841425895691}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_28_56  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.5494880676269531, 'val': 0.6792452931404114}, mf1:{'test': 0.458554208278656, 'val': 0.49737709760665894}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_29_59  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7815699577331543, 'val': 0.6415094137191772}, mf1:{'test': 0.7693802714347839, 'val': 0.4291748106479645}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_30_59  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7952218651771545, 'val': 0.7358490824699402}, mf1:{'test': 0.7881428599357605, 'val': 0.5284527540206909}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_31_55  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7849829196929932, 'val': 0.7735849022865295}, mf1:{'test': 0.7746480703353882, 'val': 0.5550028085708618}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_32_54  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7747440338134766, 'val': 0.7735849022865295}, mf1:{'test': 0.7585044503211975, 'val': 0.5522756576538086}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_33_56  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.6211603879928589, 'val': 0.698113203048706}, mf1:{'test': 0.576619565486908, 'val': 0.4685421586036682}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_34_56  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8225256204605103, 'val': 0.7358490824699402}, mf1:{'test': 0.8168512582778931, 'val': 0.5220491290092468}
+
+SelfRegulationSCP1_dim256_depth1_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_35_55  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7576791644096375, 'val': 0.8113207817077637}, mf1:{'test': 0.744314432144165, 'val': 0.5674353837966919}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_36_54  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8020477890968323, 'val': 0.7547169923782349}, mf1:{'test': 0.7944952249526978, 'val': 0.5469089150428772}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_37_50  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8122866749763489, 'val': 0.7358490824699402}, mf1:{'test': 0.8035413026809692, 'val': 0.5249025821685791}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_38_52  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8020477890968323, 'val': 0.698113203048706}, mf1:{'test': 0.7937350273132324, 'val': 0.49057912826538086}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_39_51  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7849829196929932, 'val': 0.6792452931404114}, mf1:{'test': 0.7737261056900024, 'val': 0.4401293098926544}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_40_49  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7952218651771545, 'val': 0.698113203048706}, mf1:{'test': 0.7833552956581116, 'val': 0.45272359251976013}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_41_51  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.6552901268005371, 'val': 0.8113207817077637}, mf1:{'test': 0.608012855052948, 'val': 0.5695863962173462}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_42_48  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8566552996635437, 'val': 0.8113207817077637}, mf1:{'test': 0.8524861931800842, 'val': 0.553980827331543}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_43_49  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.76450514793396, 'val': 0.7169811129570007}, mf1:{'test': 0.7492561936378479, 'val': 0.5087708234786987}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_44_51  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7918089032173157, 'val': 0.6792452931404114}, mf1:{'test': 0.7805627584457397, 'val': 0.5760672688484192}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_45_46  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7918089032173157, 'val': 0.8301886916160583}, mf1:{'test': 0.783292829990387, 'val': 0.6312116384506226}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_46_43  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7269624471664429, 'val': 0.6603773832321167}, mf1:{'test': 0.7044568657875061, 'val': 0.5128721594810486}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_47_44  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7918089032173157, 'val': 0.8679245114326477}, mf1:{'test': 0.7809781432151794, 'val': 0.6431527733802795}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_48_46  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7542662024497986, 'val': 0.698113203048706}, mf1:{'test': 0.7322463989257812, 'val': 0.5104919672012329}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_49_46  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.744027316570282, 'val': 0.849056601524353}, mf1:{'test': 0.7194849252700806, 'val': 0.7088785171508789}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_50_43  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7952218651771545, 'val': 0.7358490824699402}, mf1:{'test': 0.7848126888275146, 'val': 0.5196323990821838}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_51_40  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7918089032173157, 'val': 0.6792452931404114}, mf1:{'test': 0.7818362712860107, 'val': 0.5045434236526489}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_52_32  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7986348271369934, 'val': 0.6792452931404114}, mf1:{'test': 0.7907330393791199, 'val': 0.4710560142993927}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_53_28  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.723549485206604, 'val': 0.7924528121948242}, mf1:{'test': 0.6936002969741821, 'val': 0.6226528882980347}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_54_22  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8327645063400269, 'val': 0.6603773832321167}, mf1:{'test': 0.8252755999565125, 'val': 0.5988993644714355}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_55_19  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7918089032173157, 'val': 0.7735849022865295}, mf1:{'test': 0.7787085771560669, 'val': 0.5271838307380676}
+
+SelfRegulationSCP1_dim128_depth1_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_56_18  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7781569957733154, 'val': 0.698113203048706}, mf1:{'test': 0.7643830180168152, 'val': 0.49926987290382385}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_57_15  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7508532404899597, 'val': 0.6415094137191772}, mf1:{'test': 0.7313467860221863, 'val': 0.4362958073616028}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_58_13  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7542662024497986, 'val': 0.7358490824699402}, mf1:{'test': 0.7374680638313293, 'val': 0.4933565855026245}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_59_08  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8156996369361877, 'val': 0.7169811129570007}, mf1:{'test': 0.8089160323143005, 'val': 0.4791657030582428}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_00_04  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8054607510566711, 'val': 0.698113203048706}, mf1:{'test': 0.7967960834503174, 'val': 0.6302573084831238}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_00_59  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7815699577331543, 'val': 0.6603773832321167}, mf1:{'test': 0.7654532194137573, 'val': 0.4692516624927521}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_01_58  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7337883710861206, 'val': 0.8301886916160583}, mf1:{'test': 0.7150650024414062, 'val': 0.5666912198066711}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_02_55  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8327645063400269, 'val': 0.7924528121948242}, mf1:{'test': 0.8246342539787292, 'val': 0.5555379390716553}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_03_47  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.744027316570282, 'val': 0.7735849022865295}, mf1:{'test': 0.7214887142181396, 'val': 0.49780136346817017}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_04_40  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.744027316570282, 'val': 0.7169811129570007}, mf1:{'test': 0.7209417223930359, 'val': 0.54416424036026}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_05_36  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8054607510566711, 'val': 0.6415094137191772}, mf1:{'test': 0.7979884147644043, 'val': 0.4411163628101349}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_06_32  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8156996369361877, 'val': 0.7169811129570007}, mf1:{'test': 0.8081099987030029, 'val': 0.5087708234786987}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_07_27  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7337883710861206, 'val': 0.7169811129570007}, mf1:{'test': 0.7092490196228027, 'val': 0.501813530921936}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_08_24  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7508532404899597, 'val': 0.7358490824699402}, mf1:{'test': 0.7294002771377563, 'val': 0.5155211687088013}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_09_18  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.788395881652832, 'val': 0.7358490824699402}, mf1:{'test': 0.7776616811752319, 'val': 0.5185847282409668}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_10_15  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.76450514793396, 'val': 0.7735849022865295}, mf1:{'test': 0.7484492063522339, 'val': 0.6778275370597839}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_11_11  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7815699577331543, 'val': 0.7735849022865295}, mf1:{'test': 0.7688518762588501, 'val': 0.54276442527771}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_12_09  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7576791644096375, 'val': 0.7358490824699402}, mf1:{'test': 0.7425824403762817, 'val': 0.506433367729187}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_13_06  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7815699577331543, 'val': 0.7547169923782349}, mf1:{'test': 0.7726103663444519, 'val': 0.5551080107688904}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_14_00  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7815699577331543, 'val': 0.7358490824699402}, mf1:{'test': 0.7679536938667297, 'val': 0.5156833529472351}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_14_56  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8191125988960266, 'val': 0.6415094137191772}, mf1:{'test': 0.8137592077255249, 'val': 0.4564806818962097}
+
+SelfRegulationSCP1_dim64_depth1_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_15_55  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.703071653842926, 'val': 0.849056601524353}, mf1:{'test': 0.674188494682312, 'val': 0.5429486632347107}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch23_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_16_53  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7406143546104431, 'val': 0.6792452931404114}, mf1:{'test': 0.7194644808769226, 'val': 0.5146120190620422}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch45_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_17_47  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7576791644096375, 'val': 0.7169811129570007}, mf1:{'test': 0.7434805631637573, 'val': 0.5156710147857666}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch68_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_18_41  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8122866749763489, 'val': 0.7169811129570007}, mf1:{'test': 0.8067377209663391, 'val': 0.525009036064148}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch90_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_19_35  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.76450514793396, 'val': 0.7547169923782349}, mf1:{'test': 0.7473269701004028, 'val': 0.5315252542495728}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch135_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_20_33  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7372013926506042, 'val': 0.7735849022865295}, mf1:{'test': 0.7069507837295532, 'val': 0.684108316898346}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch180_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_21_31  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.6689419746398926, 'val': 0.849056601524353}, mf1:{'test': 0.6321905851364136, 'val': 0.7284416556358337}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch224_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_22_25  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.6689419746398926, 'val': 0.8113207817077637}, mf1:{'test': 0.6261879801750183, 'val': 0.5662546157836914}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch23_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_23_20  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7713310718536377, 'val': 0.7358490824699402}, mf1:{'test': 0.7571293115615845, 'val': 0.5319709777832031}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch45_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_24_12  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.80887371301651, 'val': 0.7169811129570007}, mf1:{'test': 0.799974799156189, 'val': 0.5331863164901733}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch68_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_25_09  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.6552901268005371, 'val': 0.7547169923782349}, mf1:{'test': 0.6067624092102051, 'val': 0.5039746165275574}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch90_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_26_05  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.744027316570282, 'val': 0.7169811129570007}, mf1:{'test': 0.7209603786468506, 'val': 0.4949353039264679}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch135_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_27_00  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.658703088760376, 'val': 0.7547169923782349}, mf1:{'test': 0.606787383556366, 'val': 0.5082229971885681}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch180_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_27_55  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7679181098937988, 'val': 0.8113207817077637}, mf1:{'test': 0.7502643465995789, 'val': 0.6808716654777527}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch224_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_28_47  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7679181098937988, 'val': 0.849056601524353}, mf1:{'test': 0.7526214718818665, 'val': 0.730358362197876}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch23_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_29_46  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.76450514793396, 'val': 0.698113203048706}, mf1:{'test': 0.749208390712738, 'val': 0.5133371949195862}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch45_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_30_45  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7849829196929932, 'val': 0.6415094137191772}, mf1:{'test': 0.773707389831543, 'val': 0.47927749156951904}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch68_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_31_44  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8122866749763489, 'val': 0.7547169923782349}, mf1:{'test': 0.806071400642395, 'val': 0.5203031897544861}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch90_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_32_39  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7781569957733154, 'val': 0.698113203048706}, mf1:{'test': 0.7672749161720276, 'val': 0.4691605865955353}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch135_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_33_32  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.8327645063400269, 'val': 0.7735849022865295}, mf1:{'test': 0.8273265957832336, 'val': 0.518507719039917}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch180_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_34_27  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.7372013926506042, 'val': 0.7547169923782349}, mf1:{'test': 0.7191470265388489, 'val': 0.4994680881500244}
+
+SelfRegulationSCP1_dim32_depth1_mask0.4_patch224_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_35_25  
+TSLANet_SelfRegulationSCP1_l_1  
+acc:{'test': 0.6484641432762146, 'val': 0.7358490824699402}, mf1:{'test': 0.6083219051361084, 'val': 0.537361204624176}
+

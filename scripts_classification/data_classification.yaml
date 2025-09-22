@@ -1,0 +1,422 @@
+CLS_EthanolConcentration:
+  task_name: classification
+  dataset: EthanolConcentration
+  data: UEA
+  root_path: data_dir/EthanolConcentration
+  seq_len: 1751
+  enc_in: 3
+  num_class: 4
+  p_min: 0.2490
+  p_max: 0.2529
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_FaceDetection:
+  task_name: classification
+  dataset: FaceDetection
+  data: UEA
+  root_path: data_dir/FaceDetection
+  seq_len: 62
+  enc_in: 144
+  num_class: 2
+  p_min: 0.5
+  p_max: 0.5
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_Handwriting:
+  task_name: classification
+  dataset: Handwriting
+  data: UEA
+  root_path: data_dir/Handwriting
+  seq_len: 152
+  enc_in: 3
+  num_class: 26
+  p_min: 0.0133
+  p_max: 0.0733
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_Heartbeat:
+  task_name: classification
+  dataset: Heartbeat
+  data: UEA
+  root_path: data_dir/Heartbeat
+  seq_len: 405
+  enc_in: 61
+  num_class: 2
+  p_min: 0.2794
+  p_max: 0.7206
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_JapaneseVowels:  # Variable length
+  task_name: classification
+  dataset: JapaneseVowels
+  data: UEA
+  root_path: data_dir/JapaneseVowels
+  seq_len: 29
+  enc_in: 12
+  num_class: 9
+  p_min: 0.1111
+  p_max: 0.1111
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_PEMS-SF:
+  task_name: classification
+  dataset: PEMS-SF
+  data: UEA
+  root_path: data_dir/PEMS-SF
+  seq_len: 144
+  enc_in: 963
+  num_class: 7
+  p_min: 0.1199
+  p_max: 0.1648
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_SelfRegulationSCP1:
+  task_name: classification
+  dataset: SelfRegulationSCP1
+  data: UEA
+  root_path: data_dir/SelfRegulationSCP1
+  seq_len: 896
+  enc_in: 6
+  num_class: 2
+  p_min: 0.4963
+  p_max: 0.5037
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_SelfRegulationSCP2:
+  task_name: classification
+  dataset: SelfRegulationSCP2
+  data: UEA
+  root_path: data_dir/SelfRegulationSCP2
+  seq_len: 1152
+  enc_in: 7
+  num_class: 2
+  p_min: 0.5
+  p_max: 0.5
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_SpokenArabicDigits:  # Variable length
+  task_name: classification
+  dataset: SpokenArabicDigits
+  data: UEA
+  root_path: data_dir/SpokenArabicDigits
+  seq_len: 93
+  enc_in: 13
+  num_class: 10
+  p_min: 0.0999
+  p_max: 0.1000
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_UWaveGestureLibrary:
+  task_name: classification
+  dataset: UWaveGestureLibrary
+  data: UEA
+  root_path: data_dir/UWaveGestureLibrary
+  seq_len: 315
+  enc_in: 3
+  num_class: 8
+  p_min: 0.1250
+  p_max: 0.1250
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+
+
+
+CLS_ArticularyWordRecognition:
+  task_name: classification
+  dataset: ArticularyWordRecognition
+  data: UEA
+  root_path: data_dir/ArticularyWordRecognition
+  seq_len: 144
+  enc_in: 9
+  num_class: 25
+  p_min: 0.04
+  p_max: 0.04
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_AtrialFibrillation:
+  task_name: classification
+  dataset: AtrialFibrillation
+  data: UEA
+  root_path: data_dir/AtrialFibrillation
+  seq_len: 640
+  enc_in: 2
+  num_class: 3
+  p_min: 0.3333
+  p_max: 0.3333
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_BasicMotions:
+  task_name: classification
+  dataset: BasicMotions
+  data: UEA
+  root_path: data_dir/BasicMotions
+  seq_len: 100
+  enc_in: 6
+  num_class: 4
+  p_min: 0.25
+  p_max: 0.25
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_CharacterTrajectories:  # Variable length
+  task_name: classification
+  dataset: CharacterTrajectories
+  data: UEA
+  root_path: data_dir/CharacterTrajectories
+  seq_len: 182
+  enc_in: 3
+  num_class: 20
+  p_min: 0.0415
+  p_max: 0.0654
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_Cricket:
+  task_name: classification
+  dataset: Cricket
+  data: UEA
+  root_path: data_dir/Cricket
+  seq_len: 1197
+  enc_in: 6
+  num_class: 12
+  p_min: 0.0833
+  p_max: 0.0833
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_DuckDuckGeese:
+  task_name: classification
+  dataset: DuckDuckGeese
+  data: UEA
+  root_path: data_dir/DuckDuckGeese
+  seq_len: 270
+  enc_in: 1345
+  num_class: 5
+  p_min: 0.2
+  p_max: 0.2
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_EigenWorms:
+  task_name: classification
+  dataset: EigenWorms
+  data: UEA
+  root_path: data_dir/EigenWorms
+  seq_len: 17984
+  enc_in: 6
+  num_class: 5
+  p_min: 0.0938
+  p_max: 0.4297
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_Epilepsy:
+  task_name: classification
+  dataset: Epilepsy
+  data: UEA
+  root_path: data_dir/Epilepsy
+  seq_len: 206
+  enc_in: 3
+  num_class: 4
+  p_min: 0.2190
+  p_max: 0.2701
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_ERing:
+  task_name: classification
+  dataset: ERing
+  data: UEA
+  root_path: data_dir/ERing
+  seq_len: 65
+  enc_in: 4
+  num_class: 6
+  p_min: 0.1667
+  p_max: 0.1667
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_FingerMovements:
+  task_name: classification
+  dataset: FingerMovements
+  data: UEA
+  root_path: data_dir/FingerMovements
+  seq_len: 50
+  enc_in: 28
+  num_class: 2
+  p_min: 0.4968
+  p_max: 0.5032
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_HandMovementDirection:
+  task_name: classification
+  dataset: HandMovementDirection
+  data: UEA
+  root_path: data_dir/HandMovementDirection
+  seq_len: 400
+  enc_in: 10
+  num_class: 4
+  p_min: 0.25
+  p_max: 0.25
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_InsectWingbeat:  # Variable length
+  task_name: classification
+  dataset: InsectWingbeat
+  data: UEA
+  root_path: data_dir/InsectWingbeat
+  seq_len: 22
+  enc_in: 200
+  num_class: 10
+  p_min: 0.1
+  p_max: 0.1
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_Libras:
+  task_name: classification
+  dataset: Libras
+  data: UEA
+  root_path: data_dir/Libras
+  seq_len: 45
+  enc_in: 2
+  num_class: 15
+  p_min: 0.0667
+  p_max: 0.0667
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_LSST:
+  task_name: classification
+  dataset: LSST
+  data: UEA
+  root_path: data_dir/LSST
+  seq_len: 36
+  enc_in: 6
+  num_class: 14
+  p_min: 0.0028
+  p_max: 0.3160
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_MotorImagery:
+  task_name: classification
+  dataset: MotorImagery
+  data: UEA
+  root_path: data_dir/MotorImagery
+  seq_len: 3000
+  enc_in: 64
+  num_class: 2
+  p_min: 0.5
+  p_max: 0.5
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_NATOPS:
+  task_name: classification
+  dataset: NATOPS
+  data: UEA
+  root_path: data_dir/NATOPS
+  seq_len: 51
+  enc_in: 24
+  num_class: 6
+  p_min: 0.1667
+  p_max: 0.1667
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_PenDigits:
+  task_name: classification
+  dataset: PenDigits
+  data: UEA
+  root_path: data_dir/PenDigits
+  seq_len: 8
+  enc_in: 2
+  num_class: 10
+  p_min: 0.0959
+  p_max: 0.1041
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_PhonemeSpectra:
+  task_name: classification
+  dataset: PhonemeSpectra
+  data: UEA
+  root_path: data_dir/PhonemeSpectra
+  seq_len: 217
+  enc_in: 11
+  num_class: 39
+  p_min: 0.0256
+  p_max: 0.0256
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_RacketSports:
+  task_name: classification
+  dataset: RacketSports
+  data: UEA
+  root_path: data_dir/RacketSports
+  seq_len: 30
+  enc_in: 6
+  num_class: 4
+  p_min: 0.2252
+  p_max: 0.2848
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+
+CLS_StandWalkJump:
+  task_name: classification
+  dataset: StandWalkJump
+  data: UEA
+  root_path: data_dir/StandWalkJump
+  seq_len: 2500
+  enc_in: 4
+  num_class: 3
+  p_min: 0.3333
+  p_max: 0.3333
+  label_len: 0
+  pred_len: 0
+  c_out: 0

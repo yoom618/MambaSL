@@ -1,0 +1,720 @@
+InsectWingbeat_dim256_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_13_41_36  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_50_24  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09983193129301071, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_11_15  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09917128831148148, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_32_47  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_07_36  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09917128831148148, 'val': 0.09750804305076599}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_37_17  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_39_49  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_45_29  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_47_26  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_45_58  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09984000027179718, 'val': 0.10000000149011612}, mf1:{'test': 0.09818032383918762, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_36_25  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_26_26  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10007999837398529, 'val': 0.10000000149011612}, mf1:{'test': 0.09986957907676697, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_11_00  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.0995016098022461, 'val': 0.09750804305076599}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_59_08  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.0997999981045723}, mf1:{'test': 0.09920893609523773, 'val': 0.0973198190331459}
+
+InsectWingbeat_dim256_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_49_11  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09991999715566635, 'val': 0.0997999981045723}, mf1:{'test': 0.0985482931137085, 'val': 0.09731981158256531}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_40_04  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_32_36  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_19_12  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_04_59  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09887861460447311, 'val': 0.09750805050134659}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_52_12  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10019999742507935}, mf1:{'test': 0.09800058603286743, 'val': 0.09915966540575027}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_40_59  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_23_16  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_01_02  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_31_00  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09891626238822937, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_02_31  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09983193129301071, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_39_04  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_10_17  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_44_57  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09917128831148148, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_20_39  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_52_18  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09825561195611954, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_25_30  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_54_36  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10152000188827515, 'val': 0.10119999945163727}, mf1:{'test': 0.10125230252742767, 'val': 0.10010084509849548}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_29_56  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_04_46  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_36_27  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_09_22  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_41_27  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_14_45  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_43_02  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_15_38  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_50_55  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_22_21  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_56_27  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_48_11  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_33_11  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_16_21  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_54_45  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_31_25  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.0988033190369606, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_02_03  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.0997999981045723}, mf1:{'test': 0.09946396201848984, 'val': 0.0973198190331459}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_37_46  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_12_19  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_45_39  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_15_09  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_44_45  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_12_13_48  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_42_19  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_11_26  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_38_15  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09913364052772522, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_08_13  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth3_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_36_31  
+TSLANet_InsectWingbeat_l_3  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_21_06_10  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09983193129301071, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_16_28  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_25_43  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09913364052772522, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_36_58  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.0995016098022461, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_49_39  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.0985482931137085, 'val': 0.09750805050134659}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_00_07  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_14_12  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_29_16  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_43_04  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_57_23  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09917128831148148, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_11_47  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_27_33  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09983193129301071, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_11_44_11  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_59_23  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09924658387899399, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_14_26  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10019999742507935, 'val': 0.10000000149011612}, mf1:{'test': 0.09968984127044678, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_29_02  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.0997999981045723}, mf1:{'test': 0.09979428350925446, 'val': 0.0973198190331459}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_37_52  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_13_20  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_48_07  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.0997999981045723}, mf1:{'test': 0.09946396201848984, 'val': 0.0973198190331459}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_23_25  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_57_54  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_02_45_42  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_23_07  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09913364052772522, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_59_52  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.0988033190369606, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_30_46  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.0988033190369606, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_58_30  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_25_22  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_06_56  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.0988033190369606, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_10_49  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.0985482931137085, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_00_33_58  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_48_17  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_49_52  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09983193129301071, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_54_56  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.0995016098022461, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_15_44  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09917128831148148, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_12_22_18  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09917128831148148, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_37_00  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_37_29  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_52_56  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.0997999981045723}, mf1:{'test': 0.09979428350925446, 'val': 0.09731981158256531}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_42_07  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_29_38  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09913364052772522, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_06_07_47  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.0995016098022461, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_08_14_44  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_08_13  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_03_27  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.0997999981045723, 'val': 0.10000000149011612}, mf1:{'test': 0.097850002348423, 'val': 0.09854814410209656}
+
+InsectWingbeat_dim64_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_55_59  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.09792529046535492, 'val': 0.09750805050134659}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_44_12  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_41_27  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_19_57_56  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_17_05  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09972000122070312, 'val': 0.10000000149011612}, mf1:{'test': 0.09748203307390213, 'val': 0.09750805050134659}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_33_37  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_03_00_38  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_51_55  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_38_49  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09984000027179718, 'val': 0.10000000149011612}, mf1:{'test': 0.09847299754619598, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_24_59  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_12_34  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_01_00  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_46_39  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_32_04  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_40_48  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.0995016098022461, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_35_46  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09983193129301071, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_35_06  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09988000243902206, 'val': 0.10019999742507935}, mf1:{'test': 0.09851064532995224, 'val': 0.09915966540575027}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_41_17  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.09851064532995224, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_24_34  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10019999742507935}, mf1:{'test': 0.09773300588130951, 'val': 0.09915966540575027}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_04_22  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_42_19  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_34_15  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09920893609523773, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_08_04_56  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09995999932289124, 'val': 0.0997999981045723}, mf1:{'test': 0.0982932597398758, 'val': 0.09731981158256531}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_09_52_28  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.0997999981045723, 'val': 0.10000000149011612}, mf1:{'test': 0.09667930006980896, 'val': 0.09750805050134659}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_52_24  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_35_11  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_15_15_43  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10019999742507935}, mf1:{'test': 0.09913364052772522, 'val': 0.09915966540575027}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_17_00_41  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.0995016098022461, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_18_36_17  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10019999742507935}, mf1:{'test': 0.09707236289978027, 'val': 0.09915966540575027}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_20_06_48  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_25_38  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09913364052772522, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_22_44_30  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09984000027179718, 'val': 0.10000000149011612}, mf1:{'test': 0.09847299754619598, 'val': 0.098971426486969}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_23_55_40  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09976000338792801, 'val': 0.10019999742507935}, mf1:{'test': 0.09751968085765839, 'val': 0.09915966540575027}
+
+InsectWingbeat_dim64_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_01_01_42  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.0997999981045723, 'val': 0.10040000081062317}, mf1:{'test': 0.097850002348423, 'val': 0.09934789687395096}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_12_07  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.0995016098022461, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_03_35_07  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09884096682071686, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_04_53_57  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09995999932289124, 'val': 0.10019999742507935}, mf1:{'test': 0.09946396201848984, 'val': 0.09915966540575027}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_06_03_51  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09913364052772522, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_07_21_03  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.0997999981045723}, mf1:{'test': 0.09737759083509445, 'val': 0.0973198190331459}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_35_07  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_09_41_40  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09983193129301071, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_10_48_23  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_11_53_03  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.0988033190369606, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_13_00_29  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09976000338792801, 'val': 0.10019999742507935}, mf1:{'test': 0.09722699970006943, 'val': 0.09915966540575027}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_07_36  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.09851064532995224, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_16_15  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_16_26_47  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.0985482931137085, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_17_37_19  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.0997999981045723}, mf1:{'test': 0.09884096682071686, 'val': 0.0973198190331459}
+
+InsectWingbeat_dim32_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_18_44_38  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09972000122070312, 'val': 0.0997999981045723}, mf1:{'test': 0.09721599519252777, 'val': 0.0973198190331459}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_19_44_20  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09884096682071686, 'val': 0.098971426486969}
+
+InsectWingbeat_dim32_depth2_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_21_02_47  
+TSLANet_InsectWingbeat_l_2  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09917128831148148, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_22_25_49  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_23_33_08  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_00_42_06  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.0988033190369606, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_01_48_55  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.09821797162294388, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_02_56_21  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.1003199964761734, 'val': 0.10080000013113022}, mf1:{'test': 0.09832267463207245, 'val': 0.09966161847114563}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_04_02_34  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09913364052772522, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_05_22_56  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_06_34_04  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09976000338792801, 'val': 0.10000000149011612}, mf1:{'test': 0.09781235456466675, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_07_40_09  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09825561195611954, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_08_45_33  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09825561195611954, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch2_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_09_50_21  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09913364052772522, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch3_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_10_58_00  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch4_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_09_58  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09917128831148148, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch5_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_22_48  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09988000243902206, 'val': 0.10000000149011612}, mf1:{'test': 0.09851064532995224, 'val': 0.098971426486969}
+
+InsectWingbeat_dim256_depth1_mask0.4_patch6_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_14_33_53  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09972000122070312, 'val': 0.09960000216960907}, mf1:{'test': 0.09536038339138031, 'val': 0.09566820412874222}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch2_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_15_38_50  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09983193129301071, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch3_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_16_49_44  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09979428350925446, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch4_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_17_55_11  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10007999837398529, 'val': 0.10040000081062317}, mf1:{'test': 0.09928423166275024, 'val': 0.09934789687395096}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch5_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_18_59_00  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09946396201848984, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch6_mlp3.0___ASB_True__AF_True__ICB_True__preTr_True_20_01_12  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09972000122070312, 'val': 0.09939999878406525}, mf1:{'test': 0.09572597593069077, 'val': 0.09480132162570953}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch2_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_21_06_49  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09995999932289124, 'val': 0.10000000149011612}, mf1:{'test': 0.09917128831148148, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch3_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_22_15_05  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09913364052772522, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch4_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_23_18_32  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.09991999715566635, 'val': 0.10000000149011612}, mf1:{'test': 0.09884096682071686, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch5_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_00_20_18  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.10000000149011612, 'val': 0.10000000149011612}, mf1:{'test': 0.09920893609523773, 'val': 0.098971426486969}
+
+InsectWingbeat_dim128_depth1_mask0.4_patch6_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_01_30_15  
+TSLANet_InsectWingbeat_l_1  
+acc:{'test': 0.100040003657341, 'val': 0.10000000149011612}, mf1:{'test': 0.09924658387899399, 'val': 0.098971426486969}
+

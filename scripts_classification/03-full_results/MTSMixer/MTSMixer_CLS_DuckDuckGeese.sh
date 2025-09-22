@@ -1,0 +1,7680 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 34 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 27 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 21 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 14 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 9 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 6 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 3 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 1024 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 34 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 27 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 21 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 14 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 9 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 6 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 3 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 512 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 34 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 27 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 21 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 14 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 9 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 6 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 3 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 256 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 128 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 64 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 32 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 16 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 8 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 4 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 34 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 27 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 21 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 14 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 9 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 6 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 3 \
+  --fac_C True \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 2 \
+  --down_sampling_window 0 \
+  --fac_C True \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 34 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 27 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 21 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 14 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 9 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 6 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 3 \
+  --fac_C False \
+  --fac_T True \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 2 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --seq_len 270 \
+  --enc_in 1345 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model MTSMixer \
+  --model_id CLS_DuckDuckGeese \
+  --d_model 128 \
+  --use_norm 1 \
+  --d_ff 0 \
+  --down_sampling_window 0 \
+  --fac_C False \
+  --fac_T False \
+  --is_training 1 \
+  --batch_size 8 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

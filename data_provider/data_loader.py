@@ -4,7 +4,7 @@ import pandas as pd
 import glob
 import re
 import torch
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset
 from sklearn.preprocessing import StandardScaler
 from utils.timefeatures import time_features
 from data_provider.m4 import M4Dataset, M4Meta
@@ -18,6 +18,7 @@ import pywt
 from skimage.transform import resize
 from sktime.transformations.panel.rocket import Rocket
 import joblib
+import time
 
 warnings.filterwarnings('ignore')
 
@@ -818,7 +819,9 @@ class UEAloader4TSCMamba(UEAloader):
         self.feature_df = self.all_df
 
         # Rescale
+        start_time = time.time()
         if os.path.exists(f"{self.root_path}/{flag}__rescaled_{self.variation}_{self.rescale_size}_{self.wt_name}.npy") == False:
+            print(f"--Rescaling with {self.variation} wavelet transform and size {self.rescale_size} for {flag} set--")
             self.X_cwt = np.ndarray(shape=(len(self.all_IDs), self.feature_df.shape[1], self.rescale_size, self.rescale_size), dtype = 'float32')
             for sample in range(len(self.all_IDs)):
                 series=np.array(self.feature_df.loc[self.all_IDs[sample]].values)#L,D
@@ -829,8 +832,10 @@ class UEAloader4TSCMamba(UEAloader):
             np.save(f"{self.root_path}/{flag}__rescaled_{self.variation}_{self.rescale_size}_{self.wt_name}.npy",self.X_cwt)
             # print(self.X_cwt.shape)
         else:
+            print(f"--Loading rescaled data with {self.variation} wavelet transform and size {self.rescale_size} for {flag} set--")
             self.X_cwt=np.load(f"{self.root_path}/{flag}__rescaled_{self.variation}_{self.rescale_size}_{self.wt_name}.npy")
             # print(self.X_cwt.shape)
+        print(f"Rescaling time: {time.time() - start_time:.2f} seconds")
 
 
         # Normalize both feature_df and X_cwt
@@ -854,20 +859,32 @@ class UEAloader4TSCMamba(UEAloader):
         else:
             X_all_np=np.load(f"{self.root_path}/{flag}__df_all.npy")
 
+        ### Changed original code a bit
+        # Original code set the filename of ckpt as `{flag}_rocket_transformer_{curr_random}.pkl`
+        # But since each model is trained on specific input channel and the random seed value is not ordered,
+        # this might cause confusion when loading the models later. 
+        # (e.g. assume that we have 2-channel input and each was trained by ROCKET model with seed 20000 and 10000.
+        #  if we don't specify the channel index in the ROCKET model filename,
+        #  then the model with seed 20000 might be loaded for channel 1 and the model with seed 10000 might be loaded for channel 0,
+        #  which is not what we want)
+        # So we add the channel index to the filename of the ROCKET model, i.e. `{flag}_rocket_transformer_{channel_index}_{curr_random}.pkl`
+        # And add sorted(existing_models) to ensure that the models are loaded in the correct order.
         self.rocket_features=np.zeros(shape=(len(self.all_IDs), self.feature_df.shape[1], self.projected_space), dtype = 'float32')
         rocket_dirname = f"rocket_{self.variation}_{self.rescale_size}_{self.wt_name}_{self.projected_space}_mix{self.channel_token_mixing}"
         os.makedirs(f"{self.root_path}/{rocket_dirname}", exist_ok=True)
+        start_time = time.time()
         if self.channel_token_mixing == 0:
             if flag=='TRAIN':
                 existing_models = glob.glob(f"{self.root_path}/{rocket_dirname}/{flag}_rocket_transformer_*.pkl")
                 if existing_models:
+                    print("--Found trained rocket transformer for Train--")
                     for i,cur_model in enumerate(sorted(existing_models)):
                         trf=joblib.load(cur_model) 
                         self.rocket_features[:,i,:]=trf.transform(X_all_np)
 
                 else:
+                    print("--Training rocket transformer for Train--")
                     random_seeds = np.random.choice(range(10000), X_all_np.shape[1], replace=False)
-                    print("Total rocket features: ",random_seeds.shape)
                     for i, curr_random in enumerate(random_seeds):
                         trf = Rocket(num_kernels=self.projected_space//2, normalise=True,random_state=curr_random)
                         trf.fit(X_all_np)
@@ -879,7 +896,7 @@ class UEAloader4TSCMamba(UEAloader):
             if flag=='TEST':
                 existing_models = glob.glob(f"{self.root_path}/{rocket_dirname}/TRAIN_rocket_transformer_*.pkl")
                 if existing_models:
-                    print("Found trained rocket transformer for Test")
+                    print("--Found trained rocket transformer for Test--")
                     for i, cur_model in enumerate(sorted(existing_models)):
                         # print("Loading from disk")
                         trf = joblib.load(cur_model) 
@@ -901,10 +918,12 @@ class UEAloader4TSCMamba(UEAloader):
 
 
                 if existing_models_X:
+                    print("--Found trained rocket transformer_X for Train--")
                     for i, cur_model in enumerate(sorted(existing_models_X)):
                         trf = joblib.load(cur_model)
                         rocket_features_X[:, i,:] = trf.transform(X_all_np)
                 else:
+                    print("--Training rocket transformer_X for Train--")
                     random_seeds = np.random.choice(range(10000),  X_all_np.shape[1], replace=False)
                     for i, curr_random in enumerate(random_seeds):
                         trf = Rocket(num_kernels=self.projected_space//4, normalise=True, random_state=curr_random)
@@ -915,10 +934,12 @@ class UEAloader4TSCMamba(UEAloader):
                 # Process for Transposed Dimension X
                 X_all_np_transposed = np.transpose(X_all_np, (0, 2, 1))  # Transpose to (B, X, D)
                 if existing_models_D:
+                    print("--Found trained rocket transformer_D for Train--")
                     for i, cur_model in enumerate(sorted(existing_models_D)):
                         trf = joblib.load(cur_model)
                         rocket_features_D[:, i,:] = trf.transform(X_all_np_transposed)
                 else:
+                    print("--Training rocket transformer_D for Train--")
                     for i, curr_random in enumerate(random_seeds):
                         trf = Rocket(num_kernels=self.projected_space//4, normalise=True, random_state=curr_random)
                         trf.fit(X_all_np_transposed)
@@ -932,6 +953,7 @@ class UEAloader4TSCMamba(UEAloader):
                 np.save(f"{self.root_path}/{rocket_dirname}/TRAIN_max_of_rocket_mix.npy", np.max(self.rocket_features))
                 np.save(f"{self.root_path}/{rocket_dirname}/TRAIN_min_of_rocket_mix.npy", np.min(self.rocket_features))           
             if flag=='TEST':
+                print("--Channel token mixing rocket features for Test--")
                 half_X = self.projected_space // 2
                 existing_models_D = glob.glob(f"{self.root_path}/{rocket_dirname}/TRAIN_rocket_transformer_D_*.pkl")
                 existing_models_X = glob.glob(f"{self.root_path}/{rocket_dirname}/TRAIN_rocket_transformer_X_*.pkl")
@@ -957,11 +979,9 @@ class UEAloader4TSCMamba(UEAloader):
                 self.rocket_features = np.nan_to_num(self.rocket_features,
                                                     nan   =np.load(f"{self.root_path}/{rocket_dirname}/TRAIN_min_of_rocket_mix.npy"),
                                                     posinf=np.load(f"{self.root_path}/{rocket_dirname}/TRAIN_max_of_rocket_mix.npy"))          
-        # print("Min Rocket before normalization:",np.min(self.rocket_features))
-        # print("Max Rocket before normalization: ",np.max(self.rocket_features))
-        # self.rocket_features=(self.rocket_features-np.min(self.rocket_features))/(np.max(self.rocket_features)-np.min(self.rocket_features))
-        # print("Min Rocket:",np.min(self.rocket_features))
-        # print("Max Rocket: ",np.max(self.rocket_features))
+        
+        print(f"Time taken to process ROCKET features: {time.time() - start_time:.2f} seconds")
+        print(f"ROCKET model size: {sum(os.path.getsize(f) for f in glob.glob(f'{self.root_path}/{rocket_dirname}/*.pkl')) / (1024 ** 2):.2f} MB")
 
     def __getitem__(self, ind):
         batch_x_cwt = self.X_cwt[ind]
