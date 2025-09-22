@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 135 \
@@ -29,13 +29,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 122 \
@@ -54,13 +54,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 108 \
@@ -79,13 +79,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 95 \
@@ -104,13 +104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 81 \
@@ -129,13 +129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 68 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 54 \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 41 \
@@ -204,13 +204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 27 \
@@ -229,13 +229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 14 \
@@ -254,13 +254,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 11 \
@@ -279,13 +279,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 9 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 6 \
@@ -329,13 +329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 3 \
@@ -354,13 +354,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/DuckDuckGeese \
+  --root_path /data/user/MambaSL/dataset/DuckDuckGeese \
   --seq_len 270 \
   --enc_in 1345 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_DuckDuckGeese \
   --moving_avg 2 \

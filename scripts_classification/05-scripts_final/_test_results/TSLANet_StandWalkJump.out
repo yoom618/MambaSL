@@ -1,34 +1,52 @@
 ========== StandWalkJump_dim32_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_46_38 ===========
-Checkpoint path: /data/yoom618/TSLib/checkpoints_best/TSLANet/StandWalkJump_dim32_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_46_38/StandWalkJump_dim32_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_46_38
+Checkpoint path: /data/user/MambaSL/checkpoints_best/TSLANet/StandWalkJump_dim32_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_46_38/StandWalkJump_dim32_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_46_38
 Train : 12, Val : 15, Test : 15
 Dataset loaded ...
 GPU available: True (cuda), used: True
 TPU available: False, using: 0 TPU cores
 HPU available: False, using: 0 HPUs
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
 Seed set to 42
 LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
-Testing: |          | 0/? [00:00<?, ?it/s]Testing:   0%|          | 0/5 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/5 [00:00<?, ?it/s]Testing DataLoader 0:  20%|██        | 1/5 [00:01<00:06,  0.63it/s]Testing DataLoader 0:  40%|████      | 2/5 [00:01<00:02,  1.24it/s]Testing DataLoader 0:  60%|██████    | 3/5 [00:01<00:01,  1.84it/s]Testing DataLoader 0:  80%|████████  | 4/5 [00:01<00:00,  2.43it/s]Testing DataLoader 0: 100%|██████████| 5/5 [00:01<00:00,  3.01it/s]Testing DataLoader 0: 100%|██████████| 5/5 [00:01<00:00,  3.00it/s]
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
+
+Testing: |          | 0/? [00:00<?, ?it/s]
+Testing:   0%|          | 0/5 [00:00<?, ?it/s]
+Testing DataLoader 0:   0%|          | 0/5 [00:00<?, ?it/s]
+Testing DataLoader 0:  20%|██        | 1/5 [00:01<00:06,  0.63it/s]
+Testing DataLoader 0:  40%|████      | 2/5 [00:01<00:02,  1.24it/s]
+Testing DataLoader 0:  60%|██████    | 3/5 [00:01<00:01,  1.84it/s]
+Testing DataLoader 0:  80%|████████  | 4/5 [00:01<00:00,  2.43it/s]
+Testing DataLoader 0: 100%|██████████| 5/5 [00:01<00:00,  3.01it/s]
+Testing DataLoader 0: 1user███████| 5/5 [00:01<00:00,  3.00it/s]
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
        Test metric             DataLoader 0
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
         test_acc            0.7333333492279053
          test_f1             0.60999995470047
-        test_loss           1.1726113557815552
+      userloss           1.1726113557815552
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ========== StandWalkJump_dim256_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_18_48 ===========
-Checkpoint path: /data/yoom618/TSLib/checkpoints_best/TSLANet/StandWalkJump_dim256_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_18_48/StandWalkJump_dim256_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_18_48
+Checkpuserth: /data/user/MambaSL/checkpoints_best/TSLANet/StandWalkJump_dim256_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_18_48/StandWalkJump_dim256_depth3_mask0.4_patch188_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_12_18_48
 Train : 12, Val : 15, Test : 15
 Dataset loaded ...
 GPU available: True (cuda), used: True
 TPU available: False, using: 0 TPU cores
 HPU available: False, using: 0 HPUs
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
 Seed set to 42
 LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
-Testing: |          | 0/? [00:00<?, ?it/s]Testing:   0%|          | 0/5 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/5 [00:00<?, ?it/s]Testing DataLoader 0:  20%|██        | 1/5 [00:01<00:05,  0.70it/s]Testing DataLoader 0:  40%|████      | 2/5 [00:01<00:02,  1.38it/s]Testing DataLoader 0:  60%|██████    | 3/5 [00:01<00:00,  2.05it/s]Testing DataLoader 0:  80%|████████  | 4/5 [00:01<00:00,  2.70it/s]Testing DataLoader 0: 100%|██████████| 5/5 [00:01<00:00,  3.34it/s]Testing DataLoader 0: 100%|██████████| 5/5 [00:01<00:00,  3.32it/s]
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
+
+Testing: |          | 0/? [00:00<?, ?it/s]
+Testing:   0%|          | 0/5 [00:00<?, ?it/s]
+Testing DataLoader 0:   0%|          | 0/5 [00:00<?, ?it/s]
+Testing DataLoader 0:  20%|██        | 1/5 [00:01<00:05,  0.70it/s]
+Testing DataLoader 0:  40%|████      | 2/5 [00:01<00:02,  1.38it/s]
+Testing DataLoader 0:  60%|██████    | 3/5 [00:01<00:00,  2.05it/s]
+Testing DataLoader 0:  80%|████████  | 4/5 [00:01<00:00,  2.70it/s]
+Testing DataLoader 0: 100%|██████████| 5/5 [00:01<00:00,  3.34it/s]
+Testing DataLoader 0: 100%|██████████| 5/5 [00:01<00:00,  3.32it/s]
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
        Test metric             DataLoader 0
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

@@ -4,13 +4,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -30,13 +30,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -56,13 +56,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -82,13 +82,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -108,13 +108,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -134,13 +134,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -160,13 +160,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -186,13 +186,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -212,13 +212,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -238,13 +238,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -264,13 +264,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -290,13 +290,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -316,13 +316,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -342,13 +342,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 512 \
@@ -368,13 +368,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -394,13 +394,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -420,13 +420,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -446,13 +446,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -472,13 +472,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -498,13 +498,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -524,13 +524,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -550,13 +550,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -576,13 +576,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -602,13 +602,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -628,13 +628,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -654,13 +654,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -680,13 +680,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -706,13 +706,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 256 \
@@ -732,13 +732,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -758,13 +758,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -784,13 +784,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -810,13 +810,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -836,13 +836,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -862,13 +862,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -888,13 +888,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -914,13 +914,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -940,13 +940,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -966,13 +966,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -992,13 +992,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -1018,13 +1018,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -1044,13 +1044,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -1070,13 +1070,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 128 \
@@ -1096,13 +1096,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1122,13 +1122,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1148,13 +1148,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1174,13 +1174,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1200,13 +1200,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1226,13 +1226,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1252,13 +1252,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1278,13 +1278,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1304,13 +1304,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1330,13 +1330,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1356,13 +1356,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1382,13 +1382,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1408,13 +1408,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1434,13 +1434,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 64 \
@@ -1460,13 +1460,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1486,13 +1486,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1512,13 +1512,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1538,13 +1538,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1564,13 +1564,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1590,13 +1590,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1616,13 +1616,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1642,13 +1642,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1668,13 +1668,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1694,13 +1694,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1720,13 +1720,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1746,13 +1746,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1772,13 +1772,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \
@@ -1798,13 +1798,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/BasicMotions \
+  --root_path /data/user/MambaSL/dataset/BasicMotions \
   --seq_len 100 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model LightTS \
   --model_id CLS_BasicMotions \
   --d_model 32 \

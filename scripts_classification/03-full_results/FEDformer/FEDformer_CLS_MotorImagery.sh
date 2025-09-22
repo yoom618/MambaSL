@@ -4,13 +4,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -33,13 +33,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -62,13 +62,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -91,13 +91,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -120,13 +120,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -149,13 +149,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -178,13 +178,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -207,13 +207,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -236,13 +236,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -265,13 +265,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -294,13 +294,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -323,13 +323,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -352,13 +352,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -381,13 +381,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -410,13 +410,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -439,13 +439,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -468,13 +468,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -497,13 +497,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -526,13 +526,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -555,13 +555,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -584,13 +584,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -613,13 +613,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -642,13 +642,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -671,13 +671,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -700,13 +700,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -729,13 +729,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -758,13 +758,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -787,13 +787,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -816,13 +816,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -845,13 +845,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -874,13 +874,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -903,13 +903,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -932,13 +932,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -961,13 +961,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -990,13 +990,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1019,13 +1019,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1048,13 +1048,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1077,13 +1077,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1106,13 +1106,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1135,13 +1135,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1164,13 +1164,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1193,13 +1193,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1222,13 +1222,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1251,13 +1251,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1280,13 +1280,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1309,13 +1309,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1338,13 +1338,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1367,13 +1367,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1396,13 +1396,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1425,13 +1425,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1454,13 +1454,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1483,13 +1483,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1512,13 +1512,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1541,13 +1541,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1570,13 +1570,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1599,13 +1599,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1628,13 +1628,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1657,13 +1657,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1686,13 +1686,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1715,13 +1715,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1744,13 +1744,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1773,13 +1773,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1802,13 +1802,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1831,13 +1831,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1860,13 +1860,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1889,13 +1889,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1918,13 +1918,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1947,13 +1947,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -1976,13 +1976,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2005,13 +2005,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2034,13 +2034,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2063,13 +2063,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2092,13 +2092,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2121,13 +2121,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2150,13 +2150,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2179,13 +2179,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2208,13 +2208,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2237,13 +2237,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2266,13 +2266,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2295,13 +2295,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2324,13 +2324,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2353,13 +2353,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2382,13 +2382,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2411,13 +2411,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2440,13 +2440,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2469,13 +2469,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2498,13 +2498,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2527,13 +2527,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2556,13 +2556,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2585,13 +2585,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2614,13 +2614,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2643,13 +2643,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2672,13 +2672,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2701,13 +2701,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2730,13 +2730,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2759,13 +2759,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2788,13 +2788,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2817,13 +2817,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2846,13 +2846,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2875,13 +2875,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2904,13 +2904,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2933,13 +2933,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2962,13 +2962,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -2991,13 +2991,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3020,13 +3020,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3049,13 +3049,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3078,13 +3078,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3107,13 +3107,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3136,13 +3136,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3165,13 +3165,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3194,13 +3194,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3223,13 +3223,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3252,13 +3252,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3281,13 +3281,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3310,13 +3310,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3339,13 +3339,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3368,13 +3368,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3397,13 +3397,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3426,13 +3426,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3455,13 +3455,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3484,13 +3484,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3513,13 +3513,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3542,13 +3542,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3571,13 +3571,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3600,13 +3600,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3629,13 +3629,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3658,13 +3658,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3687,13 +3687,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3716,13 +3716,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3745,13 +3745,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3774,13 +3774,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3803,13 +3803,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3832,13 +3832,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3861,13 +3861,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3890,13 +3890,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3919,13 +3919,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3948,13 +3948,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -3977,13 +3977,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4006,13 +4006,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4035,13 +4035,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4064,13 +4064,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4093,13 +4093,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4122,13 +4122,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4151,13 +4151,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4180,13 +4180,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4209,13 +4209,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4238,13 +4238,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4267,13 +4267,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4296,13 +4296,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4325,13 +4325,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4354,13 +4354,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4383,13 +4383,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4412,13 +4412,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4441,13 +4441,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4470,13 +4470,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4499,13 +4499,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4528,13 +4528,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4557,13 +4557,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4586,13 +4586,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4615,13 +4615,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4644,13 +4644,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4673,13 +4673,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4702,13 +4702,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4731,13 +4731,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4760,13 +4760,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4789,13 +4789,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4818,13 +4818,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4847,13 +4847,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4876,13 +4876,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4905,13 +4905,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4934,13 +4934,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4963,13 +4963,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -4992,13 +4992,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5021,13 +5021,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5050,13 +5050,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5079,13 +5079,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5108,13 +5108,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5137,13 +5137,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5166,13 +5166,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5195,13 +5195,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5224,13 +5224,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5253,13 +5253,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5282,13 +5282,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5311,13 +5311,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5340,13 +5340,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5369,13 +5369,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5398,13 +5398,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5427,13 +5427,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5456,13 +5456,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5485,13 +5485,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5514,13 +5514,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5543,13 +5543,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5572,13 +5572,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5601,13 +5601,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5630,13 +5630,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5659,13 +5659,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5688,13 +5688,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5717,13 +5717,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5746,13 +5746,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5775,13 +5775,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5804,13 +5804,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5833,13 +5833,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5862,13 +5862,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5891,13 +5891,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5920,13 +5920,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5949,13 +5949,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -5978,13 +5978,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6007,13 +6007,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6036,13 +6036,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6065,13 +6065,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6094,13 +6094,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6123,13 +6123,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6152,13 +6152,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6181,13 +6181,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6210,13 +6210,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6239,13 +6239,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6268,13 +6268,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6297,13 +6297,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6326,13 +6326,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6355,13 +6355,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6384,13 +6384,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6413,13 +6413,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6442,13 +6442,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6471,13 +6471,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6500,13 +6500,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6529,13 +6529,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6558,13 +6558,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6587,13 +6587,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6616,13 +6616,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6645,13 +6645,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6674,13 +6674,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6703,13 +6703,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6732,13 +6732,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6761,13 +6761,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6790,13 +6790,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6819,13 +6819,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6848,13 +6848,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6877,13 +6877,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6906,13 +6906,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6935,13 +6935,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6964,13 +6964,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -6993,13 +6993,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -7022,13 +7022,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -7051,13 +7051,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -7080,13 +7080,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -7109,13 +7109,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -7138,13 +7138,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -7167,13 +7167,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -7196,13 +7196,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \
@@ -7225,13 +7225,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model FEDformer \
   --model_id CLS_MotorImagery \
   --e_layers 2 \

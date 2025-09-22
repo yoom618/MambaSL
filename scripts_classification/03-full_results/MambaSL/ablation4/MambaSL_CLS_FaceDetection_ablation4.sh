@@ -4,13 +4,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -39,13 +39,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -74,13 +74,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -109,13 +109,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -144,13 +144,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -214,13 +214,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -249,13 +249,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -284,13 +284,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -319,13 +319,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -354,13 +354,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -389,13 +389,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -424,13 +424,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -459,13 +459,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -494,13 +494,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -529,13 +529,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -564,13 +564,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -599,13 +599,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -634,13 +634,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -669,13 +669,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -704,13 +704,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -739,13 +739,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -774,13 +774,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -809,13 +809,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -844,13 +844,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -879,13 +879,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -914,13 +914,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -949,13 +949,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -984,13 +984,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1019,13 +1019,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1054,13 +1054,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1089,13 +1089,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1124,13 +1124,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1159,13 +1159,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1194,13 +1194,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1229,13 +1229,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1264,13 +1264,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1299,13 +1299,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1334,13 +1334,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1369,13 +1369,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1404,13 +1404,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1439,13 +1439,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1474,13 +1474,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1509,13 +1509,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1544,13 +1544,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1579,13 +1579,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1614,13 +1614,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1649,13 +1649,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1684,13 +1684,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1719,13 +1719,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1754,13 +1754,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1789,13 +1789,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1824,13 +1824,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1859,13 +1859,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1894,13 +1894,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1929,13 +1929,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1964,13 +1964,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -1999,13 +1999,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2034,13 +2034,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2069,13 +2069,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2104,13 +2104,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2139,13 +2139,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2174,13 +2174,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2209,13 +2209,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2244,13 +2244,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2279,13 +2279,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2314,13 +2314,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2349,13 +2349,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2384,13 +2384,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2419,13 +2419,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2454,13 +2454,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2489,13 +2489,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2524,13 +2524,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2559,13 +2559,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2594,13 +2594,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2629,13 +2629,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2664,13 +2664,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2699,13 +2699,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2734,13 +2734,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2769,13 +2769,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2804,13 +2804,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2839,13 +2839,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2874,13 +2874,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2909,13 +2909,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2944,13 +2944,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -2979,13 +2979,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3014,13 +3014,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3049,13 +3049,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3084,13 +3084,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3119,13 +3119,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3154,13 +3154,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3189,13 +3189,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3224,13 +3224,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3259,13 +3259,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3294,13 +3294,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3329,13 +3329,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3364,13 +3364,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3399,13 +3399,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3434,13 +3434,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3469,13 +3469,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3504,13 +3504,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3539,13 +3539,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3574,13 +3574,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3609,13 +3609,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3644,13 +3644,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3679,13 +3679,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3714,13 +3714,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3749,13 +3749,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3784,13 +3784,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3819,13 +3819,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3854,13 +3854,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3889,13 +3889,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3924,13 +3924,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3959,13 +3959,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -3994,13 +3994,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4029,13 +4029,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4064,13 +4064,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4099,13 +4099,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4134,13 +4134,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4169,13 +4169,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4204,13 +4204,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4239,13 +4239,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4274,13 +4274,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4309,13 +4309,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4344,13 +4344,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4379,13 +4379,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4414,13 +4414,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4449,13 +4449,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4484,13 +4484,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4519,13 +4519,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4554,13 +4554,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4589,13 +4589,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4624,13 +4624,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4659,13 +4659,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4694,13 +4694,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4729,13 +4729,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4764,13 +4764,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4799,13 +4799,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4834,13 +4834,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4869,13 +4869,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4904,13 +4904,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4939,13 +4939,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -4974,13 +4974,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5009,13 +5009,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5044,13 +5044,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5079,13 +5079,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5114,13 +5114,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5149,13 +5149,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5184,13 +5184,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5219,13 +5219,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5254,13 +5254,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5289,13 +5289,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5324,13 +5324,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5359,13 +5359,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5394,13 +5394,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5429,13 +5429,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5464,13 +5464,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5499,13 +5499,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5534,13 +5534,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5569,13 +5569,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5604,13 +5604,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5639,13 +5639,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5674,13 +5674,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5709,13 +5709,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5744,13 +5744,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5779,13 +5779,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5814,13 +5814,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5849,13 +5849,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5884,13 +5884,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5919,13 +5919,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5954,13 +5954,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -5989,13 +5989,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6024,13 +6024,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6059,13 +6059,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6094,13 +6094,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6129,13 +6129,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6164,13 +6164,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6199,13 +6199,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6234,13 +6234,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6269,13 +6269,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6304,13 +6304,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6339,13 +6339,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6374,13 +6374,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6409,13 +6409,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6444,13 +6444,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6479,13 +6479,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6514,13 +6514,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6549,13 +6549,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6584,13 +6584,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6619,13 +6619,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6654,13 +6654,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6689,13 +6689,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6724,13 +6724,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6759,13 +6759,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6794,13 +6794,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6829,13 +6829,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6864,13 +6864,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6899,13 +6899,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6934,13 +6934,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -6969,13 +6969,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7004,13 +7004,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7039,13 +7039,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7074,13 +7074,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7109,13 +7109,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7144,13 +7144,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7179,13 +7179,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7214,13 +7214,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7249,13 +7249,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7284,13 +7284,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7319,13 +7319,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7354,13 +7354,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7389,13 +7389,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7424,13 +7424,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7459,13 +7459,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7494,13 +7494,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7529,13 +7529,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7564,13 +7564,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7599,13 +7599,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7634,13 +7634,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7669,13 +7669,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7704,13 +7704,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7739,13 +7739,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7774,13 +7774,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7809,13 +7809,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7844,13 +7844,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7879,13 +7879,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7914,13 +7914,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7949,13 +7949,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -7984,13 +7984,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8019,13 +8019,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8054,13 +8054,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8089,13 +8089,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8124,13 +8124,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8159,13 +8159,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8194,13 +8194,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8229,13 +8229,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8264,13 +8264,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8299,13 +8299,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8334,13 +8334,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8369,13 +8369,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8404,13 +8404,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8439,13 +8439,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8474,13 +8474,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8509,13 +8509,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8544,13 +8544,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8579,13 +8579,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8614,13 +8614,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8649,13 +8649,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8684,13 +8684,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8719,13 +8719,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8754,13 +8754,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8789,13 +8789,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8824,13 +8824,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8859,13 +8859,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8894,13 +8894,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8929,13 +8929,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8964,13 +8964,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -8999,13 +8999,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9034,13 +9034,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9069,13 +9069,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9104,13 +9104,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9139,13 +9139,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9174,13 +9174,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9209,13 +9209,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9244,13 +9244,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9279,13 +9279,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9314,13 +9314,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9349,13 +9349,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9384,13 +9384,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \
@@ -9419,13 +9419,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/FaceDetection \
+  --root_path /data/user/MambaSL/dataset/FaceDetection \
   --seq_len 62 \
   --enc_in 144 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MambaSingleLayer \
   --model_id CLS_FaceDetection \
   --mamba_projection_type gating \

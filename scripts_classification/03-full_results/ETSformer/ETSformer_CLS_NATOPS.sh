@@ -4,13 +4,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -34,13 +34,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -64,13 +64,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -94,13 +94,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -124,13 +124,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -184,13 +184,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -214,13 +214,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -244,13 +244,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -274,13 +274,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -334,13 +334,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -364,13 +364,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -394,13 +394,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -424,13 +424,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -454,13 +454,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -484,13 +484,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -514,13 +514,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -544,13 +544,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -574,13 +574,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -604,13 +604,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -634,13 +634,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -664,13 +664,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -694,13 +694,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -724,13 +724,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -754,13 +754,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -784,13 +784,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -814,13 +814,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -844,13 +844,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -874,13 +874,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -904,13 +904,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -934,13 +934,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -964,13 +964,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -994,13 +994,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1024,13 +1024,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1054,13 +1054,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1084,13 +1084,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1114,13 +1114,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1144,13 +1144,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1174,13 +1174,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1204,13 +1204,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1234,13 +1234,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1264,13 +1264,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1294,13 +1294,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1324,13 +1324,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1354,13 +1354,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1384,13 +1384,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1414,13 +1414,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1444,13 +1444,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1474,13 +1474,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1504,13 +1504,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1534,13 +1534,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1564,13 +1564,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1594,13 +1594,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1624,13 +1624,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1654,13 +1654,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1684,13 +1684,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1714,13 +1714,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1744,13 +1744,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1774,13 +1774,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1804,13 +1804,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1834,13 +1834,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1864,13 +1864,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1894,13 +1894,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1924,13 +1924,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1954,13 +1954,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -1984,13 +1984,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2014,13 +2014,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2044,13 +2044,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2074,13 +2074,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2104,13 +2104,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2134,13 +2134,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2164,13 +2164,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2194,13 +2194,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2224,13 +2224,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2254,13 +2254,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2284,13 +2284,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2314,13 +2314,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2344,13 +2344,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2374,13 +2374,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2404,13 +2404,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2434,13 +2434,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2464,13 +2464,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2494,13 +2494,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2524,13 +2524,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2554,13 +2554,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2584,13 +2584,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2614,13 +2614,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2644,13 +2644,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2674,13 +2674,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2704,13 +2704,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2734,13 +2734,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2764,13 +2764,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2794,13 +2794,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2824,13 +2824,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2854,13 +2854,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2884,13 +2884,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2914,13 +2914,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2944,13 +2944,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -2974,13 +2974,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3004,13 +3004,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3034,13 +3034,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3064,13 +3064,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3094,13 +3094,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3124,13 +3124,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3154,13 +3154,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3184,13 +3184,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3214,13 +3214,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3244,13 +3244,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3274,13 +3274,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3304,13 +3304,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3334,13 +3334,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3364,13 +3364,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3394,13 +3394,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3424,13 +3424,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3454,13 +3454,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3484,13 +3484,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3514,13 +3514,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3544,13 +3544,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3574,13 +3574,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 2 \
@@ -3604,13 +3604,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3634,13 +3634,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3664,13 +3664,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3694,13 +3694,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3724,13 +3724,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3754,13 +3754,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3784,13 +3784,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3814,13 +3814,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3844,13 +3844,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3874,13 +3874,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3904,13 +3904,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3934,13 +3934,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3964,13 +3964,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -3994,13 +3994,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4024,13 +4024,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4054,13 +4054,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4084,13 +4084,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4114,13 +4114,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4144,13 +4144,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4174,13 +4174,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4204,13 +4204,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4234,13 +4234,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4264,13 +4264,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4294,13 +4294,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4324,13 +4324,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4354,13 +4354,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4384,13 +4384,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4414,13 +4414,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4444,13 +4444,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4474,13 +4474,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4504,13 +4504,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4534,13 +4534,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4564,13 +4564,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4594,13 +4594,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4624,13 +4624,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4654,13 +4654,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4684,13 +4684,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4714,13 +4714,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4744,13 +4744,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4774,13 +4774,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4804,13 +4804,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4834,13 +4834,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4864,13 +4864,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4894,13 +4894,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4924,13 +4924,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4954,13 +4954,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -4984,13 +4984,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5014,13 +5014,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5044,13 +5044,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5074,13 +5074,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5104,13 +5104,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5134,13 +5134,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5164,13 +5164,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5194,13 +5194,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5224,13 +5224,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5254,13 +5254,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5284,13 +5284,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5314,13 +5314,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5344,13 +5344,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5374,13 +5374,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5404,13 +5404,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5434,13 +5434,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5464,13 +5464,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5494,13 +5494,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5524,13 +5524,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5554,13 +5554,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5584,13 +5584,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5614,13 +5614,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5644,13 +5644,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5674,13 +5674,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5704,13 +5704,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5734,13 +5734,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5764,13 +5764,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5794,13 +5794,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5824,13 +5824,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5854,13 +5854,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5884,13 +5884,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5914,13 +5914,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5944,13 +5944,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -5974,13 +5974,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6004,13 +6004,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6034,13 +6034,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6064,13 +6064,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6094,13 +6094,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6124,13 +6124,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6154,13 +6154,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6184,13 +6184,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6214,13 +6214,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6244,13 +6244,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6274,13 +6274,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6304,13 +6304,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6334,13 +6334,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6364,13 +6364,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6394,13 +6394,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6424,13 +6424,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6454,13 +6454,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6484,13 +6484,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6514,13 +6514,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6544,13 +6544,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6574,13 +6574,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6604,13 +6604,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6634,13 +6634,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6664,13 +6664,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6694,13 +6694,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6724,13 +6724,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6754,13 +6754,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6784,13 +6784,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6814,13 +6814,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6844,13 +6844,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6874,13 +6874,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6904,13 +6904,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6934,13 +6934,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6964,13 +6964,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -6994,13 +6994,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -7024,13 +7024,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -7054,13 +7054,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -7084,13 +7084,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -7114,13 +7114,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -7144,13 +7144,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \
@@ -7174,13 +7174,13 @@ python run.py \
   --gpu 1 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/NATOPS \
+  --root_path /data/user/MambaSL/dataset/NATOPS \
   --seq_len 51 \
   --enc_in 24 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ETSformer \
   --model_id CLS_NATOPS \
   --e_layers 1 \

@@ -1,10 +1,10 @@
 model_name="MTSMixer"
 dataset_name="Heartbeat"
-tslib_dir="/data/yoom618/TSLib"
+source_dir="/data/user/MambaSL"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/${model_name}"
+data_dir="${source_dir}/dataset"
+checkpoint_dir="${source_dir}/checkpoints_best/${model_name}"
 
 python run.py \
   --use_gpu True \

@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 103 \
@@ -29,13 +29,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 93 \
@@ -54,13 +54,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 83 \
@@ -79,13 +79,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 73 \
@@ -104,13 +104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 62 \
@@ -129,13 +129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 52 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 42 \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 31 \
@@ -204,13 +204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 21 \
@@ -229,13 +229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 11 \
@@ -254,13 +254,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 9 \
@@ -279,13 +279,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 7 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 5 \
@@ -329,13 +329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 3 \
@@ -354,13 +354,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_Epilepsy \
   --moving_avg 2 \

@@ -4,14 +4,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -34,14 +34,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -64,14 +64,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -94,14 +94,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -124,14 +124,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -154,14 +154,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -184,14 +184,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -214,14 +214,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -244,14 +244,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -274,14 +274,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -304,14 +304,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -334,14 +334,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -364,14 +364,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -394,14 +394,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -424,14 +424,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -454,14 +454,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -484,14 +484,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -514,14 +514,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -544,14 +544,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -574,14 +574,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -604,14 +604,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -634,14 +634,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -664,14 +664,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 6 \
@@ -694,14 +694,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -724,14 +724,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -754,14 +754,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -784,14 +784,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -814,14 +814,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -844,14 +844,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -874,14 +874,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -904,14 +904,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -934,14 +934,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -964,14 +964,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -994,14 +994,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1024,14 +1024,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1054,14 +1054,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1084,14 +1084,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1114,14 +1114,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1144,14 +1144,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1174,14 +1174,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1204,14 +1204,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1234,14 +1234,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1264,14 +1264,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1294,14 +1294,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1324,14 +1324,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1354,14 +1354,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 5 \
@@ -1384,14 +1384,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1414,14 +1414,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1444,14 +1444,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1474,14 +1474,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1504,14 +1504,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1534,14 +1534,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1564,14 +1564,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1594,14 +1594,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1624,14 +1624,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1654,14 +1654,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1684,14 +1684,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1714,14 +1714,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1744,14 +1744,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1774,14 +1774,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1804,14 +1804,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1834,14 +1834,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1864,14 +1864,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1894,14 +1894,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1924,14 +1924,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1954,14 +1954,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -1984,14 +1984,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -2014,14 +2014,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -2044,14 +2044,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 4 \
@@ -2074,14 +2074,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2104,14 +2104,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2134,14 +2134,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2164,14 +2164,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2194,14 +2194,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2224,14 +2224,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2254,14 +2254,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2284,14 +2284,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2314,14 +2314,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2344,14 +2344,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2374,14 +2374,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2404,14 +2404,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2434,14 +2434,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2464,14 +2464,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2494,14 +2494,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2524,14 +2524,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2554,14 +2554,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2584,14 +2584,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2614,14 +2614,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2644,14 +2644,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2674,14 +2674,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2704,14 +2704,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \
@@ -2734,14 +2734,14 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Libras \
+  --root_path /data/user/MambaSL/dataset/Libras \
   --seq_len 45 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
-  --huggingface_cache_dir /data/yoom618/TSLib/huggingface/ \
+  --checkpoints /data/user/MambaSL/checkpoints \
+  --huggingface_cache_dir /data/user/MambaSL/huggingface/ \
   --model GPT4TS \
   --model_id CLS_Libras \
   --e_layers 3 \

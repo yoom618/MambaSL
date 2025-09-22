@@ -4,13 +4,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -34,13 +34,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -64,13 +64,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -94,13 +94,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -124,13 +124,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -184,13 +184,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -214,13 +214,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -244,13 +244,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -274,13 +274,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -334,13 +334,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -364,13 +364,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -394,13 +394,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -424,13 +424,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -454,13 +454,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -484,13 +484,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -514,13 +514,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -544,13 +544,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -574,13 +574,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -604,13 +604,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -634,13 +634,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -664,13 +664,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -694,13 +694,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -724,13 +724,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -754,13 +754,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -784,13 +784,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -814,13 +814,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -844,13 +844,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -874,13 +874,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -904,13 +904,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -934,13 +934,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 1024 \
@@ -964,13 +964,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -994,13 +994,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1024,13 +1024,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1054,13 +1054,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1084,13 +1084,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1114,13 +1114,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1144,13 +1144,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1174,13 +1174,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1204,13 +1204,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1234,13 +1234,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1264,13 +1264,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1294,13 +1294,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1324,13 +1324,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1354,13 +1354,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1384,13 +1384,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1414,13 +1414,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1444,13 +1444,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1474,13 +1474,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1504,13 +1504,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1534,13 +1534,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1564,13 +1564,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1594,13 +1594,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1624,13 +1624,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1654,13 +1654,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1684,13 +1684,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1714,13 +1714,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1744,13 +1744,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1774,13 +1774,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1804,13 +1804,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1834,13 +1834,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1864,13 +1864,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1894,13 +1894,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 512 \
@@ -1924,13 +1924,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -1954,13 +1954,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -1984,13 +1984,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2014,13 +2014,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2044,13 +2044,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2074,13 +2074,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2104,13 +2104,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2134,13 +2134,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2164,13 +2164,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2194,13 +2194,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2224,13 +2224,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2254,13 +2254,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2284,13 +2284,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2314,13 +2314,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2344,13 +2344,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2374,13 +2374,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2404,13 +2404,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2434,13 +2434,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2464,13 +2464,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2494,13 +2494,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2524,13 +2524,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2554,13 +2554,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2584,13 +2584,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2614,13 +2614,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2644,13 +2644,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2674,13 +2674,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2704,13 +2704,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2734,13 +2734,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2764,13 +2764,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2794,13 +2794,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2824,13 +2824,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2854,13 +2854,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 256 \
@@ -2884,13 +2884,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -2914,13 +2914,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -2944,13 +2944,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -2974,13 +2974,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3004,13 +3004,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3034,13 +3034,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3064,13 +3064,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3094,13 +3094,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3124,13 +3124,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3154,13 +3154,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3184,13 +3184,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3214,13 +3214,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3244,13 +3244,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3274,13 +3274,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3304,13 +3304,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3334,13 +3334,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3364,13 +3364,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3394,13 +3394,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3424,13 +3424,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3454,13 +3454,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3484,13 +3484,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3514,13 +3514,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3544,13 +3544,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3574,13 +3574,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3604,13 +3604,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3634,13 +3634,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3664,13 +3664,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3694,13 +3694,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3724,13 +3724,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3754,13 +3754,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3784,13 +3784,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \
@@ -3814,13 +3814,13 @@ python run.py \
   --gpu 2 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/PhonemeSpectra \
+  --root_path /data/user/MambaSL/dataset/PhonemeSpectra \
   --seq_len 217 \
   --enc_in 11 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model MTSMixer \
   --model_id CLS_PhonemeSpectra \
   --d_model 128 \

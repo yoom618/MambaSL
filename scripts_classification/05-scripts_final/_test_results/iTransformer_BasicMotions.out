@@ -5,10 +5,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              iTransformer        
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/iTransformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/iTransformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -49,10 +49,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              iTransformer        
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/iTransformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/iTransformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -93,10 +93,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              iTransformer        
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/iTransformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/iTransformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -137,10 +137,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              iTransformer        
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/iTransformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/iTransformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -181,10 +181,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              iTransformer        
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/iTransformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/iTransformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -225,10 +225,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              iTransformer        
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/iTransformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/iTransformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -269,10 +269,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              iTransformer        
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/iTransformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/iTransformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -313,10 +313,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              iTransformer        
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/iTransformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/iTransformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   

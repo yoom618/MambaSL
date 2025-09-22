@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 320 \
@@ -29,13 +29,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 288 \
@@ -54,13 +54,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 256 \
@@ -79,13 +79,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 224 \
@@ -104,13 +104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 192 \
@@ -129,13 +129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 160 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 128 \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 96 \
@@ -204,13 +204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 64 \
@@ -229,13 +229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 32 \
@@ -254,13 +254,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 26 \
@@ -279,13 +279,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 20 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 13 \
@@ -329,13 +329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 7 \
@@ -354,13 +354,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/AtrialFibrillation \
+  --root_path /data/user/MambaSL/dataset/AtrialFibrillation \
   --seq_len 640 \
   --enc_in 2 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_AtrialFibrillation \
   --moving_avg 4 \

@@ -5,10 +5,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -143,10 +143,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -276,10 +276,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -439,10 +439,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -637,10 +637,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -760,10 +760,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -893,10 +893,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -1001,10 +1001,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -1124,10 +1124,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -1242,10 +1242,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -1350,10 +1350,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -1473,10 +1473,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -1621,10 +1621,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -1774,10 +1774,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -1902,10 +1902,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -2055,10 +2055,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -2183,10 +2183,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -2341,10 +2341,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -2454,10 +2454,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -2617,10 +2617,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -2750,10 +2750,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -2913,10 +2913,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -3041,10 +3041,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -3169,10 +3169,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -3297,10 +3297,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -3425,10 +3425,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -3558,10 +3558,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -3716,10 +3716,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -3839,10 +3839,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -4007,10 +4007,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -4135,10 +4135,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -4258,10 +4258,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -4406,10 +4406,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -4559,10 +4559,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -4707,10 +4707,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -4850,10 +4850,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -4963,10 +4963,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -5136,10 +5136,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -5259,10 +5259,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -5432,10 +5432,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -5580,10 +5580,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -5713,10 +5713,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -5841,10 +5841,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -5969,10 +5969,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -6102,10 +6102,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -6220,10 +6220,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -6343,10 +6343,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -6486,10 +6486,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -6599,10 +6599,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -6742,10 +6742,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -6910,10 +6910,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -7053,10 +7053,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -7250,10 +7250,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -7388,10 +7388,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -7585,10 +7585,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -7773,10 +7773,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -7916,10 +7916,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -8099,10 +8099,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -8252,10 +8252,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -8440,10 +8440,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -8613,10 +8613,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -8736,10 +8736,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -8874,10 +8874,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -9022,10 +9022,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -9190,10 +9190,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -9358,10 +9358,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -9555,10 +9555,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -9683,10 +9683,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -9841,10 +9841,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -9959,10 +9959,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -10117,10 +10117,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -10250,10 +10250,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -10418,10 +10418,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -10586,10 +10586,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -10719,10 +10719,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -10916,10 +10916,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -11069,10 +11069,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -11266,10 +11266,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -11414,10 +11414,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -11547,10 +11547,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -11680,10 +11680,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -11813,10 +11813,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -11941,10 +11941,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -12138,10 +12138,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -12335,10 +12335,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -12523,10 +12523,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -12686,10 +12686,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -12824,10 +12824,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -12962,10 +12962,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -13075,10 +13075,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -13213,10 +13213,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -13336,10 +13336,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -13469,10 +13469,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -13612,10 +13612,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -13725,10 +13725,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -13843,10 +13843,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -13976,10 +13976,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -14109,10 +14109,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -14227,10 +14227,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -14390,10 +14390,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -14508,10 +14508,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -14671,10 +14671,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -14804,10 +14804,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -14962,10 +14962,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -15095,10 +15095,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -15208,10 +15208,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -15336,10 +15336,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -15469,10 +15469,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -15602,10 +15602,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -15735,10 +15735,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -15848,10 +15848,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -15966,10 +15966,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -16079,10 +16079,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -16217,10 +16217,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -16330,10 +16330,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -16478,10 +16478,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -16621,10 +16621,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -16764,10 +16764,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -16907,10 +16907,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -17035,10 +17035,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -17143,10 +17143,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -17276,10 +17276,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -17409,10 +17409,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -17517,10 +17517,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -17635,10 +17635,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -17748,10 +17748,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -17886,10 +17886,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -18019,10 +18019,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -18142,10 +18142,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -18260,10 +18260,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -18383,10 +18383,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -18546,10 +18546,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -18669,10 +18669,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -18866,10 +18866,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -19009,10 +19009,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -19202,10 +19202,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -19330,10 +19330,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -19483,10 +19483,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -19680,10 +19680,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -19798,10 +19798,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -19931,10 +19931,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -20054,10 +20054,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -20192,10 +20192,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -20365,10 +20365,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -20513,10 +20513,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -20711,10 +20711,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -20829,10 +20829,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -21026,10 +21026,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -21159,10 +21159,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -21356,10 +21356,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -21494,10 +21494,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -21642,10 +21642,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -21805,10 +21805,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -21983,10 +21983,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -22146,10 +22146,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -22339,10 +22339,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -22536,10 +22536,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -22689,10 +22689,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -22822,10 +22822,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -23000,10 +23000,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -23158,10 +23158,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -23355,10 +23355,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -23552,10 +23552,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -23690,10 +23690,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -23838,10 +23838,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -23976,10 +23976,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -24124,10 +24124,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -24321,10 +24321,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -24519,10 +24519,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -24677,10 +24677,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -24790,10 +24790,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -24928,10 +24928,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -25066,10 +25066,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -25204,10 +25204,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -25342,10 +25342,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -25510,10 +25510,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -25623,10 +25623,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -25766,10 +25766,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -25894,10 +25894,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -26012,10 +26012,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -26145,10 +26145,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -26283,10 +26283,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -26396,10 +26396,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -26549,10 +26549,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -26677,10 +26677,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -26800,10 +26800,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -26918,10 +26918,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -27066,10 +27066,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -27184,10 +27184,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -27332,10 +27332,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -27465,10 +27465,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -27613,10 +27613,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -27726,10 +27726,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -27849,10 +27849,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -27967,10 +27967,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -28090,10 +28090,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -28208,10 +28208,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -28341,10 +28341,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -28459,10 +28459,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -28587,10 +28587,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -28705,10 +28705,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -28848,10 +28848,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -28996,10 +28996,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -29129,10 +29129,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -29247,10 +29247,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -29385,10 +29385,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -29513,10 +29513,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -29651,10 +29651,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -29779,10 +29779,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -29912,10 +29912,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -30035,10 +30035,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -30193,10 +30193,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -30351,10 +30351,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -30499,10 +30499,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -30657,10 +30657,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -30805,10 +30805,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -30963,10 +30963,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -31081,10 +31081,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -31224,10 +31224,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -31342,10 +31342,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -31490,10 +31490,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -31687,10 +31687,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -31815,10 +31815,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -31963,10 +31963,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -32091,10 +32091,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -32244,10 +32244,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -32392,10 +32392,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -32589,10 +32589,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -32732,10 +32732,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -32850,10 +32850,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -32993,10 +32993,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -33161,10 +33161,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -33304,10 +33304,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -33457,10 +33457,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -33600,10 +33600,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -33728,10 +33728,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -33851,10 +33851,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -33999,10 +33999,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -34112,10 +34112,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -34309,10 +34309,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -34506,10 +34506,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -34699,10 +34699,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -34852,10 +34852,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -35045,10 +35045,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -35233,10 +35233,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -35430,10 +35430,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   
@@ -35618,10 +35618,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        6                   
@@ -35751,10 +35751,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              3                   Num Kernels:        4                   
@@ -35884,10 +35884,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        6                   
@@ -36017,10 +36017,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              2                   Num Kernels:        4                   
@@ -36150,10 +36150,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        6                   
@@ -36323,10 +36323,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              TimesNet            
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              1                   Num Kernels:        4                   

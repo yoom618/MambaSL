@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 1500 \
@@ -29,13 +29,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 1350 \
@@ -54,13 +54,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 1200 \
@@ -79,13 +79,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 1050 \
@@ -104,13 +104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 900 \
@@ -129,13 +129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 750 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 600 \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 450 \
@@ -204,13 +204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 300 \
@@ -229,13 +229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 150 \
@@ -254,13 +254,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 120 \
@@ -279,13 +279,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 90 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 60 \
@@ -329,13 +329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 30 \
@@ -354,13 +354,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/MotorImagery \
+  --root_path /data/user/MambaSL/dataset/MotorImagery \
   --seq_len 3000 \
   --enc_in 64 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_MotorImagery \
   --moving_avg 15 \

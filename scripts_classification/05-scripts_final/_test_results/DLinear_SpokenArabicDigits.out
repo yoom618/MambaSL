@@ -5,10 +5,10 @@ Args in experiment:
   Model ID:           CLS_SpjsonArabicDigitsModel:              DLinear             
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SpjsonArabicDigits
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SpjsonArabicDigits
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/DLinear
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/DLinear
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -35,26 +35,26 @@ Args in experiment:
   P Hidden Dims:      128, 128            P Hidden Layers:    2                   
 
 Traceback (most recent call last):
-  File "/home/yoom618/TSLib/run.py", line 307, in <module>
+  File "/home/user/MambaSL/run.py", line 307, in <module>
     exp = Exp(args)  # set experiments
           ^^^^^^^^^
-  File "/home/yoom618/TSLib/exp/exp_classification.py", line 18, in __init__
+  File "/home/user/MambaSL/exp/exp_classification.py", line 18, in __init__
     super(Exp_Classification, self).__init__(args)
-  File "/home/yoom618/TSLib/exp/exp_basic.py", line 52, in __init__
+  File "/home/user/MambaSL/exp/exp_basic.py", line 52, in __init__
     self.model = self._build_model().to(self.device)
                  ^^^^^^^^^^^^^^^^^^^
-  File "/home/yoom618/TSLib/exp/exp_classification.py", line 22, in _build_model
+  File "/home/user/MambaSL/exp/exp_classification.py", line 22, in _build_model
     train_data, train_loader = self._get_data(flag='TRAIN')
                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/yoom618/TSLib/exp/exp_classification.py", line 35, in _get_data
+  File "/home/user/MambaSL/exp/exp_classification.py", line 35, in _get_data
     data_set, data_loader = data_provider(self.args, flag)
                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/yoom618/TSLib/data_provider/data_factory.py", line 49, in data_provider
+  File "/home/user/MambaSL/data_provider/data_factory.py", line 49, in data_provider
     data_set = Data(
                ^^^^^
-  File "/home/yoom618/TSLib/data_provider/data_loader.py", line 637, in __init__
+  File "/home/user/MambaSL/data_provider/data_loader.py", line 637, in __init__
     self.all_df, self.labels_df = self.load_all(root_path, file_list=file_list, flag=flag)
                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/yoom618/TSLib/data_provider/data_loader.py", line 674, in load_all
+  File "/home/user/MambaSL/data_provider/data_loader.py", line 674, in load_all
     raise Exception('No files found using: {}'.format(os.path.join(root_path, '*')))
-Exception: No files found using: /data/yoom618/TSLib/dataset/SpjsonArabicDigits/*
+Exception: No files found using: /data/user/MambaSL/dataset/SpjsonArabicDigits/*

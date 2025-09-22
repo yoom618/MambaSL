@@ -1,5 +1,5 @@
 # Runed via Google Colab A100 (cannot run on 1080ti)
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -24,7 +24,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -49,7 +49,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -74,7 +74,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -99,7 +99,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -124,7 +124,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -149,7 +149,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -174,7 +174,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -199,7 +199,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -224,7 +224,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -249,7 +249,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -274,7 +274,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -299,7 +299,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -324,7 +324,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \
@@ -349,7 +349,7 @@ python TSLib/run.py \
   --train_epochs 100 \
   --patience 10
 
-python TSLib/run.py \
+python MambaSL/run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 0 \

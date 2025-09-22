@@ -1,12 +1,12 @@
 # the best performing model for all UEA30 dataset
 # if there is more than one model, we choose the one with the lowest model size or computation cost
 model_name="GPT4TS"
-tslib_dir="/data/yoom618/TSLib"
+source_dir="/data/user/MambaSL"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/${model_name}"
-huggingface_cache_dir="${tslib_dir}/huggingface"
+data_dir="${source_dir}/dataset"
+checkpoint_dir="${source_dir}/checkpoints_best/${model_name}"
+huggingface_cache_dir="${source_dir}/huggingface"
 
 # ArticularyWordRecognition
 dataset_name="ArticularyWordRecognition"

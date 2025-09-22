@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 876 \
@@ -29,13 +29,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 788 \
@@ -54,13 +54,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 701 \
@@ -79,13 +79,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 613 \
@@ -104,13 +104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 526 \
@@ -129,13 +129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 438 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 351 \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 263 \
@@ -204,13 +204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 176 \
@@ -229,13 +229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 88 \
@@ -254,13 +254,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 71 \
@@ -279,13 +279,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 53 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 36 \
@@ -329,13 +329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 18 \
@@ -354,13 +354,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/EthanolConcentration \
+  --root_path /data/user/MambaSL/dataset/EthanolConcentration \
   --seq_len 1751 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_EthanolConcentration \
   --moving_avg 9 \

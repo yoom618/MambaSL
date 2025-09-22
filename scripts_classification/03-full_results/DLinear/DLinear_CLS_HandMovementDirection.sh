@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 200 \
@@ -29,13 +29,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 180 \
@@ -54,13 +54,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 160 \
@@ -79,13 +79,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 140 \
@@ -104,13 +104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 120 \
@@ -129,13 +129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 100 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 80 \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 60 \
@@ -204,13 +204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 40 \
@@ -229,13 +229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 20 \
@@ -254,13 +254,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 16 \
@@ -279,13 +279,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 12 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 8 \
@@ -329,13 +329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 4 \
@@ -354,13 +354,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/HandMovementDirection \
+  --root_path /data/user/MambaSL/dataset/HandMovementDirection \
   --seq_len 400 \
   --enc_in 10 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_HandMovementDirection \
   --moving_avg 2 \

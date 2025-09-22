@@ -21,8 +21,8 @@ if __name__ == "__main__":
     model = "TimesNet"
 
     dir_setting = {
-        "data_dir" : "/data/yoom618/TSLib/dataset",
-        "checkpoints": "/data/yoom618/TSLib/checkpoints",
+        "data_dir" : "/data/user/MambaSL/dataset",
+        "checkpoints": "/data/user/MambaSL/checkpoints",
     }
 
     data_configs = OmegaConf.load(f"{script_dir}/{data_metainfo}")

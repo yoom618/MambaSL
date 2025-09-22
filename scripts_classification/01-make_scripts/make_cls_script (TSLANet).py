@@ -22,8 +22,8 @@ if __name__ == "__main__":
     model = "TSLANet"
 
     dir_setting = {
-        "data_dir" : "/data/yoom618/TSLib/dataset",
-        "log_dir": "/data/yoom618/TSLib/logs (TSLANet)",
+        "data_dir" : "/data/user/MambaSL/dataset",
+        "log_dir": "/data/user/MambaSL/logs (TSLANet)",
         "result_dir": "_run_TSLANet/results",
     }
 

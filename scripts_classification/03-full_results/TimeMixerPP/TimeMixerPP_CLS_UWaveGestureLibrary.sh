@@ -4,13 +4,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -36,13 +36,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -68,13 +68,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -100,13 +100,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -132,13 +132,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -164,13 +164,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -196,13 +196,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -228,13 +228,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -260,13 +260,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -292,13 +292,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -324,13 +324,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -356,13 +356,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -388,13 +388,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -420,13 +420,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -452,13 +452,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -484,13 +484,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -516,13 +516,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -548,13 +548,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -580,13 +580,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -612,13 +612,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -644,13 +644,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -676,13 +676,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -708,13 +708,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -740,13 +740,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -772,13 +772,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -804,13 +804,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -836,13 +836,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -868,13 +868,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -900,13 +900,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -932,13 +932,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -964,13 +964,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -996,13 +996,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1028,13 +1028,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1060,13 +1060,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1092,13 +1092,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1124,13 +1124,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1156,13 +1156,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1188,13 +1188,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1220,13 +1220,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1252,13 +1252,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1284,13 +1284,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1316,13 +1316,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1348,13 +1348,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1380,13 +1380,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1412,13 +1412,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1444,13 +1444,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1476,13 +1476,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1508,13 +1508,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1540,13 +1540,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1572,13 +1572,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1604,13 +1604,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1636,13 +1636,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1668,13 +1668,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1700,13 +1700,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1732,13 +1732,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1764,13 +1764,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1796,13 +1796,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1828,13 +1828,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1860,13 +1860,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1892,13 +1892,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1924,13 +1924,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1956,13 +1956,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -1988,13 +1988,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2020,13 +2020,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2052,13 +2052,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2084,13 +2084,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2116,13 +2116,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2148,13 +2148,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2180,13 +2180,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2212,13 +2212,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2244,13 +2244,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2276,13 +2276,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2308,13 +2308,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2340,13 +2340,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2372,13 +2372,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2404,13 +2404,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2436,13 +2436,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2468,13 +2468,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2500,13 +2500,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2532,13 +2532,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2564,13 +2564,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2596,13 +2596,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2628,13 +2628,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2660,13 +2660,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2692,13 +2692,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2724,13 +2724,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2756,13 +2756,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2788,13 +2788,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2820,13 +2820,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2852,13 +2852,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2884,13 +2884,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2916,13 +2916,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2948,13 +2948,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -2980,13 +2980,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3012,13 +3012,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3044,13 +3044,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3076,13 +3076,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3108,13 +3108,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3140,13 +3140,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3172,13 +3172,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3204,13 +3204,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3236,13 +3236,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3268,13 +3268,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3300,13 +3300,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3332,13 +3332,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3364,13 +3364,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3396,13 +3396,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3428,13 +3428,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3460,13 +3460,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3492,13 +3492,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3524,13 +3524,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3556,13 +3556,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3588,13 +3588,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3620,13 +3620,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3652,13 +3652,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3684,13 +3684,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3716,13 +3716,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3748,13 +3748,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3780,13 +3780,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3812,13 +3812,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3844,13 +3844,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3876,13 +3876,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3908,13 +3908,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3940,13 +3940,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -3972,13 +3972,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4004,13 +4004,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4036,13 +4036,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4068,13 +4068,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4100,13 +4100,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4132,13 +4132,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4164,13 +4164,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4196,13 +4196,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4228,13 +4228,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4260,13 +4260,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4292,13 +4292,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4324,13 +4324,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4356,13 +4356,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4388,13 +4388,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4420,13 +4420,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4452,13 +4452,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4484,13 +4484,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4516,13 +4516,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4548,13 +4548,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4580,13 +4580,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4612,13 +4612,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4644,13 +4644,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4676,13 +4676,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4708,13 +4708,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4740,13 +4740,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4772,13 +4772,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4804,13 +4804,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4836,13 +4836,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4868,13 +4868,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4900,13 +4900,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4932,13 +4932,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4964,13 +4964,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -4996,13 +4996,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5028,13 +5028,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5060,13 +5060,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5092,13 +5092,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5124,13 +5124,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5156,13 +5156,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5188,13 +5188,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5220,13 +5220,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5252,13 +5252,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5284,13 +5284,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5316,13 +5316,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5348,13 +5348,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5380,13 +5380,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5412,13 +5412,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5444,13 +5444,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5476,13 +5476,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5508,13 +5508,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5540,13 +5540,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5572,13 +5572,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5604,13 +5604,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5636,13 +5636,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5668,13 +5668,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5700,13 +5700,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5732,13 +5732,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5764,13 +5764,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5796,13 +5796,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5828,13 +5828,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5860,13 +5860,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5892,13 +5892,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5924,13 +5924,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5956,13 +5956,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -5988,13 +5988,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6020,13 +6020,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6052,13 +6052,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6084,13 +6084,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6116,13 +6116,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6148,13 +6148,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6180,13 +6180,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6212,13 +6212,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6244,13 +6244,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6276,13 +6276,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6308,13 +6308,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6340,13 +6340,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6372,13 +6372,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6404,13 +6404,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6436,13 +6436,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6468,13 +6468,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6500,13 +6500,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6532,13 +6532,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6564,13 +6564,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6596,13 +6596,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6628,13 +6628,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6660,13 +6660,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6692,13 +6692,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6724,13 +6724,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6756,13 +6756,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6788,13 +6788,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6820,13 +6820,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6852,13 +6852,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \
@@ -6884,13 +6884,13 @@ python run.py \
   --gpu 3 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/UWaveGestureLibrary \
+  --root_path /data/user/MambaSL/dataset/UWaveGestureLibrary \
   --seq_len 315 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TimeMixerPP \
   --model_id CLS_UWaveGestureLibrary \
   --down_sampling_method conv \

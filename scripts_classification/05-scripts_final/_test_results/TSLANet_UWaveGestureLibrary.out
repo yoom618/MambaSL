@@ -1,15 +1,39 @@
 ========== UWaveGestureLibrary_dim128_depth1_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_30 ===========
-Checkpoint path: /data/yoom618/TSLib/checkpoints_best/TSLANet/UWaveGestureLibrary_dim128_depth1_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_30/UWaveGestureLibrary_dim128_depth1_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_30
+Checkpoint path: /data/user/MambaSL/checkpoints_best/TSLANet/UWaveGestureLibrary_dim128_depth1_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_30/UWaveGestureLibrary_dim128_depth1_mask0.4_patch63_mlp2.0___ASB_True__AF_True__ICB_True__preTr_True_19_40_30
 Train : 120, Val : 320, Test : 320
 Dataset loaded ...
 GPU available: True (cuda), used: True
 TPU available: False, using: 0 TPU cores
 HPU available: False, using: 0 HPUs
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
 Seed set to 42
 LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
-Testing: |          | 0/? [00:00<?, ?it/s]Testing:   0%|          | 0/20 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/20 [00:00<?, ?it/s]Testing DataLoader 0:   5%|▌         | 1/20 [00:01<00:29,  0.65it/s]Testing DataLoader 0:  10%|█         | 2/20 [00:01<00:14,  1.28it/s]Testing DataLoader 0:  15%|█▌        | 3/20 [00:01<00:08,  1.90it/s]Testing DataLoader 0:  20%|██        | 4/20 [00:01<00:06,  2.51it/s]Testing DataLoader 0:  25%|██▌       | 5/20 [00:01<00:04,  3.10it/s]Testing DataLoader 0:  30%|███       | 6/20 [00:01<00:03,  3.69it/s]Testing DataLoader 0:  35%|███▌      | 7/20 [00:01<00:03,  4.26it/s]Testing DataLoader 0:  40%|████      | 8/20 [00:01<00:02,  4.83it/s]Testing DataLoader 0:  45%|████▌     | 9/20 [00:01<00:02,  5.38it/s]Testing DataLoader 0:  50%|█████     | 10/20 [00:01<00:01,  5.93it/s]Testing DataLoader 0:  55%|█████▌    | 11/20 [00:01<00:01,  6.43it/s]Testing DataLoader 0:  60%|██████    | 12/20 [00:01<00:01,  6.96it/s]Testing DataLoader 0:  65%|██████▌   | 13/20 [00:01<00:00,  7.42it/s]Testing DataLoader 0:  70%|███████   | 14/20 [00:01<00:00,  7.83it/s]Testing DataLoader 0:  75%|███████▌  | 15/20 [00:01<00:00,  8.25it/s]Testing DataLoader 0:  80%|████████  | 16/20 [00:01<00:00,  8.73it/s]Testing DataLoader 0:  85%|████████▌ | 17/20 [00:01<00:00,  9.18it/s]Testing DataLoader 0:  90%|█████████ | 18/20 [00:01<00:00,  9.64it/s]Testing DataLoader 0:  95%|█████████▌| 19/20 [00:01<00:00, 10.06it/s]Testing DataLoader 0: 100%|██████████| 20/20 [00:01<00:00, 10.51it/s]Testing DataLoader 0: 100%|██████████| 20/20 [00:01<00:00, 10.45it/s]
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
+
+Testing: |          | 0/? [00:00<?, ?it/s]
+Testing:   0%|          | 0/20 [00:00<?, ?it/s]
+Testing DataLoader 0:   0%|          | 0/20 [00:00<?, ?it/s]
+Testing DataLoader 0:   5%|▌         | 1/20 [00:01<00:29,  0.65it/s]
+Testing DataLoader 0:  10%|█         | 2/20 [00:01<00:14,  1.28it/s]
+Testing DataLoader 0:  15%|█▌        | 3/20 [00:01<00:08,  1.90it/s]
+Testing DataLoader 0:  20%|██        | 4/20 [00:01<00:06,  2.51it/s]
+Testing DataLoader 0:  25%|██▌       | 5/20 [00:01<00:04,  3.10it/s]
+Testing DataLoader 0:  30%|███       | 6/20 [00:01<00:03,  3.69it/s]
+Testing DataLoader 0:  35%|███▌      | 7/20 [00:01<00:03,  4.26it/s]
+Testing DataLoader 0:  40%|████      | 8/20 [00:01<00:02,  4.83it/s]
+Testing DataLoader 0:  45%|████▌     | 9/20 [00:01<00:02,  5.38it/s]
+Testing DataLoader 0:  50%|█████     | 10/20 [00:01<00:01,  5.93it/s]
+Testing DataLoader 0:  55%|█████▌    | 11/20 [00:01<00:01,  6.43it/s]
+Testing DataLoader 0:  60%|██████    | 12/20 [00:01<00:01,  6.96it/s]
+Testing DataLoader 0:  65%|██████▌   | 13/20 [00:01<00:00,  7.42it/s]
+Testing DataLoader 0:  70%|███████   | 14/20 [00:01<00:00,  7.83it/s]
+Testing DataLoader 0:  75%|███████▌  | 15/20 [00:01<00:00,  8.25it/s]
+Testing DataLoader 0:  80%|████████  | 16/20 [00:01<00:00,  8.73it/s]
+Testing DataLoader 0:  85%|████████▌ | 17/20 [00:01<00:00,  9.18it/s]
+Testing DataLoader 0:  90%|█████████ | 18/20 [00:01<00:00,  9.64it/s]
+Testing DataLoader 0:  95%|█████████▌| 19/20 [00:01<00:00, 10.06it/s]
+Testing DataLoader 0: 100%|██████████| 20/20 [00:01<00:00, 10.51it/s]
+Testing DataLoader 0: 100%|██████████| 20/20 [00:01<00:00, 10.45it/s]
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
        Test metric             DataLoader 0
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

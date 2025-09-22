@@ -5,10 +5,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -108,10 +108,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -227,10 +227,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -334,10 +334,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -441,10 +441,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -568,10 +568,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -699,10 +699,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -830,10 +830,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -961,10 +961,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -1084,10 +1084,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -1211,10 +1211,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -1318,10 +1318,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -1425,10 +1425,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -1520,10 +1520,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -1627,10 +1627,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -1770,10 +1770,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -1877,10 +1877,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -2020,10 +2020,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -2203,10 +2203,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -2310,10 +2310,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -2417,10 +2417,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -2524,10 +2524,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -2659,10 +2659,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -2790,10 +2790,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -2905,10 +2905,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -3072,10 +3072,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -3203,10 +3203,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -3326,10 +3326,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -3433,10 +3433,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -3564,10 +3564,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -3695,10 +3695,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -3838,10 +3838,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -3961,10 +3961,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -4092,10 +4092,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -4223,10 +4223,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -4330,10 +4330,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -4437,10 +4437,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -4584,10 +4584,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -4763,10 +4763,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -4870,10 +4870,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5001,10 +5001,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5112,10 +5112,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5223,10 +5223,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5334,10 +5334,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5445,10 +5445,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5548,10 +5548,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5659,10 +5659,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5770,10 +5770,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5881,10 +5881,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -5988,10 +5988,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -6131,10 +6131,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -6242,10 +6242,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -6353,10 +6353,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -6456,10 +6456,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -6559,10 +6559,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -6670,10 +6670,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -6781,10 +6781,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -6880,10 +6880,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -6983,10 +6983,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -7094,10 +7094,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -7205,10 +7205,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -7364,10 +7364,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -7535,10 +7535,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -7646,10 +7646,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -7757,10 +7757,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -7868,10 +7868,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -8011,10 +8011,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -8122,10 +8122,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -8233,10 +8233,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -8360,10 +8360,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -8511,10 +8511,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -8622,10 +8622,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -8733,10 +8733,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -8832,10 +8832,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -8943,10 +8943,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -9054,10 +9054,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -9165,10 +9165,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -9304,10 +9304,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -9443,10 +9443,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -9598,10 +9598,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -9709,10 +9709,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -9820,10 +9820,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -9943,10 +9943,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -10046,10 +10046,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -10157,10 +10157,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -10280,10 +10280,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -10411,10 +10411,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -10542,10 +10542,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -10673,10 +10673,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -10780,10 +10780,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -10887,10 +10887,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -10990,10 +10990,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -11097,10 +11097,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -11228,10 +11228,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -11343,10 +11343,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -11466,10 +11466,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -11589,10 +11589,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -11654,7 +11654,7 @@ Epoch: 8 cost time: 3.827376127243042
 gating_value: 5.9447550316987444e-05
 Epoch: 8, Steps: 32 | Train Loss: 0.357 Vali Loss: 1.465 Vali Acc: 0.458 Test Loss: 1.465 Test Acc: 0.458
 EarlyStopping counter: 4 out of 10
-./scripts_classification/scripts_mamba/ablation2/MambaSL_CLS_EigenWorms_ablation2.sh: line 3394: 1408611 Segmentation fault      (core dumped) python run.py --use_gpu True --gpu_type cuda --gpu 3 --task_name classification --data UEA --root_path /data/yoom618/TSLib/dataset/EigenWorms --seq_len 17984 --enc_in 6 --label_len 0 --pred_len 0 --c_out 0 --checkpoints /data/yoom618/TSLib/checkpoints --model MambaSingleLayer --model_id CLS_EigenWorms --mamba_projection_type gating --num_kernels 3 --d_model 256 --d_ff 4 --expand 1 --d_conv 4 --tv_dt 1 --tv_B 1 --tv_C 1 --use_D 0 --is_training 1 --batch_size 4 --des gating4ablation2 --itr 1 --dropout 0.1 --learning_rate 0.001 --weight_decay 0.0001 --train_epochs 100 --patience 10
+./scripts_classification/scripts_mamba/ablation2/MambaSL_CLS_EigenWorms_ablation2.sh: line 3394: 1408611 Segmentation fault      (core dumped) python run.py --use_gpu True --gpu_type cuda --gpu 3 --task_name classification --data UEA --root_path /data/user/MambaSL/dataset/EigenWorms --seq_len 17984 --enc_in 6 --label_len 0 --pred_len 0 --c_out 0 --checkpoints /data/user/MambaSL/checkpoints --model MambaSingleLayer --model_id CLS_EigenWorms --mamba_projection_type gating --num_kernels 3 --d_model 256 --d_ff 4 --expand 1 --d_conv 4 --tv_dt 1 --tv_B 1 --tv_C 1 --use_D 0 --is_training 1 --batch_size 4 --des gating4ablation2 --itr 1 --dropout 0.1 --learning_rate 0.001 --weight_decay 0.0001 --train_epochs 100 --patience 10
 Using GPU
 Args in experiment:
 [1mBasic Config[0m
@@ -11662,10 +11662,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -11793,10 +11793,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -11896,10 +11896,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -12003,10 +12003,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -12126,10 +12126,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -12269,10 +12269,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -12396,10 +12396,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -12519,10 +12519,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -12622,10 +12622,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -12761,10 +12761,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -12864,10 +12864,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -12971,10 +12971,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -13102,10 +13102,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -13217,10 +13217,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -13324,10 +13324,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -13447,10 +13447,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -13554,10 +13554,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -13673,10 +13673,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -13796,10 +13796,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -13903,10 +13903,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -14002,10 +14002,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -14125,10 +14125,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -14256,10 +14256,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -14379,10 +14379,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -14550,10 +14550,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -14669,10 +14669,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -14840,10 +14840,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -14979,10 +14979,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -15138,10 +15138,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -15309,10 +15309,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -15436,10 +15436,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -15563,10 +15563,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -15746,10 +15746,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -15897,10 +15897,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -16064,10 +16064,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -16199,10 +16199,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -16326,10 +16326,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -16453,10 +16453,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -16580,10 +16580,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -16719,10 +16719,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -16838,10 +16838,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -16965,10 +16965,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -17152,10 +17152,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -17323,10 +17323,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -17450,10 +17450,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -17621,10 +17621,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -17748,10 +17748,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -17875,10 +17875,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -18046,10 +18046,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -18177,10 +18177,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -18344,10 +18344,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -18515,10 +18515,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -18690,10 +18690,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -18861,10 +18861,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -18988,10 +18988,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -19159,10 +19159,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -19310,10 +19310,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -19485,10 +19485,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -19656,10 +19656,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -19827,10 +19827,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -19974,10 +19974,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -20101,10 +20101,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -20268,10 +20268,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -20407,10 +20407,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -20582,10 +20582,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -20733,10 +20733,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -20896,10 +20896,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -21039,10 +21039,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -21226,10 +21226,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -21377,10 +21377,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -21564,10 +21564,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -21715,10 +21715,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -21862,10 +21862,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -22009,10 +22009,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -22156,10 +22156,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -22299,10 +22299,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -22510,10 +22510,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -22685,10 +22685,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -22836,10 +22836,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -22983,10 +22983,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -23162,10 +23162,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -23321,10 +23321,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -23480,10 +23480,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -23623,10 +23623,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -23798,10 +23798,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -24001,10 +24001,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -24204,10 +24204,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -24351,10 +24351,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -24498,10 +24498,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -24657,10 +24657,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -24800,10 +24800,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -24943,10 +24943,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -25134,10 +25134,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -25341,10 +25341,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -25504,10 +25504,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -25667,10 +25667,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -25894,10 +25894,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -26037,10 +26037,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -26208,10 +26208,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -26355,10 +26355,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -26562,10 +26562,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -26705,10 +26705,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -26912,10 +26912,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -27063,10 +27063,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -27266,10 +27266,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -27457,10 +27457,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -27660,10 +27660,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -27815,10 +27815,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -28026,10 +28026,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -28217,10 +28217,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -28404,10 +28404,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -28591,10 +28591,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -28802,10 +28802,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -28989,10 +28989,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -29176,10 +29176,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -29363,10 +29363,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -29494,10 +29494,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -29681,10 +29681,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -29872,10 +29872,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -30059,10 +30059,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -30270,10 +30270,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -30461,10 +30461,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -30648,10 +30648,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -30803,10 +30803,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -30962,10 +30962,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -31121,10 +31121,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -31324,10 +31324,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -31511,10 +31511,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -31702,10 +31702,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -31905,10 +31905,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -32092,10 +32092,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -32247,10 +32247,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -32406,10 +32406,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -32585,10 +32585,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -32788,10 +32788,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -32975,10 +32975,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -33110,10 +33110,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -33301,10 +33301,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -33504,10 +33504,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -33683,10 +33683,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -33894,10 +33894,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -34045,10 +34045,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   
@@ -34268,10 +34268,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              MambaSingleLayer    
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        3                   

@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 448 \
@@ -29,13 +29,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 404 \
@@ -54,13 +54,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 359 \
@@ -79,13 +79,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 314 \
@@ -104,13 +104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 269 \
@@ -129,13 +129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 224 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 180 \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 135 \
@@ -204,13 +204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 90 \
@@ -229,13 +229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 45 \
@@ -254,13 +254,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 36 \
@@ -279,13 +279,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 27 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 18 \
@@ -329,13 +329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 9 \
@@ -354,13 +354,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SelfRegulationSCP1/ \
+  --root_path /data/user/MambaSL/dataset/SelfRegulationSCP1/ \
   --seq_len 896 \
   --enc_in 6 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SelfRegulationSCP1 \
   --moving_avg 5 \

@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 15 \
@@ -29,13 +29,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 14 \
@@ -54,13 +54,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 12 \
@@ -79,13 +79,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 11 \
@@ -104,13 +104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 9 \
@@ -129,13 +129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 8 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 6 \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 5 \
@@ -204,13 +204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 3 \
@@ -229,13 +229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 2 \
@@ -254,13 +254,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/JapaneseVowels/ \
+  --root_path /data/user/MambaSL/dataset/JapaneseVowels/ \
   --seq_len 29 \
   --enc_in 12 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_JapaneseVowels \
   --moving_avg 1 \

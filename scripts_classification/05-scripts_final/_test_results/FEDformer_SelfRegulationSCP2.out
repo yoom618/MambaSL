@@ -5,10 +5,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -51,62 +51,62 @@ accuracy:0.5944444444444444
 model parameter : 1352450
 model size : 10.07MB
 Traceback (most recent call last):
-  File "/home/yoom618/TSLib/run.py", line 186, in <module>
+  File "/home/user/MambaSL/run.py", line 186, in <module>
     from exp.exp_long_term_forecasting import Exp_Long_Term_Forecast
-  File "/home/yoom618/TSLib/exp/exp_long_term_forecasting.py", line 2, in <module>
+  File "/home/user/MambaSL/exp/exp_long_term_forecasting.py", line 2, in <module>
     from exp.exp_basic import Exp_Basic
-  File "/home/yoom618/TSLib/exp/exp_basic.py", line 3, in <module>
+  File "/home/user/MambaSL/exp/exp_basic.py", line 3, in <module>
     from models import Autoformer, Transformer, TimesNet, Nonstationary_Transformer, DLinear, FEDformer, \
-  File "/home/yoom618/TSLib/models/Transformer.py", line 5, in <module>
+  File "/home/user/MambaSL/models/Transformer.py", line 5, in <module>
     from layers.SelfAttention_Family import FullAttention, AttentionLayer
-  File "/home/yoom618/TSLib/layers/SelfAttention_Family.py", line 6, in <module>
+  File "/home/user/MambaSL/layers/SelfAttention_Family.py", line 6, in <module>
     from reformer_pytorch import LSHSelfAttention
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/reformer_pytorch/__init__.py", line 1, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/reformer_pytorch/__init__.py", line 1, in <module>
     from reformer_pytorch.reformer_pytorch import LSHAttention, LSHSelfAttention, Reformer, ReformerLM
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/reformer_pytorch/reformer_pytorch.py", line 11, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/reformer_pytorch/reformer_pytorch.py", line 11, in <module>
     from local_attention import LocalAttention
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/local_attention/__init__.py", line 2, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/local_attention/__init__.py", line 2, in <module>
     from local_attention.transformer import LocalTransformer, LocalMHA, DynamicPositionBias
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/local_attention/transformer.py", line 15, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/local_attention/transformer.py", line 15, in <module>
     from hyper_connections import get_init_and_expand_reduce_stream_functions
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/hyper_connections/__init__.py", line 1, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/hyper_connections/__init__.py", line 1, in <module>
     from hyper_connections.hyper_connections import (
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/hyper_connections/hyper_connections.py", line 14, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/hyper_connections/hyper_connections.py", line 14, in <module>
     from einops.layers.torch import Reduce
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/einops/layers/torch.py", line 7, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/einops/layers/torch.py", line 7, in <module>
     from .._torch_specific import apply_for_scriptable_torch
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/einops/_torch_specific.py", line 128, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/einops/_torch_specific.py", line 128, in <module>
     allow_ops_in_compiled_graph()
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/einops/_torch_specific.py", line 107, in allow_ops_in_compiled_graph
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/einops/_torch_specific.py", line 107, in allow_ops_in_compiled_graph
     from torch._dynamo import allow_in_graph
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/_dynamo/__init__.py", line 3, in <module>
     from . import convert_frame, eval_frame, resume_execution
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/_dynamo/convert_frame.py", line 33, in <module>
     from torch._dynamo.symbolic_convert import TensorifyState
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/_dynamo/symbolic_convert.py", line 30, in <module>
     from . import config, exc, logging as torchdynamo_logging, trace_rules, variables
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/_dynamo/trace_rules.py", line 46, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/_dynamo/trace_rules.py", line 46, in <module>
     from .variables import (
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/_dynamo/variables/__init__.py", line 2, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/_dynamo/variables/__init__.py", line 2, in <module>
     from .builtin import BuiltinVariable
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/_dynamo/variables/builtin.py", line 53, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/_dynamo/variables/builtin.py", line 53, in <module>
     from .ctx_manager import EventVariable, StreamVariable
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/_dynamo/variables/ctx_manager.py", line 22, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/_dynamo/variables/ctx_manager.py", line 22, in <module>
     from .functions import (
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/_dynamo/variables/functions.py", line 33, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/_dynamo/variables/functions.py", line 33, in <module>
     from torch.distributed.fsdp._fully_shard import _fsdp_param_group
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/distributed/fsdp/__init__.py", line 1, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/distributed/fsdp/__init__.py", line 1, in <module>
     from ._flat_param import FlatParameter as FlatParameter
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/distributed/fsdp/_flat_param.py", line 47, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/distributed/fsdp/_flat_param.py", line 47, in <module>
     from ._fsdp_extensions import (
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/distributed/fsdp/_fsdp_extensions.py", line 8, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/distributed/fsdp/_fsdp_extensions.py", line 8, in <module>
     from torch.distributed.fsdp._shard_utils import (
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/distributed/fsdp/_shard_utils.py", line 18, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/distributed/fsdp/_shard_utils.py", line 18, in <module>
     from torch.distributed.tensor import DeviceMesh, DTensor, Replicate, Shard as DShard
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/distributed/tensor/__init__.py", line 4, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/distributed/tensor/__init__.py", line 4, in <module>
     import torch.distributed.tensor._ops  # force import all built-in dtensor ops
     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/yoom618/.conda/envs/tslib/lib/python3.12/site-packages/torch/distributed/tensor/_ops/__init__.py", line 5, in <module>
+  File "/home/user/.conda/envs/ts312/lib/python3.12/site-packages/torch/distributed/tensor/_ops/__init__.py", line 5, in <module>
     from ._math_ops import *  # noqa: F403
     ^^^^^^^^^^^^^^^^^^^^^^^^
   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load

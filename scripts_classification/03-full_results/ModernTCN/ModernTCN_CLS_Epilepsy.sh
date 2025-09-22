@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -35,13 +35,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -66,13 +66,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -97,13 +97,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -128,13 +128,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -159,13 +159,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -190,13 +190,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -221,13 +221,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -252,13 +252,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -283,13 +283,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -314,13 +314,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -345,13 +345,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -376,13 +376,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -407,13 +407,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -438,13 +438,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -469,13 +469,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -500,13 +500,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -531,13 +531,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -562,13 +562,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -593,13 +593,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -624,13 +624,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -655,13 +655,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -686,13 +686,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -717,13 +717,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -748,13 +748,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -779,13 +779,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -810,13 +810,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -841,13 +841,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -872,13 +872,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -903,13 +903,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -934,13 +934,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -965,13 +965,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -996,13 +996,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1027,13 +1027,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1058,13 +1058,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1089,13 +1089,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1120,13 +1120,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1151,13 +1151,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1182,13 +1182,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1213,13 +1213,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1244,13 +1244,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1275,13 +1275,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1306,13 +1306,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1337,13 +1337,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1368,13 +1368,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1399,13 +1399,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1430,13 +1430,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1461,13 +1461,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1492,13 +1492,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1523,13 +1523,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1554,13 +1554,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1585,13 +1585,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1616,13 +1616,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1647,13 +1647,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1678,13 +1678,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1709,13 +1709,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1740,13 +1740,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1771,13 +1771,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1802,13 +1802,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1833,13 +1833,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1864,13 +1864,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1895,13 +1895,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1926,13 +1926,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1957,13 +1957,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -1988,13 +1988,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2019,13 +2019,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2050,13 +2050,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2081,13 +2081,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2112,13 +2112,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2143,13 +2143,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2174,13 +2174,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2205,13 +2205,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2236,13 +2236,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2267,13 +2267,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2298,13 +2298,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2329,13 +2329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2360,13 +2360,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2391,13 +2391,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2422,13 +2422,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2453,13 +2453,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2484,13 +2484,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2515,13 +2515,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2546,13 +2546,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2577,13 +2577,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 4 \
@@ -2608,13 +2608,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2639,13 +2639,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2670,13 +2670,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2701,13 +2701,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2732,13 +2732,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2763,13 +2763,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2794,13 +2794,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2825,13 +2825,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2856,13 +2856,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2887,13 +2887,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2918,13 +2918,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2949,13 +2949,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -2980,13 +2980,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3011,13 +3011,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3042,13 +3042,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3073,13 +3073,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3104,13 +3104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3135,13 +3135,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3166,13 +3166,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3197,13 +3197,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3228,13 +3228,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3259,13 +3259,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3290,13 +3290,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3321,13 +3321,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3352,13 +3352,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3383,13 +3383,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3414,13 +3414,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3445,13 +3445,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3476,13 +3476,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3507,13 +3507,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3538,13 +3538,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3569,13 +3569,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3600,13 +3600,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3631,13 +3631,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3662,13 +3662,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3693,13 +3693,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3724,13 +3724,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3755,13 +3755,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3786,13 +3786,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3817,13 +3817,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3848,13 +3848,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3879,13 +3879,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3910,13 +3910,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3941,13 +3941,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -3972,13 +3972,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4003,13 +4003,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4034,13 +4034,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4065,13 +4065,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4096,13 +4096,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4127,13 +4127,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4158,13 +4158,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4189,13 +4189,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4220,13 +4220,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4251,13 +4251,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4282,13 +4282,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4313,13 +4313,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4344,13 +4344,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4375,13 +4375,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4406,13 +4406,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4437,13 +4437,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4468,13 +4468,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4499,13 +4499,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4530,13 +4530,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4561,13 +4561,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4592,13 +4592,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4623,13 +4623,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4654,13 +4654,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4685,13 +4685,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4716,13 +4716,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4747,13 +4747,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4778,13 +4778,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4809,13 +4809,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4840,13 +4840,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4871,13 +4871,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4902,13 +4902,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4933,13 +4933,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4964,13 +4964,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -4995,13 +4995,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -5026,13 +5026,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -5057,13 +5057,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -5088,13 +5088,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -5119,13 +5119,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -5150,13 +5150,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -5181,13 +5181,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 2 \
@@ -5212,13 +5212,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5243,13 +5243,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5274,13 +5274,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5305,13 +5305,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5336,13 +5336,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5367,13 +5367,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5398,13 +5398,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5429,13 +5429,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5460,13 +5460,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5491,13 +5491,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5522,13 +5522,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5553,13 +5553,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5584,13 +5584,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5615,13 +5615,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5646,13 +5646,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5677,13 +5677,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5708,13 +5708,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5739,13 +5739,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5770,13 +5770,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5801,13 +5801,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5832,13 +5832,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5863,13 +5863,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5894,13 +5894,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5925,13 +5925,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5956,13 +5956,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -5987,13 +5987,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6018,13 +6018,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6049,13 +6049,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6080,13 +6080,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6111,13 +6111,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6142,13 +6142,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6173,13 +6173,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6204,13 +6204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6235,13 +6235,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6266,13 +6266,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6297,13 +6297,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6328,13 +6328,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6359,13 +6359,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6390,13 +6390,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6421,13 +6421,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6452,13 +6452,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6483,13 +6483,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6514,13 +6514,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6545,13 +6545,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6576,13 +6576,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6607,13 +6607,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6638,13 +6638,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6669,13 +6669,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6700,13 +6700,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6731,13 +6731,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6762,13 +6762,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6793,13 +6793,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6824,13 +6824,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6855,13 +6855,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6886,13 +6886,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6917,13 +6917,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6948,13 +6948,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -6979,13 +6979,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7010,13 +7010,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7041,13 +7041,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7072,13 +7072,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7103,13 +7103,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7134,13 +7134,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7165,13 +7165,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7196,13 +7196,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7227,13 +7227,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7258,13 +7258,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7289,13 +7289,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7320,13 +7320,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7351,13 +7351,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7382,13 +7382,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7413,13 +7413,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7444,13 +7444,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7475,13 +7475,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7506,13 +7506,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7537,13 +7537,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7568,13 +7568,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7599,13 +7599,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7630,13 +7630,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7661,13 +7661,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7692,13 +7692,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7723,13 +7723,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7754,13 +7754,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \
@@ -7785,13 +7785,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/Epilepsy \
+  --root_path /data/user/MambaSL/dataset/Epilepsy \
   --seq_len 206 \
   --enc_in 3 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model ModernTCN \
   --model_id CLS_Epilepsy \
   --ffn_ratio 1 \

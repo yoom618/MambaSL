@@ -4,13 +4,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 47 \
@@ -29,13 +29,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 42 \
@@ -54,13 +54,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 38 \
@@ -79,13 +79,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 33 \
@@ -104,13 +104,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 28 \
@@ -129,13 +129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 24 \
@@ -154,13 +154,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 19 \
@@ -179,13 +179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 14 \
@@ -204,13 +204,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 10 \
@@ -229,13 +229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 5 \
@@ -254,13 +254,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 4 \
@@ -279,13 +279,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 3 \
@@ -304,13 +304,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 2 \
@@ -329,13 +329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA \
-  --root_path /data/yoom618/TSLib/dataset/SpokenArabicDigits/ \
+  --root_path /data/user/MambaSL/dataset/SpokenArabicDigits/ \
   --seq_len 93 \
   --enc_in 13 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model DLinear \
   --model_id CLS_SpokenArabicDigits \
   --moving_avg 1 \

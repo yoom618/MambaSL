@@ -63,7 +63,7 @@
         |       ├── (experiment scripts and logs)
         │       └── ...
         ├── 04-retrieve_results
-        │   ├── retrieve_results (TSLib models).ipynb
+        │   ├── retrieve_results (baselines).ipynb
         │   └── retrieve_results (TSLANet).ipynb
         ├── 05-scripts_final
         │   ├── _template : template for final scripts
@@ -120,7 +120,7 @@
 - The test results are saved in `./scripts_classification/05-scripts_final/_test_results/`.
 - The checkpoints of MambaSL and other baselines are provided in the [[Google Drive]](https://drive.google.com/drive/folders/1dJx_rpB7UnkMuxrCEoHJcXXzhaACS5Sx?usp=share_link).
 
-- You have to **modify the `tslib_dir`, `gpu_id`, `data_dir`, and `checkpoint_dir` in the scripts properly** before running them.
+- You have to **modify the `source_dir`, `gpu_id`, `data_dir`, and `checkpoint_dir` in the scripts properly** before running them.
 - For instance, you can test MambaSL on all UEA30 datasets with the best & lightweighted checkpoints via the following command:
     - Be aware of changing the experimental settings in `./scripts_classification/05-scripts_final/MambaSL/All_UEA30.sh` before testing this code.
     ```

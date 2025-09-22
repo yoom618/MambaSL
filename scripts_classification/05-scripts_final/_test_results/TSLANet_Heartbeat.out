@@ -1,16 +1,33 @@
 ========== Heartbeat_dim128_depth3_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_07_04 ===========
-Checkpoint path: /data/yoom618/TSLib/checkpoints_best/TSLANet/Heartbeat_dim128_depth3_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_07_04/Heartbeat_dim128_depth3_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_07_04
+Checkpoint path: /data/user/MambaSL/checkpoints_best/TSLANet/Heartbeat_dim128_depth3_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_07_04/Heartbeat_dim128_depth3_mask0.4_patch21_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_13_07_04
 Train : 204, Val : 205, Test : 205
 Dataset loaded ...
 GPU available: True (cuda), used: True
 TPU available: False, using: 0 TPU cores
 HPU available: False, using: 0 HPUs
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
 Seed set to 42
 LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
-Testing: |          | 0/? [00:00<?, ?it/s]Testing:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   8%|▊         | 1/13 [00:01<00:14,  0.83it/s]Testing DataLoader 0:  15%|█▌        | 2/13 [00:01<00:06,  1.61it/s]Testing DataLoader 0:  23%|██▎       | 3/13 [00:01<00:04,  2.37it/s]Testing DataLoader 0:  31%|███       | 4/13 [00:01<00:02,  3.10it/s]Testing DataLoader 0:  38%|███▊      | 5/13 [00:01<00:02,  3.81it/s]Testing DataLoader 0:  46%|████▌     | 6/13 [00:01<00:01,  4.48it/s]Testing DataLoader 0:  54%|█████▍    | 7/13 [00:01<00:01,  5.14it/s]Testing DataLoader 0:  62%|██████▏   | 8/13 [00:01<00:00,  5.75it/s]Testing DataLoader 0:  69%|██████▉   | 9/13 [00:01<00:00,  6.36it/s]Testing DataLoader 0:  77%|███████▋  | 10/13 [00:01<00:00,  6.93it/s]Testing DataLoader 0:  85%|████████▍ | 11/13 [00:01<00:00,  7.51it/s]Testing DataLoader 0:  92%|█████████▏| 12/13 [00:01<00:00,  8.07it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  8.53it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  8.48it/s]
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
+
+Testing: |          | 0/? [00:00<?, ?it/s]
+Testing:   0%|          | 0/13 [00:00<?, ?it/s]
+Testing DataLoader 0:   0%|          | 0/13 [00:00<?, ?it/s]
+Testing DataLoader 0:   8%|▊         | 1/13 [00:01<00:14,  0.83it/s]
+Testing DataLoader 0:  15%|█▌        | 2/13 [00:01<00:06,  1.61it/s]
+Testing DataLoader 0:  23%|██▎       | 3/13 [00:01<00:04,  2.37it/s]
+Testing DataLoader 0:  31%|███       | 4/13 [00:01<00:02,  3.10it/s]
+Testing DataLoader 0:  38%|███▊      | 5/13 [00:01<00:02,  3.81it/s]
+Testing DataLoader 0:  user█▌     | 6/13 [00:01<00:01,  4.48it/s]
+Testing DataLoader 0:  54%|█████▍    | 7/13 [00:01<00:01,  5.14it/s]
+Testing DataLoader 0:  62%|██████▏   | 8/13 [00:01<00:00,  5.75it/s]
+Testing DataLoader 0:  69%|██████▉   | 9/13 [00:01<00:00,  6.36it/s]
+Testing DataLoader 0:  77%|███████▋  | 10/13 [00:01<00:00,  6.93it/s]
+Testing DataLoader 0:  85%|████████▍ | 11/13 [00:01<00:00,  7.51it/s]
+Testinuseroader 0:  92%|█████████▏| 12/13 [00:01<00:00,  8.07it/s]
+Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  8.53it/s]
+Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  8.48it/s]
+──────user───────────────────────────────────────────────────────────────────────────────────────────────────────────
        Test metric             DataLoader 0
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
         test_acc             0.795121967792511
@@ -18,17 +35,34 @@ LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
         test_loss           0.6495632529258728
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ========== Heartbeat_dim256_depth2_mask0.4_patch61_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_04_20 ===========
-Checkpoint path: /data/yoom618/TSLib/checkpoints_best/TSLANet/Heartbeat_dim256_depth2_mask0.4_patch61_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_04_20/Heartbeat_dim256_depth2_mask0.4_patch61_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_04_20
+Checkpoint path: /data/user/MambaSL/checkpoints_best/TSLANet/Heartbeat_dim256_depth2_mask0.4_patch61_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_04_20/Heartbeat_dim256_depth2_mask0.4_patch61_mlp1.0___ASB_True__AF_True__ICB_True__preTr_True_15_04_20
 Train : 204, Val : 205, Test : 205
 Dataset loaded ...
 GPU available: True (cuda), used: True
 TPU available: False, using: 0 TPU cores
 HPU available: False, using: 0 HPUs
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/logger_connector/logger_connector.py:76: Starting from v1.9.0, `tensorboardX` has been removed as a dependency of the `lightning.pytorch` package, due to potential conflicts with other packages in the ML ecosystem. For this reason, `logger=True` will use `CSVLogger` as the default logger, unless the `tensorboard` or `tensorboardX` packages are found. Please `pip install lightning[extra]` or one of them to enable TensorBoard support by default
 Seed set to 42
 LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
-/home/yoom618/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
-Testing: |          | 0/? [00:00<?, ?it/s]Testing:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   0%|          | 0/13 [00:00<?, ?it/s]Testing DataLoader 0:   8%|▊         | 1/13 [00:01<00:15,  0.78it/s]Testing DataLoader 0:  15%|█▌        | 2/13 [00:01<00:07,  1.52it/s]Testing DataLoader 0:  23%|██▎       | 3/13 [00:01<00:04,  2.25it/s]Testing DataLoader 0:  31%|███       | 4/13 [00:01<00:03,  2.95it/s]Testing DataLoader 0:  38%|███▊      | 5/13 [00:01<00:02,  3.63it/s]Testing DataLoader 0:  46%|████▌     | 6/13 [00:01<00:01,  4.30it/s]Testing DataLoader 0:  54%|█████▍    | 7/13 [00:01<00:01,  4.95it/s]Testing DataLoader 0:  62%|██████▏   | 8/13 [00:01<00:00,  5.58it/s]Testing DataLoader 0:  69%|██████▉   | 9/13 [00:01<00:00,  6.19it/s]Testing DataLoader 0:  77%|███████▋  | 10/13 [00:01<00:00,  6.79it/s]Testing DataLoader 0:  85%|████████▍ | 11/13 [00:01<00:00,  7.37it/s]Testing DataLoader 0:  92%|█████████▏| 12/13 [00:01<00:00,  7.93it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  8.29it/s]Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  8.23it/s]
+/home/user/.local/lib/python3.12/site-packages/lightning/pytorch/trainer/connectors/data_connector.py:425: The 'test_dataloader' does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` to `num_workers=39` in the `DataLoader` to improve performance.
+
+Testing: |          | 0/? [00:00<?, ?it/s]
+Testing:   0%|          | 0/13 [00:00<?, ?it/s]
+Testing DataLoader 0:   0%|          | 0/13 [00:00<?, ?it/s]
+Testing DataLoader 0:   8%|▊         | 1/13 [00:01<00:15,  0.78it/s]
+Testing DataLoader 0:  15%|█▌        | 2/13 [00:01<00:07,  1.52it/s]
+Testing DataLoader 0:  23%|██▎       | 3/13 [00:01<00:04,  2.25it/s]
+Testing DataLoader 0:  31%|███       | 4/13 [00:01<00:03,  2.95it/s]
+Testing DataLoader 0:  38%|███▊      | 5/13 [00:01<00:02,  3.63it/s]
+Testing DataLoader 0:  46%|████▌     | 6/13 [00:01<00:01,  4.30it/s]
+Testing DataLoader 0:  54%|█████▍    | 7/13 [00:01<00:01,  4.95it/s]
+Testing DataLoader 0:  62%|██████▏   | 8/13 [00:01<00:00,  5.58it/s]
+Testing DataLoader 0:  69%|██████▉   | 9/13 [00:01<00:00,  6.19it/s]
+Testing DataLoader 0:  77%|███████▋  | 10/13 [00:01<00:00,  6.79it/s]
+Testing DataLoader 0:  85%|████████▍ | 11/13 [00:01<00:00,  7.37it/s]
+Testing DataLoader 0:  92%|█████████▏| 12/13 [00:01<00:00,  7.93it/s]
+Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  8.29it/s]
+Testing DataLoader 0: 100%|██████████| 13/13 [00:01<00:00,  8.23it/s]
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
        Test metric             DataLoader 0
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────

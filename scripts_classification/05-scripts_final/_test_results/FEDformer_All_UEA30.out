@@ -5,10 +5,10 @@ Args in experiment:
   Model ID:           CLS_ArticularyWordRecognitionModel:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/ArticularyWordRecognition
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/ArticularyWordRecognition
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -57,10 +57,10 @@ Args in experiment:
   Model ID:           CLS_AtrialFibrillationModel:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/AtrialFibrillation
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -109,10 +109,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -161,10 +161,10 @@ Args in experiment:
   Model ID:           CLS_CharacterTrajectoriesModel:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/CharacterTrajectories
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/CharacterTrajectories
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -213,10 +213,10 @@ Args in experiment:
   Model ID:           CLS_Cricket         Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Cricket
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -265,10 +265,10 @@ Args in experiment:
   Model ID:           CLS_DuckDuckGeese   Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/DuckDuckGeese
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/DuckDuckGeese
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -317,10 +317,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -369,10 +369,10 @@ Args in experiment:
   Model ID:           CLS_Epilepsy        Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Epilepsy
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Epilepsy
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -421,10 +421,10 @@ Args in experiment:
   Model ID:           CLS_ERing           Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/ERing
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/ERing
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -473,10 +473,10 @@ Args in experiment:
   Model ID:           CLS_EthanolConcentrationModel:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EthanolConcentration
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -525,10 +525,10 @@ Args in experiment:
   Model ID:           CLS_FaceDetection   Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/FaceDetection
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/FaceDetection
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -577,10 +577,10 @@ Args in experiment:
   Model ID:           CLS_FingerMovements Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/FingerMovements
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/FingerMovements
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -629,10 +629,10 @@ Args in experiment:
   Model ID:           CLS_HandMovementDirectionModel:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/HandMovementDirection
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/HandMovementDirection
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -681,10 +681,10 @@ Args in experiment:
   Model ID:           CLS_Handwriting     Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Handwriting
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Handwriting
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -733,10 +733,10 @@ Args in experiment:
   Model ID:           CLS_Heartbeat       Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Heartbeat
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Heartbeat
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -785,10 +785,10 @@ Args in experiment:
   Model ID:           CLS_InsectWingbeat  Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/InsectWingbeat
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/InsectWingbeat
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -837,10 +837,10 @@ Args in experiment:
   Model ID:           CLS_JapaneseVowels  Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/JapaneseVowels
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/JapaneseVowels
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -889,10 +889,10 @@ Args in experiment:
   Model ID:           CLS_Libras          Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Libras
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Libras
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -941,10 +941,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -993,10 +993,10 @@ Args in experiment:
   Model ID:           CLS_MotorImagery    Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/MotorImagery
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/MotorImagery
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1045,10 +1045,10 @@ Args in experiment:
   Model ID:           CLS_NATOPS          Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/NATOPS
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/NATOPS
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1097,10 +1097,10 @@ Args in experiment:
   Model ID:           CLS_PEMS-SF         Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/PEMS-SF
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/PEMS-SF
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1149,10 +1149,10 @@ Args in experiment:
   Model ID:           CLS_PenDigits       Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/PenDigits
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/PenDigits
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1201,10 +1201,10 @@ Args in experiment:
   Model ID:           CLS_PhonemeSpectra  Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/PhonemeSpectra
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/PhonemeSpectra
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1253,10 +1253,10 @@ Args in experiment:
   Model ID:           CLS_RacketSports    Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/RacketSports
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/RacketSports
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1305,10 +1305,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP1Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP1
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP1
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1357,10 +1357,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1409,10 +1409,10 @@ Args in experiment:
   Model ID:           CLS_SpokenArabicDigitsModel:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SpokenArabicDigits
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SpokenArabicDigits
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1461,10 +1461,10 @@ Args in experiment:
   Model ID:           CLS_StandWalkJump   Model:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/StandWalkJump
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1513,10 +1513,10 @@ Args in experiment:
   Model ID:           CLS_UWaveGestureLibraryModel:              FEDformer           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/UWaveGestureLibrary
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/FEDformer
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/FEDformer
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   

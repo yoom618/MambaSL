@@ -5,10 +5,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -89,10 +89,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -176,10 +176,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -269,10 +269,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -356,10 +356,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -452,10 +452,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -542,10 +542,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -629,10 +629,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -728,10 +728,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -827,10 +827,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -914,10 +914,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1004,10 +1004,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1097,10 +1097,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1184,10 +1184,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1286,10 +1286,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1370,10 +1370,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1457,10 +1457,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1544,10 +1544,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1643,10 +1643,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1733,10 +1733,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1823,10 +1823,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1907,10 +1907,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1988,10 +1988,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2072,10 +2072,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2162,10 +2162,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2252,10 +2252,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2345,10 +2345,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2435,10 +2435,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2516,10 +2516,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2606,10 +2606,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2687,10 +2687,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2780,10 +2780,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2876,10 +2876,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -2999,10 +2999,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3080,10 +3080,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3191,10 +3191,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3275,10 +3275,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3356,10 +3356,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3437,10 +3437,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3524,10 +3524,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3614,10 +3614,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3695,10 +3695,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3788,10 +3788,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3884,10 +3884,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -3965,10 +3965,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4058,10 +4058,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4151,10 +4151,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4244,10 +4244,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4325,10 +4325,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4424,10 +4424,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4514,10 +4514,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4619,10 +4619,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4706,10 +4706,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4805,10 +4805,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -4901,10 +4901,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5006,10 +5006,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5108,10 +5108,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5192,10 +5192,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5273,10 +5273,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5360,10 +5360,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5444,10 +5444,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5525,10 +5525,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5606,10 +5606,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5705,10 +5705,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5789,10 +5789,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5876,10 +5876,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -5957,10 +5957,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6053,10 +6053,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6146,10 +6146,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6251,10 +6251,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6341,10 +6341,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6425,10 +6425,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6509,10 +6509,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6611,10 +6611,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6695,10 +6695,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6788,10 +6788,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6872,10 +6872,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -6959,10 +6959,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7046,10 +7046,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7127,10 +7127,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7217,10 +7217,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7307,10 +7307,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7403,10 +7403,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7493,10 +7493,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7583,10 +7583,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7667,10 +7667,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7757,10 +7757,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7850,10 +7850,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -7943,10 +7943,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8048,10 +8048,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8135,10 +8135,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8216,10 +8216,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8312,10 +8312,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8393,10 +8393,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8477,10 +8477,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8561,10 +8561,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8675,10 +8675,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8756,10 +8756,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8873,10 +8873,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -8963,10 +8963,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9056,10 +9056,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9140,10 +9140,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9224,10 +9224,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9308,10 +9308,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9392,10 +9392,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9479,10 +9479,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9563,10 +9563,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9644,10 +9644,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9737,10 +9737,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9824,10 +9824,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -9917,10 +9917,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10019,10 +10019,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10115,10 +10115,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10199,10 +10199,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10283,10 +10283,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10376,10 +10376,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10463,10 +10463,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10553,10 +10553,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10655,10 +10655,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10751,10 +10751,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10835,10 +10835,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -10925,10 +10925,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11009,10 +11009,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11090,10 +11090,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11183,10 +11183,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11273,10 +11273,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11360,10 +11360,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11441,10 +11441,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11522,10 +11522,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11606,10 +11606,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11693,10 +11693,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11783,10 +11783,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11870,10 +11870,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -11963,10 +11963,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12044,10 +12044,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12125,10 +12125,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12224,10 +12224,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12317,10 +12317,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12425,10 +12425,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12542,10 +12542,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12647,10 +12647,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12746,10 +12746,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12842,10 +12842,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -12929,10 +12929,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13028,10 +13028,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13124,10 +13124,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13211,10 +13211,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13304,10 +13304,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13388,10 +13388,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13478,10 +13478,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13568,10 +13568,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13658,10 +13658,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13760,10 +13760,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13841,10 +13841,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -13931,10 +13931,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14027,10 +14027,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14114,10 +14114,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14204,10 +14204,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14297,10 +14297,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14414,10 +14414,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14501,10 +14501,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14594,10 +14594,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14681,10 +14681,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14771,10 +14771,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14864,10 +14864,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -14957,10 +14957,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15062,10 +15062,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15155,10 +15155,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15248,10 +15248,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15332,10 +15332,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15455,10 +15455,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15545,10 +15545,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15629,10 +15629,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15734,10 +15734,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15854,10 +15854,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -15950,10 +15950,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16037,10 +16037,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16118,10 +16118,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16211,10 +16211,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16316,10 +16316,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16412,10 +16412,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16502,10 +16502,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16598,10 +16598,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16682,10 +16682,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16769,10 +16769,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16853,10 +16853,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -16934,10 +16934,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17015,10 +17015,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17111,10 +17111,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17198,10 +17198,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17282,10 +17282,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17378,10 +17378,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17468,10 +17468,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17561,10 +17561,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17669,10 +17669,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17759,10 +17759,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17855,10 +17855,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -17951,10 +17951,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18038,10 +18038,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18119,10 +18119,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18203,10 +18203,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18293,10 +18293,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18395,10 +18395,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18494,10 +18494,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18575,10 +18575,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18656,10 +18656,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18743,10 +18743,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18833,10 +18833,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -18935,10 +18935,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19016,10 +19016,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19124,10 +19124,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19208,10 +19208,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19301,10 +19301,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19388,10 +19388,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19484,10 +19484,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19571,10 +19571,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19661,10 +19661,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19757,10 +19757,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19841,10 +19841,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -19931,10 +19931,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20027,10 +20027,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20117,10 +20117,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20222,10 +20222,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20315,10 +20315,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20399,10 +20399,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20483,10 +20483,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20603,10 +20603,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20687,10 +20687,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20777,10 +20777,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20870,10 +20870,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -20954,10 +20954,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21056,10 +21056,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21173,10 +21173,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21284,10 +21284,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21368,10 +21368,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21455,10 +21455,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21548,10 +21548,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21629,10 +21629,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21728,10 +21728,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21815,10 +21815,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -21920,10 +21920,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22007,10 +22007,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22106,10 +22106,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22232,10 +22232,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22331,10 +22331,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22427,10 +22427,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22514,10 +22514,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22619,10 +22619,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22709,10 +22709,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22820,10 +22820,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -22928,10 +22928,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -23021,10 +23021,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              ModernTCN           
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2/
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2/
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints
+  Checkpoints:        /data/user/MambaSL/checkpoints
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   

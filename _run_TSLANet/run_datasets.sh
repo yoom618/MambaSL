@@ -17,7 +17,7 @@ mkdir -p _run_TSLANet/dm${dmodel}_depth${depth}/results
 for dataset in ${UEA_MTSC30[@]}
 do
 python -u _run_TSLANet/TSLANet_classification.py \
-    --data_path "/data/yoom618/TSLib/dataset/${dataset}" \
+    --data_path "/data/user/MambaSL/dataset/${dataset}" \
     --data_type uea \
     --data_name ${dataset} \
     --save_path "_run_TSLANet/dm${dmodel}_depth${depth}/logs" \

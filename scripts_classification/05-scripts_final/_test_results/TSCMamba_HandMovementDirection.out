@@ -5,10 +5,10 @@ Args in experiment:
   Model ID:           CLS_HandMovementDirectionModel:              TSCMamba            
 
 [1mData Loader[0m
-  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/HandMovementDirection
+  Data:               UEA4TSCMamba        Root Path:          /data/user/MambaSL/dataset/HandMovementDirection
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/TSCMamba
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        8                   
@@ -59,10 +59,10 @@ Args in experiment:
   Model ID:           CLS_HandMovementDirectionModel:              TSCMamba            
 
 [1mData Loader[0m
-  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/HandMovementDirection
+  Data:               UEA4TSCMamba        Root Path:          /data/user/MambaSL/dataset/HandMovementDirection
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/TSCMamba
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        8                   
@@ -113,10 +113,10 @@ Args in experiment:
   Model ID:           CLS_HandMovementDirectionModel:              TSCMamba            
 
 [1mData Loader[0m
-  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/HandMovementDirection
+  Data:               UEA4TSCMamba        Root Path:          /data/user/MambaSL/dataset/HandMovementDirection
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/TSCMamba
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        8                   
@@ -167,10 +167,10 @@ Args in experiment:
   Model ID:           CLS_HandMovementDirectionModel:              TSCMamba            
 
 [1mData Loader[0m
-  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/HandMovementDirection
+  Data:               UEA4TSCMamba        Root Path:          /data/user/MambaSL/dataset/HandMovementDirection
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/TSCMamba
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        8                   
@@ -221,10 +221,10 @@ Args in experiment:
   Model ID:           CLS_HandMovementDirectionModel:              TSCMamba            
 
 [1mData Loader[0m
-  Data:               UEA4TSCMamba        Root Path:          /data/yoom618/TSLib/dataset/HandMovementDirection
+  Data:               UEA4TSCMamba        Root Path:          /data/user/MambaSL/dataset/HandMovementDirection
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/TSCMamba
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/TSCMamba
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        8                   

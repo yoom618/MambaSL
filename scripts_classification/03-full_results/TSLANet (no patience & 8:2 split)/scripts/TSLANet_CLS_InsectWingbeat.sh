@@ -1,6 +1,6 @@
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -13,7 +13,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -24,7 +24,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -37,7 +37,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -48,7 +48,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -61,7 +61,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -72,7 +72,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -85,7 +85,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -96,7 +96,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -109,7 +109,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -120,7 +120,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -133,7 +133,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -144,7 +144,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -157,7 +157,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -168,7 +168,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -181,7 +181,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -192,7 +192,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -205,7 +205,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -216,7 +216,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -229,7 +229,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -240,7 +240,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -253,7 +253,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -264,7 +264,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -277,7 +277,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -288,7 +288,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -301,7 +301,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -312,7 +312,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -325,7 +325,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -336,7 +336,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -349,7 +349,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -360,7 +360,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -373,7 +373,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -384,7 +384,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -397,7 +397,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -408,7 +408,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -421,7 +421,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -432,7 +432,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -445,7 +445,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -456,7 +456,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -469,7 +469,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -480,7 +480,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -493,7 +493,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -504,7 +504,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -517,7 +517,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -528,7 +528,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -541,7 +541,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -552,7 +552,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -565,7 +565,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -576,7 +576,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -589,7 +589,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -600,7 +600,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -613,7 +613,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -624,7 +624,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -637,7 +637,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -648,7 +648,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -661,7 +661,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -672,7 +672,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -685,7 +685,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -696,7 +696,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -709,7 +709,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -720,7 +720,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -733,7 +733,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -744,7 +744,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -757,7 +757,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -768,7 +768,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -781,7 +781,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -792,7 +792,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -805,7 +805,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -816,7 +816,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -829,7 +829,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -840,7 +840,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -853,7 +853,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -864,7 +864,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -877,7 +877,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -888,7 +888,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -901,7 +901,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -912,7 +912,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -925,7 +925,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -936,7 +936,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -949,7 +949,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -960,7 +960,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -973,7 +973,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -984,7 +984,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -997,7 +997,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1008,7 +1008,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1021,7 +1021,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1032,7 +1032,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1045,7 +1045,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1056,7 +1056,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1069,7 +1069,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1080,7 +1080,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1093,7 +1093,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1104,7 +1104,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1117,7 +1117,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1128,7 +1128,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1141,7 +1141,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1152,7 +1152,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1165,7 +1165,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1176,7 +1176,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1189,7 +1189,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1200,7 +1200,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1213,7 +1213,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1224,7 +1224,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1237,7 +1237,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1248,7 +1248,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1261,7 +1261,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1272,7 +1272,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1285,7 +1285,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1296,7 +1296,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1309,7 +1309,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1320,7 +1320,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1333,7 +1333,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1344,7 +1344,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1357,7 +1357,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1368,7 +1368,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1381,7 +1381,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1392,7 +1392,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1405,7 +1405,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1416,7 +1416,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1429,7 +1429,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1440,7 +1440,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1453,7 +1453,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1464,7 +1464,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1477,7 +1477,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1488,7 +1488,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1501,7 +1501,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1512,7 +1512,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1525,7 +1525,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1536,7 +1536,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1549,7 +1549,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1560,7 +1560,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1573,7 +1573,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1584,7 +1584,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1597,7 +1597,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1608,7 +1608,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1621,7 +1621,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1632,7 +1632,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1645,7 +1645,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1656,7 +1656,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1669,7 +1669,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1680,7 +1680,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1693,7 +1693,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1704,7 +1704,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1717,7 +1717,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1728,7 +1728,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1741,7 +1741,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1752,7 +1752,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1765,7 +1765,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1776,7 +1776,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1789,7 +1789,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1800,7 +1800,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1813,7 +1813,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1824,7 +1824,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1837,7 +1837,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1848,7 +1848,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1861,7 +1861,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1872,7 +1872,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1885,7 +1885,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1896,7 +1896,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1909,7 +1909,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1920,7 +1920,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1933,7 +1933,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1944,7 +1944,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1957,7 +1957,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1968,7 +1968,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -1981,7 +1981,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -1992,7 +1992,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2005,7 +2005,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2016,7 +2016,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2029,7 +2029,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2040,7 +2040,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2053,7 +2053,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2064,7 +2064,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2077,7 +2077,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2088,7 +2088,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2101,7 +2101,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2112,7 +2112,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2125,7 +2125,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2136,7 +2136,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2149,7 +2149,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2160,7 +2160,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2173,7 +2173,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2184,7 +2184,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2197,7 +2197,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2208,7 +2208,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2221,7 +2221,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2232,7 +2232,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2245,7 +2245,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2256,7 +2256,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2269,7 +2269,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2280,7 +2280,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2293,7 +2293,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2304,7 +2304,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2317,7 +2317,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2328,7 +2328,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2341,7 +2341,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2352,7 +2352,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2365,7 +2365,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2376,7 +2376,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2389,7 +2389,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2400,7 +2400,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2413,7 +2413,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2424,7 +2424,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2437,7 +2437,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2448,7 +2448,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2461,7 +2461,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2472,7 +2472,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2485,7 +2485,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2496,7 +2496,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2509,7 +2509,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2520,7 +2520,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2533,7 +2533,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2544,7 +2544,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2557,7 +2557,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2568,7 +2568,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2581,7 +2581,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2592,7 +2592,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2605,7 +2605,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2616,7 +2616,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2629,7 +2629,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2640,7 +2640,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2653,7 +2653,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2664,7 +2664,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2677,7 +2677,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2688,7 +2688,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2701,7 +2701,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2712,7 +2712,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2725,7 +2725,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2736,7 +2736,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2749,7 +2749,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2760,7 +2760,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2773,7 +2773,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2784,7 +2784,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2797,7 +2797,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2808,7 +2808,7 @@
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -2821,7 +2821,7 @@
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -2832,7 +2832,7 @@
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -2845,7 +2845,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 5 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -2856,7 +2856,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -2869,7 +2869,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 6 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -2880,7 +2880,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -2893,7 +2893,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 2 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -2904,7 +2904,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -2917,7 +2917,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 3 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -2928,7 +2928,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -2941,7 +2941,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 4 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -2952,7 +2952,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -2965,7 +2965,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 5 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -2976,7 +2976,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -2989,7 +2989,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 6 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3000,7 +3000,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3013,7 +3013,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 2 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3024,7 +3024,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3037,7 +3037,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 3 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3048,7 +3048,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3061,7 +3061,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 4 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3072,7 +3072,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3085,7 +3085,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 5 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3096,7 +3096,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3109,7 +3109,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 6 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3120,7 +3120,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3133,7 +3133,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 2 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3144,7 +3144,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3157,7 +3157,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 3 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3168,7 +3168,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3181,7 +3181,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 4 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3192,7 +3192,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3205,7 +3205,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 5 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3216,7 +3216,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3229,7 +3229,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 6 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3240,7 +3240,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3253,7 +3253,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 2 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3264,7 +3264,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3277,7 +3277,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 3 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3288,7 +3288,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3301,7 +3301,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 4 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3312,7 +3312,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3325,7 +3325,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 5 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3336,7 +3336,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3349,7 +3349,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 6 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3360,7 +3360,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3373,7 +3373,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 2 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3384,7 +3384,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3397,7 +3397,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 3 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3408,7 +3408,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3421,7 +3421,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 4 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3432,7 +3432,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3445,7 +3445,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 5 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3456,7 +3456,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 python -u _run_TSLANet/TSLANet_classification.py \
   --gpu 3 \
-  --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --data_path /data/user/MambaSL/dataset/InsectWingbeat \
   --data_type uea \
   --data_name InsectWingbeat \
   --model_id CLS_InsectWingbeat \
@@ -3469,7 +3469,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
   --adaptive_filter True \
   --load_from_pretrained True \
   --patch_size 6 \
-  --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+  --save_path "/data/user/MambaSL/logs (TSLANet)" \
   --batch_size 16 \
   --dropout 0.15 \
   --train_lr 0.001 \
@@ -3480,7 +3480,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3493,7 +3493,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3504,7 +3504,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3517,7 +3517,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3528,7 +3528,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3541,7 +3541,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3552,7 +3552,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3565,7 +3565,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3576,7 +3576,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3589,7 +3589,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3600,7 +3600,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3613,7 +3613,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3624,7 +3624,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3637,7 +3637,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3648,7 +3648,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3661,7 +3661,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3672,7 +3672,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3685,7 +3685,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3696,7 +3696,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3709,7 +3709,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3720,7 +3720,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3733,7 +3733,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3744,7 +3744,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3757,7 +3757,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3768,7 +3768,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3781,7 +3781,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3792,7 +3792,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3805,7 +3805,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3816,7 +3816,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3829,7 +3829,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3840,7 +3840,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3853,7 +3853,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3864,7 +3864,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3877,7 +3877,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3888,7 +3888,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3901,7 +3901,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3912,7 +3912,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3925,7 +3925,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3936,7 +3936,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3949,7 +3949,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3960,7 +3960,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3973,7 +3973,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -3984,7 +3984,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -3997,7 +3997,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4008,7 +4008,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4021,7 +4021,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4032,7 +4032,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4045,7 +4045,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4056,7 +4056,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4069,7 +4069,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4080,7 +4080,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4093,7 +4093,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4104,7 +4104,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4117,7 +4117,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4128,7 +4128,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4141,7 +4141,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4152,7 +4152,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4165,7 +4165,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4176,7 +4176,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4189,7 +4189,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4200,7 +4200,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4213,7 +4213,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 2 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4224,7 +4224,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4237,7 +4237,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 3 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4248,7 +4248,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4261,7 +4261,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 4 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4272,7 +4272,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4285,7 +4285,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 5 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \
@@ -4296,7 +4296,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 
 # python -u _run_TSLANet/TSLANet_classification.py \
 #   --gpu 3 \
-#   --data_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+#   --data_path /data/user/MambaSL/dataset/InsectWingbeat \
 #   --data_type uea \
 #   --data_name InsectWingbeat \
 #   --model_id CLS_InsectWingbeat \
@@ -4309,7 +4309,7 @@ python -u _run_TSLANet/TSLANet_classification.py \
 #   --adaptive_filter True \
 #   --load_from_pretrained True \
 #   --patch_size 6 \
-#   --save_path "/data/yoom618/TSLib/logs (TSLANet)" \
+#   --save_path "/data/user/MambaSL/logs (TSLANet)" \
 #   --batch_size 16 \
 #   --dropout 0.15 \
 #   --train_lr 0.001 \

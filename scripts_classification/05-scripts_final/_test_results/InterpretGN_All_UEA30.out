@@ -5,10 +5,10 @@ Args in experiment:
   Model ID:           CLS_ArticularyWordRecognitionModel:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/ArticularyWordRecognition
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/ArticularyWordRecognition
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -50,10 +50,10 @@ Args in experiment:
   Model ID:           CLS_AtrialFibrillationModel:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/AtrialFibrillation
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/AtrialFibrillation
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -95,10 +95,10 @@ Args in experiment:
   Model ID:           CLS_BasicMotions    Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/BasicMotions
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -140,10 +140,10 @@ Args in experiment:
   Model ID:           CLS_CharacterTrajectoriesModel:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/CharacterTrajectories
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/CharacterTrajectories
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -185,10 +185,10 @@ Args in experiment:
   Model ID:           CLS_Cricket         Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Cricket
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Cricket
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -230,10 +230,10 @@ Args in experiment:
   Model ID:           CLS_DuckDuckGeese   Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/DuckDuckGeese
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/DuckDuckGeese
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -275,10 +275,10 @@ Args in experiment:
   Model ID:           CLS_EigenWorms      Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EigenWorms
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EigenWorms
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -320,10 +320,10 @@ Args in experiment:
   Model ID:           CLS_Epilepsy        Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Epilepsy
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Epilepsy
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -365,10 +365,10 @@ Args in experiment:
   Model ID:           CLS_ERing           Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/ERing
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/ERing
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -410,10 +410,10 @@ Args in experiment:
   Model ID:           CLS_EthanolConcentrationModel:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/EthanolConcentration
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -455,10 +455,10 @@ Args in experiment:
   Model ID:           CLS_FaceDetection   Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/FaceDetection
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/FaceDetection
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -500,10 +500,10 @@ Args in experiment:
   Model ID:           CLS_FingerMovements Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/FingerMovements
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/FingerMovements
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -545,10 +545,10 @@ Args in experiment:
   Model ID:           CLS_HandMovementDirectionModel:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/HandMovementDirection
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/HandMovementDirection
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -590,10 +590,10 @@ Args in experiment:
   Model ID:           CLS_Handwriting     Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Handwriting
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Handwriting
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -635,10 +635,10 @@ Args in experiment:
   Model ID:           CLS_Heartbeat       Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Heartbeat
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Heartbeat
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -680,10 +680,10 @@ Args in experiment:
   Model ID:           CLS_InsectWingbeat  Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/InsectWingbeat
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/InsectWingbeat
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -725,10 +725,10 @@ Args in experiment:
   Model ID:           CLS_JapaneseVowels  Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/JapaneseVowels
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/JapaneseVowels
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -770,10 +770,10 @@ Args in experiment:
   Model ID:           CLS_Libras          Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/Libras
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/Libras
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -815,10 +815,10 @@ Args in experiment:
   Model ID:           CLS_LSST            Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/LSST
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/LSST
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -860,10 +860,10 @@ Args in experiment:
   Model ID:           CLS_MotorImagery    Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/MotorImagery
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/MotorImagery
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -905,10 +905,10 @@ Args in experiment:
   Model ID:           CLS_NATOPS          Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/NATOPS
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/NATOPS
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -950,10 +950,10 @@ Args in experiment:
   Model ID:           CLS_PEMS-SF         Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/PEMS-SF
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/PEMS-SF
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -995,10 +995,10 @@ Args in experiment:
   Model ID:           CLS_PenDigits       Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/PenDigits
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/PenDigits
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1040,10 +1040,10 @@ Args in experiment:
   Model ID:           CLS_PhonemeSpectra  Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/PhonemeSpectra
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/PhonemeSpectra
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1085,10 +1085,10 @@ Args in experiment:
   Model ID:           CLS_RacketSports    Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/RacketSports
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/RacketSports
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1130,10 +1130,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP1Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP1
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP1
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1175,10 +1175,10 @@ Args in experiment:
   Model ID:           CLS_SelfRegulationSCP2Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SelfRegulationSCP2
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SelfRegulationSCP2
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1220,10 +1220,10 @@ Args in experiment:
   Model ID:           CLS_SpokenArabicDigitsModel:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/SpokenArabicDigits
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/SpokenArabicDigits
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1265,10 +1265,10 @@ Args in experiment:
   Model ID:           CLS_StandWalkJump   Model:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/StandWalkJump
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/StandWalkJump
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   
@@ -1310,10 +1310,10 @@ Args in experiment:
   Model ID:           CLS_UWaveGestureLibraryModel:              InterpretGN         
 
 [1mData Loader[0m
-  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/UWaveGestureLibrary
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/UWaveGestureLibrary
   Data Path:          ETTh1.csv           Features:           M                   
   Target:             OT                  Freq:               h                   
-  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/InterpretGN
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/InterpretGN
 
 [1mModel Parameters[0m
   Top k:              5                   Num Kernels:        6                   

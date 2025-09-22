@@ -1,11 +1,11 @@
 model_name="GPT4TS"
 dataset_name="EthanolConcentration"
-tslib_dir="/data/yoom618/TSLib"
+source_dir="/data/user/MambaSL"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/${model_name}"
-huggingface_cache_dir="${tslib_dir}/huggingface"
+data_dir="${source_dir}/dataset"
+checkpoint_dir="${source_dir}/checkpoints_best/${model_name}"
+huggingface_cache_dir="${source_dir}/huggingface"
 
 python run.py \
   --use_gpu True \

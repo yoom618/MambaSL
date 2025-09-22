@@ -1,10 +1,10 @@
 model_name="TSLANet"
 dataset_name="UWaveGestureLibrary"
-tslib_dir="/data/yoom618/TSLib"
+source_dir="/data/user/MambaSL"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/${model_name}"
+data_dir="${source_dir}/dataset"
+checkpoint_dir="${source_dir}/checkpoints_best/${model_name}"
 
 # below all have the same performance
 

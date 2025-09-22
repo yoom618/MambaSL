@@ -5,13 +5,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -47,13 +47,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -89,13 +89,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -131,13 +131,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -173,13 +173,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -215,13 +215,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -257,13 +257,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -299,13 +299,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -341,13 +341,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -383,13 +383,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -425,13 +425,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -467,13 +467,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -509,13 +509,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -551,13 +551,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -593,13 +593,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -635,13 +635,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -677,13 +677,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -719,13 +719,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -761,13 +761,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -803,13 +803,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -845,13 +845,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -887,13 +887,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -929,13 +929,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -971,13 +971,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1013,13 +1013,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1055,13 +1055,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1097,13 +1097,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1139,13 +1139,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1181,13 +1181,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1223,13 +1223,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1265,13 +1265,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1307,13 +1307,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1349,13 +1349,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1391,13 +1391,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1433,13 +1433,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1475,13 +1475,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1517,13 +1517,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1559,13 +1559,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1601,13 +1601,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1643,13 +1643,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1685,13 +1685,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1727,13 +1727,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1769,13 +1769,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1811,13 +1811,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1853,13 +1853,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1895,13 +1895,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1937,13 +1937,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -1979,13 +1979,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2021,13 +2021,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2063,13 +2063,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2105,13 +2105,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2147,13 +2147,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2189,13 +2189,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2231,13 +2231,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2273,13 +2273,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2315,13 +2315,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2357,13 +2357,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2399,13 +2399,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2441,13 +2441,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2483,13 +2483,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2525,13 +2525,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2567,13 +2567,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2609,13 +2609,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2651,13 +2651,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2693,13 +2693,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2735,13 +2735,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2777,13 +2777,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2819,13 +2819,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2861,13 +2861,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2903,13 +2903,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2945,13 +2945,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -2987,13 +2987,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3029,13 +3029,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3071,13 +3071,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3113,13 +3113,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3155,13 +3155,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3197,13 +3197,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3239,13 +3239,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3281,13 +3281,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3323,13 +3323,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3365,13 +3365,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3407,13 +3407,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3449,13 +3449,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3491,13 +3491,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3533,13 +3533,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3575,13 +3575,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3617,13 +3617,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3659,13 +3659,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3701,13 +3701,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3743,13 +3743,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3785,13 +3785,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3827,13 +3827,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3869,13 +3869,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3911,13 +3911,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3953,13 +3953,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -3995,13 +3995,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 256 \
@@ -4037,13 +4037,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4079,13 +4079,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4121,13 +4121,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4163,13 +4163,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4205,13 +4205,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4247,13 +4247,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4289,13 +4289,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4331,13 +4331,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4373,13 +4373,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4415,13 +4415,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4457,13 +4457,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4499,13 +4499,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4541,13 +4541,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4583,13 +4583,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4625,13 +4625,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4667,13 +4667,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4709,13 +4709,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4751,13 +4751,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4793,13 +4793,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4835,13 +4835,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4877,13 +4877,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4919,13 +4919,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -4961,13 +4961,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5003,13 +5003,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5045,13 +5045,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5087,13 +5087,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5129,13 +5129,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5171,13 +5171,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5213,13 +5213,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5255,13 +5255,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5297,13 +5297,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5339,13 +5339,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5381,13 +5381,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5423,13 +5423,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5465,13 +5465,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5507,13 +5507,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5549,13 +5549,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5591,13 +5591,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5633,13 +5633,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5675,13 +5675,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5717,13 +5717,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5759,13 +5759,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5801,13 +5801,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5843,13 +5843,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5885,13 +5885,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5927,13 +5927,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -5969,13 +5969,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6011,13 +6011,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6053,13 +6053,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6095,13 +6095,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6137,13 +6137,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6179,13 +6179,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6221,13 +6221,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6263,13 +6263,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6305,13 +6305,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6347,13 +6347,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6389,13 +6389,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6431,13 +6431,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6473,13 +6473,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6515,13 +6515,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6557,13 +6557,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6599,13 +6599,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6641,13 +6641,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6683,13 +6683,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6725,13 +6725,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6767,13 +6767,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6809,13 +6809,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6851,13 +6851,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6893,13 +6893,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6935,13 +6935,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -6977,13 +6977,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7019,13 +7019,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7061,13 +7061,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7103,13 +7103,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7145,13 +7145,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7187,13 +7187,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7229,13 +7229,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7271,13 +7271,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7313,13 +7313,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7355,13 +7355,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7397,13 +7397,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7439,13 +7439,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7481,13 +7481,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7523,13 +7523,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7565,13 +7565,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7607,13 +7607,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7649,13 +7649,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7691,13 +7691,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7733,13 +7733,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7775,13 +7775,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7817,13 +7817,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7859,13 +7859,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7901,13 +7901,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7943,13 +7943,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -7985,13 +7985,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -8027,13 +8027,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 128 \
@@ -8069,13 +8069,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8111,13 +8111,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8153,13 +8153,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8195,13 +8195,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8237,13 +8237,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8279,13 +8279,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8321,13 +8321,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8363,13 +8363,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8405,13 +8405,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8447,13 +8447,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8489,13 +8489,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8531,13 +8531,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8573,13 +8573,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8615,13 +8615,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8657,13 +8657,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8699,13 +8699,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8741,13 +8741,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8783,13 +8783,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8825,13 +8825,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8867,13 +8867,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8909,13 +8909,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8951,13 +8951,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -8993,13 +8993,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9035,13 +9035,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9077,13 +9077,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9119,13 +9119,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9161,13 +9161,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9203,13 +9203,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9245,13 +9245,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9287,13 +9287,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9329,13 +9329,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9371,13 +9371,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9413,13 +9413,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9455,13 +9455,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9497,13 +9497,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9539,13 +9539,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9581,13 +9581,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9623,13 +9623,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9665,13 +9665,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9707,13 +9707,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9749,13 +9749,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9791,13 +9791,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9833,13 +9833,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9875,13 +9875,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9917,13 +9917,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -9959,13 +9959,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10001,13 +10001,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10043,13 +10043,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10085,13 +10085,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10127,13 +10127,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10169,13 +10169,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10211,13 +10211,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10253,13 +10253,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10295,13 +10295,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10337,13 +10337,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10379,13 +10379,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10421,13 +10421,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10463,13 +10463,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10505,13 +10505,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10547,13 +10547,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10589,13 +10589,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10631,13 +10631,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10673,13 +10673,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10715,13 +10715,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10757,13 +10757,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10799,13 +10799,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10841,13 +10841,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10883,13 +10883,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10925,13 +10925,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -10967,13 +10967,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11009,13 +11009,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11051,13 +11051,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11093,13 +11093,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11135,13 +11135,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11177,13 +11177,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11219,13 +11219,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11261,13 +11261,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11303,13 +11303,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11345,13 +11345,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11387,13 +11387,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11429,13 +11429,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11471,13 +11471,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11513,13 +11513,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11555,13 +11555,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11597,13 +11597,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11639,13 +11639,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11681,13 +11681,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11723,13 +11723,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11765,13 +11765,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11807,13 +11807,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11849,13 +11849,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11891,13 +11891,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11933,13 +11933,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -11975,13 +11975,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -12017,13 +12017,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
@@ -12059,13 +12059,13 @@ python run.py \
   --gpu 0 \
   --task_name classification \
   --data UEA4TSCMamba \
-  --root_path /data/yoom618/TSLib/dataset/InsectWingbeat \
+  --root_path /data/user/MambaSL/dataset/InsectWingbeat \
   --seq_len 22 \
   --enc_in 200 \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --checkpoints /data/user/MambaSL/checkpoints \
   --model TSCMamba \
   --model_id CLS_InsectWingbeat \
   --d_model 64 \
