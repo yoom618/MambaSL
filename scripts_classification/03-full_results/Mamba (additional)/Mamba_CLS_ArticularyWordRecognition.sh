@@ -1,0 +1,6960 @@
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 4 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 3 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 2 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 16 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 8 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 4 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 2 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 2 \
+  --d_ff 1 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 16 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 8 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 4 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 2 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 1024 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 512 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 256 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 128 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 64 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+
+python run.py \
+  --use_gpu True \
+  --gpu_type cuda \
+  --gpu 0 \
+  --task_name classification \
+  --data UEA \
+  --root_path /data/yoom618/TSLib/dataset/ArticularyWordRecognition \
+  --seq_len 144 \
+  --enc_in 9 \
+  --label_len 0 \
+  --pred_len 0 \
+  --c_out 0 \
+  --checkpoints /data/yoom618/TSLib/checkpoints \
+  --model Mamba \
+  --model_id CLS_ArticularyWordRecognition \
+  --e_layers 1 \
+  --expand 1 \
+  --d_ff 1 \
+  --d_model 32 \
+  --d_conv 4 \
+  --is_training 1 \
+  --batch_size 16 \
+  --des Exp \
+  --itr 1 \
+  --dropout 0.1 \
+  --learning_rate 0.001 \
+  --train_epochs 100 \
+  --patience 10
+

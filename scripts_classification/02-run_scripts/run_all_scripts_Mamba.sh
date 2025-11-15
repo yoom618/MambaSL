@@ -6,7 +6,7 @@
 # UEA_MTSC30=("SelfRegulationSCP1" "SelfRegulationSCP2" "SpokenArabicDigits" "StandWalkJump" "UWaveGestureLibrary")  # GPU 2
 # UEA_MTSC30=("EigenWorms")
 
-UEA_MTSC30=()
+
 model="Mamba_CLS"
 for dataset in ${UEA_MTSC30[@]}
 do
