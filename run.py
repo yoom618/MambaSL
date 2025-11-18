@@ -296,10 +296,15 @@ if __name__ == '__main__':
                         + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_dm{args.d_model}_ds{args.d_ff}' \
                         + f'_expand{args.expand}_dc{args.d_conv}_nk{args.num_kernels}' \
                         + f'_tvdt{int(args.tv_dt)}_tvB{int(args.tv_B)}_tvC{int(args.tv_C)}_useD{int(args.use_D)}_{args.des}_{ii}'
+            elif args.model == 'MambaMultiLayer':  # for ablation
+                setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
+                        + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_el{args.e_layers}_dm{args.d_model}_ds{args.d_ff}' \
+                        + f'_expand{args.expand}_dc{args.d_conv}_nk{args.num_kernels}' \
+                        + f'_tvdt{int(args.tv_dt)}_tvB{int(args.tv_B)}_tvC{int(args.tv_C)}_useD{int(args.use_D)}_{args.des}_{ii}'
             elif args.model == 'Mamba':
                 setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                         + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
-                        + f'_dm{args.d_model}_ds{args.d_ff}_expand{args.expand}_dc{args.d_conv}_{args.des}_{ii}'
+                        + f'_el{args.e_layers}_dm{args.d_model}_ds{args.d_ff}_expand{args.expand}_dc{args.d_conv}_{args.des}_{ii}'
             elif args.model == 'DLinear':
                 setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                         + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_ma{args.moving_avg}_i{args.individual}_{args.des}_{ii}'
@@ -415,10 +420,15 @@ if __name__ == '__main__':
                     + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_dm{args.d_model}_ds{args.d_ff}' \
                     + f'_expand{args.expand}_dc{args.d_conv}_nk{args.num_kernels}' \
                     + f'_tvdt{args.tv_dt}_tvB{args.tv_B}_tvC{args.tv_C}_useD{int(args.use_D)}_{args.des}_{ii}'
+        elif args.model == 'MambaMultiLayer':
+            setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
+                    + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_el{args.e_layers}_dm{args.d_model}_ds{args.d_ff}' \
+                    + f'_expand{args.expand}_dc{args.d_conv}_nk{args.num_kernels}' \
+                    + f'_tvdt{args.tv_dt}_tvB{args.tv_B}_tvC{args.tv_C}_useD{int(args.use_D)}_{args.des}_{ii}'
         elif args.model == 'Mamba':
             setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                     + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}' \
-                    + f'_dm{args.d_model}_ds{args.d_ff}_expand{args.expand}_dc{args.d_conv}_{args.des}_{ii}'
+                    + f'_el{args.e_layers}_dm{args.d_model}_ds{args.d_ff}_expand{args.expand}_dc{args.d_conv}_{args.des}_{ii}'
         elif args.model == 'DLinear':
             setting = f'{args.task_name}_{args.model_id}_{args.model}_{args.data}_ft{args.features}' \
                     + f'_sl{args.seq_len}_ll{args.label_len}_pl{args.pred_len}_ma{args.moving_avg}_i{args.individual}_{args.des}_{ii}'

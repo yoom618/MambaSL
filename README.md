@@ -60,7 +60,7 @@
         │   └── run_cls_script (model_name).sh
         ├── 03-full_results
         │   └── model_name
-        |       ├── (experiment scripts and logs)
+        │       ├── (experiment scripts and logs)
         │       └── ...
         ├── 04-retrieve_results
         │   ├── retrieve_results (TSLib models).ipynb
