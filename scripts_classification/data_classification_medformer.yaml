@@ -1,0 +1,91 @@
+# CLS_APAVA:
+#   task_name: classification_medical
+#   dataset: APAVA
+#   data: APAVA
+#   root_path: data_dir/APAVA
+#   seq_len: 256
+#   enc_in: 16
+#   num_class: 2
+#   label_len: 0
+#   pred_len: 0
+#   c_out: 0
+#   batch_size: 32
+
+CLS_ADFTD:
+  task_name: classification_medical
+  dataset: ADFTD
+  data: ADFTD
+  root_path: data_dir/ADFTD
+  seq_len: 256
+  enc_in: 19
+  num_class: 3
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+  batch_size: 128
+
+# CLS_TDBrain:
+#   task_name: classification_medical
+#   dataset: TDBrain
+#   data: TDBrain
+#   root_path: data_dir/TDBrain
+#   seq_len: 256
+#   enc_in: 33
+#   num_class: 2
+#   label_len: 0
+#   pred_len: 0
+#   c_out: 0
+#   batch_size: 32
+
+# CLS_PTB:
+#   task_name: classification_medical
+#   dataset: PTB
+#   data: PTB
+#   root_path: data_dir/PTB
+#   seq_len: 300
+#   enc_in: 15
+#   num_class: 2
+#   label_len: 0
+#   pred_len: 0
+#   c_out: 0
+#   batch_size: 128
+
+# CLS_PTB-XL: 
+#   task_name: classification_medical
+#   dataset: PTB-XL
+#   data: PTB-XL
+#   root_path: data_dir/PTB-XL
+#   seq_len: 250
+#   enc_in: 12
+#   num_class: 5
+#   label_len: 0
+#   pred_len: 0
+#   c_out: 0
+#   batch_size: 256
+
+CLS_FLAAP:
+  task_name: classification_medical
+  dataset: FLAAP
+  data: FLAAP
+  root_path: data_dir/FLAAP
+  seq_len: 100
+  enc_in: 6
+  num_class: 10
+  label_len: 0
+  pred_len: 0
+  c_out: 0
+  batch_size: 32
+
+# CLS_UCI-HAR: 
+#   task_name: classification_medical
+#   dataset: JapaneseVowels
+#   data: UCI-HAR
+#   root_path: data_dir/JapaneseVowels
+#   seq_len: 
+#   enc_in: 
+#   num_class: 6
+#   label_len: 0
+#   pred_len: 0
+#   c_out: 0
+#   batch_size: 32
+

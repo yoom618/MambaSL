@@ -24,3 +24,5 @@ seaborn==0.13.2
 plotly==6.3.0
 kaleido==1.0.0
 umap-learn==0.5.9.post2
+### others
+natsort==8.4.0
