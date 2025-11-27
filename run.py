@@ -251,6 +251,8 @@ if __name__ == '__main__':
     from exp.exp_short_term_forecasting import Exp_Short_Term_Forecast
     from exp.exp_anomaly_detection import Exp_Anomaly_Detection
     from exp.exp_classification import Exp_Classification
+    from exp.exp_classification_trainlossonly import Exp_Classification_Using_TrainLoss  # using train dataset as validation set (similar to InceptionTime)
+    from exp.exp_classification_medical import Exp_Classification_Medical  # for further experiments on recent datasets (ref: Medformer)
 
     fix_seed = 2021
     random.seed(fix_seed)
