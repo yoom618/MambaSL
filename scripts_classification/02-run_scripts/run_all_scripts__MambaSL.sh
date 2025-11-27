@@ -24,3 +24,16 @@ do
     echo "Result will be saved in ./scripts_classification/results/${model}_${datasetexp}.out"
     nohup bash ./scripts_classification/scripts_mamba/${exp}/${model}_${datasetexp}.sh > ./scripts_classification/results/${model}_${datasetexp}.out &
 done
+
+
+UEA_MTSC30=("FingerMovements" "Heartbeat" "LSST")
+
+exp="trainlossonly"
+model="MambaSL_CLS"
+for dataset in ${UEA_MTSC30[@]}
+do
+    datasetexp="${dataset}_${exp}"
+    echo "Running ./scripts_classification/scripts_mamba/${exp}/${model}_${datasetexp}.sh"
+    echo "Result will be saved in ./scripts_classification/results/${model}_${datasetexp}.out"
+    nohup bash ./scripts_classification/scripts_mamba/${exp}/${model}_${datasetexp}.sh > ./scripts_classification/results/${model}_${datasetexp}.out &
+done

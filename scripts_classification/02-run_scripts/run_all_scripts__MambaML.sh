@@ -6,6 +6,10 @@
 # UEA_MTSC30=("SelfRegulationSCP1" "SelfRegulationSCP2" "SpokenArabicDigits" "StandWalkJump" "UWaveGestureLibrary")  # GPU 2
 # UEA_MTSC30=("EigenWorms")  # GPU 3
 
+
+UEA_MTSC30=("InsectWingbeat")
+
+
 exp="multilayer"
 model="MambaML_CLS"
 for dataset in ${UEA_MTSC30[@]}

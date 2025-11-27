@@ -4,7 +4,7 @@ from models import DLinear, LightTS, MTSMixer, \
     TimesNet, ModernTCN, TimeMixerPP, \
     FEDformer, ETSformer, Crossformer, PatchTST, GPT4TS, iTransformer, \
     InterpretGN, MambaSimple, TSCMamba, \
-    MambaSingleLayer
+    MambaSingleLayer, MambaMultiLayer
 
 class Exp_Basic(object):
     def __init__(self, args):
@@ -29,6 +29,7 @@ class Exp_Basic(object):
             'InterpretGN': InterpretGN,
             'TSCMamba': TSCMamba,
             'MambaSingleLayer': MambaSingleLayer,  # proposed
+            'MambaMultiLayer': MambaMultiLayer,    # for ablation
         }
         if args.model == 'Mamba':
             print('Please make sure you have successfully installed mamba_ssm')
