@@ -1,4 +1,4 @@
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -33,7 +33,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -68,7 +68,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -103,7 +103,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -138,7 +138,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -173,7 +173,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -208,7 +208,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -243,7 +243,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -278,7 +278,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -313,7 +313,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -348,7 +348,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -383,7 +383,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -418,7 +418,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -453,7 +453,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -488,7 +488,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -523,7 +523,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -558,7 +558,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -593,7 +593,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -628,7 +628,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -663,7 +663,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -698,7 +698,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -733,7 +733,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -768,7 +768,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -803,7 +803,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -838,7 +838,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -873,7 +873,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -908,7 +908,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -943,7 +943,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -978,7 +978,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1013,7 +1013,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1048,7 +1048,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1083,7 +1083,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1118,7 +1118,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1153,7 +1153,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1188,7 +1188,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1223,7 +1223,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1258,7 +1258,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1293,7 +1293,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1328,7 +1328,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1363,7 +1363,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1398,7 +1398,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1433,7 +1433,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1468,7 +1468,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1503,7 +1503,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1538,7 +1538,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1573,7 +1573,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1608,7 +1608,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1643,7 +1643,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1678,7 +1678,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1713,7 +1713,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1748,7 +1748,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1783,7 +1783,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1818,7 +1818,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1853,7 +1853,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1888,7 +1888,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1923,7 +1923,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1958,7 +1958,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -1993,7 +1993,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2028,7 +2028,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2063,7 +2063,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2098,7 +2098,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2133,7 +2133,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2168,7 +2168,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2203,7 +2203,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2238,7 +2238,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2273,7 +2273,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2308,7 +2308,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2343,7 +2343,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2378,7 +2378,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2413,7 +2413,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2448,7 +2448,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2483,7 +2483,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2518,7 +2518,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2553,7 +2553,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2588,7 +2588,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2623,7 +2623,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2658,7 +2658,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2693,7 +2693,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2728,7 +2728,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2763,7 +2763,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2798,7 +2798,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2833,7 +2833,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2868,7 +2868,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2903,7 +2903,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2938,7 +2938,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -2973,7 +2973,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3008,7 +3008,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3043,7 +3043,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3078,7 +3078,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3113,7 +3113,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3148,7 +3148,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3183,7 +3183,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3218,7 +3218,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3253,7 +3253,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3288,7 +3288,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3323,7 +3323,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3358,7 +3358,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3393,7 +3393,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3428,7 +3428,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3463,7 +3463,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3498,7 +3498,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3533,7 +3533,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3568,7 +3568,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3603,7 +3603,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3638,7 +3638,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3673,7 +3673,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3708,7 +3708,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3743,7 +3743,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3778,7 +3778,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3813,7 +3813,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3848,7 +3848,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3883,7 +3883,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3918,7 +3918,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3953,7 +3953,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -3988,7 +3988,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4023,7 +4023,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4058,7 +4058,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4093,7 +4093,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4128,7 +4128,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4163,7 +4163,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4198,7 +4198,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4233,7 +4233,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4268,7 +4268,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4303,7 +4303,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4338,7 +4338,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4373,7 +4373,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4408,7 +4408,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4443,7 +4443,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4478,7 +4478,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4513,7 +4513,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4548,7 +4548,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4583,7 +4583,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4618,7 +4618,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4653,7 +4653,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4688,7 +4688,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4723,7 +4723,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4758,7 +4758,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4793,7 +4793,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4828,7 +4828,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4863,7 +4863,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4898,7 +4898,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4933,7 +4933,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -4968,7 +4968,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5003,7 +5003,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5038,7 +5038,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5073,7 +5073,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5108,7 +5108,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5143,7 +5143,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5178,7 +5178,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5213,7 +5213,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5248,7 +5248,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5283,7 +5283,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5318,7 +5318,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5353,7 +5353,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5388,7 +5388,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5423,7 +5423,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5458,7 +5458,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5493,7 +5493,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5528,7 +5528,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5563,7 +5563,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5598,7 +5598,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5633,7 +5633,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5668,7 +5668,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5703,7 +5703,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5738,7 +5738,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5773,7 +5773,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5808,7 +5808,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5843,7 +5843,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5878,7 +5878,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5913,7 +5913,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5948,7 +5948,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -5983,7 +5983,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6018,7 +6018,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6053,7 +6053,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6088,7 +6088,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6123,7 +6123,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6158,7 +6158,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6193,7 +6193,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6228,7 +6228,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6263,7 +6263,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6298,7 +6298,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6333,7 +6333,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6368,7 +6368,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6403,7 +6403,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6438,7 +6438,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6473,7 +6473,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6508,7 +6508,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6543,7 +6543,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6578,7 +6578,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6613,7 +6613,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6648,7 +6648,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6683,7 +6683,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6718,7 +6718,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6753,7 +6753,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6788,7 +6788,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6823,7 +6823,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6858,7 +6858,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6893,7 +6893,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6928,7 +6928,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6963,7 +6963,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -6998,7 +6998,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7033,7 +7033,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7068,7 +7068,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7103,7 +7103,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7138,7 +7138,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7173,7 +7173,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7208,7 +7208,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7243,7 +7243,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7278,7 +7278,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7313,7 +7313,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7348,7 +7348,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7383,7 +7383,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7418,7 +7418,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7453,7 +7453,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7488,7 +7488,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7523,7 +7523,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7558,7 +7558,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7593,7 +7593,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7628,7 +7628,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7663,7 +7663,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7698,7 +7698,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7733,7 +7733,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7768,7 +7768,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7803,7 +7803,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7838,7 +7838,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7873,7 +7873,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7908,7 +7908,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7943,7 +7943,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -7978,7 +7978,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8013,7 +8013,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8048,7 +8048,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8083,7 +8083,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8118,7 +8118,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8153,7 +8153,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8188,7 +8188,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8223,7 +8223,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8258,7 +8258,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8293,7 +8293,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8328,7 +8328,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8363,7 +8363,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8398,7 +8398,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8433,7 +8433,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8468,7 +8468,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8503,7 +8503,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8538,7 +8538,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8573,7 +8573,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8608,7 +8608,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8643,7 +8643,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8678,7 +8678,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8713,7 +8713,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8748,7 +8748,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8783,7 +8783,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8818,7 +8818,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8853,7 +8853,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8888,7 +8888,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8923,7 +8923,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8958,7 +8958,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -8993,7 +8993,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9028,7 +9028,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9063,7 +9063,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9098,7 +9098,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9133,7 +9133,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9168,7 +9168,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9203,7 +9203,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9238,7 +9238,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9273,7 +9273,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9308,7 +9308,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9343,7 +9343,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9378,7 +9378,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9413,7 +9413,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9448,7 +9448,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9483,7 +9483,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9518,7 +9518,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9553,7 +9553,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9588,7 +9588,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9623,7 +9623,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9658,7 +9658,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9693,7 +9693,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9728,7 +9728,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9763,7 +9763,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9798,7 +9798,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9833,7 +9833,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9868,7 +9868,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9903,7 +9903,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9938,7 +9938,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -9973,7 +9973,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10008,7 +10008,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10043,7 +10043,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10078,7 +10078,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10113,7 +10113,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10148,7 +10148,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10183,7 +10183,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10218,7 +10218,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10253,7 +10253,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10288,7 +10288,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10323,7 +10323,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10358,7 +10358,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10393,7 +10393,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10428,7 +10428,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10463,7 +10463,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10498,7 +10498,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10533,7 +10533,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10568,7 +10568,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10603,7 +10603,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10638,7 +10638,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10673,7 +10673,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10708,7 +10708,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10743,7 +10743,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10778,7 +10778,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10813,7 +10813,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10848,7 +10848,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10883,7 +10883,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10918,7 +10918,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10953,7 +10953,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -10988,7 +10988,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11023,7 +11023,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11058,7 +11058,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11093,7 +11093,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11128,7 +11128,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11163,7 +11163,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11198,7 +11198,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11233,7 +11233,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11268,7 +11268,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11303,7 +11303,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11338,7 +11338,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11373,7 +11373,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11408,7 +11408,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11443,7 +11443,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11478,7 +11478,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11513,7 +11513,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11548,7 +11548,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11583,7 +11583,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11618,7 +11618,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11653,7 +11653,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11688,7 +11688,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11723,7 +11723,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11758,7 +11758,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11793,7 +11793,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11828,7 +11828,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11863,7 +11863,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11898,7 +11898,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11933,7 +11933,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -11968,7 +11968,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -12003,7 +12003,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -12038,7 +12038,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
@@ -12073,7 +12073,7 @@
   --train_epochs 100 \
   --patience 10
 
-# python run.py \
+python run.py \
   --use_gpu True \
   --gpu_type cuda \
   --gpu 2 \
