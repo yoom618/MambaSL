@@ -16,8 +16,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 36 \
@@ -44,8 +44,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 16 \
@@ -72,8 +72,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 8 \
@@ -100,8 +100,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 14 \
@@ -128,8 +128,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 180 \
@@ -156,8 +156,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 41 \
@@ -184,8 +184,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 2698 \
@@ -212,8 +212,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 6 \
@@ -240,8 +240,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 7 \
@@ -268,8 +268,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 44 \
@@ -296,8 +296,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 2 \
@@ -324,8 +324,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 3 \
@@ -352,8 +352,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 60 \
@@ -380,8 +380,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 4 \
@@ -408,8 +408,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 41 \
@@ -436,8 +436,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 2 \
@@ -464,8 +464,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 1 \
@@ -492,8 +492,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 7 \
@@ -520,8 +520,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 4 \
@@ -548,8 +548,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 300 \
@@ -576,8 +576,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 3 \
@@ -604,8 +604,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 29 \
@@ -632,8 +632,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 2 \
@@ -660,8 +660,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 17 \
@@ -688,8 +688,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 8 \
@@ -716,8 +716,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 224 \
@@ -744,8 +744,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 58 \
@@ -772,8 +772,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 5 \
@@ -800,8 +800,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 63 \
@@ -828,8 +828,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 4 \
   --patch_size 48 \

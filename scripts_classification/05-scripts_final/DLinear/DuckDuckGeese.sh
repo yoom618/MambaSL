@@ -20,8 +20,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 122 \
   --is_training 0 \
@@ -45,8 +45,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 95 \
   --is_training 0 \
@@ -70,8 +70,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 54 \
   --is_training 0 \
@@ -95,8 +95,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 41 \
   --is_training 0 \
@@ -120,8 +120,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 27 \
   --is_training 0 \
@@ -145,8 +145,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 9 \
   --is_training 0 \
@@ -170,8 +170,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 6 \
   --is_training 0 \

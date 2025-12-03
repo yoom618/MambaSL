@@ -34,6 +34,7 @@ class Exp_Classification_Medical(Exp_Basic):
         # train_data, train_loader = self._get_data(flag='TRAIN')
         test_data, test_loader = self._get_data(flag="TEST")
         self.args.seq_len = test_data.max_seq_len  # redefine seq_len
+        self.args.label_len = 0
         self.args.pred_len = 0
         # self.args.enc_in = train_data.feature_df.shape[1]
         # self.args.num_class = len(train_data.class_names)
@@ -139,11 +140,11 @@ class Exp_Classification_Medical(Exp_Basic):
 
         path = (
             self.args.checkpoints
-            + self.args.task_name
-            + "/"
-            + self.args.model_id
-            + "/"
-            + self.args.model
+            # + self.args.task_name
+            # + "/"
+            # + self.args.model_id
+            # + "/"
+            # + self.args.model
             + "/"
             + setting
             + "/"
@@ -256,11 +257,11 @@ class Exp_Classification_Medical(Exp_Basic):
             print("loading model")
             path = (
                 self.args.checkpoints
-                + self.args.task_name
-                + "/"
-                + self.args.model_id
-                + "/"
-                + self.args.model
+                # + self.args.task_name
+                # + "/"
+                # + self.args.model_id
+                # + "/"
+                # + self.args.model
                 + "/"
                 + setting
                 + "/"

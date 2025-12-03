@@ -18,8 +18,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 24 \
   --is_training 0 \

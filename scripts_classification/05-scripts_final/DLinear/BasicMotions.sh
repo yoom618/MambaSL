@@ -20,8 +20,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 50 \
   --is_training 0 \
@@ -45,8 +45,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 45 \
   --is_training 0 \
@@ -70,8 +70,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 40 \
   --is_training 0 \
@@ -95,8 +95,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 35 \
   --is_training 0 \
@@ -120,8 +120,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 30 \
   --is_training 0 \
@@ -145,8 +145,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 25 \
   --is_training 0 \
@@ -170,8 +170,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 20 \
   --is_training 0 \
@@ -195,8 +195,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 5 \
   --is_training 0 \
@@ -220,8 +220,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 4 \
   --is_training 0 \
@@ -245,8 +245,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 3 \
   --is_training 0 \
@@ -270,8 +270,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 2 \
   --is_training 0 \
@@ -295,8 +295,8 @@ python run.py \
   --label_len 0 \
   --pred_len 0 \
   --c_out 0 \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 1 \
   --is_training 0 \
