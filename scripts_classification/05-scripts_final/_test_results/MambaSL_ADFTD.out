@@ -1,0 +1,81 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_medicalIs Training:        0                   
+  Model ID:           CLS_ADFTD           Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               ADFTD               Root Path:          /data/yoom618/TSLib/dataset/ADFTD
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints_best/MambaSL (ADFTD)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        6                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            128                 
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                5                   
+  Train Epochs:       100                 Batch Size:         32                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                test                Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+>>>>>>>testing : classification_CLS_ADFTD_MambaSingleLayer_ADFTD_ftM_sl256_ll0_pl0_dm128_ds4_expand1_dc4_nk6_tvdt0_tvB0_tvC0_useD0_test_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+val ids: [np.int32(54), np.int32(55), np.int32(56), np.int32(57), np.int32(58), np.int32(59), np.int32(79), np.int32(80), np.int32(81), np.int32(82), np.int32(83), np.int32(22), np.int32(23), np.int32(24), np.int32(25), np.int32(26), np.int32(27), np.int32(28)]
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+loading model
+gating_value: nan
+Validation results --- Loss: 1.96534, Accuracy: 0.55540, Precision: 0.54173, Recall: 0.54303, F1: 0.54172, AUROC: 0.70682, AUPRC: 0.54900
+Test results --- Loss: 1.76958, Accuracy: 0.52997, Precision: 0.52107, Recall: 0.53685, F1: 0.52564, AUROC: 0.71660, AUPRC: 0.54808
+
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+>>>>>>>testing : classification_CLS_ADFTD_MambaSingleLayer_ADFTD_ftM_sl256_ll0_pl0_dm128_ds4_expand1_dc4_nk6_tvdt0_tvB0_tvC0_useD0_test_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+val ids: [np.int32(54), np.int32(55), np.int32(56), np.int32(57), np.int32(58), np.int32(59), np.int32(79), np.int32(80), np.int32(81), np.int32(82), np.int32(83), np.int32(22), np.int32(23), np.int32(24), np.int32(25), np.int32(26), np.int32(27), np.int32(28)]
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+loading model
+gating_value: nan
+Validation results --- Loss: 1.40983, Accuracy: 0.56720, Precision: 0.56040, Recall: 0.54717, F1: 0.53982, AUROC: 0.70943, AUPRC: 0.55665
+Test results --- Loss: 1.37931, Accuracy: 0.51365, Precision: 0.48159, Recall: 0.46905, F1: 0.46927, AUROC: 0.66827, AUPRC: 0.47475
+
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+>>>>>>>testing : classification_CLS_ADFTD_MambaSingleLayer_ADFTD_ftM_sl256_ll0_pl0_dm128_ds4_expand1_dc4_nk6_tvdt0_tvB0_tvC0_useD0_test_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+val ids: [np.int32(54), np.int32(55), np.int32(56), np.int32(57), np.int32(58), np.int32(59), np.int32(79), np.int32(80), np.int32(81), np.int32(82), np.int32(83), np.int32(22), np.int32(23), np.int32(24), np.int32(25), np.int32(26), np.int32(27), np.int32(28)]
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+loading model
+gating_value: nan
+Validation results --- Loss: 1.73758, Accuracy: 0.57579, Precision: 0.56081, Recall: 0.55830, F1: 0.54441, AUROC: 0.72288, AUPRC: 0.57475
+Test results --- Loss: 1.92862, Accuracy: 0.49003, Precision: 0.46141, Recall: 0.44586, F1: 0.43951, AUROC: 0.64552, AUPRC: 0.45797
+
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+>>>>>>>testing : classification_CLS_ADFTD_MambaSingleLayer_ADFTD_ftM_sl256_ll0_pl0_dm128_ds4_expand1_dc4_nk6_tvdt0_tvB0_tvC0_useD0_test_3<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+val ids: [np.int32(54), np.int32(55), np.int32(56), np.int32(57), np.int32(58), np.int32(59), np.int32(79), np.int32(80), np.int32(81), np.int32(82), np.int32(83), np.int32(22), np.int32(23), np.int32(24), np.int32(25), np.int32(26), np.int32(27), np.int32(28)]
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+loading model
+gating_value: nan
+Validation results --- Loss: 1.62269, Accuracy: 0.58009, Precision: 0.56407, Recall: 0.56026, F1: 0.55183, AUROC: 0.72175, AUPRC: 0.55922
+Test results --- Loss: 1.64263, Accuracy: 0.51679, Precision: 0.49561, Recall: 0.47557, F1: 0.47860, AUROC: 0.66719, AUPRC: 0.48485
+
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+>>>>>>>testing : classification_CLS_ADFTD_MambaSingleLayer_ADFTD_ftM_sl256_ll0_pl0_dm128_ds4_expand1_dc4_nk6_tvdt0_tvB0_tvC0_useD0_test_4<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+val ids: [np.int32(54), np.int32(55), np.int32(56), np.int32(57), np.int32(58), np.int32(59), np.int32(79), np.int32(80), np.int32(81), np.int32(82), np.int32(83), np.int32(22), np.int32(23), np.int32(24), np.int32(25), np.int32(26), np.int32(27), np.int32(28)]
+test ids: [np.int32(60), np.int32(61), np.int32(62), np.int32(63), np.int32(64), np.int32(65), np.int32(84), np.int32(85), np.int32(86), np.int32(87), np.int32(88), np.int32(29), np.int32(30), np.int32(31), np.int32(32), np.int32(33), np.int32(34), np.int32(35), np.int32(36)]
+loading model
+gating_value: nan
+Validation results --- Loss: 2.13449, Accuracy: 0.53411, Precision: 0.50878, Recall: 0.51572, F1: 0.49335, AUROC: 0.69144, AUPRC: 0.52049
+Test results --- Loss: 2.21222, Accuracy: 0.49345, Precision: 0.48196, Recall: 0.45354, F1: 0.45047, AUROC: 0.64811, AUPRC: 0.46222
+

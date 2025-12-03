@@ -1,4 +1,4 @@
-model_name="MambaML"
+model_name="MambaMultiLayer"
 dataset_name="HandMovementDirection"
 tslib_dir="/data/yoom618/TSLib"
 gpu_id=0

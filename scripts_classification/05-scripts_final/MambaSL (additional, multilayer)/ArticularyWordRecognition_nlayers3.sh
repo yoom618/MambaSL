@@ -1,4 +1,4 @@
-model_name="MambaML"
+model_name="MambaMultiLayer"
 dataset_name="ArticularyWordRecognition"
 tslib_dir="/data/yoom618/TSLib"
 gpu_id=0
