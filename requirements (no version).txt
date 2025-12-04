@@ -24,3 +24,5 @@ seaborn
 plotly
 kaleido
 umap-learn
+### others
+natsort

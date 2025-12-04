@@ -17,12 +17,18 @@ class Model(nn.Module):
         
         self.embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.embed, configs.freq, configs.dropout, seq_len=configs.seq_len)
 
-        self.mamba = Mamba(
-            d_model = configs.d_model,
-            d_state = configs.d_ff,
-            d_conv = configs.d_conv,
-            expand = configs.expand,
-        )
+        self.mamba = [
+            [
+                Mamba(
+                    d_model = configs.d_model,
+                    d_state = configs.d_ff,
+                    d_conv = configs.d_conv,
+                    expand = configs.expand,
+                ),
+                nn.LayerNorm(configs.d_model)
+            ] for _ in range(configs.e_layers)
+        ]
+        self.mamba = nn.Sequential(*[m for sublist in self.mamba for m in sublist])
 
         if self.task_name == 'classification': # add classification task code. refer to other models given in tslib
             self.act = F.silu

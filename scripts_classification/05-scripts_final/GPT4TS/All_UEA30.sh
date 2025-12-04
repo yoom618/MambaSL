@@ -17,9 +17,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id CLS_${dataset_name} \
   --e_layers 3 \
   --d_model 768 \
@@ -44,9 +44,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -71,9 +71,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 4 \
   --d_model 768 \
@@ -98,9 +98,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 6 \
   --d_model 768 \
@@ -125,9 +125,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -152,9 +152,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 4 \
   --d_model 768 \
@@ -179,9 +179,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 6 \
   --d_model 768 \
@@ -206,9 +206,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 4 \
   --d_model 768 \
@@ -233,9 +233,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 6 \
   --d_model 768 \
@@ -260,9 +260,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -287,9 +287,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 6 \
   --d_model 768 \
@@ -314,9 +314,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -341,9 +341,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 5 \
   --d_model 768 \
@@ -368,9 +368,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 6 \
   --d_model 768 \
@@ -395,9 +395,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -422,9 +422,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 6 \
   --d_model 768 \
@@ -449,9 +449,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -476,9 +476,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -503,9 +503,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -530,9 +530,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -557,9 +557,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -584,9 +584,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 5 \
   --d_model 768 \
@@ -611,9 +611,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 5 \
   --d_model 768 \
@@ -638,9 +638,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 5 \
   --d_model 768 \
@@ -665,9 +665,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 5 \
   --d_model 768 \
@@ -692,9 +692,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -719,9 +719,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -746,9 +746,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -773,9 +773,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \
@@ -800,9 +800,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --huggingface_cache_dir ${huggingface_cache_dir} \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 3 \
   --d_model 768 \

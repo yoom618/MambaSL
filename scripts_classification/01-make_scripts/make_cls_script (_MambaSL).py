@@ -156,16 +156,43 @@ if __name__ == "__main__":
 
 
 
-    training_configs = {
-        "is_training" : 1,
-        "batch_size" : 16,
-        "des" : f"{{}}4{exp}",
-        "itr" : 1,
-        "dropout" : 0.1,
-        "learning_rate" : 0.001,
-        "train_epochs" : 100,
-        "patience" : 10,
+    # additinal : use train dataset as validation dataset (similar to InceptionTime setting)
+    exp = "trainlossonly"
+    model_configs = {
+        "mamba_projection_type" : ["gating"], 
+        "d_model" : [32, 64, 128, 256, 512, 1024],
+        "d_ff" : [1, 2, 4, 8, 16],
+        "expand" : [1], 
+        "d_conv" : [4],
+        "tv_dt" : [0, 1],
+        "tv_B" : [0, 1],
+        "tv_C" : [0, 1],
+        "use_D" : [0],
     }
+
+    if exp == "trainlossonly":
+        training_configs = {
+            "task_name" : "classification_trainlossonly",
+            "is_training" : 1,
+            "batch_size" : 16,
+            "des" : f"{exp}",
+            "itr" : 1,
+            "dropout" : 0.1,
+            "learning_rate" : 0.001,
+            "train_epochs" : 100,
+            "patience" : 10,
+        }
+    else:
+        training_configs = {
+            "is_training" : 1,
+            "batch_size" : 16,
+            "des" : f"{{}}4{exp}",
+            "itr" : 1,
+            "dropout" : 0.1,
+            "learning_rate" : 0.001,
+            "train_epochs" : 100,
+            "patience" : 10,
+        }
 
     os.makedirs(f"{script_dir}/scripts_mamba", exist_ok=True)
     os.makedirs(dir_setting["checkpoints"], exist_ok=True)

@@ -1,5 +1,6 @@
 from data_provider.data_loader import Dataset_ETT_hour, Dataset_ETT_minute, Dataset_Custom, Dataset_M4, PSMSegLoader, \
-    MSLSegLoader, SMAPSegLoader, SMDSegLoader, SWATSegLoader, UEAloader, UEAloader4TSCMamba
+    MSLSegLoader, SMAPSegLoader, SMDSegLoader, SWATSegLoader, UEAloader, \
+    UEAloader4TSCMamba, FLAAPLoader, ADFTDLoader
 from data_provider.uea import collate_fn, collate_fn_TSCMamba
 from torch.utils.data import DataLoader
 
@@ -17,6 +18,8 @@ data_dict = {
     'SWAT': SWATSegLoader,
     'UEA': UEAloader,
     'UEA4TSCMamba': UEAloader4TSCMamba,
+    'FLAAP': FLAAPLoader,
+    'ADFTD': ADFTDLoader,
 }
 
 

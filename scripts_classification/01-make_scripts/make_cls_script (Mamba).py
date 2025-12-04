@@ -38,10 +38,10 @@ if __name__ == "__main__":
 
     
     model_configs = {
-        "e_layers" : [1], # default : 2. use 1 layer to compare the basic performance of Mamba
-        "expand" : [1],  # default : 2
+        "e_layers" : [1,2,3,4], # default : 2. use 1 layer to compare the basic performance of Mamba
+        "expand" : [1,2],  # default : 2
         "d_ff" : [1, 2, 4, 8, 16], # default : 16
-        "d_model" : [32, 64, 128, 256, 512], # default : 128
+        "d_model" : [32, 64, 128, 256, 512, 1024], # default : 128
         "d_conv" : [4],  # default : 4. only <=4 is available due to causal conv layer
     }
 

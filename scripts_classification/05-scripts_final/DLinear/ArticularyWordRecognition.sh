@@ -15,8 +15,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 8 \
   --is_training 0 \
@@ -35,8 +35,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 6 \
   --is_training 0 \
@@ -55,8 +55,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 5 \
   --is_training 0 \
@@ -75,8 +75,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --moving_avg 2 \
   --is_training 0 \

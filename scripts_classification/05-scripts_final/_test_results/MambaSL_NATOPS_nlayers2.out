@@ -1,0 +1,44 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification      Is Training:        0                   
+  Model ID:           CLS_NATOPS          Model:              MambaMultiLayer     
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/user/MambaSL/dataset/NATOPS
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/user/MambaSL/checkpoints_best/MambaSL (multilayer)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                1                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                gating4multilayer   Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+180
+180
+>>>>>>>testing : classification_CLS_NATOPS_MambaMultiLayer_UEA_ftM_sl51_ll0_pl0_el2_dm1024_ds4_expand1_dc4_nk3_tvdt0_tvB0_tvC1_useD0_gating4multilayer_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([180, 6]) torch.Size([180, 1])
+accuracy:0.9888888888888889
+model parameter : 6551560
+model size : 44.53MB

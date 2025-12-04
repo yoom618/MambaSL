@@ -169,8 +169,9 @@ class Model(nn.Module):
                 out = out.sum(1)  # (B, C_out)
 
                 ### log w_out distribution by computing the Gini index
-                gini = w_out.detach().clone().squeeze().pow(2).sum(-1, keepdim=False)  # (B, L_in) -> (B, )
-                self.gating_values.extend(gini.tolist())  # (B, ) -> list of scalars
+                gini = w_out.detach().clone().squeeze().pow(2).sum(-1, keepdim=False).tolist()  # (B, L_in) -> (B, )
+                if isinstance(gini, float): gini = [gini]
+                self.gating_values.extend(gini)  # (B, ) -> list of scalars
 
             if not self.training and self.save_csv:
                 remainders = namedtuple('remainders', ['mamba_out', 'logit_out', 'w_out'])

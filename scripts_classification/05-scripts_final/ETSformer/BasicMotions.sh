@@ -15,9 +15,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --c_out 0 \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 2 \
   --n_heads 8 \
@@ -41,9 +41,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --c_out 0 \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 2 \
   --n_heads 8 \
@@ -67,9 +67,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --c_out 0 \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 2 \
   --n_heads 8 \
@@ -93,9 +93,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --c_out 0 \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 2 \
   --n_heads 8 \
@@ -119,9 +119,9 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
+  --checkpoints "${checkpoint_dir}" \
   --c_out 0 \
-  --model ${model_name} \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --e_layers 1 \
   --n_heads 8 \

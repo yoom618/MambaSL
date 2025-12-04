@@ -16,8 +16,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 1024 \
   --use_norm 1 \
@@ -43,8 +43,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 128 \
   --use_norm 1 \
@@ -70,8 +70,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 128 \
   --use_norm 1 \
@@ -97,8 +97,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -124,8 +124,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \
@@ -151,8 +151,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -178,8 +178,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -205,8 +205,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 1024 \
   --use_norm 1 \
@@ -232,8 +232,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \
@@ -259,8 +259,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 1024 \
   --use_norm 1 \
@@ -286,8 +286,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \
@@ -313,8 +313,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \
@@ -340,8 +340,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \
@@ -367,8 +367,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -394,8 +394,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -421,8 +421,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 1024 \
   --use_norm 1 \
@@ -448,8 +448,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -475,8 +475,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \
@@ -502,8 +502,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -529,8 +529,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 1024 \
   --use_norm 1 \
@@ -556,8 +556,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 128 \
   --use_norm 1 \
@@ -583,8 +583,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 128 \
   --use_norm 1 \
@@ -610,8 +610,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -637,8 +637,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -664,8 +664,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \
@@ -691,8 +691,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -718,8 +718,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \
@@ -745,8 +745,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \
@@ -772,8 +772,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 256 \
   --use_norm 1 \
@@ -799,8 +799,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --d_model 512 \
   --use_norm 1 \

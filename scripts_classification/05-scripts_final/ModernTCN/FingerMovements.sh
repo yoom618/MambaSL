@@ -15,8 +15,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 1 \
   --patch_size 3 \
@@ -41,8 +41,8 @@ python run.py \
   --task_name classification \
   --data UEA \
   --root_path "${data_dir}/${dataset_name}" \
-  --checkpoints ${checkpoint_dir} \
-  --model ${model_name} \
+  --checkpoints "${checkpoint_dir}" \
+  --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --ffn_ratio 2 \
   --patch_size 2 \
