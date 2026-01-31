@@ -23,17 +23,17 @@ data_dict = {
 }
 
 
-def data_provider(args, flag):
+def data_provider(args, flag, shuffle_flag=None):
     Data = data_dict[args.data]
     timeenc = 0 if args.embed != 'timeF' else 1
 
-    shuffle_flag = False if (flag == 'test' or flag == 'TEST') else True
+    if shuffle_flag is None:
+        shuffle_flag = True if flag in ['train', 'TRAIN'] else False
     drop_last = False
     batch_size = args.batch_size
     freq = args.freq
 
     if args.task_name == 'anomaly_detection':
-        drop_last = False
         data_set = Data(
             args = args,
             root_path=args.root_path,
@@ -48,8 +48,8 @@ def data_provider(args, flag):
             num_workers=args.num_workers,
             drop_last=drop_last)
         return data_set, data_loader
+    
     elif args.task_name == 'classification':
-        drop_last = False
         data_set = Data(
             args = args,
             root_path=args.root_path,
@@ -67,8 +67,6 @@ def data_provider(args, flag):
         )
         return data_set, data_loader
     else:
-        if args.data == 'm4':
-            drop_last = False
         data_set = Data(
             args = args,
             root_path=args.root_path,

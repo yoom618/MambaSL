@@ -1,0 +1,1536 @@
+ACSF1:
+  c_out: 0
+  data: UEA
+  dataset: ACSF1
+  enc_in: 1
+  label_len: 0
+  num_class: 10
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ACSF1
+  seq_len: 1460
+  task_name: classification
+
+Adiac:
+  c_out: 0
+  data: UEA
+  dataset: Adiac
+  enc_in: 1
+  label_len: 0
+  num_class: 37
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Adiac
+  seq_len: 176
+  task_name: classification
+
+AllGestureWiimoteX:
+  c_out: 0
+  data: UEA
+  dataset: AllGestureWiimoteX
+  enc_in: 1
+  label_len: 0
+  num_class: 10
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/AllGestureWiimoteX
+  seq_len: 385  # 0
+  task_name: classification
+
+AllGestureWiimoteY:
+  c_out: 0
+  data: UEA
+  dataset: AllGestureWiimoteY
+  enc_in: 1
+  label_len: 0
+  num_class: 10
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/AllGestureWiimoteY
+  seq_len: 369  # 0
+  task_name: classification
+
+AllGestureWiimoteZ:
+  c_out: 0
+  data: UEA
+  dataset: AllGestureWiimoteZ
+  enc_in: 1
+  label_len: 0
+  num_class: 10
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/AllGestureWiimoteZ
+  seq_len: 326  # 0
+  task_name: classification
+
+ArrowHead:
+  c_out: 0
+  data: UEA
+  dataset: ArrowHead
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ArrowHead
+  seq_len: 251
+  task_name: classification
+
+BME:
+  c_out: 0
+  data: UEA
+  dataset: BME
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/BME
+  seq_len: 128
+  task_name: classification
+
+Beef:
+  c_out: 0
+  data: UEA
+  dataset: Beef
+  enc_in: 1
+  label_len: 0
+  num_class: 5
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Beef
+  seq_len: 470
+  task_name: classification
+
+BeetleFly:
+  c_out: 0
+  data: UEA
+  dataset: BeetleFly
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/BeetleFly
+  seq_len: 512
+  task_name: classification
+
+BirdChicken:
+  c_out: 0
+  data: UEA
+  dataset: BirdChicken
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/BirdChicken
+  seq_len: 512
+  task_name: classification
+
+CBF:
+  c_out: 0
+  data: UEA
+  dataset: CBF
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/CBF
+  seq_len: 128
+  task_name: classification
+
+Car:
+  c_out: 0
+  data: UEA
+  dataset: Car
+  enc_in: 1
+  label_len: 0
+  num_class: 4
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Car
+  seq_len: 577
+  task_name: classification
+
+Chinatown:
+  c_out: 0
+  data: UEA
+  dataset: Chinatown
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Chinatown
+  seq_len: 24
+  task_name: classification
+
+ChlorineConcentration:
+  c_out: 0
+  data: UEA
+  dataset: ChlorineConcentration
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ChlorineConcentration
+  seq_len: 166
+  task_name: classification
+
+CinCECGTorso:
+  c_out: 0
+  data: UEA
+  dataset: CinCECGTorso
+  enc_in: 1
+  label_len: 0
+  num_class: 4
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/CinCECGTorso
+  seq_len: 1639
+  task_name: classification
+
+Coffee:
+  c_out: 0
+  data: UEA
+  dataset: Coffee
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Coffee
+  seq_len: 286
+  task_name: classification
+
+Computers:
+  c_out: 0
+  data: UEA
+  dataset: Computers
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Computers
+  seq_len: 720
+  task_name: classification
+
+CricketX:
+  c_out: 0
+  data: UEA
+  dataset: CricketX
+  enc_in: 1
+  label_len: 0
+  num_class: 12
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/CricketX
+  seq_len: 300
+  task_name: classification
+
+CricketY:
+  c_out: 0
+  data: UEA
+  dataset: CricketY
+  enc_in: 1
+  label_len: 0
+  num_class: 12
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/CricketY
+  seq_len: 300
+  task_name: classification
+
+CricketZ:
+  c_out: 0
+  data: UEA
+  dataset: CricketZ
+  enc_in: 1
+  label_len: 0
+  num_class: 12
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/CricketZ
+  seq_len: 300
+  task_name: classification
+
+Crop:
+  c_out: 0
+  data: UEA
+  dataset: Crop
+  enc_in: 1
+  label_len: 0
+  num_class: 24
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Crop
+  seq_len: 46
+  task_name: classification
+
+DiatomSizeReduction:
+  c_out: 0
+  data: UEA
+  dataset: DiatomSizeReduction
+  enc_in: 1
+  label_len: 0
+  num_class: 4
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/DiatomSizeReduction
+  seq_len: 345
+  task_name: classification
+
+DistalPhalanxOutlineAgeGroup:
+  c_out: 0
+  data: UEA
+  dataset: DistalPhalanxOutlineAgeGroup
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/DistalPhalanxOutlineAgeGroup
+  seq_len: 80
+  task_name: classification
+
+DistalPhalanxOutlineCorrect:
+  c_out: 0
+  data: UEA
+  dataset: DistalPhalanxOutlineCorrect
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/DistalPhalanxOutlineCorrect
+  seq_len: 80
+  task_name: classification
+
+DistalPhalanxTW:
+  c_out: 0
+  data: UEA
+  dataset: DistalPhalanxTW
+  enc_in: 1
+  label_len: 0
+  num_class: 6
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/DistalPhalanxTW
+  seq_len: 80
+  task_name: classification
+
+DodgerLoopDay:
+  c_out: 0
+  data: UEA
+  dataset: DodgerLoopDay
+  enc_in: 1
+  label_len: 0
+  num_class: 7
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/DodgerLoopDay
+  seq_len: 288
+  task_name: classification
+
+DodgerLoopGame:
+  c_out: 0
+  data: UEA
+  dataset: DodgerLoopGame
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/DodgerLoopGame
+  seq_len: 288
+  task_name: classification
+
+DodgerLoopWeekend:
+  c_out: 0
+  data: UEA
+  dataset: DodgerLoopWeekend
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/DodgerLoopWeekend
+  seq_len: 288
+  task_name: classification
+
+ECG200:
+  c_out: 0
+  data: UEA
+  dataset: ECG200
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ECG200
+  seq_len: 96
+  task_name: classification
+
+ECG5000:
+  c_out: 0
+  data: UEA
+  dataset: ECG5000
+  enc_in: 1
+  label_len: 0
+  num_class: 5
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ECG5000
+  seq_len: 140
+  task_name: classification
+
+ECGFiveDays:
+  c_out: 0
+  data: UEA
+  dataset: ECGFiveDays
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ECGFiveDays
+  seq_len: 136
+  task_name: classification
+
+EOGHorizontalSignal:
+  c_out: 0
+  data: UEA
+  dataset: EOGHorizontalSignal
+  enc_in: 1
+  label_len: 0
+  num_class: 12
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/EOGHorizontalSignal
+  seq_len: 1250
+  task_name: classification
+
+EOGVerticalSignal:
+  c_out: 0
+  data: UEA
+  dataset: EOGVerticalSignal
+  enc_in: 1
+  label_len: 0
+  num_class: 12
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/EOGVerticalSignal
+  seq_len: 1250
+  task_name: classification
+
+Earthquakes:
+  c_out: 0
+  data: UEA
+  dataset: Earthquakes
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Earthquakes
+  seq_len: 512
+  task_name: classification
+
+ElectricDevices:
+  c_out: 0
+  data: UEA
+  dataset: ElectricDevices
+  enc_in: 1
+  label_len: 0
+  num_class: 7
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ElectricDevices
+  seq_len: 96
+  task_name: classification
+
+EthanolLevel:
+  c_out: 0
+  data: UEA
+  dataset: EthanolLevel
+  enc_in: 1
+  label_len: 0
+  num_class: 4
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/EthanolLevel
+  seq_len: 1751
+  task_name: classification
+
+FaceAll:
+  c_out: 0
+  data: UEA
+  dataset: FaceAll
+  enc_in: 1
+  label_len: 0
+  num_class: 14
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/FaceAll
+  seq_len: 131
+  task_name: classification
+
+FaceFour:
+  c_out: 0
+  data: UEA
+  dataset: FaceFour
+  enc_in: 1
+  label_len: 0
+  num_class: 4
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/FaceFour
+  seq_len: 350
+  task_name: classification
+
+FacesUCR:
+  c_out: 0
+  data: UEA
+  dataset: FacesUCR
+  enc_in: 1
+  label_len: 0
+  num_class: 14
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/FacesUCR
+  seq_len: 131
+  task_name: classification
+
+FiftyWords:
+  c_out: 0
+  data: UEA
+  dataset: FiftyWords
+  enc_in: 1
+  label_len: 0
+  num_class: 50
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/FiftyWords
+  seq_len: 270
+  task_name: classification
+
+Fish:
+  c_out: 0
+  data: UEA
+  dataset: Fish
+  enc_in: 1
+  label_len: 0
+  num_class: 7
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Fish
+  seq_len: 463
+  task_name: classification
+
+FordA:
+  c_out: 0
+  data: UEA
+  dataset: FordA
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/FordA
+  seq_len: 500
+  task_name: classification
+
+FordB:
+  c_out: 0
+  data: UEA
+  dataset: FordB
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/FordB
+  seq_len: 500
+  task_name: classification
+
+FreezerRegularTrain:
+  c_out: 0
+  data: UEA
+  dataset: FreezerRegularTrain
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/FreezerRegularTrain
+  seq_len: 301
+  task_name: classification
+
+FreezerSmallTrain:
+  c_out: 0
+  data: UEA
+  dataset: FreezerSmallTrain
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/FreezerSmallTrain
+  seq_len: 301
+  task_name: classification
+
+Fungi:
+  c_out: 0
+  data: UEA
+  dataset: Fungi
+  enc_in: 1
+  label_len: 0
+  num_class: 18
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Fungi
+  seq_len: 201
+  task_name: classification
+
+GestureMidAirD1:
+  c_out: 0
+  data: UEA
+  dataset: GestureMidAirD1
+  enc_in: 1
+  label_len: 0
+  num_class: 26
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/GestureMidAirD1
+  seq_len: 360  # 0
+  task_name: classification
+
+GestureMidAirD2:
+  c_out: 0
+  data: UEA
+  dataset: GestureMidAirD2
+  enc_in: 1
+  label_len: 0
+  num_class: 26
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/GestureMidAirD2
+  seq_len: 360  # 0
+  task_name: classification
+
+GestureMidAirD3:
+  c_out: 0
+  data: UEA
+  dataset: GestureMidAirD3
+  enc_in: 1
+  label_len: 0
+  num_class: 26
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/GestureMidAirD3
+  seq_len: 360  # 0
+  task_name: classification
+
+GesturePebbleZ1:
+  c_out: 0
+  data: UEA
+  dataset: GesturePebbleZ1
+  enc_in: 1
+  label_len: 0
+  num_class: 6
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/GesturePebbleZ1
+  seq_len: 455  # 0
+  task_name: classification
+
+GesturePebbleZ2:
+  c_out: 0
+  data: UEA
+  dataset: GesturePebbleZ2
+  enc_in: 1
+  label_len: 0
+  num_class: 6
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/GesturePebbleZ2
+  seq_len: 455  # 0
+  task_name: classification
+
+GunPoint:
+  c_out: 0
+  data: UEA
+  dataset: GunPoint
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/GunPoint
+  seq_len: 150
+  task_name: classification
+
+GunPointAgeSpan:
+  c_out: 0
+  data: UEA
+  dataset: GunPointAgeSpan
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/GunPointAgeSpan
+  seq_len: 150
+  task_name: classification
+
+GunPointMaleVersusFemale:
+  c_out: 0
+  data: UEA
+  dataset: GunPointMaleVersusFemale
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/GunPointMaleVersusFemale
+  seq_len: 150
+  task_name: classification
+
+GunPointOldVersusYoung:
+  c_out: 0
+  data: UEA
+  dataset: GunPointOldVersusYoung
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/GunPointOldVersusYoung
+  seq_len: 150
+  task_name: classification
+
+Ham:
+  c_out: 0
+  data: UEA
+  dataset: Ham
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Ham
+  seq_len: 431
+  task_name: classification
+
+HandOutlines:
+  c_out: 0
+  data: UEA
+  dataset: HandOutlines
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/HandOutlines
+  seq_len: 2709
+  task_name: classification
+
+Haptics:
+  c_out: 0
+  data: UEA
+  dataset: Haptics
+  enc_in: 1
+  label_len: 0
+  num_class: 5
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Haptics
+  seq_len: 1092
+  task_name: classification
+
+Herring:
+  c_out: 0
+  data: UEA
+  dataset: Herring
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Herring
+  seq_len: 512
+  task_name: classification
+
+HouseTwenty:
+  c_out: 0
+  data: UEA
+  dataset: HouseTwenty
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/HouseTwenty
+  seq_len: 2000
+  task_name: classification
+
+InlineSkate:
+  c_out: 0
+  data: UEA
+  dataset: InlineSkate
+  enc_in: 1
+  label_len: 0
+  num_class: 7
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/InlineSkate
+  seq_len: 1882
+  task_name: classification
+
+InsectEPGRegularTrain:
+  c_out: 0
+  data: UEA
+  dataset: InsectEPGRegularTrain
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/InsectEPGRegularTrain
+  seq_len: 601
+  task_name: classification
+
+InsectEPGSmallTrain:
+  c_out: 0
+  data: UEA
+  dataset: InsectEPGSmallTrain
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/InsectEPGSmallTrain
+  seq_len: 601
+  task_name: classification
+
+InsectWingbeatSound:
+  c_out: 0
+  data: UEA
+  dataset: InsectWingbeatSound
+  enc_in: 1
+  label_len: 0
+  num_class: 11
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/InsectWingbeatSound
+  seq_len: 256
+  task_name: classification
+
+ItalyPowerDemand:
+  c_out: 0
+  data: UEA
+  dataset: ItalyPowerDemand
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ItalyPowerDemand
+  seq_len: 24
+  task_name: classification
+
+LargeKitchenAppliances:
+  c_out: 0
+  data: UEA
+  dataset: LargeKitchenAppliances
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/LargeKitchenAppliances
+  seq_len: 720
+  task_name: classification
+
+Lightning2:
+  c_out: 0
+  data: UEA
+  dataset: Lightning2
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Lightning2
+  seq_len: 637
+  task_name: classification
+
+Lightning7:
+  c_out: 0
+  data: UEA
+  dataset: Lightning7
+  enc_in: 1
+  label_len: 0
+  num_class: 7
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Lightning7
+  seq_len: 319
+  task_name: classification
+
+Mallat:
+  c_out: 0
+  data: UEA
+  dataset: Mallat
+  enc_in: 1
+  label_len: 0
+  num_class: 8
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Mallat
+  seq_len: 1024
+  task_name: classification
+
+Meat:
+  c_out: 0
+  data: UEA
+  dataset: Meat
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Meat
+  seq_len: 448
+  task_name: classification
+
+MedicalImages:
+  c_out: 0
+  data: UEA
+  dataset: MedicalImages
+  enc_in: 1
+  label_len: 0
+  num_class: 10
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/MedicalImages
+  seq_len: 99
+  task_name: classification
+
+MelbournePedestrian:
+  c_out: 0
+  data: UEA
+  dataset: MelbournePedestrian
+  enc_in: 1
+  label_len: 0
+  num_class: 10
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/MelbournePedestrian
+  seq_len: 24  # 0
+  task_name: classification
+
+MiddlePhalanxOutlineAgeGroup:
+  c_out: 0
+  data: UEA
+  dataset: MiddlePhalanxOutlineAgeGroup
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/MiddlePhalanxOutlineAgeGroup
+  seq_len: 80
+  task_name: classification
+
+MiddlePhalanxOutlineCorrect:
+  c_out: 0
+  data: UEA
+  dataset: MiddlePhalanxOutlineCorrect
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/MiddlePhalanxOutlineCorrect
+  seq_len: 80
+  task_name: classification
+
+MiddlePhalanxTW:
+  c_out: 0
+  data: UEA
+  dataset: MiddlePhalanxTW
+  enc_in: 1
+  label_len: 0
+  num_class: 6
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/MiddlePhalanxTW
+  seq_len: 80
+  task_name: classification
+
+MixedShapesRegularTrain:
+  c_out: 0
+  data: UEA
+  dataset: MixedShapesRegularTrain
+  enc_in: 1
+  label_len: 0
+  num_class: 5
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/MixedShapesRegularTrain
+  seq_len: 1024
+  task_name: classification
+
+MixedShapesSmallTrain:
+  c_out: 0
+  data: UEA
+  dataset: MixedShapesSmallTrain
+  enc_in: 1
+  label_len: 0
+  num_class: 5
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/MixedShapesSmallTrain
+  seq_len: 1024
+  task_name: classification
+
+MoteStrain:
+  c_out: 0
+  data: UEA
+  dataset: MoteStrain
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/MoteStrain
+  seq_len: 84
+  task_name: classification
+
+NonInvasiveFetalECGThorax1:
+  c_out: 0
+  data: UEA
+  dataset: NonInvasiveFetalECGThorax1
+  enc_in: 1
+  label_len: 0
+  num_class: 42
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/NonInvasiveFetalECGThorax1
+  seq_len: 750
+  task_name: classification
+
+NonInvasiveFetalECGThorax2:
+  c_out: 0
+  data: UEA
+  dataset: NonInvasiveFetalECGThorax2
+  enc_in: 1
+  label_len: 0
+  num_class: 42
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/NonInvasiveFetalECGThorax2
+  seq_len: 750
+  task_name: classification
+
+OSULeaf:
+  c_out: 0
+  data: UEA
+  dataset: OSULeaf
+  enc_in: 1
+  label_len: 0
+  num_class: 6
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/OSULeaf
+  seq_len: 427
+  task_name: classification
+
+OliveOil:
+  c_out: 0
+  data: UEA
+  dataset: OliveOil
+  enc_in: 1
+  label_len: 0
+  num_class: 4
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/OliveOil
+  seq_len: 570
+  task_name: classification
+
+PLAID:
+  c_out: 0
+  data: UEA
+  dataset: PLAID
+  enc_in: 1
+  label_len: 0
+  num_class: 11
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/PLAID
+  seq_len: 1344  # 0
+  task_name: classification
+
+PhalangesOutlinesCorrect:
+  c_out: 0
+  data: UEA
+  dataset: PhalangesOutlinesCorrect
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/PhalangesOutlinesCorrect
+  seq_len: 80
+  task_name: classification
+
+Phoneme:
+  c_out: 0
+  data: UEA
+  dataset: Phoneme
+  enc_in: 1
+  label_len: 0
+  num_class: 39
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Phoneme
+  seq_len: 1024
+  task_name: classification
+
+PickupGestureWiimoteZ:
+  c_out: 0
+  data: UEA
+  dataset: PickupGestureWiimoteZ
+  enc_in: 1
+  label_len: 0
+  num_class: 10
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/PickupGestureWiimoteZ
+  seq_len: 361  # 0
+  task_name: classification
+
+PigAirwayPressure:
+  c_out: 0
+  data: UEA
+  dataset: PigAirwayPressure
+  enc_in: 1
+  label_len: 0
+  num_class: 52
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/PigAirwayPressure
+  seq_len: 2000
+  task_name: classification
+
+PigArtPressure:
+  c_out: 0
+  data: UEA
+  dataset: PigArtPressure
+  enc_in: 1
+  label_len: 0
+  num_class: 52
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/PigArtPressure
+  seq_len: 2000
+  task_name: classification
+
+PigCVP:
+  c_out: 0
+  data: UEA
+  dataset: PigCVP
+  enc_in: 1
+  label_len: 0
+  num_class: 52
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/PigCVP
+  seq_len: 2000
+  task_name: classification
+
+Plane:
+  c_out: 0
+  data: UEA
+  dataset: Plane
+  enc_in: 1
+  label_len: 0
+  num_class: 7
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Plane
+  seq_len: 144
+  task_name: classification
+
+PowerCons:
+  c_out: 0
+  data: UEA
+  dataset: PowerCons
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/PowerCons
+  seq_len: 144
+  task_name: classification
+
+ProximalPhalanxOutlineAgeGroup:
+  c_out: 0
+  data: UEA
+  dataset: ProximalPhalanxOutlineAgeGroup
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ProximalPhalanxOutlineAgeGroup
+  seq_len: 80
+  task_name: classification
+
+ProximalPhalanxOutlineCorrect:
+  c_out: 0
+  data: UEA
+  dataset: ProximalPhalanxOutlineCorrect
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ProximalPhalanxOutlineCorrect
+  seq_len: 80
+  task_name: classification
+
+ProximalPhalanxTW:
+  c_out: 0
+  data: UEA
+  dataset: ProximalPhalanxTW
+  enc_in: 1
+  label_len: 0
+  num_class: 6
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ProximalPhalanxTW
+  seq_len: 80
+  task_name: classification
+
+RefrigerationDevices:
+  c_out: 0
+  data: UEA
+  dataset: RefrigerationDevices
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/RefrigerationDevices
+  seq_len: 720
+  task_name: classification
+
+Rock:
+  c_out: 0
+  data: UEA
+  dataset: Rock
+  enc_in: 1
+  label_len: 0
+  num_class: 4
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Rock
+  seq_len: 2844
+  task_name: classification
+
+ScreenType:
+  c_out: 0
+  data: UEA
+  dataset: ScreenType
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ScreenType
+  seq_len: 720
+  task_name: classification
+
+SemgHandGenderCh2:
+  c_out: 0
+  data: UEA
+  dataset: SemgHandGenderCh2
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/SemgHandGenderCh2
+  seq_len: 1500
+  task_name: classification
+
+SemgHandMovementCh2:
+  c_out: 0
+  data: UEA
+  dataset: SemgHandMovementCh2
+  enc_in: 1
+  label_len: 0
+  num_class: 6
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/SemgHandMovementCh2
+  seq_len: 1500
+  task_name: classification
+
+SemgHandSubjectCh2:
+  c_out: 0
+  data: UEA
+  dataset: SemgHandSubjectCh2
+  enc_in: 1
+  label_len: 0
+  num_class: 5
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/SemgHandSubjectCh2
+  seq_len: 1500
+  task_name: classification
+
+ShakeGestureWiimoteZ:
+  c_out: 0
+  data: UEA
+  dataset: ShakeGestureWiimoteZ
+  enc_in: 1
+  label_len: 0
+  num_class: 10
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ShakeGestureWiimoteZ
+  seq_len: 385  # 0
+  task_name: classification
+
+ShapeletSim:
+  c_out: 0
+  data: UEA
+  dataset: ShapeletSim
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ShapeletSim
+  seq_len: 500
+  task_name: classification
+
+ShapesAll:
+  c_out: 0
+  data: UEA
+  dataset: ShapesAll
+  enc_in: 1
+  label_len: 0
+  num_class: 60
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ShapesAll
+  seq_len: 512
+  task_name: classification
+
+SmallKitchenAppliances:
+  c_out: 0
+  data: UEA
+  dataset: SmallKitchenAppliances
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/SmallKitchenAppliances
+  seq_len: 720
+  task_name: classification
+
+SmoothSubspace:
+  c_out: 0
+  data: UEA
+  dataset: SmoothSubspace
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/SmoothSubspace
+  seq_len: 15
+  task_name: classification
+
+SonyAIBORobotSurface1:
+  c_out: 0
+  data: UEA
+  dataset: SonyAIBORobotSurface1
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/SonyAIBORobotSurface1
+  seq_len: 70
+  task_name: classification
+
+SonyAIBORobotSurface2:
+  c_out: 0
+  data: UEA
+  dataset: SonyAIBORobotSurface2
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/SonyAIBORobotSurface2
+  seq_len: 65
+  task_name: classification
+
+StarLightCurves:
+  c_out: 0
+  data: UEA
+  dataset: StarLightCurves
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/StarLightCurves
+  seq_len: 1024
+  task_name: classification
+
+Strawberry:
+  c_out: 0
+  data: UEA
+  dataset: Strawberry
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Strawberry
+  seq_len: 235
+  task_name: classification
+
+SwedishLeaf:
+  c_out: 0
+  data: UEA
+  dataset: SwedishLeaf
+  enc_in: 1
+  label_len: 0
+  num_class: 15
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/SwedishLeaf
+  seq_len: 128
+  task_name: classification
+
+Symbols:
+  c_out: 0
+  data: UEA
+  dataset: Symbols
+  enc_in: 1
+  label_len: 0
+  num_class: 6
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Symbols
+  seq_len: 398
+  task_name: classification
+
+SyntheticControl:
+  c_out: 0
+  data: UEA
+  dataset: SyntheticControl
+  enc_in: 1
+  label_len: 0
+  num_class: 6
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/SyntheticControl
+  seq_len: 60
+  task_name: classification
+
+ToeSegmentation1:
+  c_out: 0
+  data: UEA
+  dataset: ToeSegmentation1
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ToeSegmentation1
+  seq_len: 277
+  task_name: classification
+
+ToeSegmentation2:
+  c_out: 0
+  data: UEA
+  dataset: ToeSegmentation2
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/ToeSegmentation2
+  seq_len: 343
+  task_name: classification
+
+Trace:
+  c_out: 0
+  data: UEA
+  dataset: Trace
+  enc_in: 1
+  label_len: 0
+  num_class: 4
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Trace
+  seq_len: 275
+  task_name: classification
+
+TwoLeadECG:
+  c_out: 0
+  data: UEA
+  dataset: TwoLeadECG
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/TwoLeadECG
+  seq_len: 82
+  task_name: classification
+
+TwoPatterns:
+  c_out: 0
+  data: UEA
+  dataset: TwoPatterns
+  enc_in: 1
+  label_len: 0
+  num_class: 4
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/TwoPatterns
+  seq_len: 128
+  task_name: classification
+
+UMD:
+  c_out: 0
+  data: UEA
+  dataset: UMD
+  enc_in: 1
+  label_len: 0
+  num_class: 3
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/UMD
+  seq_len: 150
+  task_name: classification
+
+UWaveGestureLibraryAll:
+  c_out: 0
+  data: UEA
+  dataset: UWaveGestureLibraryAll
+  enc_in: 1
+  label_len: 0
+  num_class: 8
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/UWaveGestureLibraryAll
+  seq_len: 945
+  task_name: classification
+
+UWaveGestureLibraryX:
+  c_out: 0
+  data: UEA
+  dataset: UWaveGestureLibraryX
+  enc_in: 1
+  label_len: 0
+  num_class: 8
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/UWaveGestureLibraryX
+  seq_len: 315
+  task_name: classification
+
+UWaveGestureLibraryY:
+  c_out: 0
+  data: UEA
+  dataset: UWaveGestureLibraryY
+  enc_in: 1
+  label_len: 0
+  num_class: 8
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/UWaveGestureLibraryY
+  seq_len: 315
+  task_name: classification
+
+UWaveGestureLibraryZ:
+  c_out: 0
+  data: UEA
+  dataset: UWaveGestureLibraryZ
+  enc_in: 1
+  label_len: 0
+  num_class: 8
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/UWaveGestureLibraryZ
+  seq_len: 315
+  task_name: classification
+
+Wafer:
+  c_out: 0
+  data: UEA
+  dataset: Wafer
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Wafer
+  seq_len: 152
+  task_name: classification
+
+Wine:
+  c_out: 0
+  data: UEA
+  dataset: Wine
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Wine
+  seq_len: 234
+  task_name: classification
+
+WordSynonyms:
+  c_out: 0
+  data: UEA
+  dataset: WordSynonyms
+  enc_in: 1
+  label_len: 0
+  num_class: 25
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/WordSynonyms
+  seq_len: 270
+  task_name: classification
+
+Worms:
+  c_out: 0
+  data: UEA
+  dataset: Worms
+  enc_in: 1
+  label_len: 0
+  num_class: 5
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Worms
+  seq_len: 900
+  task_name: classification
+
+WormsTwoClass:
+  c_out: 0
+  data: UEA
+  dataset: WormsTwoClass
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/WormsTwoClass
+  seq_len: 900
+  task_name: classification
+
+Yoga:
+  c_out: 0
+  data: UEA
+  dataset: Yoga
+  enc_in: 1
+  label_len: 0
+  num_class: 2
+  pred_len: 0
+  root_path: /data/yoom618/TSLib/dataset_UCR/Yoga
+  seq_len: 426
+  task_name: classification
+

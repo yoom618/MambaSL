@@ -1,14 +1,14 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 from collections import namedtuple
 
 
 from layers.Embed import PositionalEmbedding, TemporalEmbedding, TimeFeatureEmbedding
 from layers.MambaBlock import Mamba_TimeVariant
+from layers.RevIN import RevIN
 
 
-class TokenEmbedding_modified(nn.Module):  # original TokenEmbedding in tslib use fixed d_kernel(=3)
+class TokenEmbedding_cls(nn.Module):  # original TokenEmbedding in tslib use fixed d_kernel(=3). Since we want to experiment with different kernel sizes for H1 assumption, we modify the class here.
     def __init__(self, c_in, d_model, d_kernel=3):
         super().__init__()
         self.tokenConv = nn.Conv1d(in_channels=c_in, out_channels=d_model,
@@ -24,23 +24,15 @@ class TokenEmbedding_modified(nn.Module):  # original TokenEmbedding in tslib us
         return x
 
 
-class DataEmbedding(nn.Module):  # original DataEmbedding in tslib use fixed max_len(=5000). This gets warning for EigenWorms dataset (seq_len=17984)
-    def __init__(self, c_in, d_model, embed_type='fixed', freq='h', dropout=0.1, d_kernel=3, seq_len=5000, temporal_emb=False):
-        super(DataEmbedding, self).__init__()
-        self.value_embedding = TokenEmbedding_modified(c_in=c_in, d_model=d_model, d_kernel=d_kernel)
+class DataEmbedding_cls(nn.Module):  # original DataEmbedding in tslib use fixed max_len(=5000). This gets warning for EigenWorms dataset (seq_len=17984). To avoid the warning and keep consistency comparing with other models, we set max_len=max(5000, seq_len). 
+    def __init__(self, c_in, d_model, embed_type='fixed', freq='h', dropout=0.1, d_kernel=3, seq_len=5000):
+        super(DataEmbedding_cls, self).__init__()
+        self.value_embedding = TokenEmbedding_cls(c_in=c_in, d_model=d_model, d_kernel=d_kernel)
         self.position_embedding = PositionalEmbedding(d_model=d_model, max_len=max(5000, seq_len))
-        if temporal_emb:
-            self.temporal_embedding = TemporalEmbedding(d_model=d_model, embed_type=embed_type, freq=freq) \
-                if embed_type != 'timeF' else TimeFeatureEmbedding(d_model=d_model, embed_type=embed_type, freq=freq)
-        else:
-            self.temporal_embedding = None
         self.dropout = nn.Dropout(p=dropout) if dropout > 0 else nn.Identity()
 
-    def forward(self, x, x_mark):
-        if (self.temporal_embedding is None) or (x_mark is None):
-            x = self.value_embedding(x) + self.position_embedding(x)
-        else:
-            x = self.value_embedding(x) + self.temporal_embedding(x_mark) + self.position_embedding(x)
+    def forward(self, x):
+        x = self.value_embedding(x) + self.position_embedding(x)
         return self.dropout(x)
 
 
@@ -50,26 +42,28 @@ class Model(nn.Module):
         super(Model, self).__init__()
         self.task_name = configs.task_name
         self.seq_len = configs.seq_len
+        self.label_len = configs.label_len
         self.pred_len = configs.pred_len
+        self.c_out = configs.c_out
         self.dropout = configs.dropout
+        self.num_kernels = configs.num_kernels
         self.save_csv = configs.save_csv  # whether to save the csv file for the outputs
 
-        if configs.num_kernels > 0:
-            if self.task_name in ['classification', 'anomaly_detection']:
-                self.embedding = DataEmbedding(configs.enc_in, configs.d_model,
-                                            configs.embed, configs.freq, configs.dropout, 
-                                            configs.num_kernels, configs.seq_len, False)
-            else:
-                self.embedding = DataEmbedding(configs.enc_in, configs.d_model, configs.seq_len,
-                                               configs.embed, configs.freq, configs.dropout, 
-                                               configs.num_kernels, configs.seq_len, True)
+        # RevIN
+        self.revin = configs.use_revin
+        if self.revin:
+            self.revin_layer = RevIN(configs.enc_in)
+
+        if self.task_name in ['classification']:
+            self.embedding = DataEmbedding_cls(configs.enc_in, configs.d_model,
+                                        configs.embed, configs.freq, configs.dropout, 
+                                        configs.num_kernels, configs.seq_len)
         else:
             self.embedding = None
         
         self.mamba = nn.Sequential(
             Mamba_TimeVariant(
                 d_model = configs.d_model,
-                d_input = configs.enc_in if self.embedding is None else configs.d_model,
                 d_state = configs.d_ff,
                 d_conv = configs.d_conv,
                 expand = configs.expand,
@@ -80,7 +74,7 @@ class Model(nn.Module):
                 device = configs.device,
             ),
             nn.LayerNorm(configs.d_model),
-            nn.SiLU(),  # same activation ftn as Mamba Block
+            nn.SiLU(),  # simply choose the same activation fn as Mamba Block
         )
         
         if self.task_name in ['classification']:  # one class per one sequence sample
@@ -107,9 +101,10 @@ class Model(nn.Module):
                 )
                 for m in self.attn_weight.modules():
                     if isinstance(m, nn.Linear):
-                        nn.init.zeros_(m.weight)  # initialize to zero
+                        nn.init.zeros_(m.weight)
                         if m.bias is not None: m.bias.data.fill_(1.0)
                 
+                ### estimate w_out distribution by computing the Gini index (for personal analytical purposes)
                 self.gating_values = list()
             
             else: # if self.projection_type in ['last', 'average', 'max']:
@@ -127,30 +122,27 @@ class Model(nn.Module):
 
     def forward(self, x_enc, x_mark_enc, x_dec=None, x_mark_dec=None, mask=None):
         if self.task_name in ['classification']:
-            if self.embedding is not None:
-                mamba_in = self.embedding(x_enc, None)  # (B, L_in, D)
-            else:
-                mamba_in = x_enc  # (B, L_in, C_in)
-            
+
+            mamba_in = self.embedding(x_enc)  # (B, L_in, D)
             mamba_out = self.mamba(mamba_in)  # (B, L_in, D)
 
-            ## 1) flatten -> fully connected layer
+            ## 1) [ablation] flatten -> fully connected layer
             if self.projection_type == 'full':
                 out = mamba_out.view(mamba_out.size(0), -1)  # (B, L_in, D) -> (B, L_in * D)
                 out = self.out_layer(out)  # (B, L_in * D) -> (B, C_out)
 
-            ### 2) use the last hidden state to make the final prediction
+            ### 2) [ablation] use the last hidden state to make the final prediction
             elif self.projection_type == 'last':
                 out = mamba_out[:, -1, :]  # (B, D)
                 out = self.out_layer(out)  # (B, D) -> (B, C_out)
             
-            ### 3) use the average of the per-time logits to make the final prediction
+            ### 3) [ablation] use the average of the per-time logits to make the final prediction
             elif self.projection_type == 'avg':
                 out = self.out_layer(mamba_out)  # (B, L_in, D) -> (B, L_in, C_out)
                 out = out * x_mark_enc.unsqueeze(2)  # Mask out the padded sequence for variable length data (e.g. JapaneseVowels)
                 out = out.mean(1)  # (B, C_out)
             
-            ### 4) use the maximum of the per-time logits to make the final prediction
+            ### 4) [ablation] use the maximum of the per-time logits to make the final prediction
             elif self.projection_type == 'max':
                 out = self.out_layer(mamba_out)  # (B, L_in, D) -> (B, L_in, C_out)
                 out = out * x_mark_enc.unsqueeze(2)  # Mask out the padded sequence for variable length data (e.g. JapaneseVowels)
@@ -168,7 +160,7 @@ class Model(nn.Module):
                 out = logit_out * w_out  # (B, L_in, C_out)
                 out = out.sum(1)  # (B, C_out)
 
-                ### log w_out distribution by computing the Gini index
+                ### estimate w_out distribution by computing the Gini index (for personal analytical purposes)
                 gini = w_out.detach().clone().squeeze().pow(2).sum(-1, keepdim=False).tolist()  # (B, L_in) -> (B, )
                 if isinstance(gini, float): gini = [gini]
                 self.gating_values.extend(gini)  # (B, ) -> list of scalars
