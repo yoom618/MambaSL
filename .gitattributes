@@ -1,0 +1,2 @@
+*.sh linguist-generated
+*.ipynb linguist-language=Python
