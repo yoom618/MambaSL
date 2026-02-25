@@ -1,46 +1,18 @@
-UEA_MTSC30=("ArticularyWordRecognition" "AtrialFibrillation" "BasicMotions" "CharacterTrajectories" "Cricket" \
-            "DuckDuckGeese" "EigenWorms" "Epilepsy" "ERing" "EthanolConcentration" \
-            "FaceDetection" "FingerMovements" "HandMovementDirection" "Handwriting" "Heartbeat" \
-            "InsectWingbeat" "JapaneseVowels" "Libras" "LSST" "MotorImagery" \
-            "NATOPS" "PEMS-SF" "PenDigits" "PhonemeSpectra" "RacketSports" \
-            "SelfRegulationSCP1" "SelfRegulationSCP2" "SpokenArabicDigits" "StandWalkJump" "UWaveGestureLibrary" \
-            "All_UEA30")
-
-
-
-model="MambaSL"  # can be replaced with other DL model names (e.g. Crossformer, ...)
-for dataset in ${UEA_MTSC30[@]}
-do
-    sh_fname="./scripts_classification/05-scripts_final/${model}/${dataset}.sh"
-    out_fname="./scripts_classification/05-scripts_final/_test_results/${model}_${dataset}.out"
-    echo "Running ${sh_fname}"
-    echo "Result will be saved in ${out_fname}"
-    nohup bash ${sh_fname} > ${out_fname}
-done
-
-
 ############################################################################################################
-UEA_MTSC30=("ArticularyWordRecognition" "AtrialFibrillation" "BasicMotions" "CharacterTrajectories" "Cricket" \
-            "DuckDuckGeese" "EigenWorms" "Epilepsy" "ERing" "EthanolConcentration" \
-            "FaceDetection" "FingerMovements" "HandMovementDirection" "Handwriting" "Heartbeat" \
-            "InsectWingbeat" "JapaneseVowels" "Libras" "LSST" "MotorImagery" \
-            "NATOPS" "PEMS-SF" "PenDigits" "PhonemeSpectra" "RacketSports" \
-            "SelfRegulationSCP1" "SelfRegulationSCP2" "SpokenArabicDigits" "StandWalkJump" "UWaveGestureLibrary" )
-
-model="MambaSL"
-for dataset in ${UEA_MTSC30[@]}
-do
-    sh_fname="./scripts_classification/05-scripts_final/${model}/${dataset}.sh"
-    out_fname="./scripts_classification/05-scripts_final/_test_results/${model}_${dataset}.out"
-    echo "Running ${sh_fname}"
-    echo "Result will be saved in ${out_fname}"
-    nohup bash ${sh_fname} > ${out_fname}
-done
-
-
+### Test scripts for MambaSL on UEA30 datasets
+# 1) Only 1 hyperparams set for each dataset, with best acc & smallest model size
 UEA_MTSC30=("All_UEA30")
 
-model="MambaSL"
+# # 2) Every hyperparams set for each dataset, with best acc
+# UEA_MTSC30=("ArticularyWordRecognition" "AtrialFibrillation" "BasicMotions" "CharacterTrajectories" "Cricket" \
+#             "DuckDuckGeese" "EigenWorms" "Epilepsy" "ERing" "EthanolConcentration" \
+#             "FaceDetection" "FingerMovements" "HandMovementDirection" "Handwriting" "Heartbeat" \
+#             "InsectWingbeat" "JapaneseVowels" "Libras" "LSST" "MotorImagery" \
+#             "NATOPS" "PEMS-SF" "PenDigits" "PhonemeSpectra" "RacketSports" \
+#             "SelfRegulationSCP1" "SelfRegulationSCP2" "SpokenArabicDigits" "StandWalkJump" "UWaveGestureLibrary")
+
+
+model="MambaSL"  # can be replaced with other DL model names (e.g. "Crossformer", ...)
 for dataset in ${UEA_MTSC30[@]}
 do
     sh_fname="./scripts_classification/05-scripts_final/${model}/${dataset}.sh"
@@ -52,6 +24,7 @@ done
 
 
 ############################################################################################################
+### Additional Experiments: Two more datasets from MedFormer
 UEA_MTSC30=("ADFTD" "FLAAP")
 model="MambaSL"
 for dataset in ${UEA_MTSC30[@]}
@@ -65,6 +38,7 @@ done
 
 
 ############################################################################################################
+### Additional Experiments: Model Depth Ablation (2-3 layers)
 UEA_MTSC30=("ArticularyWordRecognition" "AtrialFibrillation" "BasicMotions" "CharacterTrajectories" "Cricket" \
             "DuckDuckGeese" "EigenWorms" "Epilepsy" "ERing" "EthanolConcentration" \
             "FaceDetection" "FingerMovements" "HandMovementDirection" "Handwriting" "Heartbeat" \
@@ -87,6 +61,7 @@ done
 
 
 ############################################################################################################
+### Additional Experiments: InceptionTime-setting (= lowest training loss)
 UEA_MTSC30=("ArticularyWordRecognition" "AtrialFibrillation" "BasicMotions" "CharacterTrajectories" "Cricket" \
             "DuckDuckGeese" "EigenWorms" "Epilepsy" "ERing" "EthanolConcentration" \
             "FaceDetection" "FingerMovements" "HandMovementDirection" "Handwriting" "Heartbeat" \
