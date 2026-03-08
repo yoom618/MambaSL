@@ -16,6 +16,8 @@ torch
 tqdm
 PyWavelets
 timm
+transformers
+huggingface_hub
 # mamba-ssm
 # causal-conv1d
 ### visualization
