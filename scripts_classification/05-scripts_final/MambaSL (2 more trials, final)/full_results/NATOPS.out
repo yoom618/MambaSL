@@ -1,0 +1,856 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        1                   
+  Model ID:           CLS_NATOPS          Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/NATOPS
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/checkpoints
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+180
+180
+>>>>>>>start training : classification_CLS_NATOPS_MambaSingleLayer_UEA_ftM_sl51_ll0_pl0_dm1024_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC1_useD0_trainlossonly_1>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 1.3093299865722656
+gating_value: 0.01962182218277896
+Epoch: 1, Steps: 12 | Train Loss: 1.639 Vali Loss: 1.191 Vali Acc: 0.639 Test Loss: 1.206 Test Acc: 0.644
+Validation loss decreased (inf --> 1.190684).  Saving model ...
+Epoch: 2 cost time: 0.40090489387512207
+gating_value: 0.01987556903105643
+Epoch: 2, Steps: 12 | Train Loss: 0.851 Vali Loss: 0.463 Vali Acc: 0.850 Test Loss: 0.525 Test Acc: 0.811
+Validation loss decreased (1.190684 --> 0.462588).  Saving model ...
+Epoch: 3 cost time: 0.47611474990844727
+gating_value: 0.02079576698166353
+Epoch: 3, Steps: 12 | Train Loss: 0.388 Vali Loss: 0.248 Vali Acc: 0.850 Test Loss: 0.304 Test Acc: 0.828
+Validation loss decreased (0.462588 --> 0.247793).  Saving model ...
+Epoch: 4 cost time: 0.510606050491333
+gating_value: 0.02218469435832015
+Epoch: 4, Steps: 12 | Train Loss: 0.260 Vali Loss: 0.186 Vali Acc: 0.917 Test Loss: 0.239 Test Acc: 0.878
+Validation loss decreased (0.247793 --> 0.185853).  Saving model ...
+Epoch: 5 cost time: 0.46395158767700195
+gating_value: 0.023062937151364708
+Epoch: 5, Steps: 12 | Train Loss: 0.233 Vali Loss: 0.270 Vali Acc: 0.839 Test Loss: 0.330 Test Acc: 0.850
+EarlyStopping counter: 1 out of 10
+Epoch: 6 cost time: 0.38562774658203125
+gating_value: 0.024319510027352307
+Epoch: 6, Steps: 12 | Train Loss: 0.227 Vali Loss: 0.186 Vali Acc: 0.872 Test Loss: 0.281 Test Acc: 0.844
+EarlyStopping counter: 2 out of 10
+Epoch: 7 cost time: 0.4355318546295166
+gating_value: 0.023206555943384215
+Epoch: 7, Steps: 12 | Train Loss: 0.301 Vali Loss: 0.121 Vali Acc: 0.989 Test Loss: 0.162 Test Acc: 0.967
+Validation loss decreased (0.185853 --> 0.120802).  Saving model ...
+Epoch: 8 cost time: 0.5119118690490723
+gating_value: 0.024208875121203836
+Epoch: 8, Steps: 12 | Train Loss: 0.201 Vali Loss: 0.137 Vali Acc: 0.956 Test Loss: 0.190 Test Acc: 0.911
+EarlyStopping counter: 1 out of 10
+Epoch: 9 cost time: 0.3989720344543457
+gating_value: 0.025533230737265614
+Epoch: 9, Steps: 12 | Train Loss: 0.162 Vali Loss: 0.177 Vali Acc: 0.928 Test Loss: 0.244 Test Acc: 0.889
+EarlyStopping counter: 2 out of 10
+Epoch: 10 cost time: 0.44781994819641113
+gating_value: 0.027429061465793186
+Epoch: 10, Steps: 12 | Train Loss: 0.113 Vali Loss: 0.122 Vali Acc: 0.972 Test Loss: 0.169 Test Acc: 0.939
+EarlyStopping counter: 3 out of 10
+Epoch: 11 cost time: 0.38521862030029297
+gating_value: 0.025038377592271125
+Epoch: 11, Steps: 12 | Train Loss: 0.181 Vali Loss: 0.172 Vali Acc: 0.922 Test Loss: 0.251 Test Acc: 0.917
+EarlyStopping counter: 4 out of 10
+Epoch: 12 cost time: 0.4472663402557373
+gating_value: 0.02591854204527206
+Epoch: 12, Steps: 12 | Train Loss: 0.149 Vali Loss: 0.260 Vali Acc: 0.917 Test Loss: 0.258 Test Acc: 0.906
+EarlyStopping counter: 5 out of 10
+Epoch: 13 cost time: 0.43892335891723633
+gating_value: 0.027065137597835725
+Epoch: 13, Steps: 12 | Train Loss: 0.302 Vali Loss: 0.121 Vali Acc: 0.928 Test Loss: 0.341 Test Acc: 0.889
+EarlyStopping counter: 6 out of 10
+Epoch: 14 cost time: 0.49959349632263184
+gating_value: 0.02819681958536859
+Epoch: 14, Steps: 12 | Train Loss: 0.140 Vali Loss: 0.093 Vali Acc: 0.950 Test Loss: 0.133 Test Acc: 0.950
+Validation loss decreased (0.120802 --> 0.093467).  Saving model ...
+Epoch: 15 cost time: 0.4888498783111572
+gating_value: 0.028765711464263776
+Epoch: 15, Steps: 12 | Train Loss: 0.146 Vali Loss: 0.227 Vali Acc: 0.900 Test Loss: 0.384 Test Acc: 0.878
+EarlyStopping counter: 1 out of 10
+Epoch: 16 cost time: 0.46836376190185547
+gating_value: 0.029937894576815543
+Epoch: 16, Steps: 12 | Train Loss: 0.082 Vali Loss: 0.061 Vali Acc: 0.972 Test Loss: 0.248 Test Acc: 0.911
+Validation loss decreased (0.093467 --> 0.061036).  Saving model ...
+Epoch: 17 cost time: 0.481250524520874
+gating_value: 0.030293874166629934
+Epoch: 17, Steps: 12 | Train Loss: 0.068 Vali Loss: 0.016 Vali Acc: 1.000 Test Loss: 0.145 Test Acc: 0.944
+Validation loss decreased (0.061036 --> 0.015858).  Saving model ...
+Epoch: 18 cost time: 0.5034410953521729
+gating_value: 0.030499451338417
+Epoch: 18, Steps: 12 | Train Loss: 0.069 Vali Loss: 0.043 Vali Acc: 0.978 Test Loss: 0.267 Test Acc: 0.911
+EarlyStopping counter: 1 out of 10
+Epoch: 19 cost time: 0.41599297523498535
+gating_value: 0.030383381968433106
+Epoch: 19, Steps: 12 | Train Loss: 0.033 Vali Loss: 0.049 Vali Acc: 0.989 Test Loss: 0.166 Test Acc: 0.961
+EarlyStopping counter: 2 out of 10
+Epoch: 20 cost time: 0.4535224437713623
+gating_value: 0.03326762466932889
+Epoch: 20, Steps: 12 | Train Loss: 0.045 Vali Loss: 0.066 Vali Acc: 0.972 Test Loss: 0.386 Test Acc: 0.911
+EarlyStopping counter: 3 out of 10
+Epoch: 21 cost time: 0.39658021926879883
+gating_value: 0.03362518907352178
+Epoch: 21, Steps: 12 | Train Loss: 0.038 Vali Loss: 0.145 Vali Acc: 0.956 Test Loss: 0.406 Test Acc: 0.922
+EarlyStopping counter: 4 out of 10
+Epoch: 22 cost time: 0.40964627265930176
+gating_value: 0.03246000487771299
+Epoch: 22, Steps: 12 | Train Loss: 0.140 Vali Loss: 0.039 Vali Acc: 0.989 Test Loss: 0.251 Test Acc: 0.933
+EarlyStopping counter: 5 out of 10
+Epoch: 23 cost time: 0.4068455696105957
+gating_value: 0.032907222711515645
+Epoch: 23, Steps: 12 | Train Loss: 0.123 Vali Loss: 0.062 Vali Acc: 0.983 Test Loss: 0.361 Test Acc: 0.917
+EarlyStopping counter: 6 out of 10
+Epoch: 24 cost time: 0.48960161209106445
+gating_value: 0.03187812197332581
+Epoch: 24, Steps: 12 | Train Loss: 0.110 Vali Loss: 0.079 Vali Acc: 0.956 Test Loss: 0.359 Test Acc: 0.900
+EarlyStopping counter: 7 out of 10
+Epoch: 25 cost time: 0.3963935375213623
+gating_value: 0.029320273613902152
+Epoch: 25, Steps: 12 | Train Loss: 0.244 Vali Loss: 0.059 Vali Acc: 0.972 Test Loss: 0.158 Test Acc: 0.944
+EarlyStopping counter: 8 out of 10
+Epoch: 26 cost time: 0.40981340408325195
+gating_value: 0.033473187898872075
+Epoch: 26, Steps: 12 | Train Loss: 0.066 Vali Loss: 0.062 Vali Acc: 0.978 Test Loss: 0.331 Test Acc: 0.906
+EarlyStopping counter: 9 out of 10
+Epoch: 27 cost time: 0.42280030250549316
+gating_value: 0.03291815679727329
+Epoch: 27, Steps: 12 | Train Loss: 0.108 Vali Loss: 0.119 Vali Acc: 0.961 Test Loss: 0.408 Test Acc: 0.906
+EarlyStopping counter: 10 out of 10
+Updating learning rate to 0.0005 and loading best model weights from checkpoint.
+Epoch: 28 cost time: 0.44217514991760254
+gating_value: 0.031606455323182875
+Epoch: 28, Steps: 12 | Train Loss: 0.008 Vali Loss: 0.015 Vali Acc: 0.989 Test Loss: 0.215 Test Acc: 0.950
+Validation loss decreased (0.015858 --> 0.014951).  Saving model ...
+Epoch: 29 cost time: 0.5090084075927734
+gating_value: 0.03203054843815389
+Epoch: 29, Steps: 12 | Train Loss: 0.011 Vali Loss: 0.021 Vali Acc: 0.989 Test Loss: 0.193 Test Acc: 0.933
+EarlyStopping counter: 1 out of 10
+Epoch: 30 cost time: 0.48137807846069336
+gating_value: 0.03257690263153226
+Epoch: 30, Steps: 12 | Train Loss: 0.020 Vali Loss: 0.003 Vali Acc: 1.000 Test Loss: 0.154 Test Acc: 0.956
+Validation loss decreased (0.014951 --> 0.002944).  Saving model ...
+Epoch: 31 cost time: 0.4517364501953125
+gating_value: 0.032873293616015604
+Epoch: 31, Steps: 12 | Train Loss: 0.007 Vali Loss: 0.091 Vali Acc: 0.989 Test Loss: 0.358 Test Acc: 0.922
+EarlyStopping counter: 1 out of 10
+Epoch: 32 cost time: 0.3998432159423828
+gating_value: 0.03267254017431427
+Epoch: 32, Steps: 12 | Train Loss: 0.034 Vali Loss: 0.004 Vali Acc: 1.000 Test Loss: 0.252 Test Acc: 0.944
+EarlyStopping counter: 2 out of 10
+Epoch: 33 cost time: 0.5366556644439697
+gating_value: 0.033010753444223495
+Epoch: 33, Steps: 12 | Train Loss: 0.017 Vali Loss: 0.003 Vali Acc: 1.000 Test Loss: 0.170 Test Acc: 0.950
+EarlyStopping counter: 3 out of 10
+Epoch: 34 cost time: 0.5076165199279785
+gating_value: 0.03343535373677258
+Epoch: 34, Steps: 12 | Train Loss: 0.002 Vali Loss: 0.001 Vali Acc: 1.000 Test Loss: 0.142 Test Acc: 0.983
+Validation loss decreased (0.002944 --> 0.000578).  Saving model ...
+Epoch: 35 cost time: 0.4878861904144287
+gating_value: 0.03399036817804531
+Epoch: 35, Steps: 12 | Train Loss: 0.002 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.113 Test Acc: 0.983
+Validation loss decreased (0.000578 --> 0.000361).  Saving model ...
+Epoch: 36 cost time: 0.45090270042419434
+gating_value: 0.034239460176063906
+Epoch: 36, Steps: 12 | Train Loss: 0.020 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.115 Test Acc: 0.983
+Validation loss decreased (0.000361 --> 0.000278).  Saving model ...
+Epoch: 37 cost time: 0.5309062004089355
+gating_value: 0.034252527645892566
+Epoch: 37, Steps: 12 | Train Loss: 0.001 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.148 Test Acc: 0.983
+Validation loss decreased (0.000278 --> 0.000222).  Saving model ...
+Epoch: 38 cost time: 0.5077564716339111
+gating_value: 0.03446871941495273
+Epoch: 38, Steps: 12 | Train Loss: 0.001 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.151 Test Acc: 0.983
+Validation loss decreased (0.000222 --> 0.000190).  Saving model ...
+Epoch: 39 cost time: 0.47766900062561035
+gating_value: 0.03463222995676376
+Epoch: 39, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.138 Test Acc: 0.983
+Validation loss decreased (0.000190 --> 0.000166).  Saving model ...
+Epoch: 40 cost time: 0.4591856002807617
+gating_value: 0.0347922059017475
+Epoch: 40, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.142 Test Acc: 0.983
+Validation loss decreased (0.000166 --> 0.000145).  Saving model ...
+Epoch: 41 cost time: 0.5036847591400146
+gating_value: 0.03492969873326796
+Epoch: 41, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.144 Test Acc: 0.983
+Validation loss decreased (0.000145 --> 0.000123).  Saving model ...
+Epoch: 42 cost time: 0.48995304107666016
+gating_value: 0.03504816644859535
+Epoch: 42, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.145 Test Acc: 0.983
+Validation loss decreased (0.000123 --> 0.000109).  Saving model ...
+Epoch: 43 cost time: 0.4869697093963623
+gating_value: 0.03513969062586073
+Epoch: 43, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.145 Test Acc: 0.983
+Validation loss decreased (0.000109 --> 0.000099).  Saving model ...
+Epoch: 44 cost time: 0.5211777687072754
+gating_value: 0.03524182808964893
+Epoch: 44, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.140 Test Acc: 0.983
+Validation loss decreased (0.000099 --> 0.000093).  Saving model ...
+Epoch: 45 cost time: 0.47644877433776855
+gating_value: 0.03536948197417789
+Epoch: 45, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.138 Test Acc: 0.983
+Validation loss decreased (0.000093 --> 0.000087).  Saving model ...
+Epoch: 46 cost time: 0.43502020835876465
+gating_value: 0.03545600481814257
+Epoch: 46, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.143 Test Acc: 0.983
+Validation loss decreased (0.000087 --> 0.000083).  Saving model ...
+Epoch: 47 cost time: 0.48789143562316895
+gating_value: 0.035538960907056376
+Epoch: 47, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.146 Test Acc: 0.983
+EarlyStopping counter: 1 out of 10
+Epoch: 48 cost time: 0.446674108505249
+gating_value: 0.03563216629058674
+Epoch: 48, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.146 Test Acc: 0.983
+Validation loss decreased (0.000083 --> 0.000077).  Saving model ...
+Epoch: 49 cost time: 0.44127368927001953
+gating_value: 0.03572525630394618
+Epoch: 49, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.140 Test Acc: 0.983
+Validation loss decreased (0.000077 --> 0.000068).  Saving model ...
+Epoch: 50 cost time: 0.4604151248931885
+gating_value: 0.03583948577719706
+Epoch: 50, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.136 Test Acc: 0.983
+EarlyStopping counter: 1 out of 10
+Epoch: 51 cost time: 0.3969573974609375
+gating_value: 0.03591409604996443
+Epoch: 51, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.136 Test Acc: 0.983
+Validation loss decreased (0.000068 --> 0.000067).  Saving model ...
+Epoch: 52 cost time: 0.44400501251220703
+gating_value: 0.03600101574772486
+Epoch: 52, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.137 Test Acc: 0.983
+Validation loss decreased (0.000067 --> 0.000059).  Saving model ...
+Epoch: 53 cost time: 0.5124778747558594
+gating_value: 0.03609702524349645
+Epoch: 53, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.138 Test Acc: 0.983
+Validation loss decreased (0.000059 --> 0.000057).  Saving model ...
+Epoch: 54 cost time: 0.4927713871002197
+gating_value: 0.03617598351987976
+Epoch: 54, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.141 Test Acc: 0.983
+Validation loss decreased (0.000057 --> 0.000051).  Saving model ...
+Epoch: 55 cost time: 0.5854308605194092
+gating_value: 0.03625331470673835
+Epoch: 55, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.141 Test Acc: 0.983
+Validation loss decreased (0.000051 --> 0.000051).  Saving model ...
+Epoch: 56 cost time: 0.5243754386901855
+gating_value: 0.03634160954712166
+Epoch: 56, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.141 Test Acc: 0.983
+Validation loss decreased (0.000051 --> 0.000049).  Saving model ...
+Epoch: 57 cost time: 0.5931394100189209
+gating_value: 0.036429133780162645
+Epoch: 57, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.142 Test Acc: 0.983
+Validation loss decreased (0.000049 --> 0.000044).  Saving model ...
+Epoch: 58 cost time: 0.4504528045654297
+gating_value: 0.036514520355396804
+Epoch: 58, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.139 Test Acc: 0.983
+Validation loss decreased (0.000044 --> 0.000042).  Saving model ...
+Epoch: 59 cost time: 0.5143241882324219
+gating_value: 0.03655043412344875
+Epoch: 59, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.144 Test Acc: 0.983
+Validation loss decreased (0.000042 --> 0.000040).  Saving model ...
+Epoch: 60 cost time: 0.521230936050415
+gating_value: 0.03661180272767389
+Epoch: 60, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.152 Test Acc: 0.983
+EarlyStopping counter: 1 out of 10
+Epoch: 61 cost time: 0.48468732833862305
+gating_value: 0.03667894068553492
+Epoch: 61, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.148 Test Acc: 0.983
+Validation loss decreased (0.000040 --> 0.000039).  Saving model ...
+Epoch: 62 cost time: 0.5456435680389404
+gating_value: 0.03673147719560398
+Epoch: 62, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.148 Test Acc: 0.983
+Validation loss decreased (0.000039 --> 0.000036).  Saving model ...
+Epoch: 63 cost time: 0.5304543972015381
+gating_value: 0.03678976881697222
+Epoch: 63, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.148 Test Acc: 0.983
+Validation loss decreased (0.000036 --> 0.000035).  Saving model ...
+Epoch: 64 cost time: 0.5110793113708496
+gating_value: 0.036861047900661276
+Epoch: 64, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.140 Test Acc: 0.983
+Validation loss decreased (0.000035 --> 0.000035).  Saving model ...
+Epoch: 65 cost time: 0.4648728370666504
+gating_value: 0.036926464119029265
+Epoch: 65, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.134 Test Acc: 0.983
+Validation loss decreased (0.000035 --> 0.000035).  Saving model ...
+Epoch: 66 cost time: 0.4479660987854004
+gating_value: 0.03700839399739548
+Epoch: 66, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.132 Test Acc: 0.983
+Validation loss decreased (0.000035 --> 0.000033).  Saving model ...
+Epoch: 67 cost time: 0.45757031440734863
+gating_value: 0.037091786586851985
+Epoch: 67, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.138 Test Acc: 0.983
+Validation loss decreased (0.000033 --> 0.000030).  Saving model ...
+Epoch: 68 cost time: 0.48882055282592773
+gating_value: 0.03715385934337974
+Epoch: 68, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.142 Test Acc: 0.983
+Validation loss decreased (0.000030 --> 0.000027).  Saving model ...
+Epoch: 69 cost time: 0.441251277923584
+gating_value: 0.03719448266136977
+Epoch: 69, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.143 Test Acc: 0.983
+EarlyStopping counter: 1 out of 10
+Epoch: 70 cost time: 0.4328887462615967
+gating_value: 0.037234417411188284
+Epoch: 70, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.149 Test Acc: 0.983
+Validation loss decreased (0.000027 --> 0.000026).  Saving model ...
+Epoch: 71 cost time: 0.49260592460632324
+gating_value: 0.03728883081219263
+Epoch: 71, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.150 Test Acc: 0.983
+EarlyStopping counter: 1 out of 10
+Epoch: 72 cost time: 0.4087228775024414
+gating_value: 0.03732985190840231
+Epoch: 72, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.148 Test Acc: 0.983
+Validation loss decreased (0.000026 --> 0.000024).  Saving model ...
+Epoch: 73 cost time: 0.520411491394043
+gating_value: 0.03739957538674827
+Epoch: 73, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.146 Test Acc: 0.983
+Validation loss decreased (0.000024 --> 0.000024).  Saving model ...
+Epoch: 74 cost time: 0.5464849472045898
+gating_value: 0.03748813537811792
+Epoch: 74, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.140 Test Acc: 0.983
+Validation loss decreased (0.000024 --> 0.000022).  Saving model ...
+Epoch: 75 cost time: 0.4878218173980713
+gating_value: 0.037500721495598556
+Epoch: 75, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.146 Test Acc: 0.983
+Validation loss decreased (0.000022 --> 0.000022).  Saving model ...
+Epoch: 76 cost time: 0.4700291156768799
+gating_value: 0.03756248665352662
+Epoch: 76, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.147 Test Acc: 0.983
+EarlyStopping counter: 1 out of 10
+Epoch: 77 cost time: 0.4351634979248047
+gating_value: 0.037612164675913475
+Epoch: 77, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.147 Test Acc: 0.983
+Validation loss decreased (0.000022 --> 0.000020).  Saving model ...
+Epoch: 78 cost time: 0.42263007164001465
+gating_value: 0.03763891997988577
+Epoch: 78, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.150 Test Acc: 0.983
+Validation loss decreased (0.000020 --> 0.000020).  Saving model ...
+Epoch: 79 cost time: 0.5738592147827148
+gating_value: 0.037698570376744976
+Epoch: 79, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.153 Test Acc: 0.983
+Validation loss decreased (0.000020 --> 0.000019).  Saving model ...
+Epoch: 80 cost time: 0.4926156997680664
+gating_value: 0.037752516208975406
+Epoch: 80, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.152 Test Acc: 0.983
+EarlyStopping counter: 1 out of 10
+Epoch: 81 cost time: 0.4322371482849121
+gating_value: 0.03779068905515252
+Epoch: 81, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.152 Test Acc: 0.983
+EarlyStopping counter: 2 out of 10
+Epoch: 82 cost time: 0.4919438362121582
+gating_value: 0.0378387600183487
+Epoch: 82, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.149 Test Acc: 0.983
+EarlyStopping counter: 3 out of 10
+Epoch: 83 cost time: 0.4478268623352051
+gating_value: 0.037876032596385036
+Epoch: 83, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.149 Test Acc: 0.983
+Validation loss decreased (0.000019 --> 0.000018).  Saving model ...
+Epoch: 84 cost time: 0.5185472965240479
+gating_value: 0.037902678483752186
+Epoch: 84, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.148 Test Acc: 0.983
+Validation loss decreased (0.000018 --> 0.000017).  Saving model ...
+Epoch: 85 cost time: 0.5022344589233398
+gating_value: 0.03797083014139423
+Epoch: 85, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.148 Test Acc: 0.983
+Validation loss decreased (0.000017 --> 0.000016).  Saving model ...
+Epoch: 86 cost time: 0.4945046901702881
+gating_value: 0.03801020272765999
+Epoch: 86, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.149 Test Acc: 0.983
+Validation loss decreased (0.000016 --> 0.000016).  Saving model ...
+Epoch: 87 cost time: 0.5265376567840576
+gating_value: 0.03804140718032916
+Epoch: 87, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.152 Test Acc: 0.983
+Validation loss decreased (0.000016 --> 0.000016).  Saving model ...
+Epoch: 88 cost time: 0.4834940433502197
+gating_value: 0.03807480219337675
+Epoch: 88, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.152 Test Acc: 0.983
+Validation loss decreased (0.000016 --> 0.000015).  Saving model ...
+Epoch: 89 cost time: 0.4756166934967041
+gating_value: 0.038134274852496604
+Epoch: 89, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.149 Test Acc: 0.983
+Validation loss decreased (0.000015 --> 0.000015).  Saving model ...
+Epoch: 90 cost time: 0.447390079498291
+gating_value: 0.03819290364368094
+Epoch: 90, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.151 Test Acc: 0.983
+Validation loss decreased (0.000015 --> 0.000015).  Saving model ...
+Epoch: 91 cost time: 0.5448694229125977
+gating_value: 0.038232892248089664
+Epoch: 91, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.148 Test Acc: 0.983
+Validation loss decreased (0.000015 --> 0.000014).  Saving model ...
+Epoch: 92 cost time: 0.48035669326782227
+gating_value: 0.038280271862943964
+Epoch: 92, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.143 Test Acc: 0.983
+Validation loss decreased (0.000014 --> 0.000013).  Saving model ...
+Epoch: 93 cost time: 0.5676634311676025
+gating_value: 0.038348501824118475
+Epoch: 93, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.142 Test Acc: 0.983
+Validation loss decreased (0.000013 --> 0.000013).  Saving model ...
+Epoch: 94 cost time: 0.4664640426635742
+gating_value: 0.038348749283425236
+Epoch: 94, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.145 Test Acc: 0.983
+EarlyStopping counter: 1 out of 10
+Epoch: 95 cost time: 0.39121222496032715
+gating_value: 0.0384035595520227
+Epoch: 95, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.147 Test Acc: 0.983
+EarlyStopping counter: 2 out of 10
+Epoch: 96 cost time: 0.4208559989929199
+gating_value: 0.03844071540429636
+Epoch: 96, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.148 Test Acc: 0.983
+Validation loss decreased (0.000013 --> 0.000012).  Saving model ...
+Epoch: 97 cost time: 0.5146961212158203
+gating_value: 0.038469455139366567
+Epoch: 97, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.150 Test Acc: 0.983
+EarlyStopping counter: 1 out of 10
+Epoch: 98 cost time: 0.4555189609527588
+gating_value: 0.03851768512416769
+Epoch: 98, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.152 Test Acc: 0.983
+EarlyStopping counter: 2 out of 10
+Epoch: 99 cost time: 0.46025776863098145
+gating_value: 0.03852363170504018
+Epoch: 99, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.158 Test Acc: 0.983
+EarlyStopping counter: 3 out of 10
+Epoch: 100 cost time: 0.4713437557220459
+gating_value: 0.038568616603259685
+Epoch: 100, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.163 Test Acc: 0.983
+Validation loss decreased (0.000012 --> 0.000011).  Saving model ...
+>>>>>>>testing : classification_CLS_NATOPS_MambaSingleLayer_UEA_ftM_sl51_ll0_pl0_dm1024_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 6]) torch.Size([180, 1])
+gating_value: 0.039021748180190725
+accuracy:0.9833333333333333
+model parameter : 3379208
+model size : 32.43MB
+180
+180
+>>>>>>>start training : classification_CLS_NATOPS_MambaSingleLayer_UEA_ftM_sl51_ll0_pl0_dm1024_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC1_useD0_trainlossonly_2>>>>>>>>>>>>>>>>>>>>>>>>>>
+Epoch: 1 cost time: 0.4283616542816162
+gating_value: 0.019613909824854798
+Epoch: 1, Steps: 12 | Train Loss: 1.571 Vali Loss: 1.005 Vali Acc: 0.839 Test Loss: 1.060 Test Acc: 0.772
+Validation loss decreased (inf --> 1.005312).  Saving model ...
+Epoch: 2 cost time: 0.39760255813598633
+gating_value: 0.01980295013981285
+Epoch: 2, Steps: 12 | Train Loss: 0.685 Vali Loss: 0.382 Vali Acc: 0.850 Test Loss: 0.431 Test Acc: 0.861
+Validation loss decreased (1.005312 --> 0.381708).  Saving model ...
+Epoch: 3 cost time: 0.4024772644042969
+gating_value: 0.02038642870331252
+Epoch: 3, Steps: 12 | Train Loss: 0.368 Vali Loss: 0.248 Vali Acc: 0.917 Test Loss: 0.281 Test Acc: 0.883
+Validation loss decreased (0.381708 --> 0.248239).  Saving model ...
+Epoch: 4 cost time: 0.5347318649291992
+gating_value: 0.021076639479509107
+Epoch: 4, Steps: 12 | Train Loss: 0.279 Vali Loss: 0.223 Vali Acc: 0.894 Test Loss: 0.274 Test Acc: 0.861
+Validation loss decreased (0.248239 --> 0.222595).  Saving model ...
+Epoch: 5 cost time: 0.49759626388549805
+gating_value: 0.022610516608175306
+Epoch: 5, Steps: 12 | Train Loss: 0.233 Vali Loss: 0.140 Vali Acc: 0.950 Test Loss: 0.202 Test Acc: 0.933
+Validation loss decreased (0.222595 --> 0.139902).  Saving model ...
+Epoch: 6 cost time: 0.49416112899780273
+gating_value: 0.02310148473760044
+Epoch: 6, Steps: 12 | Train Loss: 0.144 Vali Loss: 0.425 Vali Acc: 0.856 Test Loss: 0.340 Test Acc: 0.878
+EarlyStopping counter: 1 out of 10
+Epoch: 7 cost time: 0.5116860866546631
+gating_value: 0.022506312991457958
+Epoch: 7, Steps: 12 | Train Loss: 0.309 Vali Loss: 0.143 Vali Acc: 0.928 Test Loss: 0.218 Test Acc: 0.911
+EarlyStopping counter: 2 out of 10
+Epoch: 8 cost time: 0.4449121952056885
+gating_value: 0.022496379598009365
+Epoch: 8, Steps: 12 | Train Loss: 0.325 Vali Loss: 0.437 Vali Acc: 0.861 Test Loss: 0.573 Test Acc: 0.833
+EarlyStopping counter: 3 out of 10
+Epoch: 9 cost time: 0.4603919982910156
+gating_value: 0.02287514890992531
+Epoch: 9, Steps: 12 | Train Loss: 0.219 Vali Loss: 0.099 Vali Acc: 0.961 Test Loss: 0.189 Test Acc: 0.922
+Validation loss decreased (0.139902 --> 0.099441).  Saving model ...
+Epoch: 10 cost time: 0.5360186100006104
+gating_value: 0.02514478579784433
+Epoch: 10, Steps: 12 | Train Loss: 0.091 Vali Loss: 0.040 Vali Acc: 0.994 Test Loss: 0.209 Test Acc: 0.944
+Validation loss decreased (0.099441 --> 0.039772).  Saving model ...
+Epoch: 11 cost time: 0.5090198516845703
+gating_value: 0.02611550816714212
+Epoch: 11, Steps: 12 | Train Loss: 0.050 Vali Loss: 0.060 Vali Acc: 0.983 Test Loss: 0.122 Test Acc: 0.967
+EarlyStopping counter: 1 out of 10
+Epoch: 12 cost time: 0.493818998336792
+gating_value: 0.027460838599061524
+Epoch: 12, Steps: 12 | Train Loss: 0.039 Vali Loss: 0.145 Vali Acc: 0.933 Test Loss: 0.338 Test Acc: 0.911
+EarlyStopping counter: 2 out of 10
+Epoch: 13 cost time: 0.5161099433898926
+gating_value: 0.02728110891594379
+Epoch: 13, Steps: 12 | Train Loss: 0.183 Vali Loss: 0.017 Vali Acc: 0.994 Test Loss: 0.211 Test Acc: 0.939
+Validation loss decreased (0.039772 --> 0.016959).  Saving model ...
+Epoch: 14 cost time: 0.4834303855895996
+gating_value: 0.02902056140204271
+Epoch: 14, Steps: 12 | Train Loss: 0.028 Vali Loss: 0.033 Vali Acc: 0.994 Test Loss: 0.209 Test Acc: 0.911
+EarlyStopping counter: 1 out of 10
+Epoch: 15 cost time: 0.39612555503845215
+gating_value: 0.029035999236145506
+Epoch: 15, Steps: 12 | Train Loss: 0.035 Vali Loss: 0.014 Vali Acc: 0.994 Test Loss: 0.260 Test Acc: 0.928
+Validation loss decreased (0.016959 --> 0.014006).  Saving model ...
+Epoch: 16 cost time: 0.48599886894226074
+gating_value: 0.02841005362570286
+Epoch: 16, Steps: 12 | Train Loss: 0.073 Vali Loss: 0.010 Vali Acc: 1.000 Test Loss: 0.243 Test Acc: 0.928
+Validation loss decreased (0.014006 --> 0.009716).  Saving model ...
+Epoch: 17 cost time: 0.45090532302856445
+gating_value: 0.027902411624651263
+Epoch: 17, Steps: 12 | Train Loss: 0.028 Vali Loss: 0.065 Vali Acc: 0.978 Test Loss: 0.192 Test Acc: 0.922
+EarlyStopping counter: 1 out of 10
+Epoch: 18 cost time: 0.45786380767822266
+gating_value: 0.02942828545346856
+Epoch: 18, Steps: 12 | Train Loss: 0.120 Vali Loss: 0.027 Vali Acc: 0.994 Test Loss: 0.286 Test Acc: 0.917
+EarlyStopping counter: 2 out of 10
+Epoch: 19 cost time: 0.4472997188568115
+gating_value: 0.030204961780044767
+Epoch: 19, Steps: 12 | Train Loss: 0.028 Vali Loss: 0.024 Vali Acc: 0.983 Test Loss: 0.307 Test Acc: 0.928
+EarlyStopping counter: 3 out of 10
+Epoch: 20 cost time: 0.5063076019287109
+gating_value: 0.03183318104043051
+Epoch: 20, Steps: 12 | Train Loss: 0.055 Vali Loss: 0.012 Vali Acc: 0.989 Test Loss: 0.425 Test Acc: 0.928
+EarlyStopping counter: 4 out of 10
+Epoch: 21 cost time: 0.41820192337036133
+gating_value: 0.031554166313812686
+Epoch: 21, Steps: 12 | Train Loss: 0.028 Vali Loss: 0.018 Vali Acc: 0.994 Test Loss: 0.281 Test Acc: 0.950
+EarlyStopping counter: 5 out of 10
+Epoch: 22 cost time: 0.4444923400878906
+gating_value: 0.031403133762931384
+Epoch: 22, Steps: 12 | Train Loss: 0.012 Vali Loss: 0.001 Vali Acc: 1.000 Test Loss: 0.332 Test Acc: 0.922
+Validation loss decreased (0.009716 --> 0.001447).  Saving model ...
+Epoch: 23 cost time: 0.43311524391174316
+gating_value: 0.03157491791579459
+Epoch: 23, Steps: 12 | Train Loss: 0.019 Vali Loss: 0.021 Vali Acc: 0.989 Test Loss: 0.161 Test Acc: 0.939
+EarlyStopping counter: 1 out of 10
+Epoch: 24 cost time: 0.4699521064758301
+gating_value: 0.03235702760586584
+Epoch: 24, Steps: 12 | Train Loss: 0.023 Vali Loss: 0.030 Vali Acc: 0.983 Test Loss: 0.374 Test Acc: 0.933
+EarlyStopping counter: 2 out of 10
+Epoch: 25 cost time: 0.4205434322357178
+gating_value: 0.03272849954319773
+Epoch: 25, Steps: 12 | Train Loss: 0.024 Vali Loss: 0.012 Vali Acc: 0.994 Test Loss: 0.211 Test Acc: 0.950
+EarlyStopping counter: 3 out of 10
+Epoch: 26 cost time: 0.4214649200439453
+gating_value: 0.032308784441125615
+Epoch: 26, Steps: 12 | Train Loss: 0.030 Vali Loss: 0.001 Vali Acc: 1.000 Test Loss: 0.211 Test Acc: 0.950
+Validation loss decreased (0.001447 --> 0.001027).  Saving model ...
+Epoch: 27 cost time: 0.5200042724609375
+gating_value: 0.03297505846454037
+Epoch: 27, Steps: 12 | Train Loss: 0.005 Vali Loss: 0.019 Vali Acc: 0.989 Test Loss: 0.312 Test Acc: 0.933
+EarlyStopping counter: 1 out of 10
+Epoch: 28 cost time: 0.4907565116882324
+gating_value: 0.033000170091098104
+Epoch: 28, Steps: 12 | Train Loss: 0.080 Vali Loss: 0.001 Vali Acc: 1.000 Test Loss: 0.219 Test Acc: 0.944
+Validation loss decreased (0.001027 --> 0.000964).  Saving model ...
+Epoch: 29 cost time: 0.5360207557678223
+gating_value: 0.03236975460830662
+Epoch: 29, Steps: 12 | Train Loss: 0.015 Vali Loss: 0.001 Vali Acc: 1.000 Test Loss: 0.253 Test Acc: 0.939
+Validation loss decreased (0.000964 --> 0.000845).  Saving model ...
+Epoch: 30 cost time: 0.4854276180267334
+gating_value: 0.032779342443164855
+Epoch: 30, Steps: 12 | Train Loss: 0.004 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.195 Test Acc: 0.933
+Validation loss decreased (0.000845 --> 0.000195).  Saving model ...
+Epoch: 31 cost time: 0.5634431838989258
+gating_value: 0.03343526053207892
+Epoch: 31, Steps: 12 | Train Loss: 0.001 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.284 Test Acc: 0.911
+Validation loss decreased (0.000195 --> 0.000174).  Saving model ...
+Epoch: 32 cost time: 0.5175518989562988
+gating_value: 0.03386522302473033
+Epoch: 32, Steps: 12 | Train Loss: 0.003 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.280 Test Acc: 0.944
+Validation loss decreased (0.000174 --> 0.000139).  Saving model ...
+Epoch: 33 cost time: 0.5260095596313477
+gating_value: 0.034127921411008746
+Epoch: 33, Steps: 12 | Train Loss: 0.039 Vali Loss: 0.001 Vali Acc: 1.000 Test Loss: 0.306 Test Acc: 0.928
+EarlyStopping counter: 1 out of 10
+Epoch: 34 cost time: 0.44399499893188477
+gating_value: 0.03465510101092083
+Epoch: 34, Steps: 12 | Train Loss: 0.003 Vali Loss: 0.124 Vali Acc: 0.972 Test Loss: 0.576 Test Acc: 0.894
+EarlyStopping counter: 2 out of 10
+Epoch: 35 cost time: 0.39864039421081543
+gating_value: 0.035405420236013556
+Epoch: 35, Steps: 12 | Train Loss: 0.032 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.195 Test Acc: 0.944
+Validation loss decreased (0.000139 --> 0.000118).  Saving model ...
+Epoch: 36 cost time: 0.5008130073547363
+gating_value: 0.036100094306662125
+Epoch: 36, Steps: 12 | Train Loss: 0.011 Vali Loss: 0.003 Vali Acc: 1.000 Test Loss: 0.098 Test Acc: 0.961
+EarlyStopping counter: 1 out of 10
+Epoch: 37 cost time: 0.5055711269378662
+gating_value: 0.03605820708390739
+Epoch: 37, Steps: 12 | Train Loss: 0.004 Vali Loss: 0.004 Vali Acc: 1.000 Test Loss: 0.329 Test Acc: 0.944
+EarlyStopping counter: 2 out of 10
+Epoch: 38 cost time: 0.5091254711151123
+gating_value: 0.036752989826103054
+Epoch: 38, Steps: 12 | Train Loss: 0.009 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.332 Test Acc: 0.917
+EarlyStopping counter: 3 out of 10
+Epoch: 39 cost time: 0.4014928340911865
+gating_value: 0.039060237582910946
+Epoch: 39, Steps: 12 | Train Loss: 0.017 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.265 Test Acc: 0.917
+EarlyStopping counter: 4 out of 10
+Epoch: 40 cost time: 0.4815704822540283
+gating_value: 0.039348684644533526
+Epoch: 40, Steps: 12 | Train Loss: 0.039 Vali Loss: 0.002 Vali Acc: 1.000 Test Loss: 0.278 Test Acc: 0.939
+EarlyStopping counter: 5 out of 10
+Epoch: 41 cost time: 0.41435742378234863
+gating_value: 0.0419798458546952
+Epoch: 41, Steps: 12 | Train Loss: 0.012 Vali Loss: 0.031 Vali Acc: 0.994 Test Loss: 0.364 Test Acc: 0.917
+EarlyStopping counter: 6 out of 10
+Epoch: 42 cost time: 0.4856579303741455
+gating_value: 0.04121901073527557
+Epoch: 42, Steps: 12 | Train Loss: 0.087 Vali Loss: 0.035 Vali Acc: 0.983 Test Loss: 0.240 Test Acc: 0.933
+EarlyStopping counter: 7 out of 10
+Epoch: 43 cost time: 0.4095909595489502
+gating_value: 0.03959079593144081
+Epoch: 43, Steps: 12 | Train Loss: 0.015 Vali Loss: 0.689 Vali Acc: 0.944 Test Loss: 1.210 Test Acc: 0.911
+EarlyStopping counter: 8 out of 10
+Epoch: 44 cost time: 0.40062808990478516
+gating_value: 0.03253824335902378
+Epoch: 44, Steps: 12 | Train Loss: 0.336 Vali Loss: 0.391 Vali Acc: 0.917 Test Loss: 0.606 Test Acc: 0.856
+EarlyStopping counter: 9 out of 10
+Epoch: 45 cost time: 0.5198709964752197
+gating_value: 0.030790811325250952
+Epoch: 45, Steps: 12 | Train Loss: 0.409 Vali Loss: 0.032 Vali Acc: 0.989 Test Loss: 0.229 Test Acc: 0.933
+EarlyStopping counter: 10 out of 10
+Updating learning rate to 0.0005 and loading best model weights from checkpoint.
+Epoch: 46 cost time: 0.4124760627746582
+gating_value: 0.03561454600206128
+Epoch: 46, Steps: 12 | Train Loss: 0.002 Vali Loss: 0.001 Vali Acc: 1.000 Test Loss: 0.231 Test Acc: 0.933
+EarlyStopping counter: 1 out of 10
+Epoch: 47 cost time: 0.43204712867736816
+gating_value: 0.03550194344241862
+Epoch: 47, Steps: 12 | Train Loss: 0.031 Vali Loss: 0.001 Vali Acc: 1.000 Test Loss: 0.129 Test Acc: 0.950
+EarlyStopping counter: 2 out of 10
+Epoch: 48 cost time: 0.39505934715270996
+gating_value: 0.035360491406862385
+Epoch: 48, Steps: 12 | Train Loss: 0.005 Vali Loss: 0.006 Vali Acc: 1.000 Test Loss: 0.214 Test Acc: 0.933
+EarlyStopping counter: 3 out of 10
+Epoch: 49 cost time: 0.49718785285949707
+gating_value: 0.035662690529392825
+Epoch: 49, Steps: 12 | Train Loss: 0.032 Vali Loss: 0.091 Vali Acc: 0.983 Test Loss: 0.440 Test Acc: 0.922
+EarlyStopping counter: 4 out of 10
+Epoch: 50 cost time: 0.44498515129089355
+gating_value: 0.03499329642013267
+Epoch: 50, Steps: 12 | Train Loss: 0.054 Vali Loss: 0.007 Vali Acc: 1.000 Test Loss: 0.276 Test Acc: 0.939
+EarlyStopping counter: 5 out of 10
+Epoch: 51 cost time: 0.4738147258758545
+gating_value: 0.034839538291648584
+Epoch: 51, Steps: 12 | Train Loss: 0.028 Vali Loss: 0.012 Vali Acc: 0.994 Test Loss: 0.275 Test Acc: 0.922
+EarlyStopping counter: 6 out of 10
+Epoch: 52 cost time: 0.4031543731689453
+gating_value: 0.0345178536415376
+Epoch: 52, Steps: 12 | Train Loss: 0.017 Vali Loss: 0.003 Vali Acc: 1.000 Test Loss: 0.258 Test Acc: 0.944
+EarlyStopping counter: 7 out of 10
+Epoch: 53 cost time: 0.43904829025268555
+gating_value: 0.035707367366800705
+Epoch: 53, Steps: 12 | Train Loss: 0.002 Vali Loss: 0.001 Vali Acc: 1.000 Test Loss: 0.265 Test Acc: 0.944
+EarlyStopping counter: 8 out of 10
+Epoch: 54 cost time: 0.401263952255249
+gating_value: 0.03626500810668976
+Epoch: 54, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.224 Test Acc: 0.961
+Validation loss decreased (0.000118 --> 0.000097).  Saving model ...
+Epoch: 55 cost time: 0.5061349868774414
+gating_value: 0.0365227956911204
+Epoch: 55, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.199 Test Acc: 0.961
+Validation loss decreased (0.000097 --> 0.000066).  Saving model ...
+Epoch: 56 cost time: 0.4718291759490967
+gating_value: 0.03663070881739259
+Epoch: 56, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.193 Test Acc: 0.961
+Validation loss decreased (0.000066 --> 0.000061).  Saving model ...
+Epoch: 57 cost time: 0.5245006084442139
+gating_value: 0.03668417289370188
+Epoch: 57, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.189 Test Acc: 0.961
+Validation loss decreased (0.000061 --> 0.000057).  Saving model ...
+Epoch: 58 cost time: 0.5370118618011475
+gating_value: 0.03676497564064684
+Epoch: 58, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.184 Test Acc: 0.967
+Validation loss decreased (0.000057 --> 0.000050).  Saving model ...
+Epoch: 59 cost time: 0.5105416774749756
+gating_value: 0.036806486333134
+Epoch: 59, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.182 Test Acc: 0.967
+Validation loss decreased (0.000050 --> 0.000047).  Saving model ...
+Epoch: 60 cost time: 0.5003845691680908
+gating_value: 0.03686340125277639
+Epoch: 60, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.179 Test Acc: 0.967
+Validation loss decreased (0.000047 --> 0.000042).  Saving model ...
+Epoch: 61 cost time: 0.43747949600219727
+gating_value: 0.03690705513581634
+Epoch: 61, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.179 Test Acc: 0.967
+Validation loss decreased (0.000042 --> 0.000038).  Saving model ...
+Epoch: 62 cost time: 0.5301499366760254
+gating_value: 0.03695946883203255
+Epoch: 62, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.178 Test Acc: 0.967
+Validation loss decreased (0.000038 --> 0.000037).  Saving model ...
+Epoch: 63 cost time: 0.48072314262390137
+gating_value: 0.03700082386602406
+Epoch: 63, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.177 Test Acc: 0.967
+Validation loss decreased (0.000037 --> 0.000037).  Saving model ...
+Epoch: 64 cost time: 0.4937293529510498
+gating_value: 0.03704681257130923
+Epoch: 64, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.176 Test Acc: 0.967
+Validation loss decreased (0.000037 --> 0.000031).  Saving model ...
+Epoch: 65 cost time: 0.5481836795806885
+gating_value: 0.03709384697247987
+Epoch: 65, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.175 Test Acc: 0.961
+Validation loss decreased (0.000031 --> 0.000029).  Saving model ...
+Epoch: 66 cost time: 0.5233280658721924
+gating_value: 0.03712909874954709
+Epoch: 66, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.175 Test Acc: 0.961
+EarlyStopping counter: 1 out of 10
+Epoch: 67 cost time: 0.451934814453125
+gating_value: 0.03715789339125708
+Epoch: 67, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.175 Test Acc: 0.961
+Validation loss decreased (0.000029 --> 0.000026).  Saving model ...
+Epoch: 68 cost time: 0.5478711128234863
+gating_value: 0.037232012163709714
+Epoch: 68, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.175 Test Acc: 0.961
+Validation loss decreased (0.000026 --> 0.000025).  Saving model ...
+Epoch: 69 cost time: 0.5832297801971436
+gating_value: 0.037272954169936756
+Epoch: 69, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.174 Test Acc: 0.961
+Validation loss decreased (0.000025 --> 0.000024).  Saving model ...
+Epoch: 70 cost time: 0.5184316635131836
+gating_value: 0.037310073441929284
+Epoch: 70, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.174 Test Acc: 0.961
+EarlyStopping counter: 1 out of 10
+Epoch: 71 cost time: 0.45180320739746094
+gating_value: 0.037346834244413506
+Epoch: 71, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.174 Test Acc: 0.961
+Validation loss decreased (0.000024 --> 0.000022).  Saving model ...
+Epoch: 72 cost time: 0.508002758026123
+gating_value: 0.037390805435953314
+Epoch: 72, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.175 Test Acc: 0.961
+EarlyStopping counter: 1 out of 10
+Epoch: 73 cost time: 0.4198930263519287
+gating_value: 0.03742875031850956
+Epoch: 73, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.174 Test Acc: 0.961
+EarlyStopping counter: 2 out of 10
+Epoch: 74 cost time: 0.3908669948577881
+gating_value: 0.037477377688305245
+Epoch: 74, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.173 Test Acc: 0.961
+Validation loss decreased (0.000022 --> 0.000020).  Saving model ...
+Epoch: 75 cost time: 0.4987208843231201
+gating_value: 0.03749187379661534
+Epoch: 75, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.172 Test Acc: 0.961
+EarlyStopping counter: 1 out of 10
+Epoch: 76 cost time: 0.474170446395874
+gating_value: 0.037528467033472325
+Epoch: 76, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.172 Test Acc: 0.961
+EarlyStopping counter: 2 out of 10
+Epoch: 77 cost time: 0.3996763229370117
+gating_value: 0.03757637797130479
+Epoch: 77, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.172 Test Acc: 0.961
+Validation loss decreased (0.000020 --> 0.000018).  Saving model ...
+Epoch: 78 cost time: 0.48139190673828125
+gating_value: 0.03760026215955063
+Epoch: 78, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.171 Test Acc: 0.961
+Validation loss decreased (0.000018 --> 0.000017).  Saving model ...
+Epoch: 79 cost time: 0.48930788040161133
+gating_value: 0.037640389748331574
+Epoch: 79, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.171 Test Acc: 0.961
+Validation loss decreased (0.000017 --> 0.000016).  Saving model ...
+Epoch: 80 cost time: 0.48301124572753906
+gating_value: 0.03765947337227839
+Epoch: 80, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.171 Test Acc: 0.961
+Validation loss decreased (0.000016 --> 0.000016).  Saving model ...
+Epoch: 81 cost time: 0.48528122901916504
+gating_value: 0.03768590877384499
+Epoch: 81, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.170 Test Acc: 0.961
+Validation loss decreased (0.000016 --> 0.000016).  Saving model ...
+Epoch: 82 cost time: 0.47571825981140137
+gating_value: 0.03770507194308771
+Epoch: 82, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.170 Test Acc: 0.961
+Validation loss decreased (0.000016 --> 0.000015).  Saving model ...
+Epoch: 83 cost time: 0.4946298599243164
+gating_value: 0.03776119460731193
+Epoch: 83, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+Validation loss decreased (0.000015 --> 0.000014).  Saving model ...
+Epoch: 84 cost time: 0.5126688480377197
+gating_value: 0.037780907615605326
+Epoch: 84, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+Validation loss decreased (0.000014 --> 0.000014).  Saving model ...
+Epoch: 85 cost time: 0.5843968391418457
+gating_value: 0.0378193275589082
+Epoch: 85, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.168 Test Acc: 0.961
+EarlyStopping counter: 1 out of 10
+Epoch: 86 cost time: 0.5043730735778809
+gating_value: 0.03783693948967589
+Epoch: 86, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.168 Test Acc: 0.961
+Validation loss decreased (0.000014 --> 0.000013).  Saving model ...
+Epoch: 87 cost time: 0.48502016067504883
+gating_value: 0.037857590322555215
+Epoch: 87, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.167 Test Acc: 0.961
+Validation loss decreased (0.000013 --> 0.000013).  Saving model ...
+Epoch: 88 cost time: 0.517810583114624
+gating_value: 0.037890799050391825
+Epoch: 88, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.168 Test Acc: 0.961
+Validation loss decreased (0.000013 --> 0.000013).  Saving model ...
+Epoch: 89 cost time: 0.45003485679626465
+gating_value: 0.03792022355590705
+Epoch: 89, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.168 Test Acc: 0.961
+EarlyStopping counter: 1 out of 10
+Epoch: 90 cost time: 0.3899228572845459
+gating_value: 0.03797672355409574
+Epoch: 90, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+Validation loss decreased (0.000013 --> 0.000012).  Saving model ...
+Epoch: 91 cost time: 0.49544787406921387
+gating_value: 0.03799632903602388
+Epoch: 91, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+Validation loss decreased (0.000012 --> 0.000012).  Saving model ...
+Epoch: 92 cost time: 0.5324311256408691
+gating_value: 0.038013880672278226
+Epoch: 92, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+Validation loss decreased (0.000012 --> 0.000011).  Saving model ...
+Epoch: 93 cost time: 0.48790836334228516
+gating_value: 0.03806887205207238
+Epoch: 93, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+EarlyStopping counter: 1 out of 10
+Epoch: 94 cost time: 0.3984205722808838
+gating_value: 0.03807821843290218
+Epoch: 94, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+EarlyStopping counter: 2 out of 10
+Epoch: 95 cost time: 0.4138369560241699
+gating_value: 0.03810421843426647
+Epoch: 95, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+EarlyStopping counter: 3 out of 10
+Epoch: 96 cost time: 0.512190580368042
+gating_value: 0.03814056104876929
+Epoch: 96, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+EarlyStopping counter: 4 out of 10
+Epoch: 97 cost time: 0.5031275749206543
+gating_value: 0.03815649686450208
+Epoch: 97, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.170 Test Acc: 0.961
+EarlyStopping counter: 5 out of 10
+Epoch: 98 cost time: 0.49858903884887695
+gating_value: 0.03817848207222091
+Epoch: 98, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+Validation loss decreased (0.000011 --> 0.000010).  Saving model ...
+Epoch: 99 cost time: 0.5340642929077148
+gating_value: 0.0382273452942846
+Epoch: 99, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+Validation loss decreased (0.000010 --> 0.000009).  Saving model ...
+Epoch: 100 cost time: 0.4806802272796631
+gating_value: 0.03821670800723411
+Epoch: 100, Steps: 12 | Train Loss: 0.000 Vali Loss: 0.000 Vali Acc: 1.000 Test Loss: 0.169 Test Acc: 0.961
+Validation loss decreased (0.000009 --> 0.000009).  Saving model ...
+>>>>>>>testing : classification_CLS_NATOPS_MambaSingleLayer_UEA_ftM_sl51_ll0_pl0_dm1024_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test shape: torch.Size([180, 6]) torch.Size([180, 1])
+gating_value: 0.03896372640091512
+accuracy:0.9611111111111111
+model parameter : 3379208
+model size : 32.43MB

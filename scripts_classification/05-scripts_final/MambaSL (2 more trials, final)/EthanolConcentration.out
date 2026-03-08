@@ -1,0 +1,54 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_EthanolConcentrationModel:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/EthanolConcentration
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        36                  
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+261
+263
+>>>>>>>testing : classification_CLS_EthanolConcentration_MambaSingleLayer_UEA_ftM_sl1751_ll0_pl0_dm1024_ds2_expand1_dc4_nk36_tvdt0_tvB0_tvC0_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+gating_value: 0.10967947523545177
+accuracy:0.38022813688212925
+model parameter : 3348488
+model size : 32.31MB
+261
+263
+>>>>>>>testing : classification_CLS_EthanolConcentration_MambaSingleLayer_UEA_ftM_sl1751_ll0_pl0_dm1024_ds2_expand1_dc4_nk36_tvdt0_tvB0_tvC0_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([263, 4]) torch.Size([263, 1])
+gating_value: 0.08252140102923951
+accuracy:0.3650190114068441
+model parameter : 3348488
+model size : 32.31MB

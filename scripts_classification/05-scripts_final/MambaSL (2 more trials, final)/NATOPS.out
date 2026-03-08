@@ -1,0 +1,54 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_NATOPS          Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/NATOPS
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            1024                
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+180
+180
+>>>>>>>testing : classification_CLS_NATOPS_MambaSingleLayer_UEA_ftM_sl51_ll0_pl0_dm1024_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([180, 6]) torch.Size([180, 1])
+gating_value: 0.039021748180190725
+accuracy:0.9833333333333333
+model parameter : 3379208
+model size : 32.43MB
+180
+180
+>>>>>>>testing : classification_CLS_NATOPS_MambaSingleLayer_UEA_ftM_sl51_ll0_pl0_dm1024_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([180, 6]) torch.Size([180, 1])
+gating_value: 0.03896372640091512
+accuracy:0.9611111111111111
+model parameter : 3379208
+model size : 32.43MB

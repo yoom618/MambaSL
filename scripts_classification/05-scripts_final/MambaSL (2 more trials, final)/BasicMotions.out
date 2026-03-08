@@ -1,0 +1,864 @@
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt0_tvB0_tvC0_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011938015650957822
+accuracy:1.0
+model parameter : 4456
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt0_tvB0_tvC0_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010791044402867555
+accuracy:1.0
+model parameter : 4456
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt0_tvB0_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.0121653210837394
+accuracy:1.0
+model parameter : 4456
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt0_tvB0_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011166460625827313
+accuracy:1.0
+model parameter : 4456
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt0_tvB1_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010633369954302908
+accuracy:1.0
+model parameter : 4456
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt0_tvB1_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.012354760197922587
+accuracy:1.0
+model parameter : 4456
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt1_tvB0_tvC0_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010688215401023627
+accuracy:1.0
+model parameter : 4520
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt1_tvB0_tvC0_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011288707749918104
+accuracy:1.0
+model parameter : 4520
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               1                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt1_tvB1_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010554706351831556
+accuracy:1.0
+model parameter : 4520
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds1_expand1_dc4_nk3_tvdt1_tvB1_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011777634522877634
+accuracy:1.0
+model parameter : 4520
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt0_tvB0_tvC0_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.012507645250298082
+accuracy:1.0
+model parameter : 4552
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt0_tvB0_tvC0_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011441432125866412
+accuracy:1.0
+model parameter : 4552
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt0_tvB0_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011369535233825445
+accuracy:1.0
+model parameter : 4552
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt0_tvB0_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010726428660564124
+accuracy:1.0
+model parameter : 4552
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt0_tvB1_tvC0_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010760316299274564
+accuracy:1.0
+model parameter : 4552
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt0_tvB1_tvC0_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011445973347872496
+accuracy:1.0
+model parameter : 4552
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt0_tvB1_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.01132913928013295
+accuracy:1.0
+model parameter : 4552
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt0_tvB1_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010599449113942682
+accuracy:1.0
+model parameter : 4552
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC0_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.01058440124616027
+accuracy:1.0
+model parameter : 4616
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC0_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010649743280373514
+accuracy:1.0
+model parameter : 4616
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011647228454239666
+accuracy:1.0
+model parameter : 4616
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt1_tvB0_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.01140982359647751
+accuracy:1.0
+model parameter : 4616
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               2                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt1_tvB1_tvC0_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010427659889683128
+accuracy:1.0
+model parameter : 4616
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds2_expand1_dc4_nk3_tvdt1_tvB1_tvC0_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010383770987391471
+accuracy:1.0
+model parameter : 4616
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds4_expand1_dc4_nk3_tvdt0_tvB0_tvC0_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.01175715373829007
+accuracy:1.0
+model parameter : 4744
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds4_expand1_dc4_nk3_tvdt0_tvB0_tvC0_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011187720950692892
+accuracy:1.0
+model parameter : 4744
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds4_expand1_dc4_nk3_tvdt0_tvB0_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010870547289960087
+accuracy:1.0
+model parameter : 4744
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds4_expand1_dc4_nk3_tvdt0_tvB0_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.01093592755496502
+accuracy:1.0
+model parameter : 4744
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds4_expand1_dc4_nk3_tvdt0_tvB1_tvC0_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010503690247423947
+accuracy:1.0
+model parameter : 4744
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds4_expand1_dc4_nk3_tvdt0_tvB1_tvC0_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010516044753603637
+accuracy:1.0
+model parameter : 4744
+model size : 0.63MB
+Using GPU
+Args in experiment:
+[1mBasic Config[0m
+  Task Name:          classification_trainlossonlyIs Training:        0                   
+  Model ID:           CLS_BasicMotions    Model:              MambaSingleLayer    
+
+[1mData Loader[0m
+  Data:               UEA                 Root Path:          /data/yoom618/TSLib/dataset/BasicMotions
+  Data Path:          ETTh1.csv           Features:           M                   
+  Target:             OT                  Freq:               h                   
+  Checkpoints:        /data/yoom618/TSLib/MambaSL (inceptiontime-setting, 2 more trials)
+
+[1mModel Parameters[0m
+  Top k:              5                   Num Kernels:        3                   
+  Enc In:             7                   Dec In:             7                   
+  C Out:              7                   d model:            32                  
+  n heads:            8                   e layers:           2                   
+  d layers:           1                   d FF:               4                   
+  Moving Avg:         25                  Factor:             1                   
+  Distil:             1                   Dropout:            0.1                 
+  Embed:              timeF               Activation:         gelu                
+
+[1mRun Parameters[0m
+  Num Workers:        10                  Itr:                2                   
+  Train Epochs:       100                 Batch Size:         16                  
+  Patience:           10                  Learning Rate:      0.001               
+  Des:                trainlossonly       Loss:               MSE                 
+  Lradj:              type1               Use Amp:            0                   
+
+[1mGPU[0m
+  Use GPU:            1                   GPU:                0                   
+  Use Multi GPU:      0                   Devices:            0,1,2,3             
+
+[1mDe-stationary Projector Params[0m
+  P Hidden Dims:      128, 128            P Hidden Layers:    2                   
+
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds4_expand1_dc4_nk3_tvdt0_tvB1_tvC1_useD0_trainlossonly_1<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.011425454961135983
+accuracy:1.0
+model parameter : 4744
+model size : 0.63MB
+40
+40
+>>>>>>>testing : classification_CLS_BasicMotions_MambaSingleLayer_UEA_ftM_sl100_ll0_pl0_dm32_ds4_expand1_dc4_nk3_tvdt0_tvB1_tvC1_useD0_trainlossonly_2<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+loading model
+test shape: torch.Size([40, 4]) torch.Size([40, 1])
+gating_value: 0.010766585753299297
+accuracy:1.0
+model parameter : 4744
+model size : 0.63MB
