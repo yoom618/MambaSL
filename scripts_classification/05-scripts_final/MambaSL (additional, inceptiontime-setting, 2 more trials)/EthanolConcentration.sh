@@ -1,10 +1,10 @@
 model_name="MambaSingleLayer"
-dataset_name="ArticularyWordRecognition"
-tslib_dir="/data/yoom618/TSLib"
+dataset_name="EthanolConcentration"
+resource_dir="/data/yoom618/TSLib"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/MambaSL (inceptiontime-setting, 2 more trials)"
+data_dir="${resource_dir}/dataset"
+checkpoint_dir="${resource_dir}/checkpoints_best/MambaSL (inceptiontime-setting, 2 more trials)"
 
 python run.py \
   --use_gpu True \
@@ -18,14 +18,14 @@ python run.py \
   --model_id "CLS_${dataset_name}" \
   --mamba_projection_type gating \
   --d_model 1024 \
-  --d_ff 16 \
+  --d_ff 2 \
   --expand 1 \
   --d_conv 4 \
   --tv_dt 0 \
-  --tv_B 1 \
+  --tv_B 0 \
   --tv_C 0 \
   --use_D 0 \
-  --num_kernels 3 \
+  --num_kernels 36 \
   --is_training 0 \
   --batch_size 16 \
   --des trainlossonly \

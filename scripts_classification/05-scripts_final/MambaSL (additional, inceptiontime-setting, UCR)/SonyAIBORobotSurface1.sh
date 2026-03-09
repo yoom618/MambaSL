@@ -1,10 +1,10 @@
 model_name="MambaSingleLayer"
 dataset_name="SonyAIBORobotSurface1"
-tslib_dir="/data/yoom618/TSLib"
+resource_dir="/data/yoom618/TSLib"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset_UCR"
-checkpoint_dir="${tslib_dir}/checkpoints_best/MambaSL (UCR, inceptiontime-setting)"
+data_dir="${resource_dir}/dataset_UCR"
+checkpoint_dir="${resource_dir}/checkpoints_best/MambaSL (UCR, inceptiontime-setting)"
 
 python run.py \
   --use_gpu True \

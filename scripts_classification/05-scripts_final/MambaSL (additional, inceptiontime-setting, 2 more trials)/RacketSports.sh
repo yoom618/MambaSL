@@ -1,10 +1,10 @@
 model_name="MambaSingleLayer"
-dataset_name="PenDigits"
-tslib_dir="/data/yoom618/TSLib"
+dataset_name="RacketSports"
+resource_dir="/data/yoom618/TSLib"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/MambaSL (inceptiontime-setting, 2 more trials)"
+data_dir="${resource_dir}/dataset"
+checkpoint_dir="${resource_dir}/checkpoints_best/MambaSL (inceptiontime-setting, 2 more trials)"
 
 python run.py \
   --use_gpu True \
@@ -17,8 +17,8 @@ python run.py \
   --model "${model_name}" \
   --model_id "CLS_${dataset_name}" \
   --mamba_projection_type gating \
-  --d_model 128 \
-  --d_ff 16 \
+  --d_model 512 \
+  --d_ff 4 \
   --expand 1 \
   --d_conv 4 \
   --tv_dt 0 \

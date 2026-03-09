@@ -1,10 +1,10 @@
 model_name="MambaSingleLayer"
 dataset_name="EthanolConcentration"
-tslib_dir="/data/yoom618/TSLib"
+resource_dir="/data/yoom618/TSLib"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/MambaSL (inceptiontime-setting)"
+data_dir="${resource_dir}/dataset"
+checkpoint_dir="${resource_dir}/checkpoints_best/MambaSL (inceptiontime-setting)"
 
 python run.py \
   --use_gpu True \

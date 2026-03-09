@@ -1,10 +1,10 @@
 model_name="MambaSingleLayer"
 dataset_name="PEMS-SF"
-tslib_dir="/data/yoom618/TSLib"
+resource_dir="/data/yoom618/TSLib"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/MambaSL"
+data_dir="${resource_dir}/dataset"
+checkpoint_dir="${resource_dir}/checkpoints_best/MambaSL"
 
 # below all have the same performance
 

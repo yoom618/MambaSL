@@ -1,10 +1,10 @@
 model_name="MambaMultiLayer"
 dataset_name="FingerMovements"
-tslib_dir="/data/yoom618/TSLib"
+resource_dir="/data/yoom618/TSLib"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/MambaSL (multilayer)"
+data_dir="${resource_dir}/dataset"
+checkpoint_dir="${resource_dir}/checkpoints_best/MambaSL (multilayer)"
 
 # below all have the same performance
 

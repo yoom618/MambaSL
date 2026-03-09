@@ -1,10 +1,10 @@
 model_name="MambaSingleLayer"
-dataset_name="MotorImagery"
-tslib_dir="/data/yoom618/TSLib"
+dataset_name="Handwriting"
+resource_dir="/data/yoom618/TSLib"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/MambaSL (inceptiontime-setting, 2 more trials)"
+data_dir="${resource_dir}/dataset"
+checkpoint_dir="${resource_dir}/checkpoints_best/MambaSL (inceptiontime-setting, 2 more trials)"
 
 python run.py \
   --use_gpu True \
@@ -21,11 +21,11 @@ python run.py \
   --d_ff 4 \
   --expand 1 \
   --d_conv 4 \
-  --tv_dt 0 \
+  --tv_dt 1 \
   --tv_B 0 \
-  --tv_C 0 \
+  --tv_C 1 \
   --use_D 0 \
-  --num_kernels 60 \
+  --num_kernels 4 \
   --is_training 0 \
   --batch_size 16 \
   --des trainlossonly \

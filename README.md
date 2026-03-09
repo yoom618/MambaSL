@@ -45,13 +45,13 @@ Given <u>Mamba’s strong long-range memory</u>, we remove skip connections and 
 
 ### 📊 Main Results
 - Achieve the best average acc and rank on the UEA benchmark with a single-layer Mamba structure.
-   <img src="./figures_n_tables/figures/barplot all (boxed).webp" alt="MambaSL Architecture" width="700"/>
+    <img src="./figures_n_tables/figures/barplot all (boxed).webp" alt="MambaSL Architecture" width="700"/>
 
 - Highlight systematic differences across backbone structures via UMAP visualization.
-   <img src="./figures_n_tables/figures/umap_all.webp" alt="UMAP Visualization" width="700"/>
+    <img src="./figures_n_tables/figures/umap_all.webp" alt="UMAP Visualization" width="700"/>
 
 - Obtain best performing checkpoints of MambaSL and recent TSC baselines on all 30 datasets.
-   <img src="./figures_n_tables/figures/drive_screenshot.jpg" alt="Checkpoints Screenshot" width="700"/>
+    <img src="./figures_n_tables/figures/drive_screenshot.jpg" alt="Checkpoints Screenshot" width="700"/>
 
 
 
@@ -172,9 +172,9 @@ Given <u>Mamba’s strong long-range memory</u>, we remove skip connections and 
 - `${model}/`
     - `All_UEA30.sh` : A script to run the final scripts for all UEA30 datasets sequentially. Each script refers to the best & lightest checkpoint for each dataset.
     - `${dataset}.sh` : A script to run the final script for each dataset. It might contains multiple scripts if there are multiple best checkpoints for the dataset.<br><br>
-    - **You have to modify the `tslib_dir`, `gpu_id`, `data_dir`, and `checkpoint_dir` in the scripts properly** before running them.
-        - `tslib_dir` : the path of this repository. `${tslib_dir}/run.py` will be called in the script.
+    - **You have to modify the `gpu_id`, `resource_dir`, `data_dir`, and `checkpoint_dir` in the scripts properly** before running them.
         - `gpu_id` : GPU id (in integer) to run the script.
+        - `resource_dir` : (optional) the path where you placed datasets and checkpoints. 
         - `data_dir` : the parent directory of the dataset folder. `${data_dir}/${dataset}/` will be used as the `--root_path` flag in the `run.py`.
         - `checkpoint_dir` : the path to the folder where you placed the best checkpoints downloaed from the Google Drive. `${checkpoint_dir}/${model}/` will be used as the `--checkpoints` flag in the `run.py`.<br><br>
 - `run_scripts.sh`: Scripts that we used to run multiple final scripts with for loop.

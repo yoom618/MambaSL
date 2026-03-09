@@ -1,10 +1,10 @@
 model_name="TSLANet"
 dataset_name="PhonemeSpectra"
-tslib_dir="/data/yoom618/TSLib"
+resource_dir="/data/yoom618/TSLib"
 gpu_id=0
 
-data_dir="${tslib_dir}/dataset"
-checkpoint_dir="${tslib_dir}/checkpoints_best/${model_name}"
+data_dir="${resource_dir}/dataset"
+checkpoint_dir="${resource_dir}/checkpoints_best/${model_name}"
 
 python -u _run_TSLANet/TSLANet_classification_test.py \
     --gpu ${gpu_id} \
