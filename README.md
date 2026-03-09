@@ -45,13 +45,13 @@ Given <u>Mamba’s strong long-range memory</u>, we remove skip connections and 
 
 ### 📊 Main Results
 - Achieve the best average acc and rank on the UEA benchmark with a single-layer Mamba structure.
-<img src="./figures_n_tables/figures/barplot all (boxed).webp" alt="MambaSL Architecture" width="700"/>
+   <img src="./figures_n_tables/figures/barplot all (boxed).webp" alt="MambaSL Architecture" width="700"/>
 
 - Highlight systematic differences across backbone structures via UMAP visualization.
-<img src="./figures_n_tables/figures/umap_all.webp" alt="UMAP Visualization" width="700"/>
+   <img src="./figures_n_tables/figures/umap_all.webp" alt="UMAP Visualization" width="700"/>
 
 - Obtain best performing checkpoints of MambaSL and recent TSC baselines on all 30 datasets.
-<img src="./figures_n_tables/figures/drive_screenshot.jpg" alt="Checkpoints Screenshot" width="700"/>
+   <img src="./figures_n_tables/figures/drive_screenshot.jpg" alt="Checkpoints Screenshot" width="700"/>
 
 
 
