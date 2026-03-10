@@ -1,21 +1,19 @@
 import math
-from typing import Optional
 
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch import Tensor
 
 from einops import rearrange, repeat
 
-from mamba_ssm.ops.selective_scan_interface import selective_scan_fn, mamba_inner_fn
-
+from mamba_ssm.ops.selective_scan_interface import selective_scan_fn
 try:
     from causal_conv1d import causal_conv1d_fn, causal_conv1d_update
 except ImportError:
     causal_conv1d_fn, causal_conv1d_update = None, None
 
 ### DELETED: selective_state_update is not used in this experiment since it does not support the use of timevariant dt, B, C flags.
+# from mamba_ssm.ops.selective_scan_interface import mamba_inner_fn
 # try:
 #     from mamba_ssm.ops.triton.selective_state_update import selective_state_update
 # except ImportError:
@@ -24,10 +22,20 @@ except ImportError:
 
 
 class Mamba_TimeVariant(nn.Module):
+    """
+    Mamba Block with support for time-variant dt, B, C.
+    The time-variant parameters are controlled by `timevariant_dt`, `timevariant_B`, and `timevariant_C` flags.
+    
+    Difference from the original `modules.mamba_simple.Mamba` class:
+    - In `step()`, `x_proj` can be `None`, so dt, B, and C are split only when guarded by if `self.x_proj` is not `None`.
+    - When `tv_dt=False`, dt is constructed as a bias-based constant and expanded to shape `(B, d_inner)` via repeat to match einsum dimensions.
+    - When `d_conv=0`, step avoids accessing depthwise convolution weights and instead follows the `SiLU(x)` path.
+    - In cache creation (`allocate_inference_cache`, `_get_states_from_cache`), dtype and device are selected safely even when `conv1d` is `Identity`.
+    """
     def __init__(
         self,
         d_model,
-        d_input=None,  ### added
+        d_input=None,   ### added
         d_output=None,  ### added
         d_state=16,
         d_conv=4,
@@ -45,15 +53,15 @@ class Mamba_TimeVariant(nn.Module):
         device=None,
         dtype=None,
         timevariant_dt=True,  ### ADDED: to support timevariant dt
-        timevariant_B=True,  ### ADDED: to support timevariant B
-        timevariant_C=True,  ### ADDED: to support timevariant C
-        use_D=True,  ### ADDED: to control the usage of D parameter
+        timevariant_B=True,   ### ADDED: to support timevariant B
+        timevariant_C=True,   ### ADDED: to support timevariant C
+        use_D=True,           ### ADDED: to control the usage of D parameter
     ):
         factory_kwargs = {"device": device, "dtype": dtype}
         super().__init__()
         self.d_model = d_model
-        self.d_input = d_input if d_input is not None else d_model  ### ADDED: for various input dimensions
-        self.d_output = d_output if d_output is not None else d_model  ### ADDED: for various output dimensions
+        self.d_input = d_input if d_input is not None else d_model    ### ADDED: for various input dimensions
+        self.d_output = d_output if d_output is not None else d_model ### ADDED: for various output dimensions
         self.d_state = d_state
         self.d_conv = d_conv
         self.expand = expand
@@ -199,7 +207,8 @@ class Mamba_TimeVariant(nn.Module):
         if conv_state is not None:
             # If we just take x[:, :, -self.d_conv :], it will error if seqlen < self.d_conv
             # Instead F.pad will pad with zeros if seqlen < self.d_conv, and truncate otherwise.
-            conv_state.copy_(F.pad(x, (self.d_conv - x.shape[-1], 0)))  # Update state (B D W)
+            if self.d_conv > 0:
+                conv_state.copy_(F.pad(x, (self.d_conv - x.shape[-1], 0)))  # Update state (B D W)
         
         ### MODIFIED: use causal_conv if available
         if (causal_conv1d_fn is None) or (self.d_conv not in [2, 3, 4]):
@@ -268,7 +277,9 @@ class Mamba_TimeVariant(nn.Module):
         x, z = xz.chunk(2, dim=-1)  # (batch, d_inner), (batch, d_inner)
 
         # Conv step
-        if causal_conv1d_update is None:
+        if self.d_conv == 0:
+            x = self.act(x).to(dtype=dtype)
+        elif (causal_conv1d_update is None) or (self.d_conv not in [2, 3, 4]):
             conv_state.copy_(torch.roll(conv_state, shifts=-1, dims=-1))  # Update state (B D W)
             conv_state[:, :, -1] = x
             x = torch.sum(conv_state * rearrange(self.conv1d.weight, "d 1 w -> d w"), dim=-1)  # (B D)
@@ -284,8 +295,9 @@ class Mamba_TimeVariant(nn.Module):
                 self.activation,
             )
 
-        x_db = self.x_proj(x)  # (B, d_inner) -> (B, dt_rank + d_state + d_state)
-        dt, B, C = torch.split(x_db, self.tv_proj_dim, dim=-1)  # (B, dt_rank), (B, d_state), (B, d_state)
+        if self.x_proj is not None:
+            x_db = self.x_proj(x)  # (B, d_inner) -> (B, dt_rank + d_state + d_state)
+            dt, B, C = torch.split(x_db, self.tv_proj_dim, dim=-1)  # (B, dt_rank), (B, d_state), (B, d_state)
 
         # SSM step
         ### DELETED: selective_state_update function does not support the use of timevariant dt, B, C.
@@ -304,9 +316,9 @@ class Mamba_TimeVariant(nn.Module):
 
         ### MODIFIED: dt, B are now set based on the timevariant flags.
         if not self.tv_dt:
-            dt = F.softplus(self.dt_proj.bias.to(dtype=dt.dtype))  # (B, d_inner)
+            dt = F.softplus(self.dt_proj.bias.to(dtype=x.dtype))
+            dt = repeat(dt, "d -> b d", b=x.shape[0])  # (B, d_inner)
         else:
-            # Don't add dt_bias here
             dt = F.linear(dt, self.dt_proj.weight)  # (B, dt_rank) @ (dt_rank, d_inner) -> (B, d_inner)
             dt = F.softplus(dt + self.dt_proj.bias.to(dtype=dt.dtype))  # (B, d_inner)
         
@@ -336,7 +348,7 @@ class Mamba_TimeVariant(nn.Module):
 
     def allocate_inference_cache(self, batch_size, max_seqlen, dtype=None, **kwargs):
         device = self.out_proj.weight.device
-        conv_dtype = self.conv1d.weight.dtype if dtype is None else dtype
+        conv_dtype = (self.conv1d.weight.dtype if hasattr(self.conv1d, "weight") else self.in_proj.weight.dtype) if dtype is None else dtype
         conv_state = torch.zeros(
             batch_size, self.d_model * self.expand, self.d_conv, device=device, dtype=conv_dtype
         )
@@ -355,8 +367,8 @@ class Mamba_TimeVariant(nn.Module):
                 batch_size,
                 self.d_model * self.expand,
                 self.d_conv,
-                device=self.conv1d.weight.device,
-                dtype=self.conv1d.weight.dtype,
+                device=(self.conv1d.weight.device if hasattr(self.conv1d, "weight") else self.in_proj.weight.device),
+                dtype=(self.conv1d.weight.dtype if hasattr(self.conv1d, "weight") else self.in_proj.weight.dtype),
             )
             ssm_state = torch.zeros(
                 batch_size,
