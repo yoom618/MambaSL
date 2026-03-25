@@ -67,7 +67,7 @@ Given <u>Mamba’s strong long-range memory</u>, we remove skip connections and 
 
 
 2. Install dependencies. 
-    - For convenience, follow the instructions in the `./notebooks/initial setting.ipynb` to set up the environment. 
+    - For convenience, follow the instructions in the [`./notebooks/initial setting.ipynb`](https://github.com/yoom618/MambaSL/blob/main/notebooks/initial%20setting.ipynb) to set up the environment. 
     - Or install the required packages as below:
         ```bash
         pip install -r "requirements (no version).txt"
@@ -77,7 +77,7 @@ Given <u>Mamba’s strong long-range memory</u>, we remove skip connections and 
         pip install -r "requirements (now version).txt" --force-reinstall
         ```
 
-    - As can be seen from the requirements files, we commented out `mamba-ssm` and `causal-conv1d` since they took a long time and may cause some error during installation. We **highly recommend installing `mamba-ssm` and `causal-conv1d` manually**. See more details in the `./notebooks/initial setting.ipynb` notebook.
+    - As can be seen from the requirements files, we commented out `mamba-ssm` and `causal-conv1d` since they took a long time and may cause some error during installation. We **highly recommend installing `mamba-ssm` and `causal-conv1d` manually**. See more details in the `./notebooks/initial setting.ipynb` file.
     
 
 3. Prepare Data. 
@@ -212,12 +212,14 @@ Given <u>Mamba’s strong long-range memory</u>, we remove skip connections and 
 ## 📝 Note
 
 ### Time-Series-Library
-- The code is fundamentally built upon [Time-Series-Library#4ddf869](https://github.com/thuml/Time-Series-Library/tree/4ddf869d999424b037d451a4757e36813d66a13b).
+- The code is fundamentally built upon [Time-Series-Library#4ddf869](https://github.com/thuml/Time-Series-Library/tree/4ddf869d999424b037d451a4757e36813d66a13b). 
+- We modified run.py `setting` to set model checkpoint names properly for all baselines that we used.
 - We modified dataloader to save and load the preprocessed datasets in pickle format for faster loading.
 - We added the code for MambaSL and other baselines that weren't included in the original tslib.
 - We modified some model due to proper hyperparameter search. The details can be found in each model file if there are any modifications.
     - e.g. change `seg_len` from fixed value to hyperparameter for Crossformer.
-- We add experimental code for inceptiontime setting (to only use train loss for model selection), and medformer setting (to test ADFTD and FLAAP).
+- We add experimental code for InceptionTime setting (to only use train loss for model selection),
+   <br>and Medformer setting (to test ADFTD and FLAAP datasets). These were added and tested during the rebuttal process.
 
 ### TSLANet
 - Since TSLANet has pretraining phase which make it difficult to merge into Time-Series-Library pipeline, we simply add `_run_TSLANet` directory to run the TSLANet pipeline. Still, the scripts can be generated and executed via `./scripts_classification/` directory.
@@ -226,11 +228,11 @@ Given <u>Mamba’s strong long-range memory</u>, we remove skip connections and 
 ### non-DL
 - non-DL models were tested via [aeon-toolkit](https://www.aeon-toolkit.org/en/stable/).
 - The notebooks in `_run_non-DL_models (aeon)` directory include the results.
-- For MultiRocket+Hydra, padding was required in PenDigits dataset to avoid errors (seq_len 8 -> 9).
+- For MultiRocket+Hydra, we pad the input sequences in PenDigits dataset to avoid [ValueError](https://github.com/aeon-toolkit/aeon/blob/main/aeon/transformations/collection/convolution_based/_multirocket.py#L127-L130) (seq_len 8 -> 9).
 
 ### Hardware and Software
 
-- The scripts were tested on:
+- All experiments were tested on:
     - Four NVIDIA GTX 1080 Ti (11GB)
         - NVIDIA A100 (40GB) in Google Colab for some baselines due to the memory issue
     - Python 3.12.8 and PyTorch 2.5.1<br>(packages listed in `requirements (now version).txt`)
@@ -259,4 +261,4 @@ We are really grateful to the authors of Mamba for sharing their code and provid
 
 - [UEA Archive](https://www.timeseriesclassification.com/) / [Medformer](https://github.com/DL4mHealth/Medformer) : We thank the authors of the UEA Archive and Medformer for sharing the well-preprocessed datasets which we used for our experiments.
 
-- We also thank the authors of the baslines that we compared with for sharing their code and scripts, which we used to test the performance of the baselines in our experiments.
+- We also thank the authors of the baslines that we compared with for sharing their code and scripts, which we used to test the performance of the baselines in our experiments. 
