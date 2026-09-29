@@ -241,13 +241,15 @@ Given <u>Mamba’s strong long-range memory</u>, we remove skip connections and 
 ## 🔗 Citation
 If you find this repo useful, please consider citing our paper:
 ```bibtex
-@inproceedings{
-  jung2026mambasl,
-  title={Mamba{SL}: Exploring Single-Layer Mamba for Time Series Classification},
-  author={Yoo-Min Jung and Leekyung Kim},
-  booktitle={The Fourteenth International Conference on Learning Representations},
-  year={2026},
-  url={https://openreview.net/forum?id=YDl4vqQqGP}
+@inproceedings{jung2026mambasl,
+  title     = {Mamba{SL}: Exploring Single-Layer Mamba for Time Series Classification},
+  author    = {Jung, Yoo-Min and Kim, Leekyung},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2026},
+  url       = {https://arxiv.org/abs/2604.15174v1}
+  editor    = {C. Vondrick and B. Hariharan and C. Raffel and L. Pinto and D. Yang and A. Faust},
+  volume    = {2026},
+  pages     = {46790--46820},
 }
 ```
 
