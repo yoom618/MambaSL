@@ -4,7 +4,7 @@ from models import DLinear, LightTS, MTSMixer, \
     TimesNet, ModernTCN, TimeMixerPP, \
     FEDformer, ETSformer, Crossformer, PatchTST, GPT4TS, iTransformer, \
     InterpretGN, MambaSimple, TSCMamba, \
-    MambaSingleLayer, MambaMultiLayer
+    MambaSingleLayer, MambaMultiLayer, Mamba3SL
 
 class Exp_Basic(object):
     def __init__(self, args):
