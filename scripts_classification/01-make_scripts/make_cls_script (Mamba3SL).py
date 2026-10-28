@@ -37,6 +37,7 @@ if __name__ == "__main__":
         "use_D": [0],
     }
     combinations = make_combination(model_configs)
+    combinations.reverse()
     training_configs = {
         "task_name": "classification",
         "is_training": 1,
