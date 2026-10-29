@@ -30,6 +30,7 @@ class Exp_Basic(object):
             'TSCMamba': TSCMamba,
             'MambaSingleLayer': MambaSingleLayer,  # proposed
             'MambaMultiLayer': MambaMultiLayer,    # for ablation
+            'Mamba3SL': Mamba3SL,
         }
         if args.model == 'Mamba':
             print('Please make sure you have successfully installed mamba_ssm')
